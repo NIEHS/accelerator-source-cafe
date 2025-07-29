@@ -1,0 +1,201 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444014,
+        "datasetId": 10877754,
+        "datasetPersistentId": "doi:10.17603/DS2-91JJ-FH94",
+        "storageIdentifier": "s3://10.17603/ds2-91jj-fh94",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2021",
+        "lastUpdateTime": "2025-05-06T23:26:26Z",
+        "releaseTime": "2025-05-05T12:13:42Z",
+        "createTime": "2025-05-06T23:26:26Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Testbed Experts Survey Report in Expert Survey on Community Resilience Testbed Use and Development"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3333"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Enderami, Seyyed Amin"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sutley, Elaina"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Virtual Community Testbeds enable researchers to assess multidisciplinary integrated community resilience models and help decision-makers to make better community hazard mitigation plans. To understand what a testbed actually is in practice and to obtain consensus on the definition of a testbed, a virtual survey is administered to testbed experts. The audience of the project span researchers from diverse disciplines in engineering, social and physical sciences"
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The report describes the responses received from the testbed experts. It also provides details on the composition of the respondents and acknowledges the logistic supports the survey received."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Virtual Testbed"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Community Resilience"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Expert Survey"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2021"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Kansas (KU)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

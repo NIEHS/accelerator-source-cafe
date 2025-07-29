@@ -1,0 +1,409 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444039,
+        "datasetId": 10877779,
+        "datasetPersistentId": "doi:10.17603/DS2-8710-AD45",
+        "storageIdentifier": "s3://10.17603/ds2-8710-ad45",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2023",
+        "lastUpdateTime": "2025-05-06T23:33:08Z",
+        "releaseTime": "2025-05-05T12:13:48Z",
+        "createTime": "2025-05-06T23:33:08Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "StEER 2022 Mw 6.1 Duzce, Turkey Earthquake Preliminary Virtual Reconnaissance Report (PVRR) in StEER - November 23 2022, Duzce, Turkey, Mw 6.1 Earthquake"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3800"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sezen, Halil"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Can Altunisik, Ahmet"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Emin Arslan, Mehmet"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Caglar, Naci"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Demir, Aydin"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "BEKTAS, NURULLAH"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dilsiz, Abdullah"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gunay, Selim"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Khalil, Zeyad"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Marinkovic, Marko"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Safiey, Amir"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Alam, Mohammad"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kijewski-Correa, Tracy"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mosalam, Khalid"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The first product of StEER\u2019s Level 1 response to the Mw 6.1 Duzce, Turkey Earthquake is this Preliminary Virtual Reconnaissance Report (PVRR), which is intended to: (1)  provide an overview of the 2021 Turkey Earthquake, particularly relating to the impact of the earthquake on regions, (2) assemble information on the seismic hazard and intensity of ground motions, (3) provide an overview of Turkish regulatory environment and construction practices, (4) summarize the preliminary reports of damage to buildings and other infrastructure, including disruption to the community in terms of fatalities and economic losses, (5) establish current conditions in the affected area with respect to access, and (6) provide recommendations to inform the continued study of this event by the natural hazards engineering reconnaissance community. The PVRR includes both the official report as well as a supplementary media repository containing additional imagery gathered by the VAST. As the product of entirely virtual reconnaissance, the PVRR is not based upon detailed field investigations by StEER."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "An earthquake occurred in Duzce, Turkey on Nov. 23, 2022 with magnitude of 6.1 and a depth of 10.0 km. The region has been struck by several destructive earthquakes in the past decades. The vast majority of the buildings in the region affected by the earthquake, including government and school buildings, have been either retrofitted or rebuilt after the Aug.17, 1999 Mw 7.6 Kocaeli and Nov. 12, 1999 Mw 7.2 Duzce earthquakes. No structural damage and nonstructural damage were reported in these buildings during this event. This low level of damage shows the effectiveness of retrofit measures and recent strict seismic design requirements enforced for the buildings constructed after 1999. In general, limited collapses and structural damage were observed. However, the economic losses due to nonstructural damage and business interruption were significant. There were no reports of damage to roads and bridges, and power, water, telecommunications, and other infrastructure and lifelines. This project encompasses the products of StEER's response to this event: Preliminary Virtual Reconnaissance Report (PVRR)."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "StEER"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "reconnaissance"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "earthquake"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Duzce"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Turkey"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Virtual Assessment"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Belgrade"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Notre Dame"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sakarya University (Sakarya niversitesi)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ankara Yildirim Beyazit University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Szechenyi Istvan University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Auburn University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Karadeniz Technical University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sakarya University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Imperial College London"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of California Berkeley (UC Berkeley)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ohio State University (OSU)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Duzce University, Turkey"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

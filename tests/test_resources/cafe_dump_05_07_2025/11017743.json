@@ -1,0 +1,363 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 440750,
+        "datasetId": 11017743,
+        "datasetPersistentId": "doi:10.7910/DVN/WYIIQ1",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/WYIIQ1",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-01T15:28:06Z",
+        "releaseTime": "2025-04-01T15:28:06Z",
+        "createTime": "2025-03-23T20:56:38Z",
+        "publicationDate": "2025-04-01",
+        "citationDate": "2025-04-01",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From:  National Health and Nutrition Examination Survey"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Center for Health Statistics"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CDC"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "At a glance\n- NHANES is the National Health and Nutrition Examination Survey.\n- NHANES is a national survey that measures the health and nutrition of adults and children in the United States.\n<br /><br />\n<blockquote>\nThe National Health and Nutrition Examination Survey (NHANES) collects data about the health of adults and children in the United States. We also collect data about what participants eat, drink, and take as supplements to determine how many nutrients are in their diet. These dietary interviews and blood tests help us measure the nutritional status of U.S. adults and children.\n<br /><br />\nCDC's National Center for Health Statistics (NCHS) conducts NHANES. NHANES is the only national health survey that includes health exams, laboratory tests, and dietary interviews for participants of all ages.\n<br /><br />\nNHANES data can help improve the health of Americans. Survey data have driven changes in how doctors treat patients and how public policy supports good health.\n<br /><br />\nThe NHANES program began in the early 1960s. It started as a series of surveys that focused on different population groups and health topics. Since 1999, NCHS has conducted NHANES without interruption\u2014what we call continuous NHANES. Now, NHANES can focus on different health and nutrition measurements to meet changing information needs.\n<br /><br />\nEach year, about 5,000 adults and children in communities across the United States participate in NHANES. We use a random, scientific process to select the people we invite to participate. This process ensures that this group of people can accurately represent the health and nutritional status of everyone in our diverse nation. \n<br /><br />\nTo collect data about a wide range of health and nutrition topics, NHANES includes\u2014\n- Interviews about health, diet, and personal, social, and economic characteristics\n- Visits to our mobile exam center for dental exams and health and body measurements\n- Laboratory tests by highly trained medical professionals\n</blockquote>\n<br /><br />\n(Text above quoted from https://www.cdc.gov/nchs/nhanes/about/ on 2025-03-23)"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-03-23"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nNational Health and Nutrition Examination Survey data was downloaded by Michael Amato on 2025-03-23."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Michael Amato"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-23"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1999-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "See attached PDF"
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Jupyter Notebook"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowDocumentation",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Data is organized in subfolders, following the same groupings used by CDC in the \"Continuous Data\" section of the NHANES website. Each subfolder contains a Jupyter notebook that was used to populate it by downloading data files and codebooks."
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NHANES"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "CDC"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "CDC"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-12-31"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-23"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Survey data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "continuous data including questionnaires, lab results, and physical examinations"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestepOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "multiple temporal resolutions, reported in separate data files"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Centers for Disease Control and Prevention (CDC). National Center for Health Statistics (NCHS). National Health and Nutrition Examination Survey Data. Hyattsville, MD: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention, [appropriate year][web URL]."
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Data use restrictions\nPlease read carefully before using publicly released NCHS data files\n\nThe National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC), conducts statistical and epidemiological activities under the authority granted by the Public Health Service Act (42 U.S.C. \u00a7 242k). NCHS survey data are protected by federal confidentiality laws including Section 308(d) Public Health Service Act [42 U.S.C. 242m(d)] and the Confidential Information Protection and Statistical Efficiency Act or CIPSEA [44 U.S.C. 3561-3583]. These confidentiality laws state the data collected by NCHS may be used only for statistical reporting and analysis. Any effort to determine the identity of individuals and establishments violates the assurances of confidentiality provided by federal law.\nTerms and conditions\n\nNCHS does all it can to ensure that the identity of individuals and establishments cannot be disclosed. All direct identifiers, as well as any characteristics that might lead to identification, are omitted from the dataset. Any intentional identification or disclosure of an individual or establishment violates the assurances of confidentiality given to the providers of the information.\n\nTherefore, users will\u2014\n\n    Use the data in this dataset for statistical reporting and analysis only.\n    Make no attempt to learn the identity of any person or establishment included in these data.\n    Not link this dataset with individually identifiable data from other NCHS or non-NCHS datasets.\n    Not engage in any efforts to assess disclosure methodologies applied to protect individuals and establishments or any research on methods of re-identification of individuals and establishments.\n\nBy using these data you signify your agreement to comply with the above-stated statutorily based requirements.\nSanctions for violating NCHS Data Use Agreement\n\nWillfully disclosing any information that could identify a person or establishment in any manner to a person or agency not entitled to receive it, shall be guilty of a class E felony and imprisoned for not more than 5 years, or fined not more than $250,000, or both."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Archive of (nearly) all NHANES data publicly available as of 2025-03-23",
+                "label": "NHANES.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440750,
+                "dataFile": {
+                    "id": 11017744,
+                    "persistentId": "",
+                    "filename": "NHANES.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1522935609,
+                    "description": "Archive of (nearly) all NHANES data publicly available as of 2025-03-23",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195c4c740c8-8023e744b186",
+                    "rootDataFileId": -1,
+                    "md5": "0d874413caed1e2e688dc640e295a1fd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0d874413caed1e2e688dc640e295a1fd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-23",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nhanes_release_policy.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440750,
+                "dataFile": {
+                    "id": 11038120,
+                    "persistentId": "",
+                    "filename": "nhanes_release_policy.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 80876,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195f1eeba81-e000dae654ce",
+                    "rootDataFileId": -1,
+                    "md5": "c5f7b74f22588913cf98e5ba361d660b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c5f7b74f22588913cf98e5ba361d660b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-01",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

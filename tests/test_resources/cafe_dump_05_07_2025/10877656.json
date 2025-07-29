@@ -1,0 +1,209 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443888,
+        "datasetId": 10877656,
+        "datasetPersistentId": "doi:10.17603/DS2-YRY6-R324",
+        "storageIdentifier": "s3://10.17603/ds2-yry6-r324",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T22:59:38Z",
+        "releaseTime": "2025-05-05T12:13:52Z",
+        "createTime": "2025-05-06T22:59:38Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Hurricane Harvey in Analysis of tweets posted by professional sources of weather forecast and warning information during tropical cyclone events"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3943"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Prestley, Robert"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Morss, Rebecca"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This project collected, filtered, and analyzed tweets from professional sources of meteorological information (including the National Weather Service, broadcast meteorologists, and emergency managers) during several tropical cyclone events. Here, we share documentation for our Twitter data collection, coding, and filtering processes, as applied to these tropical cyclone cases. The documentation shared here allows users to take \u201cbig data\u201d from social media and filter it in order to yield smaller, targeted datasets of the most interest to at-risk users during disasters."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The documentation provided here describes our Twitter data coding and filtering schemes used to analyze professional source Twitter activity during Hurricane Harvey. The analysis focused on understanding the dissemination and retransmission of different kinds of information provided by a wide variety of professional sources in the Houston metropolitan area. For this analysis, we used data collected by our colleagues at the University of Colorado - Boulder as described by Bica et al. (2019).  The authors thank Julie Demuth and Melissa Bica for their collaboration on the project that included development and use of these coding schemes."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "hurricane"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "social media"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "visualization"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "risk communication"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University Corp. for Atmospheric Research (ucar.edu)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/Houston, Texas, USA"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

@@ -1,0 +1,275 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443933,
+        "datasetId": 10877698,
+        "datasetPersistentId": "doi:10.17603/DS2-967N-T829",
+        "storageIdentifier": "s3://10.17603/ds2-967n-t829",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:10:37Z",
+        "releaseTime": "2025-05-05T12:14:16Z",
+        "createTime": "2025-05-06T23:10:37Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Surveys of broadcast meteorologists and emergency managers in Modernizing the NWS Tropical Cyclone Product Suite by Evaluating NWS Partner Decisions and Information Needs"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4078"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bostrom, Ann"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Morss, Rebecca"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Vickery, Jamie"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hadjimichael, Nick"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Demuth, Julie"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Laidlaw, Emily"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lazrus, Heather"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This repository provides the materials used to collect survey data from broadcast meteorologists and emergency managers as part of the Minding the Gap project. Interview findings from the first component of the study were used to inform the survey design for both participant groups. The surveys asked respondents questions about their tropical cyclone (TC) information use and decision making, perspectives on different types of TC information, and other topics. Some questions were structured to ask about a TC threat in general, and others were structured to ask about three different temporal phases of a TC threat: Phase I: more than five days before a storm impacts your area; Phase II: from five days to 48 hours before a storm impacts your area; and Phase III: 48 hours before a storm impacts your area through impacts. The sampling frame for the surveys consisted of broadcast meteorologists and emergency managers who operate in TC-affected regions of the Continental U.S. in the North Atlantic TC basin. In total, 87 broadcast meteorologists and 265 emergency managers participated in the surveys. Survey data will eventually be added as part of this mission."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This research project was designed to help the National Oceanic and Atmospheric Administration (NOAA) identify strategies for improving effective communication of weather forecasts and warnings. This included a more specific emphasis on prioritizing investments to modernize the National Weather Service (NWS) Tropical Cyclone (TC) product suite (i.e., the collection of products, information, and services that NWS provides during TC threats). Complementing recent and ongoing work focused on members of the public, the research focused on two types of key NWS partners: emergency managers and broadcast meteorologists.  To address these objectives, the research team conducted semi-structured interviews with a targeted set of emergency managers and broadcast meteorologists, followed by online surveys with larger samples of both groups. We analyzed the interview and survey data to understand key NWS partners\u2019 decision timelines leading up to and during TC threats, their use of different types of TC forecast and warning information, and the utility of current NWS TC products to support their decisions. We then synthesized findings to identify unmet information needs, areas for improvement, and recommendations for NOAA. The study design and analysis were informed by theory and research on risk communication, forecast and warning systems, human-centered design, evaluation and assessment, and other relevant topics, as described further in the linked documents.   This data repository includes the broadcast meteorologist and emergency manager interview guides, interview analysis codebook, and survey instruments. These materials can be adapted for use with other weather information user groups and in the context of different hazards and geographic locations. These materials may be of interest to researchers, government employees and officials, policy makers, and others who are interested in understanding decision timelines and employing a user-centered, evaluative approach to capture critical information needs and areas for improvement."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Social Science; Hurricanes/Typhoons; Tropical Cyclones; Forecasting; Broadcasting; Communications; Decision Making; Emergency Management"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University Corp. for Atmospheric Research (ucar.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University Corporation for Atmospheric Research"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Oceanic and Atmospheric Administration"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington (washington.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Laidlaw Scientific, LLC"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/TC-affected regions of the U.S."
+                        ]
+                    },
+                    {
+                        "typeName": "relatedMaterial",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "url:https://www.ibm.com/spss",
+                            "url:https://www.qualtrics.com",
+                            "url:https://www.esri.com"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

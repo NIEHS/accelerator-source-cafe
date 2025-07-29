@@ -1,0 +1,449 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443898,
+        "datasetId": 10877666,
+        "datasetPersistentId": "doi:10.17603/DS2-KCQC-4N11",
+        "storageIdentifier": "s3://10.17603/ds2-kcqc-4n11",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:02:17Z",
+        "releaseTime": "2025-05-05T12:13:45Z",
+        "createTime": "2025-05-06T23:02:17Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "GEER/RAPID Facility: Hurricane Florence in GEER - Hurricane Florence"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-2170"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jafari, Navid"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Stark, Timothy"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RAPID, NHERI"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dedinsky, Karen"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Yeung, J. Sean"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dafni, Jacob"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Anderson, Brian"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kuhne, Jody"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Montoya, Brina"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ravichandran, Ravi"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jackson, Dan"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ahsanuzzama, Md"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Do, Jinung"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jadid, Rowshon"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Vo, Long"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Liu, Fangzhou"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wooten, R. Lee"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The GEER team observed roadway washouts, dam and levee erosion, and slope failures. The data is UAV imagery and terrestrial LiDAR."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "GEER conducted a post Hurricane Florence reconnaissance of geotechnical infrastructure, such as slopes, levees, dams, roadways, and bridges. The GEER team collected UAV data on a slope failure in Elizabethtown and earth dam overtopping at Boiling Springs. The data is useful for academics and industry practitioners for forensic analyses."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "GEER"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "reconnaissance"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "natural hazards"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "hurricane"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Florence"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "drone"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "lidar"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RAPID Facility"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Louisiana State University (lsu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "North Carolina State University (ncsu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "GEI Consultants Inc. (geiconsultants.com)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "North Carolina Department of Transportation (ncdot.gov)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington (washington.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Auburn University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NC State"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Clemson University (clemson.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Alberta"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Illinois Urbana-Champaign (illinois.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Auburn University (auburn.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RAPID - Natural Hazard and Disasters Reconnaissance Facility - University of Washington"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/North Carolina"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

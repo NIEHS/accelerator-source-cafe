@@ -1,0 +1,3639 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 436390,
+        "datasetId": 10872438,
+        "datasetPersistentId": "doi:10.7910/DVN/TXLZ39",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/TXLZ39",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2025-02-14",
+        "lastUpdateTime": "2025-02-14T21:12:37Z",
+        "releaseTime": "2025-02-14T21:12:37Z",
+        "createTime": "2025-02-06T21:04:24Z",
+        "publicationDate": "2025-02-14",
+        "citationDate": "2025-02-14",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data from Mortality in Correctional Institutions (MCI) (Formerly Deaths in Custody Reporting Program (DCRP))"
+                    },
+                    {
+                        "typeName": "alternativeTitle",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Deaths in Custody Reporting Program (DCRP)"
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "E. Ann Carson, Ph.D"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Laura M. Maruschak"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Todd D. Minton"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mary P. Cowhig"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Danielle Kaeble"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jennifer Bronson, Ph.D."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lauren G. Beatty"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Margaret E. Noonan"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zhen Zeng, PhD"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ingrid Binswanger, M.D."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Patrick Blatchford, PhD"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Colorado School of Public Health"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hope Smiley-McDonald, PhD"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RTI International"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Chris Ellis"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RTI International"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Anastasios Tsoutis"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Michael G. Planty, Ph.D."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Andrea M. Burch"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Duren Banks, Ph.D."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RTI International"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lance Couzens"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RTI International"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Caroline Blanton"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RTI International"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Devon Cribb"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RTI International"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Scott Ginder"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RTI International"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Christopher J. Mumola"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Carol J. DeFrances, Ph.D."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information: Ann Carson, E. (2021, December 1). Mortality in state and federal prisons, 2001\u20132019 \u2013 Statistical tables. Bureau of Justice Statistics. https://bjs.ojp.gov/library/publications/mortality-state-and-federal-prisons-2001-2019-statistical-tables\n\nUse of specific publications should reference the specific authors listed in the downloaded PDF.\n\nIf you have questions about the underlying data stored here, please contact Bureau of Justice Statistics (AskBJS@usdoj.gov). If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n\n\"Collects inmate death records from each of the nation's 50 state prison systems, Federal Bureau of Prisons, and approximately 2,800 local jail jurisdictions. Between 2003 and 2014, BJS also collected data on persons who died while in the process of arrest.\n\nDeath records include information on decedent personal characteristics (age, race or Hispanic origin, and sex), decedent criminal background (legal status, offense type, and time served), and the death itself (date, time, location, and cause of death, as well as information on the autopsy and medical treatment provided for any illness or disease).\n\nData collections covering these populations were developed in annual phases: Annual collection of individual death records from local jail facilities began in 2000, followed by a separate collection for state prison facilities in 2001. Collection of state juvenile correctional agencies began in 2002 but was discontinued in 2006, and collection of arrest-related death records began in 2003. Due to concerns regarding data quality and coverage issues, BJS temporarily suspended the arrest-related death (ARD) portion of the DCRP in 2014. Datasets are produced in an annual format.\n\nIn 2016, the Department of Justice (DOJ) decided to place more emphasis on the section of Death in Custody Reporting Act reauthorization law (P.L. 113-242) that concerned non-compliance with the data collection. Per the law, states that did not report on a quarterly basis individual-level data on deaths occurring in local jails, in state prisons, or in the process of arrest, could be penalized up to 10% of their DOJ-sponsored Justice Assistance Grant (JAG) awards. As a federal statistical agency, BJS data may not be used for enforcement purposes. Therefore, DOJ determined that the Bureau of Justice Assistance (BJA) should manage collection of the data pursuant to the law, since BJA is not under similar requirements to collect data for statistical purposes only. (The Report of the Attorney General to Congress Pursuant to The Death in Custody Reporting Act, December 16, 2016, is located at:\nhttps://www.justice.gov/archives/page/file/918846/download)\n\nBJS finished collection of deaths that occurred during the 2019 calendar year in December, 2020, and formally closed the MCI collection on March 31, 2021.\"\n\nQuote from https://bjs.ojp.gov/data-collection/mortality-correctional-institutions-mci-formerly-deaths-custody-reporting-program"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Demographics"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mortality"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Infectious Disease"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsReferencedBy"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ann Carson, E. (2021, December 1). Mortality in state and federal prisons, 2001\u20132019 \u2013 Statistical tables. Bureau of Justice Statistics. https://bjs.ojp.gov/library/publications/mortality-state-and-federal-prisons-2001-2019-statistical-tables"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nMortality in Correctional Institutions (MCI) data was downloaded by Nicholas Hartmann on 02/06/2025"
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Hartmann, Nicholas"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-06"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1999-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-05-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the US Department of Justice Legal Policies and Disclaimers (https://www.justice.gov/legalpolicies) and are pasted below:\n\"Unless otherwise indicated, information on Department of Justice websites is in the public domain and may be copied and distributed without permission. Citation of the Department of Justice as source of the information is appreciated, as appropriate. The use of any Department of Justice seals, however, is protected and requires advance authorization, as described below.\n\nIf a source other than the Department of Justice or other federal government agency is indicated on a photo, graphic, or other material, permission to copy these materials must be obtained from the original source. Please note that some photos, graphics and other materials used on this website are copyrighted. For information on materials generated by external entities with Department of Justice funding, please refer to individual component policies. This copyright notice only pertains to the Department of Justice website.\""
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Department of Justice"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://bjs.ojp.gov/data-collection/mortality-correctional-institutions-mci-formerly-deaths-custody-reporting-program#2-0"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-06"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "\"While the Department of Justice strives to make the information on this website as timely and accurate as possible, the Department makes no claims, promises, or guarantees about the accuracy, completeness, or adequacy of the contents of this site, and expressly disclaims liability for errors and omissions in the contents of this site. No warranty of any kind, implied, expressed, or statutory, including but not limited to the warranties of non-infringement of third party rights, title, merchantability, fitness for a particular purpose or freedom from computer virus, is given with respect to the contents of this website or its links to other Internet resources.\""
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Demographic",
+                            "Infectious Disease",
+                            "Mortality",
+                            "Suicide"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "cpus15.zip",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2015",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872509,
+                    "persistentId": "",
+                    "filename": "cpus15.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 22765,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf0c7da-f2e2a4ce36d9",
+                    "rootDataFileId": -1,
+                    "md5": "b416264ace8349f2dcdd75a63facbc10",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b416264ace8349f2dcdd75a63facbc10"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0016st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872472,
+                    "persistentId": "",
+                    "filename": "mlj0016st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 712445,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb8031a-12efce4e0185",
+                    "rootDataFileId": -1,
+                    "md5": "fd4fa901427822dac1f9f2cfb9ca6c1d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fd4fa901427822dac1f9f2cfb9ca6c1d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "HIV in Prisons, 2004 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2004",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872499,
+                    "persistentId": "",
+                    "filename": "HIV in Prisons, 2004 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 264929,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdac8d5-2c1b1bbd33ae",
+                    "rootDataFileId": -1,
+                    "md5": "645a255d4bc86e8c909583b830d0a964",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "645a255d4bc86e8c909583b830d0a964"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp15st.zip",
+                "restricted": false,
+                "directoryLabel": "HIV_2015",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872491,
+                    "persistentId": "",
+                    "filename": "hivp15st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 25204,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdcb175-25cee4682d20",
+                    "rootDataFileId": -1,
+                    "md5": "72eb7a2f1d013d2425592d720b4fc22d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "72eb7a2f1d013d2425592d720b4fc22d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "HIV in Prisons, 2003 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2003",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872492,
+                    "persistentId": "",
+                    "filename": "HIV in Prisons, 2003 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 260911,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcd99b56-189054ab126a",
+                    "rootDataFileId": -1,
+                    "md5": "8835c6975ed1213854fb68cd17268759",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8835c6975ed1213854fb68cd17268759"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Correctional Populations in the United States, 2013 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872470,
+                    "persistentId": "",
+                    "filename": "Archived _ Correctional Populations in the United States, 2013 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 255061,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf24b50-3432791013c0",
+                    "rootDataFileId": -1,
+                    "md5": "3c862c8cf84f67d0871195021bcfacc5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3c862c8cf84f67d0871195021bcfacc5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in Local Jails and State Prisons, 2000-2012 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2012",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872441,
+                    "persistentId": "",
+                    "filename": "Mortality in Local Jails and State Prisons, 2000-2012 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 268459,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbc56f8-005c1f44aeac",
+                    "rootDataFileId": -1,
+                    "md5": "abb30d1abd2d052fa8f74b88bfc309cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "abb30d1abd2d052fa8f74b88bfc309cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Correctional Populations in the United States, 2014 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872483,
+                    "persistentId": "",
+                    "filename": "Correctional Populations in the United States, 2014 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 273495,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf14787-710604db8a50",
+                    "rootDataFileId": -1,
+                    "md5": "3d85e0d10d02bb35d5828f1824cb8734",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d85e0d10d02bb35d5828f1824cb8734"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus1718.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2017_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872520,
+                    "persistentId": "",
+                    "filename": "cpus1718.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 662616,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcedae11-60298e8a04bd",
+                    "rootDataFileId": -1,
+                    "md5": "3bc95535d16321a34633c67976b1fb57",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3bc95535d16321a34633c67976b1fb57"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus15.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2015",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872458,
+                    "persistentId": "",
+                    "filename": "cpus15.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 805598,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf05d03-8dd21f8ed999",
+                    "rootDataFileId": -1,
+                    "md5": "c4da934e88907fdc6328059ccc22c801",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c4da934e88907fdc6328059ccc22c801"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0012st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2012",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872548,
+                    "persistentId": "",
+                    "filename": "mljsp0012st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1047249,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbbe0c4-7b6327a511ef",
+                    "rootDataFileId": -1,
+                    "md5": "38810d998ba32baf43babfd177300840",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "38810d998ba32baf43babfd177300840"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Medical Causes of Death in State Prisons, 2001-2004 _ Bureau of Justice Statistics copy.pdf",
+                "restricted": false,
+                "directoryLabel": "Cause_state_2001_2004",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872464,
+                    "persistentId": "",
+                    "filename": "Medical Causes of Death in State Prisons, 2001-2004 _ Bureau of Justice Statistics copy.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 260949,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc90e9f-de1c1bc958e7",
+                    "rootDataFileId": -1,
+                    "md5": "34ec398d99713ea6149d521298e92a0a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "34ec398d99713ea6149d521298e92a0a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in Local Jails, 2000-2007 (Revised) _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2007",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872511,
+                    "persistentId": "",
+                    "filename": "Mortality in Local Jails, 2000-2007 (Revised) _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 291124,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc47c9d-8ebbdf4a2c0c",
+                    "rootDataFileId": -1,
+                    "md5": "a23182af338d9eddc2fa19cc33dc935f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a23182af338d9eddc2fa19cc33dc935f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus1718.zip",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2017_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872551,
+                    "persistentId": "",
+                    "filename": "cpus1718.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 16770,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcee01cf-b019f18eea61",
+                    "rootDataFileId": -1,
+                    "md5": "7014fd58b3f0121f43fce5b8fb71a70c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7014fd58b3f0121f43fce5b8fb71a70c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp20st.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2020",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872482,
+                    "persistentId": "",
+                    "filename": "hivp20st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1191365,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdd481d-d4de36aeea90",
+                    "rootDataFileId": -1,
+                    "md5": "0c8f049bdf9ef014403f27e018a9f02a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0c8f049bdf9ef014403f27e018a9f02a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus16.zip",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872524,
+                    "persistentId": "",
+                    "filename": "cpus16.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 14012,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcef1541-5a5a3a0eb384",
+                    "rootDataFileId": -1,
+                    "md5": "fa515eddc720057a58594ccb868fa411",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fa515eddc720057a58594ccb868fa411"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus14.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872455,
+                    "persistentId": "",
+                    "filename": "cpus14.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 749300,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf19a9a-ecdca7e878fd",
+                    "rootDataFileId": -1,
+                    "md5": "cb50348a17bfb8a842a571495f100d9b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cb50348a17bfb8a842a571495f100d9b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0010st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2010",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872536,
+                    "persistentId": "",
+                    "filename": "mljsp0010st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 719148,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb9ff67-3204e3d36732",
+                    "rootDataFileId": -1,
+                    "md5": "0ba46fea0f7844c562319869d403ccd4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0ba46fea0f7844c562319869d403ccd4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ardpdqp.pdf",
+                "restricted": false,
+                "directoryLabel": "arrest_related_deaths_ND",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872513,
+                    "persistentId": "",
+                    "filename": "ardpdqp.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 592005,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc09d1d-574e7783c741",
+                    "rootDataFileId": -1,
+                    "md5": "e16b2289cc75ac14d85c40285b4b820c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e16b2289cc75ac14d85c40285b4b820c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "sfids99.pdf",
+                "restricted": false,
+                "directoryLabel": "Indigent_Defense_services_1999",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872539,
+                    "persistentId": "",
+                    "filename": "sfids99.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 444427,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf512bf-4424bbdfc909",
+                    "rootDataFileId": -1,
+                    "md5": "4ee63bae56343aeff35d33f54773775f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4ee63bae56343aeff35d33f54773775f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0011.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2011",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872537,
+                    "persistentId": "",
+                    "filename": "mljsp0011.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1456256,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbb0631-f8965498eef9",
+                    "rootDataFileId": -1,
+                    "md5": "e5c512d1badcb9316dea063234c50aec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e5c512d1badcb9316dea063234c50aec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "acardp.zip",
+                "restricted": false,
+                "directoryLabel": "coverage_arrest_related_mortality",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872496,
+                    "persistentId": "",
+                    "filename": "acardp.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 3600,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf44905-a71620c9e7cb",
+                    "rootDataFileId": -1,
+                    "md5": "3340fbea68e49199da4e8e3c893099c6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3340fbea68e49199da4e8e3c893099c6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in Local Jails and State Prisons, 2000-2013 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872486,
+                    "persistentId": "",
+                    "filename": "Mortality in Local Jails and State Prisons, 2000-2013 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 276549,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbdf0b7-1de6d38074bf",
+                    "rootDataFileId": -1,
+                    "md5": "5fff874fc7f704e84fd7fd3cae5458c5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5fff874fc7f704e84fd7fd3cae5458c5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in Local Jails and State Prisons, 2000-2010 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2010",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872453,
+                    "persistentId": "",
+                    "filename": "Mortality in Local Jails and State Prisons, 2000-2010 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 273962,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcba723d-0535eb912766",
+                    "rootDataFileId": -1,
+                    "md5": "f0eef8adfc8f53a0ed5c310cd35d2dec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f0eef8adfc8f53a0ed5c310cd35d2dec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0016st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872493,
+                    "persistentId": "",
+                    "filename": "mlj0016st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 39108,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb8619e-2aaad4ded217",
+                    "rootDataFileId": -1,
+                    "md5": "f26b283777413b53e50801c86d023615",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f26b283777413b53e50801c86d023615"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Deaths in Custody Reporting Program, 2007 (Update) _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2007",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872448,
+                    "persistentId": "",
+                    "filename": "Deaths in Custody Reporting Program, 2007 (Update) _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 260645,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc2df6f-aa3c6f8db46a",
+                    "rootDataFileId": -1,
+                    "md5": "aa7c4144db7be875e3a64e841c90b6ed",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aa7c4144db7be875e3a64e841c90b6ed"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Suicide and Homicide in State Prisons and Local Jails _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "suicide_all_nd",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872442,
+                    "persistentId": "",
+                    "filename": "Suicide and Homicide in State Prisons and Local Jails _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 272936,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc7dd37-a278b31315e0",
+                    "rootDataFileId": -1,
+                    "md5": "14ee86d18bd46b5a051c0496e81386a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "14ee86d18bd46b5a051c0496e81386a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msfp0116st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2001_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872463,
+                    "persistentId": "",
+                    "filename": "msfp0116st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 830280,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb92ab2-ca6cb5ed133d",
+                    "rootDataFileId": -1,
+                    "md5": "b7a48071e86b8215a320b29fdad61d63",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b7a48071e86b8215a320b29fdad61d63"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mcdsp04.zip",
+                "restricted": false,
+                "directoryLabel": "Cause_state_2001_2004",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872518,
+                    "persistentId": "",
+                    "filename": "mcdsp04.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 18429,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc8d250-9a4773d9ca62",
+                    "rootDataFileId": -1,
+                    "md5": "1b91d458cf06f5dfac5ffd899e37986d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1b91d458cf06f5dfac5ffd899e37986d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in Local Jails, 2000-2018 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872517,
+                    "persistentId": "",
+                    "filename": "Mortality in Local Jails, 2000-2018 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 265226,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb3a92f-855f23f48708",
+                    "rootDataFileId": -1,
+                    "md5": "bd3a625ce8a71ee6064e99d458f3e3c0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bd3a625ce8a71ee6064e99d458f3e3c0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in State Prisons, 2001-2014 - Statistical Tables _ Press Release.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_State_2001_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872478,
+                    "persistentId": "",
+                    "filename": "Mortality in State Prisons, 2001-2014 - Statistical Tables _ Press Release.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 254727,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbf9cff-bc8a668af889",
+                    "rootDataFileId": -1,
+                    "md5": "c2dc9c45d541bb07dd7c2e88d61ce873",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c2dc9c45d541bb07dd7c2e88d61ce873"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Assessment of Coverage in the Arrest-Related Deaths Program _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "coverage_arrest_related_mortality",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872523,
+                    "persistentId": "",
+                    "filename": "Assessment of Coverage in the Arrest-Related Deaths Program _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 276430,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf4912f-936882259c8b",
+                    "rootDataFileId": -1,
+                    "md5": "57139cf40b48092fb2acf8de729d1951",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "57139cf40b48092fb2acf8de729d1951"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0010st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2010",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872480,
+                    "persistentId": "",
+                    "filename": "mljsp0010st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 40540,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcba2bb1-4aaf77442a40",
+                    "rootDataFileId": -1,
+                    "md5": "6b325ad6d581723e75f348bb3ab639e7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6b325ad6d581723e75f348bb3ab639e7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Mortality in Local Jails and State Prisons, 2000-2011 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2011",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872443,
+                    "persistentId": "",
+                    "filename": "Archived _ Mortality in Local Jails and State Prisons, 2000-2011 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 262607,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbad068-7735b0d25d01",
+                    "rootDataFileId": -1,
+                    "md5": "e296d3c939b67ee6ce53262d8b221cc1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e296d3c939b67ee6ce53262d8b221cc1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "sfids99.zip",
+                "restricted": false,
+                "directoryLabel": "Indigent_Defense_services_1999",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872547,
+                    "persistentId": "",
+                    "filename": "sfids99.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 14626,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf59463-3d522ce270a5",
+                    "rootDataFileId": -1,
+                    "md5": "35f9f6241bd387ade2d89d9ad2a700cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "35f9f6241bd387ade2d89d9ad2a700cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus13.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872510,
+                    "persistentId": "",
+                    "filename": "cpus13.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 427627,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf2f3f4-bd508070f60d",
+                    "rootDataFileId": -1,
+                    "md5": "b63aea8ba3bd9d286cf464cc313e6c11",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b63aea8ba3bd9d286cf464cc313e6c11"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp15st_sum.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2015",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872487,
+                    "persistentId": "",
+                    "filename": "hivp15st_sum.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 188701,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdc3560-961fc6011252",
+                    "rootDataFileId": -1,
+                    "md5": "16d0fc4db4024ae127156a8a4bb50a2d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "16d0fc4db4024ae127156a8a4bb50a2d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0013st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872504,
+                    "persistentId": "",
+                    "filename": "mljsp0013st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2479049,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbd71f6-ef31f872675d",
+                    "rootDataFileId": -1,
+                    "md5": "14bf095585549424bd661b046f6884b3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "14bf095585549424bd661b046f6884b3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0013st_sum.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872507,
+                    "persistentId": "",
+                    "filename": "mljsp0013st_sum.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 235201,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbd1a85-278b21cccdc8",
+                    "rootDataFileId": -1,
+                    "md5": "b69130ee3e326c80f21712934d777cf1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b69130ee3e326c80f21712934d777cf1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msp0114st_sum.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_State_2001_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872460,
+                    "persistentId": "",
+                    "filename": "msp0114st_sum.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 161747,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbfd4ee-b375d7f0a842",
+                    "rootDataFileId": -1,
+                    "md5": "b02fa0ac8263b7a71c9c29d323d20ecc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b02fa0ac8263b7a71c9c29d323d20ecc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus14.zip",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872521,
+                    "persistentId": "",
+                    "filename": "cpus14.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 25667,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf1e5e9-945722e2c6da",
+                    "rootDataFileId": -1,
+                    "md5": "83d9c06176d6d1752100977b2556691b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "83d9c06176d6d1752100977b2556691b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Suicide and Homicide in State Prisons and Local Jails _ Bureau of Justice Statistics Press Release.pdf",
+                "restricted": false,
+                "directoryLabel": "suicide_all_nd",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872516,
+                    "persistentId": "",
+                    "filename": "Suicide and Homicide in State Prisons and Local Jails _ Bureau of Justice Statistics Press Release.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 251433,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc712ac-29d79aad7284",
+                    "rootDataFileId": -1,
+                    "md5": "3187938253182d2593813871f578c9c9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3187938253182d2593813871f578c9c9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ardpdqp.zip",
+                "restricted": false,
+                "directoryLabel": "arrest_related_deaths_ND",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872528,
+                    "persistentId": "",
+                    "filename": "ardpdqp.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6642,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc0e8f4-d6085d6e8e59",
+                    "rootDataFileId": -1,
+                    "md5": "534935964e743912661111a8ed351602",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "534935964e743912661111a8ed351602"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp15st.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2015",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872534,
+                    "persistentId": "",
+                    "filename": "hivp15st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1003578,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdc707d-dc3e074c9b99",
+                    "rootDataFileId": -1,
+                    "md5": "7eb575438fe5d41cef5e31a14c917a94",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7eb575438fe5d41cef5e31a14c917a94"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Deaths in Custody_ Local Jail Deaths, 2000-2007- Statistical tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2007",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872450,
+                    "persistentId": "",
+                    "filename": "Deaths in Custody_ Local Jail Deaths, 2000-2007- Statistical tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 273423,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc26aee-e6811029bab8",
+                    "rootDataFileId": -1,
+                    "md5": "640dfba1bd648b90354a4b5d4719df04",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "640dfba1bd648b90354a4b5d4719df04"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Mortality in Local Jails and State Prisons, 2000-2010 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2010",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872549,
+                    "persistentId": "",
+                    "filename": "Archived _ Mortality in Local Jails and State Prisons, 2000-2010 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 263422,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb9b95c-15797badc1bc",
+                    "rootDataFileId": -1,
+                    "md5": "4e1876c7ba4b753ad8cb63c60ea989cd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4e1876c7ba4b753ad8cb63c60ea989cd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in Local Jails, 2000\u20132019 \u2013 Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872467,
+                    "persistentId": "",
+                    "filename": "Mortality in Local Jails, 2000\u20132019 \u2013 Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 265841,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb470f4-3ca578a6f72f",
+                    "rootDataFileId": -1,
+                    "md5": "8df98ed143a0c45b1f83d75d23072d43",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8df98ed143a0c45b1f83d75d23072d43"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Suicide in Local Jails and State and Federal Prisons, 2000\u20132019 \u2013 Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Suicide_All_2000_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872449,
+                    "persistentId": "",
+                    "filename": "Suicide in Local Jails and State and Federal Prisons, 2000\u20132019 \u2013 Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 271605,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb77aea-0b272f66e0d3",
+                    "rootDataFileId": -1,
+                    "md5": "c9d1e331862c0a1bc076cdba5e39d7bb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c9d1e331862c0a1bc076cdba5e39d7bb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Correctional Populations in the United States, 2013 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872473,
+                    "persistentId": "",
+                    "filename": "Correctional Populations in the United States, 2013 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 266597,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf2a4c4-1fb88bda6d55",
+                    "rootDataFileId": -1,
+                    "md5": "4bbae6bf0179a16d8c9ba1a3deda4102",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4bbae6bf0179a16d8c9ba1a3deda4102"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj07.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2007",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872456,
+                    "persistentId": "",
+                    "filename": "mlj07.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 23857,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc44482-4a9c8a3cc9c0",
+                    "rootDataFileId": -1,
+                    "md5": "076f2c8892de24f25f0d4b9206dcc6c8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "076f2c8892de24f25f0d4b9206dcc6c8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp03 (1).zip",
+                "restricted": false,
+                "directoryLabel": "HIV_2003",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872462,
+                    "persistentId": "",
+                    "filename": "hivp03 (1).zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 15520,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcd9f5fb-53b1460098b9",
+                    "rootDataFileId": -1,
+                    "md5": "6cc23134c0ff4b0869d48a87a74b33e2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6cc23134c0ff4b0869d48a87a74b33e2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj07_errata.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2007",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872446,
+                    "persistentId": "",
+                    "filename": "mlj07_errata.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 13127,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc3d630-e04b43803442",
+                    "rootDataFileId": -1,
+                    "md5": "b17a30281537bdb719965addee714a0b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b17a30281537bdb719965addee714a0b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "acardp.pdf",
+                "restricted": false,
+                "directoryLabel": "coverage_arrest_related_mortality",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872515,
+                    "persistentId": "",
+                    "filename": "acardp.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 512424,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf3b3b6-6c337b3ead64",
+                    "rootDataFileId": -1,
+                    "md5": "7511a6c9eb1deaddccecab956617ee35",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7511a6c9eb1deaddccecab956617ee35"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp04.zip",
+                "restricted": false,
+                "directoryLabel": "HIV_2004",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872506,
+                    "persistentId": "",
+                    "filename": "hivp04.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 20701,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdb51d0-0542e4b82af0",
+                    "rootDataFileId": -1,
+                    "md5": "9b633732025d67b9c4ba35c106280279",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9b633732025d67b9c4ba35c106280279"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Arrest-Related Deaths in the United States, 2003-2005 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "arrest_related_2003_2005",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872490,
+                    "persistentId": "",
+                    "filename": "Arrest-Related Deaths in the United States, 2003-2005 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 269856,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcafe110-ba4d1abaae9f",
+                    "rootDataFileId": -1,
+                    "md5": "6354197a1494b1f0bfe593139d9402a0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6354197a1494b1f0bfe593139d9402a0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in State and Federal Prisons, 2001-2016 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2001_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872495,
+                    "persistentId": "",
+                    "filename": "Mortality in State and Federal Prisons, 2001-2016 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 259621,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb8e773-0db42eec43ab",
+                    "rootDataFileId": -1,
+                    "md5": "832a4bde6a7be3a2f603f7e4fd9fb576",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "832a4bde6a7be3a2f603f7e4fd9fb576"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Correctional Populations in the United States, 2016 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872444,
+                    "persistentId": "",
+                    "filename": "Correctional Populations in the United States, 2016 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 262543,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcee6490-ea467fa752a1",
+                    "rootDataFileId": -1,
+                    "md5": "222fcdb81ee5261d3ee20eb9c3571635",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "222fcdb81ee5261d3ee20eb9c3571635"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in Local Jails and State Prisons, 2000-2011 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2011",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872500,
+                    "persistentId": "",
+                    "filename": "Mortality in Local Jails and State Prisons, 2000-2011 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 273767,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbb8660-ddd36a846b69",
+                    "rootDataFileId": -1,
+                    "md5": "0153a4670a079730c604157bd17b641a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0153a4670a079730c604157bd17b641a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mcdsp04.pdf",
+                "restricted": false,
+                "directoryLabel": "Cause_state_2001_2004",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872465,
+                    "persistentId": "",
+                    "filename": "mcdsp04.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 293353,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc851c7-2724c063195b",
+                    "rootDataFileId": -1,
+                    "md5": "694c6dac33a425c4f897340adb9521b5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "694c6dac33a425c4f897340adb9521b5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj07.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2007",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872543,
+                    "persistentId": "",
+                    "filename": "mlj07.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 817563,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc40820-13aa4d66cc83",
+                    "rootDataFileId": -1,
+                    "md5": "0ecff6aa6fd0a8b3bf9ad541934ef8b6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0ecff6aa6fd0a8b3bf9ad541934ef8b6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msfp0116st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2001_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872550,
+                    "persistentId": "",
+                    "filename": "msfp0116st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 37379,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb95923-af98363ea4a4",
+                    "rootDataFileId": -1,
+                    "md5": "b41ec59d530e47aeb2376814e99afd2e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b41ec59d530e47aeb2376814e99afd2e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Mortality in Local Jails, 2000-2007 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2007",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872505,
+                    "persistentId": "",
+                    "filename": "Archived _ Mortality in Local Jails, 2000-2007 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 252166,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc39ee8-14f016aa727d",
+                    "rootDataFileId": -1,
+                    "md5": "2a21b9a0cbee7278680c56074a293c69",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2a21b9a0cbee7278680c56074a293c69"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0014_sum.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872479,
+                    "persistentId": "",
+                    "filename": "mlj0014_sum.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 201096,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbe7b2e-95ca2be34062",
+                    "rootDataFileId": -1,
+                    "md5": "ffe7008f4978482fb3a84f7dfb817479",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ffe7008f4978482fb3a84f7dfb817479"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ardus05.pdf",
+                "restricted": false,
+                "directoryLabel": "arrest_related_2003_2005",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872440,
+                    "persistentId": "",
+                    "filename": "ardus05.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 177155,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcaf969f-c0e3dd43f996",
+                    "rootDataFileId": -1,
+                    "md5": "569d16b8dc3f263a36496af4184d7bdd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "569d16b8dc3f263a36496af4184d7bdd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in State Prisons, 2001-2014 - Statistical Tables _ Bureau of Justice Statistics copy.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_State_2001_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872459,
+                    "persistentId": "",
+                    "filename": "Mortality in State Prisons, 2001-2014 - Statistical Tables _ Bureau of Justice Statistics copy.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 272712,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbf49dd-e277e752ff21",
+                    "rootDataFileId": -1,
+                    "md5": "8139f41ca46dc821a5661a6e778f17dd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8139f41ca46dc821a5661a6e778f17dd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ardus05.zip",
+                "restricted": false,
+                "directoryLabel": "arrest_related_2003_2005",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872445,
+                    "persistentId": "",
+                    "filename": "ardus05.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 22499,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcafb962-c4db911b49bd",
+                    "rootDataFileId": -1,
+                    "md5": "8477137d72f8865e57417ec86e7d5a3d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8477137d72f8865e57417ec86e7d5a3d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "shsplj.zip",
+                "restricted": false,
+                "directoryLabel": "suicide_all_nd",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872530,
+                    "persistentId": "",
+                    "filename": "shsplj.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 17583,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc7a659-c5292b3f0f66",
+                    "rootDataFileId": -1,
+                    "md5": "0e0dc5edaf67ebcc5b196aab1961cbf8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0e0dc5edaf67ebcc5b196aab1961cbf8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "aicddcrpndi.zip",
+                "restricted": false,
+                "directoryLabel": "Inmate_cause_death",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872546,
+                    "persistentId": "",
+                    "filename": "aicddcrpndi.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 16536,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc1c1ba-1bcec7bc718a",
+                    "rootDataFileId": -1,
+                    "md5": "224ee993045213508c0971122834c803",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "224ee993045213508c0971122834c803"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msfp0119st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2001_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872552,
+                    "persistentId": "",
+                    "filename": "msfp0119st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1833850,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb64731-9c8fa8fe48a3",
+                    "rootDataFileId": -1,
+                    "md5": "afab4692367ff76cc6afd908e185a67a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "afab4692367ff76cc6afd908e185a67a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus16pr.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872535,
+                    "persistentId": "",
+                    "filename": "cpus16pr.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 235465,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcef5d2a-f39751737933",
+                    "rootDataFileId": -1,
+                    "md5": "bc17eefad11e66825a39f038d81faf8b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bc17eefad11e66825a39f038d81faf8b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "aicddcrpndi.pdf",
+                "restricted": false,
+                "directoryLabel": "Inmate_cause_death",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872531,
+                    "persistentId": "",
+                    "filename": "aicddcrpndi.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 546374,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc16dcd-7dd9bc2963a9",
+                    "rootDataFileId": -1,
+                    "md5": "89a180b21668297d33f9459020f14e1f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "89a180b21668297d33f9459020f14e1f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "sljsfp0019st.zip",
+                "restricted": false,
+                "directoryLabel": "Suicide_All_2000_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872469,
+                    "persistentId": "",
+                    "filename": "sljsfp0019st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 35868,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb74c2f-727aaec945a7",
+                    "rootDataFileId": -1,
+                    "md5": "c97111d2b07e002101b7ce2a0b19fe58",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c97111d2b07e002101b7ce2a0b19fe58"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in State and Federal Prisons, 2001\u20132019 \u2013 Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2001_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872452,
+                    "persistentId": "",
+                    "filename": "Mortality in State and Federal Prisons, 2001\u20132019 \u2013 Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 266372,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb5d602-fbcf0a9787ef",
+                    "rootDataFileId": -1,
+                    "md5": "b8ed237291ae0c2eb3df7b4495dbef30",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b8ed237291ae0c2eb3df7b4495dbef30"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp04.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2004",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872471,
+                    "persistentId": "",
+                    "filename": "hivp04.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 463198,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdb154a-f0f008c627fc",
+                    "rootDataFileId": -1,
+                    "md5": "0612200b48c165e412993c853c13cb59",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0612200b48c165e412993c853c13cb59"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0019st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872526,
+                    "persistentId": "",
+                    "filename": "mlj0019st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1156275,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb3fe86-ba2735b0cee4",
+                    "rootDataFileId": -1,
+                    "md5": "f130374168b3eedf08a67055ae19d83a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f130374168b3eedf08a67055ae19d83a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Arrest-Related Deaths in the United States, 2003-2005 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "arrest_related_2003_2005",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872474,
+                    "persistentId": "",
+                    "filename": "Archived _ Arrest-Related Deaths in the United States, 2003-2005 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 256552,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcaef15a-ea2cba0ae9aa",
+                    "rootDataFileId": -1,
+                    "md5": "adcc89c9b1dd482f08d22284573b6d40",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "adcc89c9b1dd482f08d22284573b6d40"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Deaths in Custody_ State Prison Deaths, 2001-2007 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_State_2001_2007",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872529,
+                    "persistentId": "",
+                    "filename": "Deaths in Custody_ State Prison Deaths, 2001-2007 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 275609,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc33860-f42479e033d7",
+                    "rootDataFileId": -1,
+                    "md5": "3d1a38f8a5ae1e667751e26af463192f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d1a38f8a5ae1e667751e26af463192f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0014st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872454,
+                    "persistentId": "",
+                    "filename": "mlj0014st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1055963,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbeb126-9276d3145c40",
+                    "rootDataFileId": -1,
+                    "md5": "45a5a5feba3d532e3620e7d7d330b7e1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "45a5a5feba3d532e3620e7d7d330b7e1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msfp0118st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2000_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872533,
+                    "persistentId": "",
+                    "filename": "msfp0118st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 45110,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb52fa4-5be4e5dbc29a",
+                    "rootDataFileId": -1,
+                    "md5": "12270c5f1c952ce91daa0f4ae32fa4ef",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "12270c5f1c952ce91daa0f4ae32fa4ef"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Prisoners in 2015 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2015",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872532,
+                    "persistentId": "",
+                    "filename": "Archived _ Prisoners in 2015 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 268567,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dceff3fc-201795de89e7",
+                    "rootDataFileId": -1,
+                    "md5": "f82d125a61023b059de01323b540fe8b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f82d125a61023b059de01323b540fe8b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0012st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2012",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872494,
+                    "persistentId": "",
+                    "filename": "mljsp0012st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 64817,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbc28eb-3e00fa5f7c46",
+                    "rootDataFileId": -1,
+                    "md5": "ec282971113dcede04d239d4a34401a8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ec282971113dcede04d239d4a34401a8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Mortality in Local Jails and State Prisons, 2000-2013 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872439,
+                    "persistentId": "",
+                    "filename": "Archived _ Mortality in Local Jails and State Prisons, 2000-2013 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 259655,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbcd3e8-27eedd348e2d",
+                    "rootDataFileId": -1,
+                    "md5": "1e7d249c60f4933ac3b7b7cb5181a8cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1e7d249c60f4933ac3b7b7cb5181a8cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in Local Jails, 2000-2016 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872514,
+                    "persistentId": "",
+                    "filename": "Mortality in Local Jails, 2000-2016 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 260984,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb88bdf-5a4c01c723e5",
+                    "rootDataFileId": -1,
+                    "md5": "ffc99cda1bb1ac2bc091125a29a4c2b8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ffc99cda1bb1ac2bc091125a29a4c2b8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0019st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872447,
+                    "persistentId": "",
+                    "filename": "mlj0019st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 53183,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb4301e-bac976ef10f1",
+                    "rootDataFileId": -1,
+                    "md5": "12032f9330dd4279285bb94d052d765e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "12032f9330dd4279285bb94d052d765e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp03.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2003",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872477,
+                    "persistentId": "",
+                    "filename": "hivp03.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 200814,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcda312c-822ec4f3d233",
+                    "rootDataFileId": -1,
+                    "md5": "74ffabd910c9901b3e0d31560d9e58c3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "74ffabd910c9901b3e0d31560d9e58c3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msp0114st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_State_2001_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872502,
+                    "persistentId": "",
+                    "filename": "msp0114st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 34632,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc03830-bfbfa4169e0e",
+                    "rootDataFileId": -1,
+                    "md5": "63233b1bb98a1897ee1b5edb056032bc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "63233b1bb98a1897ee1b5edb056032bc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp15st_pr.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2015",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872501,
+                    "persistentId": "",
+                    "filename": "hivp15st_pr.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 66368,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdbe450-7481ec8701c7",
+                    "rootDataFileId": -1,
+                    "md5": "99ab7b11689c1725ac9a00d223ba49ad",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "99ab7b11689c1725ac9a00d223ba49ad"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus16.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2016",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872457,
+                    "persistentId": "",
+                    "filename": "cpus16.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 542778,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dceec7bd-d53e2dcf831c",
+                    "rootDataFileId": -1,
+                    "md5": "bcf3de4b76ebec8fff49a688251a9254",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bcf3de4b76ebec8fff49a688251a9254"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "sljsfp0019st.pdf",
+                "restricted": false,
+                "directoryLabel": "Suicide_All_2000_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872522,
+                    "persistentId": "",
+                    "filename": "sljsfp0019st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 724296,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb72278-22099aed3789",
+                    "rootDataFileId": -1,
+                    "md5": "0572086062f436bbc54cdecac794f9cb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0572086062f436bbc54cdecac794f9cb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "pjdc0009st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_all_2000_2009",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872545,
+                    "persistentId": "",
+                    "filename": "pjdc0009st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 43731,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc5a705-64bcf10e796e",
+                    "rootDataFileId": -1,
+                    "md5": "233c8f6a71bc315a62734e843a3b1833",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "233c8f6a71bc315a62734e843a3b1833"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msp0114st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_State_2001_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872451,
+                    "persistentId": "",
+                    "filename": "msp0114st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 484538,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc00a86-e1acc335fcb2",
+                    "rootDataFileId": -1,
+                    "md5": "3963f5c96bd0fb691bfc3ddf11c9e3da",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3963f5c96bd0fb691bfc3ddf11c9e3da"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Assessing Inmate Cause of Death_ Deaths in Custody Reporting Program and National Death Index _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Inmate_cause_death",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872542,
+                    "persistentId": "",
+                    "filename": "Assessing Inmate Cause of Death_ Deaths in Custody Reporting Program and National Death Index _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 265959,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc1f443-c03c1cd66aeb",
+                    "rootDataFileId": -1,
+                    "md5": "4cb23ced3074d808aba1ab27aa4dc85f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4cb23ced3074d808aba1ab27aa4dc85f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Mortality in State and Federal Prisons, 2001-2018 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2000_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872468,
+                    "persistentId": "",
+                    "filename": "Mortality in State and Federal Prisons, 2001-2018 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 266320,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb4be50-dc72582756d1",
+                    "rootDataFileId": -1,
+                    "md5": "2d34376bddc331a952670aec920d5919",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d34376bddc331a952670aec920d5919"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ HIV in Prisons, 2004 and Medical Problems of Jail Inmates _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2004",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872519,
+                    "persistentId": "",
+                    "filename": "Archived _ HIV in Prisons, 2004 and Medical Problems of Jail Inmates _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 258985,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcda88ee-624526c1a55a",
+                    "rootDataFileId": -1,
+                    "md5": "28a5eaec4c695ed070e80a9398c719d4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "28a5eaec4c695ed070e80a9398c719d4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "hivp20st.zip",
+                "restricted": false,
+                "directoryLabel": "HIV_2020",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872461,
+                    "persistentId": "",
+                    "filename": "hivp20st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 28859,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdd885a-af3f0324a3d4",
+                    "rootDataFileId": -1,
+                    "md5": "c4457d071690315ff1420d9ab4878e75",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c4457d071690315ff1420d9ab4878e75"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "sljsfp0019st_pr.pdf",
+                "restricted": false,
+                "directoryLabel": "Suicide_All_2000_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872541,
+                    "persistentId": "",
+                    "filename": "sljsfp0019st_pr.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 246846,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb6bb01-fce480896c1e",
+                    "rootDataFileId": -1,
+                    "md5": "228a06aac2e0250be21267281e50de10",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "228a06aac2e0250be21267281e50de10"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msfp0118st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2000_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872512,
+                    "persistentId": "",
+                    "filename": "msfp0118st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 942644,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb50561-0b49a4ece5ed",
+                    "rootDataFileId": -1,
+                    "md5": "a41fb78f4637c587626e5dbe04013b48",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a41fb78f4637c587626e5dbe04013b48"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "shsplj.pdf",
+                "restricted": false,
+                "directoryLabel": "suicide_all_nd",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872489,
+                    "persistentId": "",
+                    "filename": "shsplj.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 415481,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc75f18-b91e0421d9a2",
+                    "rootDataFileId": -1,
+                    "md5": "6fc2b710e64c8987db66dae447fb958f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6fc2b710e64c8987db66dae447fb958f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Arrest-Related Deaths Program_ Data Quality Profile _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "arrest_related_deaths_ND",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872497,
+                    "persistentId": "",
+                    "filename": "Arrest-Related Deaths Program_ Data Quality Profile _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 273624,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc11ab3-f97b60ed0087",
+                    "rootDataFileId": -1,
+                    "md5": "43cab457af30fc1da7236c61ce5a553c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "43cab457af30fc1da7236c61ce5a553c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "msfp0119st (1).zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Fed_2001_2019",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872466,
+                    "persistentId": "",
+                    "filename": "msfp0119st (1).zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 48230,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb615db-1e4598eeeb5e",
+                    "rootDataFileId": -1,
+                    "md5": "e7b99b5606e2b6c2e6968b99840317af",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e7b99b5606e2b6c2e6968b99840317af"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0011.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2011",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872484,
+                    "persistentId": "",
+                    "filename": "mljsp0011.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 61823,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbb3fa1-89457c06d751",
+                    "rootDataFileId": -1,
+                    "md5": "b4e148e855efaae1e21acf7ef20f2ea2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b4e148e855efaae1e21acf7ef20f2ea2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mljsp0013st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872527,
+                    "persistentId": "",
+                    "filename": "mljsp0013st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 66673,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbdb6de-9165b1acd3a2",
+                    "rootDataFileId": -1,
+                    "md5": "4d7e8db2a111ca4853ed75cfca105a2e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4d7e8db2a111ca4853ed75cfca105a2e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Correctional Populations in the United States, 2017-2018 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2017_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872481,
+                    "persistentId": "",
+                    "filename": "Correctional Populations in the United States, 2017-2018 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 257743,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcebf248-4ed1d17fdf4b",
+                    "rootDataFileId": -1,
+                    "md5": "f52bb412682d9e3ed8def6a94b9d4515",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f52bb412682d9e3ed8def6a94b9d4515"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "pjdc0009st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_all_2000_2009",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872488,
+                    "persistentId": "",
+                    "filename": "pjdc0009st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 621039,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc55be0-754548faa6f2",
+                    "rootDataFileId": -1,
+                    "md5": "f76b05dc8408f6236d18fc40670abdbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f76b05dc8408f6236d18fc40670abdbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cpus13.zip",
+                "restricted": false,
+                "directoryLabel": "Correctional_Pop_2013",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872503,
+                    "persistentId": "",
+                    "filename": "cpus13.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 17002,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcf33f78-895f4fd2e420",
+                    "rootDataFileId": -1,
+                    "md5": "f8af109fcffde9e81ef795a9ddda4990",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f8af109fcffde9e81ef795a9ddda4990"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Prison and Jail Deaths in Custody, 2000-2009 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_all_2000_2009",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872476,
+                    "persistentId": "",
+                    "filename": "Prison and Jail Deaths in Custody, 2000-2009 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 270977,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc5e257-7525443c4774",
+                    "rootDataFileId": -1,
+                    "md5": "8b1462d367d278678932098eb44ddb32",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8b1462d367d278678932098eb44ddb32"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0018st.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872508,
+                    "persistentId": "",
+                    "filename": "mlj0018st.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1019089,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb330b7-b244b7b49501",
+                    "rootDataFileId": -1,
+                    "md5": "f8411dc95bacf8f49eb4f6fb89e62d83",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f8411dc95bacf8f49eb4f6fb89e62d83"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Prison and Jail Deaths in Custody, 2000-2009 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_all_2000_2009",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872525,
+                    "persistentId": "",
+                    "filename": "Archived _ Prison and Jail Deaths in Custody, 2000-2009 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 262525,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc502c7-186b6dee7475",
+                    "rootDataFileId": -1,
+                    "md5": "4a96124c496a0832250acc4267b26690",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4a96124c496a0832250acc4267b26690"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "HIV in Prisons, 2020 \u2013 Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "HIV_2020",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872544,
+                    "persistentId": "",
+                    "filename": "HIV in Prisons, 2020 \u2013 Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 264825,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcdd02e1-f1d642a73926",
+                    "rootDataFileId": -1,
+                    "md5": "7c991a0ad568ed70cbe0cf4103ef7131",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7c991a0ad568ed70cbe0cf4103ef7131"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0018st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_local_2000_2018",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872475,
+                    "persistentId": "",
+                    "filename": "mlj0018st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 47990,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcb38658-ad2131a1e72c",
+                    "rootDataFileId": -1,
+                    "md5": "72cc8eef52228dc5741b57c7db4c1543",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "72cc8eef52228dc5741b57c7db4c1543"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mlj0014st.zip",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872485,
+                    "persistentId": "",
+                    "filename": "mlj0014st.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 38990,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbee2e9-fadd379f4f91",
+                    "rootDataFileId": -1,
+                    "md5": "0785e7577890b49f67feca63054ae1a9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0785e7577890b49f67feca63054ae1a9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Medical Causes of Death in State Prisons, 2001-2004 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Cause_state_2001_2004",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872540,
+                    "persistentId": "",
+                    "filename": "Medical Causes of Death in State Prisons, 2001-2004 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 254644,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcc95545-830d52d6d2eb",
+                    "rootDataFileId": -1,
+                    "md5": "82fe7a54e8bca48bfaf15f3e48963652",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "82fe7a54e8bca48bfaf15f3e48963652"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Archived _ Mortality in Local Jails, 2000-2014 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Mortality_Local_2000_2014",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872538,
+                    "persistentId": "",
+                    "filename": "Archived _ Mortality in Local Jails, 2000-2014 - Statistical Tables _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 264390,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dcbe3b06-7a9549a78ba0",
+                    "rootDataFileId": -1,
+                    "md5": "8e2daeb9ab5f0a36b8946127bc9a9cb6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8e2daeb9ab5f0a36b8946127bc9a9cb6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "State-Funded Indigent Defense Services, 1999 _ Bureau of Justice Statistics.pdf",
+                "restricted": false,
+                "directoryLabel": "Indigent_Defense_services_1999",
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10872555,
+                    "persistentId": "",
+                    "filename": "State-Funded Indigent Defense Services, 1999 _ Bureau of Justice Statistics.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 261949,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194dd1d36c0-e5e9e2efcd2e",
+                    "rootDataFileId": -1,
+                    "md5": "52be661345c2bc72528854a6be559e0c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "52be661345c2bc72528854a6be559e0c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-06",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "U.S. Department of Justice Legal Policies and Disclaimers",
+                "label": "Department of Justice _ Legal Policies and Disclaimers.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436390,
+                "dataFile": {
+                    "id": 10887003,
+                    "persistentId": "",
+                    "filename": "Department of Justice _ Legal Policies and Disclaimers.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 298708,
+                    "description": "U.S. Department of Justice Legal Policies and Disclaimers",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195064dabf8-c40be156ff2d",
+                    "rootDataFileId": -1,
+                    "md5": "9c8dbfad65528e5c2916a1bd24e512b2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9c8dbfad65528e5c2916a1bd24e512b2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

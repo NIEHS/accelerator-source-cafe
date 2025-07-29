@@ -1,0 +1,564 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 435657,
+        "datasetId": 10846092,
+        "datasetPersistentId": "doi:10.7910/DVN/3VIXG4",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/3VIXG4",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-14T13:05:02Z",
+        "releaseTime": "2025-02-14T13:05:02Z",
+        "createTime": "2025-01-28T15:30:24Z",
+        "publicationDate": "2025-02-14",
+        "citationDate": "2025-02-14",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Inventory of US GHG Emissions and Sinks"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Environmental Protection Agency Office of Atmospheric Programs (MC-6207A)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\n\"EPA develops an annual report called the Inventory of U.S. Greenhouse Gas Emissions and Sinks (Inventory), that tracks U.S. greenhouse gas emissions and sinks by source, economic sector, and greenhouse gas going back to 1990. EPA has prepared the Inventory of U.S. Greenhouse Gas Emissions and Sinks since the early 1990s. This annual report, provides a comprehensive accounting of total greenhouse gas emissions for all man-made sources in the United States, including carbon dioxide removal from the atmosphere by \u201csinks,\u201d (e.g., through the uptake of carbon and storage in forests, vegetation, and soils) from management of lands in their current use or as lands are converted to other uses. The gases covered by the Inventory include carbon dioxide, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons, sulfur hexafluoride, and nitrogen trifluoride.\n<br /><br />\nThe national greenhouse gas inventory is submitted to the United Nations in accordance with the Framework Convention on Climate Change and also the Paris Agreement. In preparing the annual emissions and sinks inventory report, EPA collaborates with hundreds of experts representing more than a dozen U.S. government agencies, academic institutions, industry associations, consultants and environmental organizations. EPA also collects greenhouse gas emissions data from individual facilities and suppliers of certain fossil fuels and industrial gases through the Greenhouse Gas Reporting Program.\" [Quote from https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks]<br /><br /> \nIf you have questions about the source data, please contact the U.S. Environmental Protection Agency Office of Atmospheric Programs (MC-6207A) (ghgreporting@epa.gov, https://www.epa.gov/ghgemissions/forms/contact-us-about-greenhouse-gas-emissions). For questions about this metadata entry, please contact the CAFE team (climatecafe@bu.edu)"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-28"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Anthropogenic Emissions"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "EPA (2024). Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2022 U.S. Environmental Protection Agency, EPA 430R-24004. https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2022."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nInventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2022 data was downloaded by Zach Popp on 2025-01-28"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Popp, Zachary"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-28"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1990-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The below information for the EPA were copied as is from their Disclaimers webpage (https://www.epa.gov/web-policies-and-procedures/epa-disclaimers) \"Disclaimer of Endorsement Mention of or referral to commercial products or services, and/or links to non-EPA sites does not imply official EPA endorsement of or responsibility for the opinions, ideas, data, or products presented at those locations, or guarantee the validity of the information provided. Mention of commercial products/services on non-EPA websites is provided solely as a pointer to information on topics related to environmental protection that may be useful to EPA staff and the public. Copyright Status The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes. Commercial use of the documents available from the EPA websites may be protected under the U.S. and Foreign Copyright Laws. Individual documents on the EPA website may have different copyright conditions, and that will be noted in those documents. Disclaimer of Liability With respect to documents available from the EPA website, neither the United States Government nor any of their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Exit Disclaimer The Exit icon denotes that you are leaving the EPA website and entering an external link or a third-party site. EPA's official web site is www.epa.gov. EPA has provided this link because it provides additional information that may be useful or interesting and is being provided in a manner consistent with the intended purpose of the EPA website. Please note that EPA uses third-party sites to provide EPA content already on www.epa.gov in a different format. EPA cannot attest to the accuracy of non-EPA information provided by these third-party sites or any other linked site. EPA is providing these links for your reference. In doing so, EPA does not endorse any non-government websites, companies or applications. Also, please be aware that the privacy protection provided on the EPA.gov domain (EPA Privacy and Security Notice) does not apply to these third-party sites. To learn more about EPA and social media, please refer to& our social media page. Notice Information from the EPA website resides on numerous computer systems funded by the Agency. The use of the EPA websites may be monitored for computer security purposes. Any unauthorized access to the EPA website is prohibited and is subject to criminal and civil penalties under federal laws including, but not limited to, Public Law 99-474, the Computer Fraud and Abuse Act of 1986.\""
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "state-inventory-tool-modules.zip",
+                "restricted": false,
+                "directoryLabel": "state_inventory_projection_tool",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846104,
+                    "persistentId": "",
+                    "filename": "state-inventory-tool-modules.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 28609376,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad877af5-234077b26744",
+                    "rootDataFileId": -1,
+                    "md5": "7e1f88ae329d4ef24caefb3c178e373d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7e1f88ae329d4ef24caefb3c178e373d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fact-sheet-differences-epa-and-offical-state-ghgi.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846105,
+                    "persistentId": "",
+                    "filename": "fact-sheet-differences-epa-and-offical-state-ghgi.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 219876,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad88a0e6-b217d6f108d7",
+                    "rootDataFileId": -1,
+                    "md5": "e6e74755c18dd9bd152d34852686690f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e6e74755c18dd9bd152d34852686690f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "us-ghg-inventory-2024-main-text_04-18-2024.pdf",
+                "restricted": false,
+                "directoryLabel": "all_state_ghg",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846096,
+                    "persistentId": "",
+                    "filename": "us-ghg-inventory-2024-main-text_04-18-2024.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 16723135,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad8802bc-068bd9425ca0",
+                    "rootDataFileId": -1,
+                    "md5": "40dc23fba6d7b6e23140f2203c8eee65",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "40dc23fba6d7b6e23140f2203c8eee65"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Inventory of U.S. Greenhouse Gas Emissions and Sinks _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846100,
+                    "persistentId": "",
+                    "filename": "Inventory of U.S. Greenhouse Gas Emissions and Sinks _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 328773,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad88a4a1-ff804356985b",
+                    "rootDataFileId": -1,
+                    "md5": "bdf763779968be78c9b6821766323c61",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bdf763779968be78c9b6821766323c61"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Methodology Report_ Inventory of U.S. Greenhouse Gas Emissions and Sinks by State_ 1990-2022 _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "all_state_ghg",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846102,
+                    "persistentId": "",
+                    "filename": "Methodology Report_ Inventory of U.S. Greenhouse Gas Emissions and Sinks by State_ 1990-2022 _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 83712,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad87f9ca-5ac5de49796b",
+                    "rootDataFileId": -1,
+                    "md5": "121b90bdb75c02e456db0c5372ec6946",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "121b90bdb75c02e456db0c5372ec6946"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "allstateghgdata90-22_v082924.zip",
+                "restricted": false,
+                "directoryLabel": "all_state_ghg",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846103,
+                    "persistentId": "",
+                    "filename": "allstateghgdata90-22_v082924.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 17878488,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad87f677-44d5a7119b54",
+                    "rootDataFileId": -1,
+                    "md5": "a7f3633e88ca269546faaf9e07aa3e7e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a7f3633e88ca269546faaf9e07aa3e7e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Download the State Inventory and Projection Tool _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "state_inventory_projection_tool",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846098,
+                    "persistentId": "",
+                    "filename": "Download the State Inventory and Projection Tool _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 76399,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad8770b9-3866b433fe8c",
+                    "rootDataFileId": -1,
+                    "md5": "568fa6b1b9e8c5b114204abb2beaef36",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "568fa6b1b9e8c5b114204abb2beaef36"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "method-report_ghgibystate-508-september.pdf",
+                "restricted": false,
+                "directoryLabel": "all_state_ghg",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846093,
+                    "persistentId": "",
+                    "filename": "method-report_ghgibystate-508-september.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 4184278,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad880636-bc10ea9ec117",
+                    "rootDataFileId": -1,
+                    "md5": "524c3b93b02f582115e9293f58ea2797",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "524c3b93b02f582115e9293f58ea2797"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "State and Tribal Greenhouse Gas Data and Resources _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846099,
+                    "persistentId": "",
+                    "filename": "State and Tribal Greenhouse Gas Data and Resources _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 159594,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad88aa43-828d2f480015",
+                    "rootDataFileId": -1,
+                    "md5": "707a2f46c339a8dc49a38661589e3fd7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "707a2f46c339a8dc49a38661589e3fd7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "sit-users-guides_2025.zip",
+                "restricted": false,
+                "directoryLabel": "state_inventory_projection_tool",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846101,
+                    "persistentId": "",
+                    "filename": "sit-users-guides_2025.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 15686236,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad877255-19826685f813",
+                    "rootDataFileId": -1,
+                    "md5": "27a2245754d40cf64b7e0040214fa69a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "27a2245754d40cf64b7e0040214fa69a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Learn more about Official State Greenhouse Gas Inventories _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846095,
+                    "persistentId": "",
+                    "filename": "Learn more about Official State Greenhouse Gas Inventories _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 62988,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad88ade2-3c9d9809e077",
+                    "rootDataFileId": -1,
+                    "md5": "bf970b3ee63b22afe521d02d55028a45",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf970b3ee63b22afe521d02d55028a45"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Greenhouse Gas Inventory Data Explorer _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846097,
+                    "persistentId": "",
+                    "filename": "Greenhouse Gas Inventory Data Explorer _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1031141,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad88a2be-6c049329b71c",
+                    "rootDataFileId": -1,
+                    "md5": "8a71f5507ae1020163753f737465715e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8a71f5507ae1020163753f737465715e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "er-comment-log_state-inventory_1990-2022.pdf",
+                "restricted": false,
+                "directoryLabel": "all_state_ghg",
+                "version": 1,
+                "datasetVersionId": 435657,
+                "dataFile": {
+                    "id": 10846094,
+                    "persistentId": "",
+                    "filename": "er-comment-log_state-inventory_1990-2022.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 337851,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ad87f814-e23953f707bd",
+                    "rootDataFileId": -1,
+                    "md5": "24fd63c98311c3ff1af5f81e5e099fc3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "24fd63c98311c3ff1af5f81e5e099fc3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-28",
+                    "publicationDate": "2025-02-14",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

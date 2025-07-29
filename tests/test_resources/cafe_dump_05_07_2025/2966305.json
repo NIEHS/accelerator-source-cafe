@@ -1,0 +1,161 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 96803,
+        "datasetId": 2966305,
+        "datasetPersistentId": "doi:10.7910/DVN/9FS3KI",
+        "storageIdentifier": "s3://10.7910/DVN/9FS3KI",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:CQGKEdSV70TgEQuT1/9N5A==",
+        "lastUpdateTime": "2017-01-03T15:04:31Z",
+        "releaseTime": "2017-01-03T15:04:31Z",
+        "createTime": "2016-12-20T15:23:04Z",
+        "publicationDate": "2017-01-03",
+        "citationDate": "2017-01-03",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Census data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zigler, Cory"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard TH Chan School of Public Health"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zigler, Cory"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard TH Chan School of Public Health"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "czigler@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data (year 2000) at the zip code level, originating from the US Census and extracted using the Missouri Census Data Center (http://mcdc.missouri.edu/)."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Zigler, Cory"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2016-12-20"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "subset_census_2000_with_zip_and_percentage.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 96803,
+                "dataFile": {
+                    "id": 2966306,
+                    "persistentId": "doi:10.7910/DVN/9FS3KI/MFWNH9",
+                    "pidURL": "https://doi.org/10.7910/DVN/9FS3KI/MFWNH9",
+                    "filename": "subset_census_2000_with_zip_and_percentage.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 12759427,
+                    "storageIdentifier": "s3://dvn-cloud:1591cd40deb-e110e612cc27",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 12826469,
+                    "originalFileName": "subset_census_2000_with_zip_and_percentage.csv",
+                    "UNF": "UNF:6:CQGKEdSV70TgEQuT1/9N5A==",
+                    "rootDataFileId": -1,
+                    "md5": "6c63002761d4cbbbe719e6ff3a53e156",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6c63002761d4cbbbe719e6ff3a53e156"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2016-12-20",
+                    "publicationDate": "2017-01-03",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443967,
+        "datasetId": 11183959,
+        "datasetPersistentId": "doi:10.17603/DS2-RV0X-V808",
+        "storageIdentifier": "s3://10.17603/ds2-rv0x-v808",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2025",
+        "lastUpdateTime": "2025-05-06T23:14:56Z",
+        "releaseTime": "2025-05-05T12:13:48Z",
+        "createTime": "2025-05-06T23:14:56Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024 Social Science Extreme Events Research (SSEER) Network in Social Science Extreme Events Research (SSEER) Network Data, Survey Instrument, and Annual Census"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3084"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Peek, Lori"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mark, Brigid"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This project includes a survey instrument, data, and annual census reports from the National Science Foundation (NSF)-funded Social Science Extreme Events Research (SSEER) network, which is headquartered at the Natural Hazards Engineering Research Infrastructure (NHERI) CONVERGE facility at the Natural Hazards Center at the University of Colorado Boulder. The SSEER network, which was launched in 2018, was formed, in part, to respond to the need for more specific information about the status and expertise of the social science hazards and disaster research workforce. The mission of SSEER is to identify and map social scientists involved in hazards and disaster research in order to highlight their expertise and connect social science researchers to one another, to interdisciplinary teams, and to communities at risk to hazards and affected by disasters. Ultimately, the goals of SSEER are to amplify the contributions of social scientists and to advance the field through expanding the available social science evidence base. To see the SSEER map and to learn more about the SSEER initiative, please visit:  https://converge.colorado.edu/research-networks/sseer. All social and behavioral scientists and those in allied disciplines who study the human, economic, policy, and health dimensions of disasters are invited to join this network via a short online survey. This DesignSafe project includes: (1) the SSEER survey instrument; (2) de-identified data, which is updated annually as new researchers join the SSEER network and returning members update their information; and (3) SSEER annual census reports. These resources are available to all who are interested in learning more about the composition of the social science hazards and disaster workforce. SSEER is part of a larger ecosystem of NSF-funded extreme events research and reconnaissance networks designed to help coordinate disciplinary communities in engineering and the sciences, while also encouraging cross-disciplinary information sharing and interdisciplinary integration. To learn more about the networks and research ecosystem, please visit: https://converge.colorado.edu/research-networks/."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This dataset includes information regarding  1,775 social science researchers who signed up for the Social Science Extreme Events Research (SSEER) network between July 8, 2018 and December 31, 2024. Researchers\u2019 information is collected via an online survey that consists of 19 questions and takes approximately 7 minutes to complete. The envisioned audience for this data and other information includes those who are interested in learning more about the composition of the social science hazards and disaster research workforce, the events that they study, and their skills and expertise."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Social Sciences"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Research"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Research Network"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Methods"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Disaster Type"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Disaster Phase"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hazards and Disaster Workforce"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Colorado Boulder (colorado.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CONVERGE - Social Science/Interdisciplinary Resources and Extreme Events Coordination - University of Colorado Boulder"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

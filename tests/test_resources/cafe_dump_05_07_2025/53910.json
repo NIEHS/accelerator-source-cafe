@@ -1,0 +1,503 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 52123,
+        "datasetId": 53910,
+        "datasetPersistentId": "doi:10.7910/DVN/ULCFIP",
+        "storageIdentifier": "s3://10.7910/DVN/ULCFIP",
+        "versionNumber": 2,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionNote": "",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2011-05-06T17:48:56Z",
+        "releaseTime": "2011-05-06T00:00:00Z",
+        "createTime": "2011-05-06T17:48:56Z",
+        "alternativePersistentId": "hdl:1902.1/12521",
+        "publicationDate": "2009-09-22",
+        "citationDate": "2009-09-22",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Youth Risk Behavior Surveillance System (YRBSS)"
+                    },
+                    {
+                        "typeName": "subtitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Centers for Disease Control and Prevention (CDC)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Users can download data sets and fact sheets regarding youth risk behaviors such as, physical activity, smoking and drug use, and sexual behaviors.\n<p><b> Background </b></p>The Youth Risk Behavior Surveillance System (YRBSS) is a national school-based survey conducted by the Centers for Disease Control and Prevention (CDC), as well as state, territorial, tribal and local surveys conducted by other agencies. YRBSS monitors the health risk behaviors and prevalence rates of obesity and asthma among youth and young adults.  Information includes: tobacco, drug and alcohol use, sexual behaviors, dietary behaviors, and physical inactivity. Becaus\ne not every state participates, data on each individual state is not available.\n<p><b> User Functionality </b></p>Fact sheets are available by sex/ gender and racial/ ethnic group, state vs. national comparisons, and on specific behaviors that are ascertained from the more local surveys. Comprehensive results and publications are also available, and data files and the survey instruments can be downloaded into SPSS, SAS or Access. Data is available on the national, state, county and city levels.   <p><b> Data Notes </b></p> Participants are students in grades 9-12. YRBSS sta\nrted in 1991, so data is available for every year since then and trend information is offered. The most recent data is from 2009,and the site does not specify when more recent data will become available.  Information on the Methods and a Data User\u2019s Manual are helpful tools in understanding the data."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2011-05"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CDC"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "link"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://www.cdc.gov/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "youth"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Centers for Disease Control and Prevention"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "link"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://www.cdc.gov/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "teen"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "asthma"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "overweight"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "alcohol"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "injury"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "violence"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "drug use"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "substance use"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "risk behaviors"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "health behaviors"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "dietary behaviors"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "diet"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "physical activity"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "exercise"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "sexual behaviors"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "suicide"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "tobacco use"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "smoking"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "disordered eating"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "eating disorders"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "prevalence"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "fruit and vegetable"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "obesity"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "trying to lose weight"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "seatbelt use"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "school policies"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "helmet"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "physical inactivity"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "sexual intercourse"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "school violence"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "drinking and driving"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "drunk driving"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "dating violence"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "gun"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "firearms"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "suicide attempts"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "marijuana"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "illegal drugs"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "producer",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "producerName": {
+                                    "typeName": "producerName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Click here to access data from site"
+                                },
+                                "producerURL": {
+                                    "typeName": "producerURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://www.cdc.gov/HealthyYouth/yrbs/index.htm"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2009-03-31"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "U.S. national, U.S. state, U.S. county, U.S. city"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": []
+    }
+}

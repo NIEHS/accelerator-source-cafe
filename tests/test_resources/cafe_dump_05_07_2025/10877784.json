@@ -1,0 +1,273 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444044,
+        "datasetId": 10877784,
+        "datasetPersistentId": "doi:10.17603/DS2-NGT2-CY65",
+        "storageIdentifier": "s3://10.17603/ds2-ngt2-cy65",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2023",
+        "lastUpdateTime": "2025-05-06T23:34:24Z",
+        "releaseTime": "2025-05-05T12:13:55Z",
+        "createTime": "2025-05-06T23:34:24Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Historical Tropical Cyclones in US_1880-2011 in National Full-Scale Testing Infrastructure for Community Hardening in Extreme Wind, Surge, and Wave Events (NICHE): Legacy Field Data Inventory"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3588"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lombardo, Frank"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rhee, Daniel"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Moon, Sung Min"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Aggregate of tropical cyclones that made landfall in the United States between 1880 and 2011"
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This project presents a legacy field observation inventory of windstorms (e.g., hurricanes, tropical storms, tornadoes, severe storms) that occurred in the Atlantic Ocean and in the United States from 1880 and 2021. The objective of this project was intended to characterize and analyze existing historical field observations to propose the optimal value for the design of the NSF-funded national full-scale wind and wave testing facility. Data provided herein was gathered from various websites, and sources including National Centers for Environmental Information, Atlantic Oceanographic & Meteorological Laboratory, National Hurricane Center from NOAA, and DesignSafe-CI.  This project represents a individual task for the National Full-Scale Testing Infrastructure for Community Hardening in Extreme Wind, Surge, and Wave Events (NICHE) project. The NICHE facility will enable the wind and coastal engineering research community to address high-priority scientific questions arising from the impact of increasing storm risks on civil infrastructure, particularly from the combination of extreme winds, storm surge, and wave action, through high-fidelity investigations of the three dimensions of the problem space: wind hazards (synoptic and non-synoptic), coastal hazards (waves and storm surge), and the built environment (e.g., from structures to community scale). Historically, these investigations have engaged a trio of methodological approaches: physical experimentation, computational simulations, and field observations. While considerable advances have been made in each, none has been able to adequately capture the complex physics of structures subjected to interacting wind and coastal hazards. Existing experimental facilities can simulate the impacts of coastal and wind hazards on civil infrastructure separately, missing opportunities to advance and validate computational models for coupled hazards. These facilities further lack the physical scale and intensity to authentically recreate the catastrophic failures observed in practice and assess the efficacy of potential mitigation solutions. The NICHE facility will be designed to physically simulate coupled climate-driven hazards at the scales required to faithfully reproduce vulnerabilities in the built environment. To aid in the design of the full-scale NICHE, the project will develop and implement an integrated design testbed (IDT), including construction of a prototype smaller-scale, physical design testbed (PDT), derived from a combination of field observations, computational modeling, and physical experimentation. The PDT will be constructed at FIU, with the potential for the wind-wave PDT component to be constructed at an alternate institution with an existing wave testing infrastructure. The IDT, and the prototype PDT, will inform and incubate the follow-on design of the full-scale NICHE, that will integrate basic and applied research, research translation, student training, and development of a more diverse workforce."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hurricane"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Windstorm"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wind Speed"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rainfall"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Pressure"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Surge"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Post-storm"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NSF"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NICHE"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Institute of Standards and Technology (nist.gov)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Illinois Urbana-Champaign (illinois.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Full-Scale Testing Infrastructure for Community Hardening in Extreme Wind, Surge, and Wave Events (NICHE)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

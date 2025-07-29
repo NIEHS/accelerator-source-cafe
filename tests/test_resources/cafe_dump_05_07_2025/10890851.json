@@ -1,0 +1,345 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437539,
+        "datasetId": 10890851,
+        "datasetPersistentId": "doi:10.7910/DVN/EGX7TU",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/EGX7TU",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:EtwDRyoN3xnaoBGdpapgzQ==",
+        "lastUpdateTime": "2025-03-25T14:24:05Z",
+        "releaseTime": "2025-03-25T14:24:05Z",
+        "createTime": "2025-02-17T15:26:03Z",
+        "publicationDate": "2025-03-25",
+        "citationDate": "2025-03-25",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: SDWIS Violation Report"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SDWIS Environfacts"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "EPA"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environfacts"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "EPA"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "pfasnpdwr@epa.gov"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form.  This upload includes the violation table and documentation for API access, accessed on 02/06/2025.\n<br>\n<br>\nIf you have questions about the underlying data stored here, please contact the EPA using their contact form - https://www.epa.gov/enviro/forms/contact-us-about-envirofacts . If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br>\n<br>\nThe search results present violation data from EPA's national data system, Safe Drinking Water Information System (SDWIS). SDWIS contains information about public water systems and their violations of EPA's drinking water regulations. These statutes and accompanying regulations establish maximum contaminant levels, treatment techniques, and monitoring and reporting requirements to ensure that water provided to customers is safe for human consumption. \n<br>\n<br>\nThe violation table includes violation information for 191,558 public water systems during the compliance period starting from 1978. It provides information on each public water system and their violation records, with details such as types of violations and contaminants.\n<br>\n<br>\nFor additional description see <a href=\"https://www.epa.gov/enviro/sdwis-overview\">https://www.epa.gov/enviro/sdwis-overview</a>"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-26"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Water Quality"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Water Security"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Xindi Hu, Yanhua Li (Water Health Opportunity Lab)"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-26"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1978-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2028-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "CSV"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Data can be accessed applying API calls \n<br>\nhttps://data.epa.gov/efservice/sdwis.violation/violation_category_code/equal/mcl/csv\n<br>\n<br>\nTerms and conditions were captured directly from https://www.epa.gov/web-policies-and-procedures/epa-disclaimers and are pasted below:\n<br>\n<br>\n\"Copyright Status<br>\nThe U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes. Commercial use of the documents available from the EPA websites may be protected under the U.S. and Foreign Copyright Laws. Individual documents on the EPA website may have different copyright conditions, and that will be noted in those documents.\""
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowDocumentation",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "API Calls: https://data.epa.gov/efservice/sdwis.violation/violation_category_code/equal/mcl/csv"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Water Quality",
+                            "Water Security"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "EPA agency-wide data use terms",
+                "label": "EPA Disclaimers _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437539,
+                "dataFile": {
+                    "id": 11028635,
+                    "persistentId": "",
+                    "filename": "EPA Disclaimers _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 97989,
+                    "description": "EPA agency-wide data use terms",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195cdafcec1-6e73c8b318aa",
+                    "rootDataFileId": -1,
+                    "md5": "de90bdd8ae95f85060b264b7e8ad6c70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de90bdd8ae95f85060b264b7e8ad6c70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-25",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "README.docx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437539,
+                "dataFile": {
+                    "id": 10890852,
+                    "persistentId": "",
+                    "filename": "README.docx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "friendlyType": "MS Word",
+                    "filesize": 11155,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514846ef8-b495aabb8e10",
+                    "rootDataFileId": -1,
+                    "md5": "4b8bb75729b3d1c20f686efbfaeb2838",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4b8bb75729b3d1c20f686efbfaeb2838"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "sdwis_violation_mcl.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 437539,
+                "dataFile": {
+                    "id": 10890853,
+                    "persistentId": "",
+                    "filename": "sdwis_violation_mcl.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 39553260,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514847032-b0f690796237",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 33614963,
+                    "originalFileName": "sdwis_violation_mcl.csv",
+                    "UNF": "UNF:6:EtwDRyoN3xnaoBGdpapgzQ==",
+                    "rootDataFileId": -1,
+                    "md5": "75c0ecb10088199c7080eb8ef88ada8f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "75c0ecb10088199c7080eb8ef88ada8f"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

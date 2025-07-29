@@ -1,0 +1,233 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444132,
+        "datasetId": 10877866,
+        "datasetPersistentId": "doi:10.17603/DS2-ZQD8-H845",
+        "storageIdentifier": "s3://10.17603/ds2-zqd8-h845",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:55:42Z",
+        "releaseTime": "2025-05-05T12:14:15Z",
+        "createTime": "2025-05-06T23:55:42Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "EMERGENCY MANAGERS - INTERVIEW GUIDE in Improving Knowledge about NWS Forecaster Core Partner Needs for Reducing Vulnerability to Compound Threats in Landfalling Tropical Cyclones Amid Covid-19"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3551"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Henderson, Jennifer"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hernandez, Rodolfo"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nielsen, Erik"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "As compound hazards, landfalling tropical cyclones (LTC) pose a significant risk to public safety, bringing significant winds, flooding rains, and storm surge in their wake. In the context of Covid-19, risks for harm can become heightened as people make decisions about how to prioritize health concerns for themselves and others amid complex weather risks. When tornadoes co-occur with flash flooding during LTCs, what we call TORFFs, warnings for each can contain contradictory advice that can complicate people\u2019s understanding of the threat that is most dangerous them: warnings for tornadoes suggest people get to the lowest part of a structure and flash flooding suggest people to get to the highest part of their home. Recent events, like Hurricanes Harvey and Florence confirm TORFF confusion can be widespread and deadly. Research by Nielsen et al (2015) estimates that over 400 such TORFFs occur across the U.S. each year. While National Weather Service (NWS) forecasters assess and warn for these threats, their core partners in broadcast meteorology and emergency management, translate warnings to help individuals decide which threats and safety protocols are most important for people to take and when. Yet, little is understood about how these experts make sense of or communicate TORFF warnings nor how the uncertainties during Covid-19 inform their knowledge about which populations are the most vulnerable. With the goal of helping NWS forecasters improve warning practices and decision support for core partners in emergency management and broadcast meteorology during compound hazards, especially for vulnerable populations in Covid-19, this project will examine how core partners conceptualize, plan for, and communicate TORFFs in LTCs. By doing so, this project will develop new knowledge about (a) how partners attend to, assess, and communicate compound hazards and how Covid-19 magnifies challenges for partners\u2019 when giving advice to the public and planning for evacuations and shelters; and (b) how this understanding shapes and is shaped by partners\u2019 conceptualization of changes in and indicators for the public\u2019s vulnerability. Building on this knowledge, we will create (c) pathways research-to-operations (R2O) that result in products that can help build forecaster and core partner situational awareness and best practices for compound hazards. We use a qualitative-lead mixed methods approach to the problem, beginning with interviews with core partners in Y1 conducted after an LTC, and a national survey of core partners in coastal areas informed by initial results in Y2. Results will help us build a continuously updated database of TORFFs warnings for LTCs, which will enable future research and training for NWS forecasters and their partners. Knowledge of how NWS core partners understand and respond to threats in these contexts will contribute to a better forecaster decision support. These insights can be used to improve communication of forecast and warning risk information for different hazards at various spatial and temporal time scales and lead times, generate insights for NWS Impact Based Decision Support Services (IDSS), and help reduce community vulnerability to future compound threats."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The Emergency Managers (EMs) Interview Protocol was developed to investigate the roles, experiences, and challenges faced by emergency managers during hurricanes, particularly in the context of the COVID-19 pandemic. The focus was on understanding how EMs assess and communicate risks, manage compound hazards like wind and water threats, and adapt their practices in response to the pandemic.  The investigation was conducted through in-depth interviews with EMs, who were asked a series of structured questions regarding their job duties, hazard management strategies, and the impact of COVID-19 on their work. The protocol explored various aspects, such as the types of hazards EMs prioritized, the specific vulnerabilities of their communities, and how the pandemic influenced their operational procedures and public communication. It was tested through expert review by collaborators from the emergency management community and professionals in disaster response to ensure its relevance and effectiveness.  The outcome of this investigation provided valuable insights into the critical role of EMs in managing complex emergencies involving overlapping crises, such as a hurricane amid a pandemic. The findings highlighted the need for adaptive strategies to protect vulnerable populations and effectively manage dual threats.  The data collected from these interviews can be reused to inform future research on emergency management and risk communication, especially in the context of multiple simultaneous hazards. Additionally, it can guide the development of training programs for emergency managers, enhance disaster response protocols, and improve public communication strategies in similar future events. This data is also valuable for policymakers looking to understand the challenges faced by EMs and to develop policies that support effective disaster management and risk communication in crises."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Compound hazards"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Co-ocurring Tornadoes and Flash Floods"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Covid-19"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Emergency Managers"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Broadcast Metereologists"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M University (tamu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas Tech University (ttu.edu)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

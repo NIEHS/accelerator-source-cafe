@@ -1,0 +1,395 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 442262,
+        "datasetId": 11080950,
+        "datasetPersistentId": "doi:10.7910/DVN/LVLRJ0",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/LVLRJ0",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "lastUpdateTime": "2025-04-29T14:40:40Z",
+        "releaseTime": "2025-04-29T14:40:40Z",
+        "createTime": "2025-04-15T23:44:26Z",
+        "publicationDate": "2025-04-29",
+        "citationDate": "2025-04-29",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: USDA ERS Food Security"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Department of Agriculture - Economic Research Service"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\n\u201cFood security means access by all people at all times to enough food for an active, healthy life. \nUSDA\u2019s Economic Research Service (ERS) plays a leading role in research on food security and food security measurement in U.S. households and communities. USDA, ERS provides data access and technical support to social science scholars to facilitate their research on food security. USDA, ERS research focuses on:\n- Food security in U.S. households (see annual report below)\n- Food security's effect on the well-being of children, adults, families, and communities\n- Food security's relationship to public policies, public assistance programs, and the economy\u201d  [Quote from <a href=\"https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us\">https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us</a>]\n\n\u201cFood Security Data Access and Documentation Downloads\nThis data section provides information about publicly available national surveys that include questions from the U.S. Food Security Survey Module. Information on each survey and directions for accessing data files are available in the Documentation.\n[Quote from <a href=\"https://www.ers.usda.gov/data-products/food-security-in-the-united-states\">https://www.ers.usda.gov/data-products/food-security-in-the-united-states</a>]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Food Security"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change and Human Health Glossary"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://web.archive.org/web/20231109215108/https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Food Quality"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change and Human Health Glossary"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://web.archive.org/web/20231109215108/https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nutritional Security"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change and Human Health Glossary"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://web.archive.org/web/20231109215108/https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Malnutrition"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change and Human Health Glossary"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://web.archive.org/web/20231109215108/https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nUSDA ERS Food Security data was downloaded by Amelia Jaycen on 03/28/25."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Jaycen, Amelia"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-04-15"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1995-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "USDA ERS Food Security in the U.S."
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "U.S. Department of Agriculture - Economic Research Service"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Department of Agriculture - Economic Research Service"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-28"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Survey data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "\"USDA Plain Writing \u2013 We are committed to clear government communications that the public can understand and use, and will write documents in plain language.\" [Quote from https://www.ers.usda.gov/about-ers/policies-and-standards/research-quality]"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Food Quality",
+                            "Food Security",
+                            "Malnutrition",
+                            "Nutritional Security"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "USDA\u2019s Economic Research Service (ERS) plays a leading role in research on food security and food security measurement in U.S. households and communities. USDA, ERS provides data access and technical support to social science scholars to facilitate their research on food security. ",
+                "label": "USDA Food Security in the US.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442262,
+                "dataFile": {
+                    "id": 11080951,
+                    "persistentId": "",
+                    "filename": "USDA Food Security in the US.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 130474970,
+                    "description": "USDA\u2019s Economic Research Service (ERS) plays a leading role in research on food security and food security measurement in U.S. households and communities. USDA, ERS provides data access and technical support to social science scholars to facilitate their research on food security. ",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963bcf0121-d53db95e0a03",
+                    "rootDataFileId": -1,
+                    "md5": "c6893bda65c194508773490bcfe1e293",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c6893bda65c194508773490bcfe1e293"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-04-29",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Food Security in the U.S. _ Economic Research Service.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442262,
+                "dataFile": {
+                    "id": 11122088,
+                    "persistentId": "",
+                    "filename": "Food Security in the U.S. _ Economic Research Service.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 56105,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19681fdc206-b6ce21817f3b",
+                    "rootDataFileId": -1,
+                    "md5": "60549ae26cc1e87e1905a8da95d08ace",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "60549ae26cc1e87e1905a8da95d08ace"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-29",
+                    "publicationDate": "2025-04-29",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Screenshot 2025-04-29 at 10-39-56 Food Security in the U.S. Economic Research Service.png",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442262,
+                "dataFile": {
+                    "id": 11122089,
+                    "persistentId": "",
+                    "filename": "Screenshot 2025-04-29 at 10-39-56 Food Security in the U.S. Economic Research Service.png",
+                    "contentType": "image/png",
+                    "friendlyType": "PNG Image",
+                    "filesize": 2697161,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19681fdc2c8-8412b4390e82",
+                    "rootDataFileId": -1,
+                    "md5": "bf15f9c63514ace84b7ff6ee1344bddf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf15f9c63514ace84b7ff6ee1344bddf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-29",
+                    "publicationDate": "2025-04-29",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443893,
+        "datasetId": 10877661,
+        "datasetPersistentId": "doi:10.17603/DS2-11Y2-BG84",
+        "storageIdentifier": "s3://10.17603/ds2-11y2-bg84",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:00:59Z",
+        "releaseTime": "2025-05-05T12:14:18Z",
+        "createTime": "2025-05-06T23:00:59Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Interviews with NWS Forecasters related to severe weather and new artificial intelligence/machine learning (AI/ML) guidance predicting severe hail and storm mode: Pre-interview survey data in Interviews with National Weather Service (NWS) forecasters related to severe weather and new artificial intelligence/machine learning (AI/ML) guidance predicting severe hail and storm mode"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4572"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Cains, Mariana"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wirz, Christopher"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Demuth, Julie"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bostrom, Ann"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harrison, David"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "McGovern, Amy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This workbook contains two spreadsheets: 1) anonymized online pre-interview survey data and 2) the survey response key. The survey data distinguishes whether the respondent received the \"AI/ML\" or \"No AI/ML\" version of the survey."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This project developed a pre-interview survey, interview protocols, and materials for conducting interviews with expert users to better understand how they assess and make use decisions about new AI/ML guidance. Weather forecasters access and synthesize myriad sources of information when forecasting for high-impact, severe weather events. In recent years, artificial intelligence (AI) techniques have increasingly been used to produce new guidance tools with the goal of aiding weather forecasting, including for severe weather.  For this study, we leveraged these advances to explore how National Weather Service (NWS) forecasters perceive the use of new AI guidance for forecasting severe hail and storm mode. We also specifically examine which guidance features are important for how forecasters assess the trustworthiness of new AI guidance. To this aim, we conducted online, structured interviews with NWS forecasters from across the Eastern, Central, and Southern Regions. The interviews covered the forecasters\u2019 approaches and challenges for forecasting severe weather, perceptions of AI and its use in forecasting, and reactions to one of two experimental (i.e., non-operational) AI severe weather guidance: probability of severe hail or probability of storm mode.  During the interview, the forecasters went through a self-guided review of different sets of information about the development (spin-up information, AI model technique, training of AI model, input information) and performance (verification metrics, interactive output, output comparison to operational guidance) of the presented guidance. The forecasters then assessed how the information influenced their perception of how trustworthy the guidance was and whether or not they would consider using it for forecasting.  This project includes the pre-interview survey, survey data, interview protocols, and accompanying information boards used for the interviews. There is one set of interview materials in which AI/ML are mentioned throughout and another set where AI/ML were only mentioned at the end of the interviews. We did this to better understand how the label \u201cAI/ML\u201d did or did not affect how interviewees responded to interview questions and reviewed the information board. We also leverage think aloud methods with the information board, the instructions for which are included in the interview protocols."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Severe Hail; Storm Mode; Severe Weather"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "AI/ML; Trust; Trustworthiness; Experts"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Oklahoma"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Oceanic and Atmospheric Administration"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University Corp. for Atmospheric Research (ucar.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington (washington.edu)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/online survey"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

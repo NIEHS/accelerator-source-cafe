@@ -1,0 +1,257 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443929,
+        "datasetId": 10877694,
+        "datasetPersistentId": "doi:10.17603/DS2-6D0X-3734",
+        "storageIdentifier": "s3://10.17603/ds2-6d0x-3734",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:09:34Z",
+        "releaseTime": "2025-05-05T12:14:20Z",
+        "createTime": "2025-05-06T23:09:34Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Research protocols and instruments in Hurricane Naming Conventions and Bilingual Audiences:  Characterizing Spanish-Speaking Broadcast Meteorologists\u2019 Challenges Communicating Multiple Hazards in Landfalling Tropical Cyclones"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-5634"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hernandez, Rodolfo"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rico, Isabella"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Marin, Fern"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Henderson, Jen"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nielsen, Erik"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ramirez Diaz, Zyanya"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "As frontline communicators of extreme weather hazards information, broadcast meteorologists understand the scientific nature of weather threats and the local demographics and contexts of their market audiences (Morss et al., 2015). Thus, they are well positioned to tailor risk information and offer more frequent and personalized communication with their audiences (Timm et al., 2020). As partners to National Weather Service (NWS) forecasters, broadcast meteorologists work with Weather Forecast Offices (WFO) to disseminate official products about forecasts and warnings, timeframes, and protective action advice. One significant challenge that has emerged in the last decade is the development of linguistically and culturally diverse risk information for various audiences, especially Spanish-speaking populations who may receive English-only messaging (Rivera, 2022; Trujillo-Falc\u00f3n et al., 2022; Ripberger et al., 2020). This gap can magnify vulnerability for Spanish-speaking populations, especially during weather events like landfalling tropical cyclones (LTCs), such as Hurricanes Harvey or Ida, which generate multiple, co-occurring wind and water threats we call TORFFs (Nielsen et al., 2015; Bica et al., 2021; Mazurek, 2022). Specifically, communication problems arise at landfall, when conventions (e.g., Saffir Simpson Hurricane Scale) for describing hurricanes may focus more on wind than water threats (Gartner & Henderson, 2022) and when describing \u201cremnants\u201d of the same storm as it evolves and moves across the U.S. While researchers have begun to develop knowledge about Spanish language translations of risk information, especially within the NWS, this knowledge often only describes single hazard threats, may include terminology that is not common in Spanish-speaking contexts, and is slow to transition research findings to bilingual Spanish-English (SP-EN) and Spanish-speaking broadcast meteorologists and their affiliated stations. In fact, common practices in federal agencies like NOAA for transitioning this type of research to operational settings (R2O) are largely unavailable to broadcast meteorologists. This proposal builds on the research team\u2019s expertise working with NWS and partners on TORFF problems to develop three interrelated knowledge outcomes: First, create new knowledge about how bilingual and Spanish-speaking broadcast meteorologists address challenges in communicating complex, multi-hazard information, like TORFFS, for their audiences; second, understand how the use of the Saffir Simpson Hurricane Wind Scale and naming conventions for LTC remnants are tailored to multi-language audiences; and third, develop strategies to identify new processes and prototypes of tested and validated Research to Operations (R2O) for broadcast meteorologists."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This observation protocol was developed as part of a research project and peer-reviewed by collaborators from the weather community to ensure its relevance and rigor. Grounded in ethnographic research principles and designed to align with established approaches in weather research, this instrument serves as a valuable tool for researchers conducting observations in settings where hazard communication occurs. It is suitable for use in various environments, such as television stations and weather and emergency management offices, where professionals work to communicate and manage risks during natural hazards."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Broadcast Meteorologists"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bilingual audiences"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Risk communication"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Landfalling Tropical Cyclones"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas Tech University (ttu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas Tech University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

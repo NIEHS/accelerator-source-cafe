@@ -1,0 +1,331 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 351044,
+        "datasetId": 7430411,
+        "datasetPersistentId": "doi:10.7910/DVN/5XBJBM",
+        "storageIdentifier": "s3://10.7910/DVN/5XBJBM",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2024-07-31T01:33:12Z",
+        "releaseTime": "2024-07-31T01:33:12Z",
+        "createTime": "2023-09-27T17:53:51Z",
+        "publicationDate": "2024-07-30",
+        "citationDate": "2024-07-30",
+        "license": {
+            "name": "CC BY 4.0",
+            "uri": "http://creativecommons.org/licenses/by/4.0",
+            "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Multifactorial Zip Code-Year Dataset: Socio-Economic, Demographic, and Environmental Variables in the Contiguous United States (2000-2016)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Khoshnevis, Naeem"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-4315-1426"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wu, Xiao"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Columbia University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-4884-657X"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Braun, Danielle"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-5177-8598"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Khoshnevis, Naeem"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "nkhoshnevis@fas.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This dataset aggregates extensive public data corresponding to 34,928 zip codes from the contiguous United States, spanning from 2000 to 2016. It encompasses 580,244 zip code-year observations, capturing a myriad of variables to portray a comprehensive picture of each region. The variables include, but are not limited to, education rate, median household income, median house value, poverty rate, percentages of Hispanic and Black populations, and meteorological variables, offering nuanced insights into the socio-economic conditions, demographic composition, and environmental contexts of each area. This rich, multifaceted dataset serves as a valuable resource for exploratory research, specifically designed to facilitate the evaluation of potential causal relationships, with a focus on educational attainment, although its extensive range of variables allows for a multitude of applications across various domains."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-09-27"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Socio-Economic Variables"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Social Sciences"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Contexts"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Earth and Environmental Sciences"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This dataset serves as the empirical foundation for examples and illustrative purposes within the CausalGPS R package."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Khoshnevis, Naeem"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-09-27"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "socialscience": {
+                "displayName": "Social Science and Humanities Metadata",
+                "name": "socialscience",
+                "fields": [
+                    {
+                        "typeName": "socialScienceNotes",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "socialScienceNotesType": {
+                                "typeName": "socialScienceNotesType",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "Secondary data"
+                            },
+                            "socialScienceNotesText": {
+                                "typeName": "socialScienceNotesText",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "Dear depositor, as we collect information about your dataset, it's important for us to know what ontology supported your deposits so we can build a better system. please drop ontology URL here:"
+                            }
+                        }
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "zip_data.RData",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 351044,
+                "dataFile": {
+                    "id": 7430412,
+                    "persistentId": "",
+                    "filename": "zip_data.RData",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 47950020,
+                    "storageIdentifier": "s3://dvn-cloud:18ad7be707b-cb0d5a540529",
+                    "rootDataFileId": -1,
+                    "md5": "3422c08b2f248b4b6482e4fe3037b7e7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3422c08b2f248b4b6482e4fe3037b7e7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-27",
+                    "publicationDate": "2024-07-30",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,277 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 129480,
+        "datasetId": 3059402,
+        "datasetPersistentId": "doi:10.7910/DVN/M8MXVY",
+        "storageIdentifier": "s3://10.7910/DVN/M8MXVY",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:hemiE0ed1nGGH4dJvGwEVQ==",
+        "lastUpdateTime": "2025-04-22T17:01:09Z",
+        "releaseTime": "2025-04-22T17:01:09Z",
+        "createTime": "2017-10-18T14:30:33Z",
+        "publicationDate": "2025-04-22",
+        "citationDate": "2025-04-22",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Energy Information Administration Projection Reports, 2017"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Energy Information Adminstration"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Department of Energy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Reports in pdf and csv format from the US Energy Information Administration (EIA) with forecast models on crude oil and petroleum liquids, gasoline, diesel, natural gas, electricity, coal prices, supply, and demand projections. This page updates frequently - this snapshot was made Feb. 4, 2017. Includes monthly short-term forecasts (released: the first Tuesday following the first Thursday of each month); Annual projections to 2050; and International projections to 2040."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Physics"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Energy supply"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Energy demand"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Campbell, Robert"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-10-18"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "CEF.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129480,
+                "dataFile": {
+                    "id": 3128749,
+                    "persistentId": "",
+                    "filename": "CEF.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 448,
+                    "storageIdentifier": "s3://dvn-cloud:161d80e5cbe-a3bb5dd295ba",
+                    "rootDataFileId": -1,
+                    "md5": "5c256631bc7faea91c0fe5e4eb21e7e9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5c256631bc7faea91c0fe5e4eb21e7e9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "us_energy_information_adminstration_analysis_projections_metadata.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129480,
+                "dataFile": {
+                    "id": 3128750,
+                    "persistentId": "",
+                    "filename": "us_energy_information_adminstration_analysis_projections_metadata.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 3367,
+                    "storageIdentifier": "s3://dvn-cloud:161d80e99ae-e785449f76e1",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 3216,
+                    "originalFileName": "us_energy_information_adminstration_analysis_projections_metadata.csv",
+                    "UNF": "UNF:6:hemiE0ed1nGGH4dJvGwEVQ==",
+                    "rootDataFileId": -1,
+                    "md5": "16c800343affd582d3488a0421f7a085",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "16c800343affd582d3488a0421f7a085"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "._DED4D95D-CCA4-455A-9CE6-B19B6554724C.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129480,
+                "dataFile": {
+                    "id": 3128751,
+                    "persistentId": "",
+                    "filename": "._DED4D95D-CCA4-455A-9CE6-B19B6554724C.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 226,
+                    "storageIdentifier": "s3://dvn-cloud:161d810ae07-dc9e85b97d95",
+                    "rootDataFileId": -1,
+                    "md5": "5ddaf50b3aa1ebacfe3411a3b3f01c53",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5ddaf50b3aa1ebacfe3411a3b3f01c53"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "._.DS_Store",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129480,
+                "dataFile": {
+                    "id": 3128752,
+                    "persistentId": "",
+                    "filename": "._.DS_Store",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 226,
+                    "storageIdentifier": "s3://dvn-cloud:161d810ba0f-7f8b8a2f8cce",
+                    "rootDataFileId": -1,
+                    "md5": "77855d2595f71309723de7b24cd1e9bb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "77855d2595f71309723de7b24cd1e9bb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "._adhoc.py",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129480,
+                "dataFile": {
+                    "id": 3128753,
+                    "persistentId": "",
+                    "filename": "._adhoc.py",
+                    "contentType": "text/x-python",
+                    "friendlyType": "Python Source Code",
+                    "filesize": 316,
+                    "storageIdentifier": "s3://dvn-cloud:161d810c587-105ba4e95ba2",
+                    "rootDataFileId": -1,
+                    "md5": "df0e4d93015ad80e5555f67945550bcf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "df0e4d93015ad80e5555f67945550bcf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

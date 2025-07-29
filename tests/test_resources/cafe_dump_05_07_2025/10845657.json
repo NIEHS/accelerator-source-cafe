@@ -1,0 +1,693 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437721,
+        "datasetId": 10845657,
+        "datasetPersistentId": "doi:10.7910/DVN/Z7J2EA",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/Z7J2EA",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-19T22:05:17Z",
+        "releaseTime": "2025-02-19T22:05:17Z",
+        "createTime": "2025-02-19T22:01:28Z",
+        "publicationDate": "2025-02-13",
+        "citationDate": "2025-02-13",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Climate Resilience Evaluation and Awareness Tool"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Protection Agency"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Creating Resilient Water Utilities (CRWU)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\nIf you have questions about the source data, please contact the EPA Creating Resilient Water Utilities (CRWU) (CRWUhelp@epa.gov). If you have questions about metadata, please contact CAFE (climatecafe@bu.edu)\n<br /><br />\n\"EPA's Creating Resilient Water Utilities (CRWU) initiative provides drinking water, wastewater, and stormwater (water sector) utilities with practical tools, training, and technical assistance needed to increase resilience to climate change. CRWU\u2019s Climate Resilience Evaluation and Awareness Tool (CREAT) and interactive maps (Storm Surge Inundation Map, CREAT Climate Scenarios Projection Map, and the Streamflow Projections Map), provide utilities with pre-processed data to aid in climate-based decision-making. To increase accessibility for geospatial users, CRWU provided \nthese datasets in a zipped file geodatabase format.\n<br />\nThe data provided here are projected changes in climate conditions. These data and additional projections associated with the same scenarios are available in CREAT.\n<br />\nThe scenarios used to present the range of model projections for each grid cell on the map were:\n<br />\n'Hot/Dry' scenario based on the average of the five climate models that project hotter and drier conditions compared to the other model projections;\n\u2018Central\u2019 scenario based on the average of the five climate models that project changes in the middle of the distribution of projections; and\n'Warm/Wet\u2019 scenario based on the average of the five climate models that project less warming but increased precipitation relative to other models.\nChanges in annual temperature, annual precipitation, and 100-year storm intensity are provided as increases (positive values) or decreases (negative values) relative to a baseline of observed climate at the same location from 1981-2010. Each projection includes changes in temperature and precipitation averaged over two 20-year time periods: '2035 period' from 2026-2045 and '2060 period' from 2051-2070.\n<br />\nThe number of hot days associated with each climate station are reported as the number of days per year that have temperatures over 100 \u00b0F following the temperature increases projected by the same models. Climate station data were built upon the dataset of the Global Historical Climatology Network (GHCN)-Daily. The dataset is being maintained at the National Oceanic and Atmospheric Administration\u2019s National Climatic Data Centre (NCDC).\n<br />\nAdditional information on the selection of scenarios and the sources of data used can be found in the CREAT 3.1 Methodology Guide. Models used were drawn from the Coupled Model Intercomparison Project Phase 5 (CMIP5) dataset.\n<br />\nTo explore data for a location or to download data from this map, please visit the CRWU Data Access page.\" [Quote from: https://epa.maps.arcgis.com/apps/MapSeries/index.html?appid=3805293158d54846a29f750d63c6890e] <br /><br />"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-27"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Projection"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Extreme Weather Events"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Heat Wave"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nClimate Resilience Evaluation and Awareness Tool data was downloaded by Zach Popp on 2025-01-27."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Popp, Zachary"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-27"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2035-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2035-01-01"
+                                }
+                            },
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2060-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2060-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The below was extracted directly from the CREAT Methodology document: \n\n\"The Climate Resilience Evaluation and Awareness Tool (CREAT) was prepared by the U.S.\nEnvironmental Protection Agency (EPA) as an informational tool to assist drinking water,\nwastewater, and stormwater utility owners and operators in understanding and addressing\nclimate change risks. CREAT does not purport to provide a comprehensive or exhaustive list of\nall impacts and potential risks from climate change or any other threats.\nThe information contained in CREAT was developed in accordance with best industry practices.\nIt should not be relied on exclusively when conducting risk assessments or developing response\nplans. This information is also not a substitute for the professional advice of an attorney or\nenvironmental or climate change professional. This information is provided without warranty\nof any kind, and EPA hereby disclaims any liability for damages arising from use of this tool,\nincluding without limitation, direct, indirect, or consequential damages including personal\ninjury, property loss, loss of revenue, loss of profit, loss of opportunity, or other loss.\nChanges are periodically made to the information herein that may be incorporated in new\neditions of this document. EPA may make improvements or changes to CREAT at any time. \""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemName": {
+                                "typeName": "cafeSpatialReferenceSystemName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "WGS 84 / Pseudo-Mercator"
+                            },
+                            "cafeSpatialReferenceSystemURL": {
+                                "typeName": "cafeSpatialReferenceSystemURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://epsg.io/3857"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Climate Change",
+                            "Extreme Weather Events",
+                            "Heat Wave",
+                            "Projection"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "CRWU_CREAT_Historic_Climate_Stations.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845666,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Historic_Climate_Stations.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 725413,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e8583-0af1b3f9d10c",
+                    "rootDataFileId": -1,
+                    "md5": "2d9094ebcc3315b73073ac2e3cdfaddd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d9094ebcc3315b73073ac2e3cdfaddd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRWU_CREAT_Hurricane_Tracks_Buffer.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845659,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Hurricane_Tracks_Buffer.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1037883,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e8416-cab2af7486c6",
+                    "rootDataFileId": -1,
+                    "md5": "15db6bfcba9a01d540dc1688e1b82d24",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "15db6bfcba9a01d540dc1688e1b82d24"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Map_Description_Screenshots.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845671,
+                    "persistentId": "",
+                    "filename": "Map_Description_Screenshots.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2368996,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a948ec66-c5113087c812",
+                    "rootDataFileId": -1,
+                    "md5": "c9dd742be302c1c80203f4963181a29b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c9dd742be302c1c80203f4963181a29b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "crwu-data-user-guide-final_1.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845661,
+                    "persistentId": "",
+                    "filename": "crwu-data-user-guide-final_1.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 359969,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92eb3fa-89e9d1ed96f9",
+                    "rootDataFileId": -1,
+                    "md5": "2d7d0cf8d4e430f5eac190867226b701",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d7d0cf8d4e430f5eac190867226b701"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRWU_CREAT_Streamflow_Projection_Grid.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845658,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Streamflow_Projection_Grid.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1165490,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e8e38-b1518d79de07",
+                    "rootDataFileId": -1,
+                    "md5": "c02adcc2f08a49b0bc0e174b4d089ec5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c02adcc2f08a49b0bc0e174b4d089ec5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRWU_CREAT_Grid_Projections.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845665,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Grid_Projections.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2863120,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e7d74-d6bc4fb4b7c9",
+                    "rootDataFileId": -1,
+                    "md5": "8aa6653ae3389702d48e74c117c1967f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8aa6653ae3389702d48e74c117c1967f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRWU_CREAT_Weather_Stations.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845667,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Weather_Stations.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 978911,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e93f9-85323592141d",
+                    "rootDataFileId": -1,
+                    "md5": "949a2af54a7bfcab6e557d15e978481a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "949a2af54a7bfcab6e557d15e978481a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRWU_CREAT_Grid_Historic.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845669,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Grid_Historic.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1243357,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e7bf6-ab0d2e891e2a",
+                    "rootDataFileId": -1,
+                    "md5": "7ad696d40f2c9702f68706fe3fdc6a6b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7ad696d40f2c9702f68706fe3fdc6a6b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Access Data from Creating Resilient Water Utilities _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845664,
+                    "persistentId": "",
+                    "filename": "Access Data from Creating Resilient Water Utilities _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 83041,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e71ac-10a503aa3caa",
+                    "rootDataFileId": -1,
+                    "md5": "9fa33cf2835cc2f2fad05e638221f8ec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9fa33cf2835cc2f2fad05e638221f8ec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRWU_CREAT_Streamflow_Gage.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845668,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Streamflow_Gage.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1292631,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e8faf-2e7f48cde43b",
+                    "rootDataFileId": -1,
+                    "md5": "937a6699094f86d090a7e56d26085ea7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "937a6699094f86d090a7e56d26085ea7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Climate Resilience Evaluation and Awareness Tool _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845670,
+                    "persistentId": "",
+                    "filename": "Climate Resilience Evaluation and Awareness Tool _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 49535,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e7343-c39f0112755f",
+                    "rootDataFileId": -1,
+                    "md5": "2d1536ec2ae834505776b6814df581ff",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d1536ec2ae834505776b6814df581ff"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "creat_3.1_methodology_guide_march_2021.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845662,
+                    "persistentId": "",
+                    "filename": "creat_3.1_methodology_guide_march_2021.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 3267776,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e74f5-cd6bc70de0ad",
+                    "rootDataFileId": -1,
+                    "md5": "3d1e0155a675387b6a0526dd1d480fbf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d1e0155a675387b6a0526dd1d480fbf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRWU_CREAT_Coastal_Gages.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845660,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Coastal_Gages.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 35966,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e7697-fac484396bb3",
+                    "rootDataFileId": -1,
+                    "md5": "941904296f7a1b6e68354b62a23ac12c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "941904296f7a1b6e68354b62a23ac12c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Climate Resilience Evaluation and Awareness Tool _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10885431,
+                    "persistentId": "",
+                    "filename": "Climate Resilience Evaluation and Awareness Tool _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 60760,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195011b7ab6-cc659bd20b83",
+                    "rootDataFileId": -1,
+                    "md5": "f4d7d4af281909d6c696ea7566d14865",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f4d7d4af281909d6c696ea7566d14865"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-13",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRWU_CREAT_Streamflow_Projections_Points.gdb.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437721,
+                "dataFile": {
+                    "id": 10845663,
+                    "persistentId": "",
+                    "filename": "CRWU_CREAT_Streamflow_Projections_Points.gdb.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 13060547,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194a92e8c18-ca53f05a72df",
+                    "rootDataFileId": -1,
+                    "md5": "d02a7abfd69042d0b6c94d76b6fc4c63",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d02a7abfd69042d0b6c94d76b6fc4c63"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-27",
+                    "publicationDate": "2025-02-13",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

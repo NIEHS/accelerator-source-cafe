@@ -1,0 +1,284 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 97240,
+        "datasetId": 2971213,
+        "datasetPersistentId": "doi:10.7910/DVN/GHOXXO",
+        "storageIdentifier": "s3://dvn-cloud:10.7910/DVN/GHOXXO",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:jejxVw1p5DxW7oq54eH1NQ==",
+        "lastUpdateTime": "2017-01-18T23:36:22Z",
+        "releaseTime": "2017-01-18T23:36:22Z",
+        "createTime": "2017-01-18T22:32:51Z",
+        "publicationDate": "2017-01-18",
+        "citationDate": "2017-01-18",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "China AQI Archive (Feb 2014 - Feb 2016)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Lex"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CGA, Harvard Univ"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Lex"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CGA, Harvard Univ"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mberman@fas.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "AQI air quality observations from ground monitoring stations in China are collected and stored PostGresql (three times each day).  The AQI values are coded to Locations which have mappable x, y coordinates in a seperate cumulative locations table."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "air pollution data"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Berman, Lex"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-01-18"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "China_AQI_from_VGI_2014.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97240,
+                "dataFile": {
+                    "id": 2971214,
+                    "persistentId": "doi:10.7910/DVN/GHOXXO/7QAADC",
+                    "pidURL": "https://doi.org/10.7910/DVN/GHOXXO/7QAADC",
+                    "filename": "China_AQI_from_VGI_2014.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 335703,
+                    "storageIdentifier": "s3://dvn-cloud:159b3b5a0ae-2d364dbd802b",
+                    "rootDataFileId": -1,
+                    "md5": "681bffdbcb07ba5a2a335e8363806596",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "681bffdbcb07ba5a2a335e8363806596"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "DataDictionary_AQI_units.xls",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97240,
+                "dataFile": {
+                    "id": 2971218,
+                    "persistentId": "doi:10.7910/DVN/GHOXXO/XLMZMK",
+                    "pidURL": "https://doi.org/10.7910/DVN/GHOXXO/XLMZMK",
+                    "filename": "DataDictionary_AQI_units.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 23552,
+                    "storageIdentifier": "s3://dvn-cloud:159b3b5a0cd-5be70df3c768",
+                    "rootDataFileId": -1,
+                    "md5": "494bd4f649dd89dda0134c590105c616",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "494bd4f649dd89dda0134c590105c616"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CHINA_AQI_README.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97240,
+                "dataFile": {
+                    "id": 2971216,
+                    "persistentId": "doi:10.7910/DVN/GHOXXO/RGHZCA",
+                    "pidURL": "https://doi.org/10.7910/DVN/GHOXXO/RGHZCA",
+                    "filename": "CHINA_AQI_README.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 2540,
+                    "storageIdentifier": "s3://dvn-cloud:159b3b5a0c0-6009eb49be15",
+                    "rootDataFileId": -1,
+                    "md5": "3523d3adf44149e3df9edbac69d54940",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3523d3adf44149e3df9edbac69d54940"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "aqi_locations_2016-02-04.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 97240,
+                "dataFile": {
+                    "id": 2971215,
+                    "persistentId": "doi:10.7910/DVN/GHOXXO/YVLUEY",
+                    "pidURL": "https://doi.org/10.7910/DVN/GHOXXO/YVLUEY",
+                    "filename": "aqi_locations_2016-02-04.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 236753,
+                    "storageIdentifier": "s3://dvn-cloud:159b3b5a0da-43c2af18d4e7",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 227777,
+                    "originalFileName": "aqi_locations_2016-02-04.csv",
+                    "UNF": "UNF:6:jxMqawUTyYF59UOSlxZSRA==",
+                    "rootDataFileId": -1,
+                    "md5": "55dbca0f96bb045bfd050e9dd99a6f78",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "55dbca0f96bb045bfd050e9dd99a6f78"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "aqi_observations_to_2016-02-04.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 97240,
+                "dataFile": {
+                    "id": 2971217,
+                    "persistentId": "doi:10.7910/DVN/GHOXXO/RX7L8V",
+                    "pidURL": "https://doi.org/10.7910/DVN/GHOXXO/RX7L8V",
+                    "filename": "aqi_observations_to_2016-02-04.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 357076130,
+                    "storageIdentifier": "s3://dvn-cloud:159b3b5a0eb-9589cdde4419",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 300016850,
+                    "originalFileName": "aqi_observations_to_2016-02-04.csv",
+                    "UNF": "UNF:6:nnHqZHGnqzxN+lI5egMcMA==",
+                    "rootDataFileId": -1,
+                    "md5": "972770385274dd5d2c8ab62b5aa03183",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "972770385274dd5d2c8ab62b5aa03183"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

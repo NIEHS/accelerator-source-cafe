@@ -1,0 +1,1770 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437630,
+        "datasetId": 10893803,
+        "datasetPersistentId": "doi:10.7910/DVN/Y5OB8C",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/Y5OB8C",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-03-11T15:46:49Z",
+        "releaseTime": "2025-03-11T15:46:49Z",
+        "createTime": "2025-02-18T17:26:15Z",
+        "publicationDate": "2025-03-11",
+        "citationDate": "2025-03-11",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Motor Vehicle Emission Simulator (MOVES)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Protection Agency (EPA)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes a publicly available tool extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\n<If you have questions about the underlying data stored here, please contact EPA at mobile.epa.gov\n<br />\nEPA's Motor Vehicle Emission Simulator is an emission modeling system that estimates emissions for mobile sources at the national, county, and project level for criteria air pollutants, greenhouse gases, and air toxics.\"\n[Quote from https://www.epa.gov/moves/latest-version-motor-vehicle-emission-simulator-moves]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-14"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Greenhouse Gas"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Air Pollution"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nMOVES data was downloaded by Saketan Anand on 2025-02-14 and was deposited by Jonathan Gilmour on 2025-02-18"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gilmour, Jonathan"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-18"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2021-02-24"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-11-21"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The disclaimers below were copied as is from the EPA Disclaimers site (https://www.epa.gov/web-policies-and-procedures/epa-disclaimers): \"Disclaimer of Endorsement Mention of or referral to commercial products or services, and/or links to non-EPA sites does not imply official EPA endorsement of or responsibility for the opinions, ideas, data, or products presented at those locations, or guarantee the validity of the information provided. Mention of commercial products/services on non-EPA websites is provided solely as a pointer to information on topics related to environmental protection that may be useful to EPA staff and the public. Copyright Status The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes. Commercial use of the documents available from the EPA websites may be protected under the U.S. and Foreign Copyright Laws. Individual documents on the EPA website may have different copyright conditions, and that will be noted in those documents. Disclaimer of Liability With respect to documents available from the EPA website, neither the United States Government nor any of their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Exit Disclaimer The Exit icon denotes that you are leaving the EPA website and entering an external link or a third-party site. EPA's official web site is www.epa.gov. EPA has provided this link because it provides additional information that may be useful or interesting and is being provided in a manner consistent with the intended purpose of the EPA website. Please note that EPA uses third-party sites to provide EPA content already on www.epa.gov in a different format. EPA cannot attest to the accuracy of non-EPA information provided by these third-party sites or any other linked site. EPA is providing these links for your reference. In doing so, EPA does not endorse any non-government websites, companies or applications. Also, please be aware that the privacy protection provided on the EPA.gov domain (EPA Privacy and Security Notice) does not apply to these third-party sites. To learn more about EPA and social media, please refer to& our social media page. Notice Information from the EPA website resides on numerous computer systems funded by the Agency. The use of the EPA websites may be monitored for computer security purposes. Any unauthorized access to the EPA website is prohibited and is subject to criminal and civil penalties under federal laws including, but not limited to, Public Law 99-474, the Computer Fraud and Abuse Act of 1986. Terms of Use for Geospatial Data These geospatial data and corresponding cartographic materials have been approved for use by the U.S. Environmental Protection Agency (EPA) as advised by the EPA Geospatial Advisory Committee (EGAC). This approved release is on the condition that neither the EPA nor the U.S. Government may be held liable for any damages resulting from its authorized or unauthorized use. These data and any corresponding products, services, or materials do not necessarily represent the EPA\u2019s official position or viewpoint, expressed or implied. These content items are not intended for use in establishing liability or calculating cost recovery statutes of limitations. They cannot be relied upon to create any rights, substantive or procedural, enforceable by any party in litigation with the United States or third parties. Additionally, although these data have been processed successfully on EPA computer systems, no warranty expressed or implied can be made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The Agency reserves the right to revise EPA-stewarded datasets pursuant to further analysis and review without public notice. Unless otherwise specified, geospatial data produced by the EPA is by default in the public domain and is not subject to domestic copyright protection under 17 U.S.C. \u00a7 105. Referenced data from non-EPA sources are neither inherently verified nor independently tested by the Agency in all circumstances. Permission to reproduce copyrighted items not produced by the EPA must be secured from the copyright owner. EPA strongly recommends careful attention be paid to metadata files associated with these data to better understand limitations, restrictions or intended use. The U.S. EPA shall not be held liable for improper or incorrect use of the data.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "MOVES5"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "EPA"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "US Environmental Protection Agency"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.epa.gov/moves/latest-version-motor-vehicle-emission-simulator-moves"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-11-30"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-02-14"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "USEPA (2024) Motor Vehicle Emission Simulator: MOVES5. Office of Transportation and Air Quality. US Environmental Protection Agency. Ann Arbor, MI. November 2024."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "",
+                "label": "moves3-experienced-users-webinar-2021-05-05.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894069,
+                    "persistentId": "",
+                    "filename": "moves3-experienced-users-webinar-2021-05-05.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 29173561,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1ceb90-58f5af15a4b1",
+                    "rootDataFileId": -1,
+                    "md5": "7ac391bae19cd9ee044db99aeef3daf4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7ac391bae19cd9ee044db99aeef3daf4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves3-webinar-2020-12-08.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894080,
+                    "persistentId": "",
+                    "filename": "moves3-webinar-2020-12-08.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 14698184,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cf29a-8cabb4a05e94",
+                    "rootDataFileId": -1,
+                    "md5": "ac06fedcc7ee785b7b679ad416c4ed0b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ac06fedcc7ee785b7b679ad416c4ed0b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "2024-29073Federal Register Notice of Availability- Official Release of MOVES5.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894044,
+                    "persistentId": "",
+                    "filename": "2024-29073Federal Register Notice of Availability- Official Release of MOVES5.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 263464,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c5b28-71139a298e6a",
+                    "rootDataFileId": -1,
+                    "md5": "4b9c3be8437d0b8ea4654ac1eac6e231",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4b9c3be8437d0b8ea4654ac1eac6e231"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES and Mobile Source Emissions Research _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894029,
+                    "persistentId": "",
+                    "filename": "MOVES and Mobile Source Emissions Research _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 54406,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d7a03-23745298e6f7",
+                    "rootDataFileId": -1,
+                    "md5": "01c5e49cfdc5f24b1ffb932bceb9bc99",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "01c5e49cfdc5f24b1ffb932bceb9bc99"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5 Technical Guidance.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894076,
+                    "persistentId": "",
+                    "filename": "MOVES5 Technical Guidance.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1265855,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cc028-4c68a7db55fc",
+                    "rootDataFileId": -1,
+                    "md5": "49cb3c9d3af728cb194274640db336e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "49cb3c9d3af728cb194274640db336e5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves4-plan-update-overview-webinar-2023-07-20.pdf",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894036,
+                    "persistentId": "",
+                    "filename": "moves4-plan-update-overview-webinar-2023-07-20.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 698358,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1da371-f68ee4d8e69a",
+                    "rootDataFileId": -1,
+                    "md5": "d488b82ecea13cd31f9c4a506c34e4b4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d488b82ecea13cd31f9c4a506c34e4b4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5CheatsheetNonroad.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894065,
+                    "persistentId": "",
+                    "filename": "MOVES5CheatsheetNonroad.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 313423,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1ccc59-58dfa40bc4eb",
+                    "rootDataFileId": -1,
+                    "md5": "1b0fc2282a547f44200dbe77c28d291e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1b0fc2282a547f44200dbe77c28d291e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5 Technical Guidance.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894043,
+                    "persistentId": "",
+                    "filename": "MOVES5 Technical Guidance.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1265855,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c5a60-9cadc1307cfb",
+                    "rootDataFileId": -1,
+                    "md5": "49cb3c9d3af728cb194274640db336e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "49cb3c9d3af728cb194274640db336e5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5CheatsheetOnroad.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894072,
+                    "persistentId": "",
+                    "filename": "MOVES5CheatsheetOnroad.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 545905,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1ce76b-284e3a3433e1",
+                    "rootDataFileId": -1,
+                    "md5": "ed3a4067ed06e972ff14bdc4060bfa97",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ed3a4067ed06e972ff14bdc4060bfa97"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Latest Version of MOtor Vehicle Emission Simulator (MOVES) _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894054,
+                    "persistentId": "",
+                    "filename": "Latest Version of MOtor Vehicle Emission Simulator (MOVES) _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 67435,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c8dce-55b45d0c6498",
+                    "rootDataFileId": -1,
+                    "md5": "54b6123606d5227aff1f943c49c090c9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "54b6123606d5227aff1f943c49c090c9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES4 Technical Guidance.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894056,
+                    "persistentId": "",
+                    "filename": "MOVES4 Technical Guidance.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1320770,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cc451-28ac10912dc8",
+                    "rootDataFileId": -1,
+                    "md5": "2cd0b3ad63c5515da75b40131f6a0d92",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2cd0b3ad63c5515da75b40131f6a0d92"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": ".DS_Store",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894032,
+                    "persistentId": "",
+                    "filename": ".DS_Store",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 6148,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c8cc2-a5396552a989",
+                    "rootDataFileId": -1,
+                    "md5": "dfb7e975895a8eb403d9ba7d1ace0ed3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dfb7e975895a8eb403d9ba7d1ace0ed3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves3-experienced-users-webinar-2021-05-05.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894030,
+                    "persistentId": "",
+                    "filename": "moves3-experienced-users-webinar-2021-05-05.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 29173561,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c6c08-0cde267a7d51",
+                    "rootDataFileId": -1,
+                    "md5": "7ac391bae19cd9ee044db99aeef3daf4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7ac391bae19cd9ee044db99aeef3daf4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5 Policy Guidance.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894070,
+                    "persistentId": "",
+                    "filename": "MOVES5 Policy Guidance.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 640000,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c5988-43f0abbae39e",
+                    "rootDataFileId": -1,
+                    "md5": "6bd727a2a416f4257e90b20dc9c56a13",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6bd727a2a416f4257e90b20dc9c56a13"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": ".DS_Store",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894035,
+                    "persistentId": "",
+                    "filename": ".DS_Store",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 6148,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c963b-9aff3295e214",
+                    "rootDataFileId": -1,
+                    "md5": "194577a7e20bdcc7afbb718f502c134c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "194577a7e20bdcc7afbb718f502c134c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Questions and Answers EPA Releases MOVES5 Mobile Source Emissions Model.pdf",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894051,
+                    "persistentId": "",
+                    "filename": "Questions and Answers EPA Releases MOVES5 Mobile Source Emissions Model.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 113147,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1ca245-740e3cf5029d",
+                    "rootDataFileId": -1,
+                    "md5": "98dae1d62c84c1104dfa55214256c9d7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "98dae1d62c84c1104dfa55214256c9d7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves3-webinar-2020-12-08.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894058,
+                    "persistentId": "",
+                    "filename": "moves3-webinar-2020-12-08.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 14698184,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c6f6d-dbaefa73454b",
+                    "rootDataFileId": -1,
+                    "md5": "ac06fedcc7ee785b7b679ad416c4ed0b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ac06fedcc7ee785b7b679ad416c4ed0b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves5.0.0-setup-20250114.exe",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894027,
+                    "persistentId": "",
+                    "filename": "moves5.0.0-setup-20250114.exe",
+                    "contentType": "application/x-msdownload",
+                    "friendlyType": "Windows Executable",
+                    "filesize": 246581976,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c8c0d-adb645f2c201",
+                    "rootDataFileId": -1,
+                    "md5": "a47b486cd802c082eded3f14a32a87e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a47b486cd802c082eded3f14a32a87e8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Overview of EPA\u2019s MOtor Vehicle Emission Simulator (MOVES4).pdf",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894075,
+                    "persistentId": "",
+                    "filename": "Overview of EPA\u2019s MOtor Vehicle Emission Simulator (MOVES4).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1669814,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c9eb1-d9e31696e671",
+                    "rootDataFileId": -1,
+                    "md5": "5919c07632f9051bd45609af51e47468",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5919c07632f9051bd45609af51e47468"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "2024-29073Federal Register Notice of Availability- Official Release of MOVES5.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894053,
+                    "persistentId": "",
+                    "filename": "2024-29073Federal Register Notice of Availability- Official Release of MOVES5.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 263464,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cc416-d48b38092e1a",
+                    "rootDataFileId": -1,
+                    "md5": "4b9c3be8437d0b8ea4654ac1eac6e231",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4b9c3be8437d0b8ea4654ac1eac6e231"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES4 Technical Guidance.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894062,
+                    "persistentId": "",
+                    "filename": "MOVES4 Technical Guidance.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1320770,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c604c-b1766e681ae7",
+                    "rootDataFileId": -1,
+                    "md5": "2cd0b3ad63c5515da75b40131f6a0d92",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2cd0b3ad63c5515da75b40131f6a0d92"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Latest Version of MOtor Vehicle Emission Simulator (MOVES) _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894038,
+                    "persistentId": "",
+                    "filename": "Latest Version of MOtor Vehicle Emission Simulator (MOVES) _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 67435,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d4eb8-03c92f49bd99",
+                    "rootDataFileId": -1,
+                    "md5": "54b6123606d5227aff1f943c49c090c9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "54b6123606d5227aff1f943c49c090c9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Overview of EPA\u2019s MOtor Vehicle Emission Simulator (MOVES5).pdf",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894049,
+                    "persistentId": "",
+                    "filename": "Overview of EPA\u2019s MOtor Vehicle Emission Simulator (MOVES5).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2144254,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c97a7-e65c3f26589f",
+                    "rootDataFileId": -1,
+                    "md5": "7b4e7f17953077e9cf5d081128747db9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7b4e7f17953077e9cf5d081128747db9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves401-training-files-202406.zip",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894055,
+                    "persistentId": "",
+                    "filename": "moves401-training-files-202406.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6779740,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c6fb2-8e9fb2fb36af",
+                    "rootDataFileId": -1,
+                    "md5": "71f6af26f376ad6c3ccba62b46ebe08e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "71f6af26f376ad6c3ccba62b46ebe08e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves4.0.2-setup-20250114.exe",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894079,
+                    "persistentId": "",
+                    "filename": "moves4.0.2-setup-20250114.exe",
+                    "contentType": "application/x-msdownload",
+                    "friendlyType": "Windows Executable",
+                    "filesize": 248055760,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d7efe-709f870b0ae1",
+                    "rootDataFileId": -1,
+                    "md5": "faa10c38999b45f8a7bfebf6ff2392c7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "faa10c38999b45f8a7bfebf6ff2392c7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": ".DS_Store",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894050,
+                    "persistentId": "",
+                    "filename": ".DS_Store",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 6148,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c6459-82d4c7f3244c",
+                    "rootDataFileId": -1,
+                    "md5": "194577a7e20bdcc7afbb718f502c134c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "194577a7e20bdcc7afbb718f502c134c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES Greenhouse Gas Guidance.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894067,
+                    "persistentId": "",
+                    "filename": "MOVES Greenhouse Gas Guidance.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 937600,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cbc37-7b831e9137a7",
+                    "rootDataFileId": -1,
+                    "md5": "bf181ebd2711a53dacde1f68a67c5570",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf181ebd2711a53dacde1f68a67c5570"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Questions and Answers EPA Releases MOVES5 Mobile Source Emissions Model.pdf",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894041,
+                    "persistentId": "",
+                    "filename": "Questions and Answers EPA Releases MOVES5 Mobile Source Emissions Model.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 113147,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d8b21-19c8d795d654",
+                    "rootDataFileId": -1,
+                    "md5": "98dae1d62c84c1104dfa55214256c9d7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "98dae1d62c84c1104dfa55214256c9d7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5 Policy Guidance.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894063,
+                    "persistentId": "",
+                    "filename": "MOVES5 Policy Guidance.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 640000,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cbfb0-222d9cd7eb43",
+                    "rootDataFileId": -1,
+                    "md5": "6bd727a2a416f4257e90b20dc9c56a13",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6bd727a2a416f4257e90b20dc9c56a13"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES Hands-on Training Course _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894052,
+                    "persistentId": "",
+                    "filename": "MOVES Hands-on Training Course _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 62421,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c8f39-8bacb765d97a",
+                    "rootDataFileId": -1,
+                    "md5": "903cdbea4b4e886b9dcff289d929968c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "903cdbea4b4e886b9dcff289d929968c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": ".DS_Store",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894048,
+                    "persistentId": "",
+                    "filename": ".DS_Store",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 6148,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d8213-fa23354ef0ce",
+                    "rootDataFileId": -1,
+                    "md5": "194577a7e20bdcc7afbb718f502c134c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "194577a7e20bdcc7afbb718f502c134c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Overview of EPA\u2019s MOtor Vehicle Emission Simulator (MOVES4).pdf",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894071,
+                    "persistentId": "",
+                    "filename": "Overview of EPA\u2019s MOtor Vehicle Emission Simulator (MOVES4).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1669814,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d8995-8c32b99c39d6",
+                    "rootDataFileId": -1,
+                    "md5": "5919c07632f9051bd45609af51e47468",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5919c07632f9051bd45609af51e47468"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Overview of EPA\u2019s MOtor Vehicle Emission Simulator (MOVES5).pdf",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894073,
+                    "persistentId": "",
+                    "filename": "Overview of EPA\u2019s MOtor Vehicle Emission Simulator (MOVES5).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2144254,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d84e4-5ec06209e808",
+                    "rootDataFileId": -1,
+                    "md5": "7b4e7f17953077e9cf5d081128747db9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7b4e7f17953077e9cf5d081128747db9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": ".DS_Store",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894060,
+                    "persistentId": "",
+                    "filename": ".DS_Store",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 6148,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cd5db-40ba98e77b5d",
+                    "rootDataFileId": -1,
+                    "md5": "194577a7e20bdcc7afbb718f502c134c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "194577a7e20bdcc7afbb718f502c134c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES and Mobile Source Emissions Research _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894040,
+                    "persistentId": "",
+                    "filename": "MOVES and Mobile Source Emissions Research _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 54406,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c939d-392aaf585574",
+                    "rootDataFileId": -1,
+                    "md5": "01c5e49cfdc5f24b1ffb932bceb9bc99",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "01c5e49cfdc5f24b1ffb932bceb9bc99"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves5-webinar-2024-12-18.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894061,
+                    "persistentId": "",
+                    "filename": "moves5-webinar-2024-12-18.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1589911,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cd80e-6b2862572f50",
+                    "rootDataFileId": -1,
+                    "md5": "a04bf5795996641b527fc8b4e91bee2b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a04bf5795996641b527fc8b4e91bee2b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES Hands-on Training Course _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894077,
+                    "persistentId": "",
+                    "filename": "MOVES Hands-on Training Course _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 62421,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d72e1-e0807dcd1d45",
+                    "rootDataFileId": -1,
+                    "md5": "903cdbea4b4e886b9dcff289d929968c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "903cdbea4b4e886b9dcff289d929968c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES Training _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894045,
+                    "persistentId": "",
+                    "filename": "MOVES Training _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 60792,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c902d-7b367514bca6",
+                    "rootDataFileId": -1,
+                    "md5": "96feacb334dabd0898672e1b91890ed2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "96feacb334dabd0898672e1b91890ed2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves4-plan-update-overview-webinar-2023-07-20.pdf",
+                "restricted": false,
+                "directoryLabel": "Overview",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894074,
+                    "persistentId": "",
+                    "filename": "moves4-plan-update-overview-webinar-2023-07-20.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 698358,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cb0e4-e5f400d6b529",
+                    "rootDataFileId": -1,
+                    "md5": "d488b82ecea13cd31f9c4a506c34e4b4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d488b82ecea13cd31f9c4a506c34e4b4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves4-0-1-training-slides-2024-06.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894047,
+                    "persistentId": "",
+                    "filename": "moves4-0-1-training-slides-2024-06.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 14597520,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cca34-3a8a3b0ef24e",
+                    "rootDataFileId": -1,
+                    "md5": "455652d2b7189ae68699ddf685d041cb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "455652d2b7189ae68699ddf685d041cb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5CheatsheetNonroad.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894057,
+                    "persistentId": "",
+                    "filename": "MOVES5CheatsheetNonroad.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 313423,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c6137-b31451505e8c",
+                    "rootDataFileId": -1,
+                    "md5": "1b0fc2282a547f44200dbe77c28d291e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1b0fc2282a547f44200dbe77c28d291e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves4-webinar-2023-09-13.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894066,
+                    "persistentId": "",
+                    "filename": "moves4-webinar-2023-09-13.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1986742,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1ccde7-0051556c23d4",
+                    "rootDataFileId": -1,
+                    "md5": "a2257c58f78855d730904ce456f37115",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a2257c58f78855d730904ce456f37115"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5 Update Log _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894031,
+                    "persistentId": "",
+                    "filename": "MOVES5 Update Log _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 56944,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d771e-a320a25379c8",
+                    "rootDataFileId": -1,
+                    "md5": "80a336038e84fa19099c12a3919fe5c9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "80a336038e84fa19099c12a3919fe5c9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves4-webinar-2023-09-13.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894039,
+                    "persistentId": "",
+                    "filename": "moves4-webinar-2023-09-13.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1986742,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c638b-f3e762777da1",
+                    "rootDataFileId": -1,
+                    "md5": "a2257c58f78855d730904ce456f37115",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a2257c58f78855d730904ce456f37115"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES Training _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894033,
+                    "persistentId": "",
+                    "filename": "MOVES Training _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 60792,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d76a6-f1be21b7a767",
+                    "rootDataFileId": -1,
+                    "md5": "96feacb334dabd0898672e1b91890ed2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "96feacb334dabd0898672e1b91890ed2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves5.0.0-setup-20250114.exe",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894078,
+                    "persistentId": "",
+                    "filename": "moves5.0.0-setup-20250114.exe",
+                    "contentType": "application/x-msdownload",
+                    "friendlyType": "Windows Executable",
+                    "filesize": 246581976,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cf8a5-0249c730bb3f",
+                    "rootDataFileId": -1,
+                    "md5": "a47b486cd802c082eded3f14a32a87e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a47b486cd802c082eded3f14a32a87e8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": ".DS_Store",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894064,
+                    "persistentId": "",
+                    "filename": ".DS_Store",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 6148,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1d3fe1-34b7c695632d",
+                    "rootDataFileId": -1,
+                    "md5": "dfb7e975895a8eb403d9ba7d1ace0ed3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dfb7e975895a8eb403d9ba7d1ace0ed3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves4.0.2-setup-20250114.exe",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894034,
+                    "persistentId": "",
+                    "filename": "moves4.0.2-setup-20250114.exe",
+                    "contentType": "application/x-msdownload",
+                    "friendlyType": "Windows Executable",
+                    "filesize": 248055760,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c944c-02ce454e971d",
+                    "rootDataFileId": -1,
+                    "md5": "faa10c38999b45f8a7bfebf6ff2392c7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "faa10c38999b45f8a7bfebf6ff2392c7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves4-0-1-training-slides-2024-06.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894028,
+                    "persistentId": "",
+                    "filename": "moves4-0-1-training-slides-2024-06.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 14597520,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c60d5-26916b80d5db",
+                    "rootDataFileId": -1,
+                    "md5": "455652d2b7189ae68699ddf685d041cb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "455652d2b7189ae68699ddf685d041cb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES Greenhouse Gas Guidance.pdf",
+                "restricted": false,
+                "directoryLabel": "Guidance",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894037,
+                    "persistentId": "",
+                    "filename": "MOVES Greenhouse Gas Guidance.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 937600,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c5868-0380c4b01ec2",
+                    "rootDataFileId": -1,
+                    "md5": "bf181ebd2711a53dacde1f68a67c5570",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf181ebd2711a53dacde1f68a67c5570"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5CheatsheetOnroad.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894059,
+                    "persistentId": "",
+                    "filename": "MOVES5CheatsheetOnroad.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 545905,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c66dc-1dd77715140b",
+                    "rootDataFileId": -1,
+                    "md5": "ed3a4067ed06e972ff14bdc4060bfa97",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ed3a4067ed06e972ff14bdc4060bfa97"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves5-webinar-2024-12-18.pdf",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894046,
+                    "persistentId": "",
+                    "filename": "moves5-webinar-2024-12-18.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1589911,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c65c3-6d7c62348a4f",
+                    "rootDataFileId": -1,
+                    "md5": "a04bf5795996641b527fc8b4e91bee2b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a04bf5795996641b527fc8b4e91bee2b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "MOVES5 Update Log _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "HTML",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894068,
+                    "persistentId": "",
+                    "filename": "MOVES5 Update Log _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 56944,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1c91c2-3a06eb3a6894",
+                    "rootDataFileId": -1,
+                    "md5": "80a336038e84fa19099c12a3919fe5c9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "80a336038e84fa19099c12a3919fe5c9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "moves401-training-files-202406.zip",
+                "restricted": false,
+                "directoryLabel": "Training",
+                "version": 1,
+                "datasetVersionId": 437630,
+                "dataFile": {
+                    "id": 10894042,
+                    "persistentId": "",
+                    "filename": "moves401-training-files-202406.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6779740,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a1cf614-80e4c7493cbe",
+                    "rootDataFileId": -1,
+                    "md5": "71f6af26f376ad6c3ccba62b46ebe08e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "71f6af26f376ad6c3ccba62b46ebe08e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

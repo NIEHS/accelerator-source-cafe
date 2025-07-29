@@ -1,0 +1,723 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 439113,
+        "datasetId": 10886990,
+        "datasetPersistentId": "doi:10.7910/DVN/X9E5LC",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/X9E5LC",
+        "versionNumber": 2,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:pxHpeKXcbxsCFXkUdiG+Pw==",
+        "lastUpdateTime": "2025-03-05T21:41:10Z",
+        "releaseTime": "2025-03-05T21:41:10Z",
+        "createTime": "2025-03-05T21:38:30Z",
+        "publicationDate": "2025-02-24",
+        "citationDate": "2025-02-24",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Pesticide Incident Data System (IDS)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Protection Agency"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Protection Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information \n<br /><br />\n\nIf you have questions about the underlying data stored here, please contact the Environmental Protection Agency (Report.Pesticide.Incident@epa.gov). With questions about the metadata or extracted data format, please contact CAFE at climatecafe@bu.edu\n<br /><br />\n\n\"This online database provides information on pesticide-related incidents (both individually reported incidents and those submitted in aggregate) for the past 10 years. The database is updated every month to add the most recent month of incidents.\" [Quote from: https://ordspub.epa.gov/ords/pesticides/f?p=359:1]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-14"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Agricultural Sciences",
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Pesticide"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Glyphosate"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "References"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Centers for Disease Control and Prevention (CDC), National Institute for Occupational Safety and Health (NIOSH). Sentinel Event Notification System for Occupational Risk (SENSOR), SENSOR-Pesticides Database Program. In: Worker Health Charts (WHC). Count of Acute Pesticide-Related Illnesses by State, 1998 - 2011, at https://wwwn.cdc.gov/NIOSH-WHC/chart/SENSOR-PE?T=ZS&V=C&D=ALL&chk_codes=False. Cincinnati, OH: US Department of Health and Human Services, CDC, NIOSH. Accessed February 14, 2025."
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://wwwn.cdc.gov/NIOSH-WHC/chart/SENSOR-PE?T=ZS&V=C&D=ALL&chk_codes=False"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "References"
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "url"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://npic.orst.edu/incidents.html"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://npic.orst.edu/incidents.html"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\n\u201cPesticide Incident Data System (IDS)\u201d data was downloaded by Hannah Mandell on 2025-02-14 and Nicholas Hartmann on 2025-02-26 (Aggregate Incident data)"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Mandell, Hannah"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2013-07-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The disclaimers below were copied as is from the EPA Disclaimers site (https://www.epa.gov/web-policies-and-procedures/epa-disclaimers): \"Disclaimer of Endorsement Mention of or referral to commercial products or services, and/or links to non-EPA sites does not imply official EPA endorsement of or responsibility for the opinions, ideas, data, or products presented at those locations, or guarantee the validity of the information provided. Mention of commercial products/services on non-EPA websites is provided solely as a pointer to information on topics related to environmental protection that may be useful to EPA staff and the public. Copyright Status The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes. Commercial use of the documents available from the EPA websites may be protected under the U.S. and Foreign Copyright Laws. Individual documents on the EPA website may have different copyright conditions, and that will be noted in those documents. Disclaimer of Liability With respect to documents available from the EPA website, neither the United States Government nor any of their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Exit Disclaimer The Exit icon denotes that you are leaving the EPA website and entering an external link or a third-party site. EPA's official web site is www.epa.gov. EPA has provided this link because it provides additional information that may be useful or interesting and is being provided in a manner consistent with the intended purpose of the EPA website. Please note that EPA uses third-party sites to provide EPA content already on www.epa.gov in a different format. EPA cannot attest to the accuracy of non-EPA information provided by these third-party sites or any other linked site. EPA is providing these links for your reference. In doing so, EPA does not endorse any non-government websites, companies or applications. Also, please be aware that the privacy protection provided on the EPA.gov domain (EPA Privacy and Security Notice) does not apply to these third-party sites. To learn more about EPA and social media, please refer to& our social media page. Notice Information from the EPA website resides on numerous computer systems funded by the Agency. The use of the EPA websites may be monitored for computer security purposes. Any unauthorized access to the EPA website is prohibited and is subject to criminal and civil penalties under federal laws including, but not limited to, Public Law 99-474, the Computer Fraud and Abuse Act of 1986. Terms of Use for Geospatial Data These geospatial data and corresponding cartographic materials have been approved for use by the U.S. Environmental Protection Agency (EPA) as advised by the EPA Geospatial Advisory Committee (EGAC). This approved release is on the condition that neither the EPA nor the U.S. Government may be held liable for any damages resulting from its authorized or unauthorized use. These data and any corresponding products, services, or materials do not necessarily represent the EPA\u2019s official position or viewpoint, expressed or implied. These content items are not intended for use in establishing liability or calculating cost recovery statutes of limitations. They cannot be relied upon to create any rights, substantive or procedural, enforceable by any party in litigation with the United States or third parties. Additionally, although these data have been processed successfully on EPA computer systems, no warranty expressed or implied can be made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The Agency reserves the right to revise EPA-stewarded datasets pursuant to further analysis and review without public notice. Unless otherwise specified, geospatial data produced by the EPA is by default in the public domain and is not subject to domestic copyright protection under 17 U.S.C. \u00a7 105. Referenced data from non-EPA sources are neither inherently verified nor independently tested by the Agency in all circumstances. Permission to reproduce copyrighted items not produced by the EPA must be secured from the copyright owner. EPA strongly recommends careful attention be paid to metadata files associated with these data to better understand limitations, restrictions or intended use. The U.S. EPA shall not be held liable for improper or incorrect use of the data.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Incident Data System (IDS)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Environmental Protection Agency"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Environmental Protection Agency"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://ordspub.epa.gov/ords/pesticides/f?p=359:3::::RP::"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-01"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Interview or other qualitative data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Submitted Incident Reports (https://www.epa.gov/pesticide-incidents/introduction-pesticide-incidents)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "When people report adverse effects from pesticides to EPA, these reports are stored in the Incident Data System (IDS). Pesticide incident reports tell EPA about adverse effects on people, domestic animals (such as pets or livestock), wildlife, or the environment (air, soil, water, plants). Reporting a pesticide incident helps provide EPA with information on the effects and consequences of exposures to pesticides affecting people and the environment.\n\nThere are two parts of IDS:\n\n1. The first data set contains individual incidents that were submitted to EPA with a description of the incident (e.g., how and where the incident occurred). \n2. The second data set contains incidents that were submitted in aggregate to the Agency. These incidents are submitted in bulk and only contain information on the product and the severity of the incident, with no narrative description. Incidents may be aggregated under certain conditions, as outlined in the Agency\u2019s PR Notice 98-3.\n\nFor either data set, a single submission may contain one or more incidents."
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "EPA has limited confidence in the accuracy and validity of the data because the data entries are reports of one individual\u2019s perspective of what happened. These perspectives vary widely, which is why EPA evaluates the legitimacy of the reports before using them for regulatory decisions. The public should use caution when analyzing these data as EPA does not guarantee the completeness or adequacy of the contents of the IDS. Any rigorous analysis of these data would be expected to reveal errors in the content of the data sets."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Air Pollution"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "A CSV of the Incident Data System records from July 2013 through January 2025.",
+                "label": "IDS_Incidents.tab",
+                "restricted": false,
+                "directoryLabel": "IDS_Incidents.csv",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10886995,
+                    "persistentId": "",
+                    "filename": "IDS_Incidents.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 18608438,
+                    "description": "A CSV of the Incident Data System records from July 2013 through January 2025.",
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195063b8b11-9349d8542a25",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 17286962,
+                    "originalFileName": "IDS_Incidents.csv",
+                    "UNF": "UNF:6:8Mjh3SNaJHyWkdMb4a8vQw==",
+                    "rootDataFileId": -1,
+                    "md5": "65aae59a7f08a1e4e8dc81e063d84d09",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "65aae59a7f08a1e4e8dc81e063d84d09"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Metadata. Description of the data contained in the IDS, how reports are submitted and/or aggregated, column descriptions, and a reliability disclaimer. ",
+                "label": "About the Incident Data System (IDS) _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "About_the_Incident_Data_System_IDS_US_EPA.pdf",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10886996,
+                    "persistentId": "",
+                    "filename": "About the Incident Data System (IDS) _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 62444,
+                    "description": "Metadata. Description of the data contained in the IDS, how reports are submitted and/or aggregated, column descriptions, and a reliability disclaimer. ",
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195063b88e9-9d5cfe8ed6af",
+                    "rootDataFileId": -1,
+                    "md5": "e4a5926954b8a7fe170a8ca8baf0c074",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e4a5926954b8a7fe170a8ca8baf0c074"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "A short webpage describing why and how the EPA handles Pesticide Incident Reports.",
+                "label": "Introduction to Pesticide Incidents _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "Introduction_to_Pesticide_Incidents_US_EPA.pdf",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10886992,
+                    "persistentId": "",
+                    "filename": "Introduction to Pesticide Incidents _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 41971,
+                    "description": "A short webpage describing why and how the EPA handles Pesticide Incident Reports.",
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195063b8f0b-58a1b539c7a8",
+                    "rootDataFileId": -1,
+                    "md5": "2d694d3a01bd656dccc5d73c3d25efe7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d694d3a01bd656dccc5d73c3d25efe7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Aggregate Incidents.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 439113,
+                "dataFile": {
+                    "id": 10950667,
+                    "persistentId": "",
+                    "filename": "Aggregate Incidents.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 10503397,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195683edd56-97c24bac5bed",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 9264919,
+                    "originalFileName": "Aggregate Incidents.csv",
+                    "UNF": "UNF:6:cIy5BYL9NAj3ELT/j25xQw==",
+                    "rootDataFileId": -1,
+                    "md5": "2628c7502b57ca2b710f8d54ebb1930e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2628c7502b57ca2b710f8d54ebb1930e"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-03-05",
+                    "publicationDate": "2025-03-05",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "When pesticide incidents are reported to EPA, they are assigned an incident \u201cseverity category.\u201d EPA uses the severity category to indicate how much an incident may have impacted the health of humans or the environment.",
+                "label": "Severity Categories Used for Pesticide Incident Reporting _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "Severity_Categories_Used_for_Pesticide_Incident_Reporting_US_EPA.pdf",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10886998,
+                    "persistentId": "",
+                    "filename": "Severity Categories Used for Pesticide Incident Reporting _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 83480,
+                    "description": "When pesticide incidents are reported to EPA, they are assigned an incident \u201cseverity category.\u201d EPA uses the severity category to indicate how much an incident may have impacted the health of humans or the environment.",
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195063b956f-b436290a8e0e",
+                    "rootDataFileId": -1,
+                    "md5": "5f1275f833f184052bfdfc2a1ce6d165",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5f1275f833f184052bfdfc2a1ce6d165"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "HTML version of the equivalent attached PDF.",
+                "label": "Introduction to Pesticide Incidents _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "Introduction_to_Pesticide_Incidents_US_EPA.html",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Documentation",
+                    "HTML"
+                ],
+                "dataFile": {
+                    "id": 10886994,
+                    "persistentId": "",
+                    "filename": "Introduction to Pesticide Incidents _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 68581,
+                    "description": "HTML version of the equivalent attached PDF.",
+                    "categories": [
+                        "Documentation",
+                        "HTML"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19506488894-a457e9060eb5",
+                    "rootDataFileId": -1,
+                    "md5": "0b8d92c25c7d8e745165f6e7ef814775",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0b8d92c25c7d8e745165f6e7ef814775"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "A PDF describing how to use the online IDS tool and the types of data in the database. The Appendix has a table of Pesticide Incident Reporting Severity Categories.",
+                "label": "IDS_Website_User_Guide.pdf",
+                "restricted": false,
+                "directoryLabel": "Incident_Data_System_User_Guide",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10886997,
+                    "persistentId": "",
+                    "filename": "IDS_Website_User_Guide.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1073870,
+                    "description": "A PDF describing how to use the online IDS tool and the types of data in the database. The Appendix has a table of Pesticide Incident Reporting Severity Categories.",
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195063b8d04-0631817259c7",
+                    "rootDataFileId": -1,
+                    "md5": "00542153bc04b132ce53c621cd59b2a7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "00542153bc04b132ce53c621cd59b2a7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "EPA Disclaimers _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 439113,
+                "dataFile": {
+                    "id": 10903370,
+                    "persistentId": "",
+                    "filename": "EPA Disclaimers _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 97989,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19539fa1ff3-d7cca6904b5d",
+                    "rootDataFileId": -1,
+                    "md5": "de90bdd8ae95f85060b264b7e8ad6c70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de90bdd8ae95f85060b264b7e8ad6c70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "HTML version of the equivalent attached PDF.",
+                "label": "About the Incident Data System (IDS) _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "About_the_Incident_Data_System_IDS_US_EPA.html",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Documentation",
+                    "HTML"
+                ],
+                "dataFile": {
+                    "id": 10886999,
+                    "persistentId": "",
+                    "filename": "About the Incident Data System (IDS) _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 68733,
+                    "description": "HTML version of the equivalent attached PDF.",
+                    "categories": [
+                        "Documentation",
+                        "HTML"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19506488ab9-13a6ee2c59c6",
+                    "rootDataFileId": -1,
+                    "md5": "6df2bf31dc3482b2b830b3ac5f321e02",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6df2bf31dc3482b2b830b3ac5f321e02"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "HTML version of the equivalent attached PDF.",
+                "label": "Incident Data System (IDS).html",
+                "restricted": false,
+                "directoryLabel": "Incident_Data_System_IDS.html",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Documentation",
+                    "HTML"
+                ],
+                "dataFile": {
+                    "id": 10886991,
+                    "persistentId": "",
+                    "filename": "Incident Data System (IDS).html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 27301,
+                    "description": "HTML version of the equivalent attached PDF.",
+                    "categories": [
+                        "Documentation",
+                        "HTML"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19506488641-01b7bab4a9fa",
+                    "rootDataFileId": -1,
+                    "md5": "edb4407f1195f97c91f831b586f95ab5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "edb4407f1195f97c91f831b586f95ab5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "HTML version of the equivalent attached PDF.",
+                "label": "Severity Categories Used for Pesticide Incident Reporting _ US EPA.html",
+                "restricted": false,
+                "directoryLabel": "Severity_Categories_Used_for_Pesticide_Incident_Reporting_US_EPA.html",
+                "version": 1,
+                "datasetVersionId": 439113,
+                "categories": [
+                    "Documentation",
+                    "HTML"
+                ],
+                "dataFile": {
+                    "id": 10886993,
+                    "persistentId": "",
+                    "filename": "Severity Categories Used for Pesticide Incident Reporting _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 70975,
+                    "description": "HTML version of the equivalent attached PDF.",
+                    "categories": [
+                        "Documentation",
+                        "HTML"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19506488440-9e561a743945",
+                    "rootDataFileId": -1,
+                    "md5": "7f8638bd0c6bdcb0151c5d5701320db1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7f8638bd0c6bdcb0151c5d5701320db1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

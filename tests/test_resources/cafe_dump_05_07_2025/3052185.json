@@ -1,0 +1,221 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 128766,
+        "datasetId": 3052185,
+        "datasetPersistentId": "doi:10.7910/DVN/I3ZKJL",
+        "storageIdentifier": "s3://10.7910/DVN/I3ZKJL",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-21T20:01:12Z",
+        "releaseTime": "2025-04-21T20:01:12Z",
+        "createTime": "2017-09-15T20:31:36Z",
+        "publicationDate": "2025-04-21",
+        "citationDate": "2025-04-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Jail Inmates in 2015"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Justice Statistics"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data from the National Prisoners Statistics and Annual Survey of Jails. The survey collects data from a nationally representative sample of local jails on jail inmate..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Law"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sustainable Development"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SDGs"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NRP"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Crime"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "O'Brien, Karen"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-09-15"
+                    }
+                ]
+            },
+            "socialscience": {
+                "displayName": "Social Science and Humanities Metadata",
+                "name": "socialscience",
+                "fields": [
+                    {
+                        "typeName": "unitOfAnalysis",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "prisons, inmates"
+                        ]
+                    },
+                    {
+                        "typeName": "universe",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "inmates"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "57514BD9-9785-4AD4-A2D0-432170C53A51(2).tar.gz",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 128766,
+                "dataFile": {
+                    "id": 3052187,
+                    "persistentId": "",
+                    "filename": "57514BD9-9785-4AD4-A2D0-432170C53A51(2).tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 58868,
+                    "storageIdentifier": "s3://dvn-cloud:15e8744b7a5-f4db146bfef1",
+                    "rootDataFileId": -1,
+                    "md5": "6f91548a0372e8855de2437a491ec893",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6f91548a0372e8855de2437a491ec893"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-15",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "57514bd9-9785-4ad4-a2d0-432170c53a51.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 128766,
+                "dataFile": {
+                    "id": 3052188,
+                    "persistentId": "",
+                    "filename": "57514bd9-9785-4ad4-a2d0-432170c53a51.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 1017,
+                    "storageIdentifier": "s3://dvn-cloud:15e8747284e-a48aa054f2c4",
+                    "rootDataFileId": -1,
+                    "md5": "ec6cf95380a7c09b8d4d0cde79382158",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ec6cf95380a7c09b8d4d0cde79382158"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-15",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

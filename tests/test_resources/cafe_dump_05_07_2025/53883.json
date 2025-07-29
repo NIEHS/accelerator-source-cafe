@@ -1,0 +1,303 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 52082,
+        "datasetId": 53883,
+        "datasetPersistentId": "doi:10.7910/DVN/8ZNVYA",
+        "storageIdentifier": "s3://10.7910/DVN/8ZNVYA",
+        "versionNumber": 2,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "DRAFT",
+        "deaccessionNote": "",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2011-07-21T21:18:26Z",
+        "releaseTime": "2011-07-21T00:00:00Z",
+        "createTime": "2011-07-21T21:17:57Z",
+        "alternativePersistentId": "hdl:1902.1/16334",
+        "publicationDate": "2011-07-21",
+        "citationDate": "2011-07-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Kids\u2019 Inpatient Database (KID)"
+                    },
+                    {
+                        "typeName": "subtitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "HCUP"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Users are able to access information related to inpatient care for children under 20 years old. Researchers, students, and policymakers can use the KID to identify, track, and analyze national trends in health care utilization, access, charges, quality, and outcomes.\n<p><b>Background</b></p> The Kids' Inpatient Database (KID) is one in a family of databases and software tools developed as part of the Healthcare Cost and Utilization Project (HCUP). A Federal-State-Industry partnership sponsored by the Agency for Healthcare Research and Quality, HCUP data inform decisionmaking at the national, State, and community levels. The KID is nationally representative sample. The Kids' Inpatient Database (KID) for 2009 includes 4,121 hospitals from 44 states. The KID fo\nr 2006 includes 3,739 hospitals from 38 states. The KID for 2003 includes 3,438 hospitals from 36 states. The KID for 2000 includes 2,784 hospitals from 27 States. The KID for 1997 includes 2,521 hospitals from 22 States.\n<p><b>User functionality </b></p> Users must pay to access the KID database. KID files for 2009, 2006, 2003, 2000, and 1997 are available through the HCUP Central Distributor. The 2009 KID may be purchased for $50 for students and $350 for all others on a single DVD-ROM with accompanying documentation. C The KID is distributed as fixed-width ASCII formatted data files compressed with WinZip\u00ae. Previously it was distributed on two CD ROMs, but beginning with the 2009 KID, it is distributed on a si\nngle DVD. In order to load and analyze the KID data on a computer, you will need a DVD drive, a hard drive with 10 gigabytes of space available, and SAS, SPSS, Stata or similar analysis software\n<p><b>Data Notes </b></p> KID data is available for 1997, 2000, 2003, 2006, and 2009.  Surveys are completed every three years."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2011-07"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "HCUP"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Healthcare Cost and Utilization Project"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Healthcare cost"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "health cost"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "cost of care"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "hospital stay"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "hospital cost"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "inpatient care"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "inpatient cost"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "children inpatient care"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "children inpatient cost"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "hospital discharges"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "children discharges"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "children hospital discharges"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "pediatric patients"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "children hospital patients"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "pediatric hospital patients"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "pediatric hospital costs"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "pediatric hospital discharges"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "producer",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "producerName": {
+                                    "typeName": "producerName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Click here to access data from site"
+                                },
+                                "producerURL": {
+                                    "typeName": "producerURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://hcup-us.ahrq.gov/kidoverview.jsp#databases"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2011-07-21"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "U.S. State, U.S. National"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": []
+    }
+}

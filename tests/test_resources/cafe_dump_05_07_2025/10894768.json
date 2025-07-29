@@ -1,0 +1,804 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437639,
+        "datasetId": 10894768,
+        "datasetPersistentId": "doi:10.7910/DVN/KVJUQ2",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/KVJUQ2",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-23T14:48:27Z",
+        "releaseTime": "2025-04-23T14:48:27Z",
+        "createTime": "2025-02-18T19:02:12Z",
+        "publicationDate": "2025-04-23",
+        "citationDate": "2025-04-23",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: National Childhood Cancer Registry Explorer"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Cancer Institute"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Institutes of Health"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information: <br />\nNCCR*Explorer: An interactive website for NCCR cancer statistics [Internet]. National Cancer Institute; 2024 Sep 26. [cited 2025 Apr 23]. Available from: https://nccrexplorer.ccdi.cancer.gov.\n<br />\n<br />\n<If you have questions about the underlying data stored here, please contact the National Cancer Institute at NCIinfo@nih.gov. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br />\n<br />\n<blockquote> \"Childhood, adolescent and young adult cancer statistics from NCCR data, ages 0-39, covering 75% of the U.S. population, and using International Classification of Childhood Cancer (ICCC).\n<br /><br />\nThe National Childhood Cancer Registry (NCCR) was developed under the NCI Childhood Cancer Data Initiative (CCDI) to leverage the nation's existing, primarily adult, cancer registries to identify and follow childhood cancer cases in the United States.\"</blockquote>\n<br>\n<br>\n[Quote from: <a href=\"(https://seer.cancer.gov/statistics-network)\">(https://seer.cancer.gov/statistics-network)</a>]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NCCR*Explorer: An interactive website for NCCR cancer statistics [Internet]. National Cancer Institute; 2024 Sep 26. [cited 2025 Apr 23]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "\u201cNational Childhood Cancer Registry\u201d data was downloaded by Varun Punnam on 2025-02-18."
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Punnam, Varun"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-18"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2001-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2021-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "series",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Statistics in NCCR*Explorer"
+                                },
+                                "seriesInformation": {
+                                    "typeName": "seriesInformation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "\"NCCR*Explorer provides incidence and survival statistics for cancers in children and adolescent and young adults, ages 0-39, diagnosed from 2001 forward, using data from the National Childhood Cancer Registry (NCCR). It provides detailed statistics for a cancer site by sex, race/ethnicity, and age, and allows for comparison across cancer sites and subsites.\""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "relatedMaterial",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Data from Cancer in North America (CiNA) (North American Association of Central Cancer Registries (NAACCR) 1995-2021 and the NCI's Surveillance, Epidemiology and End Results (SEER) Registries), submitted December 2023). Registries include: California (Greater Bay, Greater California, Los Angeles), Colorado, Connecticut, Florida, Georgia, Hawaii, Idaho, Illinois, Iowa, Kentucky, Louisiana, Massachusetts, Michigan, Missouri, New Jersey, New Mexico, New York, Ohio, Oregon, Pennsylvania, Seattle (Puget Sound), Texas, Utah, Wisconsin. These 26 NCCR registries represent 72% of all U.S. children, adolescents, and young adults ages 0-39 based on 2021 U.S. Populations.",
+                            "Rates for American Indians/Alaska Natives only include cases that are in a Purchased/Referred Care Delivery Area (PRCDA). See SEER Race Recode Documentation for American Indian/Alaskan Native Statistics.",
+                            "Incidence data for Hispanics and Non-Hispanics are based on the NAACCR Hispanic Latino Identification Algorithm (NHIA). See SEER Race Recode Documentation for Spanish-Hispanic-Latino Ethnicity.",
+                            "Cancer sites are defined using International Classification for Childhood Cancer (ICCC), more specifically the ICCC Recode Third Edition ICD-O-3/IARC 2017 definitions based on site and morphology coded according to ICD-O-2 or ICD-O-3."
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from NCI and are pasted below: Unless otherwise indicated, all text within National Cancer Institute (NCI) products is free of copyright and may be reused without our permission. Credit the National Cancer Institute as the source. In the case of digital reproduction, please link to the original NCI product using the original product's title; for example, \"Targeted Therapy to Treat Cancer was originally published by the National Cancer Institute.\" Consider linking directly to our content rather than reproducing it, as our content may be updated over time. Some of our content is also available for syndication (more about our syndication services)."
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National Childhood Cancer Registry"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National Cancer Institute"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://nccrexplorer.ccdi.cancer.gov/data-products.html#analysis"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-12-31"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-18"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Annual"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Cancer"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "NCCR website, PDF",
+                "label": "National Childhood Cancer Registry Explorer (NCCR_Explorer).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437639,
+                "dataFile": {
+                    "id": 11112242,
+                    "persistentId": "",
+                    "filename": "National Childhood Cancer Registry Explorer (NCCR_Explorer).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 338396,
+                    "description": "NCCR website, PDF",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19663183dcc-8d200446f843",
+                    "rootDataFileId": -1,
+                    "md5": "9cc1990af1ab97caab0154f628effb95",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9cc1990af1ab97caab0154f628effb95"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-23",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Website disclaimer",
+                "label": "Reuse of NCI Information Policy - NCI.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437639,
+                "dataFile": {
+                    "id": 11112240,
+                    "persistentId": "",
+                    "filename": "Reuse of NCI Information Policy - NCI.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 126094,
+                    "description": "Website disclaimer",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:196631781fc-0b69b50949d0",
+                    "rootDataFileId": -1,
+                    "md5": "0c7049de8ae7f6604e22421ce22f3bd3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0c7049de8ae7f6604e22421ce22f3bd3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-23",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "NCCR data application HTML",
+                "label": "NCCR_Explorer Application.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437639,
+                "dataFile": {
+                    "id": 11112241,
+                    "persistentId": "",
+                    "filename": "NCCR_Explorer Application.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 41987,
+                    "description": "NCCR data application HTML",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19663183ca2-29ee24bdb146",
+                    "rootDataFileId": -1,
+                    "md5": "0b1696afe86a8fd6eb36fb22309280b6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0b1696afe86a8fd6eb36fb22309280b6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-23",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "NCCR website, HTML",
+                "label": "National Childhood Cancer Registry Explorer (NCCR_Explorer).html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437639,
+                "dataFile": {
+                    "id": 11112243,
+                    "persistentId": "",
+                    "filename": "National Childhood Cancer Registry Explorer (NCCR_Explorer).html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 19591,
+                    "description": "NCCR website, HTML",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1966318da9f-10a9ab831065",
+                    "rootDataFileId": -1,
+                    "md5": "0b759fda05cff94d0dde5ea3886e285c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0b759fda05cff94d0dde5ea3886e285c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-23",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "NCCR Explorer Help",
+                "label": "NCCR_Explorer Help.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437639,
+                "dataFile": {
+                    "id": 11112246,
+                    "persistentId": "",
+                    "filename": "NCCR_Explorer Help.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 598012,
+                    "description": "NCCR Explorer Help",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:196631d21ee-7080635a91f9",
+                    "rootDataFileId": -1,
+                    "md5": "8bfbfad5964e473f98ae8a7408cb0efe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8bfbfad5964e473f98ae8a7408cb0efe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-23",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Survival by Site 2001-2021.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437639,
+                "dataFile": {
+                    "id": 10894771,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Survival by Site 2001-2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 2951,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6eb347-15e5567d808b",
+                    "rootDataFileId": -1,
+                    "md5": "e98da7f611cfc8006eec00e1016bea81",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e98da7f611cfc8006eec00e1016bea81"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Survival by Age 2001-2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894775,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Survival by Age 2001-2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 2592,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6ea2b5-7d3ff4d1a1df",
+                    "rootDataFileId": -1,
+                    "md5": "4da9d57e8542986855a54df136d8ddbf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4da9d57e8542986855a54df136d8ddbf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Prevalence by Sex 2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894778,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Prevalence by Sex 2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 1815,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6e9c1a-637b0c0f8725",
+                    "rootDataFileId": -1,
+                    "md5": "e7ff0f55051f06c660df5a36e57c4f6c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e7ff0f55051f06c660df5a36e57c4f6c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Incidence by Sex 2001-2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894772,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Incidence by Sex 2001-2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 3841,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6e9daa-e3235088f165",
+                    "rootDataFileId": -1,
+                    "md5": "1a80403b64589dec4430bbfcb255beca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1a80403b64589dec4430bbfcb255beca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Survival by Race 2001-2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894774,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Survival by Race 2001-2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 2590,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6ea92f-aef32be6836b",
+                    "rootDataFileId": -1,
+                    "md5": "b6f49d2550519a891adf1c35af75d086",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b6f49d2550519a891adf1c35af75d086"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Incidence by Site 2001-2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894769,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Incidence by Site 2001-2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 7106,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6ea465-bd2b8c40c952",
+                    "rootDataFileId": -1,
+                    "md5": "be99bccb5be72bc6bf5de3a4e9f6b0cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "be99bccb5be72bc6bf5de3a4e9f6b0cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Incidence by Race 2001-2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894773,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Incidence by Race 2001-2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 4984,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6e94e4-e7b66cb4c150",
+                    "rootDataFileId": -1,
+                    "md5": "36c617e40e62130de847a9df4e129241",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "36c617e40e62130de847a9df4e129241"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Prevalence by Site 2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894770,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Prevalence by Site 2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 2118,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6ea12c-13001368f46d",
+                    "rootDataFileId": -1,
+                    "md5": "9d4a5f657e033a2e51a4838f5a6f16a8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9d4a5f657e033a2e51a4838f5a6f16a8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Incidence by Age 2001-2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894779,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Incidence by Age 2001-2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 5249,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6e6809-e081556a2e49",
+                    "rootDataFileId": -1,
+                    "md5": "67051634c4b1554d82d6f88c22f27287",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "67051634c4b1554d82d6f88c22f27287"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCCR Cancer Survival by Sex 2001-2021.csv",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10894776,
+                    "persistentId": "",
+                    "filename": "NCCR Cancer Survival by Sex 2001-2021.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 2384,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6eac88-2e04d837bdbb",
+                    "rootDataFileId": -1,
+                    "md5": "842fc42d32568fcbb04b1ba8d9389425",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "842fc42d32568fcbb04b1ba8d9389425"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "National Childhood Cancer Registry Documentation.pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 437639,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10894777,
+                    "persistentId": "",
+                    "filename": "National Childhood Cancer Registry Documentation.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 118274,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951a6e6687-7115befc17c8",
+                    "rootDataFileId": -1,
+                    "md5": "6a09ba4ddfc9c6cd1099e58da1534143",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6a09ba4ddfc9c6cd1099e58da1534143"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,374 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 422817,
+        "datasetId": 10291564,
+        "datasetPersistentId": "doi:10.7910/DVN/GTLASR",
+        "storageIdentifier": "s3mit://10.7910/DVN/GTLASR",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2024-06-24T20:09:00Z",
+        "releaseTime": "2024-06-24T20:09:00Z",
+        "createTime": "2024-06-21T21:19:52Z",
+        "publicationDate": "2024-06-24",
+        "citationDate": "2024-06-24",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Chicago Blocks Land Surface Temperature 2013-2022"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Khemani, Muskaan"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lane, Kevin"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rundle, Jason"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Macaraeg, Sarah"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Chicago Tribune"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Khemani, Muskaan"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mkhemani@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "These data contain the processed Land Surface Temperature using the USGS Landsat 8 Level 2, Collection 2, Tier 1 'LANDSAT/LC08/C02/T1_L2' dataset."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-06-21"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Extreme Temperatures"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Macaraeg, Sarah. \u201cMapping a Threat: Read the Investigation on Disparities in Chicago\u2019s Summer Heat.\u201d Chicago Tribune, May 25, 2023."
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "url"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.chicagotribune.com/2023/05/25/mapping-a-threat-read-the-investigation-on-disparities-in-chicagos-summer-heat/"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.chicagotribune.com/2023/05/25/mapping-a-threat-read-the-investigation-on-disparities-in-chicagos-summer-heat/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Khemani, Muskaan"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-06-21"
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "USGS Landsat 8 Level 2, Collection 2, Tier 1"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NASA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-03"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Satellite remote sensing data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataSpatialResolution",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSourceDataSpatialValue": {
+                                "typeName": "cafeSourceDataSpatialValue",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "30"
+                            },
+                            "cafeSourceDataSpatialResolutionUnit": {
+                                "typeName": "cafeSourceDataSpatialResolutionUnit",
+                                "multiple": false,
+                                "typeClass": "controlledVocabulary",
+                                "value": "Meters (m)"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Landsat-8 data data courtesy of the U.S. Geological Survey"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemName": {
+                                "typeName": "cafeSpatialReferenceSystemName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "EPSG:4326 - WGS 84"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "ChiBlocks_Boundary_LST_2013_2022_Mean_4_26_2023.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 422817,
+                "dataFile": {
+                    "id": 10291565,
+                    "persistentId": "",
+                    "filename": "ChiBlocks_Boundary_LST_2013_2022_Mean_4_26_2023.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2881439,
+                    "storageIdentifier": "s3mit://dvn-cloud:1903ca53b95-8b8429325216",
+                    "rootDataFileId": -1,
+                    "md5": "75d75fe6146c2bbb0a50368d965400e2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "75d75fe6146c2bbb0a50368d965400e2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-06-21",
+                    "publicationDate": "2024-06-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "-README_ChicagoBlocksLST.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 422817,
+                "dataFile": {
+                    "id": 10291566,
+                    "persistentId": "",
+                    "filename": "-README_ChicagoBlocksLST.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 2436,
+                    "storageIdentifier": "s3mit://dvn-cloud:1903ca53a48-ccf9750dba5e",
+                    "rootDataFileId": -1,
+                    "md5": "900a3d474ecd77822b1745ba2d4e4964",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "900a3d474ecd77822b1745ba2d4e4964"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-06-21",
+                    "publicationDate": "2024-06-24",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

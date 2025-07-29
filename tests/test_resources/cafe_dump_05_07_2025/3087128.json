@@ -1,0 +1,3900 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 131229,
+        "datasetId": 3087128,
+        "datasetPersistentId": "doi:10.7910/DVN/FPRIEN",
+        "storageIdentifier": "s3://10.7910/DVN/FPRIEN",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:ru1/w2o5G6s/P824bBaCog==",
+        "lastUpdateTime": "2025-04-22T17:03:33Z",
+        "releaseTime": "2025-04-22T17:03:33Z",
+        "createTime": "2017-12-06T17:04:54Z",
+        "publicationDate": "2025-04-22",
+        "citationDate": "2025-04-22",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "USGS Surface Water Information"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States Geological Survey"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "USGS Hydro-Climatic Data Network (HCDN-2009). This data set is very small, consisting of just an EXCEL file with information on USGS stream gage stations that are unaffected by human interventions and therefore appropriate for use to evaluate historical hydrological observations that are attributable only to climatic variations. Updated in 2009. The actual streamflow data can be downloaded from https://waterdata.usgs.gov/nwis/sw."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-12-06"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "bas_nonref_CntlPlains.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087230,
+                    "persistentId": "",
+                    "filename": "bas_nonref_CntlPlains.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 192291540,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd3a54-05da9476f614",
+                    "rootDataFileId": -1,
+                    "md5": "044d512c10f30cfa39ec24a5f0538393",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "044d512c10f30cfa39ec24a5f0538393"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_hydromod_other.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087199,
+                    "persistentId": "",
+                    "filename": "conterm_hydromod_other.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 649124,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe620-c10fd22f6abf",
+                    "rootDataFileId": -1,
+                    "md5": "92ced58a87f360261e75db657bd0aa31",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "92ced58a87f360261e75db657bd0aa31"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestXeric.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087269,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestXeric.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 636,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd0be38-bc05e9e54f7c",
+                    "rootDataFileId": -1,
+                    "md5": "81874eedea8cd12b67233412a878e205",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "81874eedea8cd12b67233412a878e205"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestPlains.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087262,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestPlains.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 31378,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccfd5ad-1ca9e5c91512",
+                    "rootDataFileId": -1,
+                    "md5": "ed4134d4677002d7cd72322733ed5ce2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ed4134d4677002d7cd72322733ed5ce2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fs2012-3047.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087133,
+                    "persistentId": "",
+                    "filename": "fs2012-3047.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 719816,
+                    "storageIdentifier": "s3://dvn-cloud:1602caff077-3ccbaba81b63",
+                    "rootDataFileId": -1,
+                    "md5": "d69b65b2f2660f134427d1f3b1860217",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d69b65b2f2660f134427d1f3b1860217"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bag-info.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087161,
+                    "persistentId": "",
+                    "filename": "bag-info.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 154,
+                    "storageIdentifier": "s3://dvn-cloud:1602caff626-6dae255901c9",
+                    "rootDataFileId": -1,
+                    "md5": "a97ef4df887c6c4625d6fc68e3bba7a9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a97ef4df887c6c4625d6fc68e3bba7a9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestXeric.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087267,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestXeric.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 28270,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd0ac32-0bdec0287fa6",
+                    "rootDataFileId": -1,
+                    "md5": "986106dfcd74ab59f6cbecad3d388e24",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "986106dfcd74ab59f6cbecad3d388e24"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_lc01_basin.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087185,
+                    "persistentId": "",
+                    "filename": "AKHIPR_lc01_basin.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 31733,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe197-297e2b8af64c",
+                    "rootDataFileId": -1,
+                    "md5": "50f2ddcded3d543d350ae315c9661905",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "50f2ddcded3d543d350ae315c9661905"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_pop_infrastr.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087186,
+                    "persistentId": "",
+                    "filename": "AKHIPR_pop_infrastr.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 5180,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe1b4-eb3ba48a8af0",
+                    "rootDataFileId": -1,
+                    "md5": "aa77eb0b4fda7f530078675e453dd93b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aa77eb0b4fda7f530078675e453dd93b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_ref_all.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087276,
+                    "persistentId": "",
+                    "filename": "bas_ref_all.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 16556,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd196c0-451efda35e59",
+                    "rootDataFileId": -1,
+                    "md5": "839c34e63a8a39152f9169ecd1477f95",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "839c34e63a8a39152f9169ecd1477f95"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestMnts-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087150,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestMnts-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 36863075,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe7733-60499a6d7a76",
+                    "rootDataFileId": -1,
+                    "md5": "abab0e4f69474cc2ac63d939df9d42e0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "abab0e4f69474cc2ac63d939df9d42e0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_nutrient_app.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087207,
+                    "persistentId": "",
+                    "filename": "conterm_nutrient_app.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 200220,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe9f1-aefcec3913e3",
+                    "rootDataFileId": -1,
+                    "md5": "d6521f98f7ad970071c14e4a2509f147",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6521f98f7ad970071c14e4a2509f147"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_pest_app.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087208,
+                    "persistentId": "",
+                    "filename": "conterm_pest_app.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 132580,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbea3a-ec5af9cd49b0",
+                    "rootDataFileId": -1,
+                    "md5": "7b7af6a9a6390c3e6bc7bcae13f33c09",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7b7af6a9a6390c3e6bc7bcae13f33c09"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_pop_infrastr.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087209,
+                    "persistentId": "",
+                    "filename": "conterm_pop_infrastr.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 427855,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbea68-ca11e174c5ec",
+                    "rootDataFileId": -1,
+                    "md5": "172dd370cee9f471598f28b998dd3ece",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "172dd370cee9f471598f28b998dd3ece"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_prot_areas.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087210,
+                    "persistentId": "",
+                    "filename": "conterm_prot_areas.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 232494,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbea94-1ce615e04d4c",
+                    "rootDataFileId": -1,
+                    "md5": "4b1b1f14217bb1c729f196e0eff5bfb9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4b1b1f14217bb1c729f196e0eff5bfb9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_regions.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087211,
+                    "persistentId": "",
+                    "filename": "conterm_regions.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 588209,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbeac0-f98f52ffe480",
+                    "rootDataFileId": -1,
+                    "md5": "526f1bf41bf19839ff7c0288a97c5009",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "526f1bf41bf19839ff7c0288a97c5009"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_soils.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087212,
+                    "persistentId": "",
+                    "filename": "conterm_soils.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1279383,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbeb07-f346b1aa5e55",
+                    "rootDataFileId": -1,
+                    "md5": "6b6930dee12800472c795c7e4b6f8be7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6b6930dee12800472c795c7e4b6f8be7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_topo.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087213,
+                    "persistentId": "",
+                    "filename": "conterm_topo.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 664207,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbeb47-60321dc9b766",
+                    "rootDataFileId": -1,
+                    "md5": "043034f60733e8c9c97d2a12416083b1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "043034f60733e8c9c97d2a12416083b1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_x_region_names.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087214,
+                    "persistentId": "",
+                    "filename": "conterm_x_region_names.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 23604,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbeba4-7d5c38f4c5d6",
+                    "rootDataFileId": -1,
+                    "md5": "790c64d52dd654108b4ba2e8c25f5a3d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "790c64d52dd654108b4ba2e8c25f5a3d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "variable_descriptions.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087215,
+                    "persistentId": "",
+                    "filename": "variable_descriptions.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 154178,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbebe7-cde3ff3b00a6",
+                    "rootDataFileId": -1,
+                    "md5": "7c2bcba6abf10c978fe92206691f49aa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7c2bcba6abf10c978fe92206691f49aa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_AKHIPR.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087216,
+                    "persistentId": "",
+                    "filename": "bas_nonref_AKHIPR.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 6220,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccc3525-33fc2daadfe3",
+                    "rootDataFileId": -1,
+                    "md5": "8c25492eae7a948814d7e097cdda1261",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8c25492eae7a948814d7e097cdda1261"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestMnts.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087260,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestMnts.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 267934572,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccfc308-ff9623487d45",
+                    "rootDataFileId": -1,
+                    "md5": "1d022bb88e1843f7a77dc85194956ca5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1d022bb88e1843f7a77dc85194956ca5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestMnts.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087261,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestMnts.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 13052,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccfcfd6-2dfe087e95ae",
+                    "rootDataFileId": -1,
+                    "md5": "cdd8bb73031ecefa21b5466c1f7d126e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cdd8bb73031ecefa21b5466c1f7d126e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestXeric.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087268,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestXeric.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 6988,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd0b8dc-d86ef63cd274",
+                    "rootDataFileId": -1,
+                    "md5": "4625cddf9f54982d0843e438b0b788aa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4625cddf9f54982d0843e438b0b788aa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_prot_areas.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087187,
+                    "persistentId": "",
+                    "filename": "AKHIPR_prot_areas.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 6202,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe1d1-26b75286f705",
+                    "rootDataFileId": -1,
+                    "md5": "83d9eb94d2b9fa8c2fdfa204f0eacc84",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "83d9eb94d2b9fa8c2fdfa204f0eacc84"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_9322_sept30_2011.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087228,
+                    "persistentId": "",
+                    "filename": "gagesII_9322_sept30_2011.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 261116,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd3046-f7ea9b490533",
+                    "rootDataFileId": -1,
+                    "md5": "e030c5f550dc84624a856bac2f19740a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e030c5f550dc84624a856bac2f19740a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_CntlPlains-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087145,
+                    "persistentId": "",
+                    "filename": "bas_nonref_CntlPlains-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 31003540,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe65bf-26dc1bb3fb89",
+                    "rootDataFileId": -1,
+                    "md5": "7900e6bc8490a4bfb82ae5a177a1d3c8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7900e6bc8490a4bfb82ae5a177a1d3c8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_EastHghlnds-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087147,
+                    "persistentId": "",
+                    "filename": "bas_nonref_EastHghlnds-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 17413515,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbef145-088a34ea3a9e",
+                    "rootDataFileId": -1,
+                    "md5": "94a0eccc052ba8251df61b70842c8735",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "94a0eccc052ba8251df61b70842c8735"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-WestPlains-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087160,
+                    "persistentId": "",
+                    "filename": "mains-nonref-WestPlains-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 17988755,
+                    "storageIdentifier": "s3://dvn-cloud:1602cafe525-e17e9e035cc2",
+                    "rootDataFileId": -1,
+                    "md5": "5c5eb1a6ff6c9ab62ac34fb7750dd080",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5c5eb1a6ff6c9ab62ac34fb7750dd080"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestMnts.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087170,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestMnts.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 36863075,
+                    "storageIdentifier": "s3://dvn-cloud:1602caffcd7-58ba2de821fc",
+                    "rootDataFileId": -1,
+                    "md5": "ce830a316ce17a92e3cfdb8c939a01ca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ce830a316ce17a92e3cfdb8c939a01ca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_NorthEast-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087177,
+                    "persistentId": "",
+                    "filename": "bas_nonref_NorthEast-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 13116522,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe9dfe-ef6192be8999",
+                    "rootDataFileId": -1,
+                    "md5": "f5c4742e60ec7ce642f7c8ad391c424d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f5c4742e60ec7ce642f7c8ad391c424d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_MxWdShld-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087156,
+                    "persistentId": "",
+                    "filename": "bas_nonref_MxWdShld-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 4931811,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe5a71-bfb68c3ece48",
+                    "rootDataFileId": -1,
+                    "md5": "6463adad8214a771c14962aaf076e9f1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6463adad8214a771c14962aaf076e9f1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_MxWdShld.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087140,
+                    "persistentId": "",
+                    "filename": "bas_nonref_MxWdShld.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 4931811,
+                    "storageIdentifier": "s3://dvn-cloud:1602cafdf75-eccc12f5407a",
+                    "rootDataFileId": -1,
+                    "md5": "2b1bc4b0c9a1fe1f79206626254b8547",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2b1bc4b0c9a1fe1f79206626254b8547"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_Sept2011.xml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087159,
+                    "persistentId": "",
+                    "filename": "gagesII_Sept2011.xml",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 21015,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb088ae-fb888d60ac03",
+                    "rootDataFileId": -1,
+                    "md5": "54293f2fbe8f1d2102a1e7668781faae",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "54293f2fbe8f1d2102a1e7668781faae"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestPlains.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087174,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestPlains.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 34515143,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb008ce-c55231b03ced",
+                    "rootDataFileId": -1,
+                    "md5": "a40fde5254d6b60bbeb15524c74c6c84",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a40fde5254d6b60bbeb15524c74c6c84"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-SEPlains-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087142,
+                    "persistentId": "",
+                    "filename": "mains-nonref-SEPlains-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 15520444,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb0160b-3d28fe911533",
+                    "rootDataFileId": -1,
+                    "md5": "e09ae90d6b21fb4f0076543daf357431",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e09ae90d6b21fb4f0076543daf357431"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_AKHIPR-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087167,
+                    "persistentId": "",
+                    "filename": "bas_nonref_AKHIPR-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 1608040,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbef674-df4c0a6f72ed",
+                    "rootDataFileId": -1,
+                    "md5": "5c99e17d3d5f04685ab7c7a18c75d643",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5c99e17d3d5f04685ab7c7a18c75d643"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestPlains-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087155,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestPlains-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 34515143,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe83f1-e836b44c0349",
+                    "rootDataFileId": -1,
+                    "md5": "22faca0025244a89cc93f4a022b7e484",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "22faca0025244a89cc93f4a022b7e484"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "5D891958-B437-4068-AFBB-34EC7B509635.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087130,
+                    "persistentId": "",
+                    "filename": "5D891958-B437-4068-AFBB-34EC7B509635.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 13542,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb08258-ac69783825e8",
+                    "rootDataFileId": -1,
+                    "md5": "9ebedfd11c2ad9923e23a8ce2180ce3f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9ebedfd11c2ad9923e23a8ce2180ce3f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-WestMnts-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087165,
+                    "persistentId": "",
+                    "filename": "mains-nonref-WestMnts-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 20489339,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb09377-036ce2b96099",
+                    "rootDataFileId": -1,
+                    "md5": "0be4017acde08d1a05428722ebe6fff3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0be4017acde08d1a05428722ebe6fff3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_NorthEast.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087153,
+                    "persistentId": "",
+                    "filename": "bas_nonref_NorthEast.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 13116522,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb0291f-c4a65b97e0db",
+                    "rootDataFileId": -1,
+                    "md5": "845af491f6254c30b06b3cf6918e0a66",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "845af491f6254c30b06b3cf6918e0a66"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-NorthEast-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087157,
+                    "persistentId": "",
+                    "filename": "mains-nonref-NorthEast-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7078277,
+                    "storageIdentifier": "s3://dvn-cloud:1602cafeff7-78abd00d8378",
+                    "rootDataFileId": -1,
+                    "md5": "811ea0578fa0b562bbce5f8848622dbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "811ea0578fa0b562bbce5f8848622dbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "spreadsheets-in-csv-format.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087169,
+                    "persistentId": "",
+                    "filename": "spreadsheets-in-csv-format.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7379999,
+                    "storageIdentifier": "s3://dvn-cloud:1602cafdde4-0660a7128714",
+                    "rootDataFileId": -1,
+                    "md5": "c94ea94b11b57b13681da1e839645b05",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c94ea94b11b57b13681da1e839645b05"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SECstPlain.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087141,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SECstPlain.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 5560787,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb08858-1e1610e39817",
+                    "rootDataFileId": -1,
+                    "md5": "433775998f46ec2481aa41fad6b6f47b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "433775998f46ec2481aa41fad6b6f47b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "readme-sept30-2011.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087143,
+                    "persistentId": "",
+                    "filename": "readme-sept30-2011.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1655,
+                    "storageIdentifier": "s3://dvn-cloud:1602caff658-80bffd7d934b",
+                    "rootDataFileId": -1,
+                    "md5": "83c39c3541cf9a602f7508aa1638877d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "83c39c3541cf9a602f7508aa1638877d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "manifest-md5.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087148,
+                    "persistentId": "",
+                    "filename": "manifest-md5.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 10908,
+                    "storageIdentifier": "s3://dvn-cloud:1602caff676-f5c0ae920d08",
+                    "rootDataFileId": -1,
+                    "md5": "35de52a8500d69d154a052454895b82f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "35de52a8500d69d154a052454895b82f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_9322_sept30_2011-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087151,
+                    "persistentId": "",
+                    "filename": "gagesII_9322_sept30_2011-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 781592,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe9636-bec30063f4d0",
+                    "rootDataFileId": -1,
+                    "md5": "177db8960be77ad2e9044ce8cb58e946",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "177db8960be77ad2e9044ce8cb58e946"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_ref_all-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087163,
+                    "persistentId": "",
+                    "filename": "bas_ref_all-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 23470193,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe9112-679a10d23ab4",
+                    "rootDataFileId": -1,
+                    "md5": "3b06ad6e7bdba0914f0733b36c81d8cb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3b06ad6e7bdba0914f0733b36c81d8cb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-SECstPlain-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087171,
+                    "persistentId": "",
+                    "filename": "mains-nonref-SECstPlain-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 3001149,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb08a83-6d8f1dd63407",
+                    "rootDataFileId": -1,
+                    "md5": "2de8499119c0b62da2de299769312b40",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2de8499119c0b62da2de299769312b40"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SEPlains-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087166,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SEPlains-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 27159273,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe6fce-85679b1df884",
+                    "rootDataFileId": -1,
+                    "md5": "ac6bb52af0eaedf12f80fdc4a234abe3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ac6bb52af0eaedf12f80fdc4a234abe3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-EastHghlnds-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087131,
+                    "persistentId": "",
+                    "filename": "mains-nonref-EastHghlnds-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 9711769,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb0027f-a9a9a33c563e",
+                    "rootDataFileId": -1,
+                    "md5": "86669fd604eda123477181bc5532a199",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "86669fd604eda123477181bc5532a199"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "5D891958-B437-4068-AFBB-34EC7B509635.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087158,
+                    "persistentId": "",
+                    "filename": "5D891958-B437-4068-AFBB-34EC7B509635.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 1381,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb08283-a0704877e986",
+                    "rootDataFileId": -1,
+                    "md5": "5084b9aaa1803e3829b7ad6592132408",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5084b9aaa1803e3829b7ad6592132408"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestXeric-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087173,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestXeric-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 18048616,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbe9556-99cc4516eb58",
+                    "rootDataFileId": -1,
+                    "md5": "01b0b45abe380814ee046c2431485e79",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "01b0b45abe380814ee046c2431485e79"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_EastHghlnds.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087162,
+                    "persistentId": "",
+                    "filename": "bas_nonref_EastHghlnds.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 17413515,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb08600-6c8bd8b405d7",
+                    "rootDataFileId": -1,
+                    "md5": "d73a74029a3228b48dcb22f2c122692d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d73a74029a3228b48dcb22f2c122692d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-WestXeric-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087164,
+                    "persistentId": "",
+                    "filename": "mains-nonref-WestXeric-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 9420175,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb0265b-146719905abd",
+                    "rootDataFileId": -1,
+                    "md5": "4f832ef550cba6d4e55d0b8fef8120db",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4f832ef550cba6d4e55d0b8fef8120db"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-MxWdShld-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087176,
+                    "persistentId": "",
+                    "filename": "mains-nonref-MxWdShld-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2286318,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb08955-b9d57bc03988",
+                    "rootDataFileId": -1,
+                    "md5": "08c0c0cc52bcddffbe475fc62a4d9201",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "08c0c0cc52bcddffbe475fc62a4d9201"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SEPlains.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087139,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SEPlains.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 27159273,
+                    "storageIdentifier": "s3://dvn-cloud:1602caff55c-b6c68cbfa3f8",
+                    "rootDataFileId": -1,
+                    "md5": "d6ca0966d0597c5143f5df3fa0a8a1f5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6ca0966d0597c5143f5df3fa0a8a1f5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_AKHIPR.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087172,
+                    "persistentId": "",
+                    "filename": "bas_nonref_AKHIPR.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 1608040,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb08af0-85a7d9abac44",
+                    "rootDataFileId": -1,
+                    "md5": "879ab372de480a7428683d21adbf4238",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "879ab372de480a7428683d21adbf4238"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_sept30_2011_report.docx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087135,
+                    "persistentId": "",
+                    "filename": "gagesII_sept30_2011_report.docx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "friendlyType": "MS Word",
+                    "filesize": 343444,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb00a91-dc8ceee074ed",
+                    "rootDataFileId": -1,
+                    "md5": "17d95156992769efc740464929de9c70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "17d95156992769efc740464929de9c70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_ref_all.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087134,
+                    "persistentId": "",
+                    "filename": "bas_ref_all.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 23470193,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb01b31-0331b72ee4fc",
+                    "rootDataFileId": -1,
+                    "md5": "ad708fde8a581af29fe2f95ebca32c03",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ad708fde8a581af29fe2f95ebca32c03"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "tagmanifest-md5.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087152,
+                    "persistentId": "",
+                    "filename": "tagmanifest-md5.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 139,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb01dde-d7ce4f9df833",
+                    "rootDataFileId": -1,
+                    "md5": "d6e5209035477c39302d7e900407936d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6e5209035477c39302d7e900407936d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_sept30_2011_var_desc.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087146,
+                    "persistentId": "",
+                    "filename": "gagesII_sept30_2011_var_desc.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 161414,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb01691-6acd3e133e68",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 57889,
+                    "originalFileName": "gagesII_sept30_2011_var_desc.xlsx",
+                    "UNF": "UNF:6:bX90IzRDSjgSU2yhpyXudA==",
+                    "rootDataFileId": -1,
+                    "md5": "e422e738d995ad924c2f14e194667f8b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e422e738d995ad924c2f14e194667f8b"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "HCDN-2009_Station_Info.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087175,
+                    "persistentId": "",
+                    "filename": "HCDN-2009_Station_Info.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 95573,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb029ae-68e08606e9b1",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 121285,
+                    "originalFileName": "HCDN-2009_Station_Info.xlsx",
+                    "UNF": "UNF:6:0R+ivI6uNhFedGmk+7u13Q==",
+                    "rootDataFileId": -1,
+                    "md5": "f4cf047b3641c49b983cd8a40685dcbb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f4cf047b3641c49b983cd8a40685dcbb"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_sept30_2011_AKHIPR.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087138,
+                    "persistentId": "",
+                    "filename": "gagesII_sept30_2011_AKHIPR.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 27000,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb09852-8c18d6d74694",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 289782,
+                    "originalFileName": "gagesII_sept30_2011_AKHIPR.xlsx",
+                    "UNF": "UNF:6:PEbDJ4bYVUsQRGO7L5pshA==",
+                    "rootDataFileId": -1,
+                    "md5": "ddc9a3a4626b233e9195a6bd318eca89",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ddc9a3a4626b233e9195a6bd318eca89"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_sept30_2011_conterm.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087144,
+                    "persistentId": "",
+                    "filename": "gagesII_sept30_2011_conterm.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 1156305,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb096f7-6354ec6ca7f8",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 48981048,
+                    "originalFileName": "gagesII_sept30_2011_conterm.xlsx",
+                    "UNF": "UNF:6:qlOpbuQOIkdxpbmNgcn7oA==",
+                    "rootDataFileId": -1,
+                    "md5": "3c5a3b80a392415a9e6a7794de6290e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3c5a3b80a392415a9e6a7794de6290e5"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-nonref-CntlPlains-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087136,
+                    "persistentId": "",
+                    "filename": "mains-nonref-CntlPlains-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 15768240,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb04590-c9d3900f240c",
+                    "rootDataFileId": -1,
+                    "md5": "1ebfacfc369f7bfb0aa90513730a0339",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1ebfacfc369f7bfb0aa90513730a0339"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_CntlPlains.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087154,
+                    "persistentId": "",
+                    "filename": "bas_nonref_CntlPlains.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 31003540,
+                    "storageIdentifier": "s3://dvn-cloud:1602cafeb10-1cc9846512a0",
+                    "rootDataFileId": -1,
+                    "md5": "5292680bf38cd7408fae570b40ec3086",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5292680bf38cd7408fae570b40ec3086"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestXeric.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087129,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestXeric.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 18048616,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb0215a-e33d4caeacc8",
+                    "rootDataFileId": -1,
+                    "md5": "5d262a05475275cdb304502ea12667df",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5d262a05475275cdb304502ea12667df"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "mains-ref-sept29-11.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087137,
+                    "persistentId": "",
+                    "filename": "mains-ref-sept29-11.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 18040175,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb03eac-0fdaf32ec2cc",
+                    "rootDataFileId": -1,
+                    "md5": "1f6e3322c076739cc413354a4aacd879",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1f6e3322c076739cc413354a4aacd879"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_9322_sept30_2011.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087168,
+                    "persistentId": "",
+                    "filename": "gagesII_9322_sept30_2011.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 781592,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb02234-98d237e3d536",
+                    "rootDataFileId": -1,
+                    "md5": "806e96e5b49daf19f2107848347ae4c3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "806e96e5b49daf19f2107848347ae4c3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SECstPlain-1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087149,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SECstPlain-1.zip",
+                    "contentType": "application/zipped-shapefile",
+                    "friendlyType": "Shapefile as ZIP Archive",
+                    "filesize": 5560787,
+                    "storageIdentifier": "s3://dvn-cloud:1602cbef326-c461564e52a3",
+                    "rootDataFileId": -1,
+                    "md5": "7037c0307ed4bb3aa334238822233f2c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7037c0307ed4bb3aa334238822233f2c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_basinid.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087178,
+                    "persistentId": "",
+                    "filename": "AKHIPR_basinid.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 21863,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe04f-cdfb3c937aea",
+                    "rootDataFileId": -1,
+                    "md5": "c00e79496cfe62c9a06653de38a0eef0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c00e79496cfe62c9a06653de38a0eef0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_bas_classif.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087179,
+                    "persistentId": "",
+                    "filename": "AKHIPR_bas_classif.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 41199,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe06e-16ad2e20e05f",
+                    "rootDataFileId": -1,
+                    "md5": "311c3aca4d96594069d6099f56f91c8e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "311c3aca4d96594069d6099f56f91c8e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_bas_morph.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087180,
+                    "persistentId": "",
+                    "filename": "AKHIPR_bas_morph.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 9400,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe090-67c4bb9374d5",
+                    "rootDataFileId": -1,
+                    "md5": "e405b73da30f9f375197111f5d9f4f07",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e405b73da30f9f375197111f5d9f4f07"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_bound_qa.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087181,
+                    "persistentId": "",
+                    "filename": "AKHIPR_bound_qa.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 8656,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe0b9-920c467f4815",
+                    "rootDataFileId": -1,
+                    "md5": "2718d1fd4b9dffd7f105280a31784c2f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2718d1fd4b9dffd7f105280a31784c2f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_flowrec.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087182,
+                    "persistentId": "",
+                    "filename": "AKHIPR_flowrec.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 63802,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe0d2-69c98d426c8f",
+                    "rootDataFileId": -1,
+                    "md5": "4c95f3300afbf01031da6258ec610d1a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4c95f3300afbf01031da6258ec610d1a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_hydromod_dams.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087183,
+                    "persistentId": "",
+                    "filename": "AKHIPR_hydromod_dams.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 9877,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe109-277138875e0b",
+                    "rootDataFileId": -1,
+                    "md5": "fd88771715108a38fc236ff146f352a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fd88771715108a38fc236ff146f352a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AKHIPR_hydromod_other.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087184,
+                    "persistentId": "",
+                    "filename": "AKHIPR_hydromod_other.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 3691,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe15b-31260369d348",
+                    "rootDataFileId": -1,
+                    "md5": "2eec4ce771069e4f7a41462d10199b15",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2eec4ce771069e4f7a41462d10199b15"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_basinid.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087188,
+                    "persistentId": "",
+                    "filename": "conterm_basinid.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 926899,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe1fe-778e33cde408",
+                    "rootDataFileId": -1,
+                    "md5": "106d5513e2d09ee14e4e4bae94a7c7b1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "106d5513e2d09ee14e4e4bae94a7c7b1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_bas_classif.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087189,
+                    "persistentId": "",
+                    "filename": "conterm_bas_classif.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1497706,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe23b-dc42aeb3fa23",
+                    "rootDataFileId": -1,
+                    "md5": "022c302554935e51426e759f6fc67637",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "022c302554935e51426e759f6fc67637"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_bas_morph.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087190,
+                    "persistentId": "",
+                    "filename": "conterm_bas_morph.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 330124,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe28b-0703594b916f",
+                    "rootDataFileId": -1,
+                    "md5": "619ebbf3f0ddbecfb6fc34193f67504c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "619ebbf3f0ddbecfb6fc34193f67504c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_bound_qa.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087191,
+                    "persistentId": "",
+                    "filename": "conterm_bound_qa.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 328228,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe2b7-ca22c641f6e3",
+                    "rootDataFileId": -1,
+                    "md5": "d56933dfb813ec23f4e7944e5bc681ae",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d56933dfb813ec23f4e7944e5bc681ae"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_climate.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087192,
+                    "persistentId": "",
+                    "filename": "conterm_climate.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 2412863,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe2fd-c4b8f4382ce5",
+                    "rootDataFileId": -1,
+                    "md5": "6050809ece76f931d5def245c18e2e0a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6050809ece76f931d5def245c18e2e0a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_climate_ppt_annual.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087193,
+                    "persistentId": "",
+                    "filename": "conterm_climate_ppt_annual.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 3072363,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe382-107a2c1971a8",
+                    "rootDataFileId": -1,
+                    "md5": "18a197951465feea8de1e29016f169df",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "18a197951465feea8de1e29016f169df"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_climate_tmp_annual.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087194,
+                    "persistentId": "",
+                    "filename": "conterm_climate_tmp_annual.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 3099579,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe42b-abd0d50cf5b8",
+                    "rootDataFileId": -1,
+                    "md5": "60dc7d26bc9b7ffd7cb85963a8b96679",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "60dc7d26bc9b7ffd7cb85963a8b96679"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_flowrec.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087195,
+                    "persistentId": "",
+                    "filename": "conterm_flowrec.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 2237436,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe4a4-337c764ea454",
+                    "rootDataFileId": -1,
+                    "md5": "03a8a70e3b5a299a01b5e6030d08d4f8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "03a8a70e3b5a299a01b5e6030d08d4f8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_geology.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087196,
+                    "persistentId": "",
+                    "filename": "conterm_geology.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1015406,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe4e3-61944cdf2412",
+                    "rootDataFileId": -1,
+                    "md5": "a48211966a113605051324c727501381",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a48211966a113605051324c727501381"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_hydro.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087197,
+                    "persistentId": "",
+                    "filename": "conterm_hydro.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1668934,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe55c-8f88b18f9597",
+                    "rootDataFileId": -1,
+                    "md5": "844c88b612109aa28733e2bc796fa56d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "844c88b612109aa28733e2bc796fa56d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_hydromod_dams.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087198,
+                    "persistentId": "",
+                    "filename": "conterm_hydromod_dams.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1219224,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe599-4c6b94c6b709",
+                    "rootDataFileId": -1,
+                    "md5": "16e6872be680acfc2b7c40213b6c6160",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "16e6872be680acfc2b7c40213b6c6160"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_landscape_pat.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087200,
+                    "persistentId": "",
+                    "filename": "conterm_landscape_pat.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 264279,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe69a-69ff329dcd68",
+                    "rootDataFileId": -1,
+                    "md5": "07dcae68f0842a1ec878d5d367217c5f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "07dcae68f0842a1ec878d5d367217c5f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_lc06_basin.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087201,
+                    "persistentId": "",
+                    "filename": "conterm_lc06_basin.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 989562,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe727-8ebb94e8b565",
+                    "rootDataFileId": -1,
+                    "md5": "35cc36d150c324d93cd963bc0b9f1f53",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "35cc36d150c324d93cd963bc0b9f1f53"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_lc06_mains100.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087202,
+                    "persistentId": "",
+                    "filename": "conterm_lc06_mains100.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 991499,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe7e1-b9bf82b690fb",
+                    "rootDataFileId": -1,
+                    "md5": "e6fc5d29ba2ba901a830169518ec8335",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e6fc5d29ba2ba901a830169518ec8335"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_lc06_mains800.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087203,
+                    "persistentId": "",
+                    "filename": "conterm_lc06_mains800.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 990984,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe865-686489d312b3",
+                    "rootDataFileId": -1,
+                    "md5": "4a211268377a68f3564b0f600b493e32",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4a211268377a68f3564b0f600b493e32"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_lc06_rip100.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087204,
+                    "persistentId": "",
+                    "filename": "conterm_lc06_rip100.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 989938,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe8d7-06100ba9a2cb",
+                    "rootDataFileId": -1,
+                    "md5": "fd38d4b1dc2a057075c48c0ed2772735",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fd38d4b1dc2a057075c48c0ed2772735"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_lc06_rip800.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087205,
+                    "persistentId": "",
+                    "filename": "conterm_lc06_rip800.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 989468,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe933-4645912ac645",
+                    "rootDataFileId": -1,
+                    "md5": "06ab68c8fa3b295c72436d7ecaf50a37",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "06ab68c8fa3b295c72436d7ecaf50a37"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "conterm_lc_crops.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087206,
+                    "persistentId": "",
+                    "filename": "conterm_lc_crops.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1102421,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccbe9ac-07d1cc7e5a5b",
+                    "rootDataFileId": -1,
+                    "md5": "bffe6d98dae4879420e2307716c883a8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bffe6d98dae4879420e2307716c883a8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_AKHIPR.prj",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087217,
+                    "persistentId": "",
+                    "filename": "bas_nonref_AKHIPR.prj",
+                    "contentType": "text/plain; charset=US-ASCII",
+                    "friendlyType": "Plain Text",
+                    "filesize": 444,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccc953f-9690872a0c8d",
+                    "rootDataFileId": -1,
+                    "md5": "abf0b10039d276fb9620bde35fd7902f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "abf0b10039d276fb9620bde35fd7902f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_AKHIPR.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087218,
+                    "persistentId": "",
+                    "filename": "bas_nonref_AKHIPR.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 1540,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccc9927-006a04dd6768",
+                    "rootDataFileId": -1,
+                    "md5": "4beac2c44809711e721bb55dd0167321",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4beac2c44809711e721bb55dd0167321"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_AKHIPR.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087219,
+                    "persistentId": "",
+                    "filename": "bas_nonref_AKHIPR.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 140,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccc9bc1-ac306acf8e6d",
+                    "rootDataFileId": -1,
+                    "md5": "d7d6833cbdb30949ba85280609f38c13",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d7d6833cbdb30949ba85280609f38c13"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_AKHIPR.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087220,
+                    "persistentId": "",
+                    "filename": "bas_nonref_AKHIPR.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 4637136,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccca269-ce031769d6eb",
+                    "rootDataFileId": -1,
+                    "md5": "c75148f189405f81784f86793951a7c9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c75148f189405f81784f86793951a7c9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_AKHIPR.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087221,
+                    "persistentId": "",
+                    "filename": "bas_nonref_AKHIPR.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 1260,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccca7f8-a742d3d1bf03",
+                    "rootDataFileId": -1,
+                    "md5": "97145da96f48d6c50fd455da12d8a25c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "97145da96f48d6c50fd455da12d8a25c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_CntlPlains.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087222,
+                    "persistentId": "",
+                    "filename": "bas_nonref_CntlPlains.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 41206,
+                    "storageIdentifier": "s3://dvn-cloud:1602cccaaf4-a2603572ee09",
+                    "rootDataFileId": -1,
+                    "md5": "ce59f37e818f407f44df566d3efa2293",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ce59f37e818f407f44df566d3efa2293"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_CntlPlains.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087223,
+                    "persistentId": "",
+                    "filename": "bas_nonref_CntlPlains.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 9452,
+                    "storageIdentifier": "s3://dvn-cloud:1602cccb0d5-4057ce7132a1",
+                    "rootDataFileId": -1,
+                    "md5": "ebba31c7e53ecef1e9abc5391b9343fe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ebba31c7e53ecef1e9abc5391b9343fe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_CntlPlains.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087224,
+                    "persistentId": "",
+                    "filename": "bas_nonref_CntlPlains.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 676,
+                    "storageIdentifier": "s3://dvn-cloud:1602cccb463-467252b220d9",
+                    "rootDataFileId": -1,
+                    "md5": "ffb6ac78b1f200c8be0d21d448885e2c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ffb6ac78b1f200c8be0d21d448885e2c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_9322_sept30_2011.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087225,
+                    "persistentId": "",
+                    "filename": "gagesII_9322_sept30_2011.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 19847020,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd1635-53d729fcbd3e",
+                    "rootDataFileId": -1,
+                    "md5": "49f8dcf0c206d84d032b89a0e3242033",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "49f8dcf0c206d84d032b89a0e3242033"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_9322_sept30_2011.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087226,
+                    "persistentId": "",
+                    "filename": "gagesII_9322_sept30_2011.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 93428,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd1e3b-a14f069fdbf8",
+                    "rootDataFileId": -1,
+                    "md5": "e57781823959ac47f5080bca7795fbc5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e57781823959ac47f5080bca7795fbc5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_9322_sept30_2011.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087227,
+                    "persistentId": "",
+                    "filename": "gagesII_9322_sept30_2011.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 2988,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd22ed-4b6ec0c14868",
+                    "rootDataFileId": -1,
+                    "md5": "e736939d7bb036c063258afafa5f50ca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e736939d7bb036c063258afafa5f50ca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "gagesII_9322_sept30_2011.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087229,
+                    "persistentId": "",
+                    "filename": "gagesII_9322_sept30_2011.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 74676,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd349d-899c27cda883",
+                    "rootDataFileId": -1,
+                    "md5": "d57eb0a4c79b133553c3c90420cd386e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d57eb0a4c79b133553c3c90420cd386e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_CntlPlains.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087231,
+                    "persistentId": "",
+                    "filename": "bas_nonref_CntlPlains.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 7924,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd428d-fcd16cea1e3d",
+                    "rootDataFileId": -1,
+                    "md5": "10bf487217fc8b4ef583a30d4128b1ca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "10bf487217fc8b4ef583a30d4128b1ca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_EastHghlnds.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087232,
+                    "persistentId": "",
+                    "filename": "bas_nonref_EastHghlnds.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 30118,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd4665-3fdaedfe5a7f",
+                    "rootDataFileId": -1,
+                    "md5": "19d4b56344e0bc8859301cd0a18621d1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "19d4b56344e0bc8859301cd0a18621d1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_EastHghlnds.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087233,
+                    "persistentId": "",
+                    "filename": "bas_nonref_EastHghlnds.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 7220,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd4f7f-43bc00dd4a99",
+                    "rootDataFileId": -1,
+                    "md5": "053d17e9b41d795251d9e76804fb6136",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "053d17e9b41d795251d9e76804fb6136"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_EastHghlnds.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087234,
+                    "persistentId": "",
+                    "filename": "bas_nonref_EastHghlnds.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 500,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd53c4-ac802e971cd9",
+                    "rootDataFileId": -1,
+                    "md5": "5485732dfffcd39ac8c5a3072c00bfdf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5485732dfffcd39ac8c5a3072c00bfdf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_EastHghlnds.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087235,
+                    "persistentId": "",
+                    "filename": "bas_nonref_EastHghlnds.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 113832500,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccd9f58-21290aec3ebc",
+                    "rootDataFileId": -1,
+                    "md5": "fdfb70f0e56cca594d61120d825905a1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fdfb70f0e56cca594d61120d825905a1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_EastHghlnds.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087236,
+                    "persistentId": "",
+                    "filename": "bas_nonref_EastHghlnds.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 5812,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccda60c-b2ba22566f2a",
+                    "rootDataFileId": -1,
+                    "md5": "f0b3df89baadf4b1d9f4c5d475698828",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f0b3df89baadf4b1d9f4c5d475698828"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_MxWdShld.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087237,
+                    "persistentId": "",
+                    "filename": "bas_nonref_MxWdShld.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 5716,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccdaac9-e2229a29aa11",
+                    "rootDataFileId": -1,
+                    "md5": "577ba2f081d538bf6536936401559a4a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "577ba2f081d538bf6536936401559a4a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_MxWdShld.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087238,
+                    "persistentId": "",
+                    "filename": "bas_nonref_MxWdShld.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 1524,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccdb1e7-6e9f56eb6854",
+                    "rootDataFileId": -1,
+                    "md5": "bcf1952b80f3588be1a38a325a0aec06",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bcf1952b80f3588be1a38a325a0aec06"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_MxWdShld.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087239,
+                    "persistentId": "",
+                    "filename": "bas_nonref_MxWdShld.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 244,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccdb57a-b967967eeaf4",
+                    "rootDataFileId": -1,
+                    "md5": "5be4c1585f69304f4b45afb3eb344d97",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5be4c1585f69304f4b45afb3eb344d97"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_MxWdShld.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087240,
+                    "persistentId": "",
+                    "filename": "bas_nonref_MxWdShld.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 30583468,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccdd177-54e913e56831",
+                    "rootDataFileId": -1,
+                    "md5": "9178f71f9d93432ce0b70b3b7245e7ea",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9178f71f9d93432ce0b70b3b7245e7ea"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_MxWdShld.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087241,
+                    "persistentId": "",
+                    "filename": "bas_nonref_MxWdShld.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 1164,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccdd4cc-9e662cc9e55a",
+                    "rootDataFileId": -1,
+                    "md5": "97da4f558520236336f1991ccbe9fe31",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "97da4f558520236336f1991ccbe9fe31"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_NorthEast.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087242,
+                    "persistentId": "",
+                    "filename": "bas_nonref_NorthEast.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 28774,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccdd8d6-b896ec752e02",
+                    "rootDataFileId": -1,
+                    "md5": "5b034b058adf72dbc334f996cf8a4b5c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5b034b058adf72dbc334f996cf8a4b5c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_NorthEast.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087243,
+                    "persistentId": "",
+                    "filename": "bas_nonref_NorthEast.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 6980,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccde0e5-3fff04edcc09",
+                    "rootDataFileId": -1,
+                    "md5": "b7e2a83590c4e9af04aa5f974e7e8116",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b7e2a83590c4e9af04aa5f974e7e8116"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_NorthEast.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087244,
+                    "persistentId": "",
+                    "filename": "bas_nonref_NorthEast.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 508,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccde5ea-fbaad8a04716",
+                    "rootDataFileId": -1,
+                    "md5": "78014cc2ef875575a9d0aec967a58bd6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "78014cc2ef875575a9d0aec967a58bd6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_NorthEast.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087245,
+                    "persistentId": "",
+                    "filename": "bas_nonref_NorthEast.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 87606104,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce1fc3-74c850cf90da",
+                    "rootDataFileId": -1,
+                    "md5": "e6e7c2bced53b3c6bb419b9d8039fa71",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e6e7c2bced53b3c6bb419b9d8039fa71"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_NorthEast.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087246,
+                    "persistentId": "",
+                    "filename": "bas_nonref_NorthEast.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 5556,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce2651-3b584951917f",
+                    "rootDataFileId": -1,
+                    "md5": "459b88e2f82336ec92883e14fa429e69",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "459b88e2f82336ec92883e14fa429e69"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SECstPlain.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087247,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SECstPlain.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 14746,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce29e7-8cf2a86dedde",
+                    "rootDataFileId": -1,
+                    "md5": "a35b8a9ba17c024ad201c15c02c4910c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a35b8a9ba17c024ad201c15c02c4910c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SECstPlain.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087248,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SECstPlain.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 3556,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce3278-87d11715301b",
+                    "rootDataFileId": -1,
+                    "md5": "c6f22777173ed6d4761766b5eb474aa7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c6f22777173ed6d4761766b5eb474aa7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SECstPlain.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087249,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SECstPlain.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 268,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce389b-f5139e54b584",
+                    "rootDataFileId": -1,
+                    "md5": "9713d9215528afba152af9c478280053",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9713d9215528afba152af9c478280053"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SECstPlain.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087250,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SECstPlain.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 32969160,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce5c53-b18bc70909e6",
+                    "rootDataFileId": -1,
+                    "md5": "5abfaeadd0d2b08904b4dbea444b291c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5abfaeadd0d2b08904b4dbea444b291c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SECstPlain.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087251,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SECstPlain.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 2884,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce6066-55845d5efd23",
+                    "rootDataFileId": -1,
+                    "md5": "6f23582e258e09607c2c8c54469bee7f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6f23582e258e09607c2c8c54469bee7f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SEPlains.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087252,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SEPlains.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 51874,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce6644-04420c56aaa5",
+                    "rootDataFileId": -1,
+                    "md5": "8c8a30e861c605dcb1d0b95478c3b4d6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8c8a30e861c605dcb1d0b95478c3b4d6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SEPlains.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087253,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SEPlains.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 12772,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce705a-46c253b85596",
+                    "rootDataFileId": -1,
+                    "md5": "cfa53744ef81b730de68c7e491a15795",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cfa53744ef81b730de68c7e491a15795"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SEPlains.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087254,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SEPlains.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 876,
+                    "storageIdentifier": "s3://dvn-cloud:1602cce762f-6c4ec4b360a5",
+                    "rootDataFileId": -1,
+                    "md5": "83339de82bfd65152f2ecf546f899ee5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "83339de82bfd65152f2ecf546f899ee5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SEPlains.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087255,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SEPlains.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 193269220,
+                    "storageIdentifier": "s3://dvn-cloud:1602cceec11-31e92e9ac768",
+                    "rootDataFileId": -1,
+                    "md5": "a5cec0509ddd6c46d5ad79bddf252daf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a5cec0509ddd6c46d5ad79bddf252daf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_SEPlains.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087256,
+                    "persistentId": "",
+                    "filename": "bas_nonref_SEPlains.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 9956,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccef415-8984dce33d4b",
+                    "rootDataFileId": -1,
+                    "md5": "0c490e8d0db050849cd6915c84b3f9a4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0c490e8d0db050849cd6915c84b3f9a4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestMnts.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087257,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestMnts.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 68128,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccef976-5a70d3d47d48",
+                    "rootDataFileId": -1,
+                    "md5": "7134e2e8f294dcae5e094007c5c8e124",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7134e2e8f294dcae5e094007c5c8e124"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestMnts.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087258,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestMnts.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 16060,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccf050a-2fa0ca3217d5",
+                    "rootDataFileId": -1,
+                    "md5": "dcaa6607fadccd85525b3ebedd77bd7e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dcaa6607fadccd85525b3ebedd77bd7e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestMnts.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087259,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestMnts.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 1148,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccf0b8b-d14ad3dd3ead",
+                    "rootDataFileId": -1,
+                    "md5": "23771cb25d35fb485856b3e9b52958bb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "23771cb25d35fb485856b3e9b52958bb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestPlains.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087263,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestPlains.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 7436,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccfe079-1cf599ba86f0",
+                    "rootDataFileId": -1,
+                    "md5": "c65a0062d3d7c2bad00eb55d85e03566",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c65a0062d3d7c2bad00eb55d85e03566"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestPlains.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087264,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestPlains.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 580,
+                    "storageIdentifier": "s3://dvn-cloud:1602ccfe5e6-45f6173934e7",
+                    "rootDataFileId": -1,
+                    "md5": "e34df8426a3132cf640adf85334d6836",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e34df8426a3132cf640adf85334d6836"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestPlains.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087265,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestPlains.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 233927720,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd09beb-796c0c77974c",
+                    "rootDataFileId": -1,
+                    "md5": "3d35793a520f4e9ae52fd70510eab314",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d35793a520f4e9ae52fd70510eab314"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestPlains.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087266,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestPlains.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 6052,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd0a54a-c372d58a58a7",
+                    "rootDataFileId": -1,
+                    "md5": "fb64ade886362e9b28a63e7f250933e6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fb64ade886362e9b28a63e7f250933e6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestXeric.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087270,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestXeric.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 131681128,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd114e3-ccfe13512cde",
+                    "rootDataFileId": -1,
+                    "md5": "6fcce4ab9e2edaf0044aaa8862561ede",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6fcce4ab9e2edaf0044aaa8862561ede"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_nonref_WestXeric.shx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087271,
+                    "persistentId": "",
+                    "filename": "bas_nonref_WestXeric.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 5460,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd11af3-f032fadbbc3b",
+                    "rootDataFileId": -1,
+                    "md5": "b93c51f84ff619262dbbdab25b305cea",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b93c51f84ff619262dbbdab25b305cea"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_ref_all.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087272,
+                    "persistentId": "",
+                    "filename": "bas_ref_all.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 86524,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd1205d-5408c3367f31",
+                    "rootDataFileId": -1,
+                    "md5": "36715a4ffea2989b14b1ca02dcae2244",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "36715a4ffea2989b14b1ca02dcae2244"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_ref_all.sbn",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087273,
+                    "persistentId": "",
+                    "filename": "bas_ref_all.sbn",
+                    "contentType": "application/sbn",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 21420,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd12cd3-c8685faebb57",
+                    "rootDataFileId": -1,
+                    "md5": "c3c865904486ab90e592cc35a9b464a0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c3c865904486ab90e592cc35a9b464a0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_ref_all.sbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087274,
+                    "persistentId": "",
+                    "filename": "bas_ref_all.sbx",
+                    "contentType": "application/sbx",
+                    "friendlyType": "ESRI Spatial Index",
+                    "filesize": 1004,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd1336b-31fcc3b11e44",
+                    "rootDataFileId": -1,
+                    "md5": "bb356db5cf59163da3be8f76ef352e1e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bb356db5cf59163da3be8f76ef352e1e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bas_ref_all.shp",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087275,
+                    "persistentId": "",
+                    "filename": "bas_ref_all.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 149097936,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd18f3a-37fe93480156",
+                    "rootDataFileId": -1,
+                    "md5": "310439525a3c88804d172eef75951e3f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "310439525a3c88804d172eef75951e3f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "._bas_nonref_AKHIPR.dbf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087277,
+                    "persistentId": "",
+                    "filename": "._bas_nonref_AKHIPR.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 222,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd20888-ff8133bb131c",
+                    "rootDataFileId": -1,
+                    "md5": "3b37c6108e22bf8b201fc1dc8aa5025b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3b37c6108e22bf8b201fc1dc8aa5025b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "._fs2012-3047.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087278,
+                    "persistentId": "",
+                    "filename": "._fs2012-3047.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 501,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd787f6-6021f321a405",
+                    "rootDataFileId": -1,
+                    "md5": "da14e26ddc5782ecde121d0953893f8f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "da14e26ddc5782ecde121d0953893f8f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "._HCDN-2009_Station_Info.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087279,
+                    "persistentId": "",
+                    "filename": "._HCDN-2009_Station_Info.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 513,
+                    "storageIdentifier": "s3://dvn-cloud:1602cd7bc59-baf3c2f77d09",
+                    "rootDataFileId": -1,
+                    "md5": "c6b4c56be68f4b8fa6824858c26b8214",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c6b4c56be68f4b8fa6824858c26b8214"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "bagit.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131229,
+                "dataFile": {
+                    "id": 3087132,
+                    "persistentId": "",
+                    "filename": "bagit.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 55,
+                    "storageIdentifier": "s3://dvn-cloud:1602cb01da2-e48e8b46f26c",
+                    "rootDataFileId": -1,
+                    "md5": "9e5ad981e0d29adc278f6a294b8c2aca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9e5ad981e0d29adc278f6a294b8c2aca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-12-06",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

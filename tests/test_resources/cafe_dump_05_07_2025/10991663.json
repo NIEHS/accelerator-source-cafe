@@ -1,0 +1,365 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 440217,
+        "datasetId": 10991663,
+        "datasetPersistentId": "doi:10.7910/DVN/IIGITP",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/IIGITP",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-03-17T18:43:43Z",
+        "releaseTime": "2025-03-17T18:43:43Z",
+        "createTime": "2025-03-17T18:42:04Z",
+        "publicationDate": "2025-03-17",
+        "citationDate": "2025-03-17",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: CDC Heat & Health Index"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Centers for Disease Control and Prevention Agency for Toxic Substances and Disease Registry (ATSDR)"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Place and Health - Geospatial Research, Analysis, and Services Program (GRASP)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\nIf you have questions about this underlying data, contact the CDC ATSDR Place and Health - Geospatial Research, Analysis, and Services Program (GRASP) at https://www.cdc.gov/cdc-info/forms/contact-us.html\n<br /><br />\n<blockquote> \"The Heat and Health Index (HHI) is a national tool that incorporates historical temperature, heat-related illness, and community characteristics data at the ZIP code level to identify areas most likely to experience negative health outcomes from heat and help communities prepare for heat in a changing climate.\" </blockquote>\n[Quote from https://www.atsdr.cdc.gov/place-health/php/hhi/index.html]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-03-17"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Extreme Heat"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Vulnerability Index"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nCDC Heat & Health Index data was downloaded by Zachary Popp on Jan 28 2025."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Popp, Zachary"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-17"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The below was copied as is from the EPA website (https://www.epa.gov/web-policies-and-procedures/epa-disclaimers):\n\n\"Disclaimer of Endorsement\nMention of or referral to commercial products or services, and/or links to non-EPA sites does not imply official EPA endorsement of or responsibility for the opinions, ideas, data, or products presented at those locations, or guarantee the validity of the information provided. Mention of commercial products/services on non-EPA websites is provided solely as a pointer to information on topics related to environmental protection that may be useful to EPA staff and the public.\nCopyright Status\nThe U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes. Commercial use of the documents available from the EPA websites may be protected under the U.S. and Foreign Copyright Laws. Individual documents on the EPA website may have different copyright conditions, and that will be noted in those documents.\nDisclaimer of Liability\nWith respect to documents available from the EPA website, neither the United States Government nor any of their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights.\nExit Disclaimer\nThe Exit icon denotes that you are leaving the EPA website and entering an external link or a third-party site.\nEPA's official web site is www.epa.gov. EPA has provided this link because it provides additional information that may be useful or interesting and is being provided in a manner consistent with the intended purpose of the EPA website. Please note that EPA uses third-party sites to provide EPA content already on www.epa.gov in a different format.\nEPA cannot attest to the accuracy of non-EPA information provided by these third-party sites or any other linked site. EPA is providing these links for your reference. In doing so, EPA does not endorse any non-government websites, companies or applications.\nAlso, please be aware that the privacy protection provided on the EPA.gov domain (EPA Privacy and Security Notice) does not apply to these third-party sites. To learn more about EPA and social media, please refer to& our social media page.\nNotice\nInformation from the EPA website resides on numerous computer systems funded by the Agency. The use of the EPA websites may be monitored for computer security purposes. Any unauthorized access to the EPA website is prohibited and is subject to criminal and civil penalties under federal laws including, but not limited to, Public Law 99-474, the Computer Fraud and Abuse Act of 1986.\nTerms of Use for Geospatial Data\nThese geospatial data and corresponding cartographic materials have been approved for use by the U.S. Environmental Protection Agency (EPA) as advised by the EPA Geospatial Advisory Committee (EGAC). This approved release is on the condition that neither the EPA nor the U.S. Government may be held liable for any damages resulting from its authorized or unauthorized use. These data and any corresponding products, services, or materials do not necessarily represent the EPA\u2019s official position or viewpoint, expressed or implied. These content items are not intended for use in establishing liability or calculating cost recovery statutes of limitations. They cannot be relied upon to create any rights, substantive or procedural, enforceable by any party in litigation with the United States or third parties. Additionally, although these data have been processed successfully on EPA computer systems, no warranty expressed or implied can be made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The Agency reserves the right to revise EPA-stewarded datasets pursuant to further analysis and review without public notice. Unless otherwise specified, geospatial data produced by the EPA is by default in the public domain and is not subject to domestic copyright protection under 17 U.S.C. \u00a7 105.  Referenced data from non-EPA sources are neither inherently verified nor independently tested by the Agency in all circumstances. Permission to reproduce copyrighted items not produced by the EPA must be secured from the copyright owner. EPA strongly recommends careful attention be paid to metadata files associated with these data to better understand limitations, restrictions or intended use. The U.S. EPA shall not be held liable for improper or incorrect use of the data.\n\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Flinn, I., McKenzie, B., Freelander, L., Lavery, A., Scroggins, S., Jensen, L., Mataka, A., Balbus, J., Saha, S., Manangan, A. and Vaidyanathan, A., 2024. Heat and Health Index Technical Documentation."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Extreme Temperatures",
+                            "Heat Stress/Heat Related Illness",
+                            "Vulnerability"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "HHI_Data.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440217,
+                "dataFile": {
+                    "id": 10991664,
+                    "persistentId": "",
+                    "filename": "HHI_Data.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 18362022,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a565ecb0-9521a7012d6a",
+                    "rootDataFileId": -1,
+                    "md5": "e64300fb702ae743d7f87cc3db41fd58",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e64300fb702ae743d7f87cc3db41fd58"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "HHI-2024-Release-Technical-Documentation-508.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440217,
+                "dataFile": {
+                    "id": 10991665,
+                    "persistentId": "",
+                    "filename": "HHI-2024-Release-Technical-Documentation-508.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 823876,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a565f60e-2d800002eba5",
+                    "rootDataFileId": -1,
+                    "md5": "e24ce135aecc3fe53493bdfab5c434a8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e24ce135aecc3fe53493bdfab5c434a8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "06127-053-CDC-ATSDR-HHI-Overview-v2c-FINAL-CDC-CLEARED-EXTERNAL.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440217,
+                "dataFile": {
+                    "id": 10991667,
+                    "persistentId": "",
+                    "filename": "06127-053-CDC-ATSDR-HHI-Overview-v2c-FINAL-CDC-CLEARED-EXTERNAL.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 238572,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a565e671-325e883fd4d8",
+                    "rootDataFileId": -1,
+                    "md5": "718927a817f73113dffebba6536c7554",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "718927a817f73113dffebba6536c7554"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Heat & Health Tracker _ Tracking _ NCEH _ CDC.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440217,
+                "dataFile": {
+                    "id": 10991668,
+                    "persistentId": "",
+                    "filename": "Heat & Health Tracker _ Tracking _ NCEH _ CDC.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 231161,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a565e9ca-50c8ec67b158",
+                    "rootDataFileId": -1,
+                    "md5": "54e25761f83bc1e4ddaa83b6a1d8d608",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "54e25761f83bc1e4ddaa83b6a1d8d608"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Heat & Health Tracker _ Tracking _ NCEH _ CDC.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440217,
+                "dataFile": {
+                    "id": 10991666,
+                    "persistentId": "",
+                    "filename": "Heat & Health Tracker _ Tracking _ NCEH _ CDC.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 60845,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a565e830-02ea378ff4e0",
+                    "rootDataFileId": -1,
+                    "md5": "806688dbc4c455f80b21009447d5188b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "806688dbc4c455f80b21009447d5188b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,529 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 128734,
+        "datasetId": 3051893,
+        "datasetPersistentId": "doi:10.7910/DVN/OLGI39",
+        "storageIdentifier": "s3://10.7910/DVN/OLGI39",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "productionDate": "2017-05-11",
+        "UNF": "UNF:6:ZrVVIalXmqn4KtGzkgTDVg==",
+        "lastUpdateTime": "2025-04-21T19:55:33Z",
+        "releaseTime": "2025-04-21T19:55:33Z",
+        "createTime": "2017-09-14T00:33:29Z",
+        "publicationDate": "2025-04-21",
+        "citationDate": "2025-04-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Census Bureau"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data from 2015 American Community Survey 1-Year Estimates, from Table S2402.\r\n\r\nConnected to SDG indicator 5.5.2 - Proportion of women in managerial positions"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Occupations"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States. Bureau of the Census"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Employment"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gender"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NRP"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SDGs"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sustainable Development Goals"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Occupations"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States. Bureau of the Census"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-05-11"
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Census Bureau"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Boyd, Ceilyn"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-09-13"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Original ingest package for the dataset: Data from 2015 American Community Survey 1-Year Estimates, from Table S2402.\r\n\r\nConnected to SDG indicator 5.5.2 - Proportion of women in managerial positions",
+                "label": "Occupation_By_Sex_2015_9949A6B8-1F5C-4F25-A415-200B4DCEAA89.zip",
+                "restricted": false,
+                "version": 6,
+                "datasetVersionId": 128734,
+                "categories": [
+                    "Civilian Occupation by Sex, 2015",
+                    "Ingest Package"
+                ],
+                "dataFile": {
+                    "id": 3051993,
+                    "persistentId": "",
+                    "filename": "Occupation_By_Sex_2015_9949A6B8-1F5C-4F25-A415-200B4DCEAA89.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 87913,
+                    "description": "Original ingest package for the dataset: Data from 2015 American Community Survey 1-Year Estimates, from Table S2402.\r\n\r\nConnected to SDG indicator 5.5.2 - Proportion of women in managerial positions",
+                    "categories": [
+                        "Civilian Occupation by Sex, 2015",
+                        "Ingest Package"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15e812474b6-62a312e74484",
+                    "rootDataFileId": -1,
+                    "md5": "7db3c03ebdd110c9b09a665f0ec5f492",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7db3c03ebdd110c9b09a665f0ec5f492"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-14",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Original ingest package documentation for the dataset: Data from 2015 American Community Survey 1-Year Estimates, from Table S2402.\r\n\r\nConnected to SDG indicator 5.5.2 - Proportion of women in managerial positions",
+                "label": "Occupation_By_Sex_2015_9949a6b8-1f5c-4f25-a415-200b4dceaa89.json",
+                "restricted": false,
+                "version": 6,
+                "datasetVersionId": 128734,
+                "categories": [
+                    "Civilian Occupation by Sex, 2015",
+                    "Documentation",
+                    "Ingest Package"
+                ],
+                "dataFile": {
+                    "id": 3051992,
+                    "persistentId": "",
+                    "filename": "Occupation_By_Sex_2015_9949a6b8-1f5c-4f25-a415-200b4dceaa89.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 1066,
+                    "description": "Original ingest package documentation for the dataset: Data from 2015 American Community Survey 1-Year Estimates, from Table S2402.\r\n\r\nConnected to SDG indicator 5.5.2 - Proportion of women in managerial positions",
+                    "categories": [
+                        "Civilian Occupation by Sex, 2015",
+                        "Documentation",
+                        "Ingest Package"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15e8124734c-6ecad9633265",
+                    "rootDataFileId": -1,
+                    "md5": "fe6bffab48a9e6752b970e35731f31b3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fe6bffab48a9e6752b970e35731f31b3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-14",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_ACS_15_1YR_S2402_metadata.tab",
+                "restricted": false,
+                "version": 5,
+                "datasetVersionId": 128734,
+                "categories": [
+                    "Civilian Occupation by Sex, 2015",
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 3067702,
+                    "persistentId": "",
+                    "filename": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_ACS_15_1YR_S2402_metadata.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 52490,
+                    "categories": [
+                        "Civilian Occupation by Sex, 2015",
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f54750c29-70abb8b507d4",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 51925,
+                    "originalFileName": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_ACS_15_1YR_S2402_metadata.csv",
+                    "UNF": "UNF:6:M3GzZ0oNPEoeLVNbltoH3w==",
+                    "rootDataFileId": -1,
+                    "md5": "aa0faf7efb5e920890465cd79de2af16",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aa0faf7efb5e920890465cd79de2af16"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_ACS_15_1YR_S2402_with_ann.tab",
+                "restricted": false,
+                "version": 5,
+                "datasetVersionId": 128734,
+                "categories": [
+                    "Civilian Occupation by Sex, 2015",
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 3067703,
+                    "persistentId": "",
+                    "filename": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_ACS_15_1YR_S2402_with_ann.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 95679,
+                    "categories": [
+                        "Civilian Occupation by Sex, 2015",
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f54750d08-74747e71d6cf",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 83875,
+                    "originalFileName": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_ACS_15_1YR_S2402_with_ann.csv",
+                    "UNF": "UNF:6:C6Si757rjsOAtHoXmgV2Ow==",
+                    "rootDataFileId": -1,
+                    "md5": "bf064f8b49a901211945ebdab297e64e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf064f8b49a901211945ebdab297e64e"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_ACS_15_1YR_S2402.txt",
+                "restricted": false,
+                "version": 4,
+                "datasetVersionId": 128734,
+                "categories": [
+                    "Civilian Occupation by Sex, 2015",
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 3067704,
+                    "persistentId": "",
+                    "filename": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_ACS_15_1YR_S2402.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 3809,
+                    "categories": [
+                        "Civilian Occupation by Sex, 2015",
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f54750e17-dfcd0fe959f3",
+                    "rootDataFileId": -1,
+                    "md5": "e5d45e7302438096a82b0541a537b1f6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e5d45e7302438096a82b0541a537b1f6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_aff_download_readme_ann.txt",
+                "restricted": false,
+                "version": 4,
+                "datasetVersionId": 128734,
+                "categories": [
+                    "Civilian Occupation by Sex, 2015",
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 3067705,
+                    "persistentId": "",
+                    "filename": "Occupation by sex for the full-time, year-round civilian employed population 16 years and over_aff_download_readme_ann.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1062,
+                    "categories": [
+                        "Civilian Occupation by Sex, 2015",
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f54750ee8-c33ee92579b4",
+                    "rootDataFileId": -1,
+                    "md5": "03ff8a277d765c16b102f8d2925a8417",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "03ff8a277d765c16b102f8d2925a8417"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

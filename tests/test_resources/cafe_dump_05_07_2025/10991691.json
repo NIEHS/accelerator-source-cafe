@@ -1,0 +1,869 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 440220,
+        "datasetId": 10991691,
+        "datasetPersistentId": "doi:10.7910/DVN/9ZDA3U",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/9ZDA3U",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:Exj55q+9nwfCPWGZxrp6pg==",
+        "lastUpdateTime": "2025-03-17T19:04:15Z",
+        "releaseTime": "2025-03-17T19:04:15Z",
+        "createTime": "2025-03-17T19:01:24Z",
+        "publicationDate": "2025-03-17",
+        "citationDate": "2025-03-17",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: FEMA National Risk Index"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Federal Emergency Management Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\nIf you have questions about the underlying data stored here, please contact the National Risk Index team at FEMA-NRI@fema.dhs.gov\n<br />\n\n<blockquote>\n\"The National Risk Index is a dataset and online tool to help illustrate the United States communities most at risk for 18 natural hazards. It was designed and built by FEMA in close collaboration with various stakeholders and partners in academia; local, state and federal government; and private industry.\n<br /><br />\nThe Risk Index leverages available source data for natural hazard and community risk factors to develop a baseline risk measurement for each United States county and Census tract.\n<br /><br />\nThe National Risk Index's interactive mapping and data-based interface enables users to visually explore individual datasets to better understand what is driving a community's natural hazard risk with minimal technical expertise. Users may also create reports to capture risk details on a community or conduct community-based risk comparisons, as well as export data for analysis using other software.\n<br /><br />\nFEMA has recently published a series of tutorial videos highlighting the main features of the National Risk Index and explains the methodologies behind our interpretation of risk data. Click here to view the list of videos.\n<br /><br />\nFor comprehensive details about the Risk Index, see the National Risk Index Technical Documentation.\n</blockquote>\n[Quote from https://hazards.fema.gov/nri/learn-more]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-03-17"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Risk Index"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Natural Disaster"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zuzak, C., E. Goodenough, C. Stanton, M. Mowrer, A.Sheehan, B. Roberts, P. McGuire, and J. Rozelle. 2023. National Risk Index Technical Documentation. Federal Emergency Management Agency, Washington, DC.\n\n<br/> <br/>\nZuzak, C., Mowrer, M., Goodenough, E. et al. The national risk index: establishing a nationwide baseline for natural hazard risk in the US. Nat Hazards 114, 2331\u20132355 (2022). https://doi.org/10.1007/s11069-022-05474-w"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nFEMA National Risk Index data was downloaded by Zachary Popp on Jan 18, 2025 (shapefile data) and March 17, 2025 (webpage PDFs)"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Popp, Zachary"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-17"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1991-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2012-12-31"
+                                }
+                            },
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1996-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2019-12-31"
+                                }
+                            },
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Census Tracts",
+                            "Counties",
+                            "States"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Zuzak, C., E. Goodenough, C. Stanton, M. Mowrer, A.Sheehan, B. Roberts, P. McGuire, and J. Rozelle. 2023. National Risk Index Technical Documentation. Federal Emergency Management Agency, Washington, DC.\n\n<br/><br/>\n\nZuzak, C., Mowrer, M., Goodenough, E. et al. The national risk index: establishing a nationwide baseline for natural hazard risk in the US. Nat Hazards 114, 2331\u20132355 (2022). https://doi.org/10.1007/s11069-022-05474-w"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The below is copied from the National Risk Index metadata:\n\n\"Credits\nFEMA, Compass, CDM Smith, ABS Consulting, Factor, Inc., Arizona State University (for Spatial Hazard Events and Losses Database for the United States), the Centers for Disease Control Agency for Toxic Substances and Disease Registry (for the Social Vulnerability Index), the University of South Carolina's Hazards and Vulnerability Research Institute (for Baseline Resilience Indicators for Communities), and all the other data providers and subject matter experts that have helped guide the National Risk Index over the years.\nUse limitations\nThe National Risk Index (the Risk Index or the Index) and its associated data are meant for planning purposes only. This tool was created for broad nationwide comparisons and is not a substitute for localized risk assessment analysis. Nationwide datasets used as inputs for the National Risk Index are, in many cases, not as accurate as available local data. Users with access to local data for each National Risk Index risk factor should consider substituting the Risk Index data with local data to recalculate a more accurate risk index. If you decide to download the National Risk Index data and substitute it with local data, you assume responsibility for the accuracy of the data and any resulting data index.\nThe methodology used by the National Risk Index has been reviewed by subject matter experts in the fields of natural hazard risk research, risk analysis, mitigation planning, and emergency management. The processing methods used to create the National Risk Index have produced results similar to those from other natural hazard risk analyses conducted on a smaller scale. The breadth and combination of geographic information systems (GIS) and data processing techniques leveraged by the National Risk Index enable it to incorporate multiple hazard types and risk factors, manage its nationwide scope, and capture what might have been missed using other methods.\nThe National Risk Index does not consider the intricate economic and physical interdependencies that exist across geographic regions. Keep in mind that hazard impacts in surrounding counties or Census tracts can cause indirect losses in your community regardless of your community's risk profile.\nNationwide data available for some risk factors are rudimentary at this time. The National Risk Index will be continuously updated as new data become available and improved methodologies are identified. For comprehensive details about how the Risk Index can help you and its limitations, see the National Risk Index Technical Documentation (available for download at: https://www.fema.gov/national-risk-index).\n\""
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemName": {
+                                "typeName": "cafeSpatialReferenceSystemName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "WGS 84 / Pseudo-Mercator"
+                            },
+                            "cafeSpatialReferenceSystemURL": {
+                                "typeName": "cafeSpatialReferenceSystemURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://epsg.io/3857"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Climate Risk",
+                            "Disaster",
+                            "Disaster Preparedness",
+                            "Disaster Risk Reduction",
+                            "Risk",
+                            "Risk Assessment",
+                            "Risk Management"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "NRI_GDB_States.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991704,
+                    "persistentId": "",
+                    "filename": "NRI_GDB_States.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 39899175,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a5750f25-ceb4d00cca72",
+                    "rootDataFileId": -1,
+                    "md5": "8958ff51fa4bc657261b7c166f7fa614",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8958ff51fa4bc657261b7c166f7fa614"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_Shapefile_Tribal_CensusTracts.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991703,
+                    "persistentId": "",
+                    "filename": "NRI_Shapefile_Tribal_CensusTracts.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 124300180,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a5743b83-682c00d836f1",
+                    "rootDataFileId": -1,
+                    "md5": "3f77634ad0147ca053bf7a86efb18728",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3f77634ad0147ca053bf7a86efb18728"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_Table_Counties_Wisconsin.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991711,
+                    "persistentId": "",
+                    "filename": "NRI_Table_Counties_Wisconsin.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 647105,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a5743eea-69bb270f98fc",
+                    "rootDataFileId": -1,
+                    "md5": "26d9b780eedab34369f17b9c0c76e3c5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "26d9b780eedab34369f17b9c0c76e3c5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Community Resilience _ National Risk Index.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991709,
+                    "persistentId": "",
+                    "filename": "Community Resilience _ National Risk Index.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 345268,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a5769da5-f58c982943f4",
+                    "rootDataFileId": -1,
+                    "md5": "8c61c041a4888e6cb9cc29aba7210555",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8c61c041a4888e6cb9cc29aba7210555"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_Shapefile_States.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991707,
+                    "persistentId": "",
+                    "filename": "NRI_Shapefile_States.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 65354792,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a57439d3-a868f3323cd3",
+                    "rootDataFileId": -1,
+                    "md5": "ffd4ce2beb95965003324a5e7dd199c3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ffd4ce2beb95965003324a5e7dd199c3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_GDB_Tribal_CensusTracts.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991701,
+                    "persistentId": "",
+                    "filename": "NRI_GDB_Tribal_CensusTracts.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 78614411,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a57531dc-4d1dff62a243",
+                    "rootDataFileId": -1,
+                    "md5": "27fd71fdf9b6837a9726b09daba8d371",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "27fd71fdf9b6837a9726b09daba8d371"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NationalRiskIndex_Metadata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991698,
+                    "persistentId": "",
+                    "filename": "NationalRiskIndex_Metadata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 44093,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a574f3d7-fe98b7fd554a",
+                    "rootDataFileId": -1,
+                    "md5": "b90a636fa6b0b9d6f88f60cffb1d7ac5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b90a636fa6b0b9d6f88f60cffb1d7ac5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_GDB_Tribal_Counties.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991706,
+                    "persistentId": "",
+                    "filename": "NRI_GDB_Tribal_Counties.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 112158546,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a575f6db-f6f5996cc1d7",
+                    "rootDataFileId": -1,
+                    "md5": "c9ce7afd9821ea9ba65429b913fc7013",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c9ce7afd9821ea9ba65429b913fc7013"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_Shapefile_Counties.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991697,
+                    "persistentId": "",
+                    "filename": "NRI_Shapefile_Counties.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 157316665,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a57609f9-c9dbffc473b0",
+                    "rootDataFileId": -1,
+                    "md5": "68d55d57638f65c443b69a31cb3294e3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "68d55d57638f65c443b69a31cb3294e3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Social Vulnerability _ National Risk Index.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991712,
+                    "persistentId": "",
+                    "filename": "Social Vulnerability _ National Risk Index.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 459962,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a574a1c4-b0c976d8685c",
+                    "rootDataFileId": -1,
+                    "md5": "4e78632641878468c93d496679293363",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4e78632641878468c93d496679293363"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Learn More _ National Risk Index.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991702,
+                    "persistentId": "",
+                    "filename": "Learn More _ National Risk Index.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 398448,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a574e04c-08962d4f8125",
+                    "rootDataFileId": -1,
+                    "md5": "2ef0f9da6b27aa0bd7267c6ed5ec0134",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2ef0f9da6b27aa0bd7267c6ed5ec0134"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRIDataDictionary.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991700,
+                    "persistentId": "",
+                    "filename": "NRIDataDictionary.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 67030,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a5746ff7-f416877d6fd0",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 59846,
+                    "originalFileName": "NRIDataDictionary.csv",
+                    "UNF": "UNF:6:Exj55q+9nwfCPWGZxrp6pg==",
+                    "rootDataFileId": -1,
+                    "md5": "f290df4a7b61408e094731e063c409e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f290df4a7b61408e094731e063c409e8"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_GDB_Counties.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991696,
+                    "persistentId": "",
+                    "filename": "NRI_GDB_Counties.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 90356782,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a575075b-4cf0883c0a51",
+                    "rootDataFileId": -1,
+                    "md5": "30198e08e219f696509f3f946fa4316c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "30198e08e219f696509f3f946fa4316c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_national-risk-index_technical-documentation.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991694,
+                    "persistentId": "",
+                    "filename": "fema_national-risk-index_technical-documentation.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 31839313,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a574b553-311b1ef208dd",
+                    "rootDataFileId": -1,
+                    "md5": "0f351d50801b46986fc54966d819cd02",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0f351d50801b46986fc54966d819cd02"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Data Resources _ National Risk Index.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991710,
+                    "persistentId": "",
+                    "filename": "Data Resources _ National Risk Index.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 365175,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a5769f7f-36122a0be7de",
+                    "rootDataFileId": -1,
+                    "md5": "c6aeb398af8e4210e1a833f083953d3b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c6aeb398af8e4210e1a833f083953d3b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_Shapefile_Tribal_Counties.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991708,
+                    "persistentId": "",
+                    "filename": "NRI_Shapefile_Tribal_Counties.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 168009228,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a5743d3f-6f6a91c02669",
+                    "rootDataFileId": -1,
+                    "md5": "2495de02cc081793c1fc1dd3255ce399",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2495de02cc081793c1fc1dd3255ce399"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Determining Risk _ National Risk Index.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991699,
+                    "persistentId": "",
+                    "filename": "Determining Risk _ National Risk Index.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 313113,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a576978d-47c739609596",
+                    "rootDataFileId": -1,
+                    "md5": "b3417d0c4a8653fd961305822e1964c7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b3417d0c4a8653fd961305822e1964c7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Expected Annual Loss _ National Risk Index.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991692,
+                    "persistentId": "",
+                    "filename": "Expected Annual Loss _ National Risk Index.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 601228,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a5769979-fbf66e1d8e9d",
+                    "rootDataFileId": -1,
+                    "md5": "e149be2127c8d22a6b8def4a71660391",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e149be2127c8d22a6b8def4a71660391"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Frequently Asked Questions _ National Risk Index.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991695,
+                    "persistentId": "",
+                    "filename": "Frequently Asked Questions _ National Risk Index.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 70957,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a574bd11-57d0714efc8c",
+                    "rootDataFileId": -1,
+                    "md5": "b59eb40f8844dcdce8a922f272dd05a6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b59eb40f8844dcdce8a922f272dd05a6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Frequently Asked Questions _ National Risk Index.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991705,
+                    "persistentId": "",
+                    "filename": "Frequently Asked Questions _ National Risk Index.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 453132,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a574d49c-7be853b5a26f",
+                    "rootDataFileId": -1,
+                    "md5": "9df3234309d0f41255d54db8c1c71db8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9df3234309d0f41255d54db8c1c71db8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NRI_GDB_CensusTracts.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440220,
+                "dataFile": {
+                    "id": 10991693,
+                    "persistentId": "",
+                    "filename": "NRI_GDB_CensusTracts.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 420950076,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195a574ff80-7341aa942669",
+                    "rootDataFileId": -1,
+                    "md5": "7e768cebc2106e6bbe29ac5b7edfd38d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7e768cebc2106e6bbe29ac5b7edfd38d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-17",
+                    "publicationDate": "2025-03-17",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,201 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 97237,
+        "datasetId": 2971206,
+        "datasetPersistentId": "doi:10.7910/DVN/M2VMG9",
+        "storageIdentifier": "s3://dvn-cloud:10.7910/DVN/M2VMG9",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2017-01-18T22:03:42Z",
+        "releaseTime": "2017-01-18T22:03:42Z",
+        "createTime": "2017-01-18T22:00:36Z",
+        "publicationDate": "2017-01-18",
+        "citationDate": "2017-01-18",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "China AQI PM25s Geocoding Locations"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Lex"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CGA, Harvard Univ"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Lex"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CGA, Harvard Univ"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mberman@fas.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The pm25s data does NOT report locations for the stations in x, y coordinates.   An attempt to cross-walk the stations with aqicn stations is found in:  JoinTable_Lex_2017-01-18.ods  (Open Office spreadsheet)   Any assistance in determining the missing station locations will be GREATLY appreciated!"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2017-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Air Pollution"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Berman, Lex"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-01-18"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Task_matching_AQI_stations.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97237,
+                "dataFile": {
+                    "id": 2971207,
+                    "persistentId": "doi:10.7910/DVN/M2VMG9/K3UU9B",
+                    "pidURL": "https://doi.org/10.7910/DVN/M2VMG9/K3UU9B",
+                    "filename": "Task_matching_AQI_stations.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 874200,
+                    "storageIdentifier": "s3://dvn-cloud:159b3987279-2cf449a23856",
+                    "rootDataFileId": -1,
+                    "md5": "055011542d9d90f6cba0fbbabc225824",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "055011542d9d90f6cba0fbbabc225824"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "JoinTable_Lex_2017-01-18.ods",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97237,
+                "dataFile": {
+                    "id": 2971208,
+                    "persistentId": "doi:10.7910/DVN/M2VMG9/53Q0QS",
+                    "pidURL": "https://doi.org/10.7910/DVN/M2VMG9/53Q0QS",
+                    "filename": "JoinTable_Lex_2017-01-18.ods",
+                    "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+                    "friendlyType": "OpenOffice Spreadsheet",
+                    "filesize": 191266,
+                    "storageIdentifier": "s3://dvn-cloud:159b3987297-1a8df7cb7d26",
+                    "rootDataFileId": -1,
+                    "md5": "f9887b9e38500086e0e13ec986a54ee5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f9887b9e38500086e0e13ec986a54ee5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

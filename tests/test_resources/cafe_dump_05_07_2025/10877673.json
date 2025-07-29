@@ -1,0 +1,281 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443906,
+        "datasetId": 10877673,
+        "datasetPersistentId": "doi:10.17603/DS2-WXDX-4311",
+        "storageIdentifier": "s3://10.17603/ds2-wxdx-4311",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:04:06Z",
+        "releaseTime": "2025-05-05T12:14:07Z",
+        "createTime": "2025-05-06T23:04:06Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "COPE: EAGER Coastal Hazard Planning in Time in COPE: EAGER Coastal Hazard Planning in Time"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-2870"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Abramson, Daniel"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Jeffrey"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wartman, Joseph"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dedinsky, Karen"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zdebski, Jaqueline"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lyda, Andrew"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Grilliot, Michael"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bowden, Astrid"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RAPID, NHERI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The University of Washington (UW) has partnered with the town of Westport, Washington, to co-create \u201cgeo-narratives\u201d to enhance the community\u2019s hazard mitigation and adaptation planning. When complete, the digital platform will include maps, scientific information, and explanatory materials about Westport's risk from coastal hazards including tsunamis, co-seismic subsidence, sea level rise, and increased storminess, flooding, and coastal erosion. A 3D digital model of the town and its coastline, using imagery collected by RAPID Staff in 2020, forms the basis for much of the geo-narrative visualization.  The project is part of an ongoing collaborative partnership between the town and UW faculty and students to inform both local emergency preparedness and long-term investments and policies. Activities have ranged from updating the town\u2019s comprehensive plan; using the model to locate and design new tsunami vertical evacuation structures; using Minecraft and designing new video games with local junior high school students to envision hazards impacts and mitigating strategies; and helping the students video the town from the perspective of a tsunami surging inland for an evacuation practice demonstration.  The RAPID-produced elements of the project are unusual in that reconnaissance was conducted in the community prior to an expected disaster, as a way of providing baseline information about the environment. This information can then be manipulated for photorealistic simulations of hazard impacts such as tsunami wave inundation, \u201cbathtub\u201d visualizations of coastal flooding due to sea level rise or subsidence, and long-term erosion and sediment transport impacts to coastlines. The setting for this project is itself unique as it is the first community in North America to build a tsunami vertical evacuation structure (VES). The local Ocosta School District accomplished this as part of an elementary school rebuild in 2016, which has provided the community with a unique point of pride and students at the school with a point of reference for thinking about coastal hazards over the long term (Cascadia Subduction earthquakes and tsunamis recur only once in an interval of approximately 300-500 years; the last such event occurred in 1700).  The 3D point cloud model and imagery have so far assisted UW undergraduate and professional masters students in Architecture, Landscape Architecture, and Urban Design & Planning to envision how additional VES\u2019s and other adaptive strategies including flood-resilient housing and recreational spaces may fit within the townscape, and thus, like the school, serve everyday functions as well as emergency ones. The model was unexpectedly useful for one class of these UW students who were unable to visit the community in person due to COVID-19 travel restrictions in Winter Quarter 2021; the studio course had to be mounted entirely online, and students were able to engage with the environment digitally from remote locations. In a synergistic Cascadia CoPes Hub-funded project for \u201cInclusive Community-based STEAM Identity-building in Coastal Hazards Research: Pilot Activities for Cascadia TEACH with the Ocosta School District, WA,\u201d the model has also enabled local youth through an extracurricular drone club to map out places in the community that are important to them, and to document them with drone-flown photography and video that they take themselves. The youth are also working with the model to design a video game that depicts the interactions between hazard impacts and possible mitigation strategies. Both these sets of activities are informing the masters theses of two graduate students in Urban Planning and Public Health. Ancillary to this CoPes-funded data-gathering and processing, RAPID staff have helped train UW students and local youth to operate drones, which has been essential to the activities described above as well as other synergistic projects. Ocosta students have visited the RAPID facility at the UW campus, and are expected gradually to be introduced to the technology of creating point cloud models with drone-collected data."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data was collected in Westport, WA over the span of a week for the purpose of local community modeling associated with the NSF CoPe EAGER project. Aerial imagery was collected of the Westport peninsula from Westhaven to Hwy 105 East at <3cm GSD and high precision, near-cm GSD, imagery was collected of critical infrastructure sites. On the ground, GPS ground control was collected, 360-degree streetview imagery of all accessible roads was taken, and laser scans were conducted at specific critical infrastructure sites."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CoPES"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Westport"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "tsunami"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "UW RAPID Facility"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "coastal hazards"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington (washington.edu)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/Westport, WA"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

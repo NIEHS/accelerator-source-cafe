@@ -1,0 +1,802 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437621,
+        "datasetId": 10794822,
+        "datasetPersistentId": "doi:10.7910/DVN/UIBSM1",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/UIBSM1",
+        "versionNumber": 2,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2025-02-18",
+        "lastUpdateTime": "2025-02-18T16:03:21Z",
+        "releaseTime": "2025-02-18T16:03:21Z",
+        "createTime": "2025-02-18T16:02:27Z",
+        "publicationDate": "2025-01-15",
+        "citationDate": "2025-01-15",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: US Department of Health and Human Services Office of Climate Change and Health Equity (OCCHE) Resources"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The Office of Climate Change and Health Equity (OCCHE)"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Department of Health and Human Services"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information: https://www.hhs.gov/sites/default/files/hhs-climate-change-health-equity-strategy-supplement.pdf\n\n<br />\nIf you have questions about the underlying data stored here, please contact OCRMail@hhs.gov. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br />\n\n\"OCCHE and OEJ are pleased to share a compilation of our resources related to health sector emissions reduction, community climate resilience, and environmental justice. This includes a new 'How-to Guide for Creating a Seasonal Forecast for Health' from OCCHE, which provides information on how to create your own Climate and Health Outlook.\" [Quote from an email from OCCHE]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-20"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Health"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Justice"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementTo"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Department of Health and Human Services (HHS). (2023). Climate Change and Health Equity Strategy Supplement. https://www.hhs.gov/sites/default/files/hhs-climate-change-health-equity-strategy-supplement.pdf"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nOCCHE Resources data was downloaded by Jonathan Gilmour on 2024-12-20"
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-18"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gilmour, Jonathan"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-12-20"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2021-01-20"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-20"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the U.S. Department of Health and Human Services and are pasted below: <br />\n\"This information on this website is only intended to be general summary information for public use. This information does not replace written law or regulations, nor does it replace professional medical advice, diagnosis, or treatment. If you have questions about a medical condition, always seek the advice of a doctor or other qualified health professional.\""
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Department of Health and Human Services"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Environmental Health",
+                            "Environmental Justice"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "",
+                "label": "Emissions Disclosures and Energy Use Reporting by Hospitals in the US.pdf",
+                "restricted": false,
+                "directoryLabel": "Emissions Reduction Guidance for the Health Sector",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794825,
+                    "persistentId": "",
+                    "filename": "Emissions Disclosures and Energy Use Reporting by Hospitals in the US.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 289905,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e61612e6-a7322ef7219b",
+                    "rootDataFileId": -1,
+                    "md5": "a8610e2c2a25bdd06850de8e4df5370a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a8610e2c2a25bdd06850de8e4df5370a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "greenfied-grain-terminal-letter.pdf",
+                "restricted": false,
+                "directoryLabel": "Environmental Justice",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794824,
+                    "persistentId": "",
+                    "filename": "greenfied-grain-terminal-letter.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 527517,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e615fc17-b198155d8992",
+                    "rootDataFileId": -1,
+                    "md5": "c74c0e11b38a1762ebe725ea264856ba",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c74c0e11b38a1762ebe725ea264856ba"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "IRA Case Studies.pdf",
+                "restricted": false,
+                "directoryLabel": "Inflation Reduction Act Resources for the Health Sector",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794839,
+                    "persistentId": "",
+                    "filename": "IRA Case Studies.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2296443,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e6160933-ad28bef45f98",
+                    "rootDataFileId": -1,
+                    "md5": "c5e1caa1f404c9214658325b14cd5a9e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c5e1caa1f404c9214658325b14cd5a9e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Farmworker Appreciation Day Factsheet English and Spanish.pdf",
+                "restricted": false,
+                "directoryLabel": "Farmworker Appreciation Day Factsheet",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794826,
+                    "persistentId": "",
+                    "filename": "Farmworker Appreciation Day Factsheet English and Spanish.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 4280589,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e615f2b5-21fedbb125a6",
+                    "rootDataFileId": -1,
+                    "md5": "973c991ecedde4db3d8422fa0ebe85fa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "973c991ecedde4db3d8422fa0ebe85fa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "How-to Guide for Creating a Seasonal Forecast for Health.pdf",
+                "restricted": false,
+                "directoryLabel": "Climate and Health Outlook",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794830,
+                    "persistentId": "",
+                    "filename": "How-to Guide for Creating a Seasonal Forecast for Health.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 374853,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e616004a-3e6f9a7096b0",
+                    "rootDataFileId": -1,
+                    "md5": "c5c405e629de8f3e1f4aa929c9ada36f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c5c405e629de8f3e1f4aa929c9ada36f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Migrant-Health-Center-IRA-Factsheet-English-and-Spanish.pdf",
+                "restricted": false,
+                "directoryLabel": "Inflation Reduction Act Resources for the Health Sector",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794840,
+                    "persistentId": "",
+                    "filename": "Migrant-Health-Center-IRA-Factsheet-English-and-Spanish.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 355136,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e6160a52-95751ee4210a",
+                    "rootDataFileId": -1,
+                    "md5": "c83c92547fb640ab01f125c8e8d19af7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c83c92547fb640ab01f125c8e8d19af7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Sample of 2024 Climate and Health Outlooks.pdf",
+                "restricted": false,
+                "directoryLabel": "Climate and Health Outlook",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794829,
+                    "persistentId": "",
+                    "filename": "Sample of 2024 Climate and Health Outlooks.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 5522286,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e61608df-57b0e088bcef",
+                    "rootDataFileId": -1,
+                    "md5": "698f2341c2a60833e824449e41d8505b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "698f2341c2a60833e824449e41d8505b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Rural-Provider-IRA-Resource-English-and-Spanish.pdf",
+                "restricted": false,
+                "directoryLabel": "Inflation Reduction Act Resources for the Health Sector",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794834,
+                    "persistentId": "",
+                    "filename": "Rural-Provider-IRA-Resource-English-and-Spanish.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 275200,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e6160da5-196c40c52688",
+                    "rootDataFileId": -1,
+                    "md5": "c8242566b68ca90129cb298e90693695",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c8242566b68ca90129cb298e90693695"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Tribal-Provider-IRA-Resource-English-and-Spanish.pdf",
+                "restricted": false,
+                "directoryLabel": "Inflation Reduction Act Resources for the Health Sector",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794836,
+                    "persistentId": "",
+                    "filename": "Tribal-Provider-IRA-Resource-English-and-Spanish.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 430110,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e6160ada-0130e2b42712",
+                    "rootDataFileId": -1,
+                    "md5": "2f31bcd6973cb097b744f649735296f6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2f31bcd6973cb097b744f649735296f6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "EJI_2024_Technical_Documentation.pdf",
+                "restricted": false,
+                "directoryLabel": "Environmental Justice",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794823,
+                    "persistentId": "",
+                    "filename": "EJI_2024_Technical_Documentation.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1636935,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e615fd3c-71a87802a9df",
+                    "rootDataFileId": -1,
+                    "md5": "575967d5d14480123bec1f12b62f0a39",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "575967d5d14480123bec1f12b62f0a39"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "environmental-assessment-central-business-district-tolling-program.pdf",
+                "restricted": false,
+                "directoryLabel": "Environmental Justice",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794828,
+                    "persistentId": "",
+                    "filename": "environmental-assessment-central-business-district-tolling-program.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1043731,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e615f5d1-aa0bbb29ddf1",
+                    "rootDataFileId": -1,
+                    "md5": "d2a5bb69037a4a0d2966a61d298aaa80",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2a5bb69037a4a0d2966a61d298aaa80"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "epa-portfolio-manager-for-health-sector.pdf",
+                "restricted": false,
+                "directoryLabel": "Emissions Reduction Guidance for the Health Sector",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794831,
+                    "persistentId": "",
+                    "filename": "epa-portfolio-manager-for-health-sector.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1342346,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e6160f8e-ef1198e470f1",
+                    "rootDataFileId": -1,
+                    "md5": "658de18b445d3349360384bf8706711f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "658de18b445d3349360384bf8706711f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "National_Heat_Strategy-2024-2030.pdf",
+                "restricted": false,
+                "directoryLabel": "Resources to Build Resilience to Climate-related Hazards",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794835,
+                    "persistentId": "",
+                    "filename": "National_Heat_Strategy-2024-2030.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 5639795,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e615f0c1-24882368a589",
+                    "rootDataFileId": -1,
+                    "md5": "91230c43b4c0aa5f23ea705a69959697",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "91230c43b4c0aa5f23ea705a69959697"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "Scope 3 Emissions Reduction Roadmap.pdf",
+                "restricted": false,
+                "directoryLabel": "Emissions Reduction Guidance for the Health Sector",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794832,
+                    "persistentId": "",
+                    "filename": "Scope 3 Emissions Reduction Roadmap.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 234980,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e6161059-910347fdd178",
+                    "rootDataFileId": -1,
+                    "md5": "d10e24b943ddeecbfbcb92b89f620459",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d10e24b943ddeecbfbcb92b89f620459"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "2024 HHS Resources on Heat and Health.pdf",
+                "restricted": false,
+                "directoryLabel": "Resources to Build Resilience to Climate-related Hazards",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794838,
+                    "persistentId": "",
+                    "filename": "2024 HHS Resources on Heat and Health.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 201778,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e615f199-76380885c4ce",
+                    "rootDataFileId": -1,
+                    "md5": "70db598ce5d1c6ce6e7dd4435e7ddca1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "70db598ce5d1c6ce6e7dd4435e7ddca1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "OCCHE_Referral Guide_2024_11_compliant.pdf",
+                "restricted": false,
+                "directoryLabel": "Resources to Build Resilience to Climate-related Hazards",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794833,
+                    "persistentId": "",
+                    "filename": "OCCHE_Referral Guide_2024_11_compliant.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 304304,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e615f00f-5e4a640f016b",
+                    "rootDataFileId": -1,
+                    "md5": "db881b6fd5cd482b8ab0c3c0ce22ad55",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "db881b6fd5cd482b8ab0c3c0ce22ad55"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "hhs-oej-tweed-new-haven-airport-eji-letter.pdf",
+                "restricted": false,
+                "directoryLabel": "Environmental Justice",
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10794837,
+                    "persistentId": "",
+                    "filename": "hhs-oej-tweed-new-haven-airport-eji-letter.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1244064,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193e615f4bd-3eaec3c343ea",
+                    "rootDataFileId": -1,
+                    "md5": "dbde44db612b88975fa36f8b0c6d27fa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dbde44db612b88975fa36f8b0c6d27fa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-20",
+                    "publicationDate": "2025-01-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "HHS website disclaimers",
+                "label": "Website Disclaimers _ HHS.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437621,
+                "dataFile": {
+                    "id": 10893516,
+                    "persistentId": "",
+                    "filename": "Website Disclaimers _ HHS.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 96998,
+                    "description": "HHS website disclaimers",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19519cc0b35-68332de0c6f1",
+                    "rootDataFileId": -1,
+                    "md5": "b6d07176873b3cdf4bb492023bfd4092",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b6d07176873b3cdf4bb492023bfd4092"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-02-18",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

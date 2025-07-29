@@ -1,0 +1,394 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437409,
+        "datasetId": 10887014,
+        "datasetPersistentId": "doi:10.7910/DVN/BPBKVF",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/BPBKVF",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-25T16:58:59Z",
+        "releaseTime": "2025-02-25T16:58:59Z",
+        "createTime": "2025-02-14T21:17:13Z",
+        "publicationDate": "2025-02-25",
+        "citationDate": "2025-02-25",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Enforcement Raw Data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Pipeline and Hazardous Materials Safety Administration"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Department of Transportation"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\nIf you have questions about the underlying data stored here, please contact phmsa.pipelinesafety@dot.gov. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu\n<br /><br />\n\"The Pipeline Safety Enforcement Program is designed to monitor and enforce compliance with pipeline safety regulations and confirm operators are meeting PHMSA expectations for safe, reliable, and environmentally sound operation of their facilities. On this website PHMSA offers a variety of reports and records detailing its enforcement activity involving pipeline operators. These reports and records are offered on both nationwide and operator-specific bases...\" [Quote from [https://primis.phmsa.dot.gov/enforcement-data] \n<br />"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-14"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Engineering"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Regulation"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Pipeline"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nPHMSA raw data was downloaded by Bradley Wilson on 02-14-2025."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Wilson, Bradley"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2002-01-02"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-04"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us."
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Enforcement Raw Data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Department of Transportation Pipeline and Hazardous Materials Safety Administration"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-04"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Enforcement Records"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestepOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Irregular Timestamps"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "PHMSA monitors compliance through field inspections of facilities and construction projects; programmatic inspections of operator management systems, procedures, and processes; incident investigations; and through direct dialogue with operator management. To facilitate compliance, PHMSA clarifies its regulatory expectations with published inspection forms and protocols; rule interpretations; guidance manuals and advisory notices; FAQs; posting of final orders on its website; and public meetings and workshops. Finally, PHMSA has available a full range of enforcement mechanisms to require that operators take appropriate and timely corrective actions for violations, and that they take preventive measures to preclude future failures or non-compliant operation of their pipelines."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Regulation"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Data dictionary for Pipeline Enforcement Raw Data File. ",
+                "label": "Enforcement Data Dictionary.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437409,
+                "dataFile": {
+                    "id": 10887016,
+                    "persistentId": "",
+                    "filename": "Enforcement Data Dictionary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 97231,
+                    "description": "Data dictionary for Pipeline Enforcement Raw Data File. ",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195064682bc-5ad05bdcf860",
+                    "rootDataFileId": -1,
+                    "md5": "5f6f5540e868a9ccb25bf92e0d755674",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5f6f5540e868a9ccb25bf92e0d755674"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "EnforcementData_PHMSA_Webpage.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437409,
+                "dataFile": {
+                    "id": 10887015,
+                    "persistentId": "",
+                    "filename": "EnforcementData_PHMSA_Webpage.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 950283,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195065206fc-6517150042b1",
+                    "rootDataFileId": -1,
+                    "md5": "8c7278b3b75e106e09037f9b90d439aa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8c7278b3b75e106e09037f9b90d439aa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "PHMSA Pipeline Enforcement Raw Data.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437409,
+                "dataFile": {
+                    "id": 10887018,
+                    "persistentId": "",
+                    "filename": "PHMSA Pipeline Enforcement Raw Data.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1916598,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19506463962-549d6834c703",
+                    "rootDataFileId": -1,
+                    "md5": "3ff5376fc20d690197527977df740057",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3ff5376fc20d690197527977df740057"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "EnforcementData_PHMSA_WebPage.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437409,
+                "dataFile": {
+                    "id": 10887017,
+                    "persistentId": "",
+                    "filename": "EnforcementData_PHMSA_WebPage.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1376729,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19506527ea3-6833d149dddb",
+                    "rootDataFileId": -1,
+                    "md5": "8b5d342fb97ff49a0ece7bd88df8c69b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8b5d342fb97ff49a0ece7bd88df8c69b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-25",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

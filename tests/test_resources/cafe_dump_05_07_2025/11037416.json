@@ -1,0 +1,741 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 441273,
+        "datasetId": 11037416,
+        "datasetPersistentId": "doi:10.7910/DVN/OTUHRM",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/OTUHRM",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "lastUpdateTime": "2025-04-04T20:54:34Z",
+        "releaseTime": "2025-04-04T20:54:34Z",
+        "createTime": "2025-03-31T16:25:48Z",
+        "publicationDate": "2025-04-04",
+        "citationDate": "2025-04-04",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Alternative Fuels Data Center Maps and Data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "US Department of Energy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information. <br /><br />\n\nIf you have questions about the underlying data stored here, please contact the Technical Response Service at technicalresponse@icf.com. If you have questions about this metadata, contact CAFE at climatecafe@bu.edu.\n<br />\n<br />\n\"The Alternative Fuels Data Center (AFDC) provides a wealth of information and data on alternative and renewable fuels, advanced vehicles, fuel-saving strategies, and emerging transportation technologies. This site features interactive tools, calculators, and mapping applications to aid in the deployment of these fuels, vehicles, and strategies. The AFDC functions as a dynamic online hub, providing information, tools, and resources for transportation decision makers seeking efficient alternatives that diversify energy sources and help businesses and communities make wise choices.\n\nThe U.S. Department of Energy (DOE) launched the AFDC in 1991 in response to the Alternative Motor Fuels Act of 1988 and the Clean Air Act Amendments of 1990. It originally served as a repository for alternative fuel vehicle performance data. Since that time, the AFDC has evolved to become an indispensable resource for fleets, fuel providers, policymakers, cities, states, Clean Cities and Communities coalitions, and others working to improve efficiency, cut costs, reduce emissions in transportation, and plan for the future.\n\nTo keep pace with the rapidly evolving transportation arena, the AFDC is meticulously reviewed annually by subject matter experts consulting with industry leaders and innovators to provide the latest data, publications, case studies, tools, and information.\" [Quote from https://afdc.energy.gov/about]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-03-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nAlternative Fuels Data Center data was downloaded by Sydney Scott on 03/21/25."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Scott, Sydney"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-31"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1949-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us."
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://afdc.energy.gov/data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-12-21"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-31"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Renewable Energy"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Clean Cities and Communities.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037457,
+                    "persistentId": "",
+                    "filename": "Clean Cities and Communities.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 331545,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed188ab9-3b202f9ff4d1",
+                    "rootDataFileId": -1,
+                    "md5": "1f64c22460324d505b25f40f962b3b81",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1f64c22460324d505b25f40f962b3b81"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Alternative Fuels Data Center_ Maps and Data.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 11037438,
+                    "persistentId": "",
+                    "filename": "Alternative Fuels Data Center_ Maps and Data.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 174345,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed0cd946-c36748e16edd",
+                    "rootDataFileId": -1,
+                    "md5": "edec902472a69eae301a994114a6a4f4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "edec902472a69eae301a994114a6a4f4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Alternative Fuels Data Center_ Maps and Data.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 11037437,
+                    "persistentId": "",
+                    "filename": "Alternative Fuels Data Center_ Maps and Data.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 304542,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed0cda07-1a50a0121ea9",
+                    "rootDataFileId": -1,
+                    "md5": "96b4aa3726d56f78ecebb31939376829",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "96b4aa3726d56f78ecebb31939376829"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Clean Cities and Communities Energy Use Impact.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037442,
+                    "persistentId": "",
+                    "filename": "Clean Cities and Communities Energy Use Impact.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 192956,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed11a837-0fdfd0fdcc72",
+                    "rootDataFileId": -1,
+                    "md5": "409695fd30b2d19e628c9d5d682eaa55",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "409695fd30b2d19e628c9d5d682eaa55"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Clean Cities and Communities Vehicles.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037443,
+                    "persistentId": "",
+                    "filename": "Clean Cities and Communities Vehicles.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 72455,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed11a9c6-9f0fd39fa383",
+                    "rootDataFileId": -1,
+                    "md5": "6a7aba4d595df9a0c4b30b14c9e62741",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6a7aba4d595df9a0c4b30b14c9e62741"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Fuels and Infrastructure Alternative Fueling Stations.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037441,
+                    "persistentId": "",
+                    "filename": "Fuels and Infrastructure Alternative Fueling Stations.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6692524,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed11a8f9-7948095a1942",
+                    "rootDataFileId": -1,
+                    "md5": "a1b1cddc0b6336eee4b4dcfef582c78c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a1b1cddc0b6336eee4b4dcfef582c78c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Fuels and Infrastructure Biofuels Production.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037448,
+                    "persistentId": "",
+                    "filename": "Fuels and Infrastructure Biofuels Production.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 288023,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed141056-1022d992c7cc",
+                    "rootDataFileId": -1,
+                    "md5": "4e4754af7210f740fd6213702529fb13",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4e4754af7210f740fd6213702529fb13"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Fuels and Infrastructure Fuel Trends.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037445,
+                    "persistentId": "",
+                    "filename": "Fuels and Infrastructure Fuel Trends.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1117772,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed141244-bb0023f2cf12",
+                    "rootDataFileId": -1,
+                    "md5": "1972199daaa129edeaf3563713f56a24",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1972199daaa129edeaf3563713f56a24"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Fuels and Infrastructure Emissions.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037447,
+                    "persistentId": "",
+                    "filename": "Fuels and Infrastructure Emissions.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 34067,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed141177-b02f2ff4d9a0",
+                    "rootDataFileId": -1,
+                    "md5": "4e60ec8c0c93a8782fccb658bd1e2180",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4e60ec8c0c93a8782fccb658bd1e2180"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Fuels and Infrastructure Transportation Infrastructure.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037446,
+                    "persistentId": "",
+                    "filename": "Fuels and Infrastructure Transportation Infrastructure.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 22352,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed141692-0e914a1a8a1b",
+                    "rootDataFileId": -1,
+                    "md5": "12ed7420508202cb2f8d14c7101267e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "12ed7420508202cb2f8d14c7101267e8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Fuels and Infrastructure Idle Reduction.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037444,
+                    "persistentId": "",
+                    "filename": "Fuels and Infrastructure Idle Reduction.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 88426,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed141307-0ea16a114a5e",
+                    "rootDataFileId": -1,
+                    "md5": "e14cb06505a0a83382fdcc93cf5205bf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e14cb06505a0a83382fdcc93cf5205bf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Laws and Incentives.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037456,
+                    "persistentId": "",
+                    "filename": "Laws and Incentives.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1476618,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed152899-fd8d4dacb2fb",
+                    "rootDataFileId": -1,
+                    "md5": "bba73d8f8c2215c9cde9dcd04a2b90ea",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bba73d8f8c2215c9cde9dcd04a2b90ea"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Vehicles Fuel Consumption and Efficiency.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037452,
+                    "persistentId": "",
+                    "filename": "Vehicles Fuel Consumption and Efficiency.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 459689,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed153547-aaca14c01ffd",
+                    "rootDataFileId": -1,
+                    "md5": "2c2b086caa186c5c331349c44c28b67c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2c2b086caa186c5c331349c44c28b67c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Vehicles Vehicle Market.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037450,
+                    "persistentId": "",
+                    "filename": "Vehicles Vehicle Market.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 123361,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed1531b3-6b1dcbc8b6bb",
+                    "rootDataFileId": -1,
+                    "md5": "52aac07aad2cbd278313bc1a5cc74dca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "52aac07aad2cbd278313bc1a5cc74dca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Vehicles.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037449,
+                    "persistentId": "",
+                    "filename": "Vehicles.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 52824,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed153393-7e84b60609e1",
+                    "rootDataFileId": -1,
+                    "md5": "9639b93c39c9cfbb2953c8065a634668",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9639b93c39c9cfbb2953c8065a634668"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Vehicles AFVs and HEVs.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037455,
+                    "persistentId": "",
+                    "filename": "Vehicles AFVs and HEVs.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 865313,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed152bda-696295906f05",
+                    "rootDataFileId": -1,
+                    "md5": "127a10bbb7b520dbf8d1774db955a22a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "127a10bbb7b520dbf8d1774db955a22a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Regulated Fleets State and Alt Fuel Providers.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037451,
+                    "persistentId": "",
+                    "filename": "Regulated Fleets State and Alt Fuel Providers.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 187656,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed152a1e-23ead4aaa925",
+                    "rootDataFileId": -1,
+                    "md5": "25578cbd9ba2062bc78e340ffe6d0f25",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "25578cbd9ba2062bc78e340ffe6d0f25"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Regulated Fleets Federal Fleets.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037453,
+                    "persistentId": "",
+                    "filename": "Regulated Fleets Federal Fleets.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 23489,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed152950-e7f2768dc6ef",
+                    "rootDataFileId": -1,
+                    "md5": "0526a1e578ad8550ebd8f8961137b496",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0526a1e578ad8550ebd8f8961137b496"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Vehicles Driving Patterns.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11037454,
+                    "persistentId": "",
+                    "filename": "Vehicles Driving Patterns.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 143795,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ed153013-c477b8e4f6bb",
+                    "rootDataFileId": -1,
+                    "md5": "53da46d8c41dfca64fe15f56119fcdf2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "53da46d8c41dfca64fe15f56119fcdf2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-31",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Web Policies _ Department of Energy.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 441273,
+                "dataFile": {
+                    "id": 11054495,
+                    "persistentId": "",
+                    "filename": "Web Policies _ Department of Energy.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 768114,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19602503727-3d9a029a261d",
+                    "rootDataFileId": -1,
+                    "md5": "3eefbb1c9e8f0ed26c98ac4dce97c799",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3eefbb1c9e8f0ed26c98ac4dce97c799"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-04",
+                    "publicationDate": "2025-04-04",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

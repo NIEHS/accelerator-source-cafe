@@ -1,0 +1,526 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 432839,
+        "datasetId": 10781282,
+        "datasetPersistentId": "doi:10.7910/DVN/MV9FEH",
+        "storageIdentifier": "s3://10.7910/DVN/MV9FEH",
+        "versionNumber": 2,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "DRAFT",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:/mRL4sFqJSN+iGx4E0WFkg==",
+        "lastUpdateTime": "2024-12-13T21:56:42Z",
+        "releaseTime": "2024-12-13T21:56:42Z",
+        "createTime": "2024-12-13T21:56:15Z",
+        "publicationDate": "2024-12-13",
+        "citationDate": "2024-12-13",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Replication Data for: Reducing Emissions and Air Pollution from Informal Brick Kilns: Evidence from Bangladesh"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Brooks, Nina"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-3409-5434"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Biswas, Debashish"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Health and WASH, International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Maithel, Sameer"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Greentech Knowledge Solutions"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Miller, Grant"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Department of Health Policy, School of Medicine, Stanford University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mahajan, Aprajit"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dept. of Agricultural & Resource Economics, University of California, Berkeley"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Uddin, M. Rofi"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Health and WASH, International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ahmed, Shoeb"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Department of Chemical Engineering, Bangladesh University of Engineering and Technology (BUET)"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mahzab, Moogdho"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Stanford University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rahman, Mahbubur"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Health and WASH, International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Luby, Stepehen"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Division of Infectious Diseases and Geographic Medicine, School of Medicine, Stanford University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Brooks, Nina"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "nrbrooks@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data and code to replicate the analysis from \"Reducing Emissions and Air Pollution from Informal Brick Kilns: Evidence from Bangladesh\". We include de-identified versions of the baseline data, adoption checklist data, and a merged dataset that combines the kiln performance monitoring data and the endline data."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-13"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Brooks, N. R., Biswas, D., Maithel, S., Miller, G., Mahajan, A., Uddin, M. R., ... & Luby, S. P. (2024). Reducing Emissions and Air Pollution from the Informal Sector: Evidence from Bangladesh (No. w32794). National Bureau of Economic Research."
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.nber.org/papers/w32794"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Brooks, Nina"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-12-13"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Adoption checklist (.Rdata version)",
+                "label": "adoption_checklist.RData",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 1,
+                "datasetVersionId": 432839,
+                "dataFile": {
+                    "id": 10781284,
+                    "persistentId": "",
+                    "filename": "adoption_checklist.RData",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 60858,
+                    "description": "Adoption checklist (.Rdata version)",
+                    "storageIdentifier": "s3://dvn-cloud:193c1eafb68-35122d2d5181",
+                    "rootDataFileId": -1,
+                    "md5": "8310ea81ce08eeb0f3a8a1c0f7cab3b3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8310ea81ce08eeb0f3a8a1c0f7cab3b3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-13",
+                    "publicationDate": "2024-12-13",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "CSV format version of the merged dataset that combines the kiln performance monitoring data and the endline data.",
+                "label": "endline_kpm_long.tab",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 1,
+                "datasetVersionId": 432839,
+                "dataFile": {
+                    "id": 10781288,
+                    "persistentId": "",
+                    "filename": "endline_kpm_long.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 1012077,
+                    "description": "CSV format version of the merged dataset that combines the kiln performance monitoring data and the endline data.",
+                    "storageIdentifier": "s3://dvn-cloud:193c1ec4a15-3a5a9241265f",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 1157437,
+                    "originalFileName": "endline_kpm_long.csv",
+                    "UNF": "UNF:6:ZfZLYS/InXgHztdeRIhqrQ==",
+                    "rootDataFileId": -1,
+                    "md5": "e7ad2fa7123d5234922f845aa23e2e2e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e7ad2fa7123d5234922f845aa23e2e2e"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-12-13",
+                    "publicationDate": "2024-12-13",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "RMarkdown file that replicates the complete analysis.",
+                "label": "replication_code.Rmd",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 432839,
+                "dataFile": {
+                    "id": 10781292,
+                    "persistentId": "",
+                    "filename": "replication_code.Rmd",
+                    "contentType": "text/x-r-notebook",
+                    "friendlyType": "R Notebook",
+                    "filesize": 60922,
+                    "description": "RMarkdown file that replicates the complete analysis.",
+                    "storageIdentifier": "s3://dvn-cloud:193c2057855-608d8fc47507",
+                    "rootDataFileId": 10781292,
+                    "md5": "d1d1fa5934f2d1486ff93ea6f30c8300",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d1d1fa5934f2d1486ff93ea6f30c8300"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-13",
+                    "publicationDate": "2024-12-13",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Baseline Data (.Rdata version)",
+                "label": "baseline.RData",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 1,
+                "datasetVersionId": 432839,
+                "dataFile": {
+                    "id": 10781283,
+                    "persistentId": "",
+                    "filename": "baseline.RData",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 60849,
+                    "description": "Baseline Data (.Rdata version)",
+                    "storageIdentifier": "s3://dvn-cloud:193c1eafc4f-16a4ef1a7c87",
+                    "rootDataFileId": -1,
+                    "md5": "f6293fad55f6c087d4202d958ec9a7d4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f6293fad55f6c087d4202d958ec9a7d4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-13",
+                    "publicationDate": "2024-12-13",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "CSV format version of baseline data",
+                "label": "baseline.tab",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 1,
+                "datasetVersionId": 432839,
+                "dataFile": {
+                    "id": 10781287,
+                    "persistentId": "",
+                    "filename": "baseline.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 457472,
+                    "description": "CSV format version of baseline data",
+                    "storageIdentifier": "s3://dvn-cloud:193c1ec4642-bca3ef24002c",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 498566,
+                    "originalFileName": "baseline.csv",
+                    "UNF": "UNF:6:/7RB3628/ykUW6PMLv4OTQ==",
+                    "rootDataFileId": -1,
+                    "md5": "97c11ab3c05e583ccc895f3476228433",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "97c11ab3c05e583ccc895f3476228433"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-12-13",
+                    "publicationDate": "2024-12-13",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Merged kiln performance monitoring and endline data (.Rdata version)",
+                "label": "endline_kpm_long.RData",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 1,
+                "datasetVersionId": 432839,
+                "dataFile": {
+                    "id": 10781286,
+                    "persistentId": "",
+                    "filename": "endline_kpm_long.RData",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 250485,
+                    "description": "Merged kiln performance monitoring and endline data (.Rdata version)",
+                    "storageIdentifier": "s3://dvn-cloud:193c1eafde8-06934b6a0cff",
+                    "rootDataFileId": -1,
+                    "md5": "924c119f7f5c402b7cb33f9a96844011",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "924c119f7f5c402b7cb33f9a96844011"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-13",
+                    "publicationDate": "2024-12-13",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Codebook for all three datasets (each in its own worksheet) that explains each variable, it's values, and other relevant information.",
+                "label": "Data Codebook.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 432839,
+                "dataFile": {
+                    "id": 10781291,
+                    "persistentId": "",
+                    "filename": "Data Codebook.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 51243,
+                    "description": "Codebook for all three datasets (each in its own worksheet) that explains each variable, it's values, and other relevant information.",
+                    "storageIdentifier": "s3://dvn-cloud:193c1fac4c1-fa6b28505d4d",
+                    "rootDataFileId": -1,
+                    "md5": "b48fbf2bc4a81d61b5c82eefbc831e92",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b48fbf2bc4a81d61b5c82eefbc831e92"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-13",
+                    "publicationDate": "2024-12-13",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "README explaining the replication data and code.",
+                "label": "README.md",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 432839,
+                "dataFile": {
+                    "id": 10781289,
+                    "persistentId": "",
+                    "filename": "README.md",
+                    "contentType": "text/markdown",
+                    "friendlyType": "Markdown Text",
+                    "filesize": 1540,
+                    "description": "README explaining the replication data and code.",
+                    "storageIdentifier": "s3://dvn-cloud:193c1f022f0-a02c41ab36cc",
+                    "rootDataFileId": -1,
+                    "md5": "2dac107ac5b826aa7a34f8c03cfe5a8a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2dac107ac5b826aa7a34f8c03cfe5a8a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-13",
+                    "publicationDate": "2024-12-13",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

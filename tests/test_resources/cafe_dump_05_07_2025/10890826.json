@@ -1,0 +1,1036 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437538,
+        "datasetId": 10890826,
+        "datasetPersistentId": "doi:10.7910/DVN/VGMTRO",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/VGMTRO",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-03-07T20:11:22Z",
+        "releaseTime": "2025-03-07T20:11:22Z",
+        "createTime": "2025-02-17T15:06:26Z",
+        "publicationDate": "2025-03-07",
+        "citationDate": "2025-03-07",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Occurrence Data from Monitoring Unregulated Drinking Water Contaminants"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Office of Ground Water and Drinking Water"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Environmental Protection Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form.  \nIf you have questions about the underlying data stored here, please contact the EPA - https://www.epa.gov/dwucmr/forms/dwucmr or UCMR5@glec.com\n<br /><br />\n\"The EPA uses the Unregulated Contaminant Monitoring Rule (UCMR) to collect data for contaminants that are suspected to be present in drinking water and do not have regulatory standards set under the Safe Drinking Water Act (SDWA). The monitoring provides the EPA and other interested parties with nationally representative data on the occurrence of contaminants in drinking water, the number of people potentially being exposed, and an estimate of the levels of that exposure. These data can support future regulatory determinations and other actions to protect public health.\n<br /><br />\nTo improve accessibility and transparency of the UCMR occurrence data, the EPA standardized the data fields across the UCMR datasets and developed two tools: the UCMR 5 Data Finder and the UCMR Archival Data Finder. These tools allow people to easily search for analytical results from each UCMR cycle. Selected results can be downloaded as a Microsoft Excel file (downloads are limited to one million records). For those interested in large-scale data processing using statistical or data analysis software, the EPA recommends using the associated UCMR occurrence data text files provided on this page (standardized in March 2024) which contain the analytical results for each cycle as well as additional information reported during monitoring, if applicable.\n<br /><br />\nBefore conducting your own assessment of the data, please review the Instructions for Accessing UCMR Results and the Data Summary documents on this page.\"\n<br /><br />\nQuote from https://www.epa.gov/dwucmr/occurrence-data-unregulated-contaminant-monitoring-rule"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-26"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Water Security"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Water Quality"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Exposure"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementedBy"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Office of Water. (2024). \"The Fifth Unregulated Contaminant Monitoring Rule (UCMR 5)\nData Summary: October 2024\". EPA. https://www.epa.gov/system/files/documents/2023-08/ucmr5-data-summary_0.pdf."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Xindi Hu, Yanhua Li (Water, Health, and Opportunity Lab)"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-26"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1988-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-10-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Text files (zipped)"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the EPA and are pasted below:\n\"The U.S. Government retains a nonexclusive, royalty-free license to publish or\nreproduce these documents, or allow others to do so, for U.S. Government purposes.\nThese documents may be freely distributed and used for non-commercial, scientific\nand educational purposes. Commercial use of the documents available from the EPA\nwebsites may be protected under the U.S. and Foreign Copyright Laws. Individual\ndocuments on the EPA website may have different copyright conditions, and that will\nbe noted in those documents.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "State"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. EPA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "UCMR 5"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.epa.gov/dwucmr/occurrence-data-unregulated-contaminant-monitoring-rule"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-11-14"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestepOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Quarterly"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the EPA and are pasted below:\n\"The U.S. Government retains a nonexclusive, royalty-free license to publish or\nreproduce these documents, or allow others to do so, for U.S. Government purposes.\nThese documents may be freely distributed and used for non-commercial, scientific\nand educational purposes. Commercial use of the documents available from the EPA\nwebsites may be protected under the U.S. and Foreign Copyright Laws. Individual\ndocuments on the EPA website may have different copyright conditions, and that will\nbe noted in those documents.\""
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Exposure",
+                            "Water Quality",
+                            "Water Security"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "",
+                "label": "ucmr5-occurrence-data-by-state.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890845,
+                    "persistentId": "",
+                    "filename": "ucmr5-occurrence-data-by-state.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8153474,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951476d33a-b84491e34df6",
+                    "rootDataFileId": -1,
+                    "md5": "e4159b6f553778edf436f20d744ed91e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e4159b6f553778edf436f20d744ed91e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr5-occurrence-data-by-method-classification.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890843,
+                    "persistentId": "",
+                    "filename": "ucmr5-occurrence-data-by-method-classification.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 9161664,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951476d273-7d5e8730f3d4",
+                    "rootDataFileId": -1,
+                    "md5": "aed5f6cdece1bf872f919c60d22ff356",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aed5f6cdece1bf872f919c60d22ff356"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr5-data-summary_Oct 2024.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890844,
+                    "persistentId": "",
+                    "filename": "ucmr5-data-summary_Oct 2024.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 498661,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951476d198-8ce8516fc7fd",
+                    "rootDataFileId": -1,
+                    "md5": "e6898774f312d98b86b44b9c479bb7fc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e6898774f312d98b86b44b9c479bb7fc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr5-occurrence-data.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890846,
+                    "persistentId": "",
+                    "filename": "ucmr5-occurrence-data.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8128843,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951476d3f9-b86417641a0f",
+                    "rootDataFileId": -1,
+                    "md5": "1949abccf86a1c210c5da4d5eee8fe7b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1949abccf86a1c210c5da4d5eee8fe7b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr1-occurrence-data-by-method-classification.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890829,
+                    "persistentId": "",
+                    "filename": "ucmr1-occurrence-data-by-method-classification.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4737702,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951472aa6f-2aa6e7bdb5f9",
+                    "rootDataFileId": -1,
+                    "md5": "2411c766912506a0c9493f6138858945",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2411c766912506a0c9493f6138858945"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr1-occurrence-data-by-state.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890830,
+                    "persistentId": "",
+                    "filename": "ucmr1-occurrence-data-by-state.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 3415234,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951472ab43-d246a5624d69",
+                    "rootDataFileId": -1,
+                    "md5": "a5f9bafa2de5d68e0ec02206ff5f65c2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a5f9bafa2de5d68e0ec02206ff5f65c2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr1-data-summary.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890828,
+                    "persistentId": "",
+                    "filename": "ucmr1-data-summary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 378563,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951472a9af-84d583a5990a",
+                    "rootDataFileId": -1,
+                    "md5": "e0c6dc277c9211edc5092be804b3d375",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e0c6dc277c9211edc5092be804b3d375"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr1-occurrence-data.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890827,
+                    "persistentId": "",
+                    "filename": "ucmr1-occurrence-data.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 3413261,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951472ac02-0e5737db1e11",
+                    "rootDataFileId": -1,
+                    "md5": "4e9224a56d10ade254d65a5caeff21da",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4e9224a56d10ade254d65a5caeff21da"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr3-occurrence-data.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890831,
+                    "persistentId": "",
+                    "filename": "ucmr3-occurrence-data.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8860640,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951473c951-5c382982f403",
+                    "rootDataFileId": -1,
+                    "md5": "746df4192162f661721a9791f5be3cdf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "746df4192162f661721a9791f5be3cdf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr3-data-summary.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890833,
+                    "persistentId": "",
+                    "filename": "ucmr3-data-summary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 461824,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951473c7bf-3605d466adf4",
+                    "rootDataFileId": -1,
+                    "md5": "4dd84cffc86dd92fb505003c42df93e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4dd84cffc86dd92fb505003c42df93e5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr3-occurrence-data-by-state.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890832,
+                    "persistentId": "",
+                    "filename": "ucmr3-occurrence-data-by-state.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8863358,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951473c8e8-107c486d933f",
+                    "rootDataFileId": -1,
+                    "md5": "23202a5b9c88509b9388e22575601716",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "23202a5b9c88509b9388e22575601716"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr3-occurrence-data-by-method-classification.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890834,
+                    "persistentId": "",
+                    "filename": "ucmr3-occurrence-data-by-method-classification.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 11633784,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951473c882-1b1bca8f7e0f",
+                    "rootDataFileId": -1,
+                    "md5": "3e3446464f6d20f628a4b242677d729f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3e3446464f6d20f628a4b242677d729f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr2-occurrence-data-by-method-classification.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890836,
+                    "persistentId": "",
+                    "filename": "ucmr2-occurrence-data-by-method-classification.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4965261,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514757b1a-b11146025533",
+                    "rootDataFileId": -1,
+                    "md5": "3bd08927272664324c56d5503d7e750c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3bd08927272664324c56d5503d7e750c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr2-occurrence-data.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890837,
+                    "persistentId": "",
+                    "filename": "ucmr2-occurrence-data.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4369134,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514757c35-682cb90aede8",
+                    "rootDataFileId": -1,
+                    "md5": "691335f5a31eda8b006c4b03737e0c51",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "691335f5a31eda8b006c4b03737e0c51"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr2-data-summary.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890838,
+                    "persistentId": "",
+                    "filename": "ucmr2-data-summary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 352172,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514757a3f-3e3b436308c6",
+                    "rootDataFileId": -1,
+                    "md5": "6cf34253700f42fd26e5bb7b2f5606ed",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6cf34253700f42fd26e5bb7b2f5606ed"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr2-occurrence-data-by-state.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890835,
+                    "persistentId": "",
+                    "filename": "ucmr2-occurrence-data-by-state.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4370352,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514757bd0-6021ebca4c3c",
+                    "rootDataFileId": -1,
+                    "md5": "c8253defdb61a3465b4eb370dfda1763",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c8253defdb61a3465b4eb370dfda1763"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr4-occurrence-data-by-state.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890842,
+                    "persistentId": "",
+                    "filename": "ucmr4-occurrence-data-by-state.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 10581848,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514760e27-50634a79db8b",
+                    "rootDataFileId": -1,
+                    "md5": "61397663af8a944c0726e9e749244987",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "61397663af8a944c0726e9e749244987"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr4-data-summary.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890839,
+                    "persistentId": "",
+                    "filename": "ucmr4-data-summary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 509231,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514760c9d-679b17e69667",
+                    "rootDataFileId": -1,
+                    "md5": "adecb31c2102978a3bbc6b0c922db680",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "adecb31c2102978a3bbc6b0c922db680"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr4-occurrence-data.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890841,
+                    "persistentId": "",
+                    "filename": "ucmr4-occurrence-data.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 10628817,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514760eec-4b4b8ac91cf0",
+                    "rootDataFileId": -1,
+                    "md5": "dfcf38873ce0b0a6bac4601dcdead007",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dfcf38873ce0b0a6bac4601dcdead007"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ucmr4-occurrence-data-by-method-classification.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890840,
+                    "persistentId": "",
+                    "filename": "ucmr4-occurrence-data-by-method-classification.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 12182464,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514760d60-8c5037524f6b",
+                    "rootDataFileId": -1,
+                    "md5": "57f01c80720cd534ecc2d8cebaedae7e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "57f01c80720cd534ecc2d8cebaedae7e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "UCM National Occurrence Summary, 2001.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890848,
+                    "persistentId": "",
+                    "filename": "UCM National Occurrence Summary, 2001.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1916956,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514778e3f-5b446a993165",
+                    "rootDataFileId": -1,
+                    "md5": "b3630bbee1dea304721683955452e1dc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b3630bbee1dea304721683955452e1dc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "UCM National Occurrence of Unregulated Conteminants Report, 2001.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890850,
+                    "persistentId": "",
+                    "filename": "UCM National Occurrence of Unregulated Conteminants Report, 2001.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 9375411,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514778f0c-42c503475c92",
+                    "rootDataFileId": -1,
+                    "md5": "2d3d8f9a57cee3e1aacb41ba67779714",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d3d8f9a57cee3e1aacb41ba67779714"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Rounds 1 & 2 database in MS Access.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890849,
+                    "persistentId": "",
+                    "filename": "Rounds 1 & 2 database in MS Access.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 52094967,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514778d6f-6b0824404f76",
+                    "rootDataFileId": -1,
+                    "md5": "c5794da0d33111bfb88abf3eae374469",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c5794da0d33111bfb88abf3eae374469"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Rounds 1 & 2 MS Excel PivotTables.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10890847,
+                    "persistentId": "",
+                    "filename": "Rounds 1 & 2 MS Excel PivotTables.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 762317,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19514778c93-9c4a7b014069",
+                    "rootDataFileId": -1,
+                    "md5": "9d647585fdde69b00b32a467c3848176",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9d647585fdde69b00b32a467c3848176"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Occurrence Data from the Unregulated Contaminant Monitoring Rule _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10959870,
+                    "persistentId": "",
+                    "filename": "Occurrence Data from the Unregulated Contaminant Monitoring Rule _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 164764,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1957233cdf6-6fdfbb0bc9cd",
+                    "rootDataFileId": -1,
+                    "md5": "32dab0974d61ce3ed30c4dbdc90a465a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "32dab0974d61ce3ed30c4dbdc90a465a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-07",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Occurrence Data from the Unregulated Contaminant Monitoring Rule _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437538,
+                "dataFile": {
+                    "id": 10959869,
+                    "persistentId": "",
+                    "filename": "Occurrence Data from the Unregulated Contaminant Monitoring Rule _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 73871,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1957233cccf-3fee55c04caa",
+                    "rootDataFileId": -1,
+                    "md5": "141cba06007b5e54d34d7415c19ae068",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "141cba06007b5e54d34d7415c19ae068"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-07",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

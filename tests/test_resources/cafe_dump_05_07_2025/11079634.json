@@ -1,0 +1,448 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 442246,
+        "datasetId": 11079634,
+        "datasetPersistentId": "doi:10.7910/DVN/BX3XRF",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/BX3XRF",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "lastUpdateTime": "2025-05-06T14:49:02Z",
+        "releaseTime": "2025-05-06T14:49:02Z",
+        "createTime": "2025-04-15T19:46:55Z",
+        "publicationDate": "2025-05-06",
+        "citationDate": "2025-05-06",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Efficacy of universal masking for source control and personal protection from simulated respiratory aerosols in a room"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Health Effects Laboratory Division, Chemical and Biochemical Monitoring Branch"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Institute for Occupational Safety and Health"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information. <br /><br />\n\n<br />If you have questions about the underlying data stored here, please contact sa-cin-webteam@cdc.gov. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.<br />\n\n<br />\n\"Masks block aerosols produced during coughs and exhalations (\u201csource control\u201d). Masks also slow and deflect cough and exhalation airflows, which changes the dispersion of aerosols. Factors such as the directions in which people are facing (orientation) and separation distance also affect aerosol dispersion. However, it is not clear how masking, orientation, and distance interact. We placed a respiratory aerosol simulator (\u201csource\u201d) and a breathing simulator (\u201crecipient\u201d) in a chamber and measured aerosol concentrations for different combinations of masking, orientation, and separation distance. When the simulators were front-to-front during coughing, masks reduced the 15-minute mean aerosol concentration at the recipient by 92% (p < 0.0001) at 0.9 and 1.8 m separation. When the simulators were side-by-side, masks reduced the concentration by 81% at 0.9 m and 78% at 1.8 m (p < 0.0001 for both). During breathing, masks reduced the aerosol concentration by 66% when front-to-front (p = 0.0056) and 76% when side-by-side (p < 0.0001) at 0.9 m. Similar results were seen at 1.8 m. When the simulators were unmasked, changing the orientations from front-to-front to side-by-side reduced the cough aerosol concentration by 59% at 0.9 m and 60% at 1.8 m (p < 0.0001 for both). When both simulators were masked, changing the orientations did not significantly change the concentration at either distance during coughing or breathing. Increasing the distance between the simulators from 0.9 m to 1.8 m during coughing reduced the aerosol concentration by 25% when no masks were worn (p < 0.0001) but had little effect when both simulators were masked (4% decrease, p = 0.7090). During breathing, when neither simulator was masked, increasing the separation reduced the concentration by 13%, which approached significance (p = 0.0737), while the change was not significant when both source and recipient were masked (8% decrease, p = 0.3235). Our results suggest that universal masking reduces exposure to respiratory aerosol particles regardless of the orientation and separation distance between the source and recipient.\"\n[Quote from: https://data.cdc.gov/National-Institute-for-Occupational-Safety-and-Hea/Efficacy-of-universal-masking-for-source-control-a/q8qz-3pb6/about_data]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-04-15"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Engineering",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementTo"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "William G. Lindsley, Donald H. Beezhold, Jayme Coyle, Raymond C. Derk, Francoise M. Blachere, Theresa Boots, Jeffrey S. Reynolds, Walter G. McKinney, Erik Sinsel, and John D. Noti. Efficacy of universal masking for source control and personal protection from simulated respiratory aerosols in a room. Journal of Occupational and Environmental Hygiene 18(8):409-422."
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.1080/15459624.2021.1939879"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://pubmed.ncbi.nlm.nih.gov/34161193/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nEfficacy of universal masking for source control and personal protection from simulated respiratory aerosols in a room data was downloaded by James Kitch on April 15th, 2025."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Kitch, James"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-04-15"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-11-20"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-11-20"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the CDC Use of Agency Materials page (https://www.cdc.gov/other/agencymaterials.html) and are pasted below: \"Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission. There are, however, a few exceptions. A federal government website may have a mix of public domain and copyright-protected materials. First, some resources, as well as images, on the CDC and ATSDR websites are restricted in their use because they were developed by government contractors or grantees, or have been licensed by a third party. Second, the U.S. government work designation does not apply to works of state and local governments; works of state and local governments may be protected by copyright. Third, copyright laws also differ internationally. While U.S. federal copyright laws may not protect U.S. government works outside the United States, the work may still be protected under the copyright laws of other countries when used in these jurisdictions. Copyright-protected materials featured on the CDC and ATSDR websites should include a copyright statement. However, if in doubt, please write to the contact point for that site. The following requirements must be followed to utilize CDC\u2019s public domain content: 1) Attribution to the agency that developed the material must be provided in your use of the materials. Such attribution should clearly state the materials were developed by CDC ATSDR and/or HHS (e.g., \u201cSource: CDC\u201d; \u201cMaterials developed by CDC\u201d); 2) You must utilize a disclaimer which clearly indicates that your use of the material, including any links to the materials on the CDC, ATSDR or HHS websites, does not imply endorsement by CDC, ATSDR, HHS or the United States Government of you, your company, product, facility, service or enterprise. All such disclaimers must be prominently and unambiguously displayed (e.g., \u201cReference to specific commercial products, manufacturers, companies, or trademarks does not constitute its endorsement or recommendation by the U.S. Government, Department of Health and Human Services, or Centers for Disease Control and Prevention; 3) You may not change the substantive content of the materials; and 4) You must state that the material is otherwise available on the agency website for no charge. Note: Many of CDC\u2019s on-line publications are continually updated as the agency learns more about a specific disease or condition. Occasionally, sites that copy and re-post CDC materials fail to check for updates, which may result in out-of-date information being offered to users. For that reason, we urge you to link directly to our resource documents rather than re-posting. If you do re-post, please check back periodically to see if there are revisions. Linking to CDC, ATSDR or HHS content should open up a new browser window to our site/page. CDC content should not appear within the original window, framed by the existing site.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National Institute for Occupational Safety and Health"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "1.0"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://data.cdc.gov/National-Institute-for-Occupational-Safety-and-Hea/Efficacy-of-universal-masking-for-source-control-a/q8qz-3pb6/about_data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-11-20"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-04-15"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Experimental data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Health Effects Laboratory Division, Chemical and Biochemical Monitoring Branch, CDC"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Aeroallergens",
+                            "Airborne Disease",
+                            "Health",
+                            "Infectious Disease"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Lindsley-2021-Universal-masking-Materials-and-Methods-2021-08-24.pdf",
+                "restricted": false,
+                "directoryLabel": "pdfs",
+                "version": 1,
+                "datasetVersionId": 442246,
+                "dataFile": {
+                    "id": 11079638,
+                    "persistentId": "",
+                    "filename": "Lindsley-2021-Universal-masking-Materials-and-Methods-2021-08-24.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 540800,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963afa585c-a594e9224af6",
+                    "rootDataFileId": -1,
+                    "md5": "3a1c136afa35e168af6003eb453600f2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3a1c136afa35e168af6003eb453600f2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Universal-masking-Dataset.csv",
+                "restricted": false,
+                "directoryLabel": "datasets",
+                "version": 1,
+                "datasetVersionId": 442246,
+                "dataFile": {
+                    "id": 11079636,
+                    "persistentId": "",
+                    "filename": "Universal-masking-Dataset.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 7881,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963afa74bc-15a480d6827c",
+                    "rootDataFileId": -1,
+                    "md5": "bb82df77f1b4373809873ad8ae52c4f1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bb82df77f1b4373809873ad8ae52c4f1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Data dictionary",
+                "label": "Universal-masking-Data-dictionary.pdf",
+                "restricted": false,
+                "directoryLabel": "pdfs",
+                "version": 1,
+                "datasetVersionId": 442246,
+                "dataFile": {
+                    "id": 11079637,
+                    "persistentId": "",
+                    "filename": "Universal-masking-Data-dictionary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 540797,
+                    "description": "Data dictionary",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963afa5a91-3e8e648e0e7f",
+                    "rootDataFileId": -1,
+                    "md5": "d1525b661962d386ae0fa84d05277355",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d1525b661962d386ae0fa84d05277355"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Universal-masking-Dataset-Description.docx",
+                "restricted": false,
+                "directoryLabel": "pdfs",
+                "version": 1,
+                "datasetVersionId": 442246,
+                "dataFile": {
+                    "id": 11079635,
+                    "persistentId": "",
+                    "filename": "Universal-masking-Dataset-Description.docx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "friendlyType": "MS Word",
+                    "filesize": 24582,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963afa5c4a-59806697a48c",
+                    "rootDataFileId": -1,
+                    "md5": "64884c05e1dd5d5dfcedb8d49649465c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "64884c05e1dd5d5dfcedb8d49649465c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Page to Print_Efficacy of universal masking for source control and personal protection from simulated respiratory aerosols in a room _ Data _ Centers for Disease Control and Prevention.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442246,
+                "dataFile": {
+                    "id": 11123240,
+                    "persistentId": "",
+                    "filename": "Page to Print_Efficacy of universal masking for source control and personal protection from simulated respiratory aerosols in a room _ Data _ Centers for Disease Control and Prevention.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 324189,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19686f73ce9-0fee45b10630",
+                    "rootDataFileId": -1,
+                    "md5": "1cd1d409ddb8d04bf75cfe0160cadb59",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1cd1d409ddb8d04bf75cfe0160cadb59"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-30",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Use of Agency Materials _ Other _ CDC (1).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442246,
+                "dataFile": {
+                    "id": 11123239,
+                    "persistentId": "",
+                    "filename": "Use of Agency Materials _ Other _ CDC (1).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 87331,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19686f744b2-747a3e13742d",
+                    "rootDataFileId": -1,
+                    "md5": "9768ec38531d04b0d4e9472c656dfe84",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9768ec38531d04b0d4e9472c656dfe84"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-30",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

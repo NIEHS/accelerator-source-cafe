@@ -1,0 +1,241 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443905,
+        "datasetId": 10877672,
+        "datasetPersistentId": "doi:10.17603/DS2-A6HY-WK56",
+        "storageIdentifier": "s3://10.17603/ds2-a6hy-wk56",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:03:50Z",
+        "releaseTime": "2025-05-05T12:13:36Z",
+        "createTime": "2025-05-06T23:03:50Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Nutrition Environment Survey Data in Food Access Impact Survey for Harris County and Southeast Texas after Hurricane Harvey in 2017"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-2769"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rosenheim, Nathanael"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Katare, Anjali"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sullivan, Emily"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kastor, Hannah"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Peacock, Walter Gillis"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Food insecurity is a chronic problem in the United States that annually affects over 40 million people under normal conditions. This difficult reality can dramatically worsen after disasters. Such events can disrupt both the supply and demand sides of food systems, restricting food distribution and access precisely when households are in a heightened need for food assistance. Often, retailers and food banks must react quickly to meet local needs under difficult post-disaster circumstances. Residents of Harris County and Southeast Texas experienced this problem after Hurricane Harvey made landfall on the Texas Gulf Coast in August 2017. The primary data collected by this project relate specifically to the supply side. The data attempt to identify factors that impacted the ability of suppliers to help ensure access to food, with a focus on fresh food access. Factors included impacts to people, property and products due to hurricane-related damage to infrastructure. Two types of food suppliers were the foci of this research: food aid agencies and food retailers. The research team examined food aid agencies in Southeast Texas with data collection methods that included secondary data analysis, a focus group and an online survey. The second population studied was food retailers with in-person surveys with store managers. Food retailers were randomly sampled in three Texas counties: Jefferson, Orange, and Harris. The data collection methods resulted in 32 food aid agency online survey responses and 210 completed food retail in-person surveys. Data were collected five to eight months after the event, which helped to increase the reliability and validity of the data. The time-sensitive nature of post-disaster data requires research teams to quickly organize their efforts before entering the field. The purpose of this project archive is to share the primary data collected, document methods, and to help future research teams reduce the amount of time needed for project development and reporting. This archive does not contain Personally or Business Identifiable Information."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Measurements of a community\u2019s nutrition environments provide more detailed information on the availability, accessibility, affordability, and acceptability of healthy food. A Nutrition Environment Measurement Survey (NEMS) helps researchers calculate a NEM score to compare access to healthy food in different parts of a community. This mission focused on collecting data on stores nutrition environments to provide more detailed information on the level of food access each store provides. This research focused on five food groups: vegetables, fruit, milk, meat (ground beef, hot dogs), bread (including cereal). Data collected for each food group included the variety of fresh and canned food, the quality, and prices. This mission includes four social science collections related to the NEMS of food retailers. These collections include the survey instrument, the primary (raw) data collected from the Harris County and Southeast Texas surveys, an example of a secondary (curated) dataset, and a report summarizing the NEMS survey."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "field research planning"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "food access"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "survey instruments"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "sample frame"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M University (tamu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/Orange, Jefferson, and Harris counties, Texas"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

@@ -1,0 +1,638 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 425167,
+        "datasetId": 6019525,
+        "datasetPersistentId": "doi:10.7910/DVN/3ZU0AS",
+        "storageIdentifier": "s3://10.7910/DVN/3ZU0AS",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:D8W7/RcF4rlkKWjYBggFeQ==",
+        "lastUpdateTime": "2024-07-31T02:10:30Z",
+        "releaseTime": "2024-07-31T02:10:30Z",
+        "createTime": "2024-07-31T02:00:22Z",
+        "publicationDate": "2022-02-14",
+        "citationDate": "2022-02-14",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Replication Data for: Combining aggregate and individual-level data to estimate individual-level associations between air pollution and COVID-19 mortality in the United States"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Woodward, Sophie"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Woodward, Sophie"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "swoodward@college.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This is the data repository for publicly available data to reproduce analyses in Woodward, S., Wu, X., Hou, Z., Mork, D., Braun, D., Dominici, F., 2022. Combining aggregate and individual-level data to estimate individual-level associations between air pollution and COVID-19 mortality in the United States. For code, please visit https://github.com/NSAPH/PM_COVID_ecoinference/tree/main."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-02-14"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Mathematical Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Woodward, Sophie"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2022-02-14"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Stanfit object for sensitivity analysis 4",
+                "label": "fit4.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019532,
+                    "persistentId": "",
+                    "filename": "fit4.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 17925698,
+                    "description": "Stanfit object for sensitivity analysis 4",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ece091-f4d81381cf7d",
+                    "rootDataFileId": -1,
+                    "md5": "0c1a12511235b9dc9c83d522325f5c60",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0c1a12511235b9dc9c83d522325f5c60"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivity analysis 5",
+                "label": "fit5.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019531,
+                    "persistentId": "",
+                    "filename": "fit5.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 17100130,
+                    "description": "Stanfit object for sensitivity analysis 5",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ece5e7-67f9d9e693d0",
+                    "rootDataFileId": -1,
+                    "md5": "b17b5eb579b2b02333f7cd15bca40372",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b17b5eb579b2b02333f7cd15bca40372"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for additional analysis 1: ecological regression without individual-level data up to Dec 1, 2020",
+                "label": "fit1_x.random.RData",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019527,
+                    "persistentId": "",
+                    "filename": "fit1_x.random.RData",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 5673073,
+                    "description": "Stanfit object for additional analysis 1: ecological regression without individual-level data up to Dec 1, 2020",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ed24f0-e624063b410c",
+                    "rootDataFileId": -1,
+                    "md5": "c7abfb31707cecbda193624e290ecdf3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c7abfb31707cecbda193624e290ecdf3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivity analysis 2",
+                "label": "fit2.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019537,
+                    "persistentId": "",
+                    "filename": "fit2.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 13544092,
+                    "description": "Stanfit object for sensitivity analysis 2",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ecba5d-492589232f0c",
+                    "rootDataFileId": -1,
+                    "md5": "e9feed39f96ac73a5c57e4a1c7e68bec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e9feed39f96ac73a5c57e4a1c7e68bec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "the county-level NO2 and O3 exposure data averaged across the period 2000-2016, averaged across grid cells within a zip code and then averaging across zip codes within a county. See Q. Di, H. Amini, L. Shi, I. Kloog, R. Silvern, J. Kelly, M. B. Sabath, C. Choirat,P. Koutrakis, A. Lyapustin,et al., Assessing no2 concentration and model uncertainty with high spatiotemporal resolution across the contiguous united states using ensemble model averaging. Environmental science & technology 54, 1372\u20131384 (2019) as well as W. J. Requia, Q. Di, R. Silvern, J. T. Kelly, P. Koutrakis, L. J. Mickley, M. P. Sulprizio, H. Amini, L. Shi, J. Schwartz, An ensemble learning approach for estimating high spatiotemporal resolution of ground-level ozone in the contiguous united states.Environmental science & technology54, 11037\u201311047 (2020).",
+                "label": "county_no2_ozone.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019534,
+                    "persistentId": "",
+                    "filename": "county_no2_ozone.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 106947,
+                    "description": "the county-level NO2 and O3 exposure data averaged across the period 2000-2016, averaged across grid cells within a zip code and then averaging across zip codes within a county. See Q. Di, H. Amini, L. Shi, I. Kloog, R. Silvern, J. Kelly, M. B. Sabath, C. Choirat,P. Koutrakis, A. Lyapustin,et al., Assessing no2 concentration and model uncertainty with high spatiotemporal resolution across the contiguous united states using ensemble model averaging. Environmental science & technology 54, 1372\u20131384 (2019) as well as W. J. Requia, Q. Di, R. Silvern, J. T. Kelly, P. Koutrakis, L. J. Mickley, M. P. Sulprizio, H. Amini, L. Shi, J. Schwartz, An ensemble learning approach for estimating high spatiotemporal resolution of ground-level ozone in the contiguous united states.Environmental science & technology54, 11037\u201311047 (2020).",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8e3b280-3e54f0544819",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 106955,
+                    "originalFileName": "county_no2_ozone.csv",
+                    "UNF": "UNF:6:JRO0TFYZOj2Ow9im043PKQ==",
+                    "rootDataFileId": -1,
+                    "md5": "ba8ae4e1292a58791a4bec5545bcc357",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ba8ae4e1292a58791a4bec5545bcc357"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivity analysis 1",
+                "label": "fit1.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019540,
+                    "persistentId": "",
+                    "filename": "fit1.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 17097486,
+                    "description": "Stanfit object for sensitivity analysis 1",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ecb5b4-f2d14d3f768e",
+                    "rootDataFileId": -1,
+                    "md5": "5c2f85e19510626f10d76581729d8ceb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5c2f85e19510626f10d76581729d8ceb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "census-tract level demographics, including population",
+                "label": "census2018.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019530,
+                    "persistentId": "",
+                    "filename": "census2018.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 22670223,
+                    "description": "census-tract level demographics, including population",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8e3b147-594021806c6f",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 22692697,
+                    "originalFileName": "census2018.csv",
+                    "UNF": "UNF:6:g0+chDrn/3LDh2B0Y9y+ow==",
+                    "rootDataFileId": -1,
+                    "md5": "a4eff3ad5ece7769997af0851f182fd9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a4eff3ad5ece7769997af0851f182fd9"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for additional analysis 2: main analysis with data up to June 18, 2020",
+                "label": "fit12.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019538,
+                    "persistentId": "",
+                    "filename": "fit12.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 17982999,
+                    "description": "Stanfit object for additional analysis 2: main analysis with data up to June 18, 2020",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ed64ff-ce2469e8edf8",
+                    "rootDataFileId": -1,
+                    "md5": "3d69104d6eec9c632662820883892dc8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d69104d6eec9c632662820883892dc8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Census-tract level PM2.5 estimates. We thank Randall Martin and the members of the Atmospheric Composition Analysis Group at Dalhousie University for providing access to their open-source datasets. Their data (V4.NA.02.MAPLE) that we used can be found here: https://sites.wustl.edu/acag/datasets/surface-pm2-5/. Citation: van Donkelaar, A., R. V. Martin, C. Li, R. T. Burnett, Regional Estimates of Chemical Composition of Fine Particulate Matter using a Combined Geoscience-Statistical Method with Information from Satellites, Models, and Monitors, Environ. Sci. Technol., doi: 10.1021/acs.est.8b06392, 2019.",
+                "label": "census_tract_pm25_2018.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019526,
+                    "persistentId": "",
+                    "filename": "census_tract_pm25_2018.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 2373210,
+                    "description": "Census-tract level PM2.5 estimates. We thank Randall Martin and the members of the Atmospheric Composition Analysis Group at Dalhousie University for providing access to their open-source datasets. Their data (V4.NA.02.MAPLE) that we used can be found here: https://sites.wustl.edu/acag/datasets/surface-pm2-5/. Citation: van Donkelaar, A., R. V. Martin, C. Li, R. T. Burnett, Regional Estimates of Chemical Composition of Fine Particulate Matter using a Combined Geoscience-Statistical Method with Information from Satellites, Models, and Monitors, Environ. Sci. Technol., doi: 10.1021/acs.est.8b06392, 2019.",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8e3bf9c-c71e6211af22",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 2373210,
+                    "originalFileName": "census_tract_pm25_2018.csv",
+                    "UNF": "UNF:6:wzapA1RYn0R1o35XHTQysw==",
+                    "rootDataFileId": -1,
+                    "md5": "fb95f26da5f37958f64b6308902c6b25",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fb95f26da5f37958f64b6308902c6b25"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivy analysis replacing sex with simulated data",
+                "label": "fit_fakesex.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019528,
+                    "persistentId": "",
+                    "filename": "fit_fakesex.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 15476066,
+                    "description": "Stanfit object for sensitivy analysis replacing sex with simulated data",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ed165e-d56dc3e30d41",
+                    "rootDataFileId": -1,
+                    "md5": "6dd1f4bc602bdbd6e5bc76d23e2a2fa3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6dd1f4bc602bdbd6e5bc76d23e2a2fa3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for additional analysis 3: ecological regression without individual-level data up to June 18, 2020",
+                "label": "fit1_x.random.dec.RData",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019541,
+                    "persistentId": "",
+                    "filename": "fit1_x.random.dec.RData",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 5654896,
+                    "description": "Stanfit object for additional analysis 3: ecological regression without individual-level data up to June 18, 2020",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ed227d-33f5d38602e2",
+                    "rootDataFileId": -1,
+                    "md5": "5791b5b2ed095f8cf77be77394e6fb4e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5791b5b2ed095f8cf77be77394e6fb4e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivity analysis 6",
+                "label": "fit6.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019542,
+                    "persistentId": "",
+                    "filename": "fit6.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 13508006,
+                    "description": "Stanfit object for sensitivity analysis 6",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ecea77-ade03c27706d",
+                    "rootDataFileId": -1,
+                    "md5": "52e0d3d8a30eb9efe62a46d714efb3dc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "52e0d3d8a30eb9efe62a46d714efb3dc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivity analysis including sex as the only individual-level categorical covariate",
+                "label": "fit_sexonly.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019536,
+                    "persistentId": "",
+                    "filename": "fit_sexonly.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 15099280,
+                    "description": "Stanfit object for sensitivity analysis including sex as the only individual-level categorical covariate",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ed1b09-dcf250d07abc",
+                    "rootDataFileId": -1,
+                    "md5": "07149434a8b0a6e5554f3703866790b7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "07149434a8b0a6e5554f3703866790b7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivity analysis 3",
+                "label": "fit3.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019539,
+                    "persistentId": "",
+                    "filename": "fit3.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 12968969,
+                    "description": "Stanfit object for sensitivity analysis 3",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ecbe4d-8daa6a134b02",
+                    "rootDataFileId": -1,
+                    "md5": "747ef7b1da18ba91c3a913659d056c4b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "747ef7b1da18ba91c3a913659d056c4b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivity analysis excluding sex as a covariate",
+                "label": "fit_withoutsex.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019533,
+                    "persistentId": "",
+                    "filename": "fit_withoutsex.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 15315846,
+                    "description": "Stanfit object for sensitivity analysis excluding sex as a covariate",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ed1fe9-6ac3b4b26af6",
+                    "rootDataFileId": -1,
+                    "md5": "a2797473a8ea269fe5485944004d5ea1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a2797473a8ea269fe5485944004d5ea1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for sensitivity analysis 7",
+                "label": "fit7.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019529,
+                    "persistentId": "",
+                    "filename": "fit7.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 12883039,
+                    "description": "Stanfit object for sensitivity analysis 7",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8eceef1-83e88a6a7d4a",
+                    "rootDataFileId": -1,
+                    "md5": "2294138e41515f81b584102289df9110",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2294138e41515f81b584102289df9110"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Stanfit object for Main Analysis",
+                "label": "fit_main.Rdata",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425167,
+                "dataFile": {
+                    "id": 6019535,
+                    "persistentId": "",
+                    "filename": "fit_main.Rdata",
+                    "contentType": "application/x-rlang-transport",
+                    "friendlyType": "R Data",
+                    "filesize": 17979793,
+                    "description": "Stanfit object for Main Analysis",
+                    "storageIdentifier": "s3://dvn-cloud:17ef8ecb0d0-62359b54339b",
+                    "rootDataFileId": -1,
+                    "md5": "ed5eec5a02a5b023dd0df176d25f22e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ed5eec5a02a5b023dd0df176d25f22e5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-02-14",
+                    "publicationDate": "2022-02-14",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 151663,
+        "datasetId": 3385256,
+        "datasetPersistentId": "doi:10.7910/DVN/USXCAK",
+        "storageIdentifier": "s3://10.7910/DVN/USXCAK",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2019-03-28T01:11:04Z",
+        "releaseTime": "2019-03-28T01:11:04Z",
+        "createTime": "2019-03-28T01:10:40Z",
+        "publicationDate": "2019-03-27",
+        "citationDate": "2019-03-27",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Air pollution and meteorological data in Beijing 2017-2018"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wang, Hongwei"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Shanghai Jiao Tong University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0001-9393-2701"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wang, Hongwei"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Shanghai Jiao Tong University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "hongweiwang_sjtu@163.com"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "In this study, Beijing, the capital of China, is selected as the study area. Hourly mean concentrations of six regulatory air pollutants including O3 (\u03bcg/m3), SO2 (\u03bcg/m3), NO2 (\u03bcg/m3), PM2.5 (\u03bcg/m3), PM10 (\u03bcg/m3), and CO (mg/m3) were collected from 35 air quality monitoring stations labeled by 1 to 35 from 01/01/2017 to 05/30/2018. The data was provided by the Ministry of Environmental Protection (MEP) of China. Hourly averaged meteorological data in the same period were first accessed from The National Oceanic and Atmospheric Administration (NOAA), then processed by the Weather Research and Forecasting (WRF) model to produce grid meteorological data (21\u00d731 points) with a grid spacing of 5 km. Meteorological parameters including temperature, air pressure, relative humidity, wind speed, and wind direction are selected as the main meteorological features due to their close relationships with the change of ozone concentrations."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Computer and Information Science",
+                            "Earth and Environmental Sciences",
+                            "Engineering"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Wang, Hongwei"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2019-03-27"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Hourly mean concentrations of six regulatory air pollutants including O3 (\u03bcg/m3), SO2 (\u03bcg/m3), NO2 (\u03bcg/m3), PM2.5 (\u03bcg/m3), PM10 (\u03bcg/m3), and CO (mg/m3) were collected from 35 air quality monitoring stations labeled by 1 to 35 from 01/01/2017 to 05/30/2018 in Beijing. Hourly averaged meteorological data in the same period including temperature, air pressure, relative humidity, wind speed, and wind direction were also placed in this .zip file.",
+                "label": "Air pollution and meteorological data in Beijing 2017-2018.rar",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 151663,
+                "dataFile": {
+                    "id": 3385257,
+                    "persistentId": "doi:10.7910/DVN/USXCAK/E4SLK5",
+                    "pidURL": "https://doi.org/10.7910/DVN/USXCAK/E4SLK5",
+                    "filename": "Air pollution and meteorological data in Beijing 2017-2018.rar",
+                    "contentType": "application/x-rar",
+                    "friendlyType": "RAR Archive",
+                    "filesize": 267669340,
+                    "description": "Hourly mean concentrations of six regulatory air pollutants including O3 (\u03bcg/m3), SO2 (\u03bcg/m3), NO2 (\u03bcg/m3), PM2.5 (\u03bcg/m3), PM10 (\u03bcg/m3), and CO (mg/m3) were collected from 35 air quality monitoring stations labeled by 1 to 35 from 01/01/2017 to 05/30/2018 in Beijing. Hourly averaged meteorological data in the same period including temperature, air pressure, relative humidity, wind speed, and wind direction were also placed in this .zip file.",
+                    "storageIdentifier": "s3://dvn-cloud:169c1d8a7fd-64c40abd6157",
+                    "rootDataFileId": -1,
+                    "md5": "f010d61a206f20e86ea4f20c83ef8bf9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f010d61a206f20e86ea4f20c83ef8bf9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2019-03-27",
+                    "publicationDate": "2019-03-27",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

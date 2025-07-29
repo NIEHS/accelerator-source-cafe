@@ -1,0 +1,541 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 434350,
+        "datasetId": 10819610,
+        "datasetPersistentId": "doi:10.7910/DVN/QCAQB2",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/QCAQB2",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-10T20:49:55Z",
+        "releaseTime": "2025-02-10T20:49:55Z",
+        "createTime": "2025-01-13T21:45:58Z",
+        "publicationDate": "2025-02-10",
+        "citationDate": "2025-02-10",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: National Walkability Index"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Environmental Protection Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\nIf you have questions about the underlying data stored here, please contact John Thomas, U.S. Environmental Protection Agency, at thomas.john@epa.gov. If you have questions about this metadata entry, please contact the CAFE team at climatecafe@bu.edu.\n\n\"The National Walkability Index is a nationwide geographic data resource that ranks block groups according to their relative walkability. The national dataset includes walkability scores for all block groups as well as the underlying attributes that are used to rank the block groups.\n\nThe National Walkability Index Methodology and User Guide (pdf) (2.63 MB, 2021)  provides information on how to use the tool, as well as the methodology used to derive the index and ranked scores for its inputs. The index was developed using selected variables on density, diversity of land uses, and proximity to transit from the Smart Location Database. \" [Quote from <a href=\"https://www.epa.gov/smartgrowth/national-walkability-index-user-guide-and-methodology\">https://www.epa.gov/smartgrowth/national-walkability-index-user-guide-and-methodology</a>]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-13"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Urban"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Suburban"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Social Determinants of Health (SDOH)"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Thomas, J., & Zeller, L. (2021, May 17). National Walkability Index User Guide and Methodology. https://www.epa.gov/smartgrowth/national-walkability-index-user-guide-and-methodology"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.epa.gov/smartgrowth/national-walkability-index-user-guide-and-methodology"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n<br /><br />\nNational Walkability Index data was downloaded by Zachary Popp on 1-13-2025"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Popp, Zachary"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-13"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2019-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "9999-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "License information for photos used in User Data and Methodolgy Guide under a Creative Commons License:\nhttps://creativecommons.org/licenses/by-sa/2.0/ \n\nThe terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us."
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National Walkability Index"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Thomas, J.",
+                            "Zeller, L."
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Environmental Protection Agency"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "1"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.epa.gov/smartgrowth/national-walkability-index-user-guide-and-methodology"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-13"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Time-Invariant / NA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Thomas, J., & Zeller, L. (2021, May 17). National Walkability Index User Guide and Methodology. https://www.epa.gov/smartgrowth/national-walkability-index-user-guide-and-methodology"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The Walkability Index dataset characterizes every Census 2019 block group in the U.S. based on its relative walkability. Walkability depends upon characteristics of the built environment that influence the likelihood of walking being used as a mode of travel. The Walkability Index is based on the EPA's previous data product, the Smart Location Database (SLD). Block group data from the SLD was the only input into the Walkability Index, and consisted of four variables from the SLD weighted in a formula to create the new Walkability Index. This dataset shares the SLD's block group boundary definitions from Census 2019. The methodology describing the process of creating the Walkability Index can be found in the documents located at https://edg.epa.gov/data/Public/OA/WalkabilityIndex.zip. You can also learn more about the Smart Location Database at https://www.epa.gov/smartgrowth/smart-location-mapping."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemName": {
+                                "typeName": "cafeSpatialReferenceSystemName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "102100"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "National Walkability Index User Guide and Methodology _ US EPA.pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 434350,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10819616,
+                    "persistentId": "",
+                    "filename": "National Walkability Index User Guide and Methodology _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 80383,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19461949778-a8c2be04750a",
+                    "rootDataFileId": -1,
+                    "md5": "622420e5547abb89eb92f888c5eda2fd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "622420e5547abb89eb92f888c5eda2fd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-13",
+                    "publicationDate": "2025-02-10",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "national_walkability_index_methodology_and_user_guide_june2021.pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 434350,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10819615,
+                    "persistentId": "",
+                    "filename": "national_walkability_index_methodology_and_user_guide_june2021.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2755718,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194619495ce-32a71f4be95e",
+                    "rootDataFileId": -1,
+                    "md5": "2b5b94d4c4ed8bd2abcd835bcbe4169d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2b5b94d4c4ed8bd2abcd835bcbe4169d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-13",
+                    "publicationDate": "2025-02-10",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Metadata",
+                "label": "Walkability Index - Catalog.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434350,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10819614,
+                    "persistentId": "",
+                    "filename": "Walkability Index - Catalog.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 126161,
+                    "description": "Metadata",
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19461948a95-079bc5fba259",
+                    "rootDataFileId": -1,
+                    "md5": "edd172e57b61a6e2735a3626728a1f64",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "edd172e57b61a6e2735a3626728a1f64"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-13",
+                    "publicationDate": "2025-02-10",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Metadata",
+                "label": "Walkability Index - Catalog.pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 434350,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10819613,
+                    "persistentId": "",
+                    "filename": "Walkability Index - Catalog.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 609893,
+                    "description": "Metadata",
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19461948c5b-025a61a78b9c",
+                    "rootDataFileId": -1,
+                    "md5": "6ebef2df45f49007062f667d58f20091",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6ebef2df45f49007062f667d58f20091"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-13",
+                    "publicationDate": "2025-02-10",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "National Walkability Index User Guide and Methodology _ US EPA.html",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 434350,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10819611,
+                    "persistentId": "",
+                    "filename": "National Walkability Index User Guide and Methodology _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 57576,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19461948f9c-d5a25bfedeb3",
+                    "rootDataFileId": -1,
+                    "md5": "098b631a72c1332a2328e0e2f585ed3f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "098b631a72c1332a2328e0e2f585ed3f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-13",
+                    "publicationDate": "2025-02-10",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "WalkabilityIndex.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434350,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10819612,
+                    "persistentId": "",
+                    "filename": "WalkabilityIndex.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 425281342,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1946194946b-a5d8c18212f3",
+                    "rootDataFileId": -1,
+                    "md5": "b6ee59e9302817d18e2389874f98385b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b6ee59e9302817d18e2389874f98385b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-13",
+                    "publicationDate": "2025-02-10",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

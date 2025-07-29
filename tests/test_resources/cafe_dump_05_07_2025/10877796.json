@@ -1,0 +1,313 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444058,
+        "datasetId": 10877796,
+        "datasetPersistentId": "doi:10.17603/DS2-T4SH-SY71",
+        "storageIdentifier": "s3://10.17603/ds2-t4sh-sy71",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2023",
+        "lastUpdateTime": "2025-05-06T23:37:27Z",
+        "releaseTime": "2025-05-05T12:14:17Z",
+        "createTime": "2025-05-06T23:37:27Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Virtual Assessment Report: Hurricane Ida, Louisiana, USA, August 29, 2021 in SUMMEER \u2013 29 August 2021 Hurricane Ida"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4039"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Alshami, Ahmad"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jalloul, Hiba"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nickdoost, Navid"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "KHALED, MD FAIAZ"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kameshwar, Sabarethinam"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wu, Shenghua"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Choi, Juyeong"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "On August 29, 2021, a Category 4 hurricane, Ida, made landfall near Port Fourchon, in southeastern Louisiana. Hurricane Ida caused extensive damage to homes, buildings, and infrastructure in several states in the United States, with the state of Louisiana being the most severely impacted. The estimated cost of damages caused by the hurricane is approximately $95 billion. HAZUS-MH tool was utilized in this project to estimate the composition and quantity of the debris in the impacted parishes in Louisiana, i.e., Ascension, Assumption, Concordia, East Baton Rouge, East Feliciana, Iberville, Jefferson, Lafourche, Livingston, Orleans, Plaquemines, Pointe Coupee, St. Bernard, St. Charles, St. Helena, St. James, St. John the Baptist, St. Mary, St. Tammany, Tangipahoa, Tensas, Terrebonne, Washington, and West Baton Rouge parishes. The HAZUS-MH analysis resulted in a total of 1,475,909 tons of brick and wood debris, 60,679 tons of concrete and steel debris, and 5,013,280 tons of vegetative debris. With regards to debris management logistics and resources, the state of Louisiana has 213 approved emergency debris sites, each of which is pre-approved for certain activities related to the management of specific debris types. Thirty material recovery facilities were identified in some of the parishes impacted by Hurricane Ida; none of these facilities, however, was identified as accepting construction and demolition debris. Given that SUMMEER previously examined Hurricane Laura, another Category 4 hurricane that hit Louisiana one year before Hurricane Ida, investigating debris management in the aftermath of Hurricane Ida presents an opportunity to explore the distinct impacts resulting from the unique characteristics of each of the two hurricanes on the sustainable management of disaster debris. This investigation also allows for a comprehensive assessment of the applicability of the findings from SUMMEER\u2019s previous investigation of Hurricane Laura in the context of Hurricane Ida. This project encompasses the products of SUMMEER's virtual response to this disaster event: Virtual Assessment Report (VAR)."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The product of SUMMER\u2019s efforts to research the sustainable materials management of 29 August 2021 Hurricane Ida is this Virtual Assessment Report (VAR) which is intended to: (1) provide an overview of the local pre-disaster planning and guidelines for disaster debris, along with the level of preparedness, (2) estimate the characteristics of the generated debris, in terms of types, quantity, areal extent, and potential environmental and health hazards, (3) investigate the debris management operations and issues encountered, and (4) provide recommendations to overcome the current barriers to and increase the implementation of sustainable debris management practices in Louisiana. As this product is based on virtual reconnaissance alone, the VAR does not include detailed field investigative research. The content of this VAR is based on available online data, actual testimony from affected groups, as well as feedback collected from contacts and representatives in the field, when available. The findings, conclusions, recommendations, and opinions stated in this report are those of the individual contributors and do not necessarily reflect the views of the organizations or institutions with which they affiliate."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SUMMEER"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Virtual Reconnaissance"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "hurricane"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hurricane Ida"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Louisiana"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Disaster Waste Materials"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Vegetative Debris"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Construction and Demolition Waste"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "HAZUS-MH"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Florida State University (fsu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of South Alabama (southalabama.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Louisiana State University (lsu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Florida State University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

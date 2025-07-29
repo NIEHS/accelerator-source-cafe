@@ -1,0 +1,3631 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 237200,
+        "datasetId": 4460466,
+        "datasetPersistentId": "doi:10.7910/DVN/FXR1WU",
+        "storageIdentifier": "s3://10.7910/DVN/FXR1WU",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:PVI3xbShRkcpIeoZ4sYvFg==",
+        "lastUpdateTime": "2021-03-18T14:01:39Z",
+        "releaseTime": "2021-03-18T14:01:39Z",
+        "createTime": "2021-03-18T11:43:14Z",
+        "publicationDate": "2021-03-18",
+        "citationDate": "2021-03-18",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The Effect of Urbanization on Air Pollution Damage"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Deng, Hao"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Yale School of the Environment"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Robert Mendelsohn"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Yale School of the Environment"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Deng, Hao"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Yale School of the Environment"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "HAO.DENG@YALE.EDU"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "These are the data and code to replicate the results for the paper \"The Effect of Urbanization on Air Pollution Damage\"."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2021-03-18"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "urbanization, pollution, pollution mitigation, Integrated Assessment Models"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Deng, Hao, and Robert Mendelsohn. \u201cThe Effect of Urbanization on Air Pollution Damage,\u201d Accepted at Journal of the Association of Environmental and Resource Economists."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Deng, Hao"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2021-03-18"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "code_APEEP_02_results_process_01_E.do",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460523,
+                    "persistentId": "",
+                    "filename": "code_APEEP_02_results_process_01_E.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 3304,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1543-194ed86dcc3d",
+                    "rootDataFileId": -1,
+                    "md5": "2da2dbdf58b9137efc3fa8cacc3c54b6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2da2dbdf58b9137efc3fa8cacc3c54b6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2009metro_micro_fips_list3.xls",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460517,
+                    "persistentId": "",
+                    "filename": "2009metro_micro_fips_list3.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 375808,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16d0-6c562229e86d",
+                    "rootDataFileId": -1,
+                    "md5": "89cdf56d4cf1655ef2c2b8079d886703",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "89cdf56d4cf1655ef2c2b8079d886703"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2000Tier3Summarymade09082005.txt",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460572,
+                    "persistentId": "",
+                    "filename": "2000Tier3Summarymade09082005.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 60071726,
+                    "storageIdentifier": "s3://dvn-cloud:178452afe31-d72debf9a217",
+                    "rootDataFileId": -1,
+                    "md5": "1b070f9f0a00c53455cdb91bf9b1fcdf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1b070f9f0a00c53455cdb91bf9b1fcdf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1980_R12408287_SL11.txt",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460545,
+                    "persistentId": "",
+                    "filename": "1980_R12408287_SL11.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 373339,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1611-5efce63437f0",
+                    "rootDataFileId": -1,
+                    "md5": "438c0b5c12a0a06f6b0f392878302792",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "438c0b5c12a0a06f6b0f392878302792"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "code_APEEP_02_results_process_05_msa.do",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460564,
+                    "persistentId": "",
+                    "filename": "code_APEEP_02_results_process_05_msa.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 1711,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1554-8819a77eae59",
+                    "rootDataFileId": -1,
+                    "md5": "35cd3765662c926a96c826a5e1a568c7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "35cd3765662c926a96c826a5e1a568c7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1999mfips.txt",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460485,
+                    "persistentId": "",
+                    "filename": "1999mfips.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 141336,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16c7-89cd395321d6",
+                    "rootDataFileId": -1,
+                    "md5": "bbac11125af263a6af1fb70745b5edbb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bbac11125af263a6af1fb70745b5edbb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "tier2_summary_county_2017nei.accdb",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460567,
+                    "persistentId": "",
+                    "filename": "tier2_summary_county_2017nei.accdb",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 108072960,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0a3b-827a74e000dc",
+                    "rootDataFileId": -1,
+                    "md5": "1d66791aa8d53fbe9920a7cca106b609",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1d66791aa8d53fbe9920a7cca106b609"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "code_APEEP_01_input_process_fips.do",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460471,
+                    "persistentId": "",
+                    "filename": "code_APEEP_01_input_process_fips.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 245,
+                    "storageIdentifier": "s3://dvn-cloud:178452b153f-98f9017701af",
+                    "rootDataFileId": -1,
+                    "md5": "2f12b48f3751f071388a9258843d4f82",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2f12b48f3751f071388a9258843d4f82"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ACS2012_5yr_R12408298.dct",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460501,
+                    "persistentId": "",
+                    "filename": "ACS2012_5yr_R12408298.dct",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 2562,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1643-c12956f8a109",
+                    "rootDataFileId": -1,
+                    "md5": "2d3c1dd087b2ff88ecd4c89ae9fe5cda",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d3c1dd087b2ff88ecd4c89ae9fe5cda"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "code_emission_by_urban_rural.do",
+                "restricted": false,
+                "directoryLabel": "emissions/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460470,
+                    "persistentId": "",
+                    "filename": "code_emission_by_urban_rural.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 2773,
+                    "storageIdentifier": "s3://dvn-cloud:178452afc74-19211b3866ed",
+                    "rootDataFileId": -1,
+                    "md5": "3d82f122caeff62300b048c439613584",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d82f122caeff62300b048c439613584"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2009mfips.txt",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460512,
+                    "persistentId": "",
+                    "filename": "2009mfips.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 88670,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16d7-83413b3a2df2",
+                    "rootDataFileId": -1,
+                    "md5": "e5c0be533bcf0cf9d05f4b4df446a03d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e5c0be533bcf0cf9d05f4b4df446a03d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "tier2_summary_county_2011neiv2.accdb",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460478,
+                    "persistentId": "",
+                    "filename": "tier2_summary_county_2011neiv2.accdb",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 116396032,
+                    "storageIdentifier": "s3://dvn-cloud:178452b014e-15ace5b43d9d",
+                    "rootDataFileId": -1,
+                    "md5": "060e37b7aaf54cf55a12d1ece4341f8a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "060e37b7aaf54cf55a12d1ece4341f8a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1990_R12408290_SL050.txt",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460495,
+                    "persistentId": "",
+                    "filename": "1990_R12408290_SL050.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 386449,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1626-6b013d04dcc2",
+                    "rootDataFileId": -1,
+                    "md5": "927343440fa190618d5a28efc58c33f9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "927343440fa190618d5a28efc58c33f9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2000.do",
+                "restricted": false,
+                "directoryLabel": "emissions/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460469,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2000.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 2700,
+                    "storageIdentifier": "s3://dvn-cloud:178452afc81-493b2fc0907b",
+                    "rootDataFileId": -1,
+                    "md5": "b5128e8672b0349f750ed6f8f2e15602",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b5128e8672b0349f750ed6f8f2e15602"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2000_R12408293.do",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460576,
+                    "persistentId": "",
+                    "filename": "2000_R12408293.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 1517,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1632-bc501941c613",
+                    "rootDataFileId": -1,
+                    "md5": "5851968356a9c78945601315dbfb27b2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5851968356a9c78945601315dbfb27b2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "code_APEEP_02_results_process_02_MD.do",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460487,
+                    "persistentId": "",
+                    "filename": "code_APEEP_02_results_process_02_MD.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 3356,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1549-35bf4c454a7d",
+                    "rootDataFileId": -1,
+                    "md5": "6914010ae18099cce83f0dfaadc80d60",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6914010ae18099cce83f0dfaadc80d60"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1990_R12408290.dct",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460579,
+                    "persistentId": "",
+                    "filename": "1990_R12408290.dct",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 588,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1618-0599a84b4d24",
+                    "rootDataFileId": -1,
+                    "md5": "e8d8c91451076c14365f3f5bf96ca0cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e8d8c91451076c14365f3f5bf96ca0cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ACS2018_5yr_R12526591_SL050.txt",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460480,
+                    "persistentId": "",
+                    "filename": "ACS2018_5yr_R12526591_SL050.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 939843,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1674-46ae3e82f603",
+                    "rootDataFileId": -1,
+                    "md5": "8c3ef0160d3a79ed1292ee08ba66068f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8c3ef0160d3a79ed1292ee08ba66068f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1980_R12408287.do",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460581,
+                    "persistentId": "",
+                    "filename": "1980_R12408287.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 1508,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1608-14252ae88d25",
+                    "rootDataFileId": -1,
+                    "md5": "f8bfe302fb324b74018305efff5a7585",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f8bfe302fb324b74018305efff5a7585"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2014.do",
+                "restricted": false,
+                "directoryLabel": "emissions/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460526,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2014.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 1049,
+                    "storageIdentifier": "s3://dvn-cloud:178452afc8d-19a8fdaa2b8a",
+                    "rootDataFileId": -1,
+                    "md5": "27d8234a5df10c1e5c136895da565840",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "27d8234a5df10c1e5c136895da565840"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_urban_rural_2000.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460474,
+                    "persistentId": "",
+                    "filename": "data_income_pop_urban_rural_2000.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 120,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16a3-dada22ee64dd",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 123,
+                    "originalFileName": "data_income_pop_urban_rural_2000.csv",
+                    "UNF": "UNF:6:U/GsvCToXgXfchIAZ9piSw==",
+                    "rootDataFileId": -1,
+                    "md5": "329d112f51c68e5149972b333e318dc0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "329d112f51c68e5149972b333e318dc0"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_urban_rural_2010.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460529,
+                    "persistentId": "",
+                    "filename": "data_income_pop_urban_rural_2010.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 120,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16a6-0b64ab4ac63f",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 123,
+                    "originalFileName": "data_income_pop_urban_rural_2010.csv",
+                    "UNF": "UNF:6:/IsX+/Q+K9wmsnzyTIhqWw==",
+                    "rootDataFileId": -1,
+                    "md5": "d8fc373511506d85a0642ff28edc31e7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d8fc373511506d85a0642ff28edc31e7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_urban_rural_2016.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460580,
+                    "persistentId": "",
+                    "filename": "data_income_pop_urban_rural_2016.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 120,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16aa-e219b82a3a84",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 123,
+                    "originalFileName": "data_income_pop_urban_rural_2016.csv",
+                    "UNF": "UNF:6:ya1d0dTckV9iNhsI3OGgwg==",
+                    "rootDataFileId": -1,
+                    "md5": "23469d61bc795edeb6641cbabee7c430",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "23469d61bc795edeb6641cbabee7c430"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_emission_urban_rural_1990.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460583,
+                    "persistentId": "",
+                    "filename": "data_emission_urban_rural_1990.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 127,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1501-e13782544b4c",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 130,
+                    "originalFileName": "data_emission_urban_rural_1990.csv",
+                    "UNF": "UNF:6:qrPE2HH4AxPdyIGrAiR5Og==",
+                    "rootDataFileId": -1,
+                    "md5": "6bec602b2cf5dc8bed94de65e95b3115",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6bec602b2cf5dc8bed94de65e95b3115"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_emission_urban_rural_2000.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460525,
+                    "persistentId": "",
+                    "filename": "data_emission_urban_rural_2000.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 130,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1504-394e64ef22d2",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 133,
+                    "originalFileName": "data_emission_urban_rural_2000.csv",
+                    "UNF": "UNF:6:BGdRUGxbccpyILB8lzWv9g==",
+                    "rootDataFileId": -1,
+                    "md5": "7dd7c1a0bd2583b0c38ffd6467b7b8d4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7dd7c1a0bd2583b0c38ffd6467b7b8d4"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_emission_urban_rural_2017.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460467,
+                    "persistentId": "",
+                    "filename": "data_emission_urban_rural_2017.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 134,
+                    "storageIdentifier": "s3://dvn-cloud:178452b150f-d7e00145b53f",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 137,
+                    "originalFileName": "data_emission_urban_rural_2017.csv",
+                    "UNF": "UNF:6:MeMmFCrySEqMxI8ucARnLg==",
+                    "rootDataFileId": -1,
+                    "md5": "a2e68dd8671c0a5b3b5f3d561bd28756",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a2e68dd8671c0a5b3b5f3d561bd28756"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "results_2008_final_msa.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460574,
+                    "persistentId": "",
+                    "filename": "results_2008_final_msa.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 382,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15e0-6c2d00e52763",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 385,
+                    "originalFileName": "results_2008_final_msa.csv",
+                    "UNF": "UNF:6:egb042g1srOJ6lhkiDqtdQ==",
+                    "rootDataFileId": -1,
+                    "md5": "61e0fb5504cf270af5787269e52cbc6d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "61e0fb5504cf270af5787269e52cbc6d"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_E_T2.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460503,
+                    "persistentId": "",
+                    "filename": "2008_PM_E_T2.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 3098,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15a6-218c8a351bce",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 3098,
+                    "originalFileName": "2008_PM_E_T2.csv",
+                    "UNF": "UNF:6:mk96V/JRlKLOaOK9i0ik8Q==",
+                    "rootDataFileId": -1,
+                    "md5": "44be11afde39dbf6150f8c75650ae3f2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "44be11afde39dbf6150f8c75650ae3f2"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2010.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460494,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2010.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 6901,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15df-2f5305ee7cd8",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 5149,
+                    "originalFileName": "data_msa_fips_2010.dta",
+                    "UNF": "UNF:6:9LE7L8nSw5GVk6dKulZkpQ==",
+                    "rootDataFileId": -1,
+                    "md5": "458c0679102a1860895e3ed51c727caf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "458c0679102a1860895e3ed51c727caf"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_MD_T2.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460479,
+                    "persistentId": "",
+                    "filename": "2008_PM_MD_T2.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5884,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15d3-f0cbba2eac21",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5884,
+                    "originalFileName": "2008_PM_MD_T2.csv",
+                    "UNF": "UNF:6:tQeGdhQ6hRn07UTkU37haQ==",
+                    "rootDataFileId": -1,
+                    "md5": "ec62faec0f5bd3dcdc2f7ce33535f483",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ec62faec0f5bd3dcdc2f7ce33535f483"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_1970.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460496,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_1970.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 3867,
+                    "storageIdentifier": "s3://dvn-cloud:178452b167e-a5f7b0be94bd",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 6308,
+                    "originalFileName": "data_msa_fips_1970.dta",
+                    "UNF": "UNF:6:AoJDFnbLft1fzuFKGnM60A==",
+                    "rootDataFileId": -1,
+                    "md5": "98f11eef4e5f5a14a9eda6cd50279e49",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "98f11eef4e5f5a14a9eda6cd50279e49"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_1990.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460481,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_1990.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 6329,
+                    "storageIdentifier": "s3://dvn-cloud:178452aff52-872efe9024c5",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 10040,
+                    "originalFileName": "data_msa_fips_1990.dta",
+                    "UNF": "UNF:6:Fd7YPllYoOPij7rFUyWubQ==",
+                    "rootDataFileId": -1,
+                    "md5": "3400e2a847401a023d99a33cb5a9d066",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3400e2a847401a023d99a33cb5a9d066"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_1990.tab",
+                "restricted": false,
+                "directoryLabel": "msa/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460538,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_1990.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 6329,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1701-7f05b5632549",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 10040,
+                    "originalFileName": "data_msa_fips_1990.dta",
+                    "UNF": "UNF:6:Fd7YPllYoOPij7rFUyWubQ==",
+                    "rootDataFileId": -1,
+                    "md5": "3400e2a847401a023d99a33cb5a9d066",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3400e2a847401a023d99a33cb5a9d066"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2000.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460571,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2000.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 7184,
+                    "storageIdentifier": "s3://dvn-cloud:178452aff53-f674d2512f6b",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 11336,
+                    "originalFileName": "data_msa_fips_2000.dta",
+                    "UNF": "UNF:6:mkBhFwo47a7JWz4A4w3cHw==",
+                    "rootDataFileId": -1,
+                    "md5": "f6814e2f5c9d77b363f2a461187a7150",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f6814e2f5c9d77b363f2a461187a7150"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2000.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460547,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2000.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 7184,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1683-50a2dd511dc8",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 11336,
+                    "originalFileName": "data_msa_fips_2000.dta",
+                    "UNF": "UNF:6:mkBhFwo47a7JWz4A4w3cHw==",
+                    "rootDataFileId": -1,
+                    "md5": "f6814e2f5c9d77b363f2a461187a7150",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f6814e2f5c9d77b363f2a461187a7150"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2010.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460577,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2010.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9248,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1684-7fe8228cd78b",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 14468,
+                    "originalFileName": "data_msa_fips_2010.dta",
+                    "UNF": "UNF:6:NLCu/o7k4ZonGx8mjxlTuw==",
+                    "rootDataFileId": -1,
+                    "md5": "450846b6baed3f7c66c4b1de90d5f4ab",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "450846b6baed3f7c66c4b1de90d5f4ab"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2010.tab",
+                "restricted": false,
+                "directoryLabel": "msa/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460570,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2010.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9248,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1703-714d100d88f0",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 14468,
+                    "originalFileName": "data_msa_fips_2010.dta",
+                    "UNF": "UNF:6:NLCu/o7k4ZonGx8mjxlTuw==",
+                    "rootDataFileId": -1,
+                    "md5": "450846b6baed3f7c66c4b1de90d5f4ab",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "450846b6baed3f7c66c4b1de90d5f4ab"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2015.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460541,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2015.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9781,
+                    "storageIdentifier": "s3://dvn-cloud:178452aff57-76272b921d36",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 15272,
+                    "originalFileName": "data_msa_fips_2015.dta",
+                    "UNF": "UNF:6:CXHDneb8lXzwOwkyo5ec/g==",
+                    "rootDataFileId": -1,
+                    "md5": "7082a4d05e3897b239427776210b3bb7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7082a4d05e3897b239427776210b3bb7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2015.tab",
+                "restricted": false,
+                "directoryLabel": "msa/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460520,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2015.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9781,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1705-3af13c35f076",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 15272,
+                    "originalFileName": "data_msa_fips_2015.dta",
+                    "UNF": "UNF:6:CXHDneb8lXzwOwkyo5ec/g==",
+                    "rootDataFileId": -1,
+                    "md5": "7082a4d05e3897b239427776210b3bb7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7082a4d05e3897b239427776210b3bb7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2018.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460551,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2018.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9899,
+                    "storageIdentifier": "s3://dvn-cloud:178452aff59-a58072f64647",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 15452,
+                    "originalFileName": "data_msa_fips_2018.dta",
+                    "UNF": "UNF:6:KbNcO+6DpYoMJZtl1pUjtw==",
+                    "rootDataFileId": -1,
+                    "md5": "bb729100dc7f47dc69e6bfc15f3a8983",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bb729100dc7f47dc69e6bfc15f3a8983"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_E_T_all.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460522,
+                    "persistentId": "",
+                    "filename": "2008_PM_E_T_all.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 23690,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15ac-9f7add5cf978",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 23690,
+                    "originalFileName": "2008_PM_E_T_all.csv",
+                    "UNF": "UNF:6:W0CGo+v1AyyX90TEIC6RCA==",
+                    "rootDataFileId": -1,
+                    "md5": "33ab908c46cc26b17786f3b13a63d62b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "33ab908c46cc26b17786f3b13a63d62b"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_Damage_T1.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460537,
+                    "persistentId": "",
+                    "filename": "2008_PM_Damage_T1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 35148,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1579-27c320ae0662",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 35148,
+                    "originalFileName": "2008_PM_Damage_T1.csv",
+                    "UNF": "UNF:6:r38go8hbNtPXzvEVbIAU2g==",
+                    "rootDataFileId": -1,
+                    "md5": "e90c361238b821110553d00a71d8c2fd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e90c361238b821110553d00a71d8c2fd"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_MD_T1.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460573,
+                    "persistentId": "",
+                    "filename": "2008_PM_MD_T1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 36400,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15cd-65ffac850c87",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 36400,
+                    "originalFileName": "2008_PM_MD_T1.csv",
+                    "UNF": "UNF:6:u7PPId3kLjOpOMH5TcaJog==",
+                    "rootDataFileId": -1,
+                    "md5": "ff866255262e01f9362f45c4d652c4e7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ff866255262e01f9362f45c4d652c4e7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_1980.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460504,
+                    "persistentId": "",
+                    "filename": "data_income_pop_1980.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 55581,
+                    "storageIdentifier": "s3://dvn-cloud:178452b168d-bd8fe71289db",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 38500,
+                    "originalFileName": "data_income_pop_1980.dta",
+                    "UNF": "UNF:6:kJCPVA/KHrRsvu6BsDcBzA==",
+                    "rootDataFileId": -1,
+                    "md5": "285eef295244e8902d25ee509ec23071",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "285eef295244e8902d25ee509ec23071"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_Damage_T_all.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460565,
+                    "persistentId": "",
+                    "filename": "2008_PM_Damage_T_all.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 40715,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1584-304d13d30af2",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 40715,
+                    "originalFileName": "2008_PM_Damage_T_all.csv",
+                    "UNF": "UNF:6:SwbCTDfebS0154hHS60hZg==",
+                    "rootDataFileId": -1,
+                    "md5": "5275f0613a78bebf9908d294d0d10c9e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5275f0613a78bebf9908d294d0d10c9e"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_1990.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460519,
+                    "persistentId": "",
+                    "filename": "data_income_pop_1990.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 90091,
+                    "storageIdentifier": "s3://dvn-cloud:178452b168f-fd5ed8b50ee5",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 51112,
+                    "originalFileName": "data_income_pop_1990.dta",
+                    "UNF": "UNF:6:PrfvXPPTRwWmAueNj9KWCA==",
+                    "rootDataFileId": -1,
+                    "md5": "ea09522cbb4a28d02be435c205f00d7a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ea09522cbb4a28d02be435c205f00d7a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_2000.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460511,
+                    "persistentId": "",
+                    "filename": "data_income_pop_2000.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 92528,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1692-c0c24bcc7989",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 52360,
+                    "originalFileName": "data_income_pop_2000.dta",
+                    "UNF": "UNF:6:J0s4/PZ7dAG/NitXex8W0Q==",
+                    "rootDataFileId": -1,
+                    "md5": "eac1a423167750c9372eb62225dbb01b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eac1a423167750c9372eb62225dbb01b"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2000_part1.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460482,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2000_part1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 142092,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0dcc-d59d9c204438",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 79904,
+                    "originalFileName": "emission_county_level_2000_part1.dta",
+                    "UNF": "UNF:6:OFDwqHcej2Q3f5fkveZaPw==",
+                    "rootDataFileId": -1,
+                    "md5": "b6097cbd4bd3153abc5b744e8ede7c42",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b6097cbd4bd3153abc5b744e8ede7c42"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_E_L.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460500,
+                    "persistentId": "",
+                    "filename": "2008_PM_E_L.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 116542,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1594-98eee58c4cdc",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 116542,
+                    "originalFileName": "2008_PM_E_L.csv",
+                    "UNF": "UNF:6:F77iaHaxkQZT82ORtidegA==",
+                    "rootDataFileId": -1,
+                    "md5": "0a74d1b7a143ab7fbfe466a009bdceb4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0a74d1b7a143ab7fbfe466a009bdceb4"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2011.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460553,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2011.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 293242,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1108-a2ddc2387457",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 145042,
+                    "originalFileName": "emission_county_level_2011.dta",
+                    "UNF": "UNF:6:7C8LXhRmvR+h1yPKk8ZrZA==",
+                    "rootDataFileId": -1,
+                    "md5": "4079833e262cc0bfec92882fd5bc2c3c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4079833e262cc0bfec92882fd5bc2c3c"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2017.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460536,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2017.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 292572,
+                    "storageIdentifier": "s3://dvn-cloud:178452b14ee-606d527b7cdc",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 145184,
+                    "originalFileName": "emission_county_level_2017.dta",
+                    "UNF": "UNF:6:PKX22pATAR051n4V/JHquw==",
+                    "rootDataFileId": -1,
+                    "md5": "23bbca6c62a16f794dd7d64b87a564d7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "23bbca6c62a16f794dd7d64b87a564d7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_E_A.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460543,
+                    "persistentId": "",
+                    "filename": "2008_PM_E_A.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 162243,
+                    "storageIdentifier": "s3://dvn-cloud:178452b158c-6a2dcbf405e6",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 162243,
+                    "originalFileName": "2008_PM_E_A.csv",
+                    "UNF": "UNF:6:B95KtZ8QDknrRyULVc39vg==",
+                    "rootDataFileId": -1,
+                    "md5": "f1a0aabb233b1dd741b26db4f492d18c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f1a0aabb233b1dd741b26db4f492d18c"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_Damage_L.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460502,
+                    "persistentId": "",
+                    "filename": "2008_PM_Damage_L.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 163572,
+                    "storageIdentifier": "s3://dvn-cloud:178452b156c-1910122a8d4a",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 163572,
+                    "originalFileName": "2008_PM_Damage_L.csv",
+                    "UNF": "UNF:6:CuG5ljnMaOQ7vadaSu10XA==",
+                    "rootDataFileId": -1,
+                    "md5": "f9fa9836888ffef5cc5db977d20ac616",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f9fa9836888ffef5cc5db977d20ac616"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_1990.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460489,
+                    "persistentId": "",
+                    "filename": "emission_county_level_1990.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 271216,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0c92-e89a8c211668",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 165302,
+                    "originalFileName": "emission_county_level_1990.dta",
+                    "UNF": "UNF:6:cYRqjVBsk7vStlpCU77LnA==",
+                    "rootDataFileId": -1,
+                    "md5": "f6d1d6fb09e9c7df27c4f1122282ea8f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f6d1d6fb09e9c7df27c4f1122282ea8f"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_MD_M.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460521,
+                    "persistentId": "",
+                    "filename": "2008_PM_MD_M.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 200289,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15c6-8fc9efc69b52",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 200289,
+                    "originalFileName": "2008_PM_MD_M.csv",
+                    "UNF": "UNF:6:u7P5+hietNLshTrHqfxp2g==",
+                    "rootDataFileId": -1,
+                    "md5": "6931ebed87fe31ddc4374559b6603c06",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6931ebed87fe31ddc4374559b6603c06"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_1990-1.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460563,
+                    "persistentId": "",
+                    "filename": "emission_county_level_1990-1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 6340401,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0c5c-f4bf15e93897",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 6226156,
+                    "originalFileName": "emission_county_level_1990.csv",
+                    "UNF": "UNF:6:7Ol/CyKpGi2p75Nflatz1Q==",
+                    "rootDataFileId": -1,
+                    "md5": "cf8da0a3ecc0b133a9d295d55d40dddd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cf8da0a3ecc0b133a9d295d55d40dddd"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2000_part2-1.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460508,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2000_part2-1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 25764574,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0e81-551153bb65a9",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 22847170,
+                    "originalFileName": "emission_county_level_2000_part2.csv",
+                    "UNF": "UNF:6:mXQ0C7YzWGiNVTgLb6kJOg==",
+                    "rootDataFileId": -1,
+                    "md5": "7413e4e6119e258fc57ccbade519e896",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7413e4e6119e258fc57ccbade519e896"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2017-1.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460554,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2017-1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 59761221,
+                    "storageIdentifier": "s3://dvn-cloud:178452b13fb-e8eb82002c24",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 51581905,
+                    "originalFileName": "emission_county_level_2017.csv",
+                    "UNF": "UNF:6:H2lm22qw0+wOF8ldFptN+g==",
+                    "rootDataFileId": -1,
+                    "md5": "463599d011840984be075e56799cd67a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "463599d011840984be075e56799cd67a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2014-1.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460556,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2014-1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 63792523,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1202-34d7075312aa",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 55540839,
+                    "originalFileName": "emission_county_level_2014.csv",
+                    "UNF": "UNF:6:hVCdhZek3H/rSyDXfBBqng==",
+                    "rootDataFileId": -1,
+                    "md5": "454897b95e5ee0a34721a6e296aa2b6b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "454897b95e5ee0a34721a6e296aa2b6b"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2011-1.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460510,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2011-1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 65349965,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0ff5-3604c1f846a4",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 57582199,
+                    "originalFileName": "emission_county_level_2011.csv",
+                    "UNF": "UNF:6:/OPZdTPFXuOnKUzTpnIL/Q==",
+                    "rootDataFileId": -1,
+                    "md5": "edeccd846a6f2de7f701d48817ca1a06",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "edeccd846a6f2de7f701d48817ca1a06"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "readme.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460532,
+                    "persistentId": "",
+                    "filename": "readme.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 191017,
+                    "storageIdentifier": "s3://dvn-cloud:17845260977-bab2dcf15aa2",
+                    "rootDataFileId": -1,
+                    "md5": "1aec509914329ac5020d553d83b6fa67",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1aec509914329ac5020d553d83b6fa67"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1971mfips.txt",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460527,
+                    "persistentId": "",
+                    "filename": "1971mfips.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 56481,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16b3-8c70f41d9828",
+                    "rootDataFileId": -1,
+                    "md5": "3f204d08bf2705f22048dc083a14037f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3f204d08bf2705f22048dc083a14037f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2011.do",
+                "restricted": false,
+                "directoryLabel": "emissions/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460476,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2011.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 887,
+                    "storageIdentifier": "s3://dvn-cloud:178452afc87-c69e3fc4afb7",
+                    "rootDataFileId": -1,
+                    "md5": "db666f8036324f603597e4e974aa3dbe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "db666f8036324f603597e4e974aa3dbe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1970_R12408281.do",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460535,
+                    "persistentId": "",
+                    "filename": "1970_R12408281.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 1595,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15ef-21d8b520ce85",
+                    "rootDataFileId": -1,
+                    "md5": "64747bad9d26fd1b9fbf7187c8ee5fca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "64747bad9d26fd1b9fbf7187c8ee5fca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "code_pop_income_by_urban_rural.do",
+                "restricted": false,
+                "directoryLabel": "income_pop/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460548,
+                    "persistentId": "",
+                    "filename": "code_pop_income_by_urban_rural.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 2324,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15e4-e83a2c6e595a",
+                    "rootDataFileId": -1,
+                    "md5": "8b9e96267e03d07a3d797c5e9606c786",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8b9e96267e03d07a3d797c5e9606c786"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "national_tier1_caps_1970_2019.xlsx",
+                "restricted": false,
+                "directoryLabel": "emissions",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460509,
+                    "persistentId": "",
+                    "filename": "national_tier1_caps_1970_2019.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 101856,
+                    "storageIdentifier": "s3://dvn-cloud:178452b14fb-ea8582255e4b",
+                    "rootDataFileId": -1,
+                    "md5": "58b5226878a65bd563b6e4b73346d270",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "58b5226878a65bd563b6e4b73346d270"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2017.do",
+                "restricted": false,
+                "directoryLabel": "emissions/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460542,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2017.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 1069,
+                    "storageIdentifier": "s3://dvn-cloud:178452afc93-9d575cd5c770",
+                    "rootDataFileId": -1,
+                    "md5": "a1a018f5ea7a558d7df3dd783da304e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a1a018f5ea7a558d7df3dd783da304e5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1970_R12408281_SL4601.txt",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460531,
+                    "persistentId": "",
+                    "filename": "1970_R12408281_SL4601.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 611268,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15fb-f4eeda0e9737",
+                    "rootDataFileId": -1,
+                    "md5": "80a4b3081bccfa13cb77d4df03897271",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "80a4b3081bccfa13cb77d4df03897271"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ACS2018_5yr_R12526591.dct",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460505,
+                    "persistentId": "",
+                    "filename": "ACS2018_5yr_R12526591.dct",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 2500,
+                    "storageIdentifier": "s3://dvn-cloud:178452b165e-67d8d799530f",
+                    "rootDataFileId": -1,
+                    "md5": "0357f3b913a1f9cf5fe90c622ce27132",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0357f3b913a1f9cf5fe90c622ce27132"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ACS2012_5yr_R12408298.do",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460539,
+                    "persistentId": "",
+                    "filename": "ACS2012_5yr_R12408298.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 2338,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1649-a54892dcd068",
+                    "rootDataFileId": -1,
+                    "md5": "e93da49653580770c2e04058a5907dd3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e93da49653580770c2e04058a5907dd3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1990CountyTier1Tier2made08302005.txt",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460555,
+                    "persistentId": "",
+                    "filename": "1990CountyTier1Tier2made08302005.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 6605504,
+                    "storageIdentifier": "s3://dvn-cloud:178452afcca-f7d76d4ad148",
+                    "rootDataFileId": -1,
+                    "md5": "a7f343f4074a1c06f325d7b1e835440f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a7f343f4074a1c06f325d7b1e835440f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2018metro_list1_Sep_2018.xls",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460516,
+                    "persistentId": "",
+                    "filename": "2018metro_list1_Sep_2018.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 772608,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16f6-ba5130bb48f7",
+                    "rootDataFileId": -1,
+                    "md5": "1231997e26c5eb2a108e52848cb3d3eb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1231997e26c5eb2a108e52848cb3d3eb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2013metro_list1_Feb_2013.xls",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460518,
+                    "persistentId": "",
+                    "filename": "2013metro_list1_Feb_2013.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 423424,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16e1-ed44d523b803",
+                    "rootDataFileId": -1,
+                    "md5": "88ae34b2a3e0d083326c3ed8c42598c0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "88ae34b2a3e0d083326c3ed8c42598c0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "readme.txt",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460468,
+                    "persistentId": "",
+                    "filename": "readme.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 99,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1687-064b25c62b59",
+                    "rootDataFileId": -1,
+                    "md5": "e7ecbe1052b060ed380a5bed055fe143",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e7ecbe1052b060ed380a5bed055fe143"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1980mfips.txt",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460552,
+                    "persistentId": "",
+                    "filename": "1980mfips.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 87246,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16b9-986e4f945e34",
+                    "rootDataFileId": -1,
+                    "md5": "3e86ae3085260529f2d2e58b4d8a0ed3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3e86ae3085260529f2d2e58b4d8a0ed3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2000_R12408293.dct",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460568,
+                    "persistentId": "",
+                    "filename": "2000_R12408293.dct",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 587,
+                    "storageIdentifier": "s3://dvn-cloud:178452b162d-911c744bef7d",
+                    "rootDataFileId": -1,
+                    "md5": "7bf363e198c3643d1d850438930f56d8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7bf363e198c3643d1d850438930f56d8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1970_R12408281.dct",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460569,
+                    "persistentId": "",
+                    "filename": "1970_R12408281.dct",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 2079,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15e9-e6ad016565fc",
+                    "rootDataFileId": -1,
+                    "md5": "820a593e34fe9b918ce6c89375c9d8b7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "820a593e34fe9b918ce6c89375c9d8b7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ACS2012_5yr_R12408298_SL050.txt",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460513,
+                    "persistentId": "",
+                    "filename": "ACS2012_5yr_R12408298_SL050.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 945387,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1653-b9026fba10f0",
+                    "rootDataFileId": -1,
+                    "md5": "e5954500b5de11dd1a177b2ab0cb7f75",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e5954500b5de11dd1a177b2ab0cb7f75"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "code_APEEP_02_results_process_03_avg_MD.do",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460561,
+                    "persistentId": "",
+                    "filename": "code_APEEP_02_results_process_03_avg_MD.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 1784,
+                    "storageIdentifier": "s3://dvn-cloud:178452b154e-41666e3e56bb",
+                    "rootDataFileId": -1,
+                    "md5": "9ef4e95b236de656868c785bcf0cf7e6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9ef4e95b236de656868c785bcf0cf7e6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "code_export_msa_fips.do",
+                "restricted": false,
+                "directoryLabel": "msa",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460585,
+                    "persistentId": "",
+                    "filename": "code_export_msa_fips.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 988,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16ad-1afd56ed81b6",
+                    "rootDataFileId": -1,
+                    "md5": "1476e454e7429bfa9cfc17206ae5650c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1476e454e7429bfa9cfc17206ae5650c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ACS2018_5yr_R12526591.do",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460562,
+                    "persistentId": "",
+                    "filename": "ACS2018_5yr_R12526591.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 2352,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1668-1fd59ea76d00",
+                    "rootDataFileId": -1,
+                    "md5": "aa0916ddda37e52e7fa370ab728dc637",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aa0916ddda37e52e7fa370ab728dc637"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1980_R12408287.dct",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460533,
+                    "persistentId": "",
+                    "filename": "1980_R12408287.dct",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 598,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1603-89a2c4d3d038",
+                    "rootDataFileId": -1,
+                    "md5": "e4e3716b2aaf650455fe1fb5aff62ca9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e4e3716b2aaf650455fe1fb5aff62ca9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_1990.do",
+                "restricted": false,
+                "directoryLabel": "emissions/code",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460558,
+                    "persistentId": "",
+                    "filename": "emission_county_level_1990.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 618,
+                    "storageIdentifier": "s3://dvn-cloud:178452afc7b-7088bc0ff624",
+                    "rootDataFileId": -1,
+                    "md5": "1d66a5ca4b63a0f572e2d5ce15693fd8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1d66a5ca4b63a0f572e2d5ce15693fd8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1990_R12408290.do",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460540,
+                    "persistentId": "",
+                    "filename": "1990_R12408290.do",
+                    "contentType": "application/x-stata-syntax",
+                    "friendlyType": "Stata Syntax",
+                    "filesize": 1521,
+                    "storageIdentifier": "s3://dvn-cloud:178452b161d-b9cf2cd90269",
+                    "rootDataFileId": -1,
+                    "md5": "b1c88ad9821d87d10cf6aac4837fb1c9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b1c88ad9821d87d10cf6aac4837fb1c9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "1990mfips.txt",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460477,
+                    "persistentId": "",
+                    "filename": "1990mfips.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 129633,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16c0-32f6615ebf7d",
+                    "rootDataFileId": -1,
+                    "md5": "690ddec006726aa3026ce74bfd7e3e5a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "690ddec006726aa3026ce74bfd7e3e5a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "tier2_summary_county_2014neiv2.accdb",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460507,
+                    "persistentId": "",
+                    "filename": "tier2_summary_county_2014neiv2.accdb",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 125112320,
+                    "storageIdentifier": "s3://dvn-cloud:178452b062b-cc4948250ae4",
+                    "rootDataFileId": -1,
+                    "md5": "6bac655f622c54f7368235a94485075a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6bac655f622c54f7368235a94485075a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2000_R12408293_SL050.txt",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 1,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460490,
+                    "persistentId": "",
+                    "filename": "2000_R12408293_SL050.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 483905,
+                    "storageIdentifier": "s3://dvn-cloud:178452b163b-8967550f9c5e",
+                    "rootDataFileId": -1,
+                    "md5": "a669154fb4dcf50dd159ba557f7a9a54",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a669154fb4dcf50dd159ba557f7a9a54"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_urban_rural_1980.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460483,
+                    "persistentId": "",
+                    "filename": "data_income_pop_urban_rural_1980.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 119,
+                    "storageIdentifier": "s3://dvn-cloud:178452b169c-56f2949b0176",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 122,
+                    "originalFileName": "data_income_pop_urban_rural_1980.csv",
+                    "UNF": "UNF:6:eOU7NRtAa1wrA3bPmqqmGw==",
+                    "rootDataFileId": -1,
+                    "md5": "87569f39e893311670d3192fd0ad965a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "87569f39e893311670d3192fd0ad965a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_urban_rural_1970.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460528,
+                    "persistentId": "",
+                    "filename": "data_income_pop_urban_rural_1970.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 117,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1698-2906648a903b",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 120,
+                    "originalFileName": "data_income_pop_urban_rural_1970.csv",
+                    "UNF": "UNF:6:RDrKW+NmNVRtlHbQKflNMg==",
+                    "rootDataFileId": -1,
+                    "md5": "d2a18092f054a532e2a14b0dd824db18",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2a18092f054a532e2a14b0dd824db18"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_partition.tab",
+                "restricted": false,
+                "directoryLabel": "emissions",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460506,
+                    "persistentId": "",
+                    "filename": "emission_partition.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 694,
+                    "storageIdentifier": "s3://dvn-cloud:178452b14f3-3b9ffcf0de22",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 301579,
+                    "originalFileName": "emission_partition.xlsx",
+                    "UNF": "UNF:6:aGxE9pjcmVCnCcv0OFp0Kw==",
+                    "rootDataFileId": -1,
+                    "md5": "08e7cd634961b2f5da2cf3135732acdf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "08e7cd634961b2f5da2cf3135732acdf"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_urban_rural_1990.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460566,
+                    "persistentId": "",
+                    "filename": "data_income_pop_urban_rural_1990.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 119,
+                    "storageIdentifier": "s3://dvn-cloud:178452b169f-6a7855d44a4f",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 122,
+                    "originalFileName": "data_income_pop_urban_rural_1990.csv",
+                    "UNF": "UNF:6:4Cq8Y0hY/tyG4CIdDOYscA==",
+                    "rootDataFileId": -1,
+                    "md5": "acdc8ebee668ec5fcba8e0d1e9816cb1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "acdc8ebee668ec5fcba8e0d1e9816cb1"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_emission_urban_rural_2011.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460544,
+                    "persistentId": "",
+                    "filename": "data_emission_urban_rural_2011.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 132,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1508-117597110dd3",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 135,
+                    "originalFileName": "data_emission_urban_rural_2011.csv",
+                    "UNF": "UNF:6:Dss9asiZ5d+QkZCiTWd/7Q==",
+                    "rootDataFileId": -1,
+                    "md5": "84b832dfce50fee9fc8ebc25dc8c224c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "84b832dfce50fee9fc8ebc25dc8c224c"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_emission_urban_rural_2014.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460584,
+                    "persistentId": "",
+                    "filename": "data_emission_urban_rural_2014.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 132,
+                    "storageIdentifier": "s3://dvn-cloud:178452b150c-1bc4ff99c574",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 135,
+                    "originalFileName": "data_emission_urban_rural_2014.csv",
+                    "UNF": "UNF:6:P+F+HBkzJHG9dBfhKyJQqg==",
+                    "rootDataFileId": -1,
+                    "md5": "4bbd74ee9fd0ab9f75825f3d5b8c4bd4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4bbd74ee9fd0ab9f75825f3d5b8c4bd4"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_Damage_T2.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460582,
+                    "persistentId": "",
+                    "filename": "2008_PM_Damage_T2.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5567,
+                    "storageIdentifier": "s3://dvn-cloud:178452b157e-078b8595780c",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5567,
+                    "originalFileName": "2008_PM_Damage_T2.csv",
+                    "UNF": "UNF:6:lvBauB+ryLJ16dtEvUdXJw==",
+                    "rootDataFileId": -1,
+                    "md5": "a4c0e736400c543cd4f9dda460540f5e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a4c0e736400c543cd4f9dda460540f5e"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_1970.tab",
+                "restricted": false,
+                "directoryLabel": "msa/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460578,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_1970.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 3867,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16fe-b9e25a8a8931",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 6308,
+                    "originalFileName": "data_msa_fips_1970.dta",
+                    "UNF": "UNF:6:AoJDFnbLft1fzuFKGnM60A==",
+                    "rootDataFileId": -1,
+                    "md5": "98f11eef4e5f5a14a9eda6cd50279e49",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "98f11eef4e5f5a14a9eda6cd50279e49"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_1980.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460530,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_1980.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5942,
+                    "storageIdentifier": "s3://dvn-cloud:178452b167f-5de10c5eddfb",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 9452,
+                    "originalFileName": "data_msa_fips_1980.dta",
+                    "UNF": "UNF:6:eNvxVW09LEl+SCXsm7uQ4w==",
+                    "rootDataFileId": -1,
+                    "md5": "cbc61fa27615f66e0fabed43a38c6adf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cbc61fa27615f66e0fabed43a38c6adf"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_1980.tab",
+                "restricted": false,
+                "directoryLabel": "msa/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460497,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_1980.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5942,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16ff-b674a17c0c53",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 9452,
+                    "originalFileName": "data_msa_fips_1980.dta",
+                    "UNF": "UNF:6:eNvxVW09LEl+SCXsm7uQ4w==",
+                    "rootDataFileId": -1,
+                    "md5": "cbc61fa27615f66e0fabed43a38c6adf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cbc61fa27615f66e0fabed43a38c6adf"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_1990.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460499,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_1990.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 6329,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1681-768bc57f03b8",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 10040,
+                    "originalFileName": "data_msa_fips_1990.dta",
+                    "UNF": "UNF:6:Fd7YPllYoOPij7rFUyWubQ==",
+                    "rootDataFileId": -1,
+                    "md5": "3400e2a847401a023d99a33cb5a9d066",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3400e2a847401a023d99a33cb5a9d066"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2000.tab",
+                "restricted": false,
+                "directoryLabel": "msa/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460488,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2000.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 7184,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1702-9f165f1eac10",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 11336,
+                    "originalFileName": "data_msa_fips_2000.dta",
+                    "UNF": "UNF:6:mkBhFwo47a7JWz4A4w3cHw==",
+                    "rootDataFileId": -1,
+                    "md5": "f6814e2f5c9d77b363f2a461187a7150",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f6814e2f5c9d77b363f2a461187a7150"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2010.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460546,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2010.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9248,
+                    "storageIdentifier": "s3://dvn-cloud:178452aff55-2fde0f038539",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 14468,
+                    "originalFileName": "data_msa_fips_2010.dta",
+                    "UNF": "UNF:6:NLCu/o7k4ZonGx8mjxlTuw==",
+                    "rootDataFileId": -1,
+                    "md5": "450846b6baed3f7c66c4b1de90d5f4ab",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "450846b6baed3f7c66c4b1de90d5f4ab"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2015.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460493,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2015.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9781,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1685-51b5ed578b59",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 15272,
+                    "originalFileName": "data_msa_fips_2015.dta",
+                    "UNF": "UNF:6:CXHDneb8lXzwOwkyo5ec/g==",
+                    "rootDataFileId": -1,
+                    "md5": "7082a4d05e3897b239427776210b3bb7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7082a4d05e3897b239427776210b3bb7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_msa_fips_2018.tab",
+                "restricted": false,
+                "directoryLabel": "msa/result_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460486,
+                    "persistentId": "",
+                    "filename": "data_msa_fips_2018.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9899,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1706-bf8a86cfd2d2",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 15452,
+                    "originalFileName": "data_msa_fips_2018.dta",
+                    "UNF": "UNF:6:KbNcO+6DpYoMJZtl1pUjtw==",
+                    "rootDataFileId": -1,
+                    "md5": "bb729100dc7f47dc69e6bfc15f3a8983",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bb729100dc7f47dc69e6bfc15f3a8983"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_E_T1.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460491,
+                    "persistentId": "",
+                    "filename": "2008_PM_E_T1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 20592,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15a1-b11d413800f8",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 20592,
+                    "originalFileName": "2008_PM_E_T1.csv",
+                    "UNF": "UNF:6:9YQT/V8QEjMsHbfzW1M/QA==",
+                    "rootDataFileId": -1,
+                    "md5": "c70a26c97d4e0ebdd204eed8c2ff14bd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c70a26c97d4e0ebdd204eed8c2ff14bd"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_MD_T_all.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460473,
+                    "persistentId": "",
+                    "filename": "2008_PM_MD_T_all.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 42284,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15d9-308d412b950a",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 42284,
+                    "originalFileName": "2008_PM_MD_T_all.csv",
+                    "UNF": "UNF:6:HeMak9dw1pywTlCdVh+snw==",
+                    "rootDataFileId": -1,
+                    "md5": "ff5b0c206ff6e3c7b04f1f104889aae7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ff5b0c206ff6e3c7b04f1f104889aae7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_1970.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460484,
+                    "persistentId": "",
+                    "filename": "data_income_pop_1970.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 94446,
+                    "storageIdentifier": "s3://dvn-cloud:178452b168b-5176995a39c1",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 51112,
+                    "originalFileName": "data_income_pop_1970.dta",
+                    "UNF": "UNF:6:88ummqx+urQb5qG6TugJeQ==",
+                    "rootDataFileId": -1,
+                    "md5": "17d6dae5c218a4900d2703e323a73eaa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "17d6dae5c218a4900d2703e323a73eaa"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_2010_acs.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460560,
+                    "persistentId": "",
+                    "filename": "data_income_pop_2010_acs.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 85049,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1694-d0b000e334b3",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 52392,
+                    "originalFileName": "data_income_pop_2010_acs.dta",
+                    "UNF": "UNF:6:RyQCoX1C1KY/XKcZDcChTA==",
+                    "rootDataFileId": -1,
+                    "md5": "862203d07ab90609fd62b3bbe3646848",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "862203d07ab90609fd62b3bbe3646848"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_E_M.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460472,
+                    "persistentId": "",
+                    "filename": "2008_PM_E_M.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 55456,
+                    "storageIdentifier": "s3://dvn-cloud:178452b159a-c6bcba94a767",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 55456,
+                    "originalFileName": "2008_PM_E_M.csv",
+                    "UNF": "UNF:6:KUtUBrLuYBqPxcABe2EQvg==",
+                    "rootDataFileId": -1,
+                    "md5": "443e1447021eb9024bbad5634f6882f1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "443e1447021eb9024bbad5634f6882f1"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_Damage_M.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460557,
+                    "persistentId": "",
+                    "filename": "2008_PM_Damage_M.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 54850,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1573-6f58806c237c",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 54850,
+                    "originalFileName": "2008_PM_Damage_M.csv",
+                    "UNF": "UNF:6:0hbEsoXoAfxGiUJIiQ0O0g==",
+                    "rootDataFileId": -1,
+                    "md5": "eb91edd46d473f54b95aaf516cf7108c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eb91edd46d473f54b95aaf516cf7108c"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2000_part2.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460550,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2000_part2.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 119279,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0efb-6cc304975896",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 65384,
+                    "originalFileName": "emission_county_level_2000_part2.dta",
+                    "UNF": "UNF:6:AikJrzzrNq2YF2CBHeZf4A==",
+                    "rootDataFileId": -1,
+                    "md5": "db1202c4225cd535096361b83cb33843",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "db1202c4225cd535096361b83cb33843"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AP2_Fips_List_by_source.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460515,
+                    "persistentId": "",
+                    "filename": "AP2_Fips_List_by_source.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 64556,
+                    "storageIdentifier": "s3://dvn-cloud:178452b155a-2fd2df84000b",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 67666,
+                    "originalFileName": "AP2_Fips_List_by_source.csv",
+                    "UNF": "UNF:6:D8HbAuXse5NMH5F2RVZT7w==",
+                    "rootDataFileId": -1,
+                    "md5": "893a05024f3a433096aed60d2fb8150d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "893a05024f3a433096aed60d2fb8150d"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2000.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460575,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2000.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 261345,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0c97-5b432e395457",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 143686,
+                    "originalFileName": "emission_county_level_2000.dta",
+                    "UNF": "UNF:6:r4lOVcDRmEY8MRk0kd1unw==",
+                    "rootDataFileId": -1,
+                    "md5": "0129d70563b276f76ed50ada272d707a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0129d70563b276f76ed50ada272d707a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2014.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460524,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2014.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 291434,
+                    "storageIdentifier": "s3://dvn-cloud:178452b130b-ecdb167b49fc",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 144698,
+                    "originalFileName": "emission_county_level_2014.dta",
+                    "UNF": "UNF:6:vuGG6tOzQDbFOGQtjBUEKw==",
+                    "rootDataFileId": -1,
+                    "md5": "4252360461228aa3a77b1b5ba9fe00d9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4252360461228aa3a77b1b5ba9fe00d9"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_Damage_A.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460549,
+                    "persistentId": "",
+                    "filename": "2008_PM_Damage_A.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 200251,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1563-1f08f0e17ca1",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 200251,
+                    "originalFileName": "2008_PM_Damage_A.csv",
+                    "UNF": "UNF:6:dkwbNKrwlAMbv8O1B0pYpQ==",
+                    "rootDataFileId": -1,
+                    "md5": "502fca5eda0f32148e423f6213b46e9f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "502fca5eda0f32148e423f6213b46e9f"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_MD_A.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460492,
+                    "persistentId": "",
+                    "filename": "2008_PM_MD_A.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 200281,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15b4-6bc92a44af35",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 200281,
+                    "originalFileName": "2008_PM_MD_A.csv",
+                    "UNF": "UNF:6:b0rCGlJuj76v0pZkcOT2wA==",
+                    "rootDataFileId": -1,
+                    "md5": "41cb0ef9dfa0dd6c32e437b9f007e981",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "41cb0ef9dfa0dd6c32e437b9f007e981"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2008_PM_MD_L.tab",
+                "restricted": false,
+                "directoryLabel": "expected_marginal_damages/data_input/APEEP_results_output",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460475,
+                    "persistentId": "",
+                    "filename": "2008_PM_MD_L.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 200307,
+                    "storageIdentifier": "s3://dvn-cloud:178452b15bc-1fc2af69f70b",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 200307,
+                    "originalFileName": "2008_PM_MD_L.csv",
+                    "UNF": "UNF:6:Uvh3RtJ+1BRJWu7WjMwS7A==",
+                    "rootDataFileId": -1,
+                    "md5": "3bc51b27e1d075fb411a213a195d771c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3bc51b27e1d075fb411a213a195d771c"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2015metro_list1_Jul_2015.tab",
+                "restricted": false,
+                "directoryLabel": "msa/data_input",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460498,
+                    "persistentId": "",
+                    "filename": "2015metro_list1_Jul_2015.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 282763,
+                    "storageIdentifier": "s3://dvn-cloud:178452b16eb-4ede3a189b84",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 234209,
+                    "originalFileName": "2015metro_list1_Jul_2015.xlsx",
+                    "UNF": "UNF:6:oIEUymbW1A4Ulx5jjPXI5g==",
+                    "rootDataFileId": -1,
+                    "md5": "b50a3ce991a2b33a07fa18bd347dbf9a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b50a3ce991a2b33a07fa18bd347dbf9a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "main.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460514,
+                    "persistentId": "",
+                    "filename": "main.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5622,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1b49-874765efa425",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 263963,
+                    "originalFileName": "main.xlsx",
+                    "UNF": "UNF:6:xEDz0HdsxHcLZCicQpFITw==",
+                    "rootDataFileId": -1,
+                    "md5": "2b018375a203063c13baaf9000c3687a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2b018375a203063c13baaf9000c3687a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "emission_county_level_2000_part1-1.tab",
+                "restricted": false,
+                "directoryLabel": "emissions/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460534,
+                    "persistentId": "",
+                    "filename": "emission_county_level_2000_part1-1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 35839351,
+                    "storageIdentifier": "s3://dvn-cloud:178452b0d37-6aaafb2498db",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 31761787,
+                    "originalFileName": "emission_county_level_2000_part1.csv",
+                    "UNF": "UNF:6:tBBXrQg+j7fPknHxMk0MDQ==",
+                    "rootDataFileId": -1,
+                    "md5": "40ccd5f8028bc18b914b69e1c4e1b208",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "40ccd5f8028bc18b914b69e1c4e1b208"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_income_pop_2016_acs.tab",
+                "restricted": false,
+                "directoryLabel": "income_pop/data_intermediate",
+                "version": 3,
+                "datasetVersionId": 237200,
+                "dataFile": {
+                    "id": 4460559,
+                    "persistentId": "",
+                    "filename": "data_income_pop_2016_acs.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 92578,
+                    "storageIdentifier": "s3://dvn-cloud:178452b1696-fc7f308cb257",
+                    "originalFileFormat": "application/x-stata",
+                    "originalFormatLabel": "Stata Binary",
+                    "originalFileSize": 52376,
+                    "originalFileName": "data_income_pop_2016_acs.dta",
+                    "UNF": "UNF:6:FCGjgzpCXcApCojvNnlVXQ==",
+                    "rootDataFileId": -1,
+                    "md5": "2c196cbb7aa47c39392051290b0cbfee",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2c196cbb7aa47c39392051290b0cbfee"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2021-03-18",
+                    "publicationDate": "2021-03-18",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

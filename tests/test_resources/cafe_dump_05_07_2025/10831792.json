@@ -1,0 +1,1405 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 434780,
+        "datasetId": 10831792,
+        "datasetPersistentId": "doi:10.7910/DVN/UPXF8S",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/UPXF8S",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-19T21:53:49Z",
+        "releaseTime": "2025-02-19T21:53:49Z",
+        "createTime": "2025-01-17T21:04:12Z",
+        "publicationDate": "2025-02-19",
+        "citationDate": "2025-02-19",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Clean Air Markets Program Data Bulk Data Files"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States Environmental Protection Agency (EPA)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information \n<br /><br />\n\u201cIf you have questions about the underlying data stored here, please contact the United States Environmental Protection Agency (EPA) at AskCAMD@epa.gov. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\u201d\n<br /><br />\n\nAll allowance, compliance, facility, and mercury and air toxics emissions (MATS) are uploaded in zipped files. Hourly emissions by year are uploaded as zipped files by year.\n\n<br /><br />\n\"EPA\u2019s power plant programs reduce air pollution from power plants to help protect human health and the environment. EPA collects comprehensive CO2, NOx, SO2, and mercury emissions data, and makes it publicly available, along with compliance and allowance data, and individual power plant details. You can explore the data here in CAMPD. Learn more about our programs, additional data and tools at Clean Air Power Sector Programs.\" [Quote from https://campd.epa.gov/]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-17"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Anthropogenic Emissions"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States Environmental Protection Agency (EPA). \u201cClean Air Markets Program Data.\u201d Washington, DC: Office of Atmospheric Protection, Clean Air Markets Division. Available from EPA\u2019s Air Markets Program Data web site: https://campd.epa.gov/."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nClean Air Markets Program Data Bulk Data Files data was downloaded by Zach Popp on 1/17/2025"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Popp, Zachary"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-17"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1995-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The below was extracted directly from the EPA Disclaimers page (https://www.epa.gov/web-policies-and-procedures/epa-disclaimers): \"Disclaimer of Endorsement Mention of or referral to commercial products or services, and/or links to non-EPA sites does not imply official EPA endorsement of or responsibility for the opinions, ideas, data, or products presented at those locations, or guarantee the validity of the information provided. Mention of commercial products/services on non-EPA websites is provided solely as a pointer to information on topics related to environmental protection that may be useful to EPA staff and the public. Copyright Status The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes. Commercial use of the documents available from the EPA websites may be protected under the U.S. and Foreign Copyright Laws. Individual documents on the EPA website may have different copyright conditions, and that will be noted in those documents. Disclaimer of Liability With respect to documents available from the EPA website, neither the United States Government nor any of their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Exit Disclaimer The Exit icon denotes that you are leaving the EPA website and entering an external link or a third-party site. EPA's official web site is www.epa.gov. EPA has provided this link because it provides additional information that may be useful or interesting and is being provided in a manner consistent with the intended purpose of the EPA website. Please note that EPA uses third-party sites to provide EPA content already on www.epa.gov in a different format. EPA cannot attest to the accuracy of non-EPA information provided by these third-party sites or any other linked site. EPA is providing these links for your reference. In doing so, EPA does not endorse any non-government websites, companies or applications. Also, please be aware that the privacy protection provided on the EPA.gov domain (EPA Privacy and Security Notice) does not apply to these third-party sites. To learn more about EPA and social media, please refer to& our social media page. Notice Information from the EPA website resides on numerous computer systems funded by the Agency. The use of the EPA websites may be monitored for computer security purposes. Any unauthorized access to the EPA website is prohibited and is subject to criminal and civil penalties under federal laws including, but not limited to, Public Law 99-474, the Computer Fraud and Abuse Act of 1986. Terms of Use for Geospatial Data These geospatial data and corresponding cartographic materials have been approved for use by the U.S. Environmental Protection Agency (EPA) as advised by the EPA Geospatial Advisory Committee (EGAC). This approved release is on the condition that neither the EPA nor the U.S. Government may be held liable for any damages resulting from its authorized or unauthorized use. These data and any corresponding products, services, or materials do not necessarily represent the EPA\u2019s official position or viewpoint, expressed or implied. These content items are not intended for use in establishing liability or calculating cost recovery statutes of limitations. They cannot be relied upon to create any rights, substantive or procedural, enforceable by any party in litigation with the United States or third parties. Additionally, although these data have been processed successfully on EPA computer systems, no warranty expressed or implied can be made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The Agency reserves the right to revise EPA-stewarded datasets pursuant to further analysis and review without public notice. Unless otherwise specified, geospatial data produced by the EPA is by default in the public domain and is not subject to domestic copyright protection under 17 U.S.C. \u00a7 105. Referenced data from non-EPA sources are neither inherently verified nor independently tested by the Agency in all circumstances. Permission to reproduce copyrighted items not produced by the EPA must be secured from the copyright owner. EPA strongly recommends careful attention be paid to metadata files associated with these data to better understand limitations, restrictions or intended use. The U.S. EPA shall not be held liable for improper or incorrect use of the data.\""
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Jupyter Notebook"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/USEPA/cam-api-examples"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Clean air markets program data."
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "US Environmental Protection Agency"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "US Environmental Protection Agency"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://campd.epa.gov/data/bulk-data-files"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-21"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-21"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Hourly"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestepOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Note: Data includes Hourly and Annual Time Scales"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "United States Environmental Protection Agency (EPA). \u201cClean Air Markets Program Data.\u201d Washington, DC: Office of Atmospheric Protection, Clean Air and Power Division. Available from EPA\u2019s Air Markets Program Data web site: https://campd.epa.gov/."
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "See FAQ document and data guides"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Air Pollution",
+                            "Anthropogenic Emissions",
+                            "Greenhouse Gas"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "CAMPD-Glossary.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838140,
+                    "persistentId": "",
+                    "filename": "CAMPD-Glossary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 792054,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194894716bd-0f313c908984",
+                    "rootDataFileId": -1,
+                    "md5": "ca90e4878e6c3b9412108957a87f28e9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ca90e4878e6c3b9412108957a87f28e9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "data_caveats_current.xlsx",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838145,
+                    "persistentId": "",
+                    "filename": "data_caveats_current.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 47978,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19489472841-e53b9018ddb7",
+                    "rootDataFileId": -1,
+                    "md5": "2ee5d0f537eaa3fcb3630eea689d232f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2ee5d0f537eaa3fcb3630eea689d232f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Tutorials _ CAMPD _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838147,
+                    "persistentId": "",
+                    "filename": "Tutorials _ CAMPD _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 88783,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194894709df-e778371b8f03",
+                    "rootDataFileId": -1,
+                    "md5": "25d0fa1f2447ab3a1902fe1ed9210465",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "25d0fa1f2447ab3a1902fe1ed9210465"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Glossary _ CAMPD _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838146,
+                    "persistentId": "",
+                    "filename": "Glossary _ CAMPD _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 64828,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194894705a7-c5bd096c75c1",
+                    "rootDataFileId": -1,
+                    "md5": "8c76ce33aa893b4c92e4be5a40066b33",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8c76ce33aa893b4c92e4be5a40066b33"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FAQs _ CAMPD _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838144,
+                    "persistentId": "",
+                    "filename": "FAQs _ CAMPD _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 145781,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1948947046b-2b7118ec3e2b",
+                    "rootDataFileId": -1,
+                    "md5": "a204bdc28ded2a8a45932bd577160622",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a204bdc28ded2a8a45932bd577160622"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Related Resources _ CAMPD _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838142,
+                    "persistentId": "",
+                    "filename": "Related Resources _ CAMPD _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 106080,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19489470684-50a43d8fa0e4",
+                    "rootDataFileId": -1,
+                    "md5": "6eff16bcbb038579097a2d5031ec56ef",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6eff16bcbb038579097a2d5031ec56ef"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CAMPD-Glossary.xlsx",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838143,
+                    "persistentId": "",
+                    "filename": "CAMPD-Glossary.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 58400,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194894717a4-c5bfe58551e3",
+                    "rootDataFileId": -1,
+                    "md5": "ebe83ce4d4cb8e284964feeb50e3c96b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ebe83ce4d4cb8e284964feeb50e3c96b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "About CAMPD _ CAMPD _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838139,
+                    "persistentId": "",
+                    "filename": "About CAMPD _ CAMPD _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 93622,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194894734d6-91818d187b41",
+                    "rootDataFileId": -1,
+                    "md5": "df5cc67dedf6c1c79ed79accfcb69976",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "df5cc67dedf6c1c79ed79accfcb69976"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Allowance downloaded from CAMPD Bulk Data Files",
+                "label": "Allowance.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838136,
+                    "persistentId": "",
+                    "filename": "Allowance.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 29703035,
+                    "description": "Allowance downloaded from CAMPD Bulk Data Files",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1948945fa0b-1feb852e6543",
+                    "rootDataFileId": -1,
+                    "md5": "7d5940a3665fb328078f52304740d828",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7d5940a3665fb328078f52304740d828"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Facility downloaded from CAMPD Bulk Data Files",
+                "label": "Facility.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838135,
+                    "persistentId": "",
+                    "filename": "Facility.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4848726,
+                    "description": "Facility downloaded from CAMPD Bulk Data Files",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1948945eb19-2ca2a6b88794",
+                    "rootDataFileId": -1,
+                    "md5": "e1f385d2599ba28a1293c33fa0102f45",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e1f385d2599ba28a1293c33fa0102f45"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Compliance downloaded from CAMPD Bulk Data Files",
+                "label": "Compliance.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838137,
+                    "persistentId": "",
+                    "filename": "Compliance.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1886306,
+                    "description": "Compliance downloaded from CAMPD Bulk Data Files",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1948945d831-0f93267118aa",
+                    "rootDataFileId": -1,
+                    "md5": "e3ac585fe7b106c790264880e85548e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e3ac585fe7b106c790264880e85548e8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "ZIP file containing all Mercury and Air Toxics Emissions (MATS) files stored on CAMPD Bulk Data Files server",
+                "label": "mats_hourly_all.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841872,
+                    "persistentId": "",
+                    "filename": "mats_hourly_all.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 988954904,
+                    "description": "ZIP file containing all Mercury and Air Toxics Emissions (MATS) files stored on CAMPD Bulk Data Files server",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1949004a30d-d850cf4b0e54",
+                    "rootDataFileId": -1,
+                    "md5": "1a835eeb8725f65f495a33d8e88f1a54",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1a835eeb8725f65f495a33d8e88f1a54"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_1998.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841899,
+                    "persistentId": "",
+                    "filename": "emissions_1998.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 600178619,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19490091513-7c79ad950223",
+                    "rootDataFileId": -1,
+                    "md5": "c171e9d2da26be7d5de6c2fc5444e9c1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c171e9d2da26be7d5de6c2fc5444e9c1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_1997.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841897,
+                    "persistentId": "",
+                    "filename": "emissions_1997.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 577291533,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19490091449-06697dcac20e",
+                    "rootDataFileId": -1,
+                    "md5": "5ffe6086899e31af781fa293479cd7a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5ffe6086899e31af781fa293479cd7a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2000.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841894,
+                    "persistentId": "",
+                    "filename": "emissions_2000.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 686467082,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19490091710-8f848ec3ea57",
+                    "rootDataFileId": -1,
+                    "md5": "ad5b672b58fb456b189043e846ae58db",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ad5b672b58fb456b189043e846ae58db"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2005.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841896,
+                    "persistentId": "",
+                    "filename": "emissions_2005.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 790738578,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194900d5e7d-e7fb8b65df88",
+                    "rootDataFileId": -1,
+                    "md5": "95038f0879fb5dd98c2364f1900c21de",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "95038f0879fb5dd98c2364f1900c21de"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_1999.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841901,
+                    "persistentId": "",
+                    "filename": "emissions_1999.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 646190381,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19490091644-4f005b576213",
+                    "rootDataFileId": -1,
+                    "md5": "3ce5661b0582deb5a5b55237d1f8469a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3ce5661b0582deb5a5b55237d1f8469a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2002.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841898,
+                    "persistentId": "",
+                    "filename": "emissions_2002.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 736550695,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194900b6971-3f64e79aa755",
+                    "rootDataFileId": -1,
+                    "md5": "b2c982cdf12fe8d3db6afb2097403589",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b2c982cdf12fe8d3db6afb2097403589"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2001.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841902,
+                    "persistentId": "",
+                    "filename": "emissions_2001.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 696816795,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194900b0780-f261868164b2",
+                    "rootDataFileId": -1,
+                    "md5": "d235a79c2cb87f367c22957bf60e5476",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d235a79c2cb87f367c22957bf60e5476"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2003.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841895,
+                    "persistentId": "",
+                    "filename": "emissions_2003.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 763895212,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194900b6a66-d0805075b7c2",
+                    "rootDataFileId": -1,
+                    "md5": "15c2309a18b27f5e11454a0459f16dcf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "15c2309a18b27f5e11454a0459f16dcf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2004.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10841900,
+                    "persistentId": "",
+                    "filename": "emissions_2004.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 774694195,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194900b809d-1176b01cbf66",
+                    "rootDataFileId": -1,
+                    "md5": "9202b98739221c5cc72665ac9bed712c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9202b98739221c5cc72665ac9bed712c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-22",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2023.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843538,
+                    "persistentId": "",
+                    "filename": "emissions_2023.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 583429735,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493e1c683-07c1ec83b024",
+                    "rootDataFileId": -1,
+                    "md5": "51e5640bf942ba92c5be438fc1c7d175",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "51e5640bf942ba92c5be438fc1c7d175"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2016.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843540,
+                    "persistentId": "",
+                    "filename": "emissions_2016.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 659929370,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493de1bd8-09cf3b6ad6ba",
+                    "rootDataFileId": -1,
+                    "md5": "e731208ae8e93ea55467f50513270375",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e731208ae8e93ea55467f50513270375"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2024.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843543,
+                    "persistentId": "",
+                    "filename": "emissions_2024.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 223735851,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493e1c756-e71a773b8c4e",
+                    "rootDataFileId": -1,
+                    "md5": "5bbc2dd036f0f588a14dbccd39e9ba53",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5bbc2dd036f0f588a14dbccd39e9ba53"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2021.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843546,
+                    "persistentId": "",
+                    "filename": "emissions_2021.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 595905451,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493e12fbe-80a70e31be77",
+                    "rootDataFileId": -1,
+                    "md5": "6aa54dab0c05ea4c93d0ca164899389e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6aa54dab0c05ea4c93d0ca164899389e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2012.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843548,
+                    "persistentId": "",
+                    "filename": "emissions_2012.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 732772481,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493dbcca3-880688b25139",
+                    "rootDataFileId": -1,
+                    "md5": "446cb72a9be49dbeb07658cef02bde48",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "446cb72a9be49dbeb07658cef02bde48"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2013.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843539,
+                    "persistentId": "",
+                    "filename": "emissions_2013.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 717748948,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493ddd416-dbba28fe13fd",
+                    "rootDataFileId": -1,
+                    "md5": "6116e975d61646e61f7914b497bfb0be",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6116e975d61646e61f7914b497bfb0be"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2011.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843541,
+                    "persistentId": "",
+                    "filename": "emissions_2011.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 756451672,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493dbcbdb-25890244f118",
+                    "rootDataFileId": -1,
+                    "md5": "0d9e90d708c0bd5218e9057367423196",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0d9e90d708c0bd5218e9057367423196"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2018.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843551,
+                    "persistentId": "",
+                    "filename": "emissions_2018.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 644663100,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493dff6c4-96fe5583713f",
+                    "rootDataFileId": -1,
+                    "md5": "68afa29776fcea23cd96008d166a5842",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "68afa29776fcea23cd96008d166a5842"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2019.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843549,
+                    "persistentId": "",
+                    "filename": "emissions_2019.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 618785888,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493dff9e2-7cdcfde78708",
+                    "rootDataFileId": -1,
+                    "md5": "a1526b269a2696b87f72dae021efb5f0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a1526b269a2696b87f72dae021efb5f0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2022.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843552,
+                    "persistentId": "",
+                    "filename": "emissions_2022.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 602852884,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493e1b79d-a7246d6a4563",
+                    "rootDataFileId": -1,
+                    "md5": "76712af02f2b58a3ba5cb0fcb2f8475d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "76712af02f2b58a3ba5cb0fcb2f8475d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2020.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843544,
+                    "persistentId": "",
+                    "filename": "emissions_2020.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 591580436,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493e006dc-e51d61631c36",
+                    "rootDataFileId": -1,
+                    "md5": "26ef8dbdb37d5c780b106a70d046cd62",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "26ef8dbdb37d5c780b106a70d046cd62"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2009.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843547,
+                    "persistentId": "",
+                    "filename": "emissions_2009.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 744866124,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493dbc9e0-590aa8d3f83b",
+                    "rootDataFileId": -1,
+                    "md5": "38e3c477273c60f30f72e54238a4cc3d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "38e3c477273c60f30f72e54238a4cc3d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2017.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843537,
+                    "persistentId": "",
+                    "filename": "emissions_2017.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 629303579,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493df9e4c-a5df27935a0e",
+                    "rootDataFileId": -1,
+                    "md5": "93dcbd621e26b795104cf085851aa89f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "93dcbd621e26b795104cf085851aa89f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2014.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843542,
+                    "persistentId": "",
+                    "filename": "emissions_2014.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 710250819,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493ddf76b-3d710e69dd38",
+                    "rootDataFileId": -1,
+                    "md5": "d6e396bba6caf3a44e57db270f1d02e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6e396bba6caf3a44e57db270f1d02e8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2010.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843545,
+                    "persistentId": "",
+                    "filename": "emissions_2010.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 777516300,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493dbcb0d-9decf85b9d72",
+                    "rootDataFileId": -1,
+                    "md5": "f5cc82d44d7386ed29a86abd1a40e489",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f5cc82d44d7386ed29a86abd1a40e489"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                "label": "emissions_2015.zip",
+                "restricted": false,
+                "directoryLabel": "hourly-emissions",
+                "version": 1,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10843550,
+                    "persistentId": "",
+                    "filename": "emissions_2015.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 688450311,
+                    "description": "Hourly emissions data for all states, and noted year. Note: When opened, zip contains ~14GB of data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19493de107a-35e14177ebcb",
+                    "rootDataFileId": -1,
+                    "md5": "9f788fa7d574848c669e2b24f8501c53",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9f788fa7d574848c669e2b24f8501c53"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-23",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "EPA and U.S. Energy Information Administration (EIA) both collect substantial amounts of information about EGUs and maintain robust datasets covering facility attributes, operation, and emissions. The methodology to match the different unit IDs is available in R script and the results are available as a spreadsheet (xlsx) and delimited text file (csv).",
+                "label": "EPA_EIA_Crosswalk.zip",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838138,
+                    "persistentId": "",
+                    "filename": "EPA_EIA_Crosswalk.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 886747,
+                    "description": "EPA and U.S. Energy Information Administration (EIA) both collect substantial amounts of information about EGUs and maintain robust datasets covering facility attributes, operation, and emissions. The methodology to match the different unit IDs is available in R script and the results are available as a spreadsheet (xlsx) and delimited text file (csv).",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1948945d903-b50dd38a53cf",
+                    "rootDataFileId": -1,
+                    "md5": "7e4efee5acd7a80d896e856280931db2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7e4efee5acd7a80d896e856280931db2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Clean Air Markets Program Data (CAMPD) _ US EPA.pdf",
+                "restricted": false,
+                "directoryLabel": "metadata",
+                "version": 2,
+                "datasetVersionId": 434780,
+                "dataFile": {
+                    "id": 10838141,
+                    "persistentId": "",
+                    "filename": "Clean Air Markets Program Data (CAMPD) _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 187220,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19489471877-e14b152c8b72",
+                    "rootDataFileId": -1,
+                    "md5": "26ee1cba15501204cb12bb67c9871117",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "26ee1cba15501204cb12bb67c9871117"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-21",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

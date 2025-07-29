@@ -1,0 +1,349 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 370501,
+        "datasetId": 8153397,
+        "datasetPersistentId": "doi:10.7910/DVN/ART54Z",
+        "storageIdentifier": "s3://10.7910/DVN/ART54Z",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:hRfEYXyrwzuRLPdlZh/g8Q==",
+        "lastUpdateTime": "2024-02-03T19:27:54Z",
+        "releaseTime": "2024-02-03T19:27:54Z",
+        "createTime": "2024-02-03T19:21:58Z",
+        "publicationDate": "2024-02-03",
+        "citationDate": "2024-02-03",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Synthetic daily mortality time series for California counties"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nethery, Rachel C."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nori-Sarma, Amruta"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nethery, Rachel C."
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "rnethery@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Synthetic daily mortality time series for California counties, 01/01/2015-12/31/2019. These data were generated for use in a synthetic study of associations between wildfire-attributable PM2.5 exposure and mortality to demonstrate climate and health research analytic methods as part of the 'Educational Demo - Introductory Lectures in Climate and Health Research' session at the CAFE Climate and Health Conference 2024. Please refer to the Github repository (https://github.com/Climate-CAFE/educationdemo2024) for the reproducibility pipeline."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-02-03"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Synthetic data"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://purl.obolibrary.org/obo/NCIT_C176263"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate and Health Epidemiology"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Nethery, Rachel"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-02-03"
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "R Notebook"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/Climate-CAFE/educationdemo2024"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowDocumentation",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "This repository contains reproducible R code for generating this synthetic dataset."
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Daily 10km wildfire smoke PM2.5 data, 2006-2020"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Childs, Marissa L.",
+                            "Li, Jessica",
+                            "Wen, Jeffrey",
+                            "Heft-Neal, Sam",
+                            "Driscoll, Anne",
+                            "Wang, Sherrie",
+                            "Gould, Carlos F.",
+                            "Qiu, Minghao",
+                            "Burney, Jennifer",
+                            "Burke, Marshall"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Stanford University"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.stanfordecholab.com/wildfire_smoke"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2022-11-04"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-01-25"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Reanalysis data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataSpatialResolution",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSourceDataSpatialValue": {
+                                "typeName": "cafeSourceDataSpatialValue",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "10"
+                            },
+                            "cafeSourceDataSpatialResolutionUnit": {
+                                "typeName": "cafeSourceDataSpatialResolutionUnit",
+                                "multiple": false,
+                                "typeClass": "controlledVocabulary",
+                                "value": "Kilometers (km)"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Daily"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Childs, M. L., Li, J., Wen, J., Heft-Neal, S., Driscoll, A., Wang, S., Gould, C. F., Qiu, M., Burney, J., & Burke, M. (2022). Daily Local-Level Estimates of Ambient Wildfire Smoke PM2.5 for the Contiguous US. Environmental Science & Technology, 56(19), 13607\u201313621. https://doi.org/10.1021/acs.est.2c02934"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "synthetic_mortality.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 370501,
+                "dataFile": {
+                    "id": 8153398,
+                    "persistentId": "",
+                    "filename": "synthetic_mortality.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 2067212,
+                    "storageIdentifier": "s3://dvn-cloud:18d7060ea44-75599b4f5a93",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 2279034,
+                    "originalFileName": "synthetic_mortality.csv",
+                    "UNF": "UNF:6:hRfEYXyrwzuRLPdlZh/g8Q==",
+                    "rootDataFileId": -1,
+                    "md5": "bc3ea996956a410c6c99aa37bbdca1fe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bc3ea996956a410c6c99aa37bbdca1fe"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-02-03",
+                    "publicationDate": "2024-02-03",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

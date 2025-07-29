@@ -1,0 +1,561 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 418599,
+        "datasetId": 9875217,
+        "datasetPersistentId": "doi:10.7910/DVN/BG0OHO",
+        "storageIdentifier": "s3mit://10.7910/DVN/BG0OHO",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:9ltwF8jHVJK6CJJGd7bTJA==",
+        "lastUpdateTime": "2024-05-01T18:35:08Z",
+        "releaseTime": "2024-05-01T18:35:08Z",
+        "createTime": "2024-05-01T18:34:51Z",
+        "publicationDate": "2024-05-01",
+        "citationDate": "2024-05-01",
+        "license": {
+            "name": "CC BY 4.0",
+            "uri": "http://creativecommons.org/licenses/by/4.0",
+            "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "K\u00f6ppen-Geiger Climate Classifications by United States administrative boundaries"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Audirac, Michelle"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://orcid.org/0000-0001-5889-6768"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Audirac, Michelle"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "maudirac@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This dataset provides spatial aggregations of K\u00f6ppen-Geiger climate classifications for US counties and ZIP Code Tabulation Areas (ZCTA). The spatial aggregations are performed for climate classification information going from approximately 1-km gridded global raster data (geoTIFF) to US polygon features (shapefile). <br>\n<br>\nThe datasets include the predominant 2015 climate classification by area for each county and ZCTA, as well as the percentage area covered by each climate type."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-03-30"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Indicator"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "When using this dataset in published works, please cite <b>both</b> this dataset (https://doi.org/10.7910/DVN/BG0OHO) and the source dataset included in the Metadata About Data Sources section below."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Audirac, Michelle"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-03-30"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2015"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2015"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "relatedDatasets",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://doi.org/10.6084/m9.figshare.6396959",
+                            "https://doi.org/10.1038/sdata.2018.214"
+                        ]
+                    },
+                    {
+                        "typeName": "dataSources",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "See Metadata About Data Sources below."
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "County",
+                            "ZIP Code Tabulation Area (ZCTA)"
+                        ]
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Snakemake"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/NSAPH-Data-Processing/climate_types_raster2polygon"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Present and future K\u00f6ppen-Geiger climate classification maps at 1-km resolution"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Beck, H., Zimmermann, N., McVicar, T. et al"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://doi.org/10.1038/sdata.2018.214"
+                    },
+                    {
+                        "typeName": "cafeSourceDataSpatialResolution",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSourceDataSpatialValue": {
+                                "typeName": "cafeSourceDataSpatialValue",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "1"
+                            },
+                            "cafeSourceDataSpatialResolutionUnit": {
+                                "typeName": "cafeSourceDataSpatialResolutionUnit",
+                                "multiple": false,
+                                "typeClass": "controlledVocabulary",
+                                "value": "Kilometers (km)"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Annual"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestepOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2015"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Beck, H., Zimmermann, N., McVicar, T. et al. Present and future K\u00f6ppen-Geiger climate classification maps at 1-km resolution. Sci Data 5, 180214 (2018). https://doi.org/10.1038/sdata.2018.214"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemName": {
+                                "typeName": "cafeSpatialReferenceSystemName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "NAD83"
+                            },
+                            "cafeSpatialReferenceSystemURL": {
+                                "typeName": "cafeSpatialReferenceSystemURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://epsg.io/4269"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "readme.md",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418599,
+                "dataFile": {
+                    "id": 10163714,
+                    "persistentId": "",
+                    "filename": "readme.md",
+                    "contentType": "text/markdown",
+                    "friendlyType": "Markdown Text",
+                    "filesize": 1402,
+                    "storageIdentifier": "s3mit://dvn-cloud:18f3564f6ee-5a53a198b966",
+                    "rootDataFileId": -1,
+                    "md5": "eb9a16ab8f89ec2b4afbca2f882522e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eb9a16ab8f89ec2b4afbca2f882522e8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-05-01",
+                    "publicationDate": "2024-05-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "data_dictionary.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418599,
+                "dataFile": {
+                    "id": 9875244,
+                    "persistentId": "",
+                    "filename": "data_dictionary.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 3500,
+                    "storageIdentifier": "s3mit://dvn-cloud:18e91ec7d57-b5137f647f35",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 3368,
+                    "originalFileName": "data_dictionary.csv",
+                    "UNF": "UNF:6:9ltwF8jHVJK6CJJGd7bTJA==",
+                    "rootDataFileId": -1,
+                    "md5": "20b30badc50c98cd808f1c42489b5b23",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "20b30badc50c98cd808f1c42489b5b23"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-03-30",
+                    "publicationDate": "2024-05-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "cb_2015_us_county_20m.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418599,
+                "dataFile": {
+                    "id": 10163716,
+                    "persistentId": "",
+                    "filename": "cb_2015_us_county_20m.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 874497,
+                    "storageIdentifier": "s3mit://dvn-cloud:18f35696136-e3417c3a65db",
+                    "rootDataFileId": -1,
+                    "md5": "1f7aa7ae5e106c307951c13e1c8059a2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1f7aa7ae5e106c307951c13e1c8059a2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-05-01",
+                    "publicationDate": "2024-05-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "climate_types_zcta_2015.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418599,
+                "dataFile": {
+                    "id": 9875219,
+                    "persistentId": "",
+                    "filename": "climate_types_zcta_2015.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 520008,
+                    "storageIdentifier": "s3mit://dvn-cloud:18e91cbe3e8-2d0856a382b0",
+                    "rootDataFileId": -1,
+                    "md5": "9c50385f94505debc3a65ffd354a658b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9c50385f94505debc3a65ffd354a658b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-03-30",
+                    "publicationDate": "2024-05-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "climate_types_county_2015.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418599,
+                "dataFile": {
+                    "id": 9875218,
+                    "persistentId": "",
+                    "filename": "climate_types_county_2015.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 91383,
+                    "storageIdentifier": "s3mit://dvn-cloud:18e91cb97ea-c853140bb51d",
+                    "rootDataFileId": -1,
+                    "md5": "4d49f188b3bd8f3826ee2bb611651051",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4d49f188b3bd8f3826ee2bb611651051"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-03-30",
+                    "publicationDate": "2024-05-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "cb_2015_us_zcta510_500k.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418599,
+                "dataFile": {
+                    "id": 10163715,
+                    "persistentId": "",
+                    "filename": "cb_2015_us_zcta510_500k.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 61445695,
+                    "storageIdentifier": "s3mit://dvn-cloud:18f3568d081-9cd91dcc78c8",
+                    "rootDataFileId": -1,
+                    "md5": "1fbf1c0273f08269e0a3b87f3f58ed7f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1fbf1c0273f08269e0a3b87f3f58ed7f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-05-01",
+                    "publicationDate": "2024-05-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "climate_keys.yaml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418599,
+                "dataFile": {
+                    "id": 9875220,
+                    "persistentId": "",
+                    "filename": "climate_keys.yaml",
+                    "contentType": "application/x-yaml",
+                    "friendlyType": "application/x-yaml",
+                    "filesize": 1308,
+                    "storageIdentifier": "s3mit://dvn-cloud:18e91cc5ec5-702ccf381408",
+                    "rootDataFileId": -1,
+                    "md5": "76b3f671e4b23e2a3a59c2969ac1f86f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "76b3f671e4b23e2a3a59c2969ac1f86f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-03-30",
+                    "publicationDate": "2024-05-01",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,484 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437993,
+        "datasetId": 10903635,
+        "datasetPersistentId": "doi:10.7910/DVN/YWMGND",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/YWMGND",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:vFLuux82z5wqSoCFNP4qLw==",
+        "lastUpdateTime": "2025-03-25T13:13:10Z",
+        "releaseTime": "2025-03-25T13:13:10Z",
+        "createTime": "2025-02-25T03:17:43Z",
+        "publicationDate": "2025-03-25",
+        "citationDate": "2025-03-25",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Railroad Equipment Accident/Incident Source Data (Form 54)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FRA Safe Team"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Federal Railroad Administration"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\nIf you have questions about the underlying data stored here, please contact \nFederal Railroad Administration, Office of Railroad Safety, at List-FRA-SAFETEAM@dot.gov.\n<br /><br />\nThis dataset contains data exported from two closely related pages, one providing the \"source dataset\" containing raw data values and one \"in a user-friendly human-readable format\".\n<br /><br/> The source dataset page describes itself as:<br />\n<b>\"This dataset is the source dataset and contains raw data values. It will replace the current data download (https://safetydata.fra.dot.gov/OfficeofSafety/publicsite/on_the_fly_download.aspx) when the safetydata.fra.dot.gov site is decommissioned in 2024. To download data that contains data in a user-friendly human-readable format, please reference https://data.transportation.gov/Railroads/Rail-Equipment-Accident-Incident-Data/85tf-25kj.\"</b><br/> [Quote from https://data.transportation.gov/Railroads/Railroad-Equipment-Accident-Incident-Source-Data-F/aqxq-n5hy/about_data] <br/><br/>\nNote, however, that the above description is out of date; the safetydata.fra.dot.gov site does appear to have been decommissioned in 2024.<br/><br />\nThe user-friendly page describes itself as:<br />\n<b>\"This dataset is in a user-friendly human-readable format. To download the source dataset that contains raw data values, go here: https://data.transportation.gov/dataset/Form-54-Source-Table/aqxq-n5hy.\"</b><br/> [QUOTE from https://data.transportation.gov/Railroads/Rail-Equipment-Accident-Incident-Data-Form-54-/85tf-25kj/about_data]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-24"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nRailroad Equipment Accident/Incident Source Data (Form 54) data was downloaded by Anne Gunn on 2025-02-24"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gunn, Anne"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-24"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1975-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The disclaimers below were copied as is from the EPA Disclaimers site (<a href=\u201chttps://www.fema.gov/about/website-information#copyright\u201d>https://www.fema.gov/about/website-information#copyright</a>):<br />\n<br />"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Rail Equipment Accident/Incident Data (Form 54"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "FRA Safe Team"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Federal Railroad Administration"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://data.transportation.gov/Railroads/Railroad-Equipment-Accident-Incident-Source-Data-F/aqxq-n5hy/about_data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-24"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-24"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "F6180_54_EffectiveJune012011.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903639,
+                    "persistentId": "",
+                    "filename": "F6180_54_EffectiveJune012011.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 23029,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b14366e-dde48ff338ea",
+                    "rootDataFileId": -1,
+                    "md5": "0d9e20e8db52b127170cf2048644d5f3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0d9e20e8db52b127170cf2048644d5f3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-data-transportation-gov-Railroads-Railroad-Equipment-Accident-Incident-Source-Data-F-aqxq-n5hy-about-data-2025-02-24-15_39_51.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903643,
+                    "persistentId": "",
+                    "filename": "screencapture-data-transportation-gov-Railroads-Railroad-Equipment-Accident-Incident-Source-Data-F-aqxq-n5hy-about-data-2025-02-24-15_39_51.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1400898,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b143036-9b06796b40eb",
+                    "rootDataFileId": -1,
+                    "md5": "1c4123852d201377a13e240fdac25687",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1c4123852d201377a13e240fdac25687"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Railroad Equipment Accident_Incident Source Data (Form 54) _ Department of Transportation - Data Portal - Data Tab.mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903640,
+                    "persistentId": "",
+                    "filename": "Railroad Equipment Accident_Incident Source Data (Form 54) _ Department of Transportation - Data Portal - Data Tab.mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 6905700,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b144462-78d60f1aef38",
+                    "rootDataFileId": -1,
+                    "md5": "ee91e60f6046456ab6c91d0a5a37e59c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ee91e60f6046456ab6c91d0a5a37e59c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Railroad_Equipment_Accident_Incident_Source_Data__Form_54__20250224.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903644,
+                    "persistentId": "",
+                    "filename": "Railroad_Equipment_Accident_Incident_Source_Data__Form_54__20250224.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 138304707,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b17a174-6f9e761fc4d7",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 110628707,
+                    "originalFileName": "Railroad_Equipment_Accident_Incident_Source_Data__Form_54__20250224.csv",
+                    "UNF": "UNF:6:vFLuux82z5wqSoCFNP4qLw==",
+                    "rootDataFileId": -1,
+                    "md5": "3dc35b7d8b8b0b736b0eaac54e54b7b4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3dc35b7d8b8b0b736b0eaac54e54b7b4"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "dataSpecification-accfile_EFFECTIVE_060111__8_.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903636,
+                    "persistentId": "",
+                    "filename": "dataSpecification-accfile_EFFECTIVE_060111__8_.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 81541,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b1441a2-40b305e66706",
+                    "rootDataFileId": -1,
+                    "md5": "f77440bc5221f9555f44efcc4d242a4a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f77440bc5221f9555f44efcc4d242a4a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Rail_Equipment_Accident_Incident_Data__Form_54__20250224.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903641,
+                    "persistentId": "",
+                    "filename": "Rail_Equipment_Accident_Incident_Data__Form_54__20250224.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 248172402,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b14a842-55f0858e0a7a",
+                    "rootDataFileId": -1,
+                    "md5": "4776a69a6f65a33d3853444d296e1201",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4776a69a6f65a33d3853444d296e1201"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Railroad Equipment Accident_Incident Source Data (Form 54) _ Department of Transportation - Data Portal - About Tab.mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903642,
+                    "persistentId": "",
+                    "filename": "Railroad Equipment Accident_Incident Source Data (Form 54) _ Department of Transportation - Data Portal - About Tab.mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 6906717,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b143d02-dc21e8392f0c",
+                    "rootDataFileId": -1,
+                    "md5": "92dfb4d2594dd9e80e0721e4e568d591",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "92dfb4d2594dd9e80e0721e4e568d591"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "readme.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903637,
+                    "persistentId": "",
+                    "filename": "readme.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 769,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b142e43-b531a0f155a0",
+                    "rootDataFileId": -1,
+                    "md5": "6aaee982afd0fa2c6053efae6efab9a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6aaee982afd0fa2c6053efae6efab9a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-data-transportation-gov-Railroads-Railroad-Equipment-Accident-Incident-Source-Data-F-aqxq-n5hy-data-tab-2025-02-24-15_38_06.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437993,
+                "dataFile": {
+                    "id": 10903638,
+                    "persistentId": "",
+                    "filename": "screencapture-data-transportation-gov-Railroads-Railroad-Equipment-Accident-Incident-Source-Data-F-aqxq-n5hy-data-tab-2025-02-24-15_38_06.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1388726,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953b1433fb-9770f23654bc",
+                    "rootDataFileId": -1,
+                    "md5": "c47e971232f3ec3e78911a5cf5fa128f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c47e971232f3ec3e78911a5cf5fa128f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

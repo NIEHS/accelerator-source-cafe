@@ -1,0 +1,209 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443950,
+        "datasetId": 11183942,
+        "datasetPersistentId": "doi:10.17603/DS2-NNMP-RS27",
+        "storageIdentifier": "s3://10.17603/ds2-nnmp-rs27",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2025",
+        "lastUpdateTime": "2025-05-06T23:14:47Z",
+        "releaseTime": "2025-05-05T12:13:45Z",
+        "createTime": "2025-05-06T23:14:47Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Survey Questionnaire and Dataset for Mayfield, Kentucky in Sheltering Behavior and Shelter Access in the Southeastern United States"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3425"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mathias, John"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Holmes, Tisha"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rainford, Coreine"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This interdisciplinary research project examined shelter access and sheltering behavior during the December 10-11, 2021, Tornado Event, focusing on Western Kentucky. Social scientists used surveys and ethnographic fieldwork to explore the decision-making process regarding sheltering.  The data presented here corresponds to the first part of the research project in which social scientists surveyed residents (N=133) using the NOAA Tornado Post\u2013Event Survey, modified to include additional questions on sheltering behavior, shelter accessibility, race and ethnicity, and interest in follow-up interviews. The data gathered identified the social and physical factors that constrained shelter access and use. It was then used to develop improved modeling for shelter siting and to produce recommendations for improving sheltering systems. Preliminary findings suggest a need for integrated community-engaged planning of sheltering systems. In the context of racial stratification, communication and trust building are crucial to successful system development.   The data collected provides insights into community responses and behaviors during the December 2021 tornado in Mayfield, Kentucky, and is relevant to emergency management officials and researchers when enhancing tornado preparedness and response strategies. It can assist with improving shelter siting models and developing more effective communication plans regarding tornado warnings. Additionally, it contributes to a better understanding of the needs of diverse populations in tornado situations, which can inform future policies and practices."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The dataset represents an aggregate of responses obtained from the survey conducted after the December 10-11, 2021, tornado event in Mayfield, Kentucky. The location was selected in response to a call for proposals for Tornado Ready Quick Response Research in the social, behavioral, and economic sciences by the Natural Hazards Center (NHC), with support from the National Science Foundation, the NOAA Weather Program Office, the National Severe Storms Laboratory (NSSL), and the National Weather Service (NWS). The dataset details 133 targeted responses surrounding the social dynamics involved in the reception, interpretation, and response to tornado warnings and the social and physical determinants influencing sheltering behavior and access to shelters. There is no restriction to the data as it has been anonymized. See Related Works for the final report."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "tornado; qualitative research; sheltering behavior"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Florida State University (fsu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RAPID - Natural Hazard and Disasters Reconnaissance Facility - University of Washington"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/Mayfield, Kentucky"
+                        ]
+                    },
+                    {
+                        "typeName": "relatedMaterial",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "url:https://hazards.colorado.edu/research/weather-ready-research-tornado-ready"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

@@ -1,0 +1,402 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 133895,
+        "datasetId": 3128755,
+        "datasetPersistentId": "doi:10.7910/DVN/1OMYM0",
+        "storageIdentifier": "s3://10.7910/DVN/1OMYM0",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-21T20:05:35Z",
+        "releaseTime": "2025-04-21T20:05:35Z",
+        "createTime": "2018-02-27T16:37:57Z",
+        "publicationDate": "2025-04-21",
+        "citationDate": "2025-04-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National Data Buoy Center "
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Oceanic and Atmospheric Administration"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "\"Type(s) of content in package\": \"National Oceanic and Atmospheric Administration (NOAA): National Data Buoy Center (NDBC); National Weather Service (NWS); Tropical Atmosphere/Ocean (TAO) array; Distributed Oceanographic Data Systems (DODS); OceanSITES; Voluntary Observing Ship (VOS) Program; Coastal Storms Program (CSP).\\nNDBC designs, develops, operates, and maintains a network of data collecting buoys and coastal stations.\""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Oceans"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.loc.gov/aba/cataloging/subject/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.loc.gov/aba/cataloging/subject/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Campbell, Robert"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2018-02-27"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "16FA903EBFB609095A248502DE26CB4EF5C91086.NDF",
+                "restricted": false,
+                "directoryLabel": "ESET/ESET Endpoint Antivirus/Quarantine",
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128756,
+                    "persistentId": "",
+                    "filename": "16FA903EBFB609095A248502DE26CB4EF5C91086.NDF",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 776,
+                    "storageIdentifier": "s3://dvn-cloud:161d8210736-9fa5d893d5cc",
+                    "rootDataFileId": -1,
+                    "md5": "b0feb746cef96b2b42e2b88f8e988a98",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b0feb746cef96b2b42e2b88f8e988a98"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "16FA903EBFB609095A248502DE26CB4EF5C91086.NQF",
+                "restricted": false,
+                "directoryLabel": "ESET/ESET Endpoint Antivirus/Quarantine",
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128757,
+                    "persistentId": "",
+                    "filename": "16FA903EBFB609095A248502DE26CB4EF5C91086.NQF",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 11160,
+                    "storageIdentifier": "s3://dvn-cloud:161d821073b-b4054dfb352a",
+                    "rootDataFileId": -1,
+                    "md5": "fa244d9167cc4d43776d17242e15c565",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fa244d9167cc4d43776d17242e15c565"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "9B888CACB62D987BE915808F30EEC04151568C81.NDF",
+                "restricted": false,
+                "directoryLabel": "ESET/ESET Endpoint Antivirus/Quarantine",
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128758,
+                    "persistentId": "",
+                    "filename": "9B888CACB62D987BE915808F30EEC04151568C81.NDF",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 776,
+                    "storageIdentifier": "s3://dvn-cloud:161d8210740-192c3975ae0c",
+                    "rootDataFileId": -1,
+                    "md5": "d74256e99fb042157ad528b13b2f2647",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d74256e99fb042157ad528b13b2f2647"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "9B888CACB62D987BE915808F30EEC04151568C81.NQF",
+                "restricted": false,
+                "directoryLabel": "ESET/ESET Endpoint Antivirus/Quarantine",
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128759,
+                    "persistentId": "",
+                    "filename": "9B888CACB62D987BE915808F30EEC04151568C81.NQF",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 10986,
+                    "storageIdentifier": "s3://dvn-cloud:161d8210744-f72823f51ff7",
+                    "rootDataFileId": -1,
+                    "md5": "0f1e75499f99da234b41f62865f98058",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0f1e75499f99da234b41f62865f98058"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "D7AFC395F691DE0EF2754AF2BF9E5D58D36EBE1C.NDF",
+                "restricted": false,
+                "directoryLabel": "ESET/ESET Endpoint Antivirus/Quarantine",
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128760,
+                    "persistentId": "",
+                    "filename": "D7AFC395F691DE0EF2754AF2BF9E5D58D36EBE1C.NDF",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 776,
+                    "storageIdentifier": "s3://dvn-cloud:161d8210749-f0a6de47895b",
+                    "rootDataFileId": -1,
+                    "md5": "71a11c9958ec7246e089ed814374fb28",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "71a11c9958ec7246e089ed814374fb28"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "D7AFC395F691DE0EF2754AF2BF9E5D58D36EBE1C.NQF",
+                "restricted": false,
+                "directoryLabel": "ESET/ESET Endpoint Antivirus/Quarantine",
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128761,
+                    "persistentId": "",
+                    "filename": "D7AFC395F691DE0EF2754AF2BF9E5D58D36EBE1C.NQF",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 10990,
+                    "storageIdentifier": "s3://dvn-cloud:161d821074e-ce491bfecd80",
+                    "rootDataFileId": -1,
+                    "md5": "6b3cfb6a5f7c2d23bcb52110ec0db954",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6b3cfb6a5f7c2d23bcb52110ec0db954"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "INFO.NQI",
+                "restricted": false,
+                "directoryLabel": "ESET/ESET Endpoint Antivirus/Quarantine",
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128762,
+                    "persistentId": "",
+                    "filename": "INFO.NQI",
+                    "contentType": "text/plain; charset=US-ASCII",
+                    "friendlyType": "Plain Text",
+                    "filesize": 12,
+                    "storageIdentifier": "s3://dvn-cloud:161d8210753-cd32d578795b",
+                    "rootDataFileId": -1,
+                    "md5": "e8cb20c60178d20774ec98ce07c1f110",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e8cb20c60178d20774ec98ce07c1f110"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "60A5BD4F-ED14-461D-9084-970D8C898079.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128763,
+                    "persistentId": "",
+                    "filename": "60A5BD4F-ED14-461D-9084-970D8C898079.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 1962,
+                    "storageIdentifier": "s3://dvn-cloud:161d8225f21-571a52cc65b6",
+                    "rootDataFileId": -1,
+                    "md5": "17c33bc9ebe86e8cf37fece134cb672b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "17c33bc9ebe86e8cf37fece134cb672b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "manifest-md5.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 133895,
+                "dataFile": {
+                    "id": 3128764,
+                    "persistentId": "",
+                    "filename": "manifest-md5.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1477183,
+                    "storageIdentifier": "s3://dvn-cloud:161d822bd19-66e8aea028be",
+                    "rootDataFileId": -1,
+                    "md5": "e267a567775d166bd9d9ac03c241125c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e267a567775d166bd9d9ac03c241125c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-02-27",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

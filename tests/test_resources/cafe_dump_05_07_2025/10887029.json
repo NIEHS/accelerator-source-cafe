@@ -1,0 +1,417 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437412,
+        "datasetId": 10887029,
+        "datasetPersistentId": "doi:10.7910/DVN/JLYDJS",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/JLYDJS",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-24T22:11:51Z",
+        "releaseTime": "2025-02-24T22:11:51Z",
+        "createTime": "2025-02-14T21:24:49Z",
+        "publicationDate": "2025-02-24",
+        "citationDate": "2025-02-24",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: FEMA CRS Participating Communities"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Federal Emergency Management Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br /><br />\n\nIf you have questions about the underlying data stored here, please contact FEMA-FMIX@fema.dhs.gov. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu\n<br /><br />\n\nThe Community Rating System (CRS) is a voluntary incentive program that recognizes and encourages community floodplain management practices that exceed the minimum requirements of the National Flood Insurance Program (NFIP). Over 1,500 communities participate nationwide.\n<br /><br />\nThis dataset includes:\n1. Community Rating System eligible communities, effective October 1, 2024\n2. CRS Communities Credit File, which provides detailed data about the credit points each CRS community receives\n<br /><br />\nIn CRS communities, flood insurance premium rates are discounted to reflect the reduced flood risk resulting from the community\u2019s efforts that address the three goals of the program:\n(1) Reduce and avoid flood damage to insurable property\n(2) Strengthen and support the insurance aspects of the National Flood Insurance Program\n(3) Foster comprehensive floodplain management\n<br /><br />\nFlood insurance premium discounts in CRS communities range from 5% to 45% and are discounted in increments of 5%. A Class 10 community is not participating in the CRS and receives no discount. A Class 9 community receives a 5% discount for all policies, a Class 8 community receives a 10% discount, all the way to a Class 1 community, which receives a 45% premium discount.\n<br /><br />\nClassifications are based on the community\u2019s CRS credit points obtained in 19 creditable activities. The CRS activities are organized in four categories:\n1. Public Information\n2. Mapping and Regulations\n3. Flood Damage Reduction\n4. Warning and Response\n<br />\nDescription adapted from: https://www.fema.gov/fact-sheet/community-rating-system#:~:text=CRS%20Credit&text=Points%20are%20awarded%20for%20engaging,(4)%20Warning%20and%20Response."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-24"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Adaptation"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Flood"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nCommunity Rating System eligible communities data was downloaded by Yixin Sun\non February 14, 2025"
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Yixin Sun"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Sun, Yixin"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1991-10-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-10-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us."
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Adaptation",
+                            "Flood"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "fema_community-rating-system_coordinator-manual_addendum-2021.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437412,
+                "dataFile": {
+                    "id": 10887031,
+                    "persistentId": "",
+                    "filename": "fema_community-rating-system_coordinator-manual_addendum-2021.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2265067,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19506586f62-22a5674975f3",
+                    "rootDataFileId": -1,
+                    "md5": "b0761642775808227e4e003d9a1eb5ec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b0761642775808227e4e003d9a1eb5ec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CRS Communites Credit File October 2024.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437412,
+                "dataFile": {
+                    "id": 10887033,
+                    "persistentId": "",
+                    "filename": "CRS Communites Credit File October 2024.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 2187563,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19506572a2b-a53700302245",
+                    "rootDataFileId": -1,
+                    "md5": "3bef506bdc7e73b8c94ed30902e088b6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3bef506bdc7e73b8c94ed30902e088b6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "October 2024 CRS Eligible Communites - Excel .xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437412,
+                "dataFile": {
+                    "id": 10887032,
+                    "persistentId": "",
+                    "filename": "October 2024 CRS Eligible Communites - Excel .xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 107644,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950657184f-6d9ff26c2600",
+                    "rootDataFileId": -1,
+                    "md5": "5c0e15ed739ede50d9ac47b257f8e796",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5c0e15ed739ede50d9ac47b257f8e796"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_community-rating-system_coordinators-manual_2017.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437412,
+                "dataFile": {
+                    "id": 10887030,
+                    "persistentId": "",
+                    "filename": "fema_community-rating-system_coordinators-manual_2017.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 44627094,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950657e391-4bb913c1993e",
+                    "rootDataFileId": -1,
+                    "md5": "f09dbb82ba61c22e33259412a9d6f67d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f09dbb82ba61c22e33259412a9d6f67d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Community Rating System _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437412,
+                "dataFile": {
+                    "id": 10903382,
+                    "persistentId": "",
+                    "filename": "Community Rating System _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 120322,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953a040002-87803d7cb677",
+                    "rootDataFileId": -1,
+                    "md5": "5f2c5eea05588d564be5b6f8b13569db",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5f2c5eea05588d564be5b6f8b13569db"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Community Rating System _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437412,
+                "dataFile": {
+                    "id": 10903381,
+                    "persistentId": "",
+                    "filename": "Community Rating System _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 403734,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953a040143-eb99609fc855",
+                    "rootDataFileId": -1,
+                    "md5": "d17bd56c1b00b61da900344e7de5c817",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d17bd56c1b00b61da900344e7de5c817"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema-nfip-community-rating-system-discount-faq-09-2024.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437412,
+                "dataFile": {
+                    "id": 10903383,
+                    "persistentId": "",
+                    "filename": "fema-nfip-community-rating-system-discount-faq-09-2024.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 101204,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1953a040216-e98fff6f4a9a",
+                    "rootDataFileId": -1,
+                    "md5": "407e48c1823bc9ee59fd9e3ae5ffce4f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "407e48c1823bc9ee59fd9e3ae5ffce4f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-24",
+                    "publicationDate": "2025-02-24",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

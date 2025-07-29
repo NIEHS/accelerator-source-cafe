@@ -1,0 +1,307 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 129512,
+        "datasetId": 3059472,
+        "datasetPersistentId": "doi:10.7910/DVN/3VXTB9",
+        "storageIdentifier": "s3://10.7910/DVN/3VXTB9",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:KOL9+CgBh/GtDolW5ySJxA==",
+        "lastUpdateTime": "2025-04-22T16:48:01Z",
+        "releaseTime": "2025-04-22T16:48:01Z",
+        "createTime": "2017-10-18T18:10:56Z",
+        "publicationDate": "2025-04-22",
+        "citationDate": "2025-04-22",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "EV Everywhere: Charging on the Road | Department of Energy "
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Alternative Fuels Data Center"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Department of Energy. Office of Energy Efficiency and Renewable Energy. National Renewable Energy Laboratoryr"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gives information on electric charging stations in the U.S. Downloaded underlying data as a CSV from the Alternative Fuels Data Center website."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Computer and Information Science"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Alternative fuels"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Campbell, Robert"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-10-18"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "775e104e-a344-48bf-837e-98948f6fbdef.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129512,
+                "dataFile": {
+                    "id": 3060678,
+                    "persistentId": "",
+                    "filename": "775e104e-a344-48bf-837e-98948f6fbdef.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 1188,
+                    "storageIdentifier": "s3://dvn-cloud:15f35fac9c2-97be9d579beb",
+                    "rootDataFileId": -1,
+                    "md5": "fb5e76635580b118cbfeff9eeaa656d1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fb5e76635580b118cbfeff9eeaa656d1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-19",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "775E104E-A344-48BF-837E-98948F6FBDEF.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129512,
+                "dataFile": {
+                    "id": 3060679,
+                    "persistentId": "",
+                    "filename": "775E104E-A344-48BF-837E-98948F6FBDEF.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 39044,
+                    "storageIdentifier": "s3://dvn-cloud:15f35faef36-56e2adec22c2",
+                    "rootDataFileId": -1,
+                    "md5": "f6e1275c51d5fd8310fb3ff298151972",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f6e1275c51d5fd8310fb3ff298151972"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-19",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Vehicles.csv",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 1,
+                "datasetVersionId": 129512,
+                "dataFile": {
+                    "id": 3060682,
+                    "persistentId": "",
+                    "filename": "Vehicles.csv",
+                    "contentType": "text/csv",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 489832,
+                    "storageIdentifier": "s3://dvn-cloud:15f35faf221-73b398b5feac",
+                    "rootDataFileId": -1,
+                    "md5": "7fc71ecbac24ebc8e7d750b080dbfc99",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7fc71ecbac24ebc8e7d750b080dbfc99"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-19",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "truck_stop_electrification (Feb 18 2017).tab",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 2,
+                "datasetVersionId": 129512,
+                "dataFile": {
+                    "id": 3060681,
+                    "persistentId": "",
+                    "filename": "truck_stop_electrification (Feb 18 2017).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 57803,
+                    "storageIdentifier": "s3://dvn-cloud:15f35faf1f9-14c229435c99",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 52869,
+                    "originalFileName": "truck_stop_electrification (Feb 18 2017).csv",
+                    "UNF": "UNF:6:NSPBBqAHrmwxjZZ1XCl2Xg==",
+                    "rootDataFileId": -1,
+                    "md5": "06d5bc96348702d62ecb94c7ea6c64fd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "06d5bc96348702d62ecb94c7ea6c64fd"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-10-19",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "laws_and_incentives (Feb 18 2017).tab",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 2,
+                "datasetVersionId": 129512,
+                "dataFile": {
+                    "id": 3060683,
+                    "persistentId": "",
+                    "filename": "laws_and_incentives (Feb 18 2017).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 1010318,
+                    "storageIdentifier": "s3://dvn-cloud:15f35faf255-e04dcb3794ff",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 983592,
+                    "originalFileName": "laws_and_incentives (Feb 18 2017).csv",
+                    "UNF": "UNF:6:h7k7MeA2lsIErWX53L2BWQ==",
+                    "rootDataFileId": -1,
+                    "md5": "b70045b924e65dbedbb96ba205857682",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b70045b924e65dbedbb96ba205857682"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-10-19",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "alt_fuel_stations (Feb 18 2017).tab",
+                "restricted": false,
+                "directoryLabel": "data",
+                "version": 2,
+                "datasetVersionId": 129512,
+                "dataFile": {
+                    "id": 3060680,
+                    "persistentId": "",
+                    "filename": "alt_fuel_stations (Feb 18 2017).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 9255101,
+                    "storageIdentifier": "s3://dvn-cloud:15f35faf164-cfb323a0cf1b",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 7865254,
+                    "originalFileName": "alt_fuel_stations (Feb 18 2017).csv",
+                    "UNF": "UNF:6:7kWyumIuFnKN/PosPuUayw==",
+                    "rootDataFileId": -1,
+                    "md5": "8b1de818af7c8c48501e86b3a8b4fb9b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8b1de818af7c8c48501e86b3a8b4fb9b"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-10-19",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,1145 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 438094,
+        "datasetId": 10906907,
+        "datasetPersistentId": "doi:10.7910/DVN/WFMZWP",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/WFMZWP",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-03-11T16:26:10Z",
+        "releaseTime": "2025-03-11T16:26:10Z",
+        "createTime": "2025-02-26T16:55:13Z",
+        "publicationDate": "2025-03-11",
+        "citationDate": "2025-03-11",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Billion-Dollar Weather and Climate Disasters"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Centers for Environmental Information"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NOAA"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. <br /><br />\n\nIf you have questions about the underlying data stored here, please contact National Centers for Environmental Information, ncei.info@noaa.gov.<br />\nIf you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br /><br />\n\nThe National Centers for Environmental Information (NCEI) is the Nation's Scorekeeper in terms of addressing severe weather and climate events in their historical perspective. As part of its responsibility of monitoring and assessing the climate, NCEI tracks and evaluates climate events in the U.S. and globally that have great economic and societal impacts. NCEI is frequently called upon to provide summaries of global and U.S. temperature and precipitation trends, extremes, and comparisons in their historical perspective. The Billion-dollar disasters product is intended to show the impact of extreme weather and climate events on the economy in inflation adjusted dollars. . . <br /><br />\nThe U.S. has sustained 403 weather and climate disasters since 1980 where overall damages/costs reached or exceeded $1 billion (including CPI adjustment to 2024). The total cost of these 403 events exceeds $2.915 trillion.<br /><br />\nIn 2024, there were 27 confirmed weather/climate disaster events with losses exceeding $1 billion each to affect United States. These events included 1 drought event, 1 flooding event, 17 severe storm events, 5 tropical cyclone events, 1 wildfire event, and 2 winter storm events. Overall, these events resulted in the deaths of 568 people and had significant economic effects on the areas impacted. The 1980\u20132024 annual average is 9.0 events (CPI-adjusted); the annual average for the most recent 5 years (2020\u20132024) is 23.0 events (CPI-adjusted). <br />\n[Quotes from https://www.ncei.noaa.gov/access/billions/]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-26"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate"
+                                },
+                                "keywordTermURI": {
+                                    "typeName": "keywordTermURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://web.archive.org/web/20250221000708/https://tools.niehs.nih.gov/cchhglossary/"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Weather"
+                                },
+                                "keywordTermURI": {
+                                    "typeName": "keywordTermURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://web.archive.org/web/20250221000708/https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\n\u201cDATA-NAME\u201d data was downloaded by <your name>\n\u201cDEPOSITOR-NAME\u201d on \u201cDATE\u201d"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gunn, Anne"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-26"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1980-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Billion-Dollar Weather and Climate Disasters"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "National Centers for Environmental Information"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NOAA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.ncei.noaa.gov/access/billions/"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-10"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-26"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Data accumulated from a range of sources"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Climate",
+                            "Climate Risk",
+                            "Weather"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "2024-billion-dollar-disaster-map-2025-02-26.png",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906914,
+                    "persistentId": "",
+                    "filename": "2024-billion-dollar-disaster-map-2025-02-26.png",
+                    "contentType": "image/png",
+                    "friendlyType": "PNG Image",
+                    "filesize": 1004046,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543232b02-2463bfb6885b",
+                    "rootDataFileId": -1,
+                    "md5": "90931386e90317e752b14c9817ee8951",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "90931386e90317e752b14c9817ee8951"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-time-series-2025-02-26-08_50_12.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906927,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-time-series-2025-02-26-08_50_12.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 6458378,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543269bcf-430d41534d10",
+                    "rootDataFileId": -1,
+                    "md5": "96dab541f9c5264f6556c791d4525b0c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "96dab541f9c5264f6556c791d4525b0c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-2025-02-26-09_00_24.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906932,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-2025-02-26-09_00_24.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 9168870,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954326f503-0bfd4a5791d5",
+                    "rootDataFileId": -1,
+                    "md5": "07292348229c8b74883b9e28bcf78994",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "07292348229c8b74883b9e28bcf78994"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "time-series-US-cost-1980-2024.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906940,
+                    "persistentId": "",
+                    "filename": "time-series-US-cost-1980-2024.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 13470,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543232319-61b179735b87",
+                    "rootDataFileId": -1,
+                    "md5": "d211bd7d4c9f0103de877834f9d36caa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d211bd7d4c9f0103de877834f9d36caa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "events-US-1980-2024.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906939,
+                    "persistentId": "",
+                    "filename": "events-US-1980-2024.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 65965,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954325174f-ab5afa61ed09",
+                    "rootDataFileId": -1,
+                    "md5": "375a6411513daa33351c1276fab07911",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "375a6411513daa33351c1276fab07911"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-faq-2025-02-26-09_12_10.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906930,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-faq-2025-02-26-09_12_10.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 8065735,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954326026e-73e898fdf57e",
+                    "rootDataFileId": -1,
+                    "md5": "c2711b5e63cc6b915c47c2a389a7b061",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c2711b5e63cc6b915c47c2a389a7b061"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "US-climatology-data.xml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906912,
+                    "persistentId": "",
+                    "filename": "US-climatology-data.xml",
+                    "contentType": "text/xml",
+                    "friendlyType": "XML",
+                    "filesize": 2986,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195432335df-09489321e38c",
+                    "rootDataFileId": -1,
+                    "md5": "e29ce3119e289380028c899cbf6d2f11",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e29ce3119e289380028c899cbf6d2f11"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "state-freq-data.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906908,
+                    "persistentId": "",
+                    "filename": "state-freq-data.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 53614,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195432320d0-ab90af64b8ed",
+                    "rootDataFileId": -1,
+                    "md5": "9b2200d2ffe7fad9cfe48fcf89e60ee4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9b2200d2ffe7fad9cfe48fcf89e60ee4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-climatology-2025-02-26-08_49_10.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906925,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-climatology-2025-02-26-08_49_10.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 4802413,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195432700c5-b459abf6b30f",
+                    "rootDataFileId": -1,
+                    "md5": "9c11584f4aca044820a522c9d89c6393",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9c11584f4aca044820a522c9d89c6393"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-events-2025-02-26-08_59_06.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906915,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-events-2025-02-26-08_59_06.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 20165630,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954325ffbd-a3c4fc532f3f",
+                    "rootDataFileId": -1,
+                    "md5": "b871ea43b2fab410df8ee8e22052c32b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b871ea43b2fab410df8ee8e22052c32b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "events-US-1980-2024.xml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906921,
+                    "persistentId": "",
+                    "filename": "events-US-1980-2024.xml",
+                    "contentType": "text/xml",
+                    "friendlyType": "XML",
+                    "filesize": 90990,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543233fc7-2fcb454095af",
+                    "rootDataFileId": -1,
+                    "md5": "cc30da72005c65ba34059cf224491bcd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cc30da72005c65ba34059cf224491bcd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Billion-Dollar Weather and Climate Disasters _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906929,
+                    "persistentId": "",
+                    "filename": "Billion-Dollar Weather and Climate Disasters _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 1594595,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954325b1b3-de1e778155a1",
+                    "rootDataFileId": -1,
+                    "md5": "6a53f6bd8a766e8b654506db1318547e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6a53f6bd8a766e8b654506db1318547e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Billion-Dollar Weather and Climate Disasters _ Risk and Vulnerability _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906924,
+                    "persistentId": "",
+                    "filename": "Billion-Dollar Weather and Climate Disasters _ Risk and Vulnerability _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 3796903,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543259d51-c40004529906",
+                    "rootDataFileId": -1,
+                    "md5": "3871deccb39586ec035a90b58a8d7813",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3871deccb39586ec035a90b58a8d7813"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "events-US-1980-2024.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906920,
+                    "persistentId": "",
+                    "filename": "events-US-1980-2024.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 36487,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543234236-bd4f8bd82165",
+                    "rootDataFileId": -1,
+                    "md5": "22fec900fe8163997a51bd0076a659c6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "22fec900fe8163997a51bd0076a659c6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "BI717C~1.MHT",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906910,
+                    "persistentId": "",
+                    "filename": "BI717C~1.MHT",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 986548,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195432591b5-a566ae757063",
+                    "rootDataFileId": -1,
+                    "md5": "da85cc03e88341d86ec04bfe2b135fe6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "da85cc03e88341d86ec04bfe2b135fe6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-summary-stats-US-1980-2024-2025-02-26-09_11_20.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906941,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-summary-stats-US-1980-2024-2025-02-26-09_11_20.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2243248,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543268fd1-8830893c13eb",
+                    "rootDataFileId": -1,
+                    "md5": "89c6be89c3896070b9ce85c7271e1287",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "89c6be89c3896070b9ce85c7271e1287"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-state-summary-US-2025-02-26-08_51_21.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906913,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-state-summary-US-2025-02-26-08_51_21.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 78633443,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543265585-35afd2d39b67",
+                    "rootDataFileId": -1,
+                    "md5": "130a0a6aa7cd8e06948a8e3b0c996889",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "130a0a6aa7cd8e06948a8e3b0c996889"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-references-2025-02-26-09_12_52.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906933,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-references-2025-02-26-09_12_52.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2535157,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543260886-a0659b75a8d4",
+                    "rootDataFileId": -1,
+                    "md5": "09b42c71f1c0ac1252eb2bea71df7207",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "09b42c71f1c0ac1252eb2bea71df7207"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "time-series-US-cost-1980-2024.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906926,
+                    "persistentId": "",
+                    "filename": "time-series-US-cost-1980-2024.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 65171,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543251128-2edd5b8b9e08",
+                    "rootDataFileId": -1,
+                    "md5": "6a6ecb381c6a1d84fa1c72cf3d80166a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6a6ecb381c6a1d84fa1c72cf3d80166a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "US-climatology-data.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906918,
+                    "persistentId": "",
+                    "filename": "US-climatology-data.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 505,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954323250b-c8ce60da7566",
+                    "rootDataFileId": -1,
+                    "md5": "fb1ffd8711864dbc2fbe51b4b686f75d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fb1ffd8711864dbc2fbe51b4b686f75d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "time-series-US-cost-1980-2024.xml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906938,
+                    "persistentId": "",
+                    "filename": "time-series-US-cost-1980-2024.xml",
+                    "contentType": "text/xml",
+                    "friendlyType": "XML",
+                    "filesize": 106638,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195432337ba-1c82148f5619",
+                    "rootDataFileId": -1,
+                    "md5": "c21462ce11b2c42bc2044888cb06ec21",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c21462ce11b2c42bc2044888cb06ec21"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Billion-Dollar Weather and Climate Disasters _ FAQ _ Events _ Summary Stats _ Time Series _ Risk and Vulnerability _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental .mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906909,
+                    "persistentId": "",
+                    "filename": "Billion-Dollar Weather and Climate Disasters _ FAQ _ Events _ Summary Stats _ Time Series _ Risk and Vulnerability _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental .mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 1004775,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543258335-1fdfed1a77d7",
+                    "rootDataFileId": -1,
+                    "md5": "bb27875b2ccecf3eef39e481b42d4857",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bb27875b2ccecf3eef39e481b42d4857"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Billion-Dollar Weather and Climate Disasters _ Time Series _ Risk and Vulnerability _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906928,
+                    "persistentId": "",
+                    "filename": "Billion-Dollar Weather and Climate Disasters _ Time Series _ Risk and Vulnerability _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 1720447,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954325a773-504547adecb1",
+                    "rootDataFileId": -1,
+                    "md5": "6105e3ab985121ff42817f4ea1d88a02",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6105e3ab985121ff42817f4ea1d88a02"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "state-freq-data.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906931,
+                    "persistentId": "",
+                    "filename": "state-freq-data.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 270224,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543250edb-003b68bb4a55",
+                    "rootDataFileId": -1,
+                    "md5": "82f5674110c3570f39937fada278ca5f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "82f5674110c3570f39937fada278ca5f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "state-cost-data-cpi.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906923,
+                    "persistentId": "",
+                    "filename": "state-cost-data-cpi.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 5251,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543251937-a868f56e70a3",
+                    "rootDataFileId": -1,
+                    "md5": "dad1e3fb004f808c825441def32edf31",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dad1e3fb004f808c825441def32edf31"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Billion-Dollar Weather and Climate Disasters _ National Centers for Environmental Information (NCEI).mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906919,
+                    "persistentId": "",
+                    "filename": "Billion-Dollar Weather and Climate Disasters _ National Centers for Environmental Information (NCEI).mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 3362441,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543258da6-2dc04065a1c4",
+                    "rootDataFileId": -1,
+                    "md5": "2df1646fa8a8f8b9d9aaea9fbd0a8fe8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2df1646fa8a8f8b9d9aaea9fbd0a8fe8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "readme.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906916,
+                    "persistentId": "",
+                    "filename": "readme.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 815,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195432e19d4-a27ed424a59c",
+                    "rootDataFileId": -1,
+                    "md5": "fa2906347021c1a3439233f54c1a65ba",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fa2906347021c1a3439233f54c1a65ba"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-mapping-2025-02-26-09_05_58.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906936,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-mapping-2025-02-26-09_05_58.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1898353,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543260512-2db50fdef6a3",
+                    "rootDataFileId": -1,
+                    "md5": "23d0cc9fb29927451dbba626bede4b47",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "23d0cc9fb29927451dbba626bede4b47"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "US-climatology-data.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906937,
+                    "persistentId": "",
+                    "filename": "US-climatology-data.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 881,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543251328-2de679832638",
+                    "rootDataFileId": -1,
+                    "md5": "985663d743aa73396775f32a639efd57",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "985663d743aa73396775f32a639efd57"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Billion-Dollar Weather and Climate Disasters _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906934,
+                    "persistentId": "",
+                    "filename": "Billion-Dollar Weather and Climate Disasters _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 1200139,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954325ac08-8454364227c5",
+                    "rootDataFileId": -1,
+                    "md5": "3c22f8248c6df6a210725d37427f41ac",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3c22f8248c6df6a210725d37427f41ac"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Billion-Dollar Weather and Climate Disasters _ Summary Stats _ Time Series _ Risk and Vulnerability _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906922,
+                    "persistentId": "",
+                    "filename": "Billion-Dollar Weather and Climate Disasters _ Summary Stats _ Time Series _ Risk and Vulnerability _ Disaster Cost and Frequency _ Climatology _ National Centers for Environmental Information (NCEI).mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 1023783,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954325a177-76c8da88ae76",
+                    "rootDataFileId": -1,
+                    "md5": "34a69468d82f8ef61323e68ccb1b82f4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "34a69468d82f8ef61323e68ccb1b82f4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "events-US-1980-2024.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906911,
+                    "persistentId": "",
+                    "filename": "events-US-1980-2024.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 287918,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954326be64-e11959d83bbe",
+                    "rootDataFileId": -1,
+                    "md5": "16026215f5b8f80709dc57ea74534d71",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "16026215f5b8f80709dc57ea74534d71"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-ncei-noaa-gov-access-billions-risk-2025-02-26-09_07_33.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906917,
+                    "persistentId": "",
+                    "filename": "screencapture-ncei-noaa-gov-access-billions-risk-2025-02-26-09_07_33.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 8799684,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543263dc6-3382f6aa173a",
+                    "rootDataFileId": -1,
+                    "md5": "334210e22619e19b500b18bf21e067b5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "334210e22619e19b500b18bf21e067b5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "BIBF54~1.MHT",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438094,
+                "dataFile": {
+                    "id": 10906935,
+                    "persistentId": "",
+                    "filename": "BIBF54~1.MHT",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 2421523,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19543257f0b-b854e5875a92",
+                    "rootDataFileId": -1,
+                    "md5": "679f81e10044b30541dee866ab51f188",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "679f81e10044b30541dee866ab51f188"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-26",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

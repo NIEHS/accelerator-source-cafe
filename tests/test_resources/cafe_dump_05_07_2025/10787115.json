@@ -1,0 +1,2936 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 435718,
+        "datasetId": 10787115,
+        "datasetPersistentId": "doi:10.7910/DVN/PFMTZR",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/PFMTZR",
+        "versionNumber": 2,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-18T16:30:25Z",
+        "releaseTime": "2025-02-18T16:30:25Z",
+        "createTime": "2025-01-29T16:38:52Z",
+        "publicationDate": "2025-01-21",
+        "citationDate": "2025-01-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: TRI Basic Data Plus Files"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "US EPA"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information: TRI basic plus data files guides. (2024, September 18). US EPA. https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-plus-data-files-guides \n<br />\nIf you have questions about the underlying data stored here, please contact tri.help@epa.gov. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br />\n\"EPA has been collecting Toxics Release Inventory (TRI) data since 1987. The \"Basic Plus\" data files include ten file types that collectively contain all of the data fields from the TRI Reporting Form R and Form A. The files themselves are in tab-delimited .txt format and then compressed into a .zip file.\n</br>\n1a: Facility, chemical, releases and other waste management summary information <br />\n1b: Chemical activities and uses <br />\n2a: On- and off-site disposal, treatment, energy recovery, and recycling information; non-production-related waste managed quantities; production/activity ratio information; and source reduction activities <br />\n2b: Detailed on-site waste treatment methods and efficiency <br />\n3a: Transfers off site for disposal and further waste management <br />\n3b: Transfers to Publicly Owned Treatment Works (POTWs) (RY1987 - RY2010) <br />\n3c: Transfers to Publicly Owned Treatment Works (POTWs) (RY2011 - Present) <br />\n4: Facility information <br />\n5: Optional information on source reduction, recycling and pollution control (RY2005 - Present) <br />\n6: Additional miscellaneous and optional information (RY2010 - Present)\nQuantities of dioxin and dioxin-like compounds are reported in grams, while all other chemicals are reported in pounds. <br />\nThis webpage contains the most recent versions of all TRI data files; facilities may revise previous years' TRI submissions if necessary, and any such changes will be reflected in these files. For this reason, data contained in these files may differ from data used to construct the TRI National Analysis.\" \n<br />\n[Quote from https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-plus-data-files-calendar-years-1987-present]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-10-30"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Health"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Exposure"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\n\u201cExtracted Data From: TRI Basic Data Plus Files\u201d data was downloaded by \n\u201cFlannery Black-Ingersoll\u201d on \u201c01/09/2025\u201d"
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Black-Ingersoll, Flannery"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-12-17"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2016-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the US EPA and are pasted below: <br />\n\"The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes. Commercial use of the documents available from the EPA websites may be protected under the U.S. and Foreign Copyright Laws. Individual documents on the EPA website may have different copyright conditions, and that will be noted in those documents.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "US Environmental Protection Agency"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-plus-data-files-calendar-years-1987-present"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Environmental Health",
+                            "Exposure"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "",
+                "label": "US_3c_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787137,
+                    "persistentId": "",
+                    "filename": "US_3c_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 7674780,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c1d247-994ae386a76a",
+                    "rootDataFileId": -1,
+                    "md5": "a3245fe66f2de833e5d0dbfac9e9a712",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a3245fe66f2de833e5d0dbfac9e9a712"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_4_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787225,
+                    "persistentId": "",
+                    "filename": "US_4_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 10182286,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ce8b4e-c90c6421ede7",
+                    "rootDataFileId": -1,
+                    "md5": "8be2824f2e81f4e3baa176937dfcc27a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8be2824f2e81f4e3baa176937dfcc27a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_6_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787166,
+                    "persistentId": "",
+                    "filename": "US_6_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1704038,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ca5c54-728dbbba6d76",
+                    "rootDataFileId": -1,
+                    "md5": "0ef1ebd11c9990e54e6d39e9e10859b9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0ef1ebd11c9990e54e6d39e9e10859b9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3c_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787226,
+                    "persistentId": "",
+                    "filename": "US_3c_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 7295558,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ceddd4-eeb3f6ce21fc",
+                    "rootDataFileId": -1,
+                    "md5": "ef20b80dd751ebd296c88d83aab980ef",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ef20b80dd751ebd296c88d83aab980ef"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2b_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787169,
+                    "persistentId": "",
+                    "filename": "US_2b_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 40455041,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c626cd-61032b1f8fd1",
+                    "rootDataFileId": -1,
+                    "md5": "b6bf5302dc5064c4831050d47fc7c0ca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b6bf5302dc5064c4831050d47fc7c0ca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": " Metadata_TRI_BasicDataPlus_FileType4.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787146,
+                    "persistentId": "",
+                    "filename": " Metadata_TRI_BasicDataPlus_FileType4.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 502211,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3ac41-9b93f8a3c4cd",
+                    "rootDataFileId": -1,
+                    "md5": "b370fc11e958c67ebf777f5a96f7129c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b370fc11e958c67ebf777f5a96f7129c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_6_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787133,
+                    "persistentId": "",
+                    "filename": "US_6_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1389857,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c1d0b6-cab94b8f2295",
+                    "rootDataFileId": -1,
+                    "md5": "8d3e2a4a2cda9cf3c66329c9933c5832",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8d3e2a4a2cda9cf3c66329c9933c5832"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3c_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787152,
+                    "persistentId": "",
+                    "filename": "US_3c_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 7696916,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3d282-77c5a2649b57",
+                    "rootDataFileId": -1,
+                    "md5": "12d38f377cdf1e644fb19ebfb43c619d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "12d38f377cdf1e644fb19ebfb43c619d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3b_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787129,
+                    "persistentId": "",
+                    "filename": "US_3b_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 126,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c1d31c-18eb8d79e9e0",
+                    "rootDataFileId": -1,
+                    "md5": "d2bdfda74650a8564cfe7068d9050bbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2bdfda74650a8564cfe7068d9050bbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1b_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787206,
+                    "persistentId": "",
+                    "filename": "US_1b_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 53922636,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cc797e-5ccd8ee5c9ac",
+                    "rootDataFileId": -1,
+                    "md5": "1c78c9d1cc8ce36995c3dcb5aff6ef5b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1c78c9d1cc8ce36995c3dcb5aff6ef5b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_6_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787220,
+                    "persistentId": "",
+                    "filename": "US_6_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1940207,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd7c8e-2d65f5c83186",
+                    "rootDataFileId": -1,
+                    "md5": "432b4910798017120fa8fe0fee79871e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "432b4910798017120fa8fe0fee79871e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3b_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787202,
+                    "persistentId": "",
+                    "filename": "US_3b_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 126,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ccbbc6-d2abbeb41843",
+                    "rootDataFileId": -1,
+                    "md5": "d2bdfda74650a8564cfe7068d9050bbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2bdfda74650a8564cfe7068d9050bbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType3A.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787139,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType3A.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 666498,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3a754-9ebf04d0f49a",
+                    "rootDataFileId": -1,
+                    "md5": "17fd78ae3aa0fc606b7a96550dd8ee65",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "17fd78ae3aa0fc606b7a96550dd8ee65"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_4_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787130,
+                    "persistentId": "",
+                    "filename": "US_4_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 13067724,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c20b32-e61c0627552f",
+                    "rootDataFileId": -1,
+                    "md5": "82b4168bccadfb20f2b9bdb07d5faf1f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "82b4168bccadfb20f2b9bdb07d5faf1f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ry_2022_form_r_schedule_1.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10810906,
+                    "persistentId": "",
+                    "filename": "ry_2022_form_r_schedule_1.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 239651,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1944ba267df-56b68259d279",
+                    "rootDataFileId": -1,
+                    "md5": "e9dcc2cbcbd5f7f9020506070d4e2052",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e9dcc2cbcbd5f7f9020506070d4e2052"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-09",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1b_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787172,
+                    "persistentId": "",
+                    "filename": "US_1b_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 55949799,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ca0c7f-775d8c80348d",
+                    "rootDataFileId": -1,
+                    "md5": "c1aad0f25b97c70aea94d00e8047d9af",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c1aad0f25b97c70aea94d00e8047d9af"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2a_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787158,
+                    "persistentId": "",
+                    "filename": "US_2a_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 48616502,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c41877-fe4a5c0b75c7",
+                    "rootDataFileId": -1,
+                    "md5": "08e3929aee02a8b2291b153a72f476bf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "08e3929aee02a8b2291b153a72f476bf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_4_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787214,
+                    "persistentId": "",
+                    "filename": "US_4_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 10411885,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd43ce-94b37a56bce7",
+                    "rootDataFileId": -1,
+                    "md5": "bf7386bb03f167b9fda6e8035659650d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf7386bb03f167b9fda6e8035659650d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_5_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787151,
+                    "persistentId": "",
+                    "filename": "US_5_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 827274,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c40fe8-f2617a0d5a3a",
+                    "rootDataFileId": -1,
+                    "md5": "ba95dcf18d2e82a70286a49aac69c999",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ba95dcf18d2e82a70286a49aac69c999"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1b_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787241,
+                    "persistentId": "",
+                    "filename": "US_1b_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 53465530,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cf65cc-4431ac810250",
+                    "rootDataFileId": -1,
+                    "md5": "71ec7c2338e769f24bcbba894b63b9cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "71ec7c2338e769f24bcbba894b63b9cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3a_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787211,
+                    "persistentId": "",
+                    "filename": "US_3a_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 66843140,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cc725d-1e92ff522822",
+                    "rootDataFileId": -1,
+                    "md5": "7c09b89e08d816d2730cc68023008eb5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7c09b89e08d816d2730cc68023008eb5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3b_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787240,
+                    "persistentId": "",
+                    "filename": "US_3b_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 126,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cfa736-bf3fabcb0819",
+                    "rootDataFileId": -1,
+                    "md5": "d2bdfda74650a8564cfe7068d9050bbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2bdfda74650a8564cfe7068d9050bbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2a_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787231,
+                    "persistentId": "",
+                    "filename": "US_2a_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 47703787,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ce88ed-44b62a746790",
+                    "rootDataFileId": -1,
+                    "md5": "bd1ad3ae25d00796d836938996bf8494",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bd1ad3ae25d00796d836938996bf8494"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_5_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787219,
+                    "persistentId": "",
+                    "filename": "US_5_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 532824,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd42f3-548020830fb2",
+                    "rootDataFileId": -1,
+                    "md5": "b95326580431213cf97ff9a5e42bdb17",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b95326580431213cf97ff9a5e42bdb17"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ry_2022_tri_chemical_synonyms.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10810911,
+                    "persistentId": "",
+                    "filename": "ry_2022_tri_chemical_synonyms.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 385984,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1944ba2671f-66686a42df9e",
+                    "rootDataFileId": -1,
+                    "md5": "636f1da8ab4fe114c1c8367ea824694c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "636f1da8ab4fe114c1c8367ea824694c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-09",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ry_2022_tri_chemical_list.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10810907,
+                    "persistentId": "",
+                    "filename": "ry_2022_tri_chemical_list.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 57129,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1944ba26a04-778ac7b14101",
+                    "rootDataFileId": -1,
+                    "md5": "3964396910b00e0ec917fe14f51bab39",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3964396910b00e0ec917fe14f51bab39"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-09",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3a_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787136,
+                    "persistentId": "",
+                    "filename": "US_3a_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 69489695,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c1d68f-ac525c4c3edb",
+                    "rootDataFileId": -1,
+                    "md5": "e030c8ce04ac30a511af6594feeedd90",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e030c8ce04ac30a511af6594feeedd90"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3b_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787222,
+                    "persistentId": "",
+                    "filename": "US_3b_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 126,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cede1e-271f7afa4ce0",
+                    "rootDataFileId": -1,
+                    "md5": "d2bdfda74650a8564cfe7068d9050bbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2bdfda74650a8564cfe7068d9050bbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3b_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787167,
+                    "persistentId": "",
+                    "filename": "US_3b_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 126,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ca4c30-624e288c9f2e",
+                    "rootDataFileId": -1,
+                    "md5": "d2bdfda74650a8564cfe7068d9050bbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2bdfda74650a8564cfe7068d9050bbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2b_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787134,
+                    "persistentId": "",
+                    "filename": "US_2b_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 40170595,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c1d45a-a78b218c9547",
+                    "rootDataFileId": -1,
+                    "md5": "f0ce85d77d3871d774d4e2b3388fbfa9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f0ce85d77d3871d774d4e2b3388fbfa9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1a_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787163,
+                    "persistentId": "",
+                    "filename": "US_1a_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 68356087,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ca5c97-a3f5aab10003",
+                    "rootDataFileId": -1,
+                    "md5": "9cfe8efda5ff4b819162f1e5a49d1057",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9cfe8efda5ff4b819162f1e5a49d1057"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1b_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787138,
+                    "persistentId": "",
+                    "filename": "US_1b_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 49840178,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c1df9a-155b84345be0",
+                    "rootDataFileId": -1,
+                    "md5": "9bc1ea2e8a58182b813017f660e2ed1f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9bc1ea2e8a58182b813017f660e2ed1f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1b_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787154,
+                    "persistentId": "",
+                    "filename": "US_1b_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 49955167,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3e399-162e6ce050ac",
+                    "rootDataFileId": -1,
+                    "md5": "73236831c5244b2dc3fa4a6143efeee7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "73236831c5244b2dc3fa4a6143efeee7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_4_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787157,
+                    "persistentId": "",
+                    "filename": "US_4_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 13005055,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c412ea-f675b2347da6",
+                    "rootDataFileId": -1,
+                    "md5": "fcb63bfe3cd532a81b3bbe648174748a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fcb63bfe3cd532a81b3bbe648174748a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2b_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787239,
+                    "persistentId": "",
+                    "filename": "US_2b_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 38715010,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cf7ec2-f44414c920ac",
+                    "rootDataFileId": -1,
+                    "md5": "d916ecec68ea7736f97bbb89c0baa5ee",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d916ecec68ea7736f97bbb89c0baa5ee"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_6_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787185,
+                    "persistentId": "",
+                    "filename": "US_6_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1528557,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb9853-edd578c9c773",
+                    "rootDataFileId": -1,
+                    "md5": "1579b1e6ed11903450c9c69cef1f8ba4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1579b1e6ed11903450c9c69cef1f8ba4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3c_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787209,
+                    "persistentId": "",
+                    "filename": "US_3c_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 7656617,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ccaf6b-ded8caa2f5ff",
+                    "rootDataFileId": -1,
+                    "md5": "9572dd4e6c91cf92dde27ca9eb152e3a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9572dd4e6c91cf92dde27ca9eb152e3a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ry_2022_form_a.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10810913,
+                    "persistentId": "",
+                    "filename": "ry_2022_form_a.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 156984,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1944ba26bb2-6c654b8a9be8",
+                    "rootDataFileId": -1,
+                    "md5": "ed581ed670824af115a596374d37716a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ed581ed670824af115a596374d37716a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-09",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1a_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787150,
+                    "persistentId": "",
+                    "filename": "US_1a_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 68177110,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3d104-53cc99384259",
+                    "rootDataFileId": -1,
+                    "md5": "189f66377459d06969c9f0bd96e95964",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "189f66377459d06969c9f0bd96e95964"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1b_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787190,
+                    "persistentId": "",
+                    "filename": "US_1b_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 55276795,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb5103-2f09bd2bf80b",
+                    "rootDataFileId": -1,
+                    "md5": "412fb325ee005bc258c574c240dfdbd1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "412fb325ee005bc258c574c240dfdbd1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType6.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787142,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType6.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 483402,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3a8aa-889c71b5d534",
+                    "rootDataFileId": -1,
+                    "md5": "f2356b842d9fc6fe50b82c2fa7d4ab7f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f2356b842d9fc6fe50b82c2fa7d4ab7f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType5.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787143,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType5.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 497374,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3ab3e-96bc8e376b1d",
+                    "rootDataFileId": -1,
+                    "md5": "863f569fc7f67c9b1d229f3be2f82888",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "863f569fc7f67c9b1d229f3be2f82888"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ry_2022_form_r.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10810910,
+                    "persistentId": "",
+                    "filename": "ry_2022_form_r.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 241802,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1944ba26abe-eda398aa033c",
+                    "rootDataFileId": -1,
+                    "md5": "e22d06b6b17ac3a5719beadc2b4b8664",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e22d06b6b17ac3a5719beadc2b4b8664"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-09",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "rsei_appendix_b.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10810908,
+                    "persistentId": "",
+                    "filename": "rsei_appendix_b.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 410860,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1944ba26516-330c2afbf306",
+                    "rootDataFileId": -1,
+                    "md5": "9a6484e81c242f9299121e9116625e2b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9a6484e81c242f9299121e9116625e2b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-09",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType1A.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787141,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType1A.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1050038,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3a4bd-0f1117f1b838",
+                    "rootDataFileId": -1,
+                    "md5": "6b63ea244e72d03b4400483521a1a2e2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6b63ea244e72d03b4400483521a1a2e2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_5_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787183,
+                    "persistentId": "",
+                    "filename": "US_5_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1165387,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb528d-5b11727ef29e",
+                    "rootDataFileId": -1,
+                    "md5": "8a9e3a240155bc67f412f8139fdf9f1f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8a9e3a240155bc67f412f8139fdf9f1f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3c_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787234,
+                    "persistentId": "",
+                    "filename": "US_3c_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 7117138,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cfa7f5-dedc4e061116",
+                    "rootDataFileId": -1,
+                    "md5": "408f83e37796ea5ac7c3e84382cd2c73",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "408f83e37796ea5ac7c3e84382cd2c73"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType2A.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787145,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType2A.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 707977,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3aa4d-0b48d500ffb6",
+                    "rootDataFileId": -1,
+                    "md5": "cff974768af7dbaf67c1c833070cf54f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cff974768af7dbaf67c1c833070cf54f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1b_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787215,
+                    "persistentId": "",
+                    "filename": "US_1b_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 53542970,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd46e9-68034a0dc67f",
+                    "rootDataFileId": -1,
+                    "md5": "ea1ea1da9e6368db90d1007d0bb7cc65",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ea1ea1da9e6368db90d1007d0bb7cc65"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3c_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787179,
+                    "persistentId": "",
+                    "filename": "US_3c_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 7900389,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c631a6-0dbd6b0c6cfd",
+                    "rootDataFileId": -1,
+                    "md5": "f99138fb599ac8ef9ea6dbe133b9c672",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f99138fb599ac8ef9ea6dbe133b9c672"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_4_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787203,
+                    "persistentId": "",
+                    "filename": "US_4_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 12777664,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cc732b-af98b3e67904",
+                    "rootDataFileId": -1,
+                    "md5": "3282be51a8aa9a7bfa051adbd1f2775e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3282be51a8aa9a7bfa051adbd1f2775e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2a_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787233,
+                    "persistentId": "",
+                    "filename": "US_2a_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 46753691,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cf63d3-0723260bd540",
+                    "rootDataFileId": -1,
+                    "md5": "b9d91300f362b67507b19db9226930cd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b9d91300f362b67507b19db9226930cd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ry_2022_parent_companies.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10810909,
+                    "persistentId": "",
+                    "filename": "ry_2022_parent_companies.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 862161,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1944ba265e1-ad056414a543",
+                    "rootDataFileId": -1,
+                    "md5": "b3d56efaef0ef6fb69c6289e637ea95e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b3d56efaef0ef6fb69c6289e637ea95e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-09",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2a_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787184,
+                    "persistentId": "",
+                    "filename": "US_2a_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 48061446,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb4fcb-b53857fafd25",
+                    "rootDataFileId": -1,
+                    "md5": "52b590ceadf80a6012345abac75aaabe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "52b590ceadf80a6012345abac75aaabe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2a_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787181,
+                    "persistentId": "",
+                    "filename": "US_2a_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 48641605,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c60b25-10f6c8649627",
+                    "rootDataFileId": -1,
+                    "md5": "9812a6168257cf6162cc73d031780dfc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9812a6168257cf6162cc73d031780dfc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3b_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787186,
+                    "persistentId": "",
+                    "filename": "US_3b_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 126,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb936a-a5266c17161f",
+                    "rootDataFileId": -1,
+                    "md5": "d2bdfda74650a8564cfe7068d9050bbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2bdfda74650a8564cfe7068d9050bbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_5_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787210,
+                    "persistentId": "",
+                    "filename": "US_5_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1376208,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cc73f5-4642552e4040",
+                    "rootDataFileId": -1,
+                    "md5": "9ec858dc5280056e1fd64ce1139193cc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9ec858dc5280056e1fd64ce1139193cc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3c_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787188,
+                    "persistentId": "",
+                    "filename": "US_3c_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 7789821,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb8bdc-ebebb57eb2a9",
+                    "rootDataFileId": -1,
+                    "md5": "0f63563483291704bf812077cfcad10c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0f63563483291704bf812077cfcad10c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1a_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787221,
+                    "persistentId": "",
+                    "filename": "US_1a_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 65406211,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd7773-e1e282e8a78d",
+                    "rootDataFileId": -1,
+                    "md5": "b933e312a986dd94aa680c51a8ffe8c0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b933e312a986dd94aa680c51a8ffe8c0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2a_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787213,
+                    "persistentId": "",
+                    "filename": "US_2a_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 46743012,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd4112-f998d390ca94",
+                    "rootDataFileId": -1,
+                    "md5": "289f4880f5377b531bbf1d18f8695312",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "289f4880f5377b531bbf1d18f8695312"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1a_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787207,
+                    "persistentId": "",
+                    "filename": "US_1a_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 65822488,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cca30c-bd93e94aab08",
+                    "rootDataFileId": -1,
+                    "md5": "48581486cb7e959ba87bf5cb134321b2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "48581486cb7e959ba87bf5cb134321b2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType3C.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787144,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType3C.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1004230,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3a6de-bc0b8286d9a2",
+                    "rootDataFileId": -1,
+                    "md5": "f2ec1bc7e83902ec90525f5b2bba3d45",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f2ec1bc7e83902ec90525f5b2bba3d45"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType3B.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787148,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType3B.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 591168,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3a575-538840065373",
+                    "rootDataFileId": -1,
+                    "md5": "1f1a247be764ef9ba391781d9c8441a3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1f1a247be764ef9ba391781d9c8441a3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2b_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787223,
+                    "persistentId": "",
+                    "filename": "US_2b_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 39549689,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ce9efa-a63c31ca311c",
+                    "rootDataFileId": -1,
+                    "md5": "a32ef1eabc56bcdcf7d9ae476dcb8b77",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a32ef1eabc56bcdcf7d9ae476dcb8b77"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1a_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787230,
+                    "persistentId": "",
+                    "filename": "US_1a_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 66765867,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ced689-98cf46e1639f",
+                    "rootDataFileId": -1,
+                    "md5": "d769ad45570859d764411c4a21ac4ed1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d769ad45570859d764411c4a21ac4ed1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_6_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787236,
+                    "persistentId": "",
+                    "filename": "US_6_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 2516926,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cf9d79-e72b5baa4c58",
+                    "rootDataFileId": -1,
+                    "md5": "6b3ed576d4eee9e6edc171fe36d917db",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6b3ed576d4eee9e6edc171fe36d917db"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2b_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787204,
+                    "persistentId": "",
+                    "filename": "US_2b_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 39027898,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cc843f-6c8631f1f78b",
+                    "rootDataFileId": -1,
+                    "md5": "3b459dcc7d536ef55b550b81ab30ea9c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3b459dcc7d536ef55b550b81ab30ea9c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_4_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787191,
+                    "persistentId": "",
+                    "filename": "US_4_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 13064437,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb51c8-2168deec59dd",
+                    "rootDataFileId": -1,
+                    "md5": "f94778e8f9ae544c8c2ca53d6d831635",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f94778e8f9ae544c8c2ca53d6d831635"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1a_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787238,
+                    "persistentId": "",
+                    "filename": "US_1a_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 65352404,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cfa6cb-cfd3747c95a5",
+                    "rootDataFileId": -1,
+                    "md5": "acc77cab1b6964c08cb7d82f1ce11601",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "acc77cab1b6964c08cb7d82f1ce11601"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2a_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787205,
+                    "persistentId": "",
+                    "filename": "US_2a_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 46895291,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cc719b-f723a0fae20a",
+                    "rootDataFileId": -1,
+                    "md5": "2f8977517d41a254f992bbdd81df08b4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2f8977517d41a254f992bbdd81df08b4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_6_2020.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787208,
+                    "persistentId": "",
+                    "filename": "US_6_2020.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1743009,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ccac33-064a2f1f162d",
+                    "rootDataFileId": -1,
+                    "md5": "5185781ae95b3a195997b10d8c68e473",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5185781ae95b3a195997b10d8c68e473"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1a_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787131,
+                    "persistentId": "",
+                    "filename": "US_1a_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 68002465,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c1d18e-2d4d81626286",
+                    "rootDataFileId": -1,
+                    "md5": "c35f858f6ef5f58214c07b2763d4bf91",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c35f858f6ef5f58214c07b2763d4bf91"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1b_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787227,
+                    "persistentId": "",
+                    "filename": "US_1b_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 54624318,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ce8a83-607370f84102",
+                    "rootDataFileId": -1,
+                    "md5": "4e01ad5529d3e2fc43d4a43bde7f4e7c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4e01ad5529d3e2fc43d4a43bde7f4e7c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_4_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787235,
+                    "persistentId": "",
+                    "filename": "US_4_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 12585828,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cf6a78-3d27ff07394c",
+                    "rootDataFileId": -1,
+                    "md5": "da82acf0c1452aee33cc90ccb8ed13dd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "da82acf0c1452aee33cc90ccb8ed13dd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType1B.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787140,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType1B.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 639932,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3a3ec-9f70fd4bdbe2",
+                    "rootDataFileId": -1,
+                    "md5": "6f06be595626b0e1584cb0385a1e333a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6f06be595626b0e1584cb0385a1e333a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_1a_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787189,
+                    "persistentId": "",
+                    "filename": "US_1a_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 67529986,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb98c5-cc0b8e3bac24",
+                    "rootDataFileId": -1,
+                    "md5": "cb9e5b261ad51a91d27e2fb06f70bd3d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cb9e5b261ad51a91d27e2fb06f70bd3d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_5_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787237,
+                    "persistentId": "",
+                    "filename": "US_5_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 390534,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cf669e-42ce3af07e13",
+                    "rootDataFileId": -1,
+                    "md5": "f611e04ed7a1d73b2917554f881fe18f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f611e04ed7a1d73b2917554f881fe18f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_5_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787178,
+                    "persistentId": "",
+                    "filename": "US_5_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 871224,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ca0d4a-8a0761ed8931",
+                    "rootDataFileId": -1,
+                    "md5": "1c774e6a02bf31812499cce5cf5f58c9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1c774e6a02bf31812499cce5cf5f58c9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_6_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787224,
+                    "persistentId": "",
+                    "filename": "US_6_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 2246237,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ceccf1-36673aeea17a",
+                    "rootDataFileId": -1,
+                    "md5": "ed7d63e45cbbae6657bef72964df544e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ed7d63e45cbbae6657bef72964df544e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2a_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787135,
+                    "persistentId": "",
+                    "filename": "US_2a_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 48661846,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c22228-fc8691706417",
+                    "rootDataFileId": -1,
+                    "md5": "427a9cecc2037f08095aac90a3d0f743",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "427a9cecc2037f08095aac90a3d0f743"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_6_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787149,
+                    "persistentId": "",
+                    "filename": "US_6_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1338807,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3d038-4e63c32b0c39",
+                    "rootDataFileId": -1,
+                    "md5": "2f3f91cdfafce25ea9e19d7375bfe17e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2f3f91cdfafce25ea9e19d7375bfe17e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3c_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787212,
+                    "persistentId": "",
+                    "filename": "US_3c_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 7300100,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd80a8-48e189d2e9ef",
+                    "rootDataFileId": -1,
+                    "md5": "724f4192656c2f60fbbce11c36b1fab9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "724f4192656c2f60fbbce11c36b1fab9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Metadata_TRI_BasicDataPlus_FileType2B1.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787147,
+                    "persistentId": "",
+                    "filename": "Metadata_TRI_BasicDataPlus_FileType2B1.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 630269,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3a30b-dff9cc55d91f",
+                    "rootDataFileId": -1,
+                    "md5": "085e9a8f337ce53f5ed6f584caae8612",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "085e9a8f337ce53f5ed6f584caae8612"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2b_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787216,
+                    "persistentId": "",
+                    "filename": "US_2b_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 38756488,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd575a-23747f8edac1",
+                    "rootDataFileId": -1,
+                    "md5": "d6b5ad03be064e2f1dd8da4fd10e43dd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6b5ad03be064e2f1dd8da4fd10e43dd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2b_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787153,
+                    "persistentId": "",
+                    "filename": "US_2b_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 40286461,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3d369-a90c569f3cee",
+                    "rootDataFileId": -1,
+                    "md5": "eecbf035cdb0974303300027063885d3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eecbf035cdb0974303300027063885d3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_5_2016.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787132,
+                    "persistentId": "",
+                    "filename": "US_5_2016.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 956683,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c21999-117d86e5f8ca",
+                    "rootDataFileId": -1,
+                    "md5": "bd549f65cbc4254b8efb3775455781ec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bd549f65cbc4254b8efb3775455781ec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3a_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787228,
+                    "persistentId": "",
+                    "filename": "US_3a_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 68820826,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ce89c6-b29d961425ef",
+                    "rootDataFileId": -1,
+                    "md5": "d65445b16b342502cbead090f0693655",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d65445b16b342502cbead090f0693655"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_4_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787168,
+                    "persistentId": "",
+                    "filename": "US_4_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 13135400,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c60d94-da0ea57f415d",
+                    "rootDataFileId": -1,
+                    "md5": "2db004e180b31a1afb2dd062ab487eb2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2db004e180b31a1afb2dd062ab487eb2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3a_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787155,
+                    "persistentId": "",
+                    "filename": "US_3a_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 69643055,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3d752-faf47700ddc3",
+                    "rootDataFileId": -1,
+                    "md5": "41a3d2a89e0c9e609b7457ae430fd67b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "41a3d2a89e0c9e609b7457ae430fd67b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3b_2017.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787156,
+                    "persistentId": "",
+                    "filename": "US_3b_2017.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 126,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5c3d1bc-36f638ee3ddb",
+                    "rootDataFileId": -1,
+                    "md5": "d2bdfda74650a8564cfe7068d9050bbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2bdfda74650a8564cfe7068d9050bbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3a_2023.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787232,
+                    "persistentId": "",
+                    "filename": "US_3a_2023.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 68001480,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cf64a0-47ae207ad3dc",
+                    "rootDataFileId": -1,
+                    "md5": "ce1bd8488f19692617f6e1e5d303b57b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ce1bd8488f19692617f6e1e5d303b57b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3a_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787218,
+                    "persistentId": "",
+                    "filename": "US_3a_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 66898962,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd4231-1211db9de32f",
+                    "rootDataFileId": -1,
+                    "md5": "fa8e9a7e8c93e4d199f2f847a1732474",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fa8e9a7e8c93e4d199f2f847a1732474"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3a_2018.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787174,
+                    "persistentId": "",
+                    "filename": "US_3a_2018.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 70377837,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ca1244-76148fe5c18a",
+                    "rootDataFileId": -1,
+                    "md5": "7c19d07bbfd798e3f22d1dd309bdeb94",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7c19d07bbfd798e3f22d1dd309bdeb94"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_2b_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787187,
+                    "persistentId": "",
+                    "filename": "US_2b_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 39966933,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb6483-c3f47fdd07e8",
+                    "rootDataFileId": -1,
+                    "md5": "b4f8f440812aa7515611ab3f41dcba1f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b4f8f440812aa7515611ab3f41dcba1f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3b_2021.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787217,
+                    "persistentId": "",
+                    "filename": "US_3b_2021.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 126,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cd7f9c-9971346f3f28",
+                    "rootDataFileId": -1,
+                    "md5": "d2bdfda74650a8564cfe7068d9050bbc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2bdfda74650a8564cfe7068d9050bbc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "ry_2022_rfi.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10810912,
+                    "persistentId": "",
+                    "filename": "ry_2022_rfi.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 7254851,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1944ba26b34-7e43eb9a1572",
+                    "rootDataFileId": -1,
+                    "md5": "480a5c86934d27bc3939f7b61f176f71",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "480a5c86934d27bc3939f7b61f176f71"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-09",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_5_2022.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787229,
+                    "persistentId": "",
+                    "filename": "US_5_2022.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 451867,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5ce9d3b-288cd858cc6b",
+                    "rootDataFileId": -1,
+                    "md5": "c00950564422297740b932e7cd072c66",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c00950564422297740b932e7cd072c66"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "US_3a_2019.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10787192,
+                    "persistentId": "",
+                    "filename": "US_3a_2019.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 70032566,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5cb57c8-83c5d856c9b4",
+                    "rootDataFileId": -1,
+                    "md5": "4d6a59a2c34dd989a81e135ce917c971",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4d6a59a2c34dd989a81e135ce917c971"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "EPA Disclaimers _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435718,
+                "dataFile": {
+                    "id": 10893636,
+                    "persistentId": "",
+                    "filename": "EPA Disclaimers _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 97989,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19519e3b563-dfcd175d9e94",
+                    "rootDataFileId": -1,
+                    "md5": "de90bdd8ae95f85060b264b7e8ad6c70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de90bdd8ae95f85060b264b7e8ad6c70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-02-18",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

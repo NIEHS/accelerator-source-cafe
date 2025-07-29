@@ -1,0 +1,574 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 425165,
+        "datasetId": 6793034,
+        "datasetPersistentId": "doi:10.7910/DVN/QR4N7V",
+        "storageIdentifier": "s3://10.7910/DVN/QR4N7V",
+        "versionNumber": 1,
+        "versionMinorNumber": 2,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:J+iWb1dGAgHgWN62soaKLA==",
+        "lastUpdateTime": "2024-07-31T02:08:22Z",
+        "releaseTime": "2024-07-31T02:08:22Z",
+        "createTime": "2024-07-31T01:52:30Z",
+        "publicationDate": "2022-12-08",
+        "citationDate": "2022-12-08",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Replication Data for: Investigating Use of Low-Cost Sensors to Increase Accuracy and Equity of Real-Time Air Quality Information"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Considine, Ellen"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-7132-2862"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Considine, Ellen"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ellen_considine@g.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This analytic dataset contains various environmental and socio-demographic characteristics of the state of California, daily at the resolution of 1km x 1km. All original sources of this data are open access; we share this processed dataset to facilitate replication of our paper and other exploration."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Computer and Information Science",
+                            "Earth and Environmental Sciences",
+                            "Mathematical Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "air quality"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "low-cost sensors"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "environmental justice"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "information access"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "decision making"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "simulations"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Considine EM, Braun D, Kamareddine L, Nethery RC, and deSouza P. Investigating Use of Low-Cost Sensors to Increase Accuracy and Equity of Real-Time Air Quality Information. Environmental Science & Technology."
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.1021/acs.est.2c06626"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Code for this analysis (including notes on data procurement and data processing as well as generation of figures and tables for the paper) can be found here: https://github.com/EllenConsidine/LCS_placement_sims"
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorType": {
+                                    "typeName": "contributorType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Project Member"
+                                },
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nethery, Rachel"
+                                }
+                            },
+                            {
+                                "contributorType": {
+                                    "typeName": "contributorType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Project Member"
+                                },
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "deSouza, Priyanka"
+                                }
+                            },
+                            {
+                                "contributorType": {
+                                    "typeName": "contributorType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Project Member"
+                                },
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Braun, Danielle"
+                                }
+                            },
+                            {
+                                "contributorType": {
+                                    "typeName": "contributorType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Project Member"
+                                },
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kamareddine, Leila"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "grantNumber",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "grantNumberAgency": {
+                                    "typeName": "grantNumberAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Institutes of Health (NIH)"
+                                },
+                                "grantNumberValue": {
+                                    "typeName": "grantNumberValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "5T32ES007142"
+                                }
+                            },
+                            {
+                                "grantNumberAgency": {
+                                    "typeName": "grantNumberAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Institutes of Health (NIH)"
+                                },
+                                "grantNumberValue": {
+                                    "typeName": "grantNumberValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1K01ES032458"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Considine, Ellen"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2022-12-08"
+                    },
+                    {
+                        "typeName": "dataSources",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "See references in paper"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Dataframe of 24h-avg. measurements from PurpleAir LCS located within 50 meters of EPA (AQS) monitors ",
+                "label": "Daily_AQS_PA_2020.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425165,
+                "dataFile": {
+                    "id": 6793063,
+                    "persistentId": "",
+                    "filename": "Daily_AQS_PA_2020.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 158807,
+                    "description": "Dataframe of 24h-avg. measurements from PurpleAir LCS located within 50 meters of EPA (AQS) monitors ",
+                    "storageIdentifier": "s3://dvn-cloud:184f26eb8a9-2f1fd018bbf9",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 163053,
+                    "originalFileName": "Daily_AQS_PA_2020.csv",
+                    "UNF": "UNF:6:QFu+R1vf8hCLNaL6DyZwww==",
+                    "rootDataFileId": -1,
+                    "md5": "15d6cb59dd0eb104dcaf6922b7417819",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "15d6cb59dd0eb104dcaf6922b7417819"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2022-12-08",
+                    "publicationDate": "2022-12-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Locations and IDs of outdoor PurpleAir LCS ",
+                "label": "PA_outside.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425165,
+                "dataFile": {
+                    "id": 6793062,
+                    "persistentId": "",
+                    "filename": "PA_outside.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 2912223,
+                    "description": "Locations and IDs of outdoor PurpleAir LCS ",
+                    "storageIdentifier": "s3://dvn-cloud:184f26ef91c-ec2fd53eacad",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 2746547,
+                    "originalFileName": "PA_outside.csv",
+                    "UNF": "UNF:6:xR+XaZ3qdLwX5mmz1q6AKw==",
+                    "rootDataFileId": -1,
+                    "md5": "993cf062da46a40742be9bbaf891c927",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "993cf062da46a40742be9bbaf891c927"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2022-12-08",
+                    "publicationDate": "2022-12-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Vector of location-days where the Di et al. daily estimates are missing",
+                "label": "CA_NA_pos.rds",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425165,
+                "dataFile": {
+                    "id": 6793056,
+                    "persistentId": "",
+                    "filename": "CA_NA_pos.rds",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 6545,
+                    "description": "Vector of location-days where the Di et al. daily estimates are missing",
+                    "storageIdentifier": "s3://dvn-cloud:184f2690acc-344a9648f095",
+                    "rootDataFileId": -1,
+                    "md5": "b159c010295a3fe0a886063ad93e00a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b159c010295a3fe0a886063ad93e00a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-12-08",
+                    "publicationDate": "2022-12-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Vector of deciles of daily PM2.5 (from the Di et al. estimates), used for empirical LCS measurement error sampling",
+                "label": "Real_deciles_updated_1-24-2022.rds",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425165,
+                "dataFile": {
+                    "id": 6793073,
+                    "persistentId": "",
+                    "filename": "Real_deciles_updated_1-24-2022.rds",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 65677227,
+                    "description": "Vector of deciles of daily PM2.5 (from the Di et al. estimates), used for empirical LCS measurement error sampling",
+                    "storageIdentifier": "s3://dvn-cloud:184f27455ad-8cb5e86c6e4f",
+                    "rootDataFileId": -1,
+                    "md5": "b4541732492bd4e3d1962481cd42f1b9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b4541732492bd4e3d1962481cd42f1b9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-12-08",
+                    "publicationDate": "2022-12-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Dataframe of static characteristics (environmental, socio-demographic) of 1km x 1km grid points across California. First 38 columns are the exact same as CA_clean_projected.rds (which is referenced in several scripts).",
+                "label": "CA_with_CES_projected.rds",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425165,
+                "dataFile": {
+                    "id": 6793055,
+                    "persistentId": "",
+                    "filename": "CA_with_CES_projected.rds",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 16976607,
+                    "description": "Dataframe of static characteristics (environmental, socio-demographic) of 1km x 1km grid points across California. First 38 columns are the exact same as CA_clean_projected.rds (which is referenced in several scripts).",
+                    "storageIdentifier": "s3://dvn-cloud:184f268faae-7daeb7283fbe",
+                    "rootDataFileId": -1,
+                    "md5": "bb80180470b2013dd94b0a9cb153d1aa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bb80180470b2013dd94b0a9cb153d1aa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-12-08",
+                    "publicationDate": "2022-12-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Di et al. daily PM2.5 estimates (1km x 1km) extracted for just California in 2016 (original dataset is national, 2000-2016)",
+                "label": "Daily_PM25_CA.rds",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425165,
+                "dataFile": {
+                    "id": 6793110,
+                    "persistentId": "",
+                    "filename": "Daily_PM25_CA.rds",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 1370640904,
+                    "description": "Di et al. daily PM2.5 estimates (1km x 1km) extracted for just California in 2016 (original dataset is national, 2000-2016)",
+                    "storageIdentifier": "s3://dvn-cloud:184f288db93-8fc1682804d7",
+                    "rootDataFileId": -1,
+                    "md5": "e054832a8821cc2bf83bc41e34e6df6e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e054832a8821cc2bf83bc41e34e6df6e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-12-08",
+                    "publicationDate": "2022-12-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Vector of AQI classifications of daily PM2.5 (from the Di et al. estimates)",
+                "label": "Daily_PM_AQI-class.rds",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425165,
+                "dataFile": {
+                    "id": 6793072,
+                    "persistentId": "",
+                    "filename": "Daily_PM_AQI-class.rds",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 7121600,
+                    "description": "Vector of AQI classifications of daily PM2.5 (from the Di et al. estimates)",
+                    "storageIdentifier": "s3://dvn-cloud:184f272c9fc-2e5d31bda319",
+                    "rootDataFileId": -1,
+                    "md5": "3a4a54a0189342190a97156b3d28bc77",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3a4a54a0189342190a97156b3d28bc77"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-12-08",
+                    "publicationDate": "2022-12-08",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

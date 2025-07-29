@@ -1,0 +1,193 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444074,
+        "datasetId": 10877810,
+        "datasetPersistentId": "doi:10.17603/DS2-ANA0-KF03",
+        "storageIdentifier": "s3://10.17603/ds2-ana0-kf03",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2023",
+        "lastUpdateTime": "2025-05-06T23:41:10Z",
+        "releaseTime": "2025-05-05T12:13:47Z",
+        "createTime": "2025-05-06T23:41:10Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Public Health Disaster Research Award Program Evaluation Survey Data in Public Health Disaster Research Award Program Evaluation"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4145"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Adams, Rachel"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mordy, Meghan"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Peek, Lori"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This file includes de-identified survey data from the Public Health Disaster Research Award Program evaluation."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "In 2020, the Natural Hazards Center\u2014with funding from the Centers for Disease Control and Prevention and the National Science Foundation\u2014established the Public Health Disaster Research Award Program. In 2020 and 2021, as part of the newly established program, the Natural Hazards Center issued two special calls for research on public health preparedness, response, and resilience in the U.S. territories. The Center ultimately awarded $1,111,452.10 to 97 researchers, representing 26 research teams and 57 institutions. In 2023, researchers at the Natural Hazards Center designed a questionnaire and conducted an evaluation to assess if the award program was meeting its four objectives: (1) train a diverse public health workforce; (2) advance public health disaster research; (3) build equitable collaborations; and (4) translate research to practice. The final questionnaire was administered to the lead investigator of each project in April of 2023 via the Qualtrics online survey platform. The questionnaire, which is published as part of this DesignSafe project, includes closed- and open-ended questions about the following topics: (1) the skills, knowledge, and connections that research team members acquired during the award period; (2) the publications, grant proposals, educational materials, and/or traineeships that team members developed post-award using research findings; (3) the collaborations with community partners, public health departments, and other hazards and disasters scholars or practitioners that team members built post-award; and (4) how team members applied their research findings to practice by developing new public health tools or promoting changes to public health policies or programs. Of the 26 projects funded as part of Special Calls 1 and 2, 23 lead investigators submitted responses between April 6 and 27, 2023 (88.5% response rate). A summary of the evaluation findings is included in the Evaluation Report that is published as part of this project."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Public Health; Program Evaluation; Disaster Research; U.S. Territories; Broader Impacts"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Colorado Boulder (colorado.edu)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

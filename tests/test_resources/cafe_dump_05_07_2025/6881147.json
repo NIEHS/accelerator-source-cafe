@@ -1,0 +1,342 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 425164,
+        "datasetId": 6881147,
+        "datasetPersistentId": "doi:10.7910/DVN/MBAVER",
+        "storageIdentifier": "s3://10.7910/DVN/MBAVER",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2024-07-31T02:07:49Z",
+        "releaseTime": "2024-07-31T02:07:49Z",
+        "createTime": "2024-07-31T01:46:11Z",
+        "publicationDate": "2023-01-09",
+        "citationDate": "2023-01-09",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Replication Data for: Evaluation of Model-Based PM2.5 Estimates for Exposure Assessment During Wildfire Smoke Episodes in the Western U.S."
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Considine, Ellen"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-7132-2862"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hao, Jiayuan"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Considine, Ellen"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ellen_considine@g.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This analytic dataset contains fine particulate matter (PM2.5) estimates at the locations of air quality monitors across the western US, both mobile smoke monitors deployed by the US Forest Service and stationary monitors maintained by the US EPA. All original sources of this data are open access; we share this processed dataset to facilitate replication of our paper and other exploration."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Mathematical Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "air pollution"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "wildfires"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "exposure assessment"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "environmental health"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "data science"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "validation"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Considine EM, Hao J, Braun D, deSouza P, Reid CE, and Nethery RC. Evaluation of Model-Based PM Estimates for Exposure Assessment During Wildfire Smoke Episodes in the Western U.S. Environmental Science & Technology."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Code for this analysis (including notes on data procurement and data processing as well as generation of figures and tables for the paper) can be found here: https://github.com/haohaojy/wildfire-PM2.5-comparison"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Considine, Ellen"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-01-09"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Supplementary analysis: comparing Di and Reid estimates from 2008-2016 with EPA monitor observations (not wildfire smoke specific) across the western US.",
+                "label": "Revisions_Merged_EPA_Di_Reid_with_CMAQ.rds",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425164,
+                "dataFile": {
+                    "id": 6881151,
+                    "persistentId": "",
+                    "filename": "Revisions_Merged_EPA_Di_Reid_with_CMAQ.rds",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 19807693,
+                    "description": "Supplementary analysis: comparing Di and Reid estimates from 2008-2016 with EPA monitor observations (not wildfire smoke specific) across the western US.",
+                    "storageIdentifier": "s3://dvn-cloud:185970f8b18-36ef8b83f2c8",
+                    "rootDataFileId": -1,
+                    "md5": "876e70817ecbc0b8ee5875ccb39cb62d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "876e70817ecbc0b8ee5875ccb39cb62d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-01-09",
+                    "publicationDate": "2023-01-09",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Supplementary analysis: comparing Reid estimates from 2017-2018 with USFS smoke monitor observations from those years; also includes data from 2008-2016 (from the same model) for comparison.",
+                "label": "Revisions_Merged_monitor_Reid_without_CMAQ.rds",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425164,
+                "dataFile": {
+                    "id": 6881149,
+                    "persistentId": "",
+                    "filename": "Revisions_Merged_monitor_Reid_without_CMAQ.rds",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 565056,
+                    "description": "Supplementary analysis: comparing Reid estimates from 2017-2018 with USFS smoke monitor observations from those years; also includes data from 2008-2016 (from the same model) for comparison.",
+                    "storageIdentifier": "s3://dvn-cloud:185970cb71e-e37bb81e3252",
+                    "rootDataFileId": -1,
+                    "md5": "e07729546d59c28ee1f7182fc8aa5700",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e07729546d59c28ee1f7182fc8aa5700"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-01-09",
+                    "publicationDate": "2023-01-09",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "Main analytic dataset: comparing Di and Reid estimates (2008-2016) with USFS smoke monitor observations across the western US.",
+                "label": "Revisions_Merged_FINAL_monitor_Di_Reid_with_CMAQ.rds",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425164,
+                "dataFile": {
+                    "id": 6881148,
+                    "persistentId": "",
+                    "filename": "Revisions_Merged_FINAL_monitor_Di_Reid_with_CMAQ.rds",
+                    "contentType": "application/gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 753384,
+                    "description": "Main analytic dataset: comparing Di and Reid estimates (2008-2016) with USFS smoke monitor observations across the western US.",
+                    "storageIdentifier": "s3://dvn-cloud:185970adf6c-3b8299a6efd8",
+                    "rootDataFileId": -1,
+                    "md5": "66be31b4a004f173e3b64b98d15e7ee7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "66be31b4a004f173e3b64b98d15e7ee7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-01-09",
+                    "publicationDate": "2023-01-09",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

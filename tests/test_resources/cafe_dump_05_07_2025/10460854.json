@@ -1,0 +1,554 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 426249,
+        "datasetId": 10460854,
+        "datasetPersistentId": "doi:10.7910/DVN/VCLU2S",
+        "storageIdentifier": "s3mit://10.7910/DVN/VCLU2S",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-01T16:51:11Z",
+        "releaseTime": "2025-04-01T16:51:11Z",
+        "createTime": "2024-08-19T11:50:56Z",
+        "publicationDate": "2025-04-01",
+        "citationDate": "2025-04-01",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "CHAIR - India Daily 1km x 1km Modeled PM2.5 2008 - 2022"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mandal S, Rajiva A, Kloog I, Menon JS, Lane KJ, Amini H, Walia GK, Dixit S, Nori-Sarma A, Dutta A, Sharma P, Jaganathan S, Madhipatla KK, Wellenius GA, de Bont J, Venkataraman C, Prabhakaran D, Prabhakaran P, Ljungman P, Schwartz J."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Centre for Chronic Disease Control, India"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ljungman, Petter"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Karolinska Instituet"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "petter.ljungman@ki.se"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The work is led and coordinated centrally through the Institute of Environmental Medicine, Karolinska Institute, Stockholm, Sweden (PI Petter Ljungman) in close collaboration with the Centre for Chronic Disease Control, Delhi, India (PI Dorairaj Prabhakaran), Centre for Health Analytics Research and Trends, Trivedi School of Biosciences, Ashoka University (PI Poornima Prabhakaran) and Department of Environmental Health, Harvard T H Chan School of Public Health (PI Joel Schwartz). We developed a model for daily average ambient PM2.5 between 2008 and 2020 based on monitoring data, meteorology, land use, satellite observations, and emissions inventories. Daily average predictions at each 1 km \u00d7 1 km grid from each learner were ensembled using a Gaussian process regression with anisotropic smoothing over spatial coordinates, and regression calibration was used to account for exposure error."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-08-18"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Air Pollution"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Air Pollution"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Particulate Matter"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Particulate Matter"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mandal S, Rajiva A, Kloog I, Menon JS, Lane KJ, Amini H, Walia GK, Dixit S, Nori-Sarma A, Dutta A, Sharma P, Jaganathan S, Madhipatla KK, Wellenius GA, de Bont J, Venkataraman C, Prabhakaran D, Prabhakaran P, Ljungman P, Schwartz J. Nationwide estimation of daily ambient PM2.5 from 2008 to 2020 at 1 km2 in India using an ensemble approach. PNAS Nexus. 2024 Mar; 3(3):pgae088. PMID: 38456174. doi: doi.org/10.1093/pnasnexus/pgae088"
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.1093/pnasnexus/pgae088"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Lane, Kevin"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-08-19"
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "2008.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10877917,
+                    "persistentId": "",
+                    "filename": "2008.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5747357748,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f24faee3-b3cff80c8d9b",
+                    "rootDataFileId": -1,
+                    "md5": "cfeb887a10c1a764af0835a3717a076f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cfeb887a10c1a764af0835a3717a076f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2009.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10877918,
+                    "persistentId": "",
+                    "filename": "2009.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5727051235,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f255f109-555a5a342176",
+                    "rootDataFileId": -1,
+                    "md5": "7457ba4af7114ef45259f27c58d6a275",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7457ba4af7114ef45259f27c58d6a275"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2010.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10877919,
+                    "persistentId": "",
+                    "filename": "2010.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5730879844,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f25e5784-acc5a399a7cc",
+                    "rootDataFileId": -1,
+                    "md5": "b4203edc6dc6c34870872ff3526c096a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b4203edc6dc6c34870872ff3526c096a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2011.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10877920,
+                    "persistentId": "",
+                    "filename": "2011.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5732085026,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f264cec8-1f2df2cb4b1c",
+                    "rootDataFileId": -1,
+                    "md5": "fbe036c95e8e1023b82ad031c5b9b705",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fbe036c95e8e1023b82ad031c5b9b705"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2012.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10877923,
+                    "persistentId": "",
+                    "filename": "2012.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5747784042,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f26bcbe3-9549331ce4d3",
+                    "rootDataFileId": -1,
+                    "md5": "fac55a70cf7870afcec5958c1a22974f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fac55a70cf7870afcec5958c1a22974f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2013.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10877951,
+                    "persistentId": "",
+                    "filename": "2013.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5735772827,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f275adbb-7b2b103edc5b",
+                    "rootDataFileId": -1,
+                    "md5": "39a8651c32b7f6bb5d381546e3f94ea3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "39a8651c32b7f6bb5d381546e3f94ea3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2014.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10877954,
+                    "persistentId": "",
+                    "filename": "2014.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5737857663,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f29cf5fa-f9f93dc03393",
+                    "rootDataFileId": -1,
+                    "md5": "b5a28244cdee7b15c6b2d92fc6b08cac",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b5a28244cdee7b15c6b2d92fc6b08cac"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2015.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10877955,
+                    "persistentId": "",
+                    "filename": "2015.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5732026313,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f29cf725-4c7fc6c3a9a9",
+                    "rootDataFileId": -1,
+                    "md5": "626a08be39fe8f9d7f6136ee37b94e77",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "626a08be39fe8f9d7f6136ee37b94e77"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2017.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10878012,
+                    "persistentId": "",
+                    "filename": "2017.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5734482706,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f2a8c5a9-a748c02e4855",
+                    "rootDataFileId": -1,
+                    "md5": "401f26922cc42866cbe1b12988952c33",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "401f26922cc42866cbe1b12988952c33"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2016.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10878011,
+                    "persistentId": "",
+                    "filename": "2016.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5749248273,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f2a8c46b-82c8af269004",
+                    "rootDataFileId": -1,
+                    "md5": "44b3df7ebfbb908e2b3bb56637698625",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "44b3df7ebfbb908e2b3bb56637698625"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2018.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10878013,
+                    "persistentId": "",
+                    "filename": "2018.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5737179898,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f2b30593-56a69f6016ff",
+                    "rootDataFileId": -1,
+                    "md5": "f2901dc395921bbe176bedd96c5d58fa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f2901dc395921bbe176bedd96c5d58fa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2019.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10878014,
+                    "persistentId": "",
+                    "filename": "2019.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5743429646,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f2b306c5-5c307dad2cae",
+                    "rootDataFileId": -1,
+                    "md5": "02bca63107ad0d5905d33110fd928117",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "02bca63107ad0d5905d33110fd928117"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "2020.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 426249,
+                "dataFile": {
+                    "id": 10878044,
+                    "persistentId": "",
+                    "filename": "2020.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5757838987,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194f2bedb13-1c0ab307a450",
+                    "rootDataFileId": -1,
+                    "md5": "081072cdbb2bfbfba16200d4e23cd048",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "081072cdbb2bfbfba16200d4e23cd048"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-10",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443907,
+        "datasetId": 10877674,
+        "datasetPersistentId": "doi:10.17603/DS2-SER9-8521",
+        "storageIdentifier": "s3://10.17603/ds2-ser9-8521",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:04:22Z",
+        "releaseTime": "2025-05-05T12:14:21Z",
+        "createTime": "2025-05-06T23:04:22Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Microtremor Horizontal-to-Vertical Spectral Ratio (mHVSR) Data Collection at Tarzana, 2022 in Microtremor Measurements Performed Within Southern California"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4615"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nweke, Chukwuebuka"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Buckreis, Tristan"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ornelas, Francisco-Javier"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "El Caballero country club is situated in Tarzana, which is a neighborhood in the San Fernando Valley (SFV) region of Los Angeles, CA. This area experiences seismic activity due to its proximity to the many faults within the SFV. In an effort to better understand the geology and also aid in future site response model development, microtremor Horizontal-to-Vertical Spectral Ratio (mHVSR) surveys were performed specifically near vertical arrays. Collaborative research between the University of Southern California (USC) and the University of California, Los Angeles (UCLA) have performed mHVSR surveys at 15 areas near the golf course area. The HVSR spectra developed using this dataset may be accessed in the United States Community Shear-Wave Velocity (VS) Profile Database (PDB) (https://vspdb.org). This work was supported by the Sonny Astani Department of Civil and Environmental Engineering at the Viterbi School of Engineering, University of Southern California(USC)."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Microtremor Horizontal-to-Vertical Spectral Ratios (mHVSR) are derived from ratios of the horizontal and vertical components of a Fourier Amplitude Spectra (FAS) from a 3-component recording of microtremors. This is done by recording ground vibrations either from a temporarily-deployed broadband seismometer, typically recording for a relatively short period of time (~1-2 hrs.), or from a permanently-installed broadband seismometer for a longer period of time. mHVSR can be very useful in identifying resonant frequencies where peaks in mHVSR represent resonance from impedance contrasts at a site. Many studies have found that the lowest resonant peak found in mHVSR is associated with the fundamental frequency of site. This study aims to perform mHVSR surveys at various sites in southern California to aid in the development of site response models by utilizing mHVSR to inform them and to also aid in the development of a large publicly accessible database for use in furthering research using mHVSR. This work will aid in a larger project associated with another DesignSafe doi (PRJ-4064). The database has been established and is available in the United States Community Shear-Wave Velocity (VS) Profile Database (PDB) (https://vspdb.org); the work presented in this doi is contributing to this database."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Microtremor"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mHVSR"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Time Series"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Site Characterization"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Southern California (usc.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of California Los Angeles (ucla.edu)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/Tarzana, Los Angeles, CA"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

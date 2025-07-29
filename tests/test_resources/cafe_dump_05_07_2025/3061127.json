@@ -1,0 +1,168 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 129547,
+        "datasetId": 3061127,
+        "datasetPersistentId": "doi:10.7910/DVN/T3ET5M",
+        "storageIdentifier": "s3://10.7910/DVN/T3ET5M",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:0eEMi/4TsNieDjrW7elwNA==",
+        "lastUpdateTime": "2025-04-21T20:00:39Z",
+        "releaseTime": "2025-04-21T20:00:39Z",
+        "createTime": "2017-10-19T20:14:55Z",
+        "publicationDate": "2025-04-21",
+        "citationDate": "2025-04-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Percent of individuals ages 3 and older who use an Internet-connected mobile telephone"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Telecommunications and Information Administration"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Obtained from the Digital Nation Data Explorer. Data Explorer enables tracking of metrics about computer and Internet use over time. It allows metrics to be broken down by demographics and by state and viewed as either percentages of the population or estimated numbers of people or households."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Business and Management",
+                            "Computer and Information Science"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Internet use"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mobile phone use"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "producer",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "producerName": {
+                                    "typeName": "producerName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Telecommunications and Information Administration"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "internet_enabled_mobile_phone_use_by_gender.tab",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129547,
+                "dataFile": {
+                    "id": 3061128,
+                    "persistentId": "",
+                    "filename": "internet_enabled_mobile_phone_use_by_gender.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 652,
+                    "storageIdentifier": "s3://dvn-cloud:15f3646125a-22ef88fc1d3f",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 31349,
+                    "originalFileName": "internet_enabled_mobile_phone_use_by_gender.xlsx",
+                    "UNF": "UNF:6:0eEMi/4TsNieDjrW7elwNA==",
+                    "rootDataFileId": -1,
+                    "md5": "05456f328fd7377b159c96a0ce0955fb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "05456f328fd7377b159c96a0ce0955fb"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-10-19",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,1319 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437706,
+        "datasetId": 10787292,
+        "datasetPersistentId": "doi:10.7910/DVN/WQST09",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/WQST09",
+        "versionNumber": 1,
+        "versionMinorNumber": 2,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2024-12-17",
+        "lastUpdateTime": "2025-02-19T19:49:03Z",
+        "releaseTime": "2025-02-19T19:49:03Z",
+        "createTime": "2025-02-19T19:48:53Z",
+        "publicationDate": "2025-01-02",
+        "citationDate": "2025-01-02",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: IRS Migration Data"
+                    },
+                    {
+                        "typeName": "subtitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Statistics of Income (SOI) Tax Stats"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Internal Revenue Service (IRS) Statistics of Income (SOI) program"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Internal Revenue Service (IRS) Statistics of Income (SOI) program"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information:\n<br> <br>\nIRS Statistics of Income (SOI) program. SOI tax stats - Migration data. Internal Revenue Service (IRS). July 29, 2024. Accessed December 17, 2024. https://www.irs.gov/statistics/soi-tax-stats-migration-data\n<br><br>\nIf you have questions about this metadata entry, please contact the CAFE team at climatecafe@bu.edu.\n<br><br>\n\nMigration data for the United States are based on year-to-year address changes reported on individual income tax returns filed with the IRS. They present migration patterns by State or by county for the entire United States and are available for inflows\u2014the number of new residents who moved to a State or county and where they migrated from, and outflows\u2014the number of residents leaving a State or county and where they went. The data are available for Filing Years 1991 through 2022.\n\nQuote from <a href=\"https://www.irs.gov/statistics/soi-tax-stats-migration-data\">https://www.irs.gov/statistics/soi-tax-stats-migration-data</a>"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-17"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Migration"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change and Human Health Glossary"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Migration"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nIRS Migration Data was downloaded by Emma Gause on Dec, 17 2024."
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Emma Gause"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-12-17"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gause, Emma"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-12-17"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1990-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please\u00a0contact\u00a0us."
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "County",
+                            "State"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "IRS Migration Data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Internal Revenue Service (IRS) Statistics of Income (SOI) program"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Internal Revenue Service (IRS)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.irs.gov/statistics/soi-tax-stats-migration-data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-07-29"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-12-17"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Government administrative data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Annual"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "IRS Statistics of Income (SOI) program. SOI tax stats - Migration data. Internal Revenue Service (IRS). July 29, 2024. Accessed December 17, 2024. https://www.irs.gov/statistics/soi-tax-stats-migration-data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Important: Beginning with data for 2011\u20132012, SOI has introduced a number of enhancements to improve the data\u2019s overall quality, as well as provide a new series of information. For more information, see \u201cSOI migration data: A new approach\" PDF in files."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSpatialFileTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "csv with county FIPS codes"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Climate Migration"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "2012-2013 migration data",
+                "label": "1213migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787531,
+                    "persistentId": "",
+                    "filename": "1213migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 11988670,
+                    "description": "2012-2013 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d6197da5-8af52ea58a9c",
+                    "rootDataFileId": -1,
+                    "md5": "a44daea8051dec30ac73a05c2d964d23",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a44daea8051dec30ac73a05c2d964d23"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2013-2014 migration data",
+                "label": "1314migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787545,
+                    "persistentId": "",
+                    "filename": "1314migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8584878,
+                    "description": "2013-2014 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d6197edc-5b80779cc4a8",
+                    "rootDataFileId": -1,
+                    "md5": "64aaf69ef6c35f54873d34166cfdf42a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "64aaf69ef6c35f54873d34166cfdf42a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1995-1996 migration data",
+                "label": "1995to1996CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787554,
+                    "persistentId": "",
+                    "filename": "1995to1996CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8893316,
+                    "description": "1995-1996 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619c947-78207e814670",
+                    "rootDataFileId": -1,
+                    "md5": "ba08baf6bb5f5117ac4366d9792ce871",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ba08baf6bb5f5117ac4366d9792ce871"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2017-2018 migration data",
+                "label": "1718migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787540,
+                    "persistentId": "",
+                    "filename": "1718migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8530836,
+                    "description": "2017-2018 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619aa10-caf0b0fa68dd",
+                    "rootDataFileId": -1,
+                    "md5": "ee4f29247caac3e4faa716f8a0952eca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ee4f29247caac3e4faa716f8a0952eca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2009-2010 migration data",
+                "label": "county0910.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787559,
+                    "persistentId": "",
+                    "filename": "county0910.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 12907233,
+                    "description": "2009-2010 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d61a10ed-5226b847e756",
+                    "rootDataFileId": -1,
+                    "md5": "b5a05c5b614ffe54e860c5be9d0c4c2b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b5a05c5b614ffe54e860c5be9d0c4c2b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1997-1998 migration data",
+                "label": "1997to1998CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787532,
+                    "persistentId": "",
+                    "filename": "1997to1998CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8552358,
+                    "description": "1997-1998 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619ca8d-c748c249d770",
+                    "rootDataFileId": -1,
+                    "md5": "f15cb878a25addaf51b23bcddb082d0a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f15cb878a25addaf51b23bcddb082d0a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2008-2009 migration data",
+                "label": "county0809.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787558,
+                    "persistentId": "",
+                    "filename": "county0809.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 15315082,
+                    "description": "2008-2009 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d61a1216-4b0b86eb61dc",
+                    "rootDataFileId": -1,
+                    "md5": "eb0891bdcf180960d65536ccf4bd5400",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eb0891bdcf180960d65536ccf4bd5400"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2004-2005 migration data",
+                "label": "county0405.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787552,
+                    "persistentId": "",
+                    "filename": "county0405.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 12736551,
+                    "description": "2004-2005 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619f827-26c37b225036",
+                    "rootDataFileId": -1,
+                    "md5": "eef4d1dda4ecb1f85c1b7f073f70f5d6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eef4d1dda4ecb1f85c1b7f073f70f5d6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2018-2019 migration data",
+                "label": "1819migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787555,
+                    "persistentId": "",
+                    "filename": "1819migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8624202,
+                    "description": "2018-2019 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619ac0e-3c6c63d551ec",
+                    "rootDataFileId": -1,
+                    "md5": "4c1a70a7f46cee4343dc728cdb9360e2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4c1a70a7f46cee4343dc728cdb9360e2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "soi-a-inmig-id1509.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787293,
+                    "persistentId": "",
+                    "filename": "soi-a-inmig-id1509.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 210962,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5d1768a-089231d815e3",
+                    "rootDataFileId": -1,
+                    "md5": "6363770c885f09a8b677637e92618e28",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6363770c885f09a8b677637e92618e28"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1999-2000 migration data",
+                "label": "1999to2000CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787542,
+                    "persistentId": "",
+                    "filename": "1999to2000CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8775787,
+                    "description": "1999-2000 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619d7d3-d05e390d46f3",
+                    "rootDataFileId": -1,
+                    "md5": "a85c10854d7a769a53d4307be690d7fa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a85c10854d7a769a53d4307be690d7fa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2007-2008 migration data",
+                "label": "county0708.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787533,
+                    "persistentId": "",
+                    "filename": "county0708.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 13571850,
+                    "description": "2007-2008 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d61a1006-dcf29548cdd5",
+                    "rootDataFileId": -1,
+                    "md5": "34818e99f52139c8052b1ad187bbe25d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "34818e99f52139c8052b1ad187bbe25d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2019-2020 migration data",
+                "label": "1920migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787551,
+                    "persistentId": "",
+                    "filename": "1920migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8979642,
+                    "description": "2019-2020 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619b7df-f92bf27bad67",
+                    "rootDataFileId": -1,
+                    "md5": "a46330b38c878153256a9f233659ba94",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a46330b38c878153256a9f233659ba94"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "SOI tax stats - Migration data _ Internal Revenue Service.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787295,
+                    "persistentId": "",
+                    "filename": "SOI tax stats - Migration data _ Internal Revenue Service.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 85284,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5d177b8-0adec65e2570",
+                    "rootDataFileId": -1,
+                    "md5": "ab32547123e18da45ed7c4e23626f3e4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ab32547123e18da45ed7c4e23626f3e4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2020-2021 migration data",
+                "label": "2021migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787560,
+                    "persistentId": "",
+                    "filename": "2021migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 14066285,
+                    "description": "2020-2021 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619e7b9-fdce4a8dfce4",
+                    "rootDataFileId": -1,
+                    "md5": "eb473fb6c9f8937c74a5cbfaeeb3b5d7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eb473fb6c9f8937c74a5cbfaeeb3b5d7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2002-2003 migration data",
+                "label": "2002to2003CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787553,
+                    "persistentId": "",
+                    "filename": "2002to2003CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8801387,
+                    "description": "2002-2003 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619e475-97707c395e2c",
+                    "rootDataFileId": -1,
+                    "md5": "e28184721cfdc70a2e8b07aff5f02567",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e28184721cfdc70a2e8b07aff5f02567"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2015-2016 migration data",
+                "label": "1516migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787556,
+                    "persistentId": "",
+                    "filename": "1516migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8838613,
+                    "description": "2015-2016 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619ab24-0bed5eeb2827",
+                    "rootDataFileId": -1,
+                    "md5": "a595945ca79b3fe14afa9135696b2d98",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a595945ca79b3fe14afa9135696b2d98"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "99gross_update.doc",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787294,
+                    "persistentId": "",
+                    "filename": "99gross_update.doc",
+                    "contentType": "application/msword",
+                    "friendlyType": "MS Word",
+                    "filesize": 65536,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d5d17a13-dc56a5fd6f9a",
+                    "rootDataFileId": -1,
+                    "md5": "51b4fbcab43018d0c89b464ac989065f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "51b4fbcab43018d0c89b464ac989065f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2014-2015 migration data",
+                "label": "1415migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787539,
+                    "persistentId": "",
+                    "filename": "1415migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7875395,
+                    "description": "2014-2015 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619800d-e7676e8619fd",
+                    "rootDataFileId": -1,
+                    "md5": "2b17da64af5fc8bf9fef5309806d394a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2b17da64af5fc8bf9fef5309806d394a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2016-2017 migration data",
+                "label": "1617migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787544,
+                    "persistentId": "",
+                    "filename": "1617migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 9898953,
+                    "description": "2016-2017 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619ad2e-9728f1e27d8a",
+                    "rootDataFileId": -1,
+                    "md5": "c761eb002daa785c70bced505071de54",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c761eb002daa785c70bced505071de54"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2021-2022 migration data",
+                "label": "2122migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787546,
+                    "persistentId": "",
+                    "filename": "2122migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 14169595,
+                    "description": "2021-2022 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619fb2f-64d260f12db8",
+                    "rootDataFileId": -1,
+                    "md5": "fd19e0468a8d38cb114f9dca5fd98c65",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fd19e0468a8d38cb114f9dca5fd98c65"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2003-2004 migration data",
+                "label": "2003to2004CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787543,
+                    "persistentId": "",
+                    "filename": "2003to2004CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8677279,
+                    "description": "2003-2004 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619e6d5-669efe3568c2",
+                    "rootDataFileId": -1,
+                    "md5": "74faf88c94526c0258744e030d5e677f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "74faf88c94526c0258744e030d5e677f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2011-2012 migration data",
+                "label": "1112migrationdata.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787536,
+                    "persistentId": "",
+                    "filename": "1112migrationdata.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 11893428,
+                    "description": "2011-2012 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d6197c78-35d26a0ef66f",
+                    "rootDataFileId": -1,
+                    "md5": "aeb6accc88f380615e6a2fa68ad5251d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aeb6accc88f380615e6a2fa68ad5251d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1990-1991 migration data",
+                "label": "1990to1991CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787530,
+                    "persistentId": "",
+                    "filename": "1990to1991CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2653571,
+                    "description": "1990-1991 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619bb70-d7decd9b820c",
+                    "rootDataFileId": -1,
+                    "md5": "86f6a5e2c4c07b1bdab8ae7d38ced868",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "86f6a5e2c4c07b1bdab8ae7d38ced868"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2001-2002 migration data",
+                "label": "2001to2002CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787535,
+                    "persistentId": "",
+                    "filename": "2001to2002CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8886285,
+                    "description": "2001-2002 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619d8cd-1597d5d7dfc0",
+                    "rootDataFileId": -1,
+                    "md5": "129cc853219de6d8e6f964f160bce71c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "129cc853219de6d8e6f964f160bce71c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2000-2001 migration data",
+                "label": "2000to2001CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787541,
+                    "persistentId": "",
+                    "filename": "2000to2001CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8960211,
+                    "description": "2000-2001 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619d9e6-3b0d55f56a7a",
+                    "rootDataFileId": -1,
+                    "md5": "943039453826f2cd06974ad90a1435d6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "943039453826f2cd06974ad90a1435d6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1992-1993 migration data",
+                "label": "1992to1993CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787534,
+                    "persistentId": "",
+                    "filename": "1992to1993CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7522121,
+                    "description": "1992-1993 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619bdbb-b731cf3df8b7",
+                    "rootDataFileId": -1,
+                    "md5": "68995acfdb55a34cfebee4f1fe1c7809",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "68995acfdb55a34cfebee4f1fe1c7809"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2005-2006 migration data",
+                "label": "county0506.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787548,
+                    "persistentId": "",
+                    "filename": "county0506.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 13170985,
+                    "description": "2005-2006 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619fa21-5f235afdbc03",
+                    "rootDataFileId": -1,
+                    "md5": "013e31648937bc27b5e2f08c5072414e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "013e31648937bc27b5e2f08c5072414e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1998-1999 migration data",
+                "label": "1998to1999CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787549,
+                    "persistentId": "",
+                    "filename": "1998to1999CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8684976,
+                    "description": "1998-1999 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619ce19-82989d9c1d1a",
+                    "rootDataFileId": -1,
+                    "md5": "1bda9a14922f5dbcba61e28f68b8b0d6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1bda9a14922f5dbcba61e28f68b8b0d6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2006-2007 migration data",
+                "label": "county0607.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787538,
+                    "persistentId": "",
+                    "filename": "county0607.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 13034645,
+                    "description": "2006-2007 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619fc83-b6a0adcebd90",
+                    "rootDataFileId": -1,
+                    "md5": "b6e4fc161a4afdc050f205a616403d03",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b6e4fc161a4afdc050f205a616403d03"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1991-1992 migration data",
+                "label": "1991to1992CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787550,
+                    "persistentId": "",
+                    "filename": "1991to1992CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2674188,
+                    "description": "1991-1992 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619bc56-4bf68e81f0fd",
+                    "rootDataFileId": -1,
+                    "md5": "a5fbec35bc25feec83dae11edf00ba45",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a5fbec35bc25feec83dae11edf00ba45"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1993-1994 migration data",
+                "label": "1993to1994CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787547,
+                    "persistentId": "",
+                    "filename": "1993to1994CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6266636,
+                    "description": "1993-1994 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619c4d6-5f9e92547c26",
+                    "rootDataFileId": -1,
+                    "md5": "b0ce483fb210dee1fc29e368db9ae376",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b0ce483fb210dee1fc29e368db9ae376"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "2010-2011 migration data",
+                "label": "county1011.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787557,
+                    "persistentId": "",
+                    "filename": "county1011.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 13305185,
+                    "description": "2010-2011 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d61a1304-bc84975c954f",
+                    "rootDataFileId": -1,
+                    "md5": "376775ceec1c6a6190e9901c4dcfe7a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "376775ceec1c6a6190e9901c4dcfe7a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "1994-1995 migration data",
+                "label": "1994to1995CountyMigration.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437706,
+                "dataFile": {
+                    "id": 10787537,
+                    "persistentId": "",
+                    "filename": "1994to1995CountyMigration.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7598523,
+                    "description": "1994-1995 migration data",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:193d619c6e7-384547a32b02",
+                    "rootDataFileId": -1,
+                    "md5": "b92b50dc269b5fc91b1ee5f6c591377c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b92b50dc269b5fc91b1ee5f6c591377c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-12-17",
+                    "publicationDate": "2025-01-02",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

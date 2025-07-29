@@ -1,0 +1,503 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 418709,
+        "datasetId": 8147395,
+        "datasetPersistentId": "doi:10.7910/DVN/N3IEXS",
+        "storageIdentifier": "s3://10.7910/DVN/N3IEXS",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2024-05-03T18:28:21Z",
+        "releaseTime": "2024-05-03T18:28:21Z",
+        "createTime": "2024-05-03T18:27:33Z",
+        "publicationDate": "2024-02-01",
+        "citationDate": "2024-02-01",
+        "license": {
+            "name": "CC BY 4.0",
+            "uri": "http://creativecommons.org/licenses/by/4.0",
+            "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Time Series of US Census Bureau Variables"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sardana, Nishtha"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Audirac, Michelle"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0001-5889-6768"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Audirac, Michelle"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "maudirac@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "<p>This dataset, sourced from the <a href=\"https://www.census.gov/\">United States Census Bureau</a>, presents time series data at the county, ZCTA, and state levels. It includes a select number of variables from the <strong>American Community Survey (ACS) 1-Year Estimates</strong>, <strong>ACS 5-Year Estimates</strong>, and the <strong>Decennial Census (SF1)</strong>. A key feature of this dataset is the harmonization of variable codes across the different years and surveys, ensuring consistency and comparability over time.</p>\n\n<p>As a historical dataset designed for analysis, the cross year harmonization facilitates tracking changes over time and is useful for studies that look at long-term effects in areas like epidemiology, environmental health, and public policy.</p>\n\n<p>The <a href=\"https://www.census.gov/data/developers/data-sets/acs-1year.html\">ACS 1-Year Estimates</a> offer annual insights into current conditions, aiding timely analyses. The <a href=\"https://www.census.gov/data/developers/data-sets/acs-5year.html\">ACS 5-Year Estimates</a> provide increased statistical reliability for analyzing smaller populations and areas by pooling data over five years. The Decennial Census, with datasets for 2000, 2010, and 2020 available through the <a href=\"https://www.census.gov/data/developers/data-sets/decennial-census.2000.html#list-tab-533552149\">Census API</a>, gives a decadal population count, serving as a foundational element for longitudinal studies.</p>"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "demographic data"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "demographic data"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://purl.obolibrary.org/obo/NCIT_C142508"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Social Determinants of Health (SDOH)"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Social Determinants of Health (SDOH)"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/?keyword=demographic&termOnlySearch=false&exactSearch=false#:~:text=Social%20Determinants%20of%20Health%20(SDOH)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Audirac, Michelle"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-02-01"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2000-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2019-12-31"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "zcta",
+                            "county",
+                            "state"
+                        ]
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Snakemake"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/NSAPH-Data-Processing/census_series"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowDocumentation",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/NSAPH-Data-Processing/census_series/blob/main/README.md"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "US Census Bureau API"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://api.census.gov"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Survey data"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "sf1_state.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418709,
+                "dataFile": {
+                    "id": 8147409,
+                    "persistentId": "",
+                    "filename": "sf1_state.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 6503,
+                    "storageIdentifier": "s3://dvn-cloud:18d64479759-50bf0d91fcfe",
+                    "rootDataFileId": -1,
+                    "md5": "2830817c7f0c6a123f176b193ae2b184",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2830817c7f0c6a123f176b193ae2b184"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-02-01",
+                    "publicationDate": "2024-02-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "acs5_state.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418709,
+                "dataFile": {
+                    "id": 8147411,
+                    "persistentId": "",
+                    "filename": "acs5_state.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 32772,
+                    "storageIdentifier": "s3://dvn-cloud:18d6447704a-f67fb78b3cf2",
+                    "rootDataFileId": -1,
+                    "md5": "befbb887437fd6465daf8a32278bfec2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "befbb887437fd6465daf8a32278bfec2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-02-01",
+                    "publicationDate": "2024-02-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "sf1_county.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418709,
+                "dataFile": {
+                    "id": 8147413,
+                    "persistentId": "",
+                    "filename": "sf1_county.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 235149,
+                    "storageIdentifier": "s3://dvn-cloud:18d644796f9-90d0184b0a7b",
+                    "rootDataFileId": -1,
+                    "md5": "63137b1260998da3f0dff14de2de4c04",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "63137b1260998da3f0dff14de2de4c04"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-02-01",
+                    "publicationDate": "2024-02-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "acs5_county.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418709,
+                "dataFile": {
+                    "id": 8147412,
+                    "persistentId": "",
+                    "filename": "acs5_county.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 1970045,
+                    "storageIdentifier": "s3://dvn-cloud:18d64476fd6-8fd94085e372",
+                    "rootDataFileId": -1,
+                    "md5": "5a57de3234b1aceab5e6766669c897b2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5a57de3234b1aceab5e6766669c897b2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-02-01",
+                    "publicationDate": "2024-02-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "acs1_county.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418709,
+                "dataFile": {
+                    "id": 8147414,
+                    "persistentId": "",
+                    "filename": "acs1_county.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 564685,
+                    "storageIdentifier": "s3://dvn-cloud:18d64476650-d020cfd0d726",
+                    "rootDataFileId": -1,
+                    "md5": "110a740cdaeeeea623fc9d41b0002991",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "110a740cdaeeeea623fc9d41b0002991"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-02-01",
+                    "publicationDate": "2024-02-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "acs5_zcta.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418709,
+                "dataFile": {
+                    "id": 8147410,
+                    "persistentId": "",
+                    "filename": "acs5_zcta.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 14194342,
+                    "storageIdentifier": "s3://dvn-cloud:18d644795f1-edef6437c9b4",
+                    "rootDataFileId": -1,
+                    "md5": "28fcfbeb69db67b427f6612faaa83a1b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "28fcfbeb69db67b427f6612faaa83a1b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-02-01",
+                    "publicationDate": "2024-02-01",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "acs1_state.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 418709,
+                "dataFile": {
+                    "id": 8147408,
+                    "persistentId": "",
+                    "filename": "acs1_state.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 37899,
+                    "storageIdentifier": "s3://dvn-cloud:18d64476806-1d1ba7188ce7",
+                    "rootDataFileId": -1,
+                    "md5": "8a05dd75b909e087ffc361f706763932",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8a05dd75b909e087ffc361f706763932"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-02-01",
+                    "publicationDate": "2024-02-01",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

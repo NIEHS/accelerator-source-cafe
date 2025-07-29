@@ -1,0 +1,152 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 62155,
+        "datasetId": 60634,
+        "datasetPersistentId": "doi:10.7910/DVN/IMWQPJ",
+        "storageIdentifier": "s3://10.7910/DVN/IMWQPJ",
+        "versionNumber": 2,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionNote": "",
+        "deaccessionLink": "",
+        "distributionDate": "2013",
+        "lastUpdateTime": "2013-05-31T05:58:26Z",
+        "releaseTime": "2013-05-31T00:00:00Z",
+        "createTime": "2013-05-24T04:34:03Z",
+        "alternativePersistentId": "hdl:1902.1/21520",
+        "publicationDate": "2013-05-21",
+        "citationDate": "2013-05-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National Health and Nutrition Examination Survey (NHANES)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Damico, Anthony"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ajdamico@gmail.com"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "<h3 class=\"post-title entry-title\" itemprop=\"name\"> analyze the national health and nutrition examination survey (nhanes) with r </h3> nhanes is this fascinating survey where doctors and dentists accompany survey interviewers in a little mobile medical center that drives around the country.  while the survey folks are interviewing people, the medical professionals administer laboratory tests and conduct a real doctor's examination.  <a href=\"http://www.cdc.gov/nchs/data/nhanes/meccomp.pdf\">the b\nlood work and medical exam</a> allow researchers like you and me to answer tough questions like, \"how many people have diabetes but don't know they have diabetes?\"<br /> <br /> conducting the lab tests and the physical isn't cheap, so a new nhanes data set becomes available once every two years and only includes about twelve thousand respondents.  since the number of respondents is so small, analysts often pool multiple years of data together.  the replication scripts below give a few different\nexamples of how multiple years of data can be pooled with r.<br /> <br /> the survey gets conducted by <a href=\"http://www.cdc.gov/\">the centers for disease control and prevention (cdc)</a>, and generalizes to the united states non-institutional, non-active duty military population.<br /> <br /> most of the data tables produced by the cdc include only a small number of variables, so importation with the foreign package's <a href=\"http://stat.ethz.ch/R-manual/R-devel/library/foreign/html/read.xpo\nrt.html\">read.xport</a> function is pretty straightforward.  but that makes merging the appropriate data sets trickier, since it might not be clear what to pull for which variables.  for every analysis, start with the table with 'demo' in the name -- this file includes basic demographics, weighting, and complex sample survey design variables.  since it's quick to download the files directly from the cdc's ftp site, there's no massive ftp download automation script.  this new github repository co\nntains five scripts:<br /> <br /> <b>2009-2010 interview only - download and analyze.R</b><br /> <ul> <li>download, import, save the demographics and health insurance files onto your local computer</li> <li>load both files, limit them to the variables needed for the analysis, merge them together</li> <li>perform a few example variable recodes</li> <li>create the complex sample survey object, using the interview weights</li> <li>run a series of pretty generic analyses on the health insurance ques\ntions</li> </ul> <br /> <b>2009-2010 interview plus laboratory - download and analyze.R</b><br /> <ul> <li>download, import, save the demographics and cholesterol files onto your local computer</li> <li>load both files, limit them to the variables needed for the analysis, merge them together</li> <li>perform a few example variable recodes</li> <li>create the complex sample survey object, using the mobile examination component (mec) weights</li> <li>perform a direct-method age-adjustment and matc\nh <a href=\"http://www.cdc.gov/nchs/data/databriefs/db92.pdf\">figure 1 of this cdc cholesterol brief</a></li> </ul> <br /> <b>replicate 2005-2008 pooled cdc oral examination figure.R</b><br /> <ul> <li>download, import, save, pool, recode, create a survey object, run some basic analyses</li> <li>replicate <a href=\"http://www.cdc.gov/nchs/data/databriefs/db96.pdf\">figure 3 from this cdc oral health databrief</a> - the whole <a href=\"http://stat.ethz.ch/R-manual/R-devel/library/graphics/html/barplo\nt.html\">barplot</a></li> </ul> <br /> <b>replicate cdc publications.R</b><br /> <ul> <li>download, import, save, pool, merge, and recode the demographics file plus cholesterol laboratory, blood pressure questionnaire, and blood pressure laboratory files</li> <li>match the cdc's example sas and sudaan syntax file's <a href=\"http://www.cdc.gov/nchs/tutorials/nhanes/downloads/Continuous/descriptive_means_sas.pdf\">output for descriptive means</a></li> <li>match the cdc's example sas and sudaan synta\nx file's <a href=\"http://www.cdc.gov/nchs/tutorials/nhanes/downloads/Continuous/descriptive_proportion.pdf\">output for descriptive proportions</a></li> <li>match the cdc's example sas and sudaan syntax file's <a href=\"http://www.cdc.gov/nchs/tutorials/nhanes/downloads/Continuous/descriptive_percentile.pdf\">output for descriptive percentiles</a></li> </ul> <br /> <b>replicate human exposure to chemicals report.R</b> <span style=\"background-color: yellow;\">(user-contributed)</span><br /> <ul> <li>\ndownload, import, save, pool, merge, and recode the demographics  file plus urinary bisphenol a (bpa) laboratory files\n</li> <li>log-transform some of the columns to calculate the geo<a href=\"http://www.cdc.gov/nchs/tutorials/nhanes/downloads/Continuous/descriptive_means_sas.pdf\"></a>metric means and quantiles</li> <li>match the 2007-2008 statistics shown on pdf page 21 of <a href=\"http://www.cdc.gov/exposurereport/pdf/FourthReport_UpdatedTables_Sep2012.pdf#page=21\">the cdc's fourth edition of the report</a></li> </ul> <br /> <br /> <a href=\"https://github.com/ajdamico/usgsd/tree/master/National%20Health%20and%2\n0Nutrition%20Examination%20Survey\">click here to view these five scripts\n</a><br /> <br /> <br /> for more detail about the national health and nutrition examination survey (nhanes), visit:<br /> <ul> <li><a href=\"http://www.cdc.gov/nchs/nhanes.htm\">the cdc's nhanes homepage</a></li> <li><a href=\"http://riskfactor.cancer.gov/tools/nhanes_tutorial.html\">the national cancer institute's page of nhanes web tutorials</a></li> </ul> <br /> <br /> notes:<br /> <br /> nhanes includes interview-only weights and interview + mobile examination component (mec) weights.  if you o\nnly use questions from the basic interview in your analysis, use the interview-only weights (the sample size is\na bit larger).  i haven't really figured out a use for the interview-only weights -- nhanes draws most of its power from the combination of the interview and the mobile examination component variables.  if you're only using variables from the interview, see if you can use a data set with a larger sample size like the\n<a href=\"http://usgsd.blogspot.com/search/label/current%20population%20survey%20%28cps%29\">current population (cps)</a>, <a href=\"http://usgsd.blogspot.com/search/label/national%20health%20interview%20survey%20%28nhis%29\">national health interview survey (nhis)</a>, or <a href=\"http://usgsd.blogspot.com/search/label/medical%20expenditure%20panel%20survey%20%28meps%29\">medical expenditure panel survey (meps)</a> instead.<br /> <br /> <br /> confidential to sas, spss, stata, sudaan users: why are\nyou still riding around on a donkey after we've invented the internal combustion engine?  time to transition to r.  :D"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "producer",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "producerName": {
+                                    "typeName": "producerName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Anthony Damico"
+                                },
+                                "producerURL": {
+                                    "typeName": "producerURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://www.asdfree.com/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "IQSS Dataverse Network"
+                                },
+                                "distributorURL": {
+                                    "typeName": "distributorURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://dvn.iq.harvard.edu"
+                                },
+                                "distributorLogoURL": {
+                                    "typeName": "distributorLogoURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://dvn.iq.harvard.edu/images/iqss-logo-background.png"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2013"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2013"
+                    }
+                ]
+            }
+        },
+        "files": []
+    }
+}

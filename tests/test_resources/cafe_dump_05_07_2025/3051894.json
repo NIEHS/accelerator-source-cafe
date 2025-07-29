@@ -1,0 +1,402 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 128735,
+        "datasetId": 3051894,
+        "datasetPersistentId": "doi:10.7910/DVN/TDJ2QS",
+        "storageIdentifier": "s3://10.7910/DVN/TDJ2QS",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-21T19:55:37Z",
+        "releaseTime": "2025-04-21T19:55:37Z",
+        "createTime": "2017-09-14T00:35:04Z",
+        "publicationDate": "2025-04-21",
+        "citationDate": "2025-04-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Annual Estimates of the Resident Population, 2010 - 2016"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Census Burea"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data from 2015 American Community Survey 1-Year Estimates, from Table S2402.\r\n\r\nConnected to SDG indicator 5.5.2 - Proportion of women in managerial positions\r\n\r\nSource: https://www.datarefuge.org/dataset/annual-estimates-of-the-resident-population-2010-2016"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2017-05-11"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Occupations"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States. Bureau of the Census"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NRP"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SDG"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sustainable Development Goals"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Occupations"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States. Bureau of the Census"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Census Bureau"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Boyd, Ceilyn"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-09-13"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Original ingest package for the dataset: Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2016 from the yearly Population Estimates. The estimates are based on the 2010 Census and reflect changes to the April 1, 2010 population due to the Count Question Resolution program and geographic program revisions.\r\n\r\nConnected to SDG indicator 3.c.1 - Health worker density and distribution\r\n\r\nSource: https://www.datarefuge.org/dataset/annual-estimates-of-the-resident-population-2010-2016",
+                "label": "Annual Estimates of the Resident Population_2010-2016_D95E7C96-5C9D-46A2-A9F4-CAB95FB23B8D.zip",
+                "restricted": false,
+                "version": 8,
+                "datasetVersionId": 128735,
+                "categories": [
+                    "Annual Estimates of the Resident Population, 2010-2016",
+                    "Ingest Package"
+                ],
+                "dataFile": {
+                    "id": 3051989,
+                    "persistentId": "",
+                    "filename": "Annual Estimates of the Resident Population_2010-2016_D95E7C96-5C9D-46A2-A9F4-CAB95FB23B8D.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 68431,
+                    "description": "Original ingest package for the dataset: Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2016 from the yearly Population Estimates. The estimates are based on the 2010 Census and reflect changes to the April 1, 2010 population due to the Count Question Resolution program and geographic program revisions.\r\n\r\nConnected to SDG indicator 3.c.1 - Health worker density and distribution\r\n\r\nSource: https://www.datarefuge.org/dataset/annual-estimates-of-the-resident-population-2010-2016",
+                    "categories": [
+                        "Annual Estimates of the Resident Population, 2010-2016",
+                        "Ingest Package"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15e8118d569-bcbd2e5edaf7",
+                    "rootDataFileId": -1,
+                    "md5": "f6c42bfeb5429a4bdebd3c8b592190b1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f6c42bfeb5429a4bdebd3c8b592190b1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-14",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Annual Estimates of the Resident Population, 2010 - 2016_PEP_2016_PEPANNRES.xls",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 128735,
+                "categories": [
+                    "Annual Estimates of the Resident Population, 2010-2016",
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 3067622,
+                    "persistentId": "",
+                    "filename": "Annual Estimates of the Resident Population, 2010 - 2016_PEP_2016_PEPANNRES.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 25088,
+                    "categories": [
+                        "Annual Estimates of the Resident Population, 2010-2016",
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f54644d44-c2ffa8ecac71",
+                    "rootDataFileId": -1,
+                    "md5": "2844937b04e66e4d95c0d587730098f0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2844937b04e66e4d95c0d587730098f0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Original ingest package documentation for the dataset: Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2016 from the yearly Population Estimates. The estimates are based on the 2010 Census and reflect changes to the April 1, 2010 population due to the Count Question Resolution program and geographic program revisions.\r\n\r\nConnected to SDG indicator 3.c.1 - Health worker density and distribution",
+                "label": "Annual Estimates of the Resident Population_2010-2016_d95e7c96-5c9d-46a2-a9f4-cab95fb23b8d.json",
+                "restricted": false,
+                "version": 9,
+                "datasetVersionId": 128735,
+                "categories": [
+                    "Annual Estimates of the Resident Population, 2010-2016",
+                    "Documentation",
+                    "Ingest Package"
+                ],
+                "dataFile": {
+                    "id": 3051990,
+                    "persistentId": "",
+                    "filename": "Annual Estimates of the Resident Population_2010-2016_d95e7c96-5c9d-46a2-a9f4-cab95fb23b8d.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 997,
+                    "description": "Original ingest package documentation for the dataset: Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2016 from the yearly Population Estimates. The estimates are based on the 2010 Census and reflect changes to the April 1, 2010 population due to the Count Question Resolution program and geographic program revisions.\r\n\r\nConnected to SDG indicator 3.c.1 - Health worker density and distribution",
+                    "categories": [
+                        "Annual Estimates of the Resident Population, 2010-2016",
+                        "Documentation",
+                        "Ingest Package"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15e8118d669-300b4c16bd24",
+                    "rootDataFileId": -1,
+                    "md5": "662cba6c16d2ffc6ff869c1c43a81d92",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "662cba6c16d2ffc6ff869c1c43a81d92"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-14",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

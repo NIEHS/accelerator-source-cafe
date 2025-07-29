@@ -1,0 +1,590 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437638,
+        "datasetId": 10831318,
+        "datasetPersistentId": "doi:10.7910/DVN/XRNMXK",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/XRNMXK",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:AiNBA6nn3MkLspUVzj1rYA==",
+        "lastUpdateTime": "2025-02-18T18:57:06Z",
+        "releaseTime": "2025-02-18T18:57:06Z",
+        "createTime": "2025-02-18T18:56:30Z",
+        "publicationDate": "2025-02-06",
+        "citationDate": "2025-02-06",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data from: Climate and Economic Justice Screening Tool 2.0 (CEJST / Justice40 2.0)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The Council on Environmental Quality (CEQ)"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Federal"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information. <br/> <br/> \nThis tool is called the Climate and Economic Justice Screening Tool. The tool uses datasets that are indicators of burdens in eight categories: climate change, energy, health, housing, legacy pollution, transportation, water and wastewater, and workforce development. The tool uses this information to identify communities that are experiencing these burdens. These are the communities that are disadvantaged because they are marginalized by underinvestment and overburdened by pollution.\n<br/><br/>\n\nCEQ will update the tool, after reviewing public feedback, research, and the availability of new data. \n<br/><br/>\nVersion 2.0 Release update - Dec 20, 2024\nNew & Improved\nAdded the low income burden to American Samoa, Guam, the Mariana Islands, and the U.S. Virgin Islands\nTracts in these territories that are completely surrounded by disadvantaged tracts and exceed an adjusted low income threshold are now considered disadvantaged\nAdditionally, census tracts in these four Territories are now considered disadvantaged if they meet the low income threshold only, because these Territories are not included in the nationally-consistent datasets on environmental and climate burdens used in the tool\nUpdated the data in the workforce development category to the Census Decennial 2020 data for the U.S. territories of Guam, Virgin Islands, Northern Mariana Islands, and American Samoa\nMade improvements to the low income burden to better identify college students before they are excluded from that burden\u2019s percentile\nCensus tracts that were disadvantaged under version 1.0 continue to be considered as disadvantaged in version 2.0\nTechnical Fixes\nFor tracts that have water boundaries, e.g. coastal or island tracts, the water boundaries are now excluded from the calculation to determine if a tract is 100% surrounded by disadvantaged census tracts\nUser Interface Improvements\nAdded the ability to search by census tract ID\nThe basemap has been updated to use a free, open source map"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences",
+                            "Social Sciences",
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Justice"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Yeager, Ray"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-17"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dateOfCollection",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dateOfCollectionStart": {
+                                    "typeName": "dateOfCollectionStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-17"
+                                },
+                                "dateOfCollectionEnd": {
+                                    "typeName": "dateOfCollectionEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-17"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us."
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Census Tract"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "\"USE LIMITATION: This project was funded by the United States Department of Energy, National Energy Technology Laboratory, in part, through a site support contract. Neither the United States Government nor any agency thereof, nor any of their employees, nor the support contractor, nor any of their employees, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights.  Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. The views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof.\" (Text from https://arcgis.netl.doe.gov/server/rest/services/Hosted/CCS_EJ_SJ_Data/FeatureServer/13/metadata?format=default&f=html)"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemName": {
+                                "typeName": "cafeSpatialReferenceSystemName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "WGS 1984"
+                            },
+                            "cafeSpatialReferenceSystemURL": {
+                                "typeName": "cafeSpatialReferenceSystemURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://epsg.io/4326"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Environmental Justice"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "readme-version-2.0.md",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831783,
+                    "persistentId": "",
+                    "filename": "readme-version-2.0.md",
+                    "contentType": "text/markdown",
+                    "friendlyType": "Markdown Text",
+                    "filesize": 1400,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194760ddc8b-ff98e9424556",
+                    "rootDataFileId": -1,
+                    "md5": "f871fd293e10240db5cdc720ed174f85",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f871fd293e10240db5cdc720ed174f85"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Shapefile 4 of 5",
+                "label": "usa.cpg",
+                "restricted": false,
+                "directoryLabel": "usa",
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831785,
+                    "persistentId": "",
+                    "filename": "usa.cpg",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 10,
+                    "description": "Shapefile 4 of 5",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194760ddeba-ea9cedb923de",
+                    "rootDataFileId": -1,
+                    "md5": "0e4bb4efc30ec129e5003a18ea2103cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0e4bb4efc30ec129e5003a18ea2103cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Shapefile 2 of 5",
+                "label": "usa.prj",
+                "restricted": false,
+                "directoryLabel": "usa",
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831778,
+                    "persistentId": "",
+                    "filename": "usa.prj",
+                    "contentType": "application/prj",
+                    "friendlyType": "ESRI Shapefile",
+                    "filesize": 145,
+                    "description": "Shapefile 2 of 5",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194760ddde5-19cf02064a57",
+                    "rootDataFileId": -1,
+                    "md5": "c742bee3d4edfc2948a2ad08de1790a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c742bee3d4edfc2948a2ad08de1790a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "CEJST 2.0 Shapefiles Codebook",
+                "label": "2.0-codebook.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831784,
+                    "persistentId": "",
+                    "filename": "2.0-codebook.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 45378,
+                    "description": "CEJST 2.0 Shapefiles Codebook",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194760ddbb9-356761c57849",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 42050,
+                    "originalFileName": "2.0-codebook.csv",
+                    "UNF": "UNF:6:tB7DMnufx/3t9e7xeCVIFA==",
+                    "rootDataFileId": -1,
+                    "md5": "9b9f5a14b731930ec940ae1972935000",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9b9f5a14b731930ec940ae1972935000"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Technical details and data sources",
+                "label": "cejst-technical-support-document.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831386,
+                    "persistentId": "",
+                    "filename": "cejst-technical-support-document.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 793196,
+                    "description": "Technical details and data sources",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19475fdda90-46a7825ca3e1",
+                    "rootDataFileId": -1,
+                    "md5": "c47c541bf81a8dbef22fae486d76f6e2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c47c541bf81a8dbef22fae486d76f6e2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Shapefile 3 of 5",
+                "label": "usa.dbf",
+                "restricted": false,
+                "directoryLabel": "usa",
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831779,
+                    "persistentId": "",
+                    "filename": "usa.dbf",
+                    "contentType": "application/dbf",
+                    "friendlyType": "dBASE Table for ESRI Shapefile",
+                    "filesize": 184301190,
+                    "description": "Shapefile 3 of 5",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194760ddd30-1927a3d6332c",
+                    "rootDataFileId": -1,
+                    "md5": "ebb6c9ce616715b3a275eb25c5556e13",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ebb6c9ce616715b3a275eb25c5556e13"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Shapefile 5 of 5",
+                "label": "usa.shx",
+                "restricted": false,
+                "directoryLabel": "usa",
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831782,
+                    "persistentId": "",
+                    "filename": "usa.shx",
+                    "contentType": "application/shx",
+                    "friendlyType": "Shape",
+                    "filesize": 593172,
+                    "description": "Shapefile 5 of 5",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194760de013-f7fa3944ba92",
+                    "rootDataFileId": -1,
+                    "md5": "8eaa14fe61c125441d5266426366711e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8eaa14fe61c125441d5266426366711e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Shapefile 1 of 5",
+                "label": "usa.shp",
+                "restricted": false,
+                "directoryLabel": "usa",
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831781,
+                    "persistentId": "",
+                    "filename": "usa.shp",
+                    "contentType": "application/shp",
+                    "friendlyType": "Shape",
+                    "filesize": 604997576,
+                    "description": "Shapefile 1 of 5",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194760ddf81-76611dc18b53",
+                    "rootDataFileId": -1,
+                    "md5": "c59b66d321918748cc9ea4782a6a70b4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c59b66d321918748cc9ea4782a6a70b4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "CEJST Guide",
+                "label": "CEQ-CEJST-Instructions.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831385,
+                    "persistentId": "",
+                    "filename": "CEQ-CEJST-Instructions.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 233861,
+                    "description": "CEJST Guide",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19475fdd947-38fae0502263",
+                    "rootDataFileId": -1,
+                    "md5": "ff46fa2b054cb344ac1226154f8ed6c1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ff46fa2b054cb344ac1226154f8ed6c1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "CEJST 2.0 Dataset",
+                "label": "2.0-communities.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437638,
+                "dataFile": {
+                    "id": 10831387,
+                    "persistentId": "",
+                    "filename": "2.0-communities.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 53025855,
+                    "description": "CEJST 2.0 Dataset",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19475fe7e18-90cf84fae289",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 45316831,
+                    "originalFileName": "2.0-communities.csv",
+                    "UNF": "UNF:6:+v4vcClc6aerLem/dIMkGQ==",
+                    "rootDataFileId": -1,
+                    "md5": "d08e08e5e5aa08f1928f1a68cb602a2f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d08e08e5e5aa08f1928f1a68cb602a2f"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-06",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

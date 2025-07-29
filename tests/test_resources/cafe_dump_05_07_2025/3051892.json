@@ -1,0 +1,458 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 128733,
+        "datasetId": 3051892,
+        "datasetPersistentId": "doi:10.7910/DVN/Q3NDFQ",
+        "storageIdentifier": "s3://10.7910/DVN/Q3NDFQ",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-21T19:55:29Z",
+        "releaseTime": "2025-04-21T19:55:29Z",
+        "createTime": "2017-09-14T00:31:28Z",
+        "publicationDate": "2025-04-21",
+        "citationDate": "2025-04-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Wealth and Asset Ownership, 2011"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Census Bureau"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data from Wealth and Asset Ownership: 2011 table, Census Bureau\r\n\r\nConnected to SDG indicator 8.10.2 - Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2017-05-11"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wealth"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Capital"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States. Bureau of the Census"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Asset ownership"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NRP"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SDGs"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sustainable Development Goals"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Capital"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wealth"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States. Bureau of the Census"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Census Bureau"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Boyd, Ceilyn"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-09-13"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Wealth and Asset Ownership_2011_Wealth_Tables_2011.xlsx",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 128733,
+                "categories": [
+                    "Data",
+                    "Wealth and Asset Ownership, 2011"
+                ],
+                "dataFile": {
+                    "id": 3067712,
+                    "persistentId": "",
+                    "filename": "Wealth and Asset Ownership_2011_Wealth_Tables_2011.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 103750,
+                    "categories": [
+                        "Data",
+                        "Wealth and Asset Ownership, 2011"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f54e88235-c2d5a3d4c6ff",
+                    "rootDataFileId": -1,
+                    "md5": "6cacf50ddf799692513fa3cca679bd05",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6cacf50ddf799692513fa3cca679bd05"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Ingest package for dataset: \r\n\r\nData from Wealth and Asset Ownership: 2011 table, Census Bureau\r\n\r\nConnected to SDG indicator 8.10.2 - Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider\r\n\r\nSource: https://www.census.gov/data/tables/2011/demo/wealth-and-asset-ownership--2011.html",
+                "label": "Wealth and Asset Ownership_2011_A60DFB6B-B832-42D5-928B-47219F7A77B5.tar.gz",
+                "restricted": false,
+                "version": 6,
+                "datasetVersionId": 128733,
+                "categories": [
+                    "Ingest Package",
+                    "Wealth and Asset Ownership, 2011"
+                ],
+                "dataFile": {
+                    "id": 3051994,
+                    "persistentId": "",
+                    "filename": "Wealth and Asset Ownership_2011_A60DFB6B-B832-42D5-928B-47219F7A77B5.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 124019,
+                    "description": "Ingest package for dataset: \r\n\r\nData from Wealth and Asset Ownership: 2011 table, Census Bureau\r\n\r\nConnected to SDG indicator 8.10.2 - Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider\r\n\r\nSource: https://www.census.gov/data/tables/2011/demo/wealth-and-asset-ownership--2011.html",
+                    "categories": [
+                        "Ingest Package",
+                        "Wealth and Asset Ownership, 2011"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15e8127d8f6-dd1ec1eecc78",
+                    "rootDataFileId": -1,
+                    "md5": "3388c34260c90c22df8e51c4a01352ba",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3388c34260c90c22df8e51c4a01352ba"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-14",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Ingest package documentation for dataset: \r\n\r\nData from Wealth and Asset Ownership: 2011 table, Census Bureau\r\n\r\nConnected to SDG indicator 8.10.2 - Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider\r\n\r\nSource: https://www.census.gov/data/tables/2011/demo/wealth-and-asset-ownership--2011.html",
+                "label": "Wealth and Asset Ownership_2011_a60dfb6b-b832-42d5-928b-47219f7a77b5.json",
+                "restricted": false,
+                "version": 5,
+                "datasetVersionId": 128733,
+                "categories": [
+                    "Documentation",
+                    "Ingest Package",
+                    "Wealth and Asset Ownership, 2011"
+                ],
+                "dataFile": {
+                    "id": 3051995,
+                    "persistentId": "",
+                    "filename": "Wealth and Asset Ownership_2011_a60dfb6b-b832-42d5-928b-47219f7a77b5.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 1190,
+                    "description": "Ingest package documentation for dataset: \r\n\r\nData from Wealth and Asset Ownership: 2011 table, Census Bureau\r\n\r\nConnected to SDG indicator 8.10.2 - Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider\r\n\r\nSource: https://www.census.gov/data/tables/2011/demo/wealth-and-asset-ownership--2011.html",
+                    "categories": [
+                        "Documentation",
+                        "Ingest Package",
+                        "Wealth and Asset Ownership, 2011"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15e8127da83-9b94aff23a18",
+                    "rootDataFileId": -1,
+                    "md5": "ae97abf6df5279be11a4524091719c00",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ae97abf6df5279be11a4524091719c00"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-14",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

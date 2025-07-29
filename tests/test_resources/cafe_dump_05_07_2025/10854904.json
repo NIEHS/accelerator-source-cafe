@@ -1,0 +1,744 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 435926,
+        "datasetId": 10854904,
+        "datasetPersistentId": "doi:10.7910/DVN/MD8PST",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/MD8PST",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2025-01-31",
+        "lastUpdateTime": "2025-02-19T21:30:16Z",
+        "releaseTime": "2025-02-19T21:30:16Z",
+        "createTime": "2025-01-31T21:48:26Z",
+        "publicationDate": "2025-02-19",
+        "citationDate": "2025-02-19",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Gas Distribution, Gas Gathering, Gas Transmission, Hazardous Liquids, Liquefied Natural Gas (LNG), and Underground Natural Gas Storage (UNGS) Annual Report Data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "USDOT Pipeline and Hazardous Materials Safety Administration"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "US Department of Transportation"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. If you have questions about the underlying data stored here, please contact the PHMSA Office of Pipeline Safety (phmsa.pipelinesafety@dot.gov)\n<br />\n\"The Code of Federal Regulations (49 CFR Parts 191, 195) requires operators gas distribution, gas gathering, gas transmission, hazardous liquid, LNG, and UNGS to submit annual reports to PHMSA. Annual reports include information such as total pipeline mileage, facilities, commodities transported, miles by material, and installation dates. These annual reports are widely used by safety researchers, government agencies, industry professionals, and by PHMSA personnel for inspection planning. Failure to report may result in enforcement action including civil penalties under 49 U.S.C. \u00a7 60122 and 49 CFR \u00a7 190.223.Data in the ZIP file is updated monthly and will change in response to supplemental reports from the operators.\" \n<br />\nQuote from https://www.phmsa.dot.gov/data-and-statistics/pipeline/gas-distribution-gas-gathering-gas-transmission-hazardous-liquids"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-07"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Anthropogenic Emissions"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fossil Fuels"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Greenhouse Gas"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nGas Distribution, Gas Gathering, Gas Transmission, Hazardous Liquids, Liquefied Natural Gas (LNG), and Underground Natural Gas Storage (UNGS) Annual Report Data data was downloaded by Allison James on 2025-01-31"
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "distributorURL": {
+                                    "typeName": "distributorURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.bu.edu/sph/profile/allison-james/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-31"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "James, Allison"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-31"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1970-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dateOfCollection",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dateOfCollectionStart": {
+                                    "typeName": "dateOfCollectionStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-31"
+                                },
+                                "dateOfCollectionEnd": {
+                                    "typeName": "dateOfCollectionEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the DOT and are pasted below:\n\"You are accessing a U.S. Government information system. This information system, including all related equipment, networks, and network devices, is provided for U.S. Government-authorized use only.  Unauthorized or improper use of this system is prohibited, and may result in civil and criminal penalties, or administrative disciplinary action.  The communications and data stored or transiting this system may be, for any lawful Government purpose, monitored, recorded, and subject to audit or investigation.  By using this system, you understand and consent to such terms.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "USDOT PHMSA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.phmsa.dot.gov/data-and-statistics/pipeline/gas-distribution-gas-gathering-gas-transmission-hazardous-liquids"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-07"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Anthropogenic Emissions",
+                            "Fossil Fuels",
+                            "Greenhouse Gas"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Reporting-Regulated Gas Gathering (RRGG) Annual Data \u2013 2022 to present (ZIP)",
+                "label": "annual_reporting_regulated_gas_gathering_2022_present.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854907,
+                    "persistentId": "",
+                    "filename": "annual_reporting_regulated_gas_gathering_2022_present.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1862141,
+                    "description": "Reporting-Regulated Gas Gathering (RRGG) Annual Data \u2013 2022 to present (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be526dea-a1d891bb1563",
+                    "rootDataFileId": -1,
+                    "md5": "51a8a0044e152ca5d989bdbb25a5371b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "51a8a0044e152ca5d989bdbb25a5371b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "HTML file for data website",
+                "label": "Gas Distribution, Gas Gathering, Gas Transmission, Hazardous Liquids, Liquefied Natural Gas (LNG), and Underground Natural Gas Storage (UNGS) Annual Report Data _ PHMSA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854910,
+                    "persistentId": "",
+                    "filename": "Gas Distribution, Gas Gathering, Gas Transmission, Hazardous Liquids, Liquefied Natural Gas (LNG), and Underground Natural Gas Storage (UNGS) Annual Report Data _ PHMSA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 57209,
+                    "description": "HTML file for data website",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be5294fd-4975fbb74ed6",
+                    "rootDataFileId": -1,
+                    "md5": "a974ba4d814112d5b031a33e47bf5490",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a974ba4d814112d5b031a33e47bf5490"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Gas Distribution Annual Data - 2010 to present (ZIP)",
+                "label": "annual_gas_distribution_2010_present.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854909,
+                    "persistentId": "",
+                    "filename": "annual_gas_distribution_2010_present.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 27339804,
+                    "description": "Gas Distribution Annual Data - 2010 to present (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be51cb1c-ddfde48ccffb",
+                    "rootDataFileId": -1,
+                    "md5": "219f32d4aeb0a66de50f795a666a73d4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "219f32d4aeb0a66de50f795a666a73d4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hazardous Liquid Annual Data - 2010 to present (ZIP)",
+                "label": "annual_hazardous_liquid_2010_present.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854913,
+                    "persistentId": "",
+                    "filename": "annual_hazardous_liquid_2010_present.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 32657869,
+                    "description": "Hazardous Liquid Annual Data - 2010 to present (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be5266cb-31b5e6b33181",
+                    "rootDataFileId": -1,
+                    "md5": "d5950f1fe90f347c1bcc9f232b88d49e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d5950f1fe90f347c1bcc9f232b88d49e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hazardous Liquid Annual Data - 2004 to 2009 (ZIP)",
+                "label": "annual_hazardous_liquid_2004_2009.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854911,
+                    "persistentId": "",
+                    "filename": "annual_hazardous_liquid_2004_2009.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2135911,
+                    "description": "Hazardous Liquid Annual Data - 2004 to 2009 (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be522b98-2d993d2b2f9d",
+                    "rootDataFileId": -1,
+                    "md5": "10f7c8aa566f4999a63743d542183f38",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "10f7c8aa566f4999a63743d542183f38"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "PDF for data website",
+                "label": "Gas Distribution, Gas Gathering, Gas Transmission, Hazardous Liquids, Liquefied Natural Gas (LNG), and Underground Natural Gas Storage (UNGS) Annual Report Data _ PHMSA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854916,
+                    "persistentId": "",
+                    "filename": "Gas Distribution, Gas Gathering, Gas Transmission, Hazardous Liquids, Liquefied Natural Gas (LNG), and Underground Natural Gas Storage (UNGS) Annual Report Data _ PHMSA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 321085,
+                    "description": "PDF for data website",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be52a888-58cbfb263fef",
+                    "rootDataFileId": -1,
+                    "md5": "8976aefbb198fab20cc2c8e3ee14101b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8976aefbb198fab20cc2c8e3ee14101b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Gas Transmission & Gathering Annual Data - 1970 to 2000 (ZIP)",
+                "label": "annual_gas_transmission_gathering_1970_2000.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854914,
+                    "persistentId": "",
+                    "filename": "annual_gas_transmission_gathering_1970_2000.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6557768,
+                    "description": "Gas Transmission & Gathering Annual Data - 1970 to 2000 (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be51d027-b7a3f56e62c8",
+                    "rootDataFileId": -1,
+                    "md5": "6bf42184aaebb64777a25e1727d89ddc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6bf42184aaebb64777a25e1727d89ddc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Gas Distribution Annual Data - 1970 to 2003 (ZIP)",
+                "label": "annual_gas_distribution_1970_2003.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854917,
+                    "persistentId": "",
+                    "filename": "annual_gas_distribution_1970_2003.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 22111868,
+                    "description": "Gas Distribution Annual Data - 1970 to 2003 (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be51c6fa-228f23ed5280",
+                    "rootDataFileId": -1,
+                    "md5": "7ad77529ff61d9b515779186cecd8044",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7ad77529ff61d9b515779186cecd8044"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Gas Transmission & Gathering Annual Data - 2001 to 2009 (ZIP)",
+                "label": "annual_gas_transmission_gathering_2001_2009.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854906,
+                    "persistentId": "",
+                    "filename": "annual_gas_transmission_gathering_2001_2009.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 9592452,
+                    "description": "Gas Transmission & Gathering Annual Data - 2001 to 2009 (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be51ea42-0e4fc1c00132",
+                    "rootDataFileId": -1,
+                    "md5": "b24262aa349b72f130eac99071560ad0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b24262aa349b72f130eac99071560ad0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Hazardous Liquid Annual Data - 2010 to present (ZIP)",
+                "label": "annual-liquefied-natural-gas-2010-present.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854908,
+                    "persistentId": "",
+                    "filename": "annual-liquefied-natural-gas-2010-present.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2026252,
+                    "description": "Hazardous Liquid Annual Data - 2010 to present (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be528529-0a59595ba0a8",
+                    "rootDataFileId": -1,
+                    "md5": "682b16a97ec4432d9d092dd96d499cbd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "682b16a97ec4432d9d092dd96d499cbd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Gas Distribution Annual Data - 2004 to 2009 (ZIP)",
+                "label": "annual_gas_distribution_2004_2009.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854915,
+                    "persistentId": "",
+                    "filename": "annual_gas_distribution_2004_2009.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8506536,
+                    "description": "Gas Distribution Annual Data - 2004 to 2009 (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be51c923-9aad41256abd",
+                    "rootDataFileId": -1,
+                    "md5": "e45694e11209c832567942bbfdcbe5c0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e45694e11209c832567942bbfdcbe5c0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Underground Natural Gas Storage (UNGS) Facility (ZIP)",
+                "label": "annual_underground_natural_gas_storage_2017_present.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854912,
+                    "persistentId": "",
+                    "filename": "annual_underground_natural_gas_storage_2017_present.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 2277435,
+                    "description": "Underground Natural Gas Storage (UNGS) Facility (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be527613-63d05e716d0c",
+                    "rootDataFileId": -1,
+                    "md5": "f6b4b7ee71e64aeeb968584c1921613d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f6b4b7ee71e64aeeb968584c1921613d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Gas Transmission & Gathering Annual Data - 2010 to present (ZIP)",
+                "label": "annual_gas_transmission_gathering_2010_present.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10854905,
+                    "persistentId": "",
+                    "filename": "annual_gas_transmission_gathering_2010_present.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 90949059,
+                    "description": "Gas Transmission & Gathering Annual Data - 2010 to present (ZIP)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194be51fb9e-0a86ef8ffe4c",
+                    "rootDataFileId": -1,
+                    "md5": "0ee4dcdd22cad6ee2df02efedf850a3d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0ee4dcdd22cad6ee2df02efedf850a3d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "DOT website disclaimer",
+                "label": "Web Policies _ Department of Energy.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435926,
+                "dataFile": {
+                    "id": 10897392,
+                    "persistentId": "",
+                    "filename": "Web Policies _ Department of Energy.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 768114,
+                    "description": "DOT website disclaimer",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195201e0c43-c259212c56df",
+                    "rootDataFileId": -1,
+                    "md5": "3eefbb1c9e8f0ed26c98ac4dce97c799",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3eefbb1c9e8f0ed26c98ac4dce97c799"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-19",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

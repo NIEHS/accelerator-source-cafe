@@ -1,0 +1,559 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 128736,
+        "datasetId": 3051896,
+        "datasetPersistentId": "doi:10.7910/DVN/ZJ5SAT",
+        "storageIdentifier": "s3://10.7910/DVN/ZJ5SAT",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:4RkoyTz/d7guLPVMGqnmOQ==",
+        "lastUpdateTime": "2025-04-21T19:55:41Z",
+        "releaseTime": "2025-04-21T19:55:41Z",
+        "createTime": "2017-09-14T00:37:41Z",
+        "publicationDate": "2025-04-21",
+        "citationDate": "2025-04-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Finance and Insurance: Geographic Area Series (2012)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Census Bureau"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SDG Indicator 8.10.1 - Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults. Source: 2012 Economic Census of the United States\r\n\r\nSource: https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ECN_2012_US_52A1&prodType=table"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2017-06-02"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Insurance"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Finance"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States. Bureau of the Census"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Banks and banking"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Factfinder"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SDG"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Finance"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Insurance"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States. Bureau of the Census"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Census data"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Banks and banking"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Census Bureau"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Boyd, Ceilyn"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-09-13"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Original ingest package for Finance and Insurance: Geographic Area Series (2012) dataset.\r\n\r\nSDG Indicator 8.10.1 - Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults. Source: 2012 Economic Census of the United States\r\n\r\nSource: https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ECN_2012_US_52A1&prodType=table",
+                "label": "Finance and Insurance Geographic Area Series_2012_9C7F5B9B-E9C2-470E-BB61-1541EE9F6B63.zip",
+                "restricted": false,
+                "version": 6,
+                "datasetVersionId": 128736,
+                "categories": [
+                    "Finance and Insurance: Geographic Area Series (2012)",
+                    "Ingest Package"
+                ],
+                "dataFile": {
+                    "id": 3051973,
+                    "persistentId": "",
+                    "filename": "Finance and Insurance Geographic Area Series_2012_9C7F5B9B-E9C2-470E-BB61-1541EE9F6B63.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1427918,
+                    "description": "Original ingest package for Finance and Insurance: Geographic Area Series (2012) dataset.\r\n\r\nSDG Indicator 8.10.1 - Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults. Source: 2012 Economic Census of the United States\r\n\r\nSource: https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ECN_2012_US_52A1&prodType=table",
+                    "categories": [
+                        "Finance and Insurance: Geographic Area Series (2012)",
+                        "Ingest Package"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15e80b9657b-e7baa5de7762",
+                    "rootDataFileId": -1,
+                    "md5": "07d8112a4e926edbca080d9a9755c9d6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "07d8112a4e926edbca080d9a9755c9d6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-09-14",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "\tFinance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_ECN_2012_US_52A1_metadata.tab",
+                "restricted": false,
+                "version": 6,
+                "datasetVersionId": 128736,
+                "categories": [
+                    "Data",
+                    "Finance and Insurance: Geographic Area Series (2012)"
+                ],
+                "dataFile": {
+                    "id": 3066777,
+                    "persistentId": "",
+                    "filename": "\tFinance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_ECN_2012_US_52A1_metadata.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 510,
+                    "categories": [
+                        "Data",
+                        "Finance and Insurance: Geographic Area Series (2012)"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f543154a7-79247875dfe2",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 481,
+                    "originalFileName": "\tFinance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_ECN_2012_US_52A1_metadata.csv",
+                    "UNF": "UNF:6:BhUsUr/bBq5WxUXIwYPfnw==",
+                    "rootDataFileId": -1,
+                    "md5": "67687c2a6d02f7fcb6d3f60a891ddf00",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "67687c2a6d02f7fcb6d3f60a891ddf00"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "\tFinance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_ECN_2012_US_52A1_with_ann.tab",
+                "restricted": false,
+                "version": 6,
+                "datasetVersionId": 128736,
+                "categories": [
+                    "Data",
+                    "Finance and Insurance: Geographic Area Series (2012)"
+                ],
+                "dataFile": {
+                    "id": 3066778,
+                    "persistentId": "",
+                    "filename": "\tFinance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_ECN_2012_US_52A1_with_ann.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 12161,
+                    "categories": [
+                        "Data",
+                        "Finance and Insurance: Geographic Area Series (2012)"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f54315585-1c577c83256e",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 10092,
+                    "originalFileName": "\tFinance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_ECN_2012_US_52A1_with_ann.csv",
+                    "UNF": "UNF:6:u0stWwRlG1OvjtlZVxNfXw==",
+                    "rootDataFileId": -1,
+                    "md5": "2168cc5767ea0911d7e83a0067fed80a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2168cc5767ea0911d7e83a0067fed80a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Original ingest package documentation for Finance and Insurance: Geographic Area Series (2012) dataset.\r\n",
+                "label": "Finance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_aff_download_readme_ann.txt",
+                "restricted": false,
+                "version": 7,
+                "datasetVersionId": 128736,
+                "categories": [
+                    "Documentation",
+                    "Finance and Insurance: Geographic Area Series (2012)",
+                    "Ingest Package"
+                ],
+                "dataFile": {
+                    "id": 3066776,
+                    "persistentId": "",
+                    "filename": "Finance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_aff_download_readme_ann.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 1062,
+                    "description": "Original ingest package documentation for Finance and Insurance: Geographic Area Series (2012) dataset.\r\n",
+                    "categories": [
+                        "Documentation",
+                        "Finance and Insurance: Geographic Area Series (2012)",
+                        "Ingest Package"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f543153cd-0916d3c50045",
+                    "rootDataFileId": -1,
+                    "md5": "03ff8a277d765c16b102f8d2925a8417",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "03ff8a277d765c16b102f8d2925a8417"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Finance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_ECN_2012_US_52A1.txt",
+                "restricted": false,
+                "version": 5,
+                "datasetVersionId": 128736,
+                "categories": [
+                    "Documentation",
+                    "Finance and Insurance: Geographic Area Series (2012)"
+                ],
+                "dataFile": {
+                    "id": 3066779,
+                    "persistentId": "",
+                    "filename": "Finance and Insurance_Geographic Area Series_Summary Statistics for the U.S., States, Metro Areas, Counties, and Places_2012_ECN_2012_US_52A1.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 3629,
+                    "categories": [
+                        "Documentation",
+                        "Finance and Insurance: Geographic Area Series (2012)"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15f54315648-a42482c9b158",
+                    "rootDataFileId": -1,
+                    "md5": "42e5fa9119b6a634d85d8f9c114b7c10",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "42e5fa9119b6a634d85d8f9c114b7c10"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-25",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

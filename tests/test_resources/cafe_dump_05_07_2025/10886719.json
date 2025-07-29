@@ -1,0 +1,2407 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 442704,
+        "datasetId": 10886719,
+        "datasetPersistentId": "doi:10.7910/DVN/PJM1IF",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/PJM1IF",
+        "versionNumber": 2,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "lastUpdateTime": "2025-04-23T15:28:18Z",
+        "releaseTime": "2025-04-23T15:28:18Z",
+        "createTime": "2025-04-22T15:55:27Z",
+        "publicationDate": "2025-02-28",
+        "citationDate": "2025-02-28",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Open FEMA Data Emergency Management, Preparedness, and Alerts"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Federal Emergency Management Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information\n<br /> <br /> \n\"This page is intended to be a one stop shop for OpenFEMA\u2014FEMA\u2019s data delivery platform which provides datasets to the public in open, industry standard, machine-readable formats. Datasets are available in multiple formats, including downloadable files and through an easily digestible Application Programming Interface (API). Each page includes information about the specific dataset, links to downloadable files, a data dictionary describing each field, and an endpoint link (if applicable for those datasets available via the API).\" [Quote from https://www.fema.gov/about/openfema/data-sets]\n<br /> <br /> \nThis dataset includes:<br /> \nAnnual NFIRS Public Data<br /> \nEmergency Management Performance Grants<br /> \nIPAWS Archived Alerts<br /> \nNational Household Survey<br /> \nNon-Disaster and Assistance to Firefighter Grants<br /> \nSandy PMO: Disaster Relief Appropriations Act of 2013 (Sandy Supplemental Bill) Financial Data<br /> \n\n<br /> <br /> \nPlease review the updated PDF/HTML documentation for more details. (2025-01-31)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nOpen FEMA Data Emergency Management, Preparedness, and Alerts data was downloaded by Zach Popp on February 28, 2025. The zip file uploaded on April 22, 2025 contains updated OpenFEMA data files downloaded by Ana Martinez on April 17, 2025."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Popp, Zachary"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1998-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2019-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The below is coped as is from OpenFEMA Terms and Conditions: \"FEMA offers some of its public data in machine readable format via an Application Programming Interface (API).  This service is offered subject to your acceptance of the terms and conditions contained herein as well as the FEMA Privacy Policy.\nSummary\nRespect the OpenFEMA API and content on this website. Use the Site in a lawful manner. Do not modify the Site or attempt to use it to publish or transmit malicious software or content. FEMA shall not be liable for any damages resulting from the use of this website, API services, or content. Do not attempt to reidentify the individuals whose data may be aggregated. We may suspend your access to this website if we feel you have not complied with these terms and conditions.\nScope\nAll of the content, documentation, code and related materials made available to you through the API are subject to these terms. Access to or use of the API services or its content constitutes acceptance of these terms.\nSecondary Use\nData accessed through FEMA\u2019s API does not include controls over its end use. However, as the data owner, FEMA retains version control.  Once the data has been downloaded from the API, FEMA cannot verify the quality and/or timeliness of any analysis conducted using data retrieved.\nReidentification\nBy accessing OpenFEMA datasets, you agree that the data will be used solely for statistical research or as a reporting record.  Further you agree not to reidentify nor attempt to reidentify the individuals whose data is aggregated. You also agree not to publish or release any facts that may lead to the identification of individuals who are the subject of the data.\nBy accessing OpenFEMA datasets, you agree that the data cannot be used to make determinations that might affect an individual\u2019s rights or eligibility for benefits. The data can be used to make decisions on program management.\nUnauthorized use may cause FEMA to deny your future access to this data. FEMA may rescind your use of the data if FEMA believes that it does not serve the public interest. You agree you will cease using the data and destroy any copy you may have if requested by FEMA.\nCiting Data\nUsers should cite the specific API endpoint (including the version) either by name or preferably by URL. Either the dataset page or the API endpoint URL\u2019s may be used.\nUsers should cite the date and preferably the time when the FEMA data are accessed, retrieved, or downloaded using the API or from the OpenFEMA site.\nUsers must clearly state that \u201cThis product uses the Federal Emergency Management Agency\u2019s OpenFEMA API, but is not endorsed by FEMA. The Federal Government or FEMA cannot vouch for the data or analyses derived from these data after the data have been retrieved from the Agency's website(s).\u201d\nFEMA cannot verify the quality and/or timeliness of any data or any analysis derived therefrom after the data has been retrieved from FEMA.gov.\nThe logos and/or seals of FEMA and the Department of Homeland Security (DHS) may not be used without prior written authorization from FEMA or DHS.\nExample:\nFederal Emergency Management Agency (FEMA), OpenFEMA Dataset: Disaster Declarations Summaries - v2. Retrieved from https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2 on August 19, 2021, 12:34 PM EST. This product uses the FEMA OpenFEMA API, but is not endorsed by FEMA. The Federal Government or FEMA cannot vouch for the data or analyses derived from these data after the data have been retrieved from the Agency's website(s).\nPublic Participation\nIn support of the Transparency and Open Government Initiative, input from external stakeholders regarding the presentation of data, data types, and metadata will help inform the evolution of FEMA\u2019s publicly-accessible APIs.\nModification or False Representation of Content\nYou may not modify or falsely represent content accessed through FEMA\u2019s API and still claim the source is FEMA or FEMA.gov.\nChanges\nFEMA reserves the right, at its sole discretion, to modify or replace these terms, in whole or in part. Your continued use of or access to the FEMA API services following posting of any changes to these terms, constitutes acceptance of those modified terms.  FEMA may, in the future, offer new services and/or features.  Such new features and/or services shall be subject to these terms and conditions.\nDisclaimer of Warranties\nFEMA\u2019s APIs are provided \u201cas is\u201d and on an \u201cas-available\u201d basis.  FEMA hereby disclaims all warranties of any kind, express or implied, including without limitation the warranties of merchantability, fitness for a particular purpose, and non-infringement.  FEMA makes no warranty that the services will be error free or that access thereto will be continuous or uninterrupted.\nGeneral Representations\nYou hereby warrant that:\nYour use of the services will be in strict accordance with these terms and all applicable laws and regulations, and\nYour use of the services will not infringe or misappropriate the intellectual property rights of any third party.\nIndemnification\nYou agree to indemnify and hold harmless FEMA, its contractors, employees, agents, and the like from and against any and all claims and expenses arising out of your use of the APIs, including but not limited to violation of these terms.  This indemnification clause shall not apply to federal government entities.\nMiscellaneous\nThese terms may only be modified by the posting of a revised version on this page by FEMA.  FEMA may monitor your use of its services to improve the service or to insure compliance with these terms.\nDisputes\nAny disputes arising out of these terms and access to or use of the services shall be governed by federal law.\nNo Waiver of Rights\nFEMA\u2019s failure to exercise or enforce any right or provision included in these terms shall not constitute waiver of such right or provision.\nService Termination\nIf you do not wish to abide by these terms, you must refrain from use of the services.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Users should cite the specific API endpoint (including the version) either by name or preferably by URL. Either the dataset page or the API endpoint URL\u2019s may be used. Users should cite the date and preferably the time when the FEMA data are accessed, retrieved, or downloaded using the API or from the OpenFEMA site. Users must clearly state that \u201cThis product uses the Federal Emergency Management Agency\u2019s OpenFEMA API, but is not endorsed by FEMA. The Federal Government or FEMA cannot vouch for the data or analyses derived from these data after the data have been retrieved from the Agency's website(s).\u201d FEMA cannot verify the quality and/or timeliness of any data or any analysis derived therefrom after the data has been retrieved from FEMA.gov. The logos and/or seals of FEMA and the Department of Homeland Security (DHS) may not be used without prior written authorization from FEMA or DHS. Example: Federal Emergency Management Agency (FEMA), OpenFEMA Dataset: Disaster Declarations Summaries - v2. Retrieved from https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2 on August 19, 2021, 12:34 PM EST. This product uses the FEMA OpenFEMA API, but is not endorsed by FEMA. The Federal Government or FEMA cannot vouch for the data or analyses derived from these data after the data have been retrieved from the Agency's website(s)."
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "FEMA\u2019s APIs are provided \u201cas is\u201d and on an \u201cas-available\u201d basis. FEMA hereby disclaims all warranties of any kind, express or implied, including without limitation the warranties of merchantability, fitness for a particular purpose, and non-infringement. FEMA makes no warranty that the services will be error free or that access thereto will be continuous or uninterrupted."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Disaster",
+                            "Disaster Preparedness",
+                            "Disaster Recovery",
+                            "Disaster Response",
+                            "Emergency"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "fema_national_household_survey_data_and_codebook_2021.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886796,
+                    "persistentId": "",
+                    "filename": "fema_national_household_survey_data_and_codebook_2021.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 9622083,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195059515c9-4236dc16b194",
+                    "rootDataFileId": -1,
+                    "md5": "d9dbb4ebcf77ec03ea1e8b2df896c5ec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d9dbb4ebcf77ec03ea1e8b2df896c5ec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_sandy-supplemental-bill-financial-dataset_2014.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886797,
+                    "persistentId": "",
+                    "filename": "fema_sandy-supplemental-bill-financial-dataset_2014.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1093385,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594e7e4-610150e05f6d",
+                    "rootDataFileId": -1,
+                    "md5": "00e46fd93be60dc38b85e9ebb9e437a6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "00e46fd93be60dc38b85e9ebb9e437a6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_national_household_survey_2023.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886790,
+                    "persistentId": "",
+                    "filename": "fema_national_household_survey_2023.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 17500532,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505950ae5-0f39452b3f29",
+                    "rootDataFileId": -1,
+                    "md5": "519dd89f12621c5b56cfca880ef7fce0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "519dd89f12621c5b56cfca880ef7fce0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nfirs_all_incident_pdr_2023.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886737,
+                    "persistentId": "",
+                    "filename": "nfirs_all_incident_pdr_2023.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1514550179,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505364e03-c29abfb266b5",
+                    "rootDataFileId": -1,
+                    "md5": "b12a13b4259c9f163ab205011fc5921b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b12a13b4259c9f163ab205011fc5921b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_sandy-supplemental-bill-financial-dataset_2015.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886794,
+                    "persistentId": "",
+                    "filename": "fema_sandy-supplemental-bill-financial-dataset_2015.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 366073,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594e8b3-7878f7890dec",
+                    "rootDataFileId": -1,
+                    "md5": "db1651e186c02763901df16830ae723c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "db1651e186c02763901df16830ae723c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Sandy PMO_ Disaster Relief Appropriations Act of 2013 (Sandy Supplemental Bill) Financial Data _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886791,
+                    "persistentId": "",
+                    "filename": "Sandy PMO_ Disaster Relief Appropriations Act of 2013 (Sandy Supplemental Bill) Financial Data _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 117677,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594ffc1-aaf91d727d75",
+                    "rootDataFileId": -1,
+                    "md5": "c12d20cc779d13c6efc3ab3a4addc47f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c12d20cc779d13c6efc3ab3a4addc47f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_national-household-survey_2018.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886783,
+                    "persistentId": "",
+                    "filename": "fema_national-household-survey_2018.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 3840492,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505955c45-2c8b8e68097d",
+                    "rootDataFileId": -1,
+                    "md5": "979ed40fd44b264d58e15c27f6f17ae7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "979ed40fd44b264d58e15c27f6f17ae7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_national-household-survey-data_2017.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886781,
+                    "persistentId": "",
+                    "filename": "fema_national-household-survey-data_2017.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5600786,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195059548bf-28c319641f40",
+                    "rootDataFileId": -1,
+                    "md5": "96a3e7cbd664dfd64c4199adac488697",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "96a3e7cbd664dfd64c4199adac488697"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2015_hazmat.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886766,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2015_hazmat.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 112455515,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505532b4d-81b6bba36254",
+                    "rootDataFileId": -1,
+                    "md5": "c6e92a4fee9a306ec496555193b0cfa4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c6e92a4fee9a306ec496555193b0cfa4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1987.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886720,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1987.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 52353798,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950542fa52-5fd66208e2fc",
+                    "rootDataFileId": -1,
+                    "md5": "71084b07ac78280c2f037ebf42e01839",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "71084b07ac78280c2f037ebf42e01839"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "National Household Survey _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886793,
+                    "persistentId": "",
+                    "filename": "National Household Survey _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 120310,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594ee03-6e6e640a8102",
+                    "rootDataFileId": -1,
+                    "md5": "14e0f81c0e244f25b2745f072f43a979",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "14e0f81c0e244f25b2745f072f43a979"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2019.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886748,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2019.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1078614589,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195052c0d79-a41b9eccb3be",
+                    "rootDataFileId": -1,
+                    "md5": "e8c71ab96e87f0282c6e8eb7314d12a7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e8c71ab96e87f0282c6e8eb7314d12a7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2012.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886725,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2012.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 110706141,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054e455e-decb35c8d2ea",
+                    "rootDataFileId": -1,
+                    "md5": "7ab84a6faf21accb3adf256ddd3660c2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7ab84a6faf21accb3adf256ddd3660c2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2015.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886735,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2015.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 822443806,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505501521-212da1b9cfa8",
+                    "rootDataFileId": -1,
+                    "md5": "936cd675273dff2810f766c53cd00c6c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "936cd675273dff2810f766c53cd00c6c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "OpenFEMA Terms and Conditions _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10923608,
+                    "persistentId": "",
+                    "filename": "OpenFEMA Terms and Conditions _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 229875,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9a13f7-b87e4a42e956",
+                    "rootDataFileId": -1,
+                    "md5": "7f930e019195c3b74299926af41886ad",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7f930e019195c3b74299926af41886ad"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_national-household-survey_2019.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886780,
+                    "persistentId": "",
+                    "filename": "fema_national-household-survey_2019.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4618162,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505951fcb-f2f557220a4e",
+                    "rootDataFileId": -1,
+                    "md5": "d89bd51b4353c8413679a2781eca6d04",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d89bd51b4353c8413679a2781eca6d04"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2014.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886747,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2014.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 777745720,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054e550e-db821217e7a6",
+                    "rootDataFileId": -1,
+                    "md5": "3b17511524663a6e12bfa08c356f98d4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3b17511524663a6e12bfa08c356f98d4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "OpenFEMA Frequently Asked Questions _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10923607,
+                    "persistentId": "",
+                    "filename": "OpenFEMA Frequently Asked Questions _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 245518,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9a10dd-efcc0dc853a8",
+                    "rootDataFileId": -1,
+                    "md5": "f326a927b27ae719a4fb0de0bcb891e2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f326a927b27ae719a4fb0de0bcb891e2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2006.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886733,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2006.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 237028350,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054694d2-81ec6dcc8623",
+                    "rootDataFileId": -1,
+                    "md5": "3ffedeb8cbfafac3e1a1a9a359f890f0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3ffedeb8cbfafac3e1a1a9a359f890f0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2004.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886741,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2004.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 190669413,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950545a8f6-ae601a4b0aa6",
+                    "rootDataFileId": -1,
+                    "md5": "aea2c8ca0172a43da6cade7196c57f9e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aea2c8ca0172a43da6cade7196c57f9e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2014_hazmat.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886756,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2014_hazmat.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 115933723,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054ed602-9a1cebf8d87f",
+                    "rootDataFileId": -1,
+                    "md5": "8c7cce7dcc333640503e0276954d299f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8c7cce7dcc333640503e0276954d299f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2016_hazmat.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886730,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2016_hazmat.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 135175962,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950555ae33-e51fd9a65d54",
+                    "rootDataFileId": -1,
+                    "md5": "0e4b30baadb947b3d17c7e480da98e62",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0e4b30baadb947b3d17c7e480da98e62"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1982.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886758,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1982.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 33119550,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053c2c0d-916192cf40d7",
+                    "rootDataFileId": -1,
+                    "md5": "6ccc21f1e3128a8f101171c0a6fea051",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6ccc21f1e3128a8f101171c0a6fea051"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1985.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886734,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1985.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 48451744,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053cf3ad-733aa7eaf7d0",
+                    "rootDataFileId": -1,
+                    "md5": "f4cc86e7fffbe957a906bcf2a2539de4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f4cc86e7fffbe957a906bcf2a2539de4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_sandy-supplemental-bill-financial-dataset_2013_1.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886789,
+                    "persistentId": "",
+                    "filename": "fema_sandy-supplemental-bill-financial-dataset_2013_1.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 193672,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594e702-49be82ed06b0",
+                    "rootDataFileId": -1,
+                    "md5": "849416e05a7ee9fceb6087557efb6c30",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "849416e05a7ee9fceb6087557efb6c30"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1999.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886754,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1999.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 206051134,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053fab03-15ba8ea95080",
+                    "rootDataFileId": -1,
+                    "md5": "4c1090c44f3fab1edcd1f37a8edff58a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4c1090c44f3fab1edcd1f37a8edff58a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2013_hazmat.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886753,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2013_hazmat.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 106513629,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505517b18-610014c55262",
+                    "rootDataFileId": -1,
+                    "md5": "6c8fc993b93ab32e02771a7d9e21f0f8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6c8fc993b93ab32e02771a7d9e21f0f8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_national_household_survey_2022.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886777,
+                    "persistentId": "",
+                    "filename": "fema_national_household_survey_2022.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 18607554,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505950846-3eb0765b497a",
+                    "rootDataFileId": -1,
+                    "md5": "429df4dde2e0a4da9a9180b01dc6fb1a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "429df4dde2e0a4da9a9180b01dc6fb1a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1994.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886765,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1994.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 52925866,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053ec497-b90f836923c2",
+                    "rootDataFileId": -1,
+                    "md5": "a2f9bb52d7fa6a83ddb1e8f3a9522a22",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a2f9bb52d7fa6a83ddb1e8f3a9522a22"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1996.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886761,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1996.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 51188761,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053f39b6-dafb8738d101",
+                    "rootDataFileId": -1,
+                    "md5": "5144b5691102bec1ca5d47102271bb70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5144b5691102bec1ca5d47102271bb70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nfirs_fire_hazmat_pdr_2020.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886769,
+                    "persistentId": "",
+                    "filename": "nfirs_fire_hazmat_pdr_2020.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 133467469,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505371778-9e4da0a7a9ec",
+                    "rootDataFileId": -1,
+                    "md5": "e22275c86e92b2ec82456effeebe66d2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e22275c86e92b2ec82456effeebe66d2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "National Household Survey _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886795,
+                    "persistentId": "",
+                    "filename": "National Household Survey _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 218834,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594f35b-bbc807599a28",
+                    "rootDataFileId": -1,
+                    "md5": "0a66b14b88506cef431330ad810583b3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0a66b14b88506cef431330ad810583b3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2019_hazmat.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886771,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2019_hazmat.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 137122692,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195052c0f13-ec6a88b948b3",
+                    "rootDataFileId": -1,
+                    "md5": "3d55fd429ba57e1c015555fe9218aef2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d55fd429ba57e1c015555fe9218aef2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2005.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886767,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2005.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 223727172,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054567d5-f45a3c61402e",
+                    "rootDataFileId": -1,
+                    "md5": "4ab31fe8d0ec257722a32e3bc1b5ba9d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4ab31fe8d0ec257722a32e3bc1b5ba9d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1988.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886772,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1988.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 56092665,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053d59af-aad207188a0e",
+                    "rootDataFileId": -1,
+                    "md5": "e508ad35e5fc124021999eefcc051f76",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e508ad35e5fc124021999eefcc051f76"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nfirs_fire_hazmat_pdr_2021.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886728,
+                    "persistentId": "",
+                    "filename": "nfirs_fire_hazmat_pdr_2021.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 131343734,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053821d8-d7c82d979157",
+                    "rootDataFileId": -1,
+                    "md5": "b02398ba6bef4d80d76d912a807dfbf2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b02398ba6bef4d80d76d912a807dfbf2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1980.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886762,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1980.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 26339206,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053acf29-5ea1bf83583b",
+                    "rootDataFileId": -1,
+                    "md5": "4e7079ffcdf3913c537f16e79ef7b7bc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4e7079ffcdf3913c537f16e79ef7b7bc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2016.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886752,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2016.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 812292558,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505544b45-149ef7ae44bb",
+                    "rootDataFileId": -1,
+                    "md5": "d770b23d4361283bc00b6d74902717a7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d770b23d4361283bc00b6d74902717a7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Emergency Management Performance Grants - v2 _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886786,
+                    "persistentId": "",
+                    "filename": "Emergency Management Performance Grants - v2 _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 119203,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195059505ae-61b337ced0f2",
+                    "rootDataFileId": -1,
+                    "md5": "d9c48c370b104916362dbe21be7c8a53",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d9c48c370b104916362dbe21be7c8a53"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1997.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886732,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1997.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 42498062,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053f4193-f7e182e7e6c7",
+                    "rootDataFileId": -1,
+                    "md5": "e38119f0c0f6d665b18686e06299923d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e38119f0c0f6d665b18686e06299923d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Non-Disaster and Assistance to Firefighter Grants _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886788,
+                    "persistentId": "",
+                    "filename": "Non-Disaster and Assistance to Firefighter Grants _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 115211,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594f81d-9163ea1f7fc2",
+                    "rootDataFileId": -1,
+                    "md5": "f59830940dbeca8380f3c229a70d76f7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f59830940dbeca8380f3c229a70d76f7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "IPAWS Archived Alerts - v1 _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886778,
+                    "persistentId": "",
+                    "filename": "IPAWS Archived Alerts - v1 _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 147628,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594eef6-8d369957ff3e",
+                    "rootDataFileId": -1,
+                    "md5": "849ded288a4fc113e0a5302167f696e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "849ded288a4fc113e0a5302167f696e5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1992.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886763,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1992.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 51054339,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053e5367-4dcf937d8179",
+                    "rootDataFileId": -1,
+                    "md5": "888ce72e819a9b9acd24d6a0ad0b8717",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "888ce72e819a9b9acd24d6a0ad0b8717"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "OpenFEMA Frequently Asked Questions _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10923610,
+                    "persistentId": "",
+                    "filename": "OpenFEMA Frequently Asked Questions _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 125818,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9a11b0-f8a832547738",
+                    "rootDataFileId": -1,
+                    "md5": "1178bf0cb5f4056cc7f4a9ef103e6139",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1178bf0cb5f4056cc7f4a9ef103e6139"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1993.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886745,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1993.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 52523656,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053e5b0b-3dd2f9533127",
+                    "rootDataFileId": -1,
+                    "md5": "a520f5aed85809f12216400df4d99cca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a520f5aed85809f12216400df4d99cca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_national-household-survey_2020_0.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886779,
+                    "persistentId": "",
+                    "filename": "fema_national-household-survey_2020_0.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 10076495,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195059527a0-6eb0b6512127",
+                    "rootDataFileId": -1,
+                    "md5": "b40f71cebeb541e5dffc30f8b434b06a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b40f71cebeb541e5dffc30f8b434b06a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2008.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886764,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2008.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 241523144,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950548f339-31986c036b72",
+                    "rootDataFileId": -1,
+                    "md5": "83c950f47f9c97f21e20388976413b53",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "83c950f47f9c97f21e20388976413b53"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1995.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886768,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1995.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 49792447,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053ecc5e-3b6b2e568cf2",
+                    "rootDataFileId": -1,
+                    "md5": "c4d415c36615cc26b88605c358f06a62",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c4d415c36615cc26b88605c358f06a62"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2002.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886757,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2002.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 587005734,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054264d6-502da6f1b6b6",
+                    "rootDataFileId": -1,
+                    "md5": "985e89fd1559e19cd9408b64df51c24b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "985e89fd1559e19cd9408b64df51c24b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1984.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886731,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1984.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 42193973,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505410013-adacfe6e40f3",
+                    "rootDataFileId": -1,
+                    "md5": "ab5c8d214f756f36ba5bb80fdf8cc336",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ab5c8d214f756f36ba5bb80fdf8cc336"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2017.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886773,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2017.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 843244298,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950556108e-508adf99d6c4",
+                    "rootDataFileId": -1,
+                    "md5": "f1c2478c32033098393123d6557a630e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f1c2478c32033098393123d6557a630e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1990.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886749,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1990.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 51659896,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053dde4a-16135c6b5af1",
+                    "rootDataFileId": -1,
+                    "md5": "e10e19181b08aa2eb2b7d338178eafa5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e10e19181b08aa2eb2b7d338178eafa5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2003.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886740,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2003.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1005368441,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054448d6-4a9b5ea26717",
+                    "rootDataFileId": -1,
+                    "md5": "e36cc9837b9a18eccc8ed3fcddb2504c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e36cc9837b9a18eccc8ed3fcddb2504c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2009.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886739,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2009.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 234519920,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054ac7c1-de8681ae958b",
+                    "rootDataFileId": -1,
+                    "md5": "c4893658d3aee7eb5db6b6ed485622d5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c4893658d3aee7eb5db6b6ed485622d5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Non-Disaster and Assistance to Firefighter Grants - v1 _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886784,
+                    "persistentId": "",
+                    "filename": "Non-Disaster and Assistance to Firefighter Grants - v1 _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 120036,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594f425-19271ef474fa",
+                    "rootDataFileId": -1,
+                    "md5": "fc3eacb63752ca9293a47327a33b16fe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fc3eacb63752ca9293a47327a33b16fe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nfirs_all_incident_pdr_2020.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886729,
+                    "persistentId": "",
+                    "filename": "nfirs_all_incident_pdr_2020.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1018959213,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195052c10c9-2a928f0e33bf",
+                    "rootDataFileId": -1,
+                    "md5": "a8be76a340a3cf5d03f66985c42b75ed",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a8be76a340a3cf5d03f66985c42b75ed"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nfirs_all_incident_pdr_2021.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886721,
+                    "persistentId": "",
+                    "filename": "nfirs_all_incident_pdr_2021.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1088156074,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195052cfc8c-ad1c0ed5d727",
+                    "rootDataFileId": -1,
+                    "md5": "bc01eda6c2183ac1d2366a35dd09522d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bc01eda6c2183ac1d2366a35dd09522d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2017_hazmat.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886746,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2017_hazmat.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 109879625,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950557e62e-31d804064ed8",
+                    "rootDataFileId": -1,
+                    "md5": "830ae869987734142daaaf85ed6f8465",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "830ae869987734142daaaf85ed6f8465"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "OpenFEMA Terms and Conditions _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10923609,
+                    "persistentId": "",
+                    "filename": "OpenFEMA Terms and Conditions _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 114936,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9a14c9-346ea8735871",
+                    "rootDataFileId": -1,
+                    "md5": "0f01a7ed97856d074dc3c8403fad144c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0f01a7ed97856d074dc3c8403fad144c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1989.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886759,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1989.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 52084068,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053d8051-034d7f331e0c",
+                    "rootDataFileId": -1,
+                    "md5": "989a1bfd165b2f299e1cb1c5cbe5f3d6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "989a1bfd165b2f299e1cb1c5cbe5f3d6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Non-Disaster and Assistance to Firefighter Grants - v1 _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886798,
+                    "persistentId": "",
+                    "filename": "Non-Disaster and Assistance to Firefighter Grants - v1 _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 268636,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594f73b-37d183e379e7",
+                    "rootDataFileId": -1,
+                    "md5": "55414c65d7afd44923080bd8f81e11c1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "55414c65d7afd44923080bd8f81e11c1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1981.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886751,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1981.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 29725940,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053c7d9b-838da838a025",
+                    "rootDataFileId": -1,
+                    "md5": "8a8da7fe462700bd43f50567ffedc6aa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8a8da7fe462700bd43f50567ffedc6aa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2018.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886755,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2018.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 865086364,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195055848a5-08bca23dd8ec",
+                    "rootDataFileId": -1,
+                    "md5": "15c6d4b91e2a806cbdd00370dbe28b38",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "15c6d4b91e2a806cbdd00370dbe28b38"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Annual NFIRS Public Data _ FEMA.gov.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886785,
+                    "persistentId": "",
+                    "filename": "Annual NFIRS Public Data _ FEMA.gov.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 123865,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950595013b-14fd66447ecc",
+                    "rootDataFileId": -1,
+                    "md5": "46246e10bc872414c4ecffc79e913fbe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "46246e10bc872414c4ecffc79e913fbe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Sandy PMO_ Disaster Relief Appropriations Act of 2013 (Sandy Supplemental Bill) Financial Data _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886782,
+                    "persistentId": "",
+                    "filename": "Sandy PMO_ Disaster Relief Appropriations Act of 2013 (Sandy Supplemental Bill) Financial Data _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 210365,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195059503ef-e124da417349",
+                    "rootDataFileId": -1,
+                    "md5": "be9c003376fe04ef997b34fca060e8f6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "be9c003376fe04ef997b34fca060e8f6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "IPAWS Archived Alerts - v1 _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886775,
+                    "persistentId": "",
+                    "filename": "IPAWS Archived Alerts - v1 _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 419297,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594ed42-6943c2f43c56",
+                    "rootDataFileId": -1,
+                    "md5": "dc3a00320158c122514a92de8bb4b5ab",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dc3a00320158c122514a92de8bb4b5ab"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1991.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886722,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1991.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 52787219,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053de60c-48926de6a73a",
+                    "rootDataFileId": -1,
+                    "md5": "84dffd8a12d4b9defc26db82be0c8eda",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "84dffd8a12d4b9defc26db82be0c8eda"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2011.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886743,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2011.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 367717534,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950550c1c0-eab7fb97a85e",
+                    "rootDataFileId": -1,
+                    "md5": "9deeccb7271e755efaf33f5bd423bf94",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9deeccb7271e755efaf33f5bd423bf94"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "OpenFEMA Guide to Working with Large Data Sets _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10923606,
+                    "persistentId": "",
+                    "filename": "OpenFEMA Guide to Working with Large Data Sets _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 342202,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9a100f-ef449b3796b7",
+                    "rootDataFileId": -1,
+                    "md5": "3a33267b0ec12a9f90735b35e772b64f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3a33267b0ec12a9f90735b35e772b64f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nfirs_fire_hazmat_pdr_2022.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886750,
+                    "persistentId": "",
+                    "filename": "nfirs_fire_hazmat_pdr_2022.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 147523193,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505393bb2-b89bfaa8f7d6",
+                    "rootDataFileId": -1,
+                    "md5": "b4538d3bbd86786dae6deaff0870ac6b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b4538d3bbd86786dae6deaff0870ac6b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_preparedness-non-disaster-assistance-to-firefighter-grants_2005_to_2023.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886800,
+                    "persistentId": "",
+                    "filename": "fema_preparedness-non-disaster-assistance-to-firefighter-grants_2005_to_2023.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3671748,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594e5bc-7fe0895b346e",
+                    "rootDataFileId": -1,
+                    "md5": "75e1e04db8b94345214f8de14a8a0ca4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "75e1e04db8b94345214f8de14a8a0ca4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1998.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886744,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1998.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 42681081,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053fa334-9998194faac4",
+                    "rootDataFileId": -1,
+                    "md5": "59c76afba2f4e6d752ae615505cfe8b3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "59c76afba2f4e6d752ae615505cfe8b3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Non-Disaster and Assistance to Firefighter Grants _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886792,
+                    "persistentId": "",
+                    "filename": "Non-Disaster and Assistance to Firefighter Grants _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 198840,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950594f684-a5e8b8c972b1",
+                    "rootDataFileId": -1,
+                    "md5": "588c36c36cd90b8e4c35b903370de9e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "588c36c36cd90b8e4c35b903370de9e8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Emergency Management Performance Grants - v2 _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886799,
+                    "persistentId": "",
+                    "filename": "Emergency Management Performance Grants - v2 _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 268808,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505950782-643aa2f81138",
+                    "rootDataFileId": -1,
+                    "md5": "8ed1da0f8cfa673271b79edda6fff574",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8ed1da0f8cfa673271b79edda6fff574"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2007.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886738,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2007.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 244315079,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505488e3e-1d5cbe6fe7a7",
+                    "rootDataFileId": -1,
+                    "md5": "dca87e18a7597e9bd2caf4a99e499e9d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dca87e18a7597e9bd2caf4a99e499e9d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nfirs_fire_hazmat_pdr_2023.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886723,
+                    "persistentId": "",
+                    "filename": "nfirs_fire_hazmat_pdr_2023.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 184106526,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505398c09-5fd27350848a",
+                    "rootDataFileId": -1,
+                    "md5": "f3ea7451ed7aa113aa3111439b9b3f08",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f3ea7451ed7aa113aa3111439b9b3f08"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2018_hazmat.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886742,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2018_hazmat.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 109702141,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195052c0bb1-5156a7ff4a90",
+                    "rootDataFileId": -1,
+                    "md5": "3eaed6d36d5c1d6798158a13ca1ae69b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3eaed6d36d5c1d6798158a13ca1ae69b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Annual NFIRS Public Data _ FEMA.gov.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886774,
+                    "persistentId": "",
+                    "filename": "Annual NFIRS Public Data _ FEMA.gov.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 272331,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505950082-9581b42c1fc4",
+                    "rootDataFileId": -1,
+                    "md5": "6fb56d226297738dbb0fd2ead4372f55",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6fb56d226297738dbb0fd2ead4372f55"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2000.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886724,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2000.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 252202696,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054089e9-b80c62ba7605",
+                    "rootDataFileId": -1,
+                    "md5": "7048906114ce2315d6e2d13221ba5255",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7048906114ce2315d6e2d13221ba5255"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "nfirs_all_incident_pdr_2022.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886727,
+                    "persistentId": "",
+                    "filename": "nfirs_all_incident_pdr_2022.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1183484228,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195052d3f61-fa064b6812a9",
+                    "rootDataFileId": -1,
+                    "md5": "9dcd5ac5f6c5c3a23b897a3dfa1e1526",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9dcd5ac5f6c5c3a23b897a3dfa1e1526"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1986.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886736,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1986.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 49956596,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053cfb78-0e6c056b191f",
+                    "rootDataFileId": -1,
+                    "md5": "e906405106b77a99d5d332ef762cf637",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e906405106b77a99d5d332ef762cf637"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2010.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886770,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2010.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 245124883,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195054c7204-aac60481450c",
+                    "rootDataFileId": -1,
+                    "md5": "326f7cd386f3a0caae07568b5554065a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "326f7cd386f3a0caae07568b5554065a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_1983.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886726,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_1983.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 37010671,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195053d5185-7ef07da15fed",
+                    "rootDataFileId": -1,
+                    "md5": "463cf1fa51fca10259ea34dd7388d451",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "463cf1fa51fca10259ea34dd7388d451"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "usfa_nfirs_2001.zip",
+                "restricted": false,
+                "directoryLabel": "NFIRS",
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 10886760,
+                    "persistentId": "",
+                    "filename": "usfa_nfirs_2001.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 472778850,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19505409d54-d3e3f1d4d029",
+                    "rootDataFileId": -1,
+                    "md5": "ee6df2cfda49c316b54058786c0b170a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ee6df2cfda49c316b54058786c0b170a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-02-28",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Emergency Management.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442704,
+                "dataFile": {
+                    "id": 11109835,
+                    "persistentId": "",
+                    "filename": "Emergency Management.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1893814122,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1965e41c51d-86a0e6976a12",
+                    "rootDataFileId": -1,
+                    "md5": "e96569314d338d213014f246362886e6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e96569314d338d213014f246362886e6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-22",
+                    "publicationDate": "2025-04-23",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

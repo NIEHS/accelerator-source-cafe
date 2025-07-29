@@ -1,0 +1,209 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443925,
+        "datasetId": 10877690,
+        "datasetPersistentId": "doi:10.17603/DS2-AST4-S489",
+        "storageIdentifier": "s3://10.17603/ds2-ast4-s489",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:08:32Z",
+        "releaseTime": "2025-05-05T12:14:19Z",
+        "createTime": "2025-05-06T23:08:32Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Monitoring Freshwater Algal Blooms in a Small Lake using Drone Technology in Teresi Master's Thesis Project"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4551"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Teresi, Joseph"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Freshwater cyanobacterial harmful algal blooms (HCBs) pose a significant public health threat to the world\u2019s freshwater supply, including for potable drinking water, recreation, and subsistence-based and sport fishing. The occurrence of toxic blooms in recreational water bodies and potential human exposure to toxins will increase with a warming climate, necessitating novel methods to characterize blooms and communicate risk. Remotely piloted drones with high-resolution cameras can be an effective environmental monitoring tool to track an HCB in smaller scale lakes. This project examined the use of drone-derived aerial imagery to estimate levels of chlorophyll-a--the photosynthetic pigment found in all algae and cyanobacteria--and compared it with chlorophyll-a concentrations analyzed in the lab from lake water samples. Incorporating drones as a supplemental monitoring tool to estimate chlorophyll-a levels in a lake may help freshwater managers better anticipate HCBs and better communicate this human health hazard to the public."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Freshwater cyanobacterial harmful algal blooms (HCBs) present a mounting threat to public health outcomes and lake ecosystem services. Novel technological approaches in remote sensing are increasingly applied as an environmental monitoring tool for timely detection of HCBs. For this study, the authors used remotely piloted unoccupied aerial systems (UASs) equipped with high-resolution visible light (RGB) and multispectral cameras to capture imagery at an urbanized lake in Washington State. Color band manipulation of the imagery was leveraged to estimate levels of chlorophyll-a (chl-a)\u2014the photosynthetic pigment found in all algae and cyanobacteria\u2014as a proxy for phytoplankton biomass at the lake surface. Using linear regression modeling, the authors tested ten vegetation indices against lake water samples collected for chl-a validation. The best estimates of chl-a variation were provided by the Color Index of Vegetation Extraction (CIVE) index (R2 = 0.45, p < 0.001). Challenges associated with this UAS application were documented and insights into optimal field operation and environmental conditions needed for successful implementation were identified. Raw image data were collected by a DJI Phantom 4 Pro+ RTK and a DJI Matrice 210 V2. This raw data can be reused to process the imagery differently for future analysis."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "environmental monitoring"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "harmful algal blooms"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "unoccupied aerial systems"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "environmental public health"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington (washington.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RAPID - Natural Hazard and Disasters Reconnaissance Facility - University of Washington"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

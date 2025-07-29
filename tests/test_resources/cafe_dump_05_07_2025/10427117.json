@@ -1,0 +1,478 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 425620,
+        "datasetId": 10427117,
+        "datasetPersistentId": "doi:10.7910/DVN/QF1XRK",
+        "storageIdentifier": "s3mit://10.7910/DVN/QF1XRK",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "DRAFT",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:gUQZsjUtFaNyQX6pPRWYew==",
+        "lastUpdateTime": "2024-10-08T18:57:20Z",
+        "releaseTime": "2024-10-08T18:57:20Z",
+        "createTime": "2024-08-07T13:20:19Z",
+        "publicationDate": "2024-10-08",
+        "citationDate": "2024-10-08",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Accessibility to parks metrics for six OECD countries"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kaufmann, Talia"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Northeastern University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-9140-8137"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Vispute, Swapnil"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google, LLC"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kansal, Mansi"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google, LLC"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "O'Brien, T. Daniel"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Northeastern University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Shekel, Tomer"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google, LLC"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gabrilovich, Evgeniy"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google, LLC"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wellenius, Gregory"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DIJKSTRA, Lewis"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "European Commission, JRC"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Veneri, Paolo"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gran Sasso Science Institute"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kaufmann, Talia"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Northeastern University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "kaufmann.t@northeastern.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "We estimated accessibility to parks across 496 Functional Urban Areas (FUAs) in 6 countries: Estonia, France, Greece, Mexico, Sweden, and the United States. We calculate accessibility metrics at the FUA level (metropolitan areas), High Density Clusters (HDCs) level which are cities and their surrounding commuting areas. Our final dataset includes accessibility indicators for 496 FUAs and 583 HDCs across the six selected countries. The inventory of parks was extracted from the Google Maps and Search datasets in February and March of 2022 and include more than 200,000 parks in all 496 FUAs. Park accessibility metrics were calculated at a grid level corresponding to spherical geodesics (S2 cells) of roughly 150m x 150m.  We estimated walking time to the nearest park along the shortest feasible route using the Google Maps Directions API. \n\nTo estimate accessibility at a city level, for each park we compute the point-to-point navigation metrics from the surrounding populated s2 cells as the source, up to a radius of 10 km, and the park as the destination. We compute the walking time to the edge of the park using walking navigation estimates from Google Maps Directions API. When the boundary of the park is not available, we use the location (latitude, longitude) of the park centroid. We then aggregated these travel times per S2 cell to produce a population weighted median travel time to the closest park per FUA and HDC. To estimate the share of urban population with access to parks we summed the population of all S2 cells with a park available within 10 minutes of walking time around them and divided it by the city\u2019s overall population size, calculating the percent of people that can walk to a park within 10 minutes.\n\nThe final dataset include: (1) Fraction of the population with access to parks within a 10-minute walk; (2) the median walking time to the closest park; and (3) the share of the population in each FUA with walking access to parks by income level in France and the United States."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-08-07"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Computer and Information Science",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Equity"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Urban"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Kaufmann, Talia"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-08-07"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Google Park data, Google Places API"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Google Inc"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Google"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2022-03"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "WorldPop data, https://www.worldpop.org/"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "access_HDC_commuting_zones.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 425620,
+                "dataFile": {
+                    "id": 10427118,
+                    "persistentId": "",
+                    "filename": "access_HDC_commuting_zones.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 91309,
+                    "storageIdentifier": "s3mit://dvn-cloud:1912cfdd4d2-ab90c48558e2",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 81973,
+                    "originalFileName": "access_HDC_commuting_zones.csv",
+                    "UNF": "UNF:6:NnEv+ms8BszuaVgWA9sDfw==",
+                    "rootDataFileId": -1,
+                    "md5": "00e6634dd991bf07469900b50e1530c5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "00e6634dd991bf07469900b50e1530c5"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-08-07",
+                    "publicationDate": "2024-10-08",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "US_FR_region_income_access-1.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 425620,
+                "dataFile": {
+                    "id": 10427119,
+                    "persistentId": "",
+                    "filename": "US_FR_region_income_access-1.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 95404,
+                    "storageIdentifier": "s3mit://dvn-cloud:1912cfdfc55-8cd2a656d100",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 86587,
+                    "originalFileName": "US_FR_region_income_access-1.csv",
+                    "UNF": "UNF:6:kvtuVWJ1Atmien1pr91pPA==",
+                    "rootDataFileId": -1,
+                    "md5": "811ed6c9fd7c2c24d9176379ef7eb956",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "811ed6c9fd7c2c24d9176379ef7eb956"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-08-07",
+                    "publicationDate": "2024-10-08",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "access_by_HDC_all_metrics.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 425620,
+                "dataFile": {
+                    "id": 10427120,
+                    "persistentId": "",
+                    "filename": "access_by_HDC_all_metrics.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 66349,
+                    "storageIdentifier": "s3mit://dvn-cloud:1912cfc1bed-e9be4c73c9d8",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 61685,
+                    "originalFileName": "access_by_HDC_all_metrics.csv",
+                    "UNF": "UNF:6:0ZSS68hOZ0SSiNIHjQU1RA==",
+                    "rootDataFileId": -1,
+                    "md5": "e1bc19b51e2451d3a5d524902dbc2261",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e1bc19b51e2451d3a5d524902dbc2261"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-08-07",
+                    "publicationDate": "2024-10-08",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "access_by_FUA_all_metrics.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 425620,
+                "dataFile": {
+                    "id": 10427121,
+                    "persistentId": "",
+                    "filename": "access_by_FUA_all_metrics.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 48718,
+                    "storageIdentifier": "s3mit://dvn-cloud:1912cfc19ef-e06fc4756b62",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 45742,
+                    "originalFileName": "access_by_FUA_all_metrics.csv",
+                    "UNF": "UNF:6:VfzkhkKc3CBzJnJ4XDLt2Q==",
+                    "rootDataFileId": -1,
+                    "md5": "f8d0aff717ed5433fa35cfe18971e8eb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f8d0aff717ed5433fa35cfe18971e8eb"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-08-07",
+                    "publicationDate": "2024-10-08",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,525 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 435941,
+        "datasetId": 10855385,
+        "datasetPersistentId": "doi:10.7910/DVN/KTDSEO",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/KTDSEO",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2025-01-31",
+        "UNF": "UNF:6:olJG/Z7QnNVi2UGL5LztXA==",
+        "lastUpdateTime": "2025-02-19T21:13:24Z",
+        "releaseTime": "2025-02-19T21:13:24Z",
+        "createTime": "2025-02-01T00:14:29Z",
+        "publicationDate": "2025-02-19",
+        "citationDate": "2025-02-19",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Wind Energy Community Benefits Database"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Office of Energy Efficiency and Renewable Energy"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "US Department of Energy"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wind Energy Technologies Office"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "US Department of Energy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form.\n<br />\nIf you have questions about the underlying data stored here, please contact WINDExchange (windcommunitybenefits@nrel.gov).\n<br />\n\"This searchable database reflects agreements, funds, donations, and other forms of benefits offered to communities by land-based and offshore wind energy developments in the U.S. compiled by the National Renewable Energy Laboratory (NREL) from 2022 to 2024. \n<br />\nWhat Forms of Community Benefits Does This Database Include? \n<br />\nBenefits to communities for wind energy projects can be structured in many ways, but the following categories are the most common and are the focus of this database:\n<br />\nFormal Agreements signed by Developers, Local Governments, Tribal Governments, and/or Community Organizations: Developers and representatives of a government or community may sign an agreement stating the benefits that will be provided from a project and detailing the mechanisms and timelines for delivering benefits. Terminology may vary, depending on factors like the type of infrastructure or who the signatories are. Common names or types include community benefit agreement, host community agreement, good neighbor agreement, and Tribal benefit agreement. \n<br />\nPayments to Local Governments Outside of a Formal Agreement: Developers may provide payments, donations, or other financial benefits to a local or Tribal government outside of the bounds of a formal agreement; these are often one-time payments.\n<br />\nFunds Established by Developers: Developers may establish funds that distribute funding to different causes or recipients in the community over time, often through the form of grants. Terminology and structure may vary, with common names or types including community benefit fund, community fund, or scholarship fund.\n<br />\nDirect Contributions to Local Priorities or Programs: Developers may directly donate or contribute to local organizations, programs, or causes in the community (e.g., schools, fire departments, community service organizations).\n<br />\n<br />\nWhat Forms of Community Benefits Are Not Included in This Database?\n<br />\nAgreements and related forms of benefits may be provided alongside other agreements or economic impacts that serve different purposes, such as:\nLand lease payments to landowners that host wind turbines.\nProject labor agreements for construction of wind energy projects.\nTaxes or tax agreements like payment in lieu of taxes (PILOTs).\nDirect compensation to impacted stakeholders, such as commercial fishermen.\n<br />\nThis database does not include these other types of wind energy benefits, as they differ from agreements and related benefit mechanisms in several key ways; namely, the data included in this database are unrelated to taxation, are intended to provide benefits to the community as a whole rather than a specific group of people, like landowners, and are separate from impact mitigation measures required by permitting agencies.\"\n<br />\nQuote from https://windexchange.energy.gov/projects/community-benefit-agreements"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Renewable Energy"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Co-Benefit"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementedBy"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Renewable Energy Laboratory. (n.d.). Wind energy community benefits guide. WINDExchange. https://windexchange.energy.gov/community-benefits-guide"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://windexchange.energy.gov/community-benefits-guide"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nWind Energy Community Benefits Database was downloaded by Allison James on 2025-01-31"
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "distributorURL": {
+                                    "typeName": "distributorURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.bu.edu/sph/profile/allison-james/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-31"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "James, Allison"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-31"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "series",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "WINDExchange Wind Energy Maps and Data"
+                                },
+                                "seriesInformation": {
+                                    "typeName": "seriesInformation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "WINDExchange provides resources to help communities weigh the benefits and impacts of wind energy. WINDExchange is a resource of the U.S. Department of Energy's Wind Energy Technologies Office."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the DOE and are pasted below: \"Government information at DOE websites is in the public domain. Public domain information may be freely distributed and copied, but it is requested that in any subsequent use the Department of Energy be given appropriate acknowledgement. When using DOE websites, you may encounter documents, illustrations, photographs or other information resources contributed or licensed by private individuals, companies or organizations that may be protected by U.S. and foreign copyright laws. Transmission or reproduction of protected items beyond that allowed by fair use as defined in the copyright laws requires the written permission of the copyright owners.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "County"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "USDOE Office of Energy Efficiency and Renewable Energy"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://windexchange.energy.gov/projects/community-benefit-agreements"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-31"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Survey data"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Co-Benefit",
+                            "Renewable Energy"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "community-benefit-agreements.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 435941,
+                "dataFile": {
+                    "id": 10855388,
+                    "persistentId": "",
+                    "filename": "community-benefit-agreements.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 236134,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194bedab851-f5e236576cd4",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 230998,
+                    "originalFileName": "community-benefit-agreements.csv",
+                    "UNF": "UNF:6:olJG/Z7QnNVi2UGL5LztXA==",
+                    "rootDataFileId": -1,
+                    "md5": "ba662372dcd45c4d72ca32e04a18bc83",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ba662372dcd45c4d72ca32e04a18bc83"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "HTML file of the website featuring the data.",
+                "label": "WINDExchange_ Community Benefit Agreements.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435941,
+                "dataFile": {
+                    "id": 10855386,
+                    "persistentId": "",
+                    "filename": "WINDExchange_ Community Benefit Agreements.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 55282,
+                    "description": "HTML file of the website featuring the data.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194bedaba69-c55ad94dae40",
+                    "rootDataFileId": -1,
+                    "md5": "fcf45970cd14716773e7fb3ac7cdb54d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fcf45970cd14716773e7fb3ac7cdb54d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "PDF of the website featuring the data.",
+                "label": "WINDExchange_ Community Benefit Agreements.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435941,
+                "dataFile": {
+                    "id": 10855387,
+                    "persistentId": "",
+                    "filename": "WINDExchange_ Community Benefit Agreements.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 343764,
+                    "description": "PDF of the website featuring the data.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194bedabc59-d2ffa13972f7",
+                    "rootDataFileId": -1,
+                    "md5": "8a11947c717c6e29a55e55cdf2fc74e7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8a11947c717c6e29a55e55cdf2fc74e7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Wind energy community benefits guide",
+                "label": "community-benefits-guide.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435941,
+                "dataFile": {
+                    "id": 10855389,
+                    "persistentId": "",
+                    "filename": "community-benefits-guide.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 318272,
+                    "description": "Wind energy community benefits guide",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194bee9edf8-6b21d10dbb2a",
+                    "rootDataFileId": -1,
+                    "md5": "e4a7847a825c07e2459583cc3dfc28b3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e4a7847a825c07e2459583cc3dfc28b3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-31",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "DOE website disclaimers",
+                "label": "Web Policies _ Department of Energy.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 435941,
+                "dataFile": {
+                    "id": 10897391,
+                    "persistentId": "",
+                    "filename": "Web Policies _ Department of Energy.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 768114,
+                    "description": "DOE website disclaimers",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195200e7150-ba041c7e07ca",
+                    "rootDataFileId": -1,
+                    "md5": "3eefbb1c9e8f0ed26c98ac4dce97c799",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3eefbb1c9e8f0ed26c98ac4dce97c799"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-19",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

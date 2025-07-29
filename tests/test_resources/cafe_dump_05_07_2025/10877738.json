@@ -1,0 +1,249 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443997,
+        "datasetId": 10877738,
+        "datasetPersistentId": "doi:10.17603/DS2-6K4N-BN46",
+        "storageIdentifier": "s3://10.17603/ds2-6k4n-bn46",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2021",
+        "lastUpdateTime": "2025-05-06T23:22:13Z",
+        "releaseTime": "2025-05-05T12:13:46Z",
+        "createTime": "2025-05-06T23:22:13Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Household Survey Instrument, 2010: Wave 2 in Galveston Recovery from 2008 Hurricane Ike - A \u201cLiving Laboratory\u201d for Examining Community Recovery and Resilience After Disaster"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-2781"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Van Zandt, Shannon"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Peacock, Walter"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Xiao, Yu"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Highfield, Wes"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This collection archives instruments and planning materials related to the household survey for Wave 2 of the Galveston, TX Field Study conducted by the Hazard Reduction Recovery Center, as part of a National Science Foundation-funded project. The instrument was designed to gather specific types of information on the household (social) that occupied the housing unit at the time of the flooding. The survey instrument was designed to collect information on: (1) dislocation and reoccupancy of household members with basic information, (2) repair and rebuilding, (3) applications to disaster assistance programs (insurance, FEMA, SBA), (4) losses and sources of assistance, (5) mitigation behavior, (6) changes in jobs/employment, (7) health-related service use, (8) neighborhood and quality of life, and (9) additional household socioeconomic and demographics (e.g., highest education status, race/ethnicity, and annual income). The survey was designed to be conducted in-person. Based on the Wave 1 and Wave 2 household data, the center established a three-year period of panel studies of households and housing units to track recovery trajectories and adaptive learning."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Researchers from the Hazard Reduction & Recovery Center (HRRC) at Texas A&M University have created a living laboratory for community resilience in Galveston, Texas, allowing them to identify previously untested relationships between the physical and social, and economic development patterns in physically vulnerable communities. With funding from the NSF, Dr. Van Zandt and her team at Texas A&M University collected primary data in the months immediately after Galveston Island and Bolivar Peninsula were struck by Hurricane Ike in September 2008, and again about a year later and two years later. Data was collected from physical assessment of 1500 households. Household surveys were completed for 570 of those households, for a response rate of 38 percent. Business surveys were completed for 287 businesses in Galveston County (including areas on the Island and on the mainland). These data were (and continue to be) used to test hypotheses related to the resiliency and recovery of communities after a natural disaster. We here publish the instruments used to gather the data. The original data is not publicly available due to Institutional Review Board (IRB) restrictions in place at the time of collection. For further questions about the original data you may contact the HRRC at Texas A&M."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Field Research Planning"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Community Resilience"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Longitudinal"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Survey Instruments"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sample Frame"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "IRB Documents"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2021"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Portland State University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

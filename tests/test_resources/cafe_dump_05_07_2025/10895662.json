@@ -1,0 +1,395 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437658,
+        "datasetId": 10895662,
+        "datasetPersistentId": "doi:10.7910/DVN/FJCFE3",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/FJCFE3",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:jmRboII06mGsLOrQ80DYWQ==",
+        "lastUpdateTime": "2025-03-13T17:27:43Z",
+        "releaseTime": "2025-03-13T17:27:43Z",
+        "createTime": "2025-02-19T03:00:28Z",
+        "publicationDate": "2025-03-13",
+        "citationDate": "2025-03-13",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: FEMA Community Disaster Resilience Zones"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FEMA"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\nIf you have questions about the underlying data stored here, please contact FEMA at FEMA-CDRZ@fema.dhs.gov . If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br />\n<br />\n<blockquote>\"Community Disaster Resilience Zones aim to build and strengthen community resilience across the nation by driving federal, public, and private resources to the most at-risk and in-need communities.\n<br />\n<br />\nThe Community Disaster Resilience Zones Act uses FEMA\u2019s National Risk Index to identify the most at-risk and in-need communities to identify resilience zones. Designated zones will be prioritized for targeted federal support, such as increased cost-share for resilience and mitigation projects, lessening the financial burden on communities to perform resilience-related activities.\n<br />\n<br />\nIn September 2023, FEMA announced the first 483 CDRZ in all 50 states and the District of Columbia. In November 2024, 275 census tracts were designated for Tribal Nations and U.S. territories and in January 2025, an additional 55 census tracts were designated for Tribal Nations.\"</blockquote>\n<br />\n<br />[Quote from <a href=\"https://experience.arcgis.com/experience/3fdfd0639ba0403e9414d05654449d32/page/Home/\">https://experience.arcgis.com/experience/3fdfd0639ba0403e9414d05654449d32/page/Home/</a>]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-18"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Disaster Response Equity"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\nFEMA  data was downloaded by Jonathan Gilmour on 2025-02-03"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gilmour, Jonathan"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-18"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-10"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the FEMA Community Disaster Resilience Zones data download site (https://fema.maps.arcgis.com/home/item.html?id=a05ccbacd1174dddac38bd75bd304d18) and are pasted below:<br>\n<br>\n\"Terms of Use<br>\nThe FEMA Community Disaster Resilience Zones data are available to the public at large with no constraints or limitations. If used, please reference the Federal Emergency Management Agency Community Disaster Resilience Zones \u201cDesignation Methodology\u201d page, where there is information about the dataset\u2019s methodology. For more information, please see the FEMA Community Disaster Resilience Zones webpage or contact the FEMA Community Disaster Resilience team.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "FEMA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-03"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-03"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "FEMA, The Council on Environmental Quality, The Climate and Economic Justice Screening Tool, Compass, CDM Smith, ABS Consulting, Factor, Inc., Arizona State University (for Spatial Hazard Events and Losses Database for the United States), the Centers for Disease Control Agency for Toxic Substances and Disease Registry (for the Social Vulnerability Index), the University of South Carolina's Hazards and Vulnerability Research Institute (for Baseline Resilience Indicators for Communities), and all the other data providers and subject matter experts that have helped guide the National Risk Index over the years."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Screenshot 2025-02-18 at 21-39-29 Community Disaster Resilience Zones FEMA.gov.png",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437658,
+                "dataFile": {
+                    "id": 10895666,
+                    "persistentId": "",
+                    "filename": "Screenshot 2025-02-18 at 21-39-29 Community Disaster Resilience Zones FEMA.gov.png",
+                    "contentType": "image/png",
+                    "friendlyType": "PNG Image",
+                    "filesize": 1446786,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951c26d761-572f7a10cef1",
+                    "rootDataFileId": -1,
+                    "md5": "c5aabf9ddf7c1be9d51ed384631f0067",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c5aabf9ddf7c1be9d51ed384631f0067"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Screenshot 2025-02-18 at 21-27-12 Home FEMA Community Disaster Resilience Zones.png",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437658,
+                "dataFile": {
+                    "id": 10895664,
+                    "persistentId": "",
+                    "filename": "Screenshot 2025-02-18 at 21-27-12 Home FEMA Community Disaster Resilience Zones.png",
+                    "contentType": "image/png",
+                    "friendlyType": "PNG Image",
+                    "filesize": 1352425,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951c26d699-a5ce1d3da455",
+                    "rootDataFileId": -1,
+                    "md5": "ccee00e886b37338ec9341cb2359a227",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ccee00e886b37338ec9341cb2359a227"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FEMA_CommunityDisasterResilienceZones 2.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 437658,
+                "dataFile": {
+                    "id": 10895663,
+                    "persistentId": "",
+                    "filename": "FEMA_CommunityDisasterResilienceZones 2.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 117361,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951c26d593-19aabc89fa40",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 108311,
+                    "originalFileName": "FEMA_CommunityDisasterResilienceZones 2.csv",
+                    "UNF": "UNF:6:3usweLMca6KwtL75qV0O5w==",
+                    "rootDataFileId": -1,
+                    "md5": "b8040ef018586c4c72e2c078ba7ed666",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b8040ef018586c4c72e2c078ba7ed666"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "fema_cdrz_designation-methodology.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437658,
+                "dataFile": {
+                    "id": 10895665,
+                    "persistentId": "",
+                    "filename": "fema_cdrz_designation-methodology.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 134013,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951c26d436-7d6ce4ca8bee",
+                    "rootDataFileId": -1,
+                    "md5": "668e8ea2b8ca7c5c15c4e766fe795fac",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "668e8ea2b8ca7c5c15c4e766fe795fac"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FEMA_CDRZ.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437658,
+                "dataFile": {
+                    "id": 10895667,
+                    "persistentId": "",
+                    "filename": "FEMA_CDRZ.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 50050842,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951c279047-761ba268027a",
+                    "rootDataFileId": -1,
+                    "md5": "76405e2eee641017eefa4adc2cc5a2cc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "76405e2eee641017eefa4adc2cc5a2cc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-13",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FEMA_CommunityDisasterResilienceZones.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 437658,
+                "dataFile": {
+                    "id": 10895668,
+                    "persistentId": "",
+                    "filename": "FEMA_CommunityDisasterResilienceZones.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 117361,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951c27917e-93f0cad2850a",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 108311,
+                    "originalFileName": "FEMA_CommunityDisasterResilienceZones.csv",
+                    "UNF": "UNF:6:3usweLMca6KwtL75qV0O5w==",
+                    "rootDataFileId": -1,
+                    "md5": "b8040ef018586c4c72e2c078ba7ed666",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b8040ef018586c4c72e2c078ba7ed666"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-13",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

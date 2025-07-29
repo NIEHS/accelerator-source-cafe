@@ -1,0 +1,435 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 442241,
+        "datasetId": 11078762,
+        "datasetPersistentId": "doi:10.7910/DVN/ALFWCE",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/ALFWCE",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "lastUpdateTime": "2025-04-17T20:08:32Z",
+        "releaseTime": "2025-04-17T20:08:32Z",
+        "createTime": "2025-04-15T19:17:41Z",
+        "publicationDate": "2025-04-17",
+        "citationDate": "2025-04-17",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From:  National Center for Health Workforce Analysis Workforce Projections"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The National Center for Health Workforce Analysis (NCHWA)"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Health Resources & Services Administration"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n<br>\n<br>\nIf you have questions about the underlying data stored here, please contact Health Resources & Services Administration at NCHWAinquiries@hrsa.gov. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br>\n<blockquote> View National Center for Health Workforce Analysis projections of the future supply of and demand for healthcare occupations. Projections were generated using some data from the period of the pandemic. See the \u201cAbout this Dashboard\u201d for more details about the projections.\n<br>\n<br>\nUse this tool to:<br>\nView projection of the supply of and demand for health care workers at the state and national level.<br>\nAnalyze supply and demand trends by discipline.<br>\nAnalyze projected \u2018What if?\u2019 scenarios in the event of changes in the health care landscape. </blockquote>\n<br />\n<br />\n[Quote from: <a href=\"https://data.hrsa.gov/topics/health-workforce/workforce-projections\">https://data.hrsa.gov/topics/health-workforce/workforce-projections</a>]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nWorkforce Projections data was downloaded by Mahima Kaur on April 15 2025."
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Kaur, Mahima"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-04-15"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2037-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "dataSources",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Department of Health and Human Services, Health Resources and Services Administration, Health Workforce Projections. Available at https://bhw.hrsa.gov/data-research/review-health-workforce-research"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us."
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Workforce Projections"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "HRSA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "1"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://data.hrsa.gov/topics/health-workforce/workforce-projections"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2014-11-01"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-04-15"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Projection data"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Economic Impact Research",
+                            "Health Services Research",
+                            "Healthcare Sector",
+                            "Healthcare Services",
+                            "Projection"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Workforce_Projections_FullData.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442241,
+                "dataFile": {
+                    "id": 11078763,
+                    "persistentId": "",
+                    "filename": "Workforce_Projections_FullData.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 4864780,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963ae2a856-7a15deb18487",
+                    "rootDataFileId": -1,
+                    "md5": "29b832f80a2acda71f5af3058dbe5a45",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "29b832f80a2acda71f5af3058dbe5a45"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-04-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Workforce Projections.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442241,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 11079639,
+                    "persistentId": "",
+                    "filename": "Workforce Projections.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 183039,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963afeaa55-cacb0bcd72d9",
+                    "rootDataFileId": -1,
+                    "md5": "2977570f0e23d10de6e92de8662ed21f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2977570f0e23d10de6e92de8662ed21f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-04-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Health Workforce Projections _ Bureau of Health Workforce.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442241,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 11079640,
+                    "persistentId": "",
+                    "filename": "Health Workforce Projections _ Bureau of Health Workforce.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 252868,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963affe6c9-fa26c4f331ea",
+                    "rootDataFileId": -1,
+                    "md5": "d4243921b693f9419a14118f56dd2402",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d4243921b693f9419a14118f56dd2402"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-04-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Workforce Projections.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442241,
+                "dataFile": {
+                    "id": 11092463,
+                    "persistentId": "",
+                    "filename": "Workforce Projections.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 47484,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:196455d9003-8f8a785a1ed6",
+                    "rootDataFileId": -1,
+                    "md5": "cf6c1285fd115ff1717131de912bee4f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cf6c1285fd115ff1717131de912bee4f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-17",
+                    "publicationDate": "2025-04-17",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "About the Workforce Projections Dashboard.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442241,
+                "dataFile": {
+                    "id": 11092462,
+                    "persistentId": "",
+                    "filename": "About the Workforce Projections Dashboard.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 280507,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:196455d3158-5b00acf655c2",
+                    "rootDataFileId": -1,
+                    "md5": "b04aa78a081cb88d2cd6eb3f630fa4f5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b04aa78a081cb88d2cd6eb3f630fa4f5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-17",
+                    "publicationDate": "2025-04-17",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

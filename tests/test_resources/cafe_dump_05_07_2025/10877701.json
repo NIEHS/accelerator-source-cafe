@@ -1,0 +1,241 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443936,
+        "datasetId": 10877701,
+        "datasetPersistentId": "doi:10.17603/DS2-XVM4-D037",
+        "storageIdentifier": "s3://10.17603/ds2-xvm4-d037",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:11:24Z",
+        "releaseTime": "2025-05-05T12:14:22Z",
+        "createTime": "2025-05-06T23:11:24Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Enhancing Tornado Preparedness and Protective Action for Persons with Disabilities: Addressing Barriers and Facilitators in Identifying Tornado Warning Needs and Barriers to Protective Action for Individuals with Disabilities"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-5755"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lee, Sangwon"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "First, Jennifer"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The mission of this project is to identify and address the unique challenges faced by persons with disabilities (PWD) during tornado events, with a focus on the December 10-11, 2021 tornado outbreak. Through comprehensive research and community engagement, the study aims to:  1. Explore how individuals with disabilities receive and interpret tornado hazard information. 2. Identify the barriers and resources influencing their ability to take protective actions. 3. Highlight the systemic gaps in tornado warning communication and protective strategies. 4. Develop actionable insights to improve warning systems, enhance protective options, and inform policy and practice to create inclusive disaster preparedness frameworks.  This mission is rooted in promoting equity and resilience for marginalized populations, ensuring that disaster response and preparedness strategies meet the needs of all community members. The findings will contribute to advancing disaster communication practices, fostering safer environments for PWD in tornado-prone areas."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "What is this project about? This project investigates how individuals with disabilities (PWDs) received and responded to tornado hazard information during the December 10\u201311, 2021 tornado outbreak. The study identifies the barriers PWDs faced in accessing warning information and taking protective actions, as well as the resources that facilitated their ability to act. Using a survey instrument designed specifically for this purpose, the research collects empirical data on topics such as tornado risk perception, protective behaviors, and barriers to action, emphasizing the unique challenges experienced by PWDs in their physical and social environments during severe weather events.  How can data in this project be reused? The data collected from this project can be reused to enhance inclusive Disaster Risk Reduction (DRR) plans by identifying key barriers and resources for PWDs during severe weather events. Policymakers, emergency managers, and researchers can leverage the findings to develop equitable warning systems, improve accessibility of shelters, and create inclusive emergency response strategies. Additionally, the survey instrument and dataset can be used in future research to assess similar vulnerabilities and protective behaviors in other disaster contexts or regions, fostering broader application in disaster risk management.  How is this project unique? This project uniquely focuses on the intersection of disability and disaster response, addressing a critical gap in tornado-related research using the Protective Action Decision Model (PADM). The study's emphasis on structural and environmental factors\u2014such as access to transportation, shelters, and communication channels\u2014offers a comprehensive understanding of the disparities PWDs face during tornado events. The findings provide actionable insights for creating inclusive DRR strategies, which are often overlooked in mainstream disaster planning.  Who is the audience? The audience includes policymakers, emergency management professionals, national weather forecasters, academic researchers, and organizations focused on disability advocacy and disaster preparedness. Additionally, the findings are relevant to local government agencies, community planners, and social work practitioners who aim to develop and implement inclusive policies and programs. The project also serves as a valuable resource for scholars studying the intersection of disability, disaster response, and social vulnerability.  This project underscores the importance of addressing the unique needs of PWDs during disasters and contributes to the growing body of knowledge on inclusive disaster preparedness and response. Its findings aim to foster equitable and accessible protective measures, ensuring that no population is left behind in the face of severe weather events."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tornado"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "disability"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "post-traumatic stress"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "depression"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mental health"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "natural disaster"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "natural hazard"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Tennessee Knoxville (utk.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Missouri"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/The Southern United States and Ohio Valley (Missouri, Illinois, Tennessee, and Kentucky)"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

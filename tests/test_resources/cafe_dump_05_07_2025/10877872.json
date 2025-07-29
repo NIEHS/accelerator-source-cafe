@@ -1,0 +1,257 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444138,
+        "datasetId": 10877872,
+        "datasetPersistentId": "doi:10.17603/DS2-WNEQ-SG96",
+        "storageIdentifier": "s3://10.17603/ds2-wneq-sg96",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:57:07Z",
+        "releaseTime": "2025-05-05T12:13:56Z",
+        "createTime": "2025-05-06T23:57:07Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Detection of Cracking and Spalling Damage in Buildings and Bridges. in Detection of Cracking and Spalling Damage in Buildings and Bridges"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-5751"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bai, Yongsheng"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sezen, Halil"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Yilmaz, Alper"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Qin, Rongjun"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This is part of an NSF project (the information is this link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2036193&HistoricalAwards=false}. In this project, over 2,200 images are used to label cracks and spalling on buildings and bridges damaged during extreme events. The data format is MS-COCO when the boundaries of the damage are manually drawn with polygon lines. The training and validation datasets are uploaded for the research community.  The reference GitHub link is here: https://github.com/Bai426/Damage-Detection-with-COCO-data-and-Mask-R-CNN. If you think the data is useful to your research, please cite the following publications: [1] Bai Y., Zha B., Sezen H., Yilmaz A. (2023). Engineering deep learning methods on automatic detection of damage in infrastructure due to extreme events. Structural Health Monitoring. 2023;22(1):338-352. doi:10.1177/14759217221083649 [2] Bai Y., Sezen H., Yilmaz A. (2021). \"End-to-end Deep Learning Methods for Automated Damage Detection in Extreme Events at Various Scales,\" 2020 25th International Conference on Pattern Recognition (ICPR), Milan, Italy, 2021, pp. 6640-6647, doi: 10.1109/ICPR48806.2021.9413041. [3] Bai, Y., Sezen, H., Yilmaz, A. (2021). Detecting cracks and spalling automatically in extreme events by end-to-end deep learning frameworks. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2, 161-168. [4] Bai Y. (2022). Deep learning with vision-based technologies for structural damage detection and health monitoring. PhD dissertation at Ohio State University."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This is part of an NSF project (the information is this link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2036193&HistoricalAwards=false}. In this project, over 2,200 images are used to label cracks and spalling on buildings and bridges damaged during extreme events. The data format is MS-COCO when the boundaries of the damage are manually drawn with polygon lines. The training and validation datasets are uploaded for the research community.  The reference GitHub link is here: https://github.com/Bai426/Damage-Detection-with-COCO-data-and-Mask-R-CNN. If you think the data is useful to your research, please cite the following publications: [1] Bai Y., Zha B., Sezen H., Yilmaz A. (2023). Engineering deep learning methods on automatic detection of damage in infrastructure due to extreme events. Structural Health Monitoring. 2023;22(1):338-352. doi:10.1177/14759217221083649 [2] Bai Y., Sezen H., Yilmaz A. (2021). End-to-end Deep Learning Methods for Automated Damage Detection in Extreme Events at Various Scales, 2020 25th International Conference on Pattern Recognition (ICPR), Milan, Italy, 2021, pp. 6640-6647, doi: 10.1109/ICPR48806.2021.9413041. [3] Bai, Y., Sezen, H., Yilmaz, A. (2021). Detecting cracks and spalling automatically in extreme events by end-to-end deep learning frameworks. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2, 161-168. [4] Bai Y. (2022). Deep learning with vision-based technologies for structural damage detection and health monitoring. PhD dissertation at Ohio State university."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Deep learning"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "structural damage"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "crack detection"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "spalling detection"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "structural damage detection"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "structural health monitoring"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas State University (txstate.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ohio State University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ohio State University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

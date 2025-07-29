@@ -1,0 +1,315 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 438303,
+        "datasetId": 10923797,
+        "datasetPersistentId": "doi:10.7910/DVN/HAMCYI",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/HAMCYI",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-01T15:56:03Z",
+        "releaseTime": "2025-04-01T15:56:03Z",
+        "createTime": "2025-02-28T22:19:09Z",
+        "publicationDate": "2025-04-01",
+        "citationDate": "2025-04-01",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Indianapolis MPO Environmental Justice Areas"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Indianapolis Metropolitan Planning Organization"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Current, March 2024 revision, IMPO Environmental Justice Areas based on 2020 Census Block Groups selected by the 2020 MPA boundary.\n\n<a href=\"https://www.indympo.org/maps-and-data/maps/demographics-environmental-justice\">https://www.indympo.org/maps-and-data/maps/demographics-environmental-justice</a>\n\n<blockquote>\u201cEnvironmental Justice (EJ) refers to the process of evaluating and analyzing the planning process in reference to the most disadvantaged populations. Environmental Justice populations are identified by the federal government as low-income and minority populations. As part of our planning process, we evaluate the impact our projects have on these populations.\"</blockquote>\n\n<blockquote>\u201cFor each census block group within the Metropolitan Planning Area, 2022 ACS Five-Year data was used to compare the rate* of a specific EJ population within the block group to the rate of that population in the overall region. The map identifies which EJ populations for each block group exceed the regional rate for that population. Because the IMPO is federally mandated to consider the benefits to and burdens of minoritized people and low-income households, those categories are specifically highlighted in the map and considered to be Environmental Justice Areas of Attention (EJAs). The map also identifies five other EJ populations including people with limited English proficiency, low educational attainment, households with no automobiles available, people over the age of 65, and households with disabilities. These groups are not federally mandated for consideration but are indicated here by the IMPO because they can also be disproportionately impacted by transportation projects.\"</blockquote>"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-03-26"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Jackson, Katie"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-28"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.indympo.org/resources/press-kit <br />\n\n<blockquote>\"Gathered below are some resources for media and other use. For more information, contact Danielle Frey.\" </blockquote>\n\n<blockquote>\"IMPO Name Usage: Please use \"the Indianapolis Metropolitan Planning Organization\", \"the Indianapolis MPO\" or \"the IMPO\". \" </blockquote>"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2020 United States Census"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemName": {
+                                "typeName": "cafeSpatialReferenceSystemName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "102100 (3857)"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Environmental Justice"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "IMPO_EJ_Areas_2024_Metadata.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438303,
+                "dataFile": {
+                    "id": 10923803,
+                    "persistentId": "",
+                    "filename": "IMPO_EJ_Areas_2024_Metadata.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 866991,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954ea4b20a-d16b94074ccc",
+                    "rootDataFileId": -1,
+                    "md5": "ecddf73d3725f9b79ecec42b67dc66e6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ecddf73d3725f9b79ecec42b67dc66e6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Environmental_Justice_Areas_Current_1885295996363069420.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438303,
+                "dataFile": {
+                    "id": 10923804,
+                    "persistentId": "",
+                    "filename": "Environmental_Justice_Areas_Current_1885295996363069420.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 772017,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954ea4af96-3dada7c0d934",
+                    "rootDataFileId": -1,
+                    "md5": "d392806a251493ea4b447f77cbf7a7d2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d392806a251493ea4b447f77cbf7a7d2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "IMPO_EJ_Areas_2024_DataSource.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438303,
+                "dataFile": {
+                    "id": 10923802,
+                    "persistentId": "",
+                    "filename": "IMPO_EJ_Areas_2024_DataSource.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1888818,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954ea4b33b-98b8775ac72b",
+                    "rootDataFileId": -1,
+                    "md5": "301e4941e961a3489fe98831b6d2bf42",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "301e4941e961a3489fe98831b6d2bf42"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Environmental_Justice_Areas_Current_5432957685995220655.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438303,
+                "dataFile": {
+                    "id": 10923805,
+                    "persistentId": "",
+                    "filename": "Environmental_Justice_Areas_Current_5432957685995220655.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1241325,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954ea4b0c6-4322f8fe9337",
+                    "rootDataFileId": -1,
+                    "md5": "7b0593e717b40d8cc56a3de5e44274df",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7b0593e717b40d8cc56a3de5e44274df"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

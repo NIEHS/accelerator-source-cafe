@@ -1,0 +1,1842 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 440629,
+        "datasetId": 10895533,
+        "datasetPersistentId": "doi:10.7910/DVN/ECFZ61",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/ECFZ61",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:thpkMuYiUgcm/0tyqpSgvg==",
+        "lastUpdateTime": "2025-03-27T15:39:30Z",
+        "releaseTime": "2025-03-27T15:39:30Z",
+        "createTime": "2025-03-21T17:33:44Z",
+        "publicationDate": "2025-03-11",
+        "citationDate": "2025-03-11",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: FACA Database Downloadable Datasets\ufeff"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "GSA"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. GSA"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\n<blockquote>\nThe Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide. This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities. Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.\n<br /><br />\nDue to the migration of the FACA database in FY18 to the Salesforce platform, all datasets (beginning with FY18) will only be in a Microsoft Excel format.\n</blockquote>\n[Quote from: https://www.facadatabase.gov/FACA/s/FACADatasets]\n<br /><br />\n\nThe submitted files are not the database itself, which is now apparently stored within Salesforce. Rather they are annual archives of the database from 1997 to 2023.\n\n<If you have questions about the underlying data stored here, please contact U.S. GSA via the Contact Us page at [https://www.facadatabase.gov/FACA/s/HelpDesk]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2015-02-18"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\n\u201cFACA Database Downloadable Datasets\ufeff\u201d data was downloaded by Anne Gunn on 2015-02-18"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gunn, Anne"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-18"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1997-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "FACA Database Downloadable Datasets\ufeff"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "GSA"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. GSA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.facadatabase.gov/FACA/s/FACADatasets"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-18"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "FACAData2018.zip.xzip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895549,
+                    "persistentId": "",
+                    "filename": "FACAData2018.zip.xzip",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 3620928,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8ca552-bb4ac5ed2d0b",
+                    "rootDataFileId": -1,
+                    "md5": "ec9c798a57c5759fe8eb8d4e0ddd9229",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ec9c798a57c5759fe8eb8d4e0ddd9229"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2007.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895560,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2007.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 29042818,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b911699-48aa5d2f653d",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 28629430,
+                    "originalFileName": "FACAMemberList2007.csv",
+                    "UNF": "UNF:6:DtIrfIKOXXOktf6vkXZQaA==",
+                    "rootDataFileId": -1,
+                    "md5": "55f99903aacb33acd1280b80e4fb1149",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "55f99903aacb33acd1280b80e4fb1149"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2001.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895563,
+                    "persistentId": "",
+                    "filename": "FACAData2001.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5202629,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b85902d-e731d47ba90e",
+                    "rootDataFileId": -1,
+                    "md5": "5aaf461a183b5b5bcad5e142bb26264a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5aaf461a183b5b5bcad5e142bb26264a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList1999.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895586,
+                    "persistentId": "",
+                    "filename": "FACAMemberList1999.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 16433644,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8fa865-e56d19fb4ef9",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 16158785,
+                    "originalFileName": "FACAMemberList1999.csv",
+                    "UNF": "UNF:6:JhbaFNarJyESP/j8BpFSMQ==",
+                    "rootDataFileId": -1,
+                    "md5": "d0a1d6b14ebc765318dbce9a7a88f32e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d0a1d6b14ebc765318dbce9a7a88f32e"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2018.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895584,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2018.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 21015254,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8dd2f6-108c09b03cc3",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 18353031,
+                    "originalFileName": "FACAMemberList2018.csv",
+                    "UNF": "UNF:6:pvaSyum89/Gu9VX6d7SAQA==",
+                    "rootDataFileId": -1,
+                    "md5": "3aeedf55155a94a80ad967c4a7613b02",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3aeedf55155a94a80ad967c4a7613b02"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2003.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895539,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2003.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 21962467,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b9066c5-048aadfd7ead",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 21578660,
+                    "originalFileName": "FACAMemberList2003.csv",
+                    "UNF": "UNF:6:CM6e2OJUspU4Rvu0dXdyGg==",
+                    "rootDataFileId": -1,
+                    "md5": "54ca1da765a4b7ccc9c2fd3f8ce8bd28",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "54ca1da765a4b7ccc9c2fd3f8ce8bd28"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2000.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895556,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2000.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 17318963,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8fc5d7-dabf4b045992",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 17044122,
+                    "originalFileName": "FACAMemberList2000.csv",
+                    "UNF": "UNF:6:QWmUIRW7aE8btFkM01T3DQ==",
+                    "rootDataFileId": -1,
+                    "md5": "05dbbf74df7552851e2a258d31106f1c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "05dbbf74df7552851e2a258d31106f1c"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2019.zip.xzip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895543,
+                    "persistentId": "",
+                    "filename": "FACAData2019.zip.xzip",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 1596715,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8cb7e7-50fab5f2ad60",
+                    "rootDataFileId": -1,
+                    "md5": "a950f915d64546f0a841e333bc2135e9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a950f915d64546f0a841e333bc2135e9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2012.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895553,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2012.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 22116216,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b92ccb8-ffeb2d5afb18",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 19557880,
+                    "originalFileName": "FACAMemberList2012.csv",
+                    "UNF": "UNF:6:CsOMjWSEXi+XVt5I8Z6v0Q==",
+                    "rootDataFileId": -1,
+                    "md5": "d870b51c1b12af7abe75090e4bf6bd80",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d870b51c1b12af7abe75090e4bf6bd80"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2015.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895579,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2015.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 22984628,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8d4768-ece4f133db90",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 20365039,
+                    "originalFileName": "FACAMemberList2015.csv",
+                    "UNF": "UNF:6:g7HNmJvVfqRMl1xcozA3pQ==",
+                    "rootDataFileId": -1,
+                    "md5": "afd5bab2399e2129abfedbf98fe520fa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "afd5bab2399e2129abfedbf98fe520fa"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData1998.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895588,
+                    "persistentId": "",
+                    "filename": "FACAData1998.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4028082,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b854f53-7f771db1e933",
+                    "rootDataFileId": -1,
+                    "md5": "587b15840e4e1b6fb4d39ef98fb11ee1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "587b15840e4e1b6fb4d39ef98fb11ee1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2013.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895547,
+                    "persistentId": "",
+                    "filename": "FACAData2013.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7363902,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b84c6b1-11c74b40acf8",
+                    "rootDataFileId": -1,
+                    "md5": "bdfeef313fe70f93261192f2bd292284",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bdfeef313fe70f93261192f2bd292284"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2001.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895583,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2001.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 18757545,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8ff33a-be562124c3a7",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 18458019,
+                    "originalFileName": "FACAMemberList2001.csv",
+                    "UNF": "UNF:6:arqybHs9rACsGHJ9zDq6Dw==",
+                    "rootDataFileId": -1,
+                    "md5": "ac7e4fa7de268c9477181ead6a6920c1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ac7e4fa7de268c9477181ead6a6920c1"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2003.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895554,
+                    "persistentId": "",
+                    "filename": "FACAData2003.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6446151,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b85c016-5a2833b3b610",
+                    "rootDataFileId": -1,
+                    "md5": "017c8d2714fda7f2a6bd8dc777f6f40a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "017c8d2714fda7f2a6bd8dc777f6f40a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2020.zip.xzip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895557,
+                    "persistentId": "",
+                    "filename": "FACAData2020.zip.xzip",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 3610542,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8c8f32-4f92eb19a2e4",
+                    "rootDataFileId": -1,
+                    "md5": "469076c595758333c6c2bb3d843125c7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "469076c595758333c6c2bb3d843125c7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2010.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895544,
+                    "persistentId": "",
+                    "filename": "FACAData2010.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6827530,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b871083-c094beb128b0",
+                    "rootDataFileId": -1,
+                    "md5": "82bfe1d0e06d1db26cdfe98ac9ec6d3f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "82bfe1d0e06d1db26cdfe98ac9ec6d3f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2016.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895548,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2016.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 29359755,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8d4a9b-29310238116d",
+                    "rootDataFileId": -1,
+                    "md5": "9ae28b93b277784e93491b1bd61a6d21",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9ae28b93b277784e93491b1bd61a6d21"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData97-17.accdb",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895552,
+                    "persistentId": "",
+                    "filename": "FACAData97-17.accdb",
+                    "contentType": "application/msaccess",
+                    "friendlyType": "application/msaccess",
+                    "filesize": 909086720,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b76d5eb-807807b4b2b4",
+                    "rootDataFileId": -1,
+                    "md5": "2fd6f9684c8f2beba56be7a53553b50b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2fd6f9684c8f2beba56be7a53553b50b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACA Public Site Help Manual Lightning 2023 Edition-V.3.0.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895568,
+                    "persistentId": "",
+                    "filename": "FACA Public Site Help Manual Lightning 2023 Edition-V.3.0.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2903970,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b76d3d7-b8006a1ae2e4",
+                    "rootDataFileId": -1,
+                    "md5": "1851fc2390585194e757ea4c41626aaa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1851fc2390585194e757ea4c41626aaa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2002.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895567,
+                    "persistentId": "",
+                    "filename": "FACAData2002.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5426204,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b85b951-2d63f64e25a7",
+                    "rootDataFileId": -1,
+                    "md5": "5b76651c79ca2ca73d56ae06c5fa1115",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5b76651c79ca2ca73d56ae06c5fa1115"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData97-17.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895545,
+                    "persistentId": "",
+                    "filename": "FACAData97-17.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 135194135,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8529bf-76afdc387e99",
+                    "rootDataFileId": -1,
+                    "md5": "68d4ca0dca39c19943ba9cf507ef31bf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "68d4ca0dca39c19943ba9cf507ef31bf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2004.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895569,
+                    "persistentId": "",
+                    "filename": "FACAData2004.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6689960,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b85f584-df42791ba215",
+                    "rootDataFileId": -1,
+                    "md5": "3c6fad4e3310c0b50f49edcb972985e6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3c6fad4e3310c0b50f49edcb972985e6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2009.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895580,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2009.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 33834702,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b91b4b9-556a46442e1c",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 30558539,
+                    "originalFileName": "FACAMemberList2009.csv",
+                    "UNF": "UNF:6:vvMf8j5rV9K5SeMHp39GpA==",
+                    "rootDataFileId": -1,
+                    "md5": "70779d0af9e5be6797fce57825a4d8d0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "70779d0af9e5be6797fce57825a4d8d0"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2006.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895534,
+                    "persistentId": "",
+                    "filename": "FACAData2006.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 14113527,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8648a1-080328c757e1",
+                    "rootDataFileId": -1,
+                    "md5": "8fefed8b3dd352163792ca898c8262df",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8fefed8b3dd352163792ca898c8262df"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2007.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895585,
+                    "persistentId": "",
+                    "filename": "FACAData2007.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6892730,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8660dd-66f5a5b517c6",
+                    "rootDataFileId": -1,
+                    "md5": "265e1df607e9f97506a36fee294d90db",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "265e1df607e9f97506a36fee294d90db"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2023.zip.xzip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895536,
+                    "persistentId": "",
+                    "filename": "FACAData2023.zip.xzip",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 4058310,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8c99e8-47f585ee1a52",
+                    "rootDataFileId": -1,
+                    "md5": "99f5d44094a32f05cadc9f7a0744f596",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "99f5d44094a32f05cadc9f7a0744f596"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2009.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895572,
+                    "persistentId": "",
+                    "filename": "FACAData2009.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6960267,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b870d09-bfa6d3e76a4b",
+                    "rootDataFileId": -1,
+                    "md5": "a0c0ba33c01f690d4dd57253c229fbaa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a0c0ba33c01f690d4dd57253c229fbaa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2017.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895574,
+                    "persistentId": "",
+                    "filename": "FACAData2017.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7945289,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b850675-0af4a1781398",
+                    "rootDataFileId": -1,
+                    "md5": "0ffc1544225524df84656806947f2c24",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0ffc1544225524df84656806947f2c24"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMembersList2019.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895581,
+                    "persistentId": "",
+                    "filename": "FACAMembersList2019.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 19518840,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8ee957-f9f9f0bd5c78",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 16944765,
+                    "originalFileName": "FACAMembersList2019.csv",
+                    "UNF": "UNF:6:BvfsBGSrK01z35ytm7BsyQ==",
+                    "rootDataFileId": -1,
+                    "md5": "60980c1385267216f0496f032774ff85",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "60980c1385267216f0496f032774ff85"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "screencapture-facadatabase-gov-FACA-s-FACADatasets-2025-02-18-15_44_23.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895540,
+                    "persistentId": "",
+                    "filename": "screencapture-facadatabase-gov-FACA-s-FACADatasets-2025-02-18-15_44_23.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1704635,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8f5648-8c9f95284440",
+                    "rootDataFileId": -1,
+                    "md5": "b7743478465c4fba0c98782145f6bfcb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b7743478465c4fba0c98782145f6bfcb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2011.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895561,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2011.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 27547282,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b926079-f8816718d5d7",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 24779220,
+                    "originalFileName": "FACAMemberList2011.csv",
+                    "UNF": "UNF:6:KIFZz/16EQf4lmxGMOU8GQ==",
+                    "rootDataFileId": -1,
+                    "md5": "bba48bb8489b0f65b254923dd7690f82",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bba48bb8489b0f65b254923dd7690f82"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2005.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895564,
+                    "persistentId": "",
+                    "filename": "FACAData2005.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6917554,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b861cb4-afc7a5693e24",
+                    "rootDataFileId": -1,
+                    "md5": "1e63254f043ad23229873fbbcfb7e72e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1e63254f043ad23229873fbbcfb7e72e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2017.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895538,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2017.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 30956251,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8d4e71-6dea45414bc8",
+                    "rootDataFileId": -1,
+                    "md5": "8ce79e2c70b96c33ffb9d16a0cf6af65",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8ce79e2c70b96c33ffb9d16a0cf6af65"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList1998.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895582,
+                    "persistentId": "",
+                    "filename": "FACAMemberList1998.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 13996193,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8f74c9-7016d0c385fb",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 13760195,
+                    "originalFileName": "FACAMemberList1998.csv",
+                    "UNF": "UNF:6:Qp5bEZ+5/8mJ1dH1BWsN5Q==",
+                    "rootDataFileId": -1,
+                    "md5": "1b08d877e838388d6103c89d6af6743f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1b08d877e838388d6103c89d6af6743f"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2004.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895591,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2004.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 23702449,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b908ffc-323ff00c7b00",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 23398076,
+                    "originalFileName": "FACAMemberList2004.csv",
+                    "UNF": "UNF:6:3/5seQodhyXnkeDHxL1lLw==",
+                    "rootDataFileId": -1,
+                    "md5": "a84f7c3effccc4f52c3c246f78d22fd7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a84f7c3effccc4f52c3c246f78d22fd7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2021.zip.xzip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895537,
+                    "persistentId": "",
+                    "filename": "FACAData2021.zip.xzip",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 4276929,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8c92ff-88aa033e206b",
+                    "rootDataFileId": -1,
+                    "md5": "ff860be86725c1fe5477add482a7e063",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ff860be86725c1fe5477add482a7e063"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2021.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895573,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2021.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 22713453,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8e28fd-1f6ccd21e095",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 19718300,
+                    "originalFileName": "FACAMemberList2021.csv",
+                    "UNF": "UNF:6:lk+hTt1didgN5//0pjlgNQ==",
+                    "rootDataFileId": -1,
+                    "md5": "5bb473ce5a7d24e93a3b7f638370cec0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5bb473ce5a7d24e93a3b7f638370cec0"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACA Datasets.mhtml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895578,
+                    "persistentId": "",
+                    "filename": "FACA Datasets.mhtml",
+                    "contentType": "multipart/related",
+                    "friendlyType": "multipart/related",
+                    "filesize": 2058767,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b76d7e1-99ad46a34a4a",
+                    "rootDataFileId": -1,
+                    "md5": "96339b40cbbb9a48e6ef52b57a053c25",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "96339b40cbbb9a48e6ef52b57a053c25"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData1999.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895558,
+                    "persistentId": "",
+                    "filename": "FACAData1999.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4380564,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8574fb-124d7e540922",
+                    "rootDataFileId": -1,
+                    "md5": "858cbdf76eec768533ed91014c981520",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "858cbdf76eec768533ed91014c981520"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2010.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895566,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2010.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 29515032,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b91ea82-69dfa9f82596",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 26569622,
+                    "originalFileName": "FACAMemberList2010.csv",
+                    "UNF": "UNF:6:peu9tLG5HHpFggrHgWDHQQ==",
+                    "rootDataFileId": -1,
+                    "md5": "cae4f25549ec7132d0f2edd42d3d670b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cae4f25549ec7132d0f2edd42d3d670b"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2014.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895559,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2014.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 20530256,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8d44b0-4c5322871e3e",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 18057408,
+                    "originalFileName": "FACAMemberList2014.csv",
+                    "UNF": "UNF:6:TLFmbJadrynwrW4fTUOxow==",
+                    "rootDataFileId": -1,
+                    "md5": "20cfeae1f8f99afed932f0427b862bc7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "20cfeae1f8f99afed932f0427b862bc7"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2000.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895541,
+                    "persistentId": "",
+                    "filename": "FACAData2000.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 49356620,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b857cea-1da4882de249",
+                    "rootDataFileId": -1,
+                    "md5": "8ac398424b43edaa46174ddd3e3e6bbd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8ac398424b43edaa46174ddd3e3e6bbd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2023.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895592,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2023.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 21728397,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8ec2f1-071e739f66a4",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 22040107,
+                    "originalFileName": "FACAMemberList2023.csv",
+                    "UNF": "UNF:6:FzQiRzkpDj00QC4kMRIgeA==",
+                    "rootDataFileId": -1,
+                    "md5": "db20d02537d6e0e8c55559874e4d00b2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "db20d02537d6e0e8c55559874e4d00b2"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2015.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895587,
+                    "persistentId": "",
+                    "filename": "FACAData2015.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7504005,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b84cd37-1c32bf9d0668",
+                    "rootDataFileId": -1,
+                    "md5": "46238806e2d381e9a5726533d238aaa4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "46238806e2d381e9a5726533d238aaa4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList1997.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895575,
+                    "persistentId": "",
+                    "filename": "FACAMemberList1997.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 12476063,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8f677e-561022ac6e58",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 12251105,
+                    "originalFileName": "FACAMemberList1997.csv",
+                    "UNF": "UNF:6:NvZ6VjZtgzk9gpJZgLQHgQ==",
+                    "rootDataFileId": -1,
+                    "md5": "e41290e916112fff9790ac2297bab7ca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e41290e916112fff9790ac2297bab7ca"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMembersList2020.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895576,
+                    "persistentId": "",
+                    "filename": "FACAMembersList2020.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 21352256,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8eed26-e8492ffc050f",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 18545009,
+                    "originalFileName": "FACAMembersList2020.csv",
+                    "UNF": "UNF:6:+HrRgoJX3M9DifhIVZnv1A==",
+                    "rootDataFileId": -1,
+                    "md5": "77ec3a003ba610d222b1d526423f1809",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "77ec3a003ba610d222b1d526423f1809"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2014.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895562,
+                    "persistentId": "",
+                    "filename": "FACAData2014.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7176361,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b84c983-0031642dfb56",
+                    "rootDataFileId": -1,
+                    "md5": "e30d1cea69a5871ccada1267e6a64f62",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e30d1cea69a5871ccada1267e6a64f62"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2013.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895535,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2013.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 20418008,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b9325e2-e1329d53111a",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 17926430,
+                    "originalFileName": "FACAMemberList2013.csv",
+                    "UNF": "UNF:6:45mC6vl9o9XMzwHdb8Kiaw==",
+                    "rootDataFileId": -1,
+                    "md5": "ced0a27271b0beafb59cc73e2550ea35",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ced0a27271b0beafb59cc73e2550ea35"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2008.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895546,
+                    "persistentId": "",
+                    "filename": "FACAData2008.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6916534,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b869f98-b5dd535e2637",
+                    "rootDataFileId": -1,
+                    "md5": "28d48b01b4858f31676003cf7755f6ec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "28d48b01b4858f31676003cf7755f6ec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2005.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895577,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2005.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 26291433,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b90befb-5210c3b1b8a8",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 25887697,
+                    "originalFileName": "FACAMemberList2005.csv",
+                    "UNF": "UNF:6:Rz1sWNBNM3iXOJRClDtnAQ==",
+                    "rootDataFileId": -1,
+                    "md5": "5ff660c9ddab7f96c91ba0ead992cd72",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5ff660c9ddab7f96c91ba0ead992cd72"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2022.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895551,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2022.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 21462174,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8e7429-6629838bb88a",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 18628915,
+                    "originalFileName": "FACAMemberList2022.csv",
+                    "UNF": "UNF:6:QDJQ+wTPfvL9FbBiNSCkUQ==",
+                    "rootDataFileId": -1,
+                    "md5": "212259b2d5426bf853b1f0f2b6262af3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "212259b2d5426bf853b1f0f2b6262af3"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2006.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895550,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2006.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 25704086,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b90c9d6-391bfb3f808d",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 25204773,
+                    "originalFileName": "FACAMemberList2006.csv",
+                    "UNF": "UNF:6:GQ8SrV9vRpj7WckKw1Rj4Q==",
+                    "rootDataFileId": -1,
+                    "md5": "081413e1aca75d64b1d6599977e9120a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "081413e1aca75d64b1d6599977e9120a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2016.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895555,
+                    "persistentId": "",
+                    "filename": "FACAData2016.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7325559,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b84fe8f-4681458e367b",
+                    "rootDataFileId": -1,
+                    "md5": "66907800737f6afaaa1ecca5ae06a989",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "66907800737f6afaaa1ecca5ae06a989"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2012.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895565,
+                    "persistentId": "",
+                    "filename": "FACAData2012.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7725389,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b84c3bd-889797791d79",
+                    "rootDataFileId": -1,
+                    "md5": "c36780858bd033b0019f211f07fcd252",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c36780858bd033b0019f211f07fcd252"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData1997.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895542,
+                    "persistentId": "",
+                    "filename": "FACAData1997.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 3613925,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8543fc-efe6390e547c",
+                    "rootDataFileId": -1,
+                    "md5": "bdfbb5803488870882c3d1de94be6bc8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bdfbb5803488870882c3d1de94be6bc8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2011.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895570,
+                    "persistentId": "",
+                    "filename": "FACAData2011.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7447929,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b875ec1-9a6aea61d547",
+                    "rootDataFileId": -1,
+                    "md5": "ff8f36bfcbe18c1404ad73ce858d7eb0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ff8f36bfcbe18c1404ad73ce858d7eb0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2008.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895589,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2008.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 28802484,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b91a7ff-077a92ae290b",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 28271042,
+                    "originalFileName": "FACAMemberList2008.csv",
+                    "UNF": "UNF:6:/0kGQTlzHe0RMbzeyXLL0w==",
+                    "rootDataFileId": -1,
+                    "md5": "2d2ebd711ba7e446116c18500883cb40",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d2ebd711ba7e446116c18500883cb40"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAMemberList2002.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895590,
+                    "persistentId": "",
+                    "filename": "FACAMemberList2002.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 20457211,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b900b20-2e8bba5437de",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 20260370,
+                    "originalFileName": "FACAMemberList2002.csv",
+                    "UNF": "UNF:6:395j4yIUQwpaxBc/bHh8PQ==",
+                    "rootDataFileId": -1,
+                    "md5": "89d63ff31f6c2a91f84dd13f4f3a2b4c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "89d63ff31f6c2a91f84dd13f4f3a2b4c"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FACAData2022.zip.xzip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440629,
+                "dataFile": {
+                    "id": 10895571,
+                    "persistentId": "",
+                    "filename": "FACAData2022.zip.xzip",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 4224647,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951b8c962a-28a591ecafbe",
+                    "rootDataFileId": -1,
+                    "md5": "41ec5c0656db1e749e5451d65059952b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "41ec5c0656db1e749e5451d65059952b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-18",
+                    "publicationDate": "2025-03-11",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

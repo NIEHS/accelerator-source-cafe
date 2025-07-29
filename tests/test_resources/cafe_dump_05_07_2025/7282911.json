@@ -1,0 +1,835 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 425160,
+        "datasetId": 7282911,
+        "datasetPersistentId": "doi:10.7910/DVN/2NT5CV",
+        "storageIdentifier": "s3://10.7910/DVN/2NT5CV",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:9Po8qBQhxuPRZcPE+aOkcA==",
+        "lastUpdateTime": "2024-07-31T02:05:35Z",
+        "releaseTime": "2024-07-31T02:05:35Z",
+        "createTime": "2024-07-31T01:25:04Z",
+        "publicationDate": "2023-10-25",
+        "citationDate": "2023-10-25",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "US Annual PM 2.5 Components per ZCTA"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Michael, Bouzinier"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Irene, Kezia"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-4719-2639"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Irene, Kezia"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "kirene@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This dataset provides comprehensive insights into the annual distribution of PM2.5 (Particulate Matter with a diameter of 2.5 micrometers or smaller) components across different Zip Code Tabulation Areas (ZCTAs). PM2.5 is a critical air pollutant with potential health and environmental impacts. This data highlights the individual components that contribute to PM2.5 levels, offering valuable information for air quality research and policymaking.\n\nThis dataset is a processed and aggregated from Randall Martin's PM2.5 componets data (https://sites.wustl.edu/acag/datasets/surface-pm2-5/). The processing involves applying a downscaling rasterization strategy using TIGER/Line Shapefiles.\n\nThe dataset covers various PM2.5 components, including but not limited to:\n\nBC (Black Carbon): A fine particulate matter produced by incomplete combustion of carbon-based fuels.\nNH4 (Ammonium): A compound formed from ammonia gas, commonly found in airborne particles.\nNIT (Nitrate): Nitric acid and nitrate salts, which are major constituents of PM2.5 particles.\nOM (Organic Matter): Carbon-containing compounds from organic sources, contributing to particle mass.\nSO4 (Sulfate): Sulfuric acid and sulfate salts, originating from industrial and natural sources.\nSOIL (Soil Dust): Particles from soil erosion and mineral dust suspended in the air.\nSS (Sea Salt): Particles generated from ocean spray, containing various minerals.\nThe data is organized by year and ZCTA, providing annual averages for each PM2.5 component. This dataset aids in understanding the composition and variations of PM2.5 across different geographical areas. It plays a crucial role in studying pollution sources, assessing health risks, and formulating air quality regulations.\n\nThis dataset represents an aggregation of Randall Martin's ground-level fine particulate matter (PM2.5) data at the ZCTA level. The processing of this dataset involves the application of a downscaling rasterization strategy using TIGER/Line Shapefiles. We have established a reproducible GitHub pipeline for this dataset, which can be accessed here: https://github.com/NSAPH-Data-Processing/pm25_components_randall_martin."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-10-25"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Exposure, Pollution, PM2.5"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Irene, Kezia"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-08-08"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2000-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2018-12-12"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dataSources",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://sites.wustl.edu/acag/datasets/surface-pm2-5/"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Satellite-derived PM2.5"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Atmospheric Composition Analysis Group"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://sites.wustl.edu/acag/datasets/surface-pm2-5/"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "data year 2017",
+                "label": "V4NA03_PM25_NA_201701_201712-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282929,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_201701_201712-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5287775,
+                    "description": "data year 2017",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b201d7-5ffdb183c1d2",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5320920,
+                    "originalFileName": "V4NA03_PM25_NA_201701_201712-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:UnZt83P8d6tmrakwXXfT/w==",
+                    "rootDataFileId": -1,
+                    "md5": "7868c852b9d16b36e5e774a9ea635346",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7868c852b9d16b36e5e774a9ea635346"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "V4NA03_PM25_NA_200601_200612-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282914,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200601_200612-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5088512,
+                    "storageIdentifier": "s3://dvn-cloud:189d6b12373-4d331142a326",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5120551,
+                    "originalFileName": "V4NA03_PM25_NA_200601_200612-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:YziW3q0Y1/CrggTNXLTVUA==",
+                    "rootDataFileId": -1,
+                    "md5": "899a798a342cd9e59ad90ac003d32886",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "899a798a342cd9e59ad90ac003d32886"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2009",
+                "label": "V4NA03_PM25_NA_200901_200912-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282922,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200901_200912-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5085917,
+                    "description": "data year 2009",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b1535c-50c4b1ede855",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5117956,
+                    "originalFileName": "V4NA03_PM25_NA_200901_200912-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:oBWgwm2wEnWNYnf9zmVkjg==",
+                    "rootDataFileId": -1,
+                    "md5": "5498c9cc0d68a853a94083b362229441",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5498c9cc0d68a853a94083b362229441"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2014",
+                "label": "V4NA03_PM25_NA_201401_201412-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282917,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_201401_201412-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5278985,
+                    "description": "data year 2014",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b1ce0d-b95d0ac9e968",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5312130,
+                    "originalFileName": "V4NA03_PM25_NA_201401_201412-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:EJ3D6nhmlnBVK6Qb7sWP0Q==",
+                    "rootDataFileId": -1,
+                    "md5": "c730505a1cee957daf1cf48e3456ab55",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c730505a1cee957daf1cf48e3456ab55"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2001",
+                "label": "V4NA03_PM25_NA_200001_200012-RH35_zcta (2).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282912,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200001_200012-RH35_zcta (2).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5106054,
+                    "description": "data year 2001",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b0c563-b1db232295ed",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5138093,
+                    "originalFileName": "V4NA03_PM25_NA_200001_200012-RH35_zcta (2).csv",
+                    "UNF": "UNF:6:gQvotpgdFX9m+Cyhl1oVFg==",
+                    "rootDataFileId": -1,
+                    "md5": "114cc1bbfd79e6e00fd3e91adfb4ce49",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "114cc1bbfd79e6e00fd3e91adfb4ce49"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2008",
+                "label": "V4NA03_PM25_NA_200801_200812-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282926,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200801_200812-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5105964,
+                    "description": "data year 2008",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b14372-5deadcd9cc47",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5138003,
+                    "originalFileName": "V4NA03_PM25_NA_200801_200812-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:AaqavmeVYJ87uSbXlykYuA==",
+                    "rootDataFileId": -1,
+                    "md5": "e0654f6977c11f6acb76431f12abe915",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e0654f6977c11f6acb76431f12abe915"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2005",
+                "label": "V4NA03_PM25_NA_200401_200412-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282928,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200401_200412-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5104389,
+                    "description": "data year 2005",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b10467-e17a42f371e1",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5136428,
+                    "originalFileName": "V4NA03_PM25_NA_200401_200412-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:3DxRsHBsLLMmSKGAxokJBA==",
+                    "rootDataFileId": -1,
+                    "md5": "901d51ecc53725fc6fcdded8aaa18bf4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "901d51ecc53725fc6fcdded8aaa18bf4"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2011",
+                "label": "V4NA03_PM25_NA_201101_201112-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282923,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_201101_201112-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5277625,
+                    "description": "data year 2011",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b17558-ef5a09f05c3c",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5310746,
+                    "originalFileName": "V4NA03_PM25_NA_201101_201112-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:gqb8frcDFVaqWmK9pa8cbQ==",
+                    "rootDataFileId": -1,
+                    "md5": "eec9e35ac8962295df0a5d183d62af32",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eec9e35ac8962295df0a5d183d62af32"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2007",
+                "label": "V4NA03_PM25_NA_200701_200712-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282921,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200701_200712-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5088617,
+                    "description": "data year 2007",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b13455-af987c483d15",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5120656,
+                    "originalFileName": "V4NA03_PM25_NA_200701_200712-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:kLPa2W1Xydc6/fRHeyeBXg==",
+                    "rootDataFileId": -1,
+                    "md5": "514ec6667c8751de932bd7be413bc802",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "514ec6667c8751de932bd7be413bc802"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2006",
+                "label": "V4NA03_PM25_NA_200501_200512-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282919,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200501_200512-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5088372,
+                    "description": "data year 2006",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b11368-c32cf54da289",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5120411,
+                    "originalFileName": "V4NA03_PM25_NA_200501_200512-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:9Wc4Oir98EyB8u7FoJpi6Q==",
+                    "rootDataFileId": -1,
+                    "md5": "935142b613c470d8333cbf0e2ef0531e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "935142b613c470d8333cbf0e2ef0531e"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2016",
+                "label": "V4NA03_PM25_NA_201601_201612-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282925,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_201601_201612-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5278881,
+                    "description": "data year 2016",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b1ecfd-6d0ce3a00e4a",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5312026,
+                    "originalFileName": "V4NA03_PM25_NA_201601_201612-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:NGrWF9VwfmWZyiqW85h1ew==",
+                    "rootDataFileId": -1,
+                    "md5": "0a17a4af0d511dc227b9d7d20e3c4f90",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0a17a4af0d511dc227b9d7d20e3c4f90"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2015",
+                "label": "V4NA03_PM25_NA_201501_201512-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282915,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_201501_201512-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5276822,
+                    "description": "data year 2015",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b1dd83-f63820d874d7",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5309967,
+                    "originalFileName": "V4NA03_PM25_NA_201501_201512-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:jvd191dgxYVs5iRAKWpZAA==",
+                    "rootDataFileId": -1,
+                    "md5": "545903003b04f367e86dcea7d6a06b88",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "545903003b04f367e86dcea7d6a06b88"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2003",
+                "label": "V4NA03_PM25_NA_200201_200212-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282924,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200201_200212-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5101879,
+                    "description": "data year 2003",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b0e5e4-5204232b845a",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5133918,
+                    "originalFileName": "V4NA03_PM25_NA_200201_200212-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:ilTE+/k2GnHohbFmJCcvOA==",
+                    "rootDataFileId": -1,
+                    "md5": "7aebdd91b66e09adad7187b5310d269d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7aebdd91b66e09adad7187b5310d269d"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2002",
+                "label": "V4NA03_PM25_NA_200101_200112-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282913,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200101_200112-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5100146,
+                    "description": "data year 2002",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b0d464-2e694ab20beb",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5132185,
+                    "originalFileName": "V4NA03_PM25_NA_200101_200112-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:DEUvQ96GubcO29HDdvKq+A==",
+                    "rootDataFileId": -1,
+                    "md5": "b843c7ea7e4ae38f3b4808253ce158cb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b843c7ea7e4ae38f3b4808253ce158cb"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2013",
+                "label": "V4NA03_PM25_NA_201301_201312-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282916,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_201301_201312-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5275993,
+                    "description": "data year 2013",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b1b19a-35f40fd2a95f",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5309138,
+                    "originalFileName": "V4NA03_PM25_NA_201301_201312-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:w2zJCWSBAG76xnfucL8Hnw==",
+                    "rootDataFileId": -1,
+                    "md5": "35f9ff560f6146b76ef191eaf9cf9aff",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "35f9ff560f6146b76ef191eaf9cf9aff"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2012",
+                "label": "V4NA03_PM25_NA_201201_201212-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282927,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_201201_201212-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5274822,
+                    "description": "data year 2012",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b19204-4e0846c67ad0",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5307967,
+                    "originalFileName": "V4NA03_PM25_NA_201201_201212-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:PtiYF+JSk2Q//7XofoHkaA==",
+                    "rootDataFileId": -1,
+                    "md5": "c0d9cd123e9acb3fa97fcdbb24e8d7e8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c0d9cd123e9acb3fa97fcdbb24e8d7e8"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2010",
+                "label": "V4NA03_PM25_NA_201001_201012-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282920,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_201001_201012-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5245208,
+                    "description": "data year 2010",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b165ce-3caecd76ae0b",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5278329,
+                    "originalFileName": "V4NA03_PM25_NA_201001_201012-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:dasFczv6mfIceZ60HnEpqw==",
+                    "rootDataFileId": -1,
+                    "md5": "103595f2146384cbc3d4d473061b3516",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "103595f2146384cbc3d4d473061b3516"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "data year 2004",
+                "label": "V4NA03_PM25_NA_200301_200312-RH35_zcta (1).tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425160,
+                "dataFile": {
+                    "id": 7282918,
+                    "persistentId": "",
+                    "filename": "V4NA03_PM25_NA_200301_200312-RH35_zcta (1).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 5108087,
+                    "description": "data year 2004",
+                    "storageIdentifier": "s3://dvn-cloud:189d6b0f536-c7e7952d7f09",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 5140126,
+                    "originalFileName": "V4NA03_PM25_NA_200301_200312-RH35_zcta (1).csv",
+                    "UNF": "UNF:6:dY5g+laLl5JdOxDh6m7r1Q==",
+                    "rootDataFileId": -1,
+                    "md5": "3a5e9427f2099aa6c14f98e55acd4928",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3a5e9427f2099aa6c14f98e55acd4928"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-08-08",
+                    "publicationDate": "2023-10-25",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 130746,
+        "datasetId": 3079819,
+        "datasetPersistentId": "doi:10.7910/DVN/F4YXHN",
+        "storageIdentifier": "s3://10.7910/DVN/F4YXHN",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-01-27T21:41:30Z",
+        "releaseTime": "2025-01-27T21:41:30Z",
+        "createTime": "2017-11-17T19:53:48Z",
+        "publicationDate": "2025-01-27",
+        "citationDate": "2025-01-27",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Crime in the United States, 2015 - Uniform Crime Reporting Statistics "
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Federal Bureau of Investigation"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Crime in the United States by volume and rate per 100,000 inhabitants, 1996-2015. Data obtained from FBI Uniform Crime Reporting Program."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Law"
+                        ]
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-11-17"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "F538BEAD-6F7E-48B3-8A04-EFBA23414DCF.tar.gz",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 130746,
+                "dataFile": {
+                    "id": 3079820,
+                    "persistentId": "",
+                    "filename": "F538BEAD-6F7E-48B3-8A04-EFBA23414DCF.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 54299,
+                    "storageIdentifier": "s3://dvn-cloud:15fcb8b34bb-55acd7f567e9",
+                    "rootDataFileId": -1,
+                    "md5": "c3ef16f284deaba8a85425219c5394e4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c3ef16f284deaba8a85425219c5394e4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-01-27",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

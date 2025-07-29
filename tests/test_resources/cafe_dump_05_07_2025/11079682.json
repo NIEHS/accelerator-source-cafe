@@ -1,0 +1,1083 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 442248,
+        "datasetId": 11079682,
+        "datasetPersistentId": "doi:10.7910/DVN/HS0WOW",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/HS0WOW",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "lastUpdateTime": "2025-05-06T15:47:46Z",
+        "releaseTime": "2025-05-06T15:47:46Z",
+        "createTime": "2025-04-15T19:55:39Z",
+        "publicationDate": "2025-05-06",
+        "citationDate": "2025-05-06",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: National Health Service Corps (NHSC), Nurse Corps, and Substance Use Disorder Treatment and Recovery (STAR) and other Programs"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nalluri, Shreya"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br /><br />\n\n<If you have questions about the underlying data stored here, please contact Health Resources & Services Administration Freedom of Information Act (FOIA) office FOIA@hrsa.gov\n\n<br /><br />\n<blockquote> \n\"This dataset contains information on active participants in the Nurse Corps Scholarship Program (NCSP) and Nurse Corps Loan Repayor Program (NCLRP). Millions of Americans do not have access to health care because they live where there are not enough health professionals to meet basic needs. Shortages of health professionals suggest many more may soon find themselves unable to see a primary health care provider when they need one. HRSA scholarship and loan programs help to encourage and enable clinicians to work in underserved areas. Participants in the NCSP, also referred to as scholars, are either in school or serving in the field; and participants in the NCLRP program, also referred to as loan repayors, are serving in the field. When serving, the scholars and loan repayors are fulfilling their service requirement at facilities which are located in shortage areas.\" </blockquote> \nhttps://data.hrsa.gov/data/download"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nNational Health Service Corps (NHSC), Nurse Corps, and Substance Use Disorder Treatment and Recovery (STAR) and other Programs data was downloaded by Shreya Nalluri on 04/15/2025."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Nalluri, Shreya"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-04-15"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2019-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Department of Health & Human Services Health Resources & Services Administration"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://data.hrsa.gov/data/download"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-04-15"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-04-15"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Data published by: HRSA, Bureau of Health Workforce (BHW), National Health Service Corps (NHSC)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Usage limitations: None"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "FY 2022 Nurse Corps Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079690,
+                    "persistentId": "",
+                    "filename": "FY 2022 Nurse Corps Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 26552,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b054aa7-8611550a388b",
+                    "rootDataFileId": -1,
+                    "md5": "9ab1e9342af6a933cddaf840fb105090",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9ab1e9342af6a933cddaf840fb105090"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2022 NHHSP Scholars in School.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079696,
+                    "persistentId": "",
+                    "filename": "FY 2022 NHHSP Scholars in School.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18332,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b050c63-8c6bd15e4594",
+                    "rootDataFileId": -1,
+                    "md5": "c09911af2c8a778dc3c3557ab993ef9c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c09911af2c8a778dc3c3557ab993ef9c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2024 PS LRP Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079693,
+                    "persistentId": "",
+                    "filename": "FY 2024 PS LRP Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15789,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b04ea1f-85cd34b1c0a0",
+                    "rootDataFileId": -1,
+                    "md5": "7fec9d4cc9a188946079d153369e5d2a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7fec9d4cc9a188946079d153369e5d2a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2021 NHSC Scholar Pipeline.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079709,
+                    "persistentId": "",
+                    "filename": "FY 2021 NHSC Scholar Pipeline.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 21101,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b052eca-9b4389db8f96",
+                    "rootDataFileId": -1,
+                    "md5": "41ed5fde38fdb3f46f25fddfaf801f1c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "41ed5fde38fdb3f46f25fddfaf801f1c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2021 Nurse Corps Scholar Pipeline.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079683,
+                    "persistentId": "",
+                    "filename": "FY 2021 Nurse Corps Scholar Pipeline.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18223,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b053b6b-061eef04ea6f",
+                    "rootDataFileId": -1,
+                    "md5": "2da9d627870d821e11366f7b0d9df8b5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2da9d627870d821e11366f7b0d9df8b5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2019 NHSC Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079687,
+                    "persistentId": "",
+                    "filename": "FY 2019 NHSC Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 61411,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b05277b-d333a6d69b64",
+                    "rootDataFileId": -1,
+                    "md5": "08aa0d60336143322b079825d3f2d5c3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "08aa0d60336143322b079825d3f2d5c3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2022 STAR Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079692,
+                    "persistentId": "",
+                    "filename": "FY 2022 STAR Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 23108,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b0544c5-4dad17883494",
+                    "rootDataFileId": -1,
+                    "md5": "f1de930d5888311891b6203f64ccccd5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f1de930d5888311891b6203f64ccccd5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2021 Nurse Corps Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079700,
+                    "persistentId": "",
+                    "filename": "FY 2021 Nurse Corps Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18514,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b051470-ce352cfaf075",
+                    "rootDataFileId": -1,
+                    "md5": "4814bce1b4eb1552dcf5c5cd359f0557",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4814bce1b4eb1552dcf5c5cd359f0557"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2024 Nurse Corps Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079713,
+                    "persistentId": "",
+                    "filename": "FY 2024 Nurse Corps Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 19560,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b04ec48-eaee9f13ef21",
+                    "rootDataFileId": -1,
+                    "md5": "28856a41fce60ddd54d4b08d5d2adfde",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "28856a41fce60ddd54d4b08d5d2adfde"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2022 NHSC Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079703,
+                    "persistentId": "",
+                    "filename": "FY 2022 NHSC Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 71527,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b053786-0200c402737a",
+                    "rootDataFileId": -1,
+                    "md5": "8486aaa842bac7ce88e7012b6c4d2e22",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8486aaa842bac7ce88e7012b6c4d2e22"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2023 Nurse Corps Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079714,
+                    "persistentId": "",
+                    "filename": "FY 2023 Nurse Corps Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 19756,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b05044a-f92ec8782b8e",
+                    "rootDataFileId": -1,
+                    "md5": "cc0cfa501f34ae7bc2fdf0193cce3fc3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cc0cfa501f34ae7bc2fdf0193cce3fc3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2023 FLRP Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079705,
+                    "persistentId": "",
+                    "filename": "FY 2023 FLRP Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 21228,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b0502b1-6e52be1e467a",
+                    "rootDataFileId": -1,
+                    "md5": "78aedda71badfb45ce1a189b9f819a6d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "78aedda71badfb45ce1a189b9f819a6d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2024 FLRP Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079701,
+                    "persistentId": "",
+                    "filename": "FY 2024 FLRP Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15477,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b04efa8-23c87bf0f9bc",
+                    "rootDataFileId": -1,
+                    "md5": "8f3f267eb71b5c656f65998af693d5da",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8f3f267eb71b5c656f65998af693d5da"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2023 STAR Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079708,
+                    "persistentId": "",
+                    "filename": "FY 2023 STAR Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18179,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b055244-8ce761511099",
+                    "rootDataFileId": -1,
+                    "md5": "028be2c356fe2e9e7af3da43b5a7f96e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "028be2c356fe2e9e7af3da43b5a7f96e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2023 NHSC Scholar Pipeline.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079697,
+                    "persistentId": "",
+                    "filename": "FY 2023 NHSC Scholar Pipeline.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15344,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b0546aa-f8256b0ae4c3",
+                    "rootDataFileId": -1,
+                    "md5": "f8ed19acf92f50e238efa51f4f7edd28",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f8ed19acf92f50e238efa51f4f7edd28"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2023 NHHSP Scholars in School.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079707,
+                    "persistentId": "",
+                    "filename": "FY 2023 NHHSP Scholars in School.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18955,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b05583f-29b787130182",
+                    "rootDataFileId": -1,
+                    "md5": "256b3b116953e71104bc1bbf0df5d7f9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "256b3b116953e71104bc1bbf0df5d7f9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2022 NHSC Scholar Pipeline.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079710,
+                    "persistentId": "",
+                    "filename": "FY 2022 NHSC Scholar Pipeline.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 21161,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b0508a1-c0b8511d41a7",
+                    "rootDataFileId": -1,
+                    "md5": "46db4bd2a0c1cc28993976047defdebb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "46db4bd2a0c1cc28993976047defdebb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2020 Nurse Corps Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079694,
+                    "persistentId": "",
+                    "filename": "FY 2020 Nurse Corps Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18344,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b052d1a-0da3dffa349c",
+                    "rootDataFileId": -1,
+                    "md5": "709915c75495849d9d97097840fcf4db",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "709915c75495849d9d97097840fcf4db"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2022 Nurse Corps Scholar Pipeline.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079684,
+                    "persistentId": "",
+                    "filename": "FY 2022 Nurse Corps Scholar Pipeline.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18768,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b0500b2-58b444d2879e",
+                    "rootDataFileId": -1,
+                    "md5": "ddb5a596f6d898594e9ed15c24772fe1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ddb5a596f6d898594e9ed15c24772fe1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2024 NHSC Scholar Pipeline.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079704,
+                    "persistentId": "",
+                    "filename": "FY 2024 NHSC Scholar Pipeline.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15518,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b055a33-96a6f709cf0d",
+                    "rootDataFileId": -1,
+                    "md5": "af14357687e04c26f134b65828f5ec0f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "af14357687e04c26f134b65828f5ec0f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2024 NHHSP Scholars in School.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079691,
+                    "persistentId": "",
+                    "filename": "FY 2024 NHHSP Scholars in School.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 12344,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b05545a-56bb8ef793d1",
+                    "rootDataFileId": -1,
+                    "md5": "d6d842b3781dfae3cb1a4d63c74a86ba",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6d842b3781dfae3cb1a4d63c74a86ba"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2021 FLRP Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079688,
+                    "persistentId": "",
+                    "filename": "FY 2021 FLRP Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15211,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b051c02-d2bfe18e287a",
+                    "rootDataFileId": -1,
+                    "md5": "92065639f02cbdf701a49f43958924ad",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "92065639f02cbdf701a49f43958924ad"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2021 NHHSP Scholars in School.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079715,
+                    "persistentId": "",
+                    "filename": "FY 2021 NHHSP Scholars in School.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 11150,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b053997-853c4c2e4c7d",
+                    "rootDataFileId": -1,
+                    "md5": "b50d430719a320736a48eb4bffe31a1f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b50d430719a320736a48eb4bffe31a1f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2020 NHSC Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079716,
+                    "persistentId": "",
+                    "filename": "FY 2020 NHSC Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 63518,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b0521b6-c531c7766e51",
+                    "rootDataFileId": -1,
+                    "md5": "de04eac42446ac54f9c7c98f41e237c1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de04eac42446ac54f9c7c98f41e237c1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2023 PS LRP Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079698,
+                    "persistentId": "",
+                    "filename": "FY 2023 PS LRP Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15638,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b04f6fe-26aab1ab4d2a",
+                    "rootDataFileId": -1,
+                    "md5": "fb8fb7fa483bd07bb788da3dc950c56b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fb8fb7fa483bd07bb788da3dc950c56b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2023 NHSC Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079706,
+                    "persistentId": "",
+                    "filename": "FY 2023 NHSC Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 65309,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b04f8b8-66a888d3bc9e",
+                    "rootDataFileId": -1,
+                    "md5": "43f628135caaec1861a9fa7749617e3f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "43f628135caaec1861a9fa7749617e3f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2022 FLRP Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079711,
+                    "persistentId": "",
+                    "filename": "FY 2022 FLRP Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 21744,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b0535e3-f12d28d1daa1",
+                    "rootDataFileId": -1,
+                    "md5": "9ee36bab884082243d90e764785c81c0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9ee36bab884082243d90e764785c81c0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2024 NHSC Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079685,
+                    "persistentId": "",
+                    "filename": "FY 2024 NHSC Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 65052,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b04eded-3319a8a07061",
+                    "rootDataFileId": -1,
+                    "md5": "b759088dce30fbd6f948c49d1c0469df",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b759088dce30fbd6f948c49d1c0469df"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2021 NHSC Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079699,
+                    "persistentId": "",
+                    "filename": "FY 2021 NHSC Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 63934,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b051645-105513ce42f1",
+                    "rootDataFileId": -1,
+                    "md5": "e2ca776a59ae6ceba5d5ebc452b22482",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e2ca776a59ae6ceba5d5ebc452b22482"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2021 STAR Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079702,
+                    "persistentId": "",
+                    "filename": "FY 2021 STAR Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 16263,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b050e5e-a14ab04a67a7",
+                    "rootDataFileId": -1,
+                    "md5": "81cc0bfc62058ef30a8ce5d6c93a6f89",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "81cc0bfc62058ef30a8ce5d6c93a6f89"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2024 Nurse Corps Scholar Pipeline.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079712,
+                    "persistentId": "",
+                    "filename": "FY 2024 Nurse Corps Scholar Pipeline.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 14193,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b056823-c9acea6f035e",
+                    "rootDataFileId": -1,
+                    "md5": "a05c7b2d577ddf052ab2a6d1436dfbf6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a05c7b2d577ddf052ab2a6d1436dfbf6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2023 Nurse Corps Scholar Pipeline.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079695,
+                    "persistentId": "",
+                    "filename": "FY 2023 Nurse Corps Scholar Pipeline.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 14421,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b054cab-b4f520ad564b",
+                    "rootDataFileId": -1,
+                    "md5": "fb56b6af1d8a4deec684093b72b313fc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fb56b6af1d8a4deec684093b72b313fc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2019 NC Field Strength External HDW.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079689,
+                    "persistentId": "",
+                    "filename": "FY 2019 NC Field Strength External HDW.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 25673,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b05257c-e89e24daec0c",
+                    "rootDataFileId": -1,
+                    "md5": "21dc433e1a36016aca9858b0be385962",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "21dc433e1a36016aca9858b0be385962"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "FY 2024 STAR Field Strength.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 442248,
+                "dataFile": {
+                    "id": 11079686,
+                    "persistentId": "",
+                    "filename": "FY 2024 STAR Field Strength.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18061,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963b0561e8-657e204bf151",
+                    "rootDataFileId": -1,
+                    "md5": "71aaedf7359d2b38fd9ddbfc494a4394",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "71aaedf7359d2b38fd9ddbfc494a4394"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-05-06",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

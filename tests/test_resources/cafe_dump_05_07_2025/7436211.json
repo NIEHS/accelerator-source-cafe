@@ -1,0 +1,440 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 427150,
+        "datasetId": 7436211,
+        "datasetPersistentId": "doi:10.7910/DVN/Y1WNU7",
+        "storageIdentifier": "s3://10.7910/DVN/Y1WNU7",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:AnGtp+e49qG9EpRwLlIZLg==",
+        "lastUpdateTime": "2024-09-04T17:28:55Z",
+        "releaseTime": "2024-09-04T17:28:55Z",
+        "createTime": "2024-09-04T17:19:37Z",
+        "publicationDate": "2024-01-16",
+        "citationDate": "2024-01-16",
+        "license": {
+            "name": "CC BY 4.0",
+            "uri": "http://creativecommons.org/licenses/by/4.0",
+            "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "MBSF mortality denominator"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bouzinier, Michael"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-3161-5601"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Audirac, Michelle"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0001-5889-6768"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Audirac, Michelle"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "audiracmichelle@gmail.com"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "<p> The MBSF mortality denominator can be used to study mortality rates of the elder population in the US. Access to CMS data is restricted. Processed datasets cannot be shared. Contact the authors if you've purchased CMS data through RESDAC and would like to use our data processing pipelines to clean CMS raw data and generate the MBSF mortality denominator.</p>\n\n    <h2>Medicare Overview</h2>\n    <p>In the United States, when individuals reach the age of 65, they become eligible for the Medicare federal health insurance program. Medicare also covers individuals under 65 if they have certain disabilities or End-Stage Renal Disease (ESRD) or Amyotrophic Lateral Sclerosis (ALS).</p>\n\n    <h2>About CMS</h2>\n    <p>The Center for Medicare & Medicaid Services (CMS) is the federal agency responsible for managing the Medicare and Medicaid data. CMS makes predefined datasets available for purchase to researchers after they enter a Data usage agreement through Research Data Assistance Center (ResDAC).</p>\n\n    <h2>Master Beneficiary Summary File (MBSF)</h2>\n    <p>A beneficiary-level data from CMS/ResDAC is known as the Master Beneficiary Summary File (MBSF). The raw MBSF data contains basic demographic information of individuals, an indicator of death, and some details on their medicare enrollment.</p>\n\n    <h2>Mortality Denominator</h2>\n    <p>We refer to the mortality denominator as the clean subset of MBSF health data that is representative of the older population. The subset consists of the US elder population; notably, individuals under 64 who qualified because of a disability are excluded.</p>"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-08-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mortality rate"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NCIT"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C16880"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "postal zipcode"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DBpedia"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://mappings.dbpedia.org/index.php/OntologyProperty:ZipCode"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Compiled data"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "COAR"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://vocabularies.coar-repositories.org/resource_types/FXF3-D3G7/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Audirac, Michelle"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-09-28"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2000-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2018-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dataSources",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://resdac.org/"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "postal zipcode"
+                        ]
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Common Workflow Language (CWL)"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/NSAPH-Data-Platform/nsaph-cms"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowDocumentation",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://nsaph-data-platform.github.io/nsaph-platform-docs/common/cms/doc/pipeline/medicare.html"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "CMS/Resdac Medicare MBSF dataset"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://resdac.org/cms-data/files/mbsf-base"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "codebook.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 427150,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 7436214,
+                    "persistentId": "",
+                    "filename": "codebook.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 2964,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:18ade45df42-ed8a8f161b78",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 2969,
+                    "originalFileName": "codebook_mbsf_mortality_denom.csv",
+                    "UNF": "UNF:6:ErP5Bz1ZVkyIMZnL+AKP2A==",
+                    "rootDataFileId": -1,
+                    "md5": "195784bc376984ff137f9dd5400eed34",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "195784bc376984ff137f9dd5400eed34"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-09-28",
+                    "publicationDate": "2024-01-16",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "__fake_head__mbsf_mortality_denom.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 427150,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 7436212,
+                    "persistentId": "",
+                    "filename": "__fake_head__mbsf_mortality_denom.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 439,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:18ade09531d-13b759a4505e",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 411,
+                    "originalFileName": "mbsf_mortality_denom_fake_header.csv",
+                    "UNF": "UNF:6:VFLA8CSBUowaQcrxhiixyA==",
+                    "rootDataFileId": -1,
+                    "md5": "d7c05623da675d06fde5513b735f9d29",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d7c05623da675d06fde5513b735f9d29"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-09-28",
+                    "publicationDate": "2024-01-16",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

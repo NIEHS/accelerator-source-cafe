@@ -1,0 +1,190 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 96976,
+        "datasetId": 2966298,
+        "datasetPersistentId": "doi:10.7910/DVN/OZZXX1",
+        "storageIdentifier": "s3://10.7910/DVN/OZZXX1",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:5E/2TWss509aUkviESIHoA==",
+        "lastUpdateTime": "2017-01-03T15:03:27Z",
+        "releaseTime": "2017-01-03T15:03:27Z",
+        "createTime": "2017-01-03T15:02:48Z",
+        "publicationDate": "2017-01-03",
+        "citationDate": "2017-01-03",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Air Pollution Monitoring Data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zigler, Cory"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard TH Chan School of Public Health"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zigler, Cory"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard TH Chan School of Public Health"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "czigler@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data sets describing which areas are in nonattainment with NAAQS and characteristics of monitoring locations. These files originated  from the EPA Green Book and Air Quality System at \r\nhttps://www.epa.gov/green-book/green-book-data-download\r\nand\r\nhttp://aqsdr1.epa.gov/aqsweb/aqstmp/airdata/download_files.html\r\n\r\n"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Zigler, Cory"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2016-12-20"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Table from EPA Green Book listing Nonattainment Designations",
+                "label": "EPA Nonattainment Table.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 96976,
+                "dataFile": {
+                    "id": 2966300,
+                    "persistentId": "doi:10.7910/DVN/OZZXX1/5KSFPD",
+                    "pidURL": "https://doi.org/10.7910/DVN/OZZXX1/5KSFPD",
+                    "filename": "EPA Nonattainment Table.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 395025,
+                    "description": "Table from EPA Green Book listing Nonattainment Designations",
+                    "storageIdentifier": "s3://dvn-cloud:1591ccb145b-e3c7844c1670",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 218874,
+                    "originalFileName": "EPA Nonattainment Table.csv",
+                    "UNF": "UNF:6:5E/2TWss509aUkviESIHoA==",
+                    "rootDataFileId": -1,
+                    "md5": "6baecfc4c03db9240842f4ec863f20e2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6baecfc4c03db9240842f4ec863f20e2"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2016-12-20",
+                    "publicationDate": "2017-01-03",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Data file from EPA containing information on monitoring sites",
+                "label": "monitor_list.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 96976,
+                "dataFile": {
+                    "id": 2966299,
+                    "persistentId": "doi:10.7910/DVN/OZZXX1/DQHOM6",
+                    "pidURL": "https://doi.org/10.7910/DVN/OZZXX1/DQHOM6",
+                    "filename": "monitor_list.csv",
+                    "contentType": "text/csv",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 148203215,
+                    "description": "Data file from EPA containing information on monitoring sites",
+                    "storageIdentifier": "s3://dvn-cloud:1591ccb3715-a2b762eeb7ec",
+                    "rootDataFileId": -1,
+                    "md5": "99ff4b508e710b063b716c9f5ed3ee34",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "99ff4b508e710b063b716c9f5ed3ee34"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2016-12-20",
+                    "publicationDate": "2017-01-03",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

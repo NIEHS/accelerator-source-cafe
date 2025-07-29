@@ -1,0 +1,289 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444037,
+        "datasetId": 10877777,
+        "datasetPersistentId": "doi:10.17603/DS2-4AZ4-V122",
+        "storageIdentifier": "s3://10.17603/ds2-4az4-v122",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "",
+        "lastUpdateTime": "2025-05-06T23:32:36Z",
+        "releaseTime": "2025-05-05T12:14:11Z",
+        "createTime": "2025-05-06T23:32:36Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "StEER Typhoon Merbok Preliminary Virtual Reconnaissance Report (PVRR) in StEER 17 September, 2022 Typhoon Merbok"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3737"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Alam, Mohammad"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rodgers, Janise"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Pilkington, Stephanie"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Arora, Prateek"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gurley, Kurtis"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Robertson, Ian"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Typhoon Merbok struck Western Alaska on September 17, 2022, producing hurricane-force winds, higher than normal tidal ranges, and storm surges of up to 10 feet above mean high water. This event caused wind damage as well as severe riverine and coastal flooding, affecting about 21,000 people in approximately 40 cities and villages along an approximately 1,300-mile-long section of the Western and Northwestern Alaska coastline. The storm impacted Western Alaska with wind gusts as high as 91 mph and historic high water surge levels of 10.5 feet above the low-tide level in Nome, the highest since a major storm in 1974. It also brought flash flooding and erosion and impacted critical infrastructure, such as roads, airports, power infrastructure, etc. Five communities, including Hooper Bay, Scammon Bay, Golovin, Newtok, and Nome, were severely impacted by the storm.  Coastal erosion was the primary hazard causing significant damage to airport runways, berms, roadway embankments, and bridge abutments. Besides Infrastructure damage, local subsistence infrastructure including hunting and fishing camps, boats, vehicles, and equipment were damaged or destroyed by the storm, particularly near Nome and Chevak, and power outages threatened frozen subsistence foods stored for the winter. This project encompasses the products of StEER's response to this event, the Preliminary Virtual Reconnaissance Report (PVRR), which is intended to (i) provide an overview of Typhoon Merbok, particularly relating to flooding and storm surge impact on the built environment, (ii) overview the regulatory environment and construction practices in the affected area, (iii) synthesize preliminary reports of damage to buildings and other infrastructure, and provide recommendations for continued study of this event by StEER and the wider engineering reconnaissance community."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This Preliminary Virtual Reconnaissance Report (PVRR) is the primary product of the Level 1 response to Typhoon Merbok, intended to (i) provide an overview of Typhoon Merbok, particularly relating to flooding and storm surge impact on the built environment, (ii) overview the regulatory environment and construction practices in the affected area, (iii) synthesize preliminary reports of damage to buildings and other infrastructure, and provide recommendations for continued study of this event by StEER and the wider engineering reconnaissance community. The PVRR includes both the official report as well as a supplementary media repository containing additional imagery gathered by the VAST. As the product of entirely virtual reconnaissance, the PVRR is not based upon detailed field investigations by StEER."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "StEER"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "reconnaissance"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "typhoon"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Merbok"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Alaska"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "N/A"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Notre Dame"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Hawaii Manoa (University of Hawaii at Manoa)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "GeoHazards International (GHI)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of North Carolina Charlotte (UNC Charlotte)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "New York University Tandon School of Engineering"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Florida"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

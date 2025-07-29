@@ -1,0 +1,527 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 438301,
+        "datasetId": 10923767,
+        "datasetPersistentId": "doi:10.7910/DVN/YC4WLC",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/YC4WLC",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-01T14:26:52Z",
+        "releaseTime": "2025-04-01T14:26:52Z",
+        "createTime": "2025-02-28T22:16:40Z",
+        "publicationDate": "2025-04-01",
+        "citationDate": "2025-04-01",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "EPA Social Cost of Greenhouse Gases Application Workbook"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "EPA National Center for Environmental Economics (NCEE)"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "USEPA"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This workbook was designed by the National Center for Environmental Economics (NCEE) at the US EPA to help analysts calculate the monetized net social benefits of future reductions in greenhouse gas (GHG) emmissions (or the net social costs of increases in GHG emissions) using the estimates of the social cost of carbon (SC-CO2), social cost of methane (SC=CH4) and Social cost of nitrous oxide (SC-N2)) (collectively referred to as the Social COst of Greenhouse Hasses (SC-GHG) described in USEPA (2023).  All files related to the development of these estimates are also included in this deposit. <br />\n\n<a href=https://www.epa.gov/environmental-economics/scghg\">href=https://www.epa.gov/environmental-economics/scghg</a> <br />\n\n<blockquote>(Washington, December 2, 2023) -- In the regulatory impact analysis of EPA\u2019s December 2023 Final Rulemaking, \u201cStandards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review,\u201d EPA estimated climate benefits using a new set of Social Cost of Greenhouse Gas (SC-GHG) estimates. These estimates incorporate recent research addressing recommendations of the National Academies of Science, Engineering, and Medicine (2017), responses to public comments on an earlier sensitivity analysis using draft SC-GHG estimates included in the December 2022 supplemental proposed rulemaking, and comments from a 2023 external peer review of the accompanying technical report.</blockquote>\n\n<blockquote>The final technical report, \u201cReport on the Social Cost of Greenhouse Gases: Estimates Incorporating Recent Scientific Advances,\u201d explains the methodology underlying the new set of SC-GHG estimates and is included in the docket for the final Oil and Gas rule (HQ-OAR-2021-0317). EPA also conducted an external peer review of the report.</blockquote>"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-28"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Social Costs"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Greenhouse Gas"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Economic Costs"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementedBy"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "\u201cStandards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review: EPA Report on the Social Cost of Greenhouse Cases: Estimates Incorporating Recent Scientific Advances.  Washington DC, USEPA"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.epa.gov/environmental-economics/scghg"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This worksheet was developed to allow users to input their own data to estimate the social costs resulting from changes in emission rates (in pounds) of Greenhouse Gas elements for multiple future years for CO2, CH4 and N2)."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Sabety, Pari"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-28"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2020-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2080-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The disclaimers below were copied as is from the EPA Disclaimers site <a href=\"https://www.epa.gov/web-policies-and-procedures/epa-disclaimers#liability/\">https://www.epa.gov/web-policies-and-procedures/epa-disclaimers#liability</a>\n\n<blockquote>\"With respect to documents available from the EPA website, neither the United States Government nor any of their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights.\"</blockquote>"
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/USEPA/scghg?tab=readme-ov-file#readme"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowDocumentation",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Github resources provide information estimation and replication of the econometric model."
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "EPA Social Cost of Greenhouse Gases Application Workbook"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "parthum.bryan@epa.gov"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NCEE, USEPA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "1.0.2"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.epa.gov/environmental-economics/scghg"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-08-07"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-28"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Statistical model"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Anthropogenic Emissions",
+                            "Carbon Dioxide (CO2)",
+                            "Emissions Scenario",
+                            "Greenhouse Gas",
+                            "Multidisciplinary Research",
+                            "Predictive Modeling",
+                            "Projection",
+                            "Scenario",
+                            "Socioeconomic Status (SES)"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Github repository in PDF form for replication of model",
+                "label": "GitHub - USEPA_scghg.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438301,
+                "dataFile": {
+                    "id": 10923773,
+                    "persistentId": "",
+                    "filename": "GitHub - USEPA_scghg.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 732643,
+                    "description": "Github repository in PDF form for replication of model",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9bd204-52832a688247",
+                    "rootDataFileId": -1,
+                    "md5": "a060e3aa13325bb1ac409b227af3331d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a060e3aa13325bb1ac409b227af3331d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Report for which workbook was prepared PDF version",
+                "label": "EPA's \u201cReport on the Social Cost of Greenhouse Gases_ Estimates Incorporating Recent Scientific Advances\u201d _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438301,
+                "dataFile": {
+                    "id": 10923769,
+                    "persistentId": "",
+                    "filename": "EPA's \u201cReport on the Social Cost of Greenhouse Gases_ Estimates Incorporating Recent Scientific Advances\u201d _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 58453,
+                    "description": "Report for which workbook was prepared PDF version",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9bd930-48823ec65a71",
+                    "rootDataFileId": -1,
+                    "md5": "b63ab8a2b7b323fdf6794ab33542cfb5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b63ab8a2b7b323fdf6794ab33542cfb5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Replication instructions for workbook and model",
+                "label": "GitHub - USEPA_scghg.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438301,
+                "dataFile": {
+                    "id": 10923771,
+                    "persistentId": "",
+                    "filename": "GitHub - USEPA_scghg.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 336560,
+                    "description": "Replication instructions for workbook and model",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9bd449-a61031953c28",
+                    "rootDataFileId": -1,
+                    "md5": "8d6d9c1624d53471f099d08db90b8c03",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8d6d9c1624d53471f099d08db90b8c03"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Draft Report for which model was developed",
+                "label": "epa_scghg_report_draft_0.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438301,
+                "dataFile": {
+                    "id": 10923772,
+                    "persistentId": "",
+                    "filename": "epa_scghg_report_draft_0.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 7018184,
+                    "description": "Draft Report for which model was developed",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9be054-6017a53e6240",
+                    "rootDataFileId": -1,
+                    "md5": "a60593b826df060dc82087376c36993b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a60593b826df060dc82087376c36993b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Final report for which model was developed",
+                "label": "epa_scghg_2023_report_final.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438301,
+                "dataFile": {
+                    "id": 10923774,
+                    "persistentId": "",
+                    "filename": "epa_scghg_2023_report_final.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 9236569,
+                    "description": "Final report for which model was developed",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9be6e2-3ee5028ca43b",
+                    "rootDataFileId": -1,
+                    "md5": "d9f9d666cf32c7ac502caf6b0c1bb9e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d9f9d666cf32c7ac502caf6b0c1bb9e5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Report for which workbook was prepared HTML version",
+                "label": "EPA's \u201cReport on the Social Cost of Greenhouse Gases_ Estimates Incorporating Recent Scientific Advances\u201d _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438301,
+                "dataFile": {
+                    "id": 10923770,
+                    "persistentId": "",
+                    "filename": "EPA's \u201cReport on the Social Cost of Greenhouse Gases_ Estimates Incorporating Recent Scientific Advances\u201d _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 61254,
+                    "description": "Report for which workbook was prepared HTML version",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9bd6b5-31f134755d6a",
+                    "rootDataFileId": -1,
+                    "md5": "3be0f46b4c4422763e7645518da50bb3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3be0f46b4c4422763e7645518da50bb3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Spreadsheet to model socioeconomic impact of future changes in greenhouse gas emissions ",
+                "label": "epa-sc-ghg-workbook_1.0.2.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438301,
+                "dataFile": {
+                    "id": 10923768,
+                    "persistentId": "",
+                    "filename": "epa-sc-ghg-workbook_1.0.2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 248467,
+                    "description": "Spreadsheet to model socioeconomic impact of future changes in greenhouse gas emissions ",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954e9be904-38402bd9da39",
+                    "rootDataFileId": -1,
+                    "md5": "85326a5412db8dc4922f5f913b79df9c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "85326a5412db8dc4922f5f913b79df9c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

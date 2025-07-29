@@ -1,0 +1,191 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 52151,
+        "datasetId": 53924,
+        "datasetPersistentId": "doi:10.7910/DVN/KD0VPT",
+        "storageIdentifier": "s3://10.7910/DVN/KD0VPT",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionNote": "",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2011-02-09T23:36:17Z",
+        "releaseTime": "2011-02-09T00:00:00Z",
+        "createTime": "2011-02-09T23:34:41Z",
+        "alternativePersistentId": "hdl:1902.1/15555",
+        "publicationDate": "2011-02-09",
+        "citationDate": "2011-02-09",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National Death Index"
+                    },
+                    {
+                        "typeName": "subtitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National Center for Health Statistics"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data set containing death record information from the state vital statistics office.\n<p><b>Background</b></p> The National Death Index is maintained by the National Center for Health Statistics at the Center for Disease control. The National Death Index contains a standard set of identifying information on each death to be used in searches of the file to identify and locate death records in the State offices. Information may include: first and last name, middle initial, father's surname, social security number, month, day, and year of birth, race,  sex, marital status, state of\nresidence, and state of birth. <p><b>User functionality </b></p> The National Death Index is available to investigators solely for statistical purposes in medical and health research. It is not accessible to organizations or the general public for legal, administrative, or genealogy purposes. To use the system, investigators first must submit a NDI application form to NCHS. Applicants should allow about 2 months for their applications to be reviewed and approved.  Once approved, users may submit\ntheir study subjects' names, social security numbers, dates of birth, and related information to NCHS on diskette or CD-ROM. The fees for routine NDI searches consist of a $350.00 service charge plus $0.15 per user record for each year of death searched. For example, 1,000 records searched against 10 years would cost $350 + ($0.15 x 1,000 x 10) or $1,850.  Fees for the NDI Plus service are slightly higher.\n<p><b>Data Notes </b></p> National death records are available starting in 1979. Data are collected from state vital statistics offices. New death records are added annually (roughly 12 months after a given calendar year). Currently deaths from 2008 are available, with death from 2009 becoming available in Spring 2011.   Email ndi@cdc.gov to obtain a free NDI User's Manual and/or more information about the NDI.  National Death Index Division of Vital Statistics National Center for Health Statist\nics 3311 Toledo Road, Room 7316 Hyattsville, Maryland 20782 (301) 458-4444 ndi@cdc.gov"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2011-02"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Death"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "death record"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Death Certificate"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Death Index"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Center for Health Statistics"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "producer",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "producerName": {
+                                    "typeName": "producerName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Click here to access data from site"
+                                },
+                                "producerURL": {
+                                    "typeName": "producerURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://www.cdc.gov/nchs/ndi.htm"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2011-02-09"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "U.S. National, U.S. State"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": []
+    }
+}

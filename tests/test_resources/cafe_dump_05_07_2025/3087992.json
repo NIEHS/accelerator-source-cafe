@@ -1,0 +1,216 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 131295,
+        "datasetId": 3087992,
+        "datasetPersistentId": "doi:10.7910/DVN/DAYSY2",
+        "storageIdentifier": "s3://10.7910/DVN/DAYSY2",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-22T16:59:29Z",
+        "releaseTime": "2025-04-22T16:59:29Z",
+        "createTime": "2017-12-08T16:09:45Z",
+        "publicationDate": "2025-04-22",
+        "citationDate": "2025-04-22",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NEPAssist | National Environmental Policy Act | US EPA "
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Department of Energy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "EJSCREEN allows users to access high-resolution environmental and demographic information for locations in the United States, and compare their selected locations to the rest of the state, EPA region, or the nation."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Campbell, Robert"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-12-08"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "A05F7CEB-6CCE-4DC8-9D5F-4A29DFE053E0.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131295,
+                "dataFile": {
+                    "id": 3135842,
+                    "persistentId": "",
+                    "filename": "A05F7CEB-6CCE-4DC8-9D5F-4A29DFE053E0.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 21555,
+                    "storageIdentifier": "s3://dvn-cloud:16249a34b9d-4aca74deedc9",
+                    "rootDataFileId": -1,
+                    "md5": "e0b3c6aedd43c7458ca3d105b49a4bb8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e0b3c6aedd43c7458ca3d105b49a4bb8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-03-21",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "EJScreen_Index_DescriptionsV3.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131295,
+                "dataFile": {
+                    "id": 3135843,
+                    "persistentId": "",
+                    "filename": "EJScreen_Index_DescriptionsV3.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 82171,
+                    "storageIdentifier": "s3://dvn-cloud:16249a34c92-30420c8d679f",
+                    "rootDataFileId": -1,
+                    "md5": "bc1fc428f126ab7716b21220715ff19f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bc1fc428f126ab7716b21220715ff19f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-03-21",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "EJSCREEN_Technical_Document_20160704_DRAFT.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131295,
+                "dataFile": {
+                    "id": 3135844,
+                    "persistentId": "",
+                    "filename": "EJSCREEN_Technical_Document_20160704_DRAFT.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1095209,
+                    "storageIdentifier": "s3://dvn-cloud:16249a350c5-1ab8bcde05ab",
+                    "rootDataFileId": -1,
+                    "md5": "88a0f5e6cbfd46bc2c888dd5e04b9bc9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "88a0f5e6cbfd46bc2c888dd5e04b9bc9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-03-21",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "A05F7CEB-6CCE-4DC8-9D5F-4A29DFE053E0.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 131295,
+                "dataFile": {
+                    "id": 3135841,
+                    "persistentId": "",
+                    "filename": "A05F7CEB-6CCE-4DC8-9D5F-4A29DFE053E0.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 4302,
+                    "storageIdentifier": "s3://dvn-cloud:16249a34b95-e346fe6e7f60",
+                    "rootDataFileId": -1,
+                    "md5": "dd2b467e166660458bc0989b544594eb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dd2b467e166660458bc0989b544594eb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2018-03-21",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

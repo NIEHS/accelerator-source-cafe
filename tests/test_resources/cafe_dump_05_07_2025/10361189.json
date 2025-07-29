@@ -1,0 +1,443 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 423389,
+        "datasetId": 10361189,
+        "datasetPersistentId": "doi:10.7910/DVN/0U2TCB",
+        "storageIdentifier": "s3mit://10.7910/DVN/0U2TCB",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:Ille9Yav2FM1Vg8kkPZlgA==",
+        "lastUpdateTime": "2024-08-12T12:47:43Z",
+        "releaseTime": "2024-08-12T12:47:43Z",
+        "createTime": "2024-07-02T21:12:59Z",
+        "publicationDate": "2024-08-12",
+        "citationDate": "2024-08-12",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "ZIP to County Crosswalk"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kitch, James"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard Data Science Initiative"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kitch, James"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard Data Science Initiative"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "jkitch@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The following crosswalks are the result of a <a href=\"https://github.com/NSAPH-Data-Processing/zip_fips_master_xwalk/tree/main\">data pipeline</a> that pulls crosswalks from the U.S. Department of Housing and Urban Development (HUD) database, compiling a comprehensive ZIP --> FIPS crosswalk from 2010 to 2023. The crosswalks are available in four different forms:\n<br><br>\n\n\"one2one\": one row, per ZIP code, per year. Each ZIP is matched to its best matching FIPS code.\n<br>\n\"one2few\": Potentially multiple rows, per ZIP code, per year. All FIPS codes with a non-zero number of addresses for a given ZIP code are returned.\n<br>\n\"one2one_summy\" and \"one2few_summy\" return the same respective types of data as the above, but summarize across chunks of years. \n<br><br>\n\nFurther description of these datasets, as well as code to reproduce and adjust results according to certain parameters, is available at the <a href=\"https://github.com/NSAPH-Data-Processing/zip_fips_master_xwalk/tree/main\">Github repo</a>."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "geoboundaries"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Kitch, James"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-07-02"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2010-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Snakemake",
+                            "Other Python-based workflow"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/NSAPH-Data-Processing/zip2county_master_xwalk"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "county",
+                            "zipcode"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "HUD USPS ZIP Code Crosswalk Files"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Department of Housing and Urban Development"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.huduser.gov/portal/datasets/usps_crosswalk.html"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-07-02"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Crosswalk files derived from U.S. Postal Service address data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataSpatialResolution",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSourceDataSpatialResolutionUnitOther": {
+                                "typeName": "cafeSourceDataSpatialResolutionUnitOther",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "ZIP Code level"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestepOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Quarterly"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This product uses the HUD User Data API but is not endorsed or certified by HUD User."
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Note: Guidance documents, except when based on statutory or regulatory authority or law, do not have the force and effect of law and are not meant to bind the public in any way. Guidance documents are intended only to provide clarity to the public regarding existing requirements under the law or agency policies."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "[most commonly used file] Contains top county match for every matched ZIP code for every year. ",
+                "label": "zip2county_master_xwalk_2010_2023_tot_ratio_one2one.tab",
+                "restricted": false,
+                "directoryLabel": "data/output/zip2county_master_xwalk",
+                "version": 4,
+                "datasetVersionId": 423389,
+                "dataFile": {
+                    "id": 10409350,
+                    "persistentId": "",
+                    "filename": "zip2county_master_xwalk_2010_2023_tot_ratio_one2one.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 13236959,
+                    "description": "[most commonly used file] Contains top county match for every matched ZIP code for every year. ",
+                    "storageIdentifier": "s3mit://dvn-cloud:190fff7e66e-a408c67162bd",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 13236959,
+                    "originalFileName": "zip2county_master_xwalk_2010_2023_tot_ratio_one2one.csv",
+                    "UNF": "UNF:6:qOqro6VH6C8R2zwXTvLBXA==",
+                    "rootDataFileId": -1,
+                    "md5": "a3ff5f8612272ac44c7c31bc52731351",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a3ff5f8612272ac44c7c31bc52731351"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-07-29",
+                    "publicationDate": "2024-08-12",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Summary file of all top county matches for every ZIP code, across years.",
+                "label": "zip2county_master_xwalk_2010_2023_tot_ratio_one2few.tab",
+                "restricted": false,
+                "directoryLabel": "data/output/zip2county_master_xwalk",
+                "version": 4,
+                "datasetVersionId": 423389,
+                "dataFile": {
+                    "id": 10409349,
+                    "persistentId": "",
+                    "filename": "zip2county_master_xwalk_2010_2023_tot_ratio_one2few.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 24655416,
+                    "description": "Summary file of all top county matches for every ZIP code, across years.",
+                    "storageIdentifier": "s3mit://dvn-cloud:190fff7e3f3-a57cb367525c",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 23194232,
+                    "originalFileName": "zip2county_master_xwalk_2010_2023_tot_ratio_one2few.csv",
+                    "UNF": "UNF:6:YNOGR6oTCG2yf4nVA7+2eA==",
+                    "rootDataFileId": -1,
+                    "md5": "2589d0d2cf2423c739ba694a8bf01741",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2589d0d2cf2423c739ba694a8bf01741"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-07-29",
+                    "publicationDate": "2024-08-12",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Contains all matches for every matched ZIP code for every year.",
+                "label": "zip2county_master_xwalk_2010_2023_tot_ratio_one2one_summy.tab",
+                "restricted": false,
+                "directoryLabel": "data/output/zip2county_master_xwalk",
+                "version": 4,
+                "datasetVersionId": 423389,
+                "dataFile": {
+                    "id": 10409352,
+                    "persistentId": "",
+                    "filename": "zip2county_master_xwalk_2010_2023_tot_ratio_one2one_summy.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 1844289,
+                    "description": "Contains all matches for every matched ZIP code for every year.",
+                    "storageIdentifier": "s3mit://dvn-cloud:190fff7e526-57be53413f32",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 1844289,
+                    "originalFileName": "zip2county_master_xwalk_2010_2023_tot_ratio_one2one_summy.csv",
+                    "UNF": "UNF:6:J9CBPK96IgxnvcyMb7MMog==",
+                    "rootDataFileId": -1,
+                    "md5": "cbd685fccd64452ddcdb61c1242adb7f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cbd685fccd64452ddcdb61c1242adb7f"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-07-29",
+                    "publicationDate": "2024-08-12",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Summary file of all county matches for a given ZIP code, across years.",
+                "label": "zip2county_master_xwalk_2010_2023_tot_ratio_one2few_summy.tab",
+                "restricted": false,
+                "directoryLabel": "data/output/zip2county_master_xwalk",
+                "version": 4,
+                "datasetVersionId": 423389,
+                "dataFile": {
+                    "id": 10409351,
+                    "persistentId": "",
+                    "filename": "zip2county_master_xwalk_2010_2023_tot_ratio_one2few_summy.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 3774853,
+                    "description": "Summary file of all county matches for a given ZIP code, across years.",
+                    "storageIdentifier": "s3mit://dvn-cloud:190fff7e31a-ef5cd5b9e5b3",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 3656491,
+                    "originalFileName": "zip2county_master_xwalk_2010_2023_tot_ratio_one2few_summy.csv",
+                    "UNF": "UNF:6:b/oMGLVf0nekccscUkiOBA==",
+                    "rootDataFileId": -1,
+                    "md5": "c982bc906966c1eecc03aefd0ef263af",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c982bc906966c1eecc03aefd0ef263af"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-07-29",
+                    "publicationDate": "2024-08-12",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

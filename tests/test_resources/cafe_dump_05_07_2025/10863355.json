@@ -1,0 +1,610 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 436070,
+        "datasetId": 10863355,
+        "datasetPersistentId": "doi:10.7910/DVN/WY9T73",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/WY9T73",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2025-02-03",
+        "lastUpdateTime": "2025-02-19T20:54:22Z",
+        "releaseTime": "2025-02-19T20:54:22Z",
+        "createTime": "2025-02-04T00:46:56Z",
+        "publicationDate": "2025-02-19",
+        "citationDate": "2025-02-19",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Smart Location Database"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Office of Sustainable Communities"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Environmental Protection Agency"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Office of Policy"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Environmental Protection Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information: https://catalog.data.gov/dataset/smart-location-database7 \n<br /><br />\nIf you have questions about the underlying data stored here, please contact Thomas John (thomas.john@epa.gov). If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br />\n\"The Smart Location Database is a nationwide geographic data resource for measuring location efficiency. It includes more than 90 attributes summarizing characteristics, such as housing density, diversity of land use, neighborhood design, destination accessibility, transit service, employment and demographics. Most attributes are available for every census block group in the United States. \n<br />\nA large body of research has demonstrated that land use and urban form can have a significant effect on transportation outcomes. People who live and/or work in compact neighborhoods with a walkable street grid and easy access to public transit, jobs, stores, and services are more likely to have several transportation options to meet their everyday needs. As a result, they can choose to drive less, which reduces their emissions of greenhouse gases and other pollutants compared to people who live and work in places that are not location efficient. Walking, biking, and taking public transit can also save people money and improve their health by encouraging physical activity.\n<br />\nThe Smart Location Database summarizes several demographic, employment, and built environment variables for every census block group (CBG) in the United States. The database includes indicators of the commonly cited \u201cD\u201d variables shown in the transportation research literature to be related to travel behavior. The Ds include residential and employment density, land use diversity, design of the built environment, access to destinations, and distance to transit. SLD variables can be used as inputs to travel demand models, baseline data for scenario planning studies, and combined into composite indicators characterizing the relative location efficiency of CBG within U.S. metropolitan regions.\n<br />\nEPA first released a beta version of the Smart Location Database in 2011. The initial full version was released in 2013, and the database was updated to its current version in 2021.\"\n<br />\nQuote from https://www.epa.gov/smartgrowth/smart-location-mapping and https://catalog.data.gov/dataset/smart-location-database7"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-10-14"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Land Use"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Urban"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nSmart Location Database data was downloaded by Allison James on 2025-02-03."
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "distributorURL": {
+                                    "typeName": "distributorURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.bu.edu/sph/profile/allison-james/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-03"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "James, Allison"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-03"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2010-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2010-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the EPA and are pasted below:\n\"The U.S. Government retains a nonexclusive, royalty-free license to publish or\nreproduce these documents, or allow others to do so, for U.S. Government purposes.\nThese documents may be freely distributed and used for non-commercial, scientific\nand educational purposes. Commercial use of the documents available from the EPA\nwebsites may be protected under the U.S. and Foreign Copyright Laws. Individual\ndocuments on the EPA website may have different copyright conditions, and that will\nbe noted in those documents.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicBoundingBox",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "westLongitude": {
+                                    "typeName": "westLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "-138.21454852"
+                                },
+                                "eastLongitude": {
+                                    "typeName": "eastLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "-12.68151645"
+                                },
+                                "northLatitude": {
+                                    "typeName": "northLatitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "61.7110157"
+                                },
+                                "southLatitude": {
+                                    "typeName": "southLatitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "6.65223303"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Environmental Protection Agency"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "3.0"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://catalog.data.gov/dataset/smart-location-database7"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2012-06-22"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-03"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "These data are available for public access and use and carry no restrictions. See the Smart Location Database Technical Documentation and User Guide (2021) for data sources (https://www.epa.gov/smartgrowth/smart-location-database-technical-documentation-and-user-guide), limitations, and methodologies used to calculate the variables in the Smart Location Database. Although the majority of SLD variables are consistent in the data source and calculation method to previous versions, it may not be appropriate to compare all variables with version 2.0 directly. Changes in data sources and methods are explained in detail in this guide. See the National Walkability Index User Guide and Methodology and or email SLC@gsa.gov for more information on the data and methodology of the Smart Location Calculator."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Land Use",
+                            "Urban"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Technical documentation and user guide.",
+                "label": "epa_sld_3.0_technicaldocumentationuserguide_may2021_0.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436070,
+                "dataFile": {
+                    "id": 10863356,
+                    "persistentId": "",
+                    "filename": "epa_sld_3.0_technicaldocumentationuserguide_may2021_0.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2327386,
+                    "description": "Technical documentation and user guide.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ce67c707-3a299ddd34f6",
+                    "rootDataFileId": -1,
+                    "md5": "12d57dbad09d838e5142b0c526f51e11",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "12d57dbad09d838e5142b0c526f51e11"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-03",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "The data in .gdb format.",
+                "label": "SmartLocationDatabaseV3.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436070,
+                "dataFile": {
+                    "id": 10863359,
+                    "persistentId": "",
+                    "filename": "SmartLocationDatabaseV3.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 553251612,
+                    "description": "The data in .gdb format.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ce67d6f5-858eb9f25ae7",
+                    "rootDataFileId": -1,
+                    "md5": "ab1fae974953586c2ce9ba651137b12a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ab1fae974953586c2ce9ba651137b12a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-03",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Webpage for the metadata.",
+                "label": "Smart Location Database - Catalog.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436070,
+                "dataFile": {
+                    "id": 10863361,
+                    "persistentId": "",
+                    "filename": "Smart Location Database - Catalog.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 529283,
+                    "description": "Webpage for the metadata.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ce67db21-e5c772f5b126",
+                    "rootDataFileId": -1,
+                    "md5": "aa8db4bcd5492b0230cff76bd4cb2dd9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aa8db4bcd5492b0230cff76bd4cb2dd9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-03",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "The data in .csv format.",
+                "label": "EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436070,
+                "dataFile": {
+                    "id": 10863358,
+                    "persistentId": "",
+                    "filename": "EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 201568176,
+                    "description": "The data in .csv format.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ce67c92c-7fb8006ce086",
+                    "rootDataFileId": -1,
+                    "md5": "17ee28cd5ed7793ac9a24564615d76c3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "17ee28cd5ed7793ac9a24564615d76c3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-03",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Webpage for the data and other Smart Location Mapping datasets.",
+                "label": "Smart Location Mapping _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436070,
+                "dataFile": {
+                    "id": 10863357,
+                    "persistentId": "",
+                    "filename": "Smart Location Mapping _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 930706,
+                    "description": "Webpage for the data and other Smart Location Mapping datasets.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ce67d50c-f72c29ac35ef",
+                    "rootDataFileId": -1,
+                    "md5": "a10fea7d4a9da617e830926d3cde3724",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a10fea7d4a9da617e830926d3cde3724"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-03",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "ISO-19139 Metadata.",
+                "label": "metadata.xml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436070,
+                "dataFile": {
+                    "id": 10863360,
+                    "persistentId": "",
+                    "filename": "metadata.xml",
+                    "contentType": "text/xml",
+                    "friendlyType": "XML",
+                    "filesize": 27773,
+                    "description": "ISO-19139 Metadata.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ce67cb27-128c406c11e0",
+                    "rootDataFileId": -1,
+                    "md5": "149e4d62ffd6df85717f2e25229f1bfb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "149e4d62ffd6df85717f2e25229f1bfb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-03",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Webpage for the data in ArcGIS.",
+                "label": "OA_SmartLocationDatabase (MapServer).zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436070,
+                "dataFile": {
+                    "id": 10863362,
+                    "persistentId": "",
+                    "filename": "OA_SmartLocationDatabase (MapServer).zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 161067,
+                    "description": "Webpage for the data in ArcGIS.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194ce67cd3d-433184631e05",
+                    "rootDataFileId": -1,
+                    "md5": "d29ea030769ceba17733857b59da30e9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d29ea030769ceba17733857b59da30e9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-03",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "EPA website disclaimers",
+                "label": "EPA Disclaimers _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436070,
+                "dataFile": {
+                    "id": 10897390,
+                    "persistentId": "",
+                    "filename": "EPA Disclaimers _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 97989,
+                    "description": "EPA website disclaimers",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951ffd1a2e-714ded28c290",
+                    "rootDataFileId": -1,
+                    "md5": "de90bdd8ae95f85060b264b7e8ad6c70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de90bdd8ae95f85060b264b7e8ad6c70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-19",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

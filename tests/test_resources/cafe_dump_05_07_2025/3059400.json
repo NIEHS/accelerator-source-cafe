@@ -1,0 +1,2545 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 129478,
+        "datasetId": 3059400,
+        "datasetPersistentId": "doi:10.7910/DVN/9DYOFE",
+        "storageIdentifier": "s3://10.7910/DVN/9DYOFE",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-22T16:50:13Z",
+        "releaseTime": "2025-04-22T16:50:13Z",
+        "createTime": "2017-10-18T14:23:29Z",
+        "publicationDate": "2025-04-22",
+        "citationDate": "2025-04-22",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NEMS Documentation"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Energy Information Adminstration"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Department of Energy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Documentation for the Energy Information Administration's National Energy Modeling System used in creating the EIA Annual Energy Outlook"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Physics"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sustainable energy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Campbell, Robert"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-10-18"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "m057(2009).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080892,
+                    "persistentId": "",
+                    "filename": "m057(2009).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 411036,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d642e-a4eeaa6efe49",
+                    "rootDataFileId": -1,
+                    "md5": "e9910a9e5c6758d50a4ee9f9633363d1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e9910a9e5c6758d50a4ee9f9633363d1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2014).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080832,
+                    "persistentId": "",
+                    "filename": "m066(2014).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1759142,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa65110-cb7c07d98683",
+                    "rootDataFileId": -1,
+                    "md5": "b64ce6d6f896ab37e0495b14d21c360c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b64ce6d6f896ab37e0495b14d21c360c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2004).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079669,
+                    "persistentId": "",
+                    "filename": "m060(2004).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1459652,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34c06a-faa2bcf79c67",
+                    "rootDataFileId": -1,
+                    "md5": "02e00eff63a198777f3e8dc05797fa95",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "02e00eff63a198777f3e8dc05797fa95"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2013).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080833,
+                    "persistentId": "",
+                    "filename": "m066(2013).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1697061,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa65c36-30b0f6f16d99",
+                    "rootDataFileId": -1,
+                    "md5": "01ae40ea78082d8e8bfd604e94da2e6e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "01ae40ea78082d8e8bfd604e94da2e6e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2009).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080837,
+                    "persistentId": "",
+                    "filename": "m066(2009).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1262586,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa6f62c-f1137a5b5949",
+                    "rootDataFileId": -1,
+                    "md5": "7f913b7071d6022b3c4c6e7df6b970a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7f913b7071d6022b3c4c6e7df6b970a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2008).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080838,
+                    "persistentId": "",
+                    "filename": "m066(2008).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1287437,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa707e4-db9c17e6e71a",
+                    "rootDataFileId": -1,
+                    "md5": "9cb3235119b1c3fb2b6a093171ed0c2a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9cb3235119b1c3fb2b6a093171ed0c2a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2007).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080839,
+                    "persistentId": "",
+                    "filename": "m066(2007).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 904970,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa7139d-b052687e0f41",
+                    "rootDataFileId": -1,
+                    "md5": "727360293cad3cc2df86ecbe7845c28d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "727360293cad3cc2df86ecbe7845c28d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2007).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079672,
+                    "persistentId": "",
+                    "filename": "m060(2007).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1605430,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34c473-87ca475957c7",
+                    "rootDataFileId": -1,
+                    "md5": "f0f598e465548db0fd8c5de0cc783fda",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f0f598e465548db0fd8c5de0cc783fda"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2008).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079673,
+                    "persistentId": "",
+                    "filename": "m060(2008).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 3735123,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34c740-dcf5fb10a617",
+                    "rootDataFileId": -1,
+                    "md5": "d4131ba83948f68aae03824e49bd6ad2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d4131ba83948f68aae03824e49bd6ad2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2009).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079674,
+                    "persistentId": "",
+                    "filename": "m060(2009).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 3707067,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34c9cc-9630f7a4b6bf",
+                    "rootDataFileId": -1,
+                    "md5": "e49186c38f92c2e43cab25414f4945b3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e49186c38f92c2e43cab25414f4945b3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2010).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079675,
+                    "persistentId": "",
+                    "filename": "m060(2010).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2957795,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34cb1a-d9b349213cd7",
+                    "rootDataFileId": -1,
+                    "md5": "48126636691022e97f2d9ffcdfcedb3f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "48126636691022e97f2d9ffcdfcedb3f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2011).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079676,
+                    "persistentId": "",
+                    "filename": "m060(2011).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2191306,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34cda0-9f1ffface715",
+                    "rootDataFileId": -1,
+                    "md5": "ea77d133c122600936cba3de3ab17a13",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ea77d133c122600936cba3de3ab17a13"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2012).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079677,
+                    "persistentId": "",
+                    "filename": "m060(2012).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 4216122,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34cf19-7e38a7d875ec",
+                    "rootDataFileId": -1,
+                    "md5": "c3f0bc33ecdee1e0812e6b317bfc6061",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c3f0bc33ecdee1e0812e6b317bfc6061"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2013).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079678,
+                    "persistentId": "",
+                    "filename": "m060(2013).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1670720,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34d047-1d42c1669508",
+                    "rootDataFileId": -1,
+                    "md5": "5fca4f2c480ad594ca5155afc277ceb5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5fca4f2c480ad594ca5155afc277ceb5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2014).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079679,
+                    "persistentId": "",
+                    "filename": "m060(2014).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1710356,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34d171-94f70cc2bf60",
+                    "rootDataFileId": -1,
+                    "md5": "623f8c585d45650b4744c03987d8f236",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "623f8c585d45650b4744c03987d8f236"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m066(2017).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079680,
+                    "persistentId": "",
+                    "filename": "m066(2017).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2191088,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34d2ba-5875472244c9",
+                    "rootDataFileId": -1,
+                    "md5": "399965f208efa6df5feb5525daaad792",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "399965f208efa6df5feb5525daaad792"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2005).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079670,
+                    "persistentId": "",
+                    "filename": "m060(2005).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 5222604,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34c1e2-1d70a7c5d4d3",
+                    "rootDataFileId": -1,
+                    "md5": "6fbccecf054ab0a85a90b95352a25334",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6fbccecf054ab0a85a90b95352a25334"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Coal Market",
+                "label": "m060(2006).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Coal Market"
+                ],
+                "dataFile": {
+                    "id": 3079671,
+                    "persistentId": "",
+                    "filename": "m060(2006).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 4226244,
+                    "description": "Coal Market",
+                    "categories": [
+                        "Coal Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fcb34c354-5f8ffd12db7e",
+                    "rootDataFileId": -1,
+                    "md5": "a33bd4ea853187f4ada2c6f29f08931f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a33bd4ea853187f4ada2c6f29f08931f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-17",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2009).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080849,
+                    "persistentId": "",
+                    "filename": "m068(2009).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1869807,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab1147a-87760b921cab",
+                    "rootDataFileId": -1,
+                    "md5": "094e8a6f4e387425e1dca0aa670fecb4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "094e8a6f4e387425e1dca0aa670fecb4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2008).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080850,
+                    "persistentId": "",
+                    "filename": "m068(2008).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1288164,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab1247b-8bd97d60b70d",
+                    "rootDataFileId": -1,
+                    "md5": "dd446cfa8465493ac04ebaec77cb4dc6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dd446cfa8465493ac04ebaec77cb4dc6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2007).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080851,
+                    "persistentId": "",
+                    "filename": "m068(2007).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1465499,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab13494-2ac7b28a3da4",
+                    "rootDataFileId": -1,
+                    "md5": "cb7bb556982a208f433e042365ed4a38",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cb7bb556982a208f433e042365ed4a38"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2006).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080852,
+                    "persistentId": "",
+                    "filename": "m068(2006).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1128952,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab13f46-15b8ad70d436",
+                    "rootDataFileId": -1,
+                    "md5": "3c6b30cc05417ec07702f667c9b29656",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3c6b30cc05417ec07702f667c9b29656"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2012).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080834,
+                    "persistentId": "",
+                    "filename": "m066(2012).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2780732,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa666bc-8813cb476904",
+                    "rootDataFileId": -1,
+                    "md5": "c52b26912c336d2d6c845da1856d26db",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c52b26912c336d2d6c845da1856d26db"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2011).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080835,
+                    "persistentId": "",
+                    "filename": "m066(2011).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1197406,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa6722d-5a89d1b2aad7",
+                    "rootDataFileId": -1,
+                    "md5": "8768f139705b92cf945098e19acc4afc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8768f139705b92cf945098e19acc4afc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2010).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080836,
+                    "persistentId": "",
+                    "filename": "m066(2010).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1355420,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa67c74-a58cf9fe12ee",
+                    "rootDataFileId": -1,
+                    "md5": "abe73d12db132a2ecd525f467e2cef43",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "abe73d12db132a2ecd525f467e2cef43"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2006).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080840,
+                    "persistentId": "",
+                    "filename": "m066(2006).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 846595,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa72022-202825f773b4",
+                    "rootDataFileId": -1,
+                    "md5": "c2aadc0e796027b059e4f381743f91b1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c2aadc0e796027b059e4f381743f91b1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2005).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080841,
+                    "persistentId": "",
+                    "filename": "m066(2005).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1151402,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa7302d-a84e4c1edf76",
+                    "rootDataFileId": -1,
+                    "md5": "b36b66e123f0f2490ffc07baaa241ff5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b36b66e123f0f2490ffc07baaa241ff5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m066(2004).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Commercial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080842,
+                    "persistentId": "",
+                    "filename": "m066(2004).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 3805984,
+                    "categories": [
+                        "Commercial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdaa74231-c5bb85983841",
+                    "rootDataFileId": -1,
+                    "md5": "edde736cb289b163f3a48371d0f7b57c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "edde736cb289b163f3a48371d0f7b57c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2016).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080843,
+                    "persistentId": "",
+                    "filename": "m068(2016).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2609549,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab03b86-d793d04965f6",
+                    "rootDataFileId": -1,
+                    "md5": "3e091eadd1adaabb5dc0e7315a4e9cf8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3e091eadd1adaabb5dc0e7315a4e9cf8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2014).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080844,
+                    "persistentId": "",
+                    "filename": "m068(2014).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1835006,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab04017-940c396ddf1f",
+                    "rootDataFileId": -1,
+                    "md5": "afb41c8c3adc0198cf97f0af47881e2f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "afb41c8c3adc0198cf97f0af47881e2f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2013).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080845,
+                    "persistentId": "",
+                    "filename": "m068(2013).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1861268,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab04d67-2514b6ff0e80",
+                    "rootDataFileId": -1,
+                    "md5": "c0d0e8f09737d806120df0d0281ca620",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c0d0e8f09737d806120df0d0281ca620"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2012).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080846,
+                    "persistentId": "",
+                    "filename": "m068(2012).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1905073,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab05ab6-d5468a3f6298",
+                    "rootDataFileId": -1,
+                    "md5": "c4812fe517f87500a63b7371e1095038",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c4812fe517f87500a63b7371e1095038"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2011).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080847,
+                    "persistentId": "",
+                    "filename": "m068(2011).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1166076,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab06508-fdd83ac644bb",
+                    "rootDataFileId": -1,
+                    "md5": "c2506294a75871f201c3037e10947863",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c2506294a75871f201c3037e10947863"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2010).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080848,
+                    "persistentId": "",
+                    "filename": "m068(2010).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2602764,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab10787-16c4ee74cd6d",
+                    "rootDataFileId": -1,
+                    "md5": "3c6f633b2a8cb997167090ee7e6910ca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3c6f633b2a8cb997167090ee7e6910ca"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m068(2004).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Electricity Market"
+                ],
+                "dataFile": {
+                    "id": 3080853,
+                    "persistentId": "",
+                    "filename": "m068(2004).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 3667718,
+                    "categories": [
+                        "Electricity Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdab14d01-f14fd3230205",
+                    "rootDataFileId": -1,
+                    "md5": "bee9ffea63a4d30af25cd1c0da2ba5cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bee9ffea63a4d30af25cd1c0da2ba5cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2014).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080874,
+                    "persistentId": "",
+                    "filename": "m064(2014).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1613658,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb045e0c-6a641fe72569",
+                    "rootDataFileId": -1,
+                    "md5": "c162cdeed8a8c83074606e28642b36ea",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c162cdeed8a8c83074606e28642b36ea"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2013).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080875,
+                    "persistentId": "",
+                    "filename": "m064(2013).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2033355,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0471fc-f5846803dfdf",
+                    "rootDataFileId": -1,
+                    "md5": "dac1c610fb6efaa52427d038c8ff947f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dac1c610fb6efaa52427d038c8ff947f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2012).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080876,
+                    "persistentId": "",
+                    "filename": "m064(2012).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1530398,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb04810e-5ead103d06a1",
+                    "rootDataFileId": -1,
+                    "md5": "9d8341e15ef1b6d4969660d668cc956b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9d8341e15ef1b6d4969660d668cc956b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2011).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080877,
+                    "persistentId": "",
+                    "filename": "m064(2011).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1663087,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb049022-ef71476fdb88",
+                    "rootDataFileId": -1,
+                    "md5": "e9affbe613dbdf1b148a4f7a3cd18bb9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e9affbe613dbdf1b148a4f7a3cd18bb9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2010).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080878,
+                    "persistentId": "",
+                    "filename": "m064(2010).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1670115,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb04a68f-a47de3ec8e65",
+                    "rootDataFileId": -1,
+                    "md5": "c0211d665148d7d16432856d055ff0b8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c0211d665148d7d16432856d055ff0b8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2009).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080879,
+                    "persistentId": "",
+                    "filename": "m064(2009).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 830737,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb04b768-a5556d1d2afc",
+                    "rootDataFileId": -1,
+                    "md5": "07e5c1fcfae4255164be16b543edb8af",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "07e5c1fcfae4255164be16b543edb8af"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2008).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080880,
+                    "persistentId": "",
+                    "filename": "m064(2008).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 719406,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb04c7ce-868c96b75184",
+                    "rootDataFileId": -1,
+                    "md5": "9b91a28bf915fe999acb38b867df0dc1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9b91a28bf915fe999acb38b867df0dc1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2007).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080881,
+                    "persistentId": "",
+                    "filename": "m064(2007).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 646889,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb04db57-213ba7ad815b",
+                    "rootDataFileId": -1,
+                    "md5": "fedbe35c2a2308faf0b3e18559e30f99",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fedbe35c2a2308faf0b3e18559e30f99"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2006).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080882,
+                    "persistentId": "",
+                    "filename": "m064(2006).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 565160,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb04ea3a-020e81fc22c4",
+                    "rootDataFileId": -1,
+                    "md5": "ec4b58af45802867dac073472d9ec436",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ec4b58af45802867dac073472d9ec436"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2005).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080883,
+                    "persistentId": "",
+                    "filename": "m064(2005).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 733940,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb04f9da-dbbd6a8098fc",
+                    "rootDataFileId": -1,
+                    "md5": "bf94dffe3a35445a722d9eb0d0b0e013",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf94dffe3a35445a722d9eb0d0b0e013"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m064(2004).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Industrial Demand"
+                ],
+                "dataFile": {
+                    "id": 3080884,
+                    "persistentId": "",
+                    "filename": "m064(2004).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1421030,
+                    "categories": [
+                        "Industrial Demand"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb05097e-c11e84142d91",
+                    "rootDataFileId": -1,
+                    "md5": "6d6a630deddc1627cf27c25b9bba7b64",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6d6a630deddc1627cf27c25b9bba7b64"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2014).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080888,
+                    "persistentId": "",
+                    "filename": "m057(2014).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 628111,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d26d3-c29c74e88ad7",
+                    "rootDataFileId": -1,
+                    "md5": "2babd7a132ff03222186797b04f5b6d1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2babd7a132ff03222186797b04f5b6d1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2013).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080889,
+                    "persistentId": "",
+                    "filename": "m057(2013).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 625413,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d3658-91da0af76f05",
+                    "rootDataFileId": -1,
+                    "md5": "1038a39d01dd469ce2a64bcb1066a5ab",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1038a39d01dd469ce2a64bcb1066a5ab"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2012).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080890,
+                    "persistentId": "",
+                    "filename": "m057(2012).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 602232,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d41e5-84a14f705e75",
+                    "rootDataFileId": -1,
+                    "md5": "a01daceb701d2bdc248f0f0f776acdd8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a01daceb701d2bdc248f0f0f776acdd8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2010).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080891,
+                    "persistentId": "",
+                    "filename": "m057(2010).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 378875,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d52e7-e4a4bef9587b",
+                    "rootDataFileId": -1,
+                    "md5": "a3f0fd9d289f25775992bef681b31cbf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a3f0fd9d289f25775992bef681b31cbf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2008).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080893,
+                    "persistentId": "",
+                    "filename": "m057(2008).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 297256,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d743d-1df0820c0a09",
+                    "rootDataFileId": -1,
+                    "md5": "b649551738918538d4f5547b7295bd83",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b649551738918538d4f5547b7295bd83"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2007).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080894,
+                    "persistentId": "",
+                    "filename": "m057(2007).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 307274,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d823e-01af0c1a771a",
+                    "rootDataFileId": -1,
+                    "md5": "fd801ccc267f0a84ccdf18e44ea4d725",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fd801ccc267f0a84ccdf18e44ea4d725"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2006).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080895,
+                    "persistentId": "",
+                    "filename": "m057(2006).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 250201,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d912e-807782f59708",
+                    "rootDataFileId": -1,
+                    "md5": "61e61988593bc2ea0563f1c79a07b9a9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "61e61988593bc2ea0563f1c79a07b9a9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2005).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080896,
+                    "persistentId": "",
+                    "filename": "m057(2005).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 314029,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0d9ed6-74f2bbc4b566",
+                    "rootDataFileId": -1,
+                    "md5": "8e795ab85f2cb918a412e6b80f2d7307",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8e795ab85f2cb918a412e6b80f2d7307"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m057(2004).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Integrated"
+                ],
+                "dataFile": {
+                    "id": 3080897,
+                    "persistentId": "",
+                    "filename": "m057(2004).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 481248,
+                    "categories": [
+                        "Integrated"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb0dc854-f2a7adc23443",
+                    "rootDataFileId": -1,
+                    "md5": "f10868da665ba7b3f231947afd89eb9e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f10868da665ba7b3f231947afd89eb9e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2014).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080898,
+                    "persistentId": "",
+                    "filename": "m071(2014).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 722279,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1c36bc-20597cd2539e",
+                    "rootDataFileId": -1,
+                    "md5": "59b7be52fa0cc3fba72ec3e44877ad31",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "59b7be52fa0cc3fba72ec3e44877ad31"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2013).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080899,
+                    "persistentId": "",
+                    "filename": "m071(2013).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 727492,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1c465a-f42b1026d094",
+                    "rootDataFileId": -1,
+                    "md5": "9faae0ddef0ddb8c43c6a9b35bf65af6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9faae0ddef0ddb8c43c6a9b35bf65af6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2012).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080900,
+                    "persistentId": "",
+                    "filename": "m071(2012).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 579723,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1c56a1-3596699ed377",
+                    "rootDataFileId": -1,
+                    "md5": "d2d5c8451b2bbbf8c1acd420472dfa49",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d2d5c8451b2bbbf8c1acd420472dfa49"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2011).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080901,
+                    "persistentId": "",
+                    "filename": "m071(2011).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 289769,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1c64b2-aa097d82862a",
+                    "rootDataFileId": -1,
+                    "md5": "37efdce57a0542960ab13624a134dab1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "37efdce57a0542960ab13624a134dab1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2010).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080902,
+                    "persistentId": "",
+                    "filename": "m071(2010).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 303681,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1c72b9-97078c42d40c",
+                    "rootDataFileId": -1,
+                    "md5": "d6764b84ac2a3fa2d8cadbd984f4311d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6764b84ac2a3fa2d8cadbd984f4311d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2009).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080903,
+                    "persistentId": "",
+                    "filename": "m071(2009).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 673858,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1c8276-f096a25dc32f",
+                    "rootDataFileId": -1,
+                    "md5": "847a0f844ea3d537c04e36a2603a415b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "847a0f844ea3d537c04e36a2603a415b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2008).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080904,
+                    "persistentId": "",
+                    "filename": "m071(2008).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 743486,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1c92c3-0ff474d7209c",
+                    "rootDataFileId": -1,
+                    "md5": "22e9c5ef2511596b8cd16c9ef2b2d1b6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "22e9c5ef2511596b8cd16c9ef2b2d1b6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2007).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080905,
+                    "persistentId": "",
+                    "filename": "m071(2007).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 610666,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1ca24a-738b792db230",
+                    "rootDataFileId": -1,
+                    "md5": "1e19e2cff6135650057c6424920c4a6e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1e19e2cff6135650057c6424920c4a6e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2005).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080906,
+                    "persistentId": "",
+                    "filename": "m071(2005).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 601935,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1cb0bc-ad515ed6693c",
+                    "rootDataFileId": -1,
+                    "md5": "b4f2a02a5ea38b2d2a4276e687202e75",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b4f2a02a5ea38b2d2a4276e687202e75"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m071(2004).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "International Energy"
+                ],
+                "dataFile": {
+                    "id": 3080907,
+                    "persistentId": "",
+                    "filename": "m071(2004).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 625230,
+                    "categories": [
+                        "International Energy"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb1cbfdb-5f9c0bcc3fb0",
+                    "rootDataFileId": -1,
+                    "md5": "55b302471ee29fae6cb5b3f3dfc8973b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "55b302471ee29fae6cb5b3f3dfc8973b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m059(2016).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Liquid Fuels Market"
+                ],
+                "dataFile": {
+                    "id": 3080908,
+                    "persistentId": "",
+                    "filename": "m059(2016).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1380067,
+                    "categories": [
+                        "Liquid Fuels Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb242f1e-24109d8e61a7",
+                    "rootDataFileId": -1,
+                    "md5": "75a511c538a073b6fd1a4d5084e48d7d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "75a511c538a073b6fd1a4d5084e48d7d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m059(2014).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Liquid Fuels Market"
+                ],
+                "dataFile": {
+                    "id": 3080909,
+                    "persistentId": "",
+                    "filename": "m059(2014).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1250903,
+                    "categories": [
+                        "Liquid Fuels Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb243bdb-34927a6c88b7",
+                    "rootDataFileId": -1,
+                    "md5": "90b890bbf51677063ed280c00c3793c4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "90b890bbf51677063ed280c00c3793c4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m059(2013).pdf",
+                "restricted": false,
+                "version": 2,
+                "datasetVersionId": 129478,
+                "categories": [
+                    "Liquid Fuels Market"
+                ],
+                "dataFile": {
+                    "id": 3080910,
+                    "persistentId": "",
+                    "filename": "m059(2013).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1041898,
+                    "categories": [
+                        "Liquid Fuels Market"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:15fdb24459a-3fac86d1e02e",
+                    "rootDataFileId": -1,
+                    "md5": "2910479ccc5be21de0e562b921c930d6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2910479ccc5be21de0e562b921c930d6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2016).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080911,
+                    "persistentId": "",
+                    "filename": "m065(2016).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1330549,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2b3759-2fe6e941e433",
+                    "rootDataFileId": -1,
+                    "md5": "7a4dfe6a2ab920e6a2e5e39b1f62adfa",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7a4dfe6a2ab920e6a2e5e39b1f62adfa"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2014).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080912,
+                    "persistentId": "",
+                    "filename": "m065(2014).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2150308,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2b46f2-79d83555521f",
+                    "rootDataFileId": -1,
+                    "md5": "c1df16ba434a4a3175c988bccb61f8eb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c1df16ba434a4a3175c988bccb61f8eb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2013).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080913,
+                    "persistentId": "",
+                    "filename": "m065(2013).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1596909,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2b5339-2ea37a81a472",
+                    "rootDataFileId": -1,
+                    "md5": "1388068a709798874e09f18711a54b16",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1388068a709798874e09f18711a54b16"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2012).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080914,
+                    "persistentId": "",
+                    "filename": "m065(2012).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1300502,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2b5f83-bf65cc43ee1b",
+                    "rootDataFileId": -1,
+                    "md5": "16f7df06f595469b9109a4880bbcc8d4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "16f7df06f595469b9109a4880bbcc8d4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2010).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080915,
+                    "persistentId": "",
+                    "filename": "m065(2010).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1484580,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2b6c08-3960f5a56c71",
+                    "rootDataFileId": -1,
+                    "md5": "e227d495e4dd08d26bf835f0672334ae",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e227d495e4dd08d26bf835f0672334ae"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2009).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080916,
+                    "persistentId": "",
+                    "filename": "m065(2009).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1149706,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2b91b0-2e605640646a",
+                    "rootDataFileId": -1,
+                    "md5": "914b8ffbcfb29d7e4334457d34df9676",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "914b8ffbcfb29d7e4334457d34df9676"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2008).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080917,
+                    "persistentId": "",
+                    "filename": "m065(2008).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1067182,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2ba51d-eb17c0244e5a",
+                    "rootDataFileId": -1,
+                    "md5": "a35961a7712bcfe33155bcb9d3147c8f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a35961a7712bcfe33155bcb9d3147c8f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2007).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080918,
+                    "persistentId": "",
+                    "filename": "m065(2007).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 703119,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2bb19d-c5badd1b233d",
+                    "rootDataFileId": -1,
+                    "md5": "fc3b96b2c7edb176d661c8288d7a0cbd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fc3b96b2c7edb176d661c8288d7a0cbd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2006).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080919,
+                    "persistentId": "",
+                    "filename": "m065(2006).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 985604,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2bcd76-56a2131cc1a7",
+                    "rootDataFileId": -1,
+                    "md5": "25738eac243acde409e7a697b5d37cc2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "25738eac243acde409e7a697b5d37cc2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2005).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080920,
+                    "persistentId": "",
+                    "filename": "m065(2005).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1519407,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2c2abf-7b581b166ac7",
+                    "rootDataFileId": -1,
+                    "md5": "1f8f9f6101b67e76da72e57e1c4358fe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1f8f9f6101b67e76da72e57e1c4358fe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "m065(2004).pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 129478,
+                "dataFile": {
+                    "id": 3080921,
+                    "persistentId": "",
+                    "filename": "m065(2004).pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 536274,
+                    "storageIdentifier": "s3://dvn-cloud:15fdb2c46a6-0a4037071874",
+                    "rootDataFileId": -1,
+                    "md5": "fd5de073e9d46e5020738d9aff933bf3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fd5de073e9d46e5020738d9aff933bf3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-11-20",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

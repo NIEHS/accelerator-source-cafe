@@ -1,0 +1,1409 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 438417,
+        "datasetId": 10927751,
+        "datasetPersistentId": "doi:10.7910/DVN/MM78QJ",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/MM78QJ",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2025-03-07",
+        "lastUpdateTime": "2025-03-07T20:35:28Z",
+        "releaseTime": "2025-03-07T20:35:28Z",
+        "createTime": "2025-03-02T08:30:47Z",
+        "publicationDate": "2025-03-07",
+        "citationDate": "2025-03-07",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Pesticide Product Information System (PPIS)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Protection Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "EPA"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "dataqualityissues@epa.gov"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\n<br />\nIf you have questions about the underlying data stored here, please contact the EPA about Ingredients used in Pesticide Products (pesticidequestions@epa.gov). If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br />\n\"The Pesticide Product Information System (PPIS) contains information concerning all pesticide products registered in the United States. It includes registrant name and address, chemical ingredients, toxicity category, product names, distributor brand names, site/pest uses, pesticidal type, formulation code, and registration status. The files that make up PPIS are ASCII files (ASCII is a code that has been used since the 1960s for information transfer). Interested parties may access them using a variety of database and spreadsheet software. The files on this page are presented in ASCII to enable interested parties to access them using a variety of database and spreadsheet software.\" \n<br />\nQuote from https://www.epa.gov/ingredients-used-pesticide-products/pesticide-product-information-system-ppis"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-28"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Agricultural Sciences",
+                            "Chemistry",
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-07"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Turner, Nami"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-02"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2014-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-03-03"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "XML text files"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the EPA and are pasted below:\n\"The U.S. Government retains a nonexclusive, royalty-free license to publish or\nreproduce these documents, or allow others to do so, for U.S. Government purposes.\nThese documents may be freely distributed and used for non-commercial, scientific\nand educational purposes. Commercial use of the documents available from the EPA\nwebsites may be protected under the U.S. and Foreign Copyright Laws. Individual\ndocuments on the EPA website may have different copyright conditions, and that will\nbe noted in those documents.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "PPIS Download Product Information Data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Office of Pesticide Programs"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. EPA"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-28"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Pesticide products registration application"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestepOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Weekly"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The Pesticide Product Information System (PPIS) contains information concerning all pesticide products registered in the United States. It includes registrant name and address, chemical ingredients, signal word, product names, distributor brand names, site/pest uses, pesticidal type, formulation code, and registration status.\nThese Extensible Markup Language (XML) files are being made available to the public to enable interested parties to download all or any part of the pesticide product information, and develop customized queries and reports. Organizations often request that the Office of Pesticide Programs provide copies of these files in slightly different formats, requiring OPP staff to perform time consuming special retrievals. By presenting these files in a standard format, OPP is providing the same information in the same format to all interested parties."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Environment",
+                            "Exposure",
+                            "Toxin"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Basic Information about Pesticide Ingredients _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927772,
+                    "persistentId": "",
+                    "filename": "Basic Information about Pesticide Ingredients _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 69626,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f1c722-2970dd29e8cf",
+                    "rootDataFileId": -1,
+                    "md5": "ca6d41bbadd95e90e31aad0d72d428e5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ca6d41bbadd95e90e31aad0d72d428e5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "DistributorProducts.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927756,
+                    "persistentId": "",
+                    "filename": "DistributorProducts.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4832210,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f31e18-15f9550ca404",
+                    "rootDataFileId": -1,
+                    "md5": "d1d3b5da0e8a92fd22345cb3ff85ca57",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d1d3b5da0e8a92fd22345cb3ff85ca57"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "PPIS Information and Report Samples _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927769,
+                    "persistentId": "",
+                    "filename": "PPIS Information and Report Samples _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 64206,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f1d631-f97ad1bf9ec8",
+                    "rootDataFileId": -1,
+                    "md5": "5043bc04841a39a7428b05257bf90ec4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5043bc04841a39a7428b05257bf90ec4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Pesticide Product Information System (PPIS) _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927759,
+                    "persistentId": "",
+                    "filename": "Pesticide Product Information System (PPIS) _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 45264,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f288bd-76c562009c46",
+                    "rootDataFileId": -1,
+                    "md5": "874a54c35c1c4013d89043fb90a014de",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "874a54c35c1c4013d89043fb90a014de"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ProductPests.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927788,
+                    "persistentId": "",
+                    "filename": "ProductPests.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 5061048,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f32b6f-72fb1947df5d",
+                    "rootDataFileId": -1,
+                    "md5": "9add114031fdc8d5295d6153a4b8d2b8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9add114031fdc8d5295d6153a4b8d2b8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "24cProductSites.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927784,
+                    "persistentId": "",
+                    "filename": "24cProductSites.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 11920,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f42fee-bdf9f45c885c",
+                    "rootDataFileId": -1,
+                    "md5": "d220c90a1c5ac2657158fc17204d82f2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d220c90a1c5ac2657158fc17204d82f2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "24cProductTypes.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927763,
+                    "persistentId": "",
+                    "filename": "24cProductTypes.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 7784,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f4399d-ced050cea676",
+                    "rootDataFileId": -1,
+                    "md5": "83af57cc0519891a9e7cbb79c38b045a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "83af57cc0519891a9e7cbb79c38b045a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "SampleSection24cReportwithDataRelationships.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927777,
+                    "persistentId": "",
+                    "filename": "SampleSection24cReportwithDataRelationships.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 47387,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f2a3b2-342e2834ebf9",
+                    "rootDataFileId": -1,
+                    "md5": "2a781d8977a125ffffaa97cc92b778e7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2a781d8977a125ffffaa97cc92b778e7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ppis_data_standard-draft-26may2015.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927764,
+                    "persistentId": "",
+                    "filename": "ppis_data_standard-draft-26may2015.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 308772,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f29680-ca14c11f7570",
+                    "rootDataFileId": -1,
+                    "md5": "07b3a64fe970fb91ac2182632f4fb883",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "07b3a64fe970fb91ac2182632f4fb883"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Chemically-related Groups of Active Ingredients _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927785,
+                    "persistentId": "",
+                    "filename": "Chemically-related Groups of Active Ingredients _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 66410,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f1c8f8-32441e4f85a8",
+                    "rootDataFileId": -1,
+                    "md5": "45710672a2f7ac4396a0f062a74b4bdd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "45710672a2f7ac4396a0f062a74b4bdd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ProductTypes.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927779,
+                    "persistentId": "",
+                    "filename": "ProductTypes.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 673125,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f331c5-78fc8668010a",
+                    "rootDataFileId": -1,
+                    "md5": "86e40174a1d0ec51050220904ad787ed",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "86e40174a1d0ec51050220904ad787ed"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Chemically-related Groups of Active Ingredients _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927762,
+                    "persistentId": "",
+                    "filename": "Chemically-related Groups of Active Ingredients _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 61197,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f284bc-08b8c65e2cc4",
+                    "rootDataFileId": -1,
+                    "md5": "bf89ffee47060a39581b8a4f3b01b822",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf89ffee47060a39581b8a4f3b01b822"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "24cProductFormulation.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927794,
+                    "persistentId": "",
+                    "filename": "24cProductFormulation.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 11842,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f42adb-b76fa95cbd22",
+                    "rootDataFileId": -1,
+                    "md5": "32a4eda2d35db4321b029353470cc23a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "32a4eda2d35db4321b029353470cc23a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "RegistrantNameAddress.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927781,
+                    "persistentId": "",
+                    "filename": "RegistrantNameAddress.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1502700,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f343b2-09dd762f12b8",
+                    "rootDataFileId": -1,
+                    "md5": "868999dde38f792e7405a5617417a307",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "868999dde38f792e7405a5617417a307"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "RegistrantAgentNameAddress.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927758,
+                    "persistentId": "",
+                    "filename": "RegistrantAgentNameAddress.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 80494,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f339cb-2379223127d3",
+                    "rootDataFileId": -1,
+                    "md5": "448a3827249fc9f9559ee99721f5d931",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "448a3827249fc9f9559ee99721f5d931"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ppis-data-dictionary.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927765,
+                    "persistentId": "",
+                    "filename": "ppis-data-dictionary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 530910,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f29e23-2d25dc17c348",
+                    "rootDataFileId": -1,
+                    "md5": "9e844c0fb6edc45240c0ee2a23b8fc09",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9e844c0fb6edc45240c0ee2a23b8fc09"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ProductManagerVocabulary.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927778,
+                    "persistentId": "",
+                    "filename": "ProductManagerVocabulary.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 706,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f8b060-1748f25916f0",
+                    "rootDataFileId": -1,
+                    "md5": "8fa54dbd451aca33268ce4ae576b2179",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8fa54dbd451aca33268ce4ae576b2179"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "PPIS-SCHEMA-04-16-2015.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927782,
+                    "persistentId": "",
+                    "filename": "PPIS-SCHEMA-04-16-2015.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1012,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f3b223-a3d215565391",
+                    "rootDataFileId": -1,
+                    "md5": "616f1083b5fef275d6aa6aed8d91e2fb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "616f1083b5fef275d6aa6aed8d91e2fb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ProductTransfers.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927774,
+                    "persistentId": "",
+                    "filename": "ProductTransfers.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 122383,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f32fa9-2463e442c12b",
+                    "rootDataFileId": -1,
+                    "md5": "2b783fd123883e1d3c0c92d57fff37ed",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2b783fd123883e1d3c0c92d57fff37ed"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ProductFormulation.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927760,
+                    "persistentId": "",
+                    "filename": "ProductFormulation.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 777710,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f32147-e4197c3adb9b",
+                    "rootDataFileId": -1,
+                    "md5": "7ecf917898fac57d3c23f3a8d4dd0110",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7ecf917898fac57d3c23f3a8d4dd0110"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "PPIS-XML(ActiveandCancelled).zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927786,
+                    "persistentId": "",
+                    "filename": "PPIS-XML(ActiveandCancelled).zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 44571213,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f3b58e-c4788935ac1f",
+                    "rootDataFileId": -1,
+                    "md5": "50106ffbe345fb8267fccbfb4deeeee0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "50106ffbe345fb8267fccbfb4deeeee0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "24cBasicRegistrationInformation.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927789,
+                    "persistentId": "",
+                    "filename": "24cBasicRegistrationInformation.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 30150,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f4274d-8b23867ba010",
+                    "rootDataFileId": -1,
+                    "md5": "4b78b66ccf262359ee6059af46ca66f6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4b78b66ccf262359ee6059af46ca66f6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ChemicalAbstractServiceCrosswalk.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927776,
+                    "persistentId": "",
+                    "filename": "ChemicalAbstractServiceCrosswalk.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 30302,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f8a5cb-cf606e67aa8c",
+                    "rootDataFileId": -1,
+                    "md5": "73f99a15a666d7e5f0d356f8d054a672",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "73f99a15a666d7e5f0d356f8d054a672"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "PestCodeVocabulary.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927773,
+                    "persistentId": "",
+                    "filename": "PestCodeVocabulary.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 88211,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f8c41f-498454fa338e",
+                    "rootDataFileId": -1,
+                    "md5": "9f595b21450b3e784a0156eab242f16b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9f595b21450b3e784a0156eab242f16b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "PPIS Information and Report Samples _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927775,
+                    "persistentId": "",
+                    "filename": "PPIS Information and Report Samples _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 56291,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f2909c-cf4cc31afeab",
+                    "rootDataFileId": -1,
+                    "md5": "0030c6d91bdf35632064e3aa3d5760f7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0030c6d91bdf35632064e3aa3d5760f7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ProductSites.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927767,
+                    "persistentId": "",
+                    "filename": "ProductSites.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6048881,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f33775-55e776c0cdfb",
+                    "rootDataFileId": -1,
+                    "md5": "dfaf3349155bfebf7b778e7d7a6df86e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dfaf3349155bfebf7b778e7d7a6df86e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "SampleSection3ReportwithDataRelationships.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927755,
+                    "persistentId": "",
+                    "filename": "SampleSection3ReportwithDataRelationships.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 53877,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f2a1b9-2231128ca648",
+                    "rootDataFileId": -1,
+                    "md5": "2706558aeb26319bdc9ebac00690681e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2706558aeb26319bdc9ebac00690681e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CancelTransferCodeVocabulary.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927790,
+                    "persistentId": "",
+                    "filename": "CancelTransferCodeVocabulary.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 869,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f8a219-9118c1ff6a2a",
+                    "rootDataFileId": -1,
+                    "md5": "6d759d6175567c76aa31c4528b5d8d67",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6d759d6175567c76aa31c4528b5d8d67"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ProductTypeCodeVocabulary.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927766,
+                    "persistentId": "",
+                    "filename": "ProductTypeCodeVocabulary.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 752,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f8b9c0-ec92097cff28",
+                    "rootDataFileId": -1,
+                    "md5": "dfcce35a966e634eb278391a1365831e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dfcce35a966e634eb278391a1365831e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "SiteCodeVocabulary.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927787,
+                    "persistentId": "",
+                    "filename": "SiteCodeVocabulary.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 224843,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f8bc4a-cabd59f91b4d",
+                    "rootDataFileId": -1,
+                    "md5": "1f5e4a903abb569e1cb66fdb22692202",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1f5e4a903abb569e1cb66fdb22692202"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Pesticide Product Information System (PPIS) _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927783,
+                    "persistentId": "",
+                    "filename": "Pesticide Product Information System (PPIS) _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 64207,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f1ca8f-92523d7c8d92",
+                    "rootDataFileId": -1,
+                    "md5": "eac6b08cc8dfa778dc5b3af7e0f257b0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eac6b08cc8dfa778dc5b3af7e0f257b0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Basic Information about Pesticide Ingredients _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927752,
+                    "persistentId": "",
+                    "filename": "Basic Information about Pesticide Ingredients _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 81153,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f2822d-43b49b8bd7c3",
+                    "rootDataFileId": -1,
+                    "md5": "885eb9f4ab11584998345782b077f7b9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "885eb9f4ab11584998345782b077f7b9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "24cProductPests.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927757,
+                    "persistentId": "",
+                    "filename": "24cProductPests.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 14675,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f42d6c-8ac2f200764b",
+                    "rootDataFileId": -1,
+                    "md5": "660a19d46e8843feb00b165d8a058429",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "660a19d46e8843feb00b165d8a058429"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ChemicalVocabulary.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927754,
+                    "persistentId": "",
+                    "filename": "ChemicalVocabulary.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 392780,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f8c190-cedfa4d37a63",
+                    "rootDataFileId": -1,
+                    "md5": "b780c21be7ae8bcd859723e32a2e6954",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b780c21be7ae8bcd859723e32a2e6954"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "PPIS Download Product Information Data _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927791,
+                    "persistentId": "",
+                    "filename": "PPIS Download Product Information Data _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 69434,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f1cc26-6138d3014322",
+                    "rootDataFileId": -1,
+                    "md5": "2e10e341b1e90d771e50cfad7dc2f101",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2e10e341b1e90d771e50cfad7dc2f101"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "BasicRegistrationInformation.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927771,
+                    "persistentId": "",
+                    "filename": "BasicRegistrationInformation.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1931106,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f31be3-3fded840ddfb",
+                    "rootDataFileId": -1,
+                    "md5": "5a330dca425214c109376ed23d34f34e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5a330dca425214c109376ed23d34f34e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "What are Biopesticides_ _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927792,
+                    "persistentId": "",
+                    "filename": "What are Biopesticides_ _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 66935,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f1d809-07ee4f9610f7",
+                    "rootDataFileId": -1,
+                    "md5": "a385c18f7a1dfae3effd6346a558033d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a385c18f7a1dfae3effd6346a558033d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "PPIS Download Product Information Data _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927770,
+                    "persistentId": "",
+                    "filename": "PPIS Download Product Information Data _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 94146,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f28ea4-efe86c695424",
+                    "rootDataFileId": -1,
+                    "md5": "e839a7b916091925998d4331a945dea2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e839a7b916091925998d4331a945dea2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "EPA PPIS Contact Us about Ingredients Used in Pesticide Products _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927768,
+                    "persistentId": "",
+                    "filename": "EPA PPIS Contact Us about Ingredients Used in Pesticide Products _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 65384,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f286c3-e98af7f62d7d",
+                    "rootDataFileId": -1,
+                    "md5": "221b46d0e6696c0f88f636eef483e96f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "221b46d0e6696c0f88f636eef483e96f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Reporting Errors in Pesticide Data Systems _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927761,
+                    "persistentId": "",
+                    "filename": "Reporting Errors in Pesticide Data Systems _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 62338,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f1d4a5-0b43d6d3f5a1",
+                    "rootDataFileId": -1,
+                    "md5": "308f2382e5f290fe92af51d4ffddecdc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "308f2382e5f290fe92af51d4ffddecdc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AlternateProductNames.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927780,
+                    "persistentId": "",
+                    "filename": "AlternateProductNames.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1766957,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f31909-4c8cb98f29ca",
+                    "rootDataFileId": -1,
+                    "md5": "6d93145a93f83a4a9916ec47229500af",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6d93145a93f83a4a9916ec47229500af"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Reporting Errors in Pesticide Data Systems _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927793,
+                    "persistentId": "",
+                    "filename": "Reporting Errors in Pesticide Data Systems _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 41912,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f29c37-71c49649a615",
+                    "rootDataFileId": -1,
+                    "md5": "78dc0a18755651747a99490771c783ce",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "78dc0a18755651747a99490771c783ce"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ProductFormCodeVocabulary.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10927753,
+                    "persistentId": "",
+                    "filename": "ProductFormCodeVocabulary.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 507,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19555f8adcd-69db5b8b7a3a",
+                    "rootDataFileId": -1,
+                    "md5": "958cdf4b268fc371c60ca182275c5b72",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "958cdf4b268fc371c60ca182275c5b72"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-02",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "EPA Disclaimers _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 438417,
+                "dataFile": {
+                    "id": 10960118,
+                    "persistentId": "",
+                    "filename": "EPA Disclaimers _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 97989,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19572512deb-ee29f6a9e65f",
+                    "rootDataFileId": -1,
+                    "md5": "de90bdd8ae95f85060b264b7e8ad6c70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de90bdd8ae95f85060b264b7e8ad6c70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-07",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,289 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444098,
+        "datasetId": 10877833,
+        "datasetPersistentId": "doi:10.17603/DS2-YWN5-6S29",
+        "storageIdentifier": "s3://10.17603/ds2-ywn5-6s29",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:47:12Z",
+        "releaseTime": "2025-05-05T12:13:49Z",
+        "createTime": "2025-05-06T23:47:12Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Survey Instrument: Extreme Heat Weather Information Ecosystem and Heat-Health during Pregnancy in Weather Information Ecosystem and Heat-Health during Pregnancy"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4558"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zottarelli, Lisa"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Stassen, Robyn"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Khan, Shamshad"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "HEO, YEJIN"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sunil, Thankam"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Shields, Andrea"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This project advances understanding of the interaction between human behavior and meteorological information to support the strategic and effective response of pregnant individuals and their communities to health risks from increasing high temperatures and extreme heat events. The objective is to examine the weather information ecosystem (i.e., weather information needs, creation, and distribution) and heat-health knowledge, attitudes, and behaviors among pregnant people. The instruments from this project can be reused and/or modified to study extreme heat and other weather-related phenomena weather information ecosystems and people's knowledge, attitudes, and beliefs about hot weather and extreme heat events. The instruments are available in English and Spanish. The dataset and accompling technical documentation will be available in Fall 2024 for secondary data analysis. This project was funded by the U. S. National Oceanic and Atmospheric Administration (Grant #A24-0285-001)."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This document contains a survey instrument developed using the Dimensions of Information Ecosystem Model (United Nations High Commissioner for Refugees, 2017) and the Health Belief Model (Abraham & Sheeran, 2015) for the purpose of understanding the protective actions during extreme heat events among pregnant people. The instrument consists of 57 close-ended questions divided into three question blocks. The first block focuses on the weather information ecosystem and includes questions about how, when, and where weather information is obtained, trust in weather information sources, and planned actions during extreme heat events and other types of hazardous weather conditions. The second question block consists of questions designed to operationalize the Health Belief Model. These include questions about perceived seriousness and susceptibility to heat-related illness while pregnant, knowledge about heat-health, benefits and barriers to prevent heat-related illness, self-efficacy in taking actions to protect oneself during extreme heat, and cues to engaging in protective health actions. The final question block contains demographic and socioeconomic questions such as age, race, ethnicity, gestational age, number of children, language spoken at home, housing security, income, and air condition access and usage. The self-administered survey instrument is available in English and Spanish, and was originally used in San Antonio, Texas, in spring and summer 2024. Participants were recruited from health facilities, social services agencies, and businesses that serve pregnant patients and clients. We expect these documents to be useful to people interested in conducting surveys on weather information ecosystems, heat-health knowledge and attitudes, and pregnancy and heat-health.  References:  Abraham., C., & Sheeran, P. (2015). The Health Belief Model. In M. Conner & P. Normal (eds.). Predicting and Changing Health Behavior: Research and Practice with Social Cognition Models, 3rd Edition. Open University Press.   United Nations High Commissioner for Refugees. (2017). Mapping Information Ecosystem to Support Resilience. https://www.unhcr.org/innovation/wp-content/uploads/2017/10/Internews_Mapping_Information_Ecosystems_2015.pdf"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "extreme heat; heat-health"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "heat preparedness"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "dimensions of information ecosystem"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "health belief model"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "survey"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "pregnant"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "pregnancy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Tennessee Knoxville (utk.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Connecticut School of Medicine"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Texas at San Antonio"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Tennessee, Knoxville"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

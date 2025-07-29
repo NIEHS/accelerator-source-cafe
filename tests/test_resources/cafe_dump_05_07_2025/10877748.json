@@ -1,0 +1,217 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444008,
+        "datasetId": 10877748,
+        "datasetPersistentId": "doi:10.17603/DS2-HKCV-XP72",
+        "storageIdentifier": "s3://10.17603/ds2-hkcv-xp72",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2021",
+        "lastUpdateTime": "2025-05-06T23:24:51Z",
+        "releaseTime": "2025-05-05T12:13:34Z",
+        "createTime": "2025-05-06T23:24:51Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Data Report on Local Perceptions on Building Safety and Building Performance after the 2019 EF4 Linwood Tornado in Local Perceptions on Building Safety and Building Performance after the 2019 EF4 Linwood, Kansas Tornado"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3298"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mazumder, Ram Krishna"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sutley, Elaina"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dumler, Meredith"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This report describes the data collection process, data cleaning process, and summary statistics for two survey efforts addressing local perceptions on building safety and expectations of building performance during tornadoes."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kansas has the second-highest frequency of reported tornadoes in the U.S., yet, most counties and many local jurisdictions lack modern building codes with basic lateral force system requirements, thereby minimum levels of protection against tornadic winds. On May 28, 2019, an EF4 tornado struck north-eastern Kansas; the 32-mile long path destroyed approximately 40 building structures and damaged nearly 200 building structures. A post-tornado investigation by the researchers revealed a lack of continuous load path, and in some cases, lacking even basic structural elements, such as anchor bolts or mechanically fastened walls to foundations. These statistics and observations led the research team to question what were local perceptions on building safety and expectations of building performance during tornadoes, what would happen if a tornado were to hit closer to the University of Kansas (KU) campus, and what types of better designs are known of or offered by local contractors. This research project includes two survey efforts addressing research questions on local perceptions on building safety and expectations of building performance during tornadoes. The first survey effort documented local contractors\u2019 perceptions of tornado-resistant residential building design. The first survey effort utilized a convenience sample of local contractors attending a continuing education course on how to provide a continuous load path. The survey was administered in person; no personally identified information was collected. The convenience sample size was 45 and resulted in a response rate of approximately 60%. The second survey effort was initiated as part of a senior capstone project. The capstone project assessed the risk perception and sheltering decision of the KU campus community after the EF4 Linwood tornado. It was administered online using email listservs for KU\u2019s Schools and Colleges for recruitment, inviting participants to complete a short Qualtrics survey. The response rate was low, with only 228 responses. This publication contains the Institutional Review Board Protocols, two Survey Instruments, which included in-person, and virtual surveying modes and questions on tornado risk perception, and, as well as the data for the contractor survey and the capstone project."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Contractors"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tornado"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Risk Perception"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "KU Community"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2021"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Kansas (KU)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

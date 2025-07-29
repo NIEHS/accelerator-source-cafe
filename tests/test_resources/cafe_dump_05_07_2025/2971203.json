@@ -1,0 +1,201 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 97236,
+        "datasetId": 2971203,
+        "datasetPersistentId": "doi:10.7910/DVN/GH9I2I",
+        "storageIdentifier": "s3://10.7910/DVN/GH9I2I",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2017-01-18T22:04:03Z",
+        "releaseTime": "2017-01-18T22:04:03Z",
+        "createTime": "2017-01-18T21:57:11Z",
+        "publicationDate": "2017-01-18",
+        "citationDate": "2017-01-18",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "China AQI PM25s Cumulative Hourly Data (2016-08-25 to 2016-12-31)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Lex"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CGA, Harvard Univ"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Lex"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CGA, Harvard Univ"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mberman@fas.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The hourly updates of ground monitoring observations in China are collected and stored in .csv files (one for each hour). NOTE: the pm25s data does NOT report locations for the reporting stations in x, y coordinates."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2017-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "air pollution data"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Berman, Lex"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-01-18"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "pm25s_20160825_to_20161231_BATCH_2.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97236,
+                "dataFile": {
+                    "id": 2971205,
+                    "persistentId": "doi:10.7910/DVN/GH9I2I/BWQUFO",
+                    "pidURL": "https://doi.org/10.7910/DVN/GH9I2I/BWQUFO",
+                    "filename": "pm25s_20160825_to_20161231_BATCH_2.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 66996256,
+                    "storageIdentifier": "s3://dvn-cloud:159b394d0b7-89a4ea8ffd79",
+                    "rootDataFileId": -1,
+                    "md5": "fc24a334a6ad227dced14b4f3f5afd07",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fc24a334a6ad227dced14b4f3f5afd07"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CHINA_PM25s_README.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97236,
+                "dataFile": {
+                    "id": 2971204,
+                    "persistentId": "doi:10.7910/DVN/GH9I2I/WZZBL9",
+                    "pidURL": "https://doi.org/10.7910/DVN/GH9I2I/WZZBL9",
+                    "filename": "CHINA_PM25s_README.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 2105,
+                    "storageIdentifier": "s3://dvn-cloud:159b394db89-adc784961b65",
+                    "rootDataFileId": -1,
+                    "md5": "ff8f93badeff051b93757e2a97eaea69",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ff8f93badeff051b93757e2a97eaea69"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-18",
+                    "publicationDate": "2017-01-18",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

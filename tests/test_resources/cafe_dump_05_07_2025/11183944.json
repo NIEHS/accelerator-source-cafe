@@ -1,0 +1,233 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443952,
+        "datasetId": 11183944,
+        "datasetPersistentId": "doi:10.17603/DS2-YXM7-2P26",
+        "storageIdentifier": "s3://10.17603/ds2-yxm7-2p26",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2025",
+        "lastUpdateTime": "2025-05-06T23:14:48Z",
+        "releaseTime": "2025-05-05T12:13:54Z",
+        "createTime": "2025-05-06T23:14:48Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Microtremor Data Collection in the San Fernando Valley Basin, 2024 in Microtremor Measurements Performed in Proximity to Strong Motion Stations Across California"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4844"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ornelas, Francisco-Javier"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Stapleton, John"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Buckreis, Tristan"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nweke, Chukwuebuka"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Stewart, Jonathan"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The San Fernando Valley Basin (SFVB) is a notable sedimentary basin located in southern California, within the greater Los Angeles region. Situated between the Santa Monica Mountains to the south and the San Gabriel Mountains to the north, the SFVB is part of the Transverse Ranges geologic province. This basin is characterized by relatively flat topography, with an elevation that ranges from sea level to approximately 1,500 feet. The SFVB is seismically active due to its proximity to the San Andreas Fault system and the presence of the Sierra Madre and Santa Susana Faults. As part of ongoing research efforts, 12 microtremor measurements have been conducted throughout the region. These measurements will add to the Shear Wave Velocity Profile Database (VSPDB)."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This project contains microtremor-based horizontal-to-vertical spectral ratio (mHVSR) data, collected from a series of field surveys conducted at various strong motion stations. The measurements were acquired using 3-component broadband seismometers, with recording durations typically ranging from 30 minutes to 1 hour. mHVSR is a well-established technique for identifying resonant features at sites with substantial impedance contrasts, where the lowest frequency peak in the mHVSR spectrum is often associated with the site\u2019s fundamental frequency. This fundamental frequency is crucial for understanding site-specific seismic behavior and is particularly valuable for seismic hazard assessment and ground motion modeling. The datasets include not only the raw data collected during each survey but also processed outputs such as mean spectral curves, polar curves, Fourier Amplitude Spectra (FAS), and other relevant processing results. These processed data are intended to support further analysis and interpretation, particularly for applications related to site response studies and the characterization of local site conditions. The overall goals of our HVSR research are to develop a publicly accessible database of HVSR data for use in research, to develop effective protocols for analysis and interpretation of HVSR data, and to develop methods for predicting site response conditioned on HVSR data. The database has been established and is available in the United States Community Shear-Wave Velocity (VS) Profile Database (PDB) (https://www.vspdb.org/); the work presented in this doi is contributing to that database. The research presented here was supported by a research gift from the Pacific Gas and Electric (PG&E) Company and University of Southern California. This support is gratefully acknowledged."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "HVSR"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Microtremors"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Seismometers"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Southern California (usc.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of California Los Angeles (ucla.edu)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

@@ -1,0 +1,516 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 436102,
+        "datasetId": 10864719,
+        "datasetPersistentId": "doi:10.7910/DVN/9AWI8L",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/9AWI8L",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-19T20:31:57Z",
+        "releaseTime": "2025-02-19T20:31:57Z",
+        "createTime": "2025-02-04T07:26:20Z",
+        "publicationDate": "2025-02-19",
+        "citationDate": "2025-02-19",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: NOAA State Climate Summaries 2022"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "North Carolina Institute for Climate Studies (NCICS)"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "North Carolina State University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Oceanic and Atmospheric Administration (NOAA)"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Department of Commerce"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information: https://statesummaries.ncics.org/technicaldetails/ \n<br /><br />\nIf you have questions about the underlying data stored here, please contact NOAA's Technical Support at info-state-summaries@ncics.org. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br />\n\"The State Climate Summaries provided here were initially produced to meet the demand for state-level climate information in the wake of the Third U.S. National Climate Assessment. This 2022 version provides new information and extends the historical climate record to 2020 for each state. The summaries cover assessment topics directly related to NOAA\u2019s mission, specifically historical climate variations and trends, future climate model projections of climate conditions during the 21st century, and past and future conditions of sea level and coastal flooding.\" Quote from https://statesummaries.ncics.org/#about"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-04"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Extreme Weather Events"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Scenario"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementedBy"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NCICS. (n.d.). NOAA National Centers for Environmental Information State Climate Summaries 2022 Technical Details and Additional Information. https://statesummaries.ncics.org/technicaldetails/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\n\u201cNOAA State Climate Summaries\u201d data was downloaded by\nJonathan Gilmour on 2025-02-04"
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jonathan Gilmour"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gilmour, Jonathan"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-04"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1990-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2020-01-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "dataSources",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Global Historical Climatological Network-Daily, daily climate records (https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)",
+                            "nClimDiv, Climate Divisional Dataset, several weather indices for 344 climate divisions\n(https://www.ncei.noaa.gov/access/monitoring/reference-maps/conus-climate-divisions)"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The terms and conditions were not captured from the source dataset, which was publicly available to download. If you have additional information about terms of use, please contact us."
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NCICS"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://statesummaries.ncics.org/"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2022-01-01"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-04"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Kunkel, K.E., R. Frankson, J. Runkle, S.M. Champion, L.E. Stevens, D.R. Easterling, B.C. Stewart, A. McCarrick, and C.R. Lemery (Eds.), 2022: State Climate Summaries for the United States 2022. NOAA Technical Report NESDIS 150. NOAA/NESDIS, Silver Spring, MD."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Climate",
+                            "Climate Change",
+                            "Climate Scenario",
+                            "Extreme Weather Events"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Screenshot 2025-02-04 at 02-16-29 State Climate Summaries 2022.png",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436102,
+                "dataFile": {
+                    "id": 10865973,
+                    "persistentId": "",
+                    "filename": "Screenshot 2025-02-04 at 02-16-29 State Climate Summaries 2022.png",
+                    "contentType": "image/png",
+                    "friendlyType": "PNG Image",
+                    "filesize": 10222681,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d1bb9648-b0cd732f8618",
+                    "rootDataFileId": -1,
+                    "md5": "d527464504e6f60fae887dc3b12cdbb8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d527464504e6f60fae887dc3b12cdbb8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "State Climate Summaries 2022.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436102,
+                "dataFile": {
+                    "id": 10865974,
+                    "persistentId": "",
+                    "filename": "State Climate Summaries 2022.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 85087,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d1bb97c5-e12045163ec6",
+                    "rootDataFileId": -1,
+                    "md5": "1bd879e9e604a68ea5d56688fdb187ab",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1bd879e9e604a68ea5d56688fdb187ab"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "StateClimateSummaries2022.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436102,
+                "dataFile": {
+                    "id": 10865972,
+                    "persistentId": "",
+                    "filename": "StateClimateSummaries2022.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 103044034,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d1bb98fc-ef4f7f885ad8",
+                    "rootDataFileId": -1,
+                    "md5": "815b2b951ce43a6efbd927bc93964037",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "815b2b951ce43a6efbd927bc93964037"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AllStates_figures.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436102,
+                "dataFile": {
+                    "id": 10866043,
+                    "persistentId": "",
+                    "filename": "AllStates_figures.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 343875751,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d1d18e95-30c7c540bbb7",
+                    "rootDataFileId": -1,
+                    "md5": "1471a31bad94fbff8b7fcb32d16a0dc5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1471a31bad94fbff8b7fcb32d16a0dc5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "State Climate Summaries 2022.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436102,
+                "dataFile": {
+                    "id": 10866045,
+                    "persistentId": "",
+                    "filename": "State Climate Summaries 2022.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 232689,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d1d9b421-5d9b3eb43496",
+                    "rootDataFileId": -1,
+                    "md5": "2e0d577870b11bcc12f75af0d884d115",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2e0d577870b11bcc12f75af0d884d115"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

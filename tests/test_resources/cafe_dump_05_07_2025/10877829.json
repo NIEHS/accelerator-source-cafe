@@ -1,0 +1,313 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 444094,
+        "datasetId": 10877829,
+        "datasetPersistentId": "doi:10.17603/DS2-6WZ9-ZD32",
+        "storageIdentifier": "s3://10.17603/ds2-6wz9-zd32",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:46:09Z",
+        "releaseTime": "2025-05-05T12:14:23Z",
+        "createTime": "2025-05-06T23:46:09Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Interviews with National Weather Service (NWS) Forecasters related to coastal fog and new artificial intelligence/machine learning (AI/ML) guidance: Interview materials for \u201cNo AI/ML\u201d version in Interviews with National Weather Service (NWS) Forecasters related to coastal fog and new artificial intelligence/machine learning (AI/ML) guidance"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-4552"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wirz, Christopher"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Demuth, Julie"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Cains, Mariana"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "White, Miranda"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bostrom, Ann"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kamangir, Hamid"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Krell, Evan"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tissot, Philippe"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "King, Scott"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Collins, Waylon"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Williams, John"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Radford, Jacob"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "These PDFs are the interview materials used for the \u201cNo AI/ML\u201d version of the interviews. The protocol includes all questions asked, as well as notes for interviewers to guide the interview process. The information board is a copy of the interactive slide deck used for the interviews. Detailed instructions on how the information board was used can be found in the slide deck. The only differences between this version and the \u201cAI/ML\u201d version is that this protocol does not mention AI/ML in the beginning of the interview, has the AI/ML related questions at the end of the interview, and the information board mentions \u201cnew guidance\u201d rather than saying \u201cAI/ML.\u201d"
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This project developed an interview guide and materials for conducting interviews with expert users to better understand how they assess and make use decisions about new AI/ML guidance. Forecasting and providing decision-support for coastal fog are challenging, in part because there are limited guidance options for predicting fog events that can have costly impacts for industries like shipping and aviation. At the same time, artificial intelligence (AI) is gaining momentum from researchers and developers as a tool for developing new guidance. For this study, we leveraged these advances to explore how National Weather Service (NWS) Forecasters perceive the use of new AI guidance for forecasting coastal fog. We also specifically examine which guidance features are important for how forecasters assess the trustworthiness of new AI guidance. To this aim, we conducted virtual, structured interviews with NWS forecasters from across the Eastern, Southern, Western, and Alaskan Regions. The interviews covered the forecasters\u2019 approaches and challenges for forecasting coastal fog, perceptions of AI and its use in forecasting, and reactions to a prototype of new AI coastal fog guidance. During the interview, the forecasters went through a self-guided review of different sets of information about the development (spin-up information, AI technique, developers of the guidance, training, and inputs) and performance (explainable AI analyses, verification, a case study, and a comparison of the new product to existing guidance) of a prototype for new non-operational coastal fog AI guidance (Kamangir et al., 2021). The forecasters then assessed how the information influenced their perception of how trustworthy the guidance was and whether or not they would consider using it for forecasting.   This project includes the interview protocols and accompanying information boards used for the interviews. As described below, there is one set of interview materials in which AI/ML are mentioned throughout and another set where AI/ML were only mentioned at the end of the interviews. We did this to better understand how the label \u201cAI/ML\u201d did or did not affect how interviewees responded to questions and reviewed the information board. We also leverage think aloud methods with the information board, the instructions for which are included in the interview protocols."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Interviews; coastal fog; AI/ML; trust; trustworthiness; experts"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NWS"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M University Corpus Christi (tamucc.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The Weather Company"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University Corp. for Atmospheric Research (ucar.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington (washington.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CIRA"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M-Corpus Christi"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

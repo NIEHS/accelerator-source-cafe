@@ -1,0 +1,225 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 239161,
+        "datasetId": 4571387,
+        "datasetPersistentId": "doi:10.7910/DVN/YC3QUK",
+        "storageIdentifier": "s3://10.7910/DVN/YC3QUK",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2022-03-04T23:50:06Z",
+        "releaseTime": "2022-03-04T23:50:06Z",
+        "createTime": "2021-04-20T16:48:59Z",
+        "publicationDate": "2022-03-04",
+        "citationDate": "2022-03-04",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "NEMSIS Ground Transport"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Medrano, Nicolas"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Coalition for National Trauma Research"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-2204-9609"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Medrano, Nicolas"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Coalition for National Trauma Research"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "nick@nattrauma.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This dataset originates from the National EMS Information System (NEMSIS) database. This dataset has selected trauma events where ground transport was utilized and includes time and rurality elements."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2021-07-22"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Medrano, Nicolas"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2021-04-20"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "NEMSIS_SceneTimes.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 239161,
+                "dataFile": {
+                    "id": 6063944,
+                    "persistentId": "",
+                    "filename": "NEMSIS_SceneTimes.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 51187933,
+                    "storageIdentifier": "s3://dvn-cloud:17f5741be08-c442890d35cc",
+                    "rootDataFileId": -1,
+                    "md5": "9d5341026b0c20e9031c04ae2a6f3058",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9d5341026b0c20e9031c04ae2a6f3058"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-03-04",
+                    "publicationDate": "2022-03-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "NEMSIS Dispatch times for years 2016-2018",
+                "label": "NEMSIS_ Dispatch_2016_2018.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 239161,
+                "dataFile": {
+                    "id": 6063945,
+                    "persistentId": "",
+                    "filename": "NEMSIS_ Dispatch_2016_2018.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 137324045,
+                    "description": "NEMSIS Dispatch times for years 2016-2018",
+                    "storageIdentifier": "s3://dvn-cloud:17f574a4753-9f03eba7a0c6",
+                    "rootDataFileId": -1,
+                    "md5": "3866f70011ded479d35737a5383bb5d9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3866f70011ded479d35737a5383bb5d9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-03-04",
+                    "publicationDate": "2022-03-04",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "NEMSIS Dispatch times for 2019",
+                "label": "NEMSIS Dispatch 2019.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 239161,
+                "dataFile": {
+                    "id": 6063946,
+                    "persistentId": "",
+                    "filename": "NEMSIS Dispatch 2019.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 95812555,
+                    "description": "NEMSIS Dispatch times for 2019",
+                    "storageIdentifier": "s3://dvn-cloud:17f57563459-046882f9bd18",
+                    "rootDataFileId": -1,
+                    "md5": "de1a7ac3035ca4db15066e50f54eb3d5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de1a7ac3035ca4db15066e50f54eb3d5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2022-03-04",
+                    "publicationDate": "2022-03-04",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

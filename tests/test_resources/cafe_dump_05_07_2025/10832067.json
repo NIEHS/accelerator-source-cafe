@@ -1,0 +1,3372 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 434784,
+        "datasetId": 10832067,
+        "datasetPersistentId": "doi:10.7910/DVN/YCR6GB",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/YCR6GB",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-02-19T21:45:54Z",
+        "releaseTime": "2025-02-19T21:45:54Z",
+        "createTime": "2025-01-17T21:20:29Z",
+        "publicationDate": "2025-02-19",
+        "citationDate": "2025-02-19",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Emissions & Generation Resource Integrated Database (eGRID)"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "US Environmental Protection Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information\n\n<br /><br />\nIf you have questions about the underlying data stored here, please contact the Environmental Protection Agency using the eGRID web form (https://www.epa.gov/egrid/forms/contact-us-about-egrid) or by email (johnson.travis@epa.gov). If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu\n\n<br /><br />\n\"The Emissions & Generation Resource Integrated Database (eGRID) is a comprehensive inventory of environmental attributes of electric power systems. The preeminent source of air emission data for the electric power sector, eGRID is based on available plant-specific data for all U.S. electricity generating plants that provide power to the electric grid and report data to the U.S. government. eGRID uses data from the Energy Information Administration (EIA) Forms EIA-860 and EIA-923 and EPA\u2019s Clean Air Power Sector Program Data. Emission data from EPA are carefully integrated with generation data from EIA to produce useful values like pounds of emissions per megawatt-hour of electricity generation (lb/MWh), which allows direct comparison of the environmental attributes of electricity generation. eGRID also provides aggregated data by state, U.S. total, and by three different sets of electric grid boundaries (i.e., balancing authority area, North American Electric Reliability Corporation (NERC) region, and eGRID subregion).\" [Quote from https://www.epa.gov/egrid/frequent-questions-about-egrid#egrid1]\n<br /><br />"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-01-17"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Renewable Energy"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fossil Fuels"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Greenhouse Gases"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "eGRID data is produced by the United States Environmental Protection Agency (EPA) under the public domain and is available for use both non-commercially and commercially. The following citations for eGRID Data are suggested:\n\nAPA: United States Environmental Protection Agency (EPA). (2025). Emissions & Generation Resource Integrated Database (eGRID), 2023. Washington DC: Office of Atmospheric Protection, Clean Air and Power Division. https://www.epa.gov/egrid.\n\nMLA: United States Environmental Protection Agency (EPA). \u201cEmissions & Generation Resource Integrated Database (eGRID), 2023.\u201d Office of Atmospheric Protection, Clean Air and Power Division, 2025, Washington DC. https://www.epa.gov/egrid.\n\nChicago: United States Environmental Protection Agency (EPA). Emissions & Generation Resource Integrated Database (eGRID), 2023. Washington DC: Office of Atmospheric Protection, Clean Air and Power Division, 2025. https://www.epa.gov/egrid."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Information from EPA on who uses eGRID:\n\"eGRID is valuable to those in the Federal Government, state and local governments, non-governmental organizations, companies, and academia. It is also useful to individuals seeking environmental information about the electric power sector in the United States. eGRID is most often used to estimate indirect emissions from electricity purchases, in GHG inventories, for carbon footprinting of electricity purchases, and for estimating avoided emissions from programs and projects that reduce consumption of grid-supplied electricity. eGRID data are cited by many emission inventory and registry protocols, various emission calculation tools and applications, hundreds of academic papers, and consultants; it is used for many research applications and efforts.\n\nWithin EPA, eGRID data are used by the following applications and programs: Power Profiler, Center for Corporate Climate Leadership, Portfolio Manager, the Household Greenhouse Gas Emissions Calculator, the Greenhouse Gas Equivalencies Calculator, Green Power Equivalency Calculator, Power Plants and Neighboring Communities, Green Vehicle Comparison: Your Car vs. an Electronic Vehicle, and the Waste Reduction Model (WARM).\" [Quote from: https://www.epa.gov/egrid/frequent-questions-about-egrid#egrid1]"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Black-Ingersoll, Flannery"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-17"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1996-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The below was extracted directly from the EPA Disclaimers page (https://www.epa.gov/web-policies-and-procedures/epa-disclaimers): \"Disclaimer of Endorsement Mention of or referral to commercial products or services, and/or links to non-EPA sites does not imply official EPA endorsement of or responsibility for the opinions, ideas, data, or products presented at those locations, or guarantee the validity of the information provided. Mention of commercial products/services on non-EPA websites is provided solely as a pointer to information on topics related to environmental protection that may be useful to EPA staff and the public. Copyright Status The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes. Commercial use of the documents available from the EPA websites may be protected under the U.S. and Foreign Copyright Laws. Individual documents on the EPA website may have different copyright conditions, and that will be noted in those documents. Disclaimer of Liability With respect to documents available from the EPA website, neither the United States Government nor any of their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Exit Disclaimer The Exit icon denotes that you are leaving the EPA website and entering an external link or a third-party site. EPA's official web site is www.epa.gov. EPA has provided this link because it provides additional information that may be useful or interesting and is being provided in a manner consistent with the intended purpose of the EPA website. Please note that EPA uses third-party sites to provide EPA content already on www.epa.gov in a different format. EPA cannot attest to the accuracy of non-EPA information provided by these third-party sites or any other linked site. EPA is providing these links for your reference. In doing so, EPA does not endorse any non-government websites, companies or applications. Also, please be aware that the privacy protection provided on the EPA.gov domain (EPA Privacy and Security Notice) does not apply to these third-party sites. To learn more about EPA and social media, please refer to& our social media page. Notice Information from the EPA website resides on numerous computer systems funded by the Agency. The use of the EPA websites may be monitored for computer security purposes. Any unauthorized access to the EPA website is prohibited and is subject to criminal and civil penalties under federal laws including, but not limited to, Public Law 99-474, the Computer Fraud and Abuse Act of 1986. Terms of Use for Geospatial Data These geospatial data and corresponding cartographic materials have been approved for use by the U.S. Environmental Protection Agency (EPA) as advised by the EPA Geospatial Advisory Committee (EGAC). This approved release is on the condition that neither the EPA nor the U.S. Government may be held liable for any damages resulting from its authorized or unauthorized use. These data and any corresponding products, services, or materials do not necessarily represent the EPA\u2019s official position or viewpoint, expressed or implied. These content items are not intended for use in establishing liability or calculating cost recovery statutes of limitations. They cannot be relied upon to create any rights, substantive or procedural, enforceable by any party in litigation with the United States or third parties. Additionally, although these data have been processed successfully on EPA computer systems, no warranty expressed or implied can be made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The Agency reserves the right to revise EPA-stewarded datasets pursuant to further analysis and review without public notice. Unless otherwise specified, geospatial data produced by the EPA is by default in the public domain and is not subject to domestic copyright protection under 17 U.S.C. \u00a7 105. Referenced data from non-EPA sources are neither inherently verified nor independently tested by the Agency in all circumstances. Permission to reproduce copyrighted items not produced by the EPA must be secured from the copyright owner. EPA strongly recommends careful attention be paid to metadata files associated with these data to better understand limitations, restrictions or intended use. The U.S. EPA shall not be held liable for improper or incorrect use of the data.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Emissions & Generation Resource Integrated Database (eGRID)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "United States Environmental Protection Agency (EPA)"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Washington DC: Office of Atmospheric Protection, Clean Air and Power Division"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.epa.gov/egrid"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-01-17"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Fossil Fuels",
+                            "Greenhouse Gas",
+                            "Renewable Energy"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "",
+                "label": "eGRID1998_location.xls",
+                "restricted": false,
+                "directoryLabel": "1998",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832146,
+                    "persistentId": "",
+                    "filename": "eGRID1998_location.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3303936,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626c042-b20507ec1aa4",
+                    "rootDataFileId": -1,
+                    "md5": "8c1f973b3b49ff104bdae7f4bb02fdf8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8c1f973b3b49ff104bdae7f4bb02fdf8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2023_data_rev1.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832070,
+                    "persistentId": "",
+                    "filename": "egrid2023_data_rev1.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 21191399,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947624fd0c-847e0a865e4d",
+                    "rootDataFileId": -1,
+                    "md5": "932a841d4f1cf955a32bdfa95bea4cec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "932a841d4f1cf955a32bdfa95bea4cec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2023_summary_tables_rev1.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832069,
+                    "persistentId": "",
+                    "filename": "egrid2023_summary_tables_rev1.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 1001521,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947624fdfa-f0cf082c3ed0",
+                    "rootDataFileId": -1,
+                    "md5": "75ca156cba018cd36d654eb043d26117",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "75ca156cba018cd36d654eb043d26117"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2023_technical_guide.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832068,
+                    "persistentId": "",
+                    "filename": "egrid2023_technical_guide.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2768135,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947624ff7a-8f31b6315101",
+                    "rootDataFileId": -1,
+                    "md5": "c4f3fc432c86dea3098175ea6fa35160",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c4f3fc432c86dea3098175ea6fa35160"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2023_data_metric_rev1.xlsx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832071,
+                    "persistentId": "",
+                    "filename": "egrid2023_data_metric_rev1.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 24804186,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947624feb4-535437af5c37",
+                    "rootDataFileId": -1,
+                    "md5": "a4b3e301d5b729461a05f82319213949",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a4b3e301d5b729461a05f82319213949"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2014_SummaryTables_v2.pdf",
+                "restricted": false,
+                "directoryLabel": "2014",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832094,
+                    "persistentId": "",
+                    "filename": "eGRID2014_SummaryTables_v2.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 965085,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762922c7-12597cf4fc9e",
+                    "rootDataFileId": -1,
+                    "md5": "58f1387bdd2cbae88909ceba9e7f7ed1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "58f1387bdd2cbae88909ceba9e7f7ed1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2014_GHGOutputRates_v2.pdf",
+                "restricted": false,
+                "directoryLabel": "2014",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832166,
+                    "persistentId": "",
+                    "filename": "eGRID2014_GHGOutputRates_v2.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 241133,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762922d3-a1952c72064b",
+                    "rootDataFileId": -1,
+                    "md5": "6b20f5c8a578795badd6753031d45c55",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6b20f5c8a578795badd6753031d45c55"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1996_plant.xls",
+                "restricted": false,
+                "directoryLabel": "1996",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832153,
+                    "persistentId": "",
+                    "filename": "eGRID1996_plant.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 13268480,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762699c4-39066b0e8e13",
+                    "rootDataFileId": -1,
+                    "md5": "9c9cf7c5916444d2165090e8481ed32e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9c9cf7c5916444d2165090e8481ed32e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2009_SummaryTables.pdf",
+                "restricted": false,
+                "directoryLabel": "2009",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832098,
+                    "persistentId": "",
+                    "filename": "eGRID2009_SummaryTables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1545364,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762814ea-a881b3d58851",
+                    "rootDataFileId": -1,
+                    "md5": "2b21d80cd6a7abd50a5dd596dcc19dc6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2b21d80cd6a7abd50a5dd596dcc19dc6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1997_location.xls",
+                "restricted": false,
+                "directoryLabel": "1997",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832126,
+                    "persistentId": "",
+                    "filename": "eGRID1997_location.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3578880,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762706ac-587e0633f632",
+                    "rootDataFileId": -1,
+                    "md5": "a587f0fb2fdacae99c9c039f928679ac",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a587f0fb2fdacae99c9c039f928679ac"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2004_plant.xls",
+                "restricted": false,
+                "directoryLabel": "2004",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832086,
+                    "persistentId": "",
+                    "filename": "eGRID2004_plant.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 13542400,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762662c4-1ac965f872cd",
+                    "rootDataFileId": -1,
+                    "md5": "8b4d16c78d44396996a36b26a74b0149",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8b4d16c78d44396996a36b26a74b0149"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2022_technical_guide.pdf",
+                "restricted": false,
+                "directoryLabel": "2022",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832109,
+                    "persistentId": "",
+                    "filename": "egrid2022_technical_guide.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2122672,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628b941-be56fa260060",
+                    "rootDataFileId": -1,
+                    "md5": "bf8059c7463020bbbc9c55d4059bb00b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bf8059c7463020bbbc9c55d4059bb00b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2012_Data.xlsx",
+                "restricted": false,
+                "directoryLabel": "2012",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832106,
+                    "persistentId": "",
+                    "filename": "eGRID2012_Data.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 10669022,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762875d2-bb760744fd94",
+                    "rootDataFileId": -1,
+                    "md5": "620a443f97a5565fc7b2b14325732c91",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "620a443f97a5565fc7b2b14325732c91"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2016_sequencenumbers.xlsx",
+                "restricted": false,
+                "directoryLabel": "2016",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832087,
+                    "persistentId": "",
+                    "filename": "egrid2016_sequencenumbers.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 933172,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762726fb-499d47946b96",
+                    "rootDataFileId": -1,
+                    "md5": "e75a4593f925d5d2369fdc0ecdd2566d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e75a4593f925d5d2369fdc0ecdd2566d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1999_plant.xls",
+                "restricted": false,
+                "directoryLabel": "1999",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832085,
+                    "persistentId": "",
+                    "filename": "eGRID1999_plant.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 14096896,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626d69b-404ba595b6b0",
+                    "rootDataFileId": -1,
+                    "md5": "9441f0003d7c17c82dc21081acfecb38",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9441f0003d7c17c82dc21081acfecb38"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2020_Data_v2.xlsx",
+                "restricted": false,
+                "directoryLabel": "2020",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832179,
+                    "persistentId": "",
+                    "filename": "eGRID2020_Data_v2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 11879492,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476276ed3-f884716150d8",
+                    "rootDataFileId": -1,
+                    "md5": "d338cb0263c7f1a0f58eade05c0ae04b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d338cb0263c7f1a0f58eade05c0ae04b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2009_data.xls",
+                "restricted": false,
+                "directoryLabel": "2009",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832189,
+                    "persistentId": "",
+                    "filename": "eGRID2009_data.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 17799680,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476281c89-678cb84547cd",
+                    "rootDataFileId": -1,
+                    "md5": "0fcda95bd89e7707c62413f7113268b6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0fcda95bd89e7707c62413f7113268b6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1997_owner.xls",
+                "restricted": false,
+                "directoryLabel": "1997",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832169,
+                    "persistentId": "",
+                    "filename": "eGRID1997_owner.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3777536,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626ea0f-963d98e7c276",
+                    "rootDataFileId": -1,
+                    "md5": "d9c635d3fe076d0e629d9ded88ad06cc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d9c635d3fe076d0e629d9ded88ad06cc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2004_TechnicalSupportDocument.pdf",
+                "restricted": false,
+                "directoryLabel": "2004",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832091,
+                    "persistentId": "",
+                    "filename": "eGRID2004_TechnicalSupportDocument.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 3144777,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626614d-e8fca83b2be5",
+                    "rootDataFileId": -1,
+                    "md5": "8a4cf2a5a3d1dc0a9ef418c21fa6aec1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8a4cf2a5a3d1dc0a9ef418c21fa6aec1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2021_technical_guide.pdf",
+                "restricted": false,
+                "directoryLabel": "2021",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832116,
+                    "persistentId": "",
+                    "filename": "eGRID2021_technical_guide.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2526640,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627a7e0-f3272c3046c6",
+                    "rootDataFileId": -1,
+                    "md5": "f84e2dd8f58ed2bf88121eebdc6e295a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f84e2dd8f58ed2bf88121eebdc6e295a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_SummaryTables.pdf",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832181,
+                    "persistentId": "",
+                    "filename": "eGRID2007_SummaryTables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2752965,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476286a02-0893df424b69",
+                    "rootDataFileId": -1,
+                    "md5": "59838ce9f39786510775a1d5f6d7dc55",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "59838ce9f39786510775a1d5f6d7dc55"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2009_GHGOutputRates.pdf",
+                "restricted": false,
+                "directoryLabel": "2009",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832111,
+                    "persistentId": "",
+                    "filename": "eGRID2009_GHGOutputRates.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 318909,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476282148-fb11c92f6ef1",
+                    "rootDataFileId": -1,
+                    "md5": "f2a40676d1bd8b8644bf9f1a4c893298",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f2a40676d1bd8b8644bf9f1a4c893298"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid_release_notes.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832187,
+                    "persistentId": "",
+                    "filename": "egrid_release_notes.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 39881,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476266071-d49aafa9f747",
+                    "rootDataFileId": -1,
+                    "md5": "eea8a18cf82f6c074acb37b818159207",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eea8a18cf82f6c074acb37b818159207"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2005_GHGOutputRates.pdf",
+                "restricted": false,
+                "directoryLabel": "2005",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832138,
+                    "persistentId": "",
+                    "filename": "eGRID2005_GHGOutputRates.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 196755,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476267448-19891ae2d8a5",
+                    "rootDataFileId": -1,
+                    "md5": "8eedd7fbb7559b6e648b04dc23769d2c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8eedd7fbb7559b6e648b04dc23769d2c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1999_location.xls",
+                "restricted": false,
+                "directoryLabel": "1999",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832173,
+                    "persistentId": "",
+                    "filename": "eGRID1999_location.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3207168,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626d495-41d1267fb1d1",
+                    "rootDataFileId": -1,
+                    "md5": "3d25e2f3ed6938513a5aa44c1889e012",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d25e2f3ed6938513a5aa44c1889e012"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2005_SummaryTables.pdf",
+                "restricted": false,
+                "directoryLabel": "2005",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832117,
+                    "persistentId": "",
+                    "filename": "eGRID2005_SummaryTables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 522453,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476267970-cdcd5f500055",
+                    "rootDataFileId": -1,
+                    "md5": "2e9586f3126d75d1aeaa7b8cd5b6d5a6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2e9586f3126d75d1aeaa7b8cd5b6d5a6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2009_eGRID_subregions.jpg",
+                "restricted": false,
+                "directoryLabel": "2009",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832128,
+                    "persistentId": "",
+                    "filename": "eGRID2009_eGRID_subregions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 650733,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762817c3-ef10bcc2735d",
+                    "rootDataFileId": -1,
+                    "md5": "77754049f7c3c65e280839ba764c7c3b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "77754049f7c3c65e280839ba764c7c3b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2009_TechnicalSupportDocument.pdf",
+                "restricted": false,
+                "directoryLabel": "2009",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832160,
+                    "persistentId": "",
+                    "filename": "eGRID2009_TechnicalSupportDocument.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 627411,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476281416-76827a9128b4",
+                    "rootDataFileId": -1,
+                    "md5": "c971f421598f72f02da3979a7b1b224a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c971f421598f72f02da3979a7b1b224a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2004_SummaryTables.pdf",
+                "restricted": false,
+                "directoryLabel": "2004",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832115,
+                    "persistentId": "",
+                    "filename": "eGRID2004_SummaryTables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 3186648,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626637a-afa2d0141757",
+                    "rootDataFileId": -1,
+                    "md5": "3945f2f0618f79d2af829d5aae0b6585",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3945f2f0618f79d2af829d5aae0b6585"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1997_plant.xls",
+                "restricted": false,
+                "directoryLabel": "1997",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832113,
+                    "persistentId": "",
+                    "filename": "eGRID1997_plant.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 13240320,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626f889-4c208077e25e",
+                    "rootDataFileId": -1,
+                    "md5": "d393781536fab76b500bb8ab8f1031c8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d393781536fab76b500bb8ab8f1031c8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2016_egrid_subregions.jpg",
+                "restricted": false,
+                "directoryLabel": "2016",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832171,
+                    "persistentId": "",
+                    "filename": "egrid2016_egrid_subregions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 210689,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627114f-0164fe33db9b",
+                    "rootDataFileId": -1,
+                    "md5": "172d786cf45d07a7d95ce9cd29d3da1f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "172d786cf45d07a7d95ce9cd29d3da1f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2018_technical_support_document.pdf",
+                "restricted": false,
+                "directoryLabel": "2018",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832112,
+                    "persistentId": "",
+                    "filename": "egrid2018_technical_support_document.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2490990,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476273363-f0cb8cf9f47f",
+                    "rootDataFileId": -1,
+                    "md5": "e8881f08c157bb50597becb5be8da74c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e8881f08c157bb50597becb5be8da74c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2010_NERC_regions.jpg",
+                "restricted": false,
+                "directoryLabel": "2010",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832099,
+                    "persistentId": "",
+                    "filename": "eGRID2010_NERC_regions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 537759,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476280861-0a5f760d4afb",
+                    "rootDataFileId": -1,
+                    "md5": "496e9114cc5f9877e4328353fa44931a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "496e9114cc5f9877e4328353fa44931a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID FAQs.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832157,
+                    "persistentId": "",
+                    "filename": "eGRID FAQs.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 507083,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476265f79-c46dede98b75",
+                    "rootDataFileId": -1,
+                    "md5": "de289a5a4f92d71ecaa6a7c0df7511a1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de289a5a4f92d71ecaa6a7c0df7511a1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2021_data_metric.xlsx",
+                "restricted": false,
+                "directoryLabel": "2021",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832178,
+                    "persistentId": "",
+                    "filename": "eGRID2021_data_metric.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18086522,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762797d0-4f8936422f4f",
+                    "rootDataFileId": -1,
+                    "md5": "73d61825f364c510f565a08c1646ffbf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "73d61825f364c510f565a08c1646ffbf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2005_NERC_regions.jpg",
+                "restricted": false,
+                "directoryLabel": "2005",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832139,
+                    "persistentId": "",
+                    "filename": "eGRID2005_NERC_regions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 475687,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476267dcb-6753505ada2b",
+                    "rootDataFileId": -1,
+                    "md5": "e0b43a52afed73ff3d467f68c6753f69",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e0b43a52afed73ff3d467f68c6753f69"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2021_data.xlsx",
+                "restricted": false,
+                "directoryLabel": "2021",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832136,
+                    "persistentId": "",
+                    "filename": "eGRID2021_data.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 14097047,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627820b-6b6f0ec396c7",
+                    "rootDataFileId": -1,
+                    "md5": "2c90de2bb028edd43a6cb4d5226c6ac0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2c90de2bb028edd43a6cb4d5226c6ac0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2014_TechnicalSupportDocument_v2.pdf",
+                "restricted": false,
+                "directoryLabel": "2014",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832090,
+                    "persistentId": "",
+                    "filename": "eGRID2014_TechnicalSupportDocument_v2.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1320284,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476291fa7-8cacb89b100e",
+                    "rootDataFileId": -1,
+                    "md5": "9a6d0bad4df1c7afee783d256a9f7b0d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9a6d0bad4df1c7afee783d256a9f7b0d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2023_data_metric_rev1.xlsx",
+                "restricted": false,
+                "directoryLabel": "2023",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832135,
+                    "persistentId": "",
+                    "filename": "egrid2023_data_metric_rev1.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 24804186,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628a2b4-e91d50e8fee1",
+                    "rootDataFileId": -1,
+                    "md5": "a4b3e301d5b729461a05f82319213949",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a4b3e301d5b729461a05f82319213949"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2023_data_rev1.xlsx",
+                "restricted": false,
+                "directoryLabel": "2023",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832167,
+                    "persistentId": "",
+                    "filename": "egrid2023_data_rev1.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 21191399,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628a05d-86d555103a65",
+                    "rootDataFileId": -1,
+                    "md5": "932a841d4f1cf955a32bdfa95bea4cec",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "932a841d4f1cf955a32bdfa95bea4cec"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1996_thru_2000_TechSupport.pdf",
+                "restricted": false,
+                "directoryLabel": "1996",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832108,
+                    "persistentId": "",
+                    "filename": "eGRID1996_thru_2000_TechSupport.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 4755700,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626b882-d962ee7d91b5",
+                    "rootDataFileId": -1,
+                    "md5": "2ae9bcd578ed32b20589661efaf79c2b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2ae9bcd578ed32b20589661efaf79c2b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2005_eGRID_subregions.jpg",
+                "restricted": false,
+                "directoryLabel": "2005",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832127,
+                    "persistentId": "",
+                    "filename": "eGRID2005_eGRID_subregions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 1376165,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762677e6-0ab05e6fdeba",
+                    "rootDataFileId": -1,
+                    "md5": "419d4c988a350a372e4bb755dcd828be",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "419d4c988a350a372e4bb755dcd828be"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2020_data_metric_v2.xlsx",
+                "restricted": false,
+                "directoryLabel": "2020",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832142,
+                    "persistentId": "",
+                    "filename": "eGRID2020_data_metric_v2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15715267,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762777fd-189a5dcf8648",
+                    "rootDataFileId": -1,
+                    "md5": "818b9dc2ab7498cb0887fd1d5ef31096",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "818b9dc2ab7498cb0887fd1d5ef31096"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2018_data_v2.xlsx",
+                "restricted": false,
+                "directoryLabel": "2018",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832096,
+                    "persistentId": "",
+                    "filename": "egrid2018_data_v2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 10748522,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762746eb-f798fbb9af65",
+                    "rootDataFileId": -1,
+                    "md5": "2e9cee06b8e5e22584a73387d2fc71bd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2e9cee06b8e5e22584a73387d2fc71bd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2018_data_metric_v2.xlsx",
+                "restricted": false,
+                "directoryLabel": "2018",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832118,
+                    "persistentId": "",
+                    "filename": "eGRID2018_data_metric_v2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 14557491,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627354f-c8287b8ef333",
+                    "rootDataFileId": -1,
+                    "md5": "4fa222fdb1330237bcf4f42aa2079aa7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4fa222fdb1330237bcf4f42aa2079aa7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2000_plant.xls",
+                "restricted": false,
+                "directoryLabel": "2000",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832172,
+                    "persistentId": "",
+                    "filename": "eGRID2000_plant.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 14486528,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476283a36-c3394edba86b",
+                    "rootDataFileId": -1,
+                    "md5": "6450bdcd211798dddeced6e448296197",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6450bdcd211798dddeced6e448296197"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_plant.xls",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832089,
+                    "persistentId": "",
+                    "filename": "eGRID2007_plant.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15301632,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628523d-c10abfabbb62",
+                    "rootDataFileId": -1,
+                    "md5": "1f552980f79ba6de4836e93ac84727b7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1f552980f79ba6de4836e93ac84727b7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2019_data_metric_v2_0.xlsx",
+                "restricted": false,
+                "directoryLabel": "2019",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832180,
+                    "persistentId": "",
+                    "filename": "eGRID2019_data_metric_v2_0.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15264872,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627c548-8feaca7f7e6d",
+                    "rootDataFileId": -1,
+                    "md5": "6048928db7955c662f0fda771ada9294",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6048928db7955c662f0fda771ada9294"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2016_technicalsupportdocument.pdf",
+                "restricted": false,
+                "directoryLabel": "2016",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832152,
+                    "persistentId": "",
+                    "filename": "eGRID2016_technicalsupportdocument.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1769776,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476272dd3-aa43b75a5420",
+                    "rootDataFileId": -1,
+                    "md5": "1cb961c5d25112a493fbbee8035e3860",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1cb961c5d25112a493fbbee8035e3860"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1999_owner.xls",
+                "restricted": false,
+                "directoryLabel": "1999",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832103,
+                    "persistentId": "",
+                    "filename": "eGRID1999_owner.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3398656,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626e68d-9d92ccbf8470",
+                    "rootDataFileId": -1,
+                    "md5": "1d59d0ac29aa6317b60ff116af7ac195",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1d59d0ac29aa6317b60ff116af7ac195"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_STIE_USGC.xls",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832162,
+                    "persistentId": "",
+                    "filename": "eGRID2007_STIE_USGC.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 91648,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762845f7-0b6ff7719ad6",
+                    "rootDataFileId": -1,
+                    "md5": "892d4ec54a715c4abbd0465bedc578f6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "892d4ec54a715c4abbd0465bedc578f6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2019_summary_tables.xlsx",
+                "restricted": false,
+                "directoryLabel": "2019",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832164,
+                    "persistentId": "",
+                    "filename": "egrid2019_summary_tables.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 716597,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627ea28-1f4044cb166f",
+                    "rootDataFileId": -1,
+                    "md5": "ee0a284224a230930424b4e57bcfc413",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ee0a284224a230930424b4e57bcfc413"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2012_eGRID_subregions.jpg",
+                "restricted": false,
+                "directoryLabel": "2012",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832110,
+                    "persistentId": "",
+                    "filename": "eGRID2012_eGRID_subregions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 3243379,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476288102-c0fbdf3b35f6",
+                    "rootDataFileId": -1,
+                    "md5": "3fa3755e39de4dd949c8e5abe492a53e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3fa3755e39de4dd949c8e5abe492a53e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1996_owner.xls",
+                "restricted": false,
+                "directoryLabel": "1996",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832177,
+                    "persistentId": "",
+                    "filename": "eGRID1996_owner.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3662848,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476268240-76996b5e8d91",
+                    "rootDataFileId": -1,
+                    "md5": "64524acd88e1d5fbc51b980c92314982",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "64524acd88e1d5fbc51b980c92314982"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2005_TechnicalSupportDocument.pdf",
+                "restricted": false,
+                "directoryLabel": "2005",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832150,
+                    "persistentId": "",
+                    "filename": "eGRID2005_TechnicalSupportDocument.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 994384,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476267d08-102be02734fb",
+                    "rootDataFileId": -1,
+                    "md5": "d6296934fb0094bd72fc49eb653ce015",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6296934fb0094bd72fc49eb653ce015"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2021_summary_tables.pdf",
+                "restricted": false,
+                "directoryLabel": "2021",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832143,
+                    "persistentId": "",
+                    "filename": "eGRID2021_summary_tables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 751355,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762792d4-cd2312b67997",
+                    "rootDataFileId": -1,
+                    "md5": "209783ad44f691e6a8ffc6300103678b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "209783ad44f691e6a8ffc6300103678b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2019_data.xlsx",
+                "restricted": false,
+                "directoryLabel": "2019",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832165,
+                    "persistentId": "",
+                    "filename": "egrid2019_data.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 11574903,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627c2db-8a235c527fa4",
+                    "rootDataFileId": -1,
+                    "md5": "b3cb1d0e9b15f3505c046938dd5c94e2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b3cb1d0e9b15f3505c046938dd5c94e2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1996_thru_2000_powerflow.xls",
+                "restricted": false,
+                "directoryLabel": "1996",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832174,
+                    "persistentId": "",
+                    "filename": "eGRID1996_thru_2000_powerflow.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 906752,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626ac39-9c0d0ae50ea7",
+                    "rootDataFileId": -1,
+                    "md5": "a239509c66cf17ffc198b4de05286658",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a239509c66cf17ffc198b4de05286658"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2016_summarytables.pdf",
+                "restricted": false,
+                "directoryLabel": "2016",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832122,
+                    "persistentId": "",
+                    "filename": "eGRID2016_summarytables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 322107,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476270df4-62ea0025633c",
+                    "rootDataFileId": -1,
+                    "md5": "a60ba74fa298618e57a95aee0a6bb8f0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a60ba74fa298618e57a95aee0a6bb8f0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2010_Data.xls",
+                "restricted": false,
+                "directoryLabel": "2010",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832155,
+                    "persistentId": "",
+                    "filename": "eGRID2010_Data.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 18068992,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627f4c2-5a63aae61be7",
+                    "rootDataFileId": -1,
+                    "md5": "9e77589aee4a801c053d19be0b3e55c2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9e77589aee4a801c053d19be0b3e55c2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2010_SummaryTables.pdf",
+                "restricted": false,
+                "directoryLabel": "2010",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832100,
+                    "persistentId": "",
+                    "filename": "eGRID2010_SummaryTables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1364168,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627f777-ce31d41bb5d4",
+                    "rootDataFileId": -1,
+                    "md5": "730bb0d6348815a89e4b02425001dc73",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "730bb0d6348815a89e4b02425001dc73"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2012_GHGOutputRates.pdf",
+                "restricted": false,
+                "directoryLabel": "2012",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832134,
+                    "persistentId": "",
+                    "filename": "eGRID2012_GHGOutputRates.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 301748,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476289f83-2cdbe477e6a9",
+                    "rootDataFileId": -1,
+                    "md5": "bbaf0509652e98eb66130e40739905ef",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bbaf0509652e98eb66130e40739905ef"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2016_data_metric_v2.xlsx",
+                "restricted": false,
+                "directoryLabel": "2016",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832188,
+                    "persistentId": "",
+                    "filename": "eGRID2016_data_metric_v2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15547271,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762714b1-d728b455f585",
+                    "rootDataFileId": -1,
+                    "md5": "d75634f4bb3a5614a15ec7fb08cf8c5c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d75634f4bb3a5614a15ec7fb08cf8c5c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2022_data.xlsx",
+                "restricted": false,
+                "directoryLabel": "2022",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832120,
+                    "persistentId": "",
+                    "filename": "egrid2022_data.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15602850,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628c8dc-4c0ae56e1928",
+                    "rootDataFileId": -1,
+                    "md5": "6a36880f773bf053ab005fb052a00b7f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6a36880f773bf053ab005fb052a00b7f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2012_SummaryTables.pdf",
+                "restricted": false,
+                "directoryLabel": "2012",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832161,
+                    "persistentId": "",
+                    "filename": "eGRID2012_SummaryTables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 6830256,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476287bfa-de8cc62c5f9b",
+                    "rootDataFileId": -1,
+                    "md5": "0c583dba9fc8b21ecb3fd54cd0bc13d4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0c583dba9fc8b21ecb3fd54cd0bc13d4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2009_NERC_regions.jpg",
+                "restricted": false,
+                "directoryLabel": "2009",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832163,
+                    "persistentId": "",
+                    "filename": "eGRID2009_NERC_regions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 537759,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476281125-205d384bba26",
+                    "rootDataFileId": -1,
+                    "md5": "496e9114cc5f9877e4328353fa44931a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "496e9114cc5f9877e4328353fa44931a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2020_technical_guide.pdf",
+                "restricted": false,
+                "directoryLabel": "2020",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832145,
+                    "persistentId": "",
+                    "filename": "egrid2020_technical_guide.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2505066,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762777b9-4d347be92734",
+                    "rootDataFileId": -1,
+                    "md5": "9fc41e2490613902626ca0ff25a6758b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9fc41e2490613902626ca0ff25a6758b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1998_owner.xls",
+                "restricted": false,
+                "directoryLabel": "1998",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832093,
+                    "persistentId": "",
+                    "filename": "eGRID1998_owner.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3475456,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626d49e-e9fb0f47e984",
+                    "rootDataFileId": -1,
+                    "md5": "a5f536f28d41b3b20f1561e4e185f571",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a5f536f28d41b3b20f1561e4e185f571"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_NERC_regions.jpg",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832151,
+                    "persistentId": "",
+                    "filename": "eGRID2007_NERC_regions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 537759,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762840a7-aed46e7f5cb3",
+                    "rootDataFileId": -1,
+                    "md5": "496e9114cc5f9877e4328353fa44931a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "496e9114cc5f9877e4328353fa44931a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2005_plant.xls",
+                "restricted": false,
+                "directoryLabel": "2005",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832170,
+                    "persistentId": "",
+                    "filename": "eGRID2005_plant.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 14844416,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476267e71-79ccdaebc0c7",
+                    "rootDataFileId": -1,
+                    "md5": "2d7c2f8b5dde6a869b4aa7f32714b6dc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d7c2f8b5dde6a869b4aa7f32714b6dc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2012_TechnicalSupportDocument.pdf",
+                "restricted": false,
+                "directoryLabel": "2012",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832133,
+                    "persistentId": "",
+                    "filename": "eGRID2012_TechnicalSupportDocument.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1685648,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476289280-894fa6d54866",
+                    "rootDataFileId": -1,
+                    "md5": "3cb527cb61694553d568c26d273d3ea0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3cb527cb61694553d568c26d273d3ea0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2022_data_metric.xlsx",
+                "restricted": false,
+                "directoryLabel": "2022",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832185,
+                    "persistentId": "",
+                    "filename": "egrid2022_data_metric.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 15492010,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628af19-bc8a87401bb5",
+                    "rootDataFileId": -1,
+                    "md5": "5485227216a72b57bbdee721ae8db60b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5485227216a72b57bbdee721ae8db60b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_eGRID_subregions.jpg",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832114,
+                    "persistentId": "",
+                    "filename": "eGRID2007_eGRID_subregions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 650733,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476286fe2-13d1bd98a1fe",
+                    "rootDataFileId": -1,
+                    "md5": "77754049f7c3c65e280839ba764c7c3b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "77754049f7c3c65e280839ba764c7c3b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2019_technical_guide.pdf",
+                "restricted": false,
+                "directoryLabel": "2019",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832092,
+                    "persistentId": "",
+                    "filename": "egrid2019_technical_guide.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 7727230,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627c2da-49aa59d9caef",
+                    "rootDataFileId": -1,
+                    "md5": "e9bbb01283f52c83847e863ab218f1bd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e9bbb01283f52c83847e863ab218f1bd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_aggregation.xls",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832141,
+                    "persistentId": "",
+                    "filename": "eGRID2007_aggregation.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 7672320,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476283b0e-70f43464c9f7",
+                    "rootDataFileId": -1,
+                    "md5": "39d5d21f37e572cbd01090d4a9711733",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "39d5d21f37e572cbd01090d4a9711733"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2023_summary_tables_rev1.xlsx",
+                "restricted": false,
+                "directoryLabel": "2023",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832132,
+                    "persistentId": "",
+                    "filename": "egrid2023_summary_tables_rev1.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 1001521,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628a246-0b8b1d7715be",
+                    "rootDataFileId": -1,
+                    "md5": "75ca156cba018cd36d654eb043d26117",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "75ca156cba018cd36d654eb043d26117"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_GHGOutputRates.pdf",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832154,
+                    "persistentId": "",
+                    "filename": "eGRID2007_GHGOutputRates.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 287745,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476286b71-def8258cc249",
+                    "rootDataFileId": -1,
+                    "md5": "fd308aa37b05e031ee04952591bd3176",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fd308aa37b05e031ee04952591bd3176"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_FileStructure.pdf",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832182,
+                    "persistentId": "",
+                    "filename": "eGRID2007_FileStructure.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 556255,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762863f1-a6fa7968f607",
+                    "rootDataFileId": -1,
+                    "md5": "ab2f4a1d57dde0c21050ef442218e660",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ab2f4a1d57dde0c21050ef442218e660"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2000_location.xls",
+                "restricted": false,
+                "directoryLabel": "2000",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832175,
+                    "persistentId": "",
+                    "filename": "eGRID2000_location.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3226112,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628243c-e79e8a581b28",
+                    "rootDataFileId": -1,
+                    "md5": "b6e41cd2554652b1371fbf23218593fe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b6e41cd2554652b1371fbf23218593fe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2022_summary_tables.pdf",
+                "restricted": false,
+                "directoryLabel": "2022",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832084,
+                    "persistentId": "",
+                    "filename": "egrid2022_summary_tables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 179206,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628b57c-f54662f796df",
+                    "rootDataFileId": -1,
+                    "md5": "df79ba57f9426681c83df0da429bd5ba",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "df79ba57f9426681c83df0da429bd5ba"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2016_data.xlsx",
+                "restricted": false,
+                "directoryLabel": "2016",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832101,
+                    "persistentId": "",
+                    "filename": "egrid2016_data.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 10230529,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762724fb-b46ceed62c23",
+                    "rootDataFileId": -1,
+                    "md5": "8e37ecb2b2341ad502863cd4985a9f9a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8e37ecb2b2341ad502863cd4985a9f9a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2010_GHGOutputRates.pdf",
+                "restricted": false,
+                "directoryLabel": "2010",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832121,
+                    "persistentId": "",
+                    "filename": "eGRID2010_GHGOutputRates.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 283181,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627f47e-0739946113a7",
+                    "rootDataFileId": -1,
+                    "md5": "51bd7fe0dfd7191b2af1b65a3914ead5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "51bd7fe0dfd7191b2af1b65a3914ead5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1996_thru_2000_UsersManual.pdf",
+                "restricted": false,
+                "directoryLabel": "1996",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832148,
+                    "persistentId": "",
+                    "filename": "eGRID1996_thru_2000_UsersManual.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2838008,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626ad1e-68d2eca8e0eb",
+                    "rootDataFileId": -1,
+                    "md5": "bd7afe26ead5cb6c1328a4d47653bf9f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bd7afe26ead5cb6c1328a4d47653bf9f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2014_eGRID_subregions.jpg",
+                "restricted": false,
+                "directoryLabel": "2014",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832183,
+                    "persistentId": "",
+                    "filename": "eGRID2014_eGRID_subregions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 871151,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762926da-7092b4c1393c",
+                    "rootDataFileId": -1,
+                    "md5": "4794d96738e396adf7167a054289828e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4794d96738e396adf7167a054289828e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2020_summary_tables.pdf",
+                "restricted": false,
+                "directoryLabel": "2020",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832147,
+                    "persistentId": "",
+                    "filename": "egrid2020_summary_tables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1070077,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476277209-fa01e3f5c8a5",
+                    "rootDataFileId": -1,
+                    "md5": "0af3974290716aefcf3fa17644c6684b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0af3974290716aefcf3fa17644c6684b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1996_location.xls",
+                "restricted": false,
+                "directoryLabel": "1996",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832186,
+                    "persistentId": "",
+                    "filename": "eGRID1996_location.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3386368,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626bf7e-cfc5f4a83c56",
+                    "rootDataFileId": -1,
+                    "md5": "44134fe585af5e8d651731f4a337692e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "44134fe585af5e8d651731f4a337692e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2020_summary_tables.xlsx",
+                "restricted": false,
+                "directoryLabel": "2020",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832107,
+                    "persistentId": "",
+                    "filename": "egrid2020_summary_tables.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 905579,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627716f-0c3f278cb9da",
+                    "rootDataFileId": -1,
+                    "md5": "686403330bc617d19e9d201f2682385d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "686403330bc617d19e9d201f2682385d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2014_data_metric_v2.xlsx",
+                "restricted": false,
+                "directoryLabel": "2014",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832140,
+                    "persistentId": "",
+                    "filename": "eGRID2014_data_metric_v2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 14156357,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476290005-d77cd3c1fdec",
+                    "rootDataFileId": -1,
+                    "md5": "008704ffa58be7f93d5cf7e0a447491e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "008704ffa58be7f93d5cf7e0a447491e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2014_SummaryTables_v2.xlsx",
+                "restricted": false,
+                "directoryLabel": "2014",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832144,
+                    "persistentId": "",
+                    "filename": "eGRID2014_SummaryTables_v2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 2000171,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476291123-084d0d1ef626",
+                    "rootDataFileId": -1,
+                    "md5": "4852e93f49124e72b6ed72e90892982f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4852e93f49124e72b6ed72e90892982f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2022_summary_tables.xlsx",
+                "restricted": false,
+                "directoryLabel": "2022",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832130,
+                    "persistentId": "",
+                    "filename": "egrid2022_summary_tables.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 175198,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628b33c-132d0a1f111b",
+                    "rootDataFileId": -1,
+                    "md5": "8352b1b8c626c9a27f017dd420dd1a6e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8352b1b8c626c9a27f017dd420dd1a6e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2016_summarytables.xlsx",
+                "restricted": false,
+                "directoryLabel": "2016",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832102,
+                    "persistentId": "",
+                    "filename": "eGRID2016_summarytables.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 292757,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476272bad-85808deb7329",
+                    "rootDataFileId": -1,
+                    "md5": "41ed8cbf7009b11ab73aabe27ddad8d4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "41ed8cbf7009b11ab73aabe27ddad8d4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2019_summary_tables.pdf",
+                "restricted": false,
+                "directoryLabel": "2019",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832097,
+                    "persistentId": "",
+                    "filename": "egrid2019_summary_tables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 883894,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947627ba07-e1511f705b83",
+                    "rootDataFileId": -1,
+                    "md5": "0f46b5f85354a2034b462535aac251b4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0f46b5f85354a2034b462535aac251b4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2018_summary_tables.pdf",
+                "restricted": false,
+                "directoryLabel": "2018",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832176,
+                    "persistentId": "",
+                    "filename": "egrid2018_summary_tables.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 712424,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476276987-ae3f2f4504d9",
+                    "rootDataFileId": -1,
+                    "md5": "b5dbc86c896f1d2ca6f5990157ee0f16",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b5dbc86c896f1d2ca6f5990157ee0f16"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2016_nerc_regions.jpg",
+                "restricted": false,
+                "directoryLabel": "2016",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832105,
+                    "persistentId": "",
+                    "filename": "egrid2016_nerc_regions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 1163275,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476271ba6-4a3c88aa3fbe",
+                    "rootDataFileId": -1,
+                    "md5": "f83984d11ecb1598deb416c4d893f99e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f83984d11ecb1598deb416c4d893f99e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2004_and_2005_STIE_USGC.xls",
+                "restricted": false,
+                "directoryLabel": "2004",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832123,
+                    "persistentId": "",
+                    "filename": "eGRID2004_and_2005_STIE_USGC.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 60928,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626620a-cbdc7bac28ba",
+                    "rootDataFileId": -1,
+                    "md5": "2c6972e89d13788d4c166d7dfae08405",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2c6972e89d13788d4c166d7dfae08405"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2023_technical_guide.pdf",
+                "restricted": false,
+                "directoryLabel": "2023",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832158,
+                    "persistentId": "",
+                    "filename": "egrid2023_technical_guide.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2768135,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947628a7b2-9673b0ab197c",
+                    "rootDataFileId": -1,
+                    "md5": "c4f3fc432c86dea3098175ea6fa35160",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c4f3fc432c86dea3098175ea6fa35160"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2010_TechnicalSupportDocument.pdf",
+                "restricted": false,
+                "directoryLabel": "2010",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832124,
+                    "persistentId": "",
+                    "filename": "eGRID2010_TechnicalSupportDocument.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 648340,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762803b7-ca4967dae2cd",
+                    "rootDataFileId": -1,
+                    "md5": "528dd1988f180fa8eadf954625a6f6d5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "528dd1988f180fa8eadf954625a6f6d5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2014_Data_v2.xlsx",
+                "restricted": false,
+                "directoryLabel": "2014",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832131,
+                    "persistentId": "",
+                    "filename": "eGRID2014_Data_v2.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 13684787,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762928fe-40a498ba4bfc",
+                    "rootDataFileId": -1,
+                    "md5": "68ef9412ddbecd9e77ec0509a14481fb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "68ef9412ddbecd9e77ec0509a14481fb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2021_summary_tables.xlsx",
+                "restricted": false,
+                "directoryLabel": "2021",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832159,
+                    "persistentId": "",
+                    "filename": "eGRID2021_summary_tables.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 1000294,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476278682-4d39b1d75937",
+                    "rootDataFileId": -1,
+                    "md5": "f0c5d14e8656ac71b7e69f335174c15c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f0c5d14e8656ac71b7e69f335174c15c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2004_aggregation.xls",
+                "restricted": false,
+                "directoryLabel": "2004",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832137,
+                    "persistentId": "",
+                    "filename": "eGRID2004_aggregation.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 5186048,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476266472-4095d6606853",
+                    "rootDataFileId": -1,
+                    "md5": "c34a74a8ad667332df796079db9a8f11",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c34a74a8ad667332df796079db9a8f11"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2014_NERC_regions.jpg",
+                "restricted": false,
+                "directoryLabel": "2014",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832119,
+                    "persistentId": "",
+                    "filename": "eGRID2014_NERC_regions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 1163275,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476292988-ae2f6a45fba6",
+                    "rootDataFileId": -1,
+                    "md5": "f83984d11ecb1598deb416c4d893f99e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f83984d11ecb1598deb416c4d893f99e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID1998_plant.xls",
+                "restricted": false,
+                "directoryLabel": "1998",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832184,
+                    "persistentId": "",
+                    "filename": "eGRID1998_plant.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 13727232,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1947626d3ce-f15d60ab591c",
+                    "rootDataFileId": -1,
+                    "md5": "562a13efb91a50ee0f9bee6a7b1035f0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "562a13efb91a50ee0f9bee6a7b1035f0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2010_eGRID_subregions.jpg",
+                "restricted": false,
+                "directoryLabel": "2010",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832104,
+                    "persistentId": "",
+                    "filename": "eGRID2010_eGRID_subregions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 650733,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476280ca9-f6046654b9ad",
+                    "rootDataFileId": -1,
+                    "md5": "77754049f7c3c65e280839ba764c7c3b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "77754049f7c3c65e280839ba764c7c3b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2000_StateSummary.pdf",
+                "restricted": false,
+                "directoryLabel": "2000",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832149,
+                    "persistentId": "",
+                    "filename": "eGRID2000_StateSummary.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 8657,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476283933-565316266c90",
+                    "rootDataFileId": -1,
+                    "md5": "7fd0464266fc9ad8c30d9d0e45d55312",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7fd0464266fc9ad8c30d9d0e45d55312"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "egrid2018_summary_tables.xlsx",
+                "restricted": false,
+                "directoryLabel": "2018",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832125,
+                    "persistentId": "",
+                    "filename": "egrid2018_summary_tables.xlsx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 790606,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476276e02-d85823da08e0",
+                    "rootDataFileId": -1,
+                    "md5": "089ae31b7203fd02ac6bce2f229cd263",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "089ae31b7203fd02ac6bce2f229cd263"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2000_owner.xls",
+                "restricted": false,
+                "directoryLabel": "2000",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832129,
+                    "persistentId": "",
+                    "filename": "eGRID2000_owner.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 3440128,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762828f1-a9d108816d1e",
+                    "rootDataFileId": -1,
+                    "md5": "c3f9ce92eae6b8fd2e087a4d88066304",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c3f9ce92eae6b8fd2e087a4d88066304"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2012_NERC_regions.jpg",
+                "restricted": false,
+                "directoryLabel": "2012",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832095,
+                    "persistentId": "",
+                    "filename": "eGRID2012_NERC_regions.jpg",
+                    "contentType": "image/jpeg",
+                    "friendlyType": "JPEG Image",
+                    "filesize": 729483,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476289d1a-3e774b3038b0",
+                    "rootDataFileId": -1,
+                    "md5": "ece029f87ad103eda27d119706d5c388",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ece029f87ad103eda27d119706d5c388"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2007_TechnicalSupportDocument.pdf",
+                "restricted": false,
+                "directoryLabel": "2007",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832168,
+                    "persistentId": "",
+                    "filename": "eGRID2007_TechnicalSupportDocument.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1174048,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194762848a2-b82953b01e49",
+                    "rootDataFileId": -1,
+                    "md5": "55420f164364368bb3dc3c2ca75b4ec2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "55420f164364368bb3dc3c2ca75b4ec2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2009_FileStructure.pdf",
+                "restricted": false,
+                "directoryLabel": "2009",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832156,
+                    "persistentId": "",
+                    "filename": "eGRID2009_FileStructure.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 227955,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476280f0b-494f88717fea",
+                    "rootDataFileId": -1,
+                    "md5": "97aa6890a4a54e51a617010047c88b3f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "97aa6890a4a54e51a617010047c88b3f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "",
+                "label": "eGRID2005_aggregation.xls",
+                "restricted": false,
+                "directoryLabel": "2005",
+                "version": 1,
+                "datasetVersionId": 434784,
+                "dataFile": {
+                    "id": 10832088,
+                    "persistentId": "",
+                    "filename": "eGRID2005_aggregation.xls",
+                    "contentType": "application/vnd.ms-excel",
+                    "friendlyType": "MS Excel Spreadsheet",
+                    "filesize": 7134720,
+                    "description": "",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19476268166-4f9257785e4e",
+                    "rootDataFileId": -1,
+                    "md5": "8ea0707713e82796498f0632da5ad47d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8ea0707713e82796498f0632da5ad47d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-01-17",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

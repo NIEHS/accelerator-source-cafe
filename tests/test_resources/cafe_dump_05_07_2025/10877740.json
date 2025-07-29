@@ -1,0 +1,284 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443999,
+        "datasetId": 10877740,
+        "datasetPersistentId": "doi:10.17603/DS2-DH61-M731",
+        "storageIdentifier": "s3://10.17603/ds2-dh61-m731",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "",
+        "lastUpdateTime": "2025-05-06T23:22:44Z",
+        "releaseTime": "2025-05-05T12:13:36Z",
+        "createTime": "2025-05-06T23:22:44Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Report of Applied Methods in Food Access Impact Survey for Harris County and Southeast Texas after Hurricane Harvey in 2017"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-2769"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rosenheim, Nathanael"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Peacock, Walter Gillis"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Williams, Abrina"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lane, Gina"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Watson, Maria"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sullivan, Emily"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Katare, Anjali"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kastor, Hannah"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The research detailed in this report aims to better understand the impact of Hurricane Harvey on food access in Harris County and Southeast Texas. This report summarizes how disruptions to critical infrastructure (i.e. transportation, water, electricity, buildings, and communications) impacted the functioning of food suppliers and how that change in functioning affected food access. The findings indicate that infrastructure failures, especially transportation and electricity, negatively affect food access. This report highlights the importance of non-infrastructure factors, such as impacts to people, in helping to understand changes in food access that occur after a disaster. This research contributes to the fields of natural hazard research and food access by providing newly developed survey tools. These tools can be applied to future research on the intersection of critical infrastructure interruption and their effect on food suppliers\u2019 ability to provide food access to communities. This archive includes the report, project management files, and code required to fully replicate all figures and tables."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Food insecurity is a chronic problem in the United States that annually affects over 40 million people under normal conditions. This difficult reality can dramatically worsen after disasters. Such events can disrupt both the supply and demand sides of food systems, restricting food distribution and access precisely when households are in a heightened need for food assistance. Often, retailers and food banks must react quickly to meet local needs under difficult post-disaster circumstances. Residents of Harris County and Southeast Texas experienced this problem after Hurricane Harvey made landfall on the Texas Gulf Coast in August 2017. The primary data collected by this project relate specifically to the supply side. The data attempt to identify factors that impacted the ability of suppliers to help ensure access to food, with a focus on fresh food access. Factors included impacts to people, property and products due to hurricane-related damage to infrastructure. Two types of food suppliers were the foci of this research: food aid agencies and food retailers. The research team examined food aid agencies in Southeast Texas with data collection methods that included secondary data analysis, a focus group and an online survey. The second population studied was food retailers with in-person surveys with store managers. Food retailers were randomly sampled in three Texas counties: Jefferson, Orange, and Harris. The data collection methods resulted in 32 food aid agency online survey responses and 210 completed food retail in-person surveys. Data were collected five to eight months after the event, which helped to increase the reliability and validity of the data. The time-sensitive nature of post-disaster data requires research teams to quickly organize their efforts before entering the field. The purpose of this project archive is to share the primary data collected, document methods, and to help future research teams reduce the amount of time needed for project development and reporting. This archive does not contain Personally or Business Identifiable Information."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "field research planning"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "food access"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "survey instruments"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "sample frame"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "N/A"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M University (tamu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Florida (ufl.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    },
+                    {
+                        "typeName": "relatedMaterial",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "url:https://doi.org/10.17603/ds2-sqrq-jv57",
+                            "url:https://doi.org/10.17603/ds2-aq2k-dy92",
+                            "url:https://doi.org/10.17603/ds2-t9qb-sc26",
+                            "url:https://doi.org/10.17603/ds2-36xg-pt90"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

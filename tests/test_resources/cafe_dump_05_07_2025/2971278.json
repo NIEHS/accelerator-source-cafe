@@ -1,0 +1,233 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 97256,
+        "datasetId": 2971278,
+        "datasetPersistentId": "doi:10.7910/DVN/NS0RPJ",
+        "storageIdentifier": "s3://10.7910/DVN/NS0RPJ",
+        "versionNumber": 3,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:L2v8A9j8urmph6OzGpFjBw==",
+        "lastUpdateTime": "2017-01-19T23:14:25Z",
+        "releaseTime": "2017-01-19T23:14:25Z",
+        "createTime": "2017-01-19T23:14:14Z",
+        "publicationDate": "2017-01-19",
+        "citationDate": "2017-01-19",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "National AQI Stations"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Lex"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CGA, Harvard Univ"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Lex"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CGA, Harvard Univ"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mberman@fas.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Station Names (in Chinese) for 1497 ground monitoring stations with Lat and Long coordinates in Decimal Degrees.   (The original data had missing x, y values for 15 of the stations which we have researched and added).\r\n"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2017-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "air pollution data"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Berman, Lex"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-01-19"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "china_stations_w_XY.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97256,
+                "dataFile": {
+                    "id": 2971280,
+                    "persistentId": "doi:10.7910/DVN/NS0RPJ/27GB8D",
+                    "pidURL": "https://doi.org/10.7910/DVN/NS0RPJ/27GB8D",
+                    "filename": "china_stations_w_XY.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 78133,
+                    "storageIdentifier": "s3://dvn-cloud:159b8ec3659-9f0eec0cfce3",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 67655,
+                    "originalFileName": "china_stations_w_XY.csv",
+                    "UNF": "UNF:6:L2v8A9j8urmph6OzGpFjBw==",
+                    "rootDataFileId": -1,
+                    "md5": "4d6be080667e4d3c0286f93c724511ac",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4d6be080667e4d3c0286f93c724511ac"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2017-01-19",
+                    "publicationDate": "2017-01-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "README_BEIJING-AIR.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97256,
+                "dataFile": {
+                    "id": 2971288,
+                    "persistentId": "doi:10.7910/DVN/NS0RPJ/VG9EYI",
+                    "pidURL": "https://doi.org/10.7910/DVN/NS0RPJ/VG9EYI",
+                    "filename": "README_BEIJING-AIR.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 3995,
+                    "storageIdentifier": "s3://dvn-cloud:159b9023a10-1e987b9e170c",
+                    "rootDataFileId": -1,
+                    "md5": "eecbfe412e4f3f9a828c6b75624ecc33",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eecbfe412e4f3f9a828c6b75624ecc33"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-19",
+                    "publicationDate": "2017-01-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "china_stations_w_XY.ods",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 97256,
+                "dataFile": {
+                    "id": 2971279,
+                    "persistentId": "doi:10.7910/DVN/NS0RPJ/8JHG3N",
+                    "pidURL": "https://doi.org/10.7910/DVN/NS0RPJ/8JHG3N",
+                    "filename": "china_stations_w_XY.ods",
+                    "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+                    "friendlyType": "OpenOffice Spreadsheet",
+                    "filesize": 74047,
+                    "storageIdentifier": "s3://dvn-cloud:159b8ec363c-2980dea3b868",
+                    "rootDataFileId": -1,
+                    "md5": "ca743bbe13176858c2638ef6cdefc2a9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ca743bbe13176858c2638ef6cdefc2a9"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-01-19",
+                    "publicationDate": "2017-01-19",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

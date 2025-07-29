@@ -1,0 +1,598 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 436129,
+        "datasetId": 10865402,
+        "datasetPersistentId": "doi:10.7910/DVN/HQBF1L",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/HQBF1L",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2025-02-04",
+        "lastUpdateTime": "2025-02-19T20:01:46Z",
+        "releaseTime": "2025-02-19T20:01:46Z",
+        "createTime": "2025-02-04T15:43:46Z",
+        "publicationDate": "2025-02-19",
+        "citationDate": "2025-02-19",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Access to Jobs and Workers via Transit"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Office of Sustainable Communities"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Environmental Protection Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. \n<br />\nIf you have questions about the underlying data stored here, please contact Thomas John (thomas.john@epa.gov)/EPA Office of Sustainable Communities. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br />\n<br />\n\"The Access to Jobs and Workers Via Transit tool is a free geospatial data resource and web mapping tool for comparing the accessibility of neighborhoods via public transit service. Its indicators summarize accessibility to jobs as well as accessibility by workers, households, and population.\n<br />\nCoverage is limited to metropolitan regions served by transit agencies that share their service data in a standard format called GTFS .\n<br />\nA collection of performance indicators and regional benchmarks for consistently comparing neighborhoods (census block groups) across the US in regards to their accessibility to jobs or workers via public transit service. Accessibility was modeled by calculating total travel time between block group centroids inclusive of walking to/from transit stops, wait times, and transfers. Block groups that can be accessed in 45 minutes or less from the origin block group are considered accessible. Indicators reflect public transit service in December 2012 and employment/worker counts in 2010. Coverage is limited to census block groups within metropolitan regions served by transit agencies who share their service data in a standardized format called GTFS.\"\n<br />\n Quote from https://catalog.data.gov/dataset/access-to-jobs-and-workers-via-transit-download7 and https://www.epa.gov/smartgrowth/smart-location-mapping"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-10-15"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Urban"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Suburban"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nAccess to Jobs and Workers via Transit data was downloaded by Allison James on 2025-02-04"
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "distributorURL": {
+                                    "typeName": "distributorURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.bu.edu/sph/profile/allison-james/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-04"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "James, Allison"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-04"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2012-12-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2012-12-01"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the U.S. EPA and are pasted below: \"The U.S. Government retains a nonexclusive, royalty-free license to publish or\nreproduce these documents, or allow others to do so, for U.S. Government purposes.\nThese documents may be freely distributed and used for non-commercial, scientific\nand educational purposes. Commercial use of the documents available from the EPA\nwebsites may be protected under the U.S. and Foreign Copyright Laws. Individual\ndocuments on the EPA website may have different copyright conditions, and that will\nbe noted in those documents.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Block Group"
+                        ]
+                    },
+                    {
+                        "typeName": "geographicBoundingBox",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "westLongitude": {
+                                    "typeName": "westLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "-138.21454852"
+                                },
+                                "eastLongitude": {
+                                    "typeName": "eastLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "-12.68151645"
+                                },
+                                "northLatitude": {
+                                    "typeName": "northLatitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "61.7110157"
+                                },
+                                "southLatitude": {
+                                    "typeName": "southLatitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "6.65223303"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Environmental Protection Agency"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "1.0"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://catalog.data.gov/dataset/access-to-jobs-and-workers-via-transit-download7"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-04"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Use Constraints: None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated., Access Constraints: None."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Suburban",
+                            "Urban"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Data files in ESRI Geodatabase (.gbd) format.",
+                "label": "SLD_Trans45.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436129,
+                "dataFile": {
+                    "id": 10865403,
+                    "persistentId": "",
+                    "filename": "SLD_Trans45.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 120533254,
+                    "description": "Data files in ESRI Geodatabase (.gbd) format.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d19e112f-6f01bbd1dd81",
+                    "rootDataFileId": -1,
+                    "md5": "f878eb182f72970bfa4d35383936fd8f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f878eb182f72970bfa4d35383936fd8f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Data files in .dbf format.",
+                "label": "SLD_Trans45_DBF.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436129,
+                "dataFile": {
+                    "id": 10865407,
+                    "persistentId": "",
+                    "filename": "SLD_Trans45_DBF.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 8964185,
+                    "description": "Data files in .dbf format.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d19e072a-376dc9ca2c65",
+                    "rootDataFileId": -1,
+                    "md5": "5d64a884f85e00f23ec0fd58c802f45a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5d64a884f85e00f23ec0fd58c802f45a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "PDF of the EPA website containing the data.",
+                "label": "Smart Location Mapping _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436129,
+                "dataFile": {
+                    "id": 10865408,
+                    "persistentId": "",
+                    "filename": "Smart Location Mapping _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 930706,
+                    "description": "PDF of the EPA website containing the data.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d19e1526-b2628d1d7561",
+                    "rootDataFileId": -1,
+                    "md5": "a10fea7d4a9da617e830926d3cde3724",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a10fea7d4a9da617e830926d3cde3724"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Data files in shapefile (.shp) format.",
+                "label": "SLD_Trans45_shp.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436129,
+                "dataFile": {
+                    "id": 10865406,
+                    "persistentId": "",
+                    "filename": "SLD_Trans45_shp.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 253444337,
+                    "description": "Data files in shapefile (.shp) format.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d19e092c-3d3ea34a776f",
+                    "rootDataFileId": -1,
+                    "md5": "aa6d8b60dab13ac73b4ab4ed14323a80",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aa6d8b60dab13ac73b4ab4ed14323a80"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Technical Documentation and Data User Guide.",
+                "label": "sld_trans45_ug_0.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436129,
+                "dataFile": {
+                    "id": 10865405,
+                    "persistentId": "",
+                    "filename": "sld_trans45_ug_0.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1709244,
+                    "description": "Technical Documentation and Data User Guide.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d19e1300-e61ec99f9ef1",
+                    "rootDataFileId": -1,
+                    "md5": "6bcf13f68cd502ba6d89cb7f12f29330",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6bcf13f68cd502ba6d89cb7f12f29330"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "HTML and PDF of website containing the metadata.",
+                "label": "Access to Jobs and Workers via Transit - Download - Catalog.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436129,
+                "dataFile": {
+                    "id": 10865404,
+                    "persistentId": "",
+                    "filename": "Access to Jobs and Workers via Transit - Download - Catalog.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 507592,
+                    "description": "HTML and PDF of website containing the metadata.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d19e0314-4278ca15ce90",
+                    "rootDataFileId": -1,
+                    "md5": "d34d4b14beca596fbdc54d0d8ce42849",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d34d4b14beca596fbdc54d0d8ce42849"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Metadata file.",
+                "label": "metadata.xml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436129,
+                "dataFile": {
+                    "id": 10865409,
+                    "persistentId": "",
+                    "filename": "metadata.xml",
+                    "contentType": "text/xml",
+                    "friendlyType": "XML",
+                    "filesize": 30531,
+                    "description": "Metadata file.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:194d19e052f-ed9e578545a5",
+                    "rootDataFileId": -1,
+                    "md5": "fa16397f059fbb9c4de2d5db27ff07e0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fa16397f059fbb9c4de2d5db27ff07e0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-04",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "EPA website disclaimers",
+                "label": "EPA Disclaimers _ US EPA.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 436129,
+                "dataFile": {
+                    "id": 10897374,
+                    "persistentId": "",
+                    "filename": "EPA Disclaimers _ US EPA.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 97989,
+                    "description": "EPA website disclaimers",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951fcd0e37-899827f699da",
+                    "rootDataFileId": -1,
+                    "md5": "de90bdd8ae95f85060b264b7e8ad6c70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "de90bdd8ae95f85060b264b7e8ad6c70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-19",
+                    "publicationDate": "2025-02-19",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

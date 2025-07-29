@@ -1,0 +1,632 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 433326,
+        "datasetId": 10791074,
+        "datasetPersistentId": "doi:10.7910/DVN/JQOYDI",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/JQOYDI",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:Z0e02MejfgakKOBlvW6+xw==",
+        "lastUpdateTime": "2025-03-25T15:33:58Z",
+        "releaseTime": "2025-03-25T15:33:58Z",
+        "createTime": "2024-12-19T21:32:51Z",
+        "publicationDate": "2025-03-25",
+        "citationDate": "2025-03-25",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Contemporary (1995-2014) and Projected (2041-2060) Heat Hazard and Population Exposure Metrics"
+                    },
+                    {
+                        "typeName": "subtitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Replication Data For: A U.S. heat disaster? Intersection of social vulnerability and temperature extremes exacerbated by mid-century climate change and population shifts"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Popp, Zachary"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0009-0001-7935-5300"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sue Wing, Ian"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-1177-3589"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lane, Kevin"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-1038-6811"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wellenius, Greg"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-0427-7376"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Popp, Zachary"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "zpopp@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data used in \"A U.S. heat disaster? Intersection of social vulnerability and temperature extremes exacerbated by mid-century climate change and population shifts\" [https://iopscience.iop.org/article/10.1088/2752-5309/adb902/meta]. Please see the paper for detailed methodology.\n<br /><br />\nMedian projected acute (95% maximum temperature, hot days (>37.5C)) and chronic (cooling degree days) heat hazard are assessed in contemporary (1995-2014) and projected (2041-2060) epochs across 25+ climate models under three shared socioeconomic pathways (SSP245, SSP370, SSP585) against contemporary social vulnerability index (SVI). We aggregate historical and projected (2050) population at the census tract in addition to various heat measures. The product of heat measures and population is used to estimate population heat exposure.\n<br /><br />\nWe estimate multiple heat hazard metrics across three shared socioeconomic pathways and 32 total global climate models (GCMs). We estimate cooling degree days as the annual average (per epoch) cumulative sum daily average temperature degrees over 24C and 18C thresholds. We estimate hot days as the annual number of days where the daily maximum temperature exceeds 37.5C across epochs, and alternatively as the annual number of days where the daily maximum heat index (derived from temperature and specific humidity) exceed 40C. We estimate the 95th percentile for temperature and heat index. \n<br /><br />\nPopulation heat hazard is estimated by combining heat exposure with population growth projections (Gao et al., 2020). Outputs here are provided at the census tract level for all models, and for the median heat hazard and population heat exposure across models. The median metrics are the main source of data used in the paper."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-28"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Projection"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Extreme Temperatures"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Social Vulnerability Index"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementTo"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://iopscience.iop.org/article/10.1088/2752-5309/adb902/meta"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Popp, Zachary"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-12-19"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1995-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2014-12-31"
+                                }
+                            },
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2041-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2060-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dataSources",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "<b>Population Projections</b><br />\nGao J 2020 Global 1-km Downscaled Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 (NASA Socioeconomic Data and Applications Center (SEDAC))\n<br /><br />\n<b> Social Vulnerability Index</b><br />\nCenters for Disease Control and Prevention Agency for toxic substances and disease registry/ geospatial research A and S program CDC/ATSDR social vulnerability index [2020, 2018, 2016, 2014, 2010, 2000] Database U.S (available at: www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html) (Accessed 26 September 2023)\n<br /><br />\n<b> CMIP6 Models</b><br />\nThrasher B, Wang W, Michaelis A, Melton F, Lee T and Nemani R 2022 NASA global daily downscaled projections, CMIP6 Sci. Data 9 1\u20136 10.1038/s41597-022-01393-4"
+                        ]
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other R-based workflow"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/zpopp/us_heat_svi_pop_proj"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowDocumentation",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "This GitHub repository remains in development."
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Census Tracts"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "CMIP6 Global Climate Models; Social Vulnerability Index; Gao et al., Population Projections at 1km Grid"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "<b>Population Projections</b><br />\nGao J 2020 Global 1-km Downscaled Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 (NASA Socioeconomic Data and Applications Center (SEDAC))\n<br /><br />\n<b> Social Vulnerability Index</b><br />\nCenters for Disease Control and Prevention Agency for toxic substances and disease registry/ geospatial research A and S program CDC/ATSDR social vulnerability index [2020, 2018, 2016, 2014, 2010, 2000] Database U.S (available at: www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html) (Accessed 26 September 2023)\n<br /><br />\n<b> CMIP6 Models</b><br />\nThrasher B, Wang W, Michaelis A, Melton F, Lee T and Nemani R 2022 NASA global daily downscaled projections, CMIP6 Sci. Data 9 1\u20136 10.1038/s41597-022-01393-4"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemName": {
+                                "typeName": "cafeSpatialReferenceSystemName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "North American Datum 1983"
+                            },
+                            "cafeSpatialReferenceSystemURL": {
+                                "typeName": "cafeSpatialReferenceSystemURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://epsg.io/4326"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Vector: Polygons"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Climate Change",
+                            "Extreme Temperatures",
+                            "Projection",
+                            "Social Vulnerability Index"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Median heat hazard, population heat exposure, and population projection measures for all census tracts, by SSP (tabular)",
+                "label": "median_allssp_heatmetrics_population_svi.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 433326,
+                "dataFile": {
+                    "id": 10917020,
+                    "persistentId": "",
+                    "filename": "median_allssp_heatmetrics_population_svi.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 196479490,
+                    "description": "Median heat hazard, population heat exposure, and population projection measures for all census tracts, by SSP (tabular)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954cd21cc0-fad9fbe2796a",
+                    "rootDataFileId": -1,
+                    "md5": "cbdda67159054bc9a6a7cb5b3480f547",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cbdda67159054bc9a6a7cb5b3480f547"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Median heat hazard, population heat exposure, and population projection measures for all census tracts, by SSP (spatial)",
+                "label": "median_allssp_heatmetrics_population_svi.gpkg",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 433326,
+                "dataFile": {
+                    "id": 10917022,
+                    "persistentId": "",
+                    "filename": "median_allssp_heatmetrics_population_svi.gpkg",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 459059200,
+                    "description": "Median heat hazard, population heat exposure, and population projection measures for all census tracts, by SSP (spatial)",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954cd2b89a-c1d0cdc699cd",
+                    "rootDataFileId": -1,
+                    "md5": "0f6e471d44b5fe7f625eb396b33b2b1d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0f6e471d44b5fe7f625eb396b33b2b1d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Heat hazard measures for all census tracts, by SSP for all 32 GCMs used in this analysis",
+                "label": "cmip6_allssp_heatmetrics_svi.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 433326,
+                "dataFile": {
+                    "id": 10917021,
+                    "persistentId": "",
+                    "filename": "cmip6_allssp_heatmetrics_svi.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 2718708210,
+                    "description": "Heat hazard measures for all census tracts, by SSP for all 32 GCMs used in this analysis",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954cd21bf4-5bd4024ea5ab",
+                    "rootDataFileId": -1,
+                    "md5": "11bed993bd5788ba59ca2e26dd1e61cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "11bed993bd5788ba59ca2e26dd1e61cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Heat hazard, population heat exposure, and population projection measures for all census tracts, by SSP for all 32 GCMs used in this analysis",
+                "label": "cmip6_allssp_heatmetrics_population_svi.csv",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 433326,
+                "dataFile": {
+                    "id": 10917023,
+                    "persistentId": "",
+                    "filename": "cmip6_allssp_heatmetrics_population_svi.csv",
+                    "contentType": "text/comma-separated-values",
+                    "friendlyType": "Comma Separated Values",
+                    "filesize": 5716133656,
+                    "description": "Heat hazard, population heat exposure, and population projection measures for all census tracts, by SSP for all 32 GCMs used in this analysis",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954cd21abe-ae46de561b68",
+                    "rootDataFileId": -1,
+                    "md5": "55fc2d7312c15c486fd6fd090a617923",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "55fc2d7312c15c486fd6fd090a617923"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Data dictionary",
+                "label": "Data_Dictionary_USHeatDisaster.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 433326,
+                "dataFile": {
+                    "id": 10921261,
+                    "persistentId": "",
+                    "filename": "Data_Dictionary_USHeatDisaster.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 7101,
+                    "description": "Data dictionary",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1954deeac71-f177354bdb48",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 6923,
+                    "originalFileName": "Data_Dictionary_USHeatDisaster.csv",
+                    "UNF": "UNF:6:Z0e02MejfgakKOBlvW6+xw==",
+                    "rootDataFileId": -1,
+                    "md5": "02526ae5484eabc1cc0acf6a8d4cf20a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "02526ae5484eabc1cc0acf6a8d4cf20a"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-28",
+                    "publicationDate": "2025-03-25",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

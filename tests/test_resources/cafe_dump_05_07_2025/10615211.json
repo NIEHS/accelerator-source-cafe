@@ -1,0 +1,667 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 430055,
+        "datasetId": 10615211,
+        "datasetPersistentId": "doi:10.7910/DVN/BPNZJA",
+        "storageIdentifier": "s3mit://10.7910/DVN/BPNZJA",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2024-10-16",
+        "productionDate": "2014-09-16",
+        "UNF": "UNF:6:Y5HqwT1pH/ocDmKfMPAMpw==",
+        "lastUpdateTime": "2024-10-21T16:57:34Z",
+        "releaseTime": "2024-10-21T16:57:34Z",
+        "createTime": "2024-10-15T14:33:21Z",
+        "publicationDate": "2024-10-21",
+        "citationDate": "2024-10-21",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Mexico OpenStreetMap Road Length Sums and Intersection Counts by Municipality"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "James, Allison"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0009-0001-4418-9322"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Popp, Zachary"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0009-0001-7935-5300"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lane, Kevin"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-1038-6811"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "James, Allison"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "alliej@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Road length sums were calculated at Mexico's municipality level using road shapefiles from OpenStreetMap, downloaded from Geofabrik. Municipality shapefiles were downloaded from GADM. Both total road length and road length by road type (e.g. highway, local street) are included. Number of intersections are calculated by counting the each intersection of a road line segment with another road."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-10-15"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Carbon Dioxide (CO2)"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Justice"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Exposure Assessment"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Infrastructure"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "producer",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "producerName": {
+                                    "typeName": "producerName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE RCC"
+                                },
+                                "producerAffiliation": {
+                                    "typeName": "producerAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "producerURL": {
+                                    "typeName": "producerURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://climatehealthcafe.org/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2014-09-16"
+                    },
+                    {
+                        "typeName": "productionPlace",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Boston University"
+                        ]
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorType": {
+                                    "typeName": "contributorType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Data Collector"
+                                },
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "James, Allison"
+                                }
+                            },
+                            {
+                                "contributorType": {
+                                    "typeName": "contributorType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Editor"
+                                },
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Popp, Zachary"
+                                }
+                            },
+                            {
+                                "contributorType": {
+                                    "typeName": "contributorType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Supervisor"
+                                },
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lane, Kevin"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "grantNumber",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "grantNumberAgency": {
+                                    "typeName": "grantNumberAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NIEHS"
+                                },
+                                "grantNumberValue": {
+                                    "typeName": "grantNumberValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U24ES035309"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-10-16"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "James, Allison"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-10-15"
+                    },
+                    {
+                        "typeName": "dateOfCollection",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dateOfCollectionStart": {
+                                    "typeName": "dateOfCollectionStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-09-16"
+                                },
+                                "dateOfCollectionEnd": {
+                                    "typeName": "dateOfCollectionEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-09-16"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Observational data"
+                        ]
+                    },
+                    {
+                        "typeName": "software",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "softwareName": {
+                                    "typeName": "softwareName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "R"
+                                },
+                                "softwareVersion": {
+                                    "typeName": "softwareVersion",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "4.4.1"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dataSources",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "\"Download GADM data (version 4.1).\" (n.d.). GADM. https://gadm.org/download_country.html\n\n\"Mexico.\" (n.d.). Geofabrik download server. https://download.geofabrik.de/north-america/mexico.html\n\nTopf, F (2009). \"OpenStreetMap Data in Layered GIS Format.\" Geofabrik. \nhttps://www.geofabrik.de/data/geofabrik-osm-gis-standard-0.3.pdf"
+                        ]
+                    },
+                    {
+                        "typeName": "characteristicOfSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Shapefile"
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Data sources are both open-access and free to download from Geofabrik and GADM."
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "R Notebook",
+                            "Bash Script"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/Climate-CAFE/openstreetmap_road_length"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Mexico"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicUnit",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Municipality"
+                        ]
+                    },
+                    {
+                        "typeName": "geographicBoundingBox",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "westLongitude": {
+                                    "typeName": "westLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "-118.36648"
+                                },
+                                "eastLongitude": {
+                                    "typeName": "eastLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "-86.71074"
+                                },
+                                "northLatitude": {
+                                    "typeName": "northLatitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "32.71863"
+                                },
+                                "southLatitude": {
+                                    "typeName": "southLatitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "14.53507"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Mexico"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "OpenStreetMap"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Geofabrik"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://download.geofabrik.de/north-america/mexico.html"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-10-15"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-09-16"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Observational data (incl. wx stations and AQ monitors)"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Mexico_OSM_Roads_Sum_Length_GADM.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 430055,
+                "dataFile": {
+                    "id": 10615212,
+                    "persistentId": "",
+                    "filename": "Mexico_OSM_Roads_Sum_Length_GADM.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 304867,
+                    "storageIdentifier": "s3mit://dvn-cloud:192909788f7-bdf7b22b66bc",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 304885,
+                    "originalFileName": "Mexico_OSM_Roads_Sum_Length_GADM.csv",
+                    "UNF": "UNF:6:Y5HqwT1pH/ocDmKfMPAMpw==",
+                    "rootDataFileId": -1,
+                    "md5": "4d72acfb139bdd3efe7d6a504367724e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4d72acfb139bdd3efe7d6a504367724e"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-10-15",
+                    "publicationDate": "2024-10-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Contains data dictionary",
+                "label": "-README_OSM_Roads_Mexico.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 430055,
+                "dataFile": {
+                    "id": 10620293,
+                    "persistentId": "",
+                    "filename": "-README_OSM_Roads_Mexico.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 6020,
+                    "description": "Contains data dictionary",
+                    "storageIdentifier": "s3mit://dvn-cloud:19295bd7fed-2f9a8cdbe14c",
+                    "rootDataFileId": -1,
+                    "md5": "501b2bc73e682055f2894ace580dfa7d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "501b2bc73e682055f2894ace580dfa7d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-10-16",
+                    "publicationDate": "2024-10-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,237 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 128903,
+        "datasetId": 3053911,
+        "datasetPersistentId": "doi:10.7910/DVN/MTTQXI",
+        "storageIdentifier": "s3://10.7910/DVN/MTTQXI",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-21T20:02:40Z",
+        "releaseTime": "2025-04-21T20:02:40Z",
+        "createTime": "2017-09-25T13:19:48Z",
+        "publicationDate": "2025-04-21",
+        "citationDate": "2025-04-21",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Employed and unemployed full- and part-time workers by age, sex, race, and HIspanic or Latino ethnicity"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bureau of Labor Statistics"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support@dataverse.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Employment status of the Hispanic or Latino population by age and sex. Data obtained from Labor Force Statistics from the Current Population Survey. Table 4 for entire range of dates (2016-2007); as well as Table 6 for 2015 and Table 8 for 2016."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Employment"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NRP"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SDGs"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sustainable Development"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Labor supply"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LCSH-FAST"
+                                },
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://fast.oclc.org/searchfast/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "O'Brien, Karen"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2017-09-25"
+                    }
+                ]
+            },
+            "socialscience": {
+                "displayName": "Social Science and Humanities Metadata",
+                "name": "socialscience",
+                "fields": [
+                    {
+                        "typeName": "unitOfAnalysis",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "population by age, sex, race, ethnicity"
+                        ]
+                    },
+                    {
+                        "typeName": "universe",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Workers"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "d3359097-f396-4d64-8e96-e0344a45b1e3.json",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 128903,
+                "dataFile": {
+                    "id": 3056285,
+                    "persistentId": "",
+                    "filename": "d3359097-f396-4d64-8e96-e0344a45b1e3.json",
+                    "contentType": "application/json",
+                    "friendlyType": "JSON",
+                    "filesize": 1237,
+                    "storageIdentifier": "s3://dvn-cloud:15ef30afa30-8701406c1fec",
+                    "rootDataFileId": -1,
+                    "md5": "2d3c81a5c4a44a97babfe3f2b8a35c25",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d3c81a5c4a44a97babfe3f2b8a35c25"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2017-10-06",
+                    "publicationDate": "2025-04-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

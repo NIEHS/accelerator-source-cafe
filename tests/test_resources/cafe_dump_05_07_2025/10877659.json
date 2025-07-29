@@ -1,0 +1,257 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443891,
+        "datasetId": 10877659,
+        "datasetPersistentId": "doi:10.17603/DS2-2XMJ-PM42",
+        "storageIdentifier": "s3://10.17603/ds2-2xmj-pm42",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:00:28Z",
+        "releaseTime": "2025-05-05T12:14:17Z",
+        "createTime": "2025-05-06T23:00:28Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "East Africa Cyclone Flooding - Tanzania in East Africa Cyclone Flooding - Tanzania"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3998"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ouma, Lorine"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Obonyo, Esther"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zdebski, Jaqueline"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dedinsky, Karen"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mhina, Given"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Populations residing in low-lying coastal areas face extensive risk of damage to housing and infrastructure due to flooding. Low-income households are subjected to three times the risks of damage and more than twice the level of vulnerability to flooding. The East African coast is currently experiencing heightened flood-related damages due to the ongoing coastal cyclones, extreme rainfall, and storms. The damage is exacerbated by the lack of sufficient data to inform research and planning for disaster resilience measures. This project aimed to understand the level of vulnerability of coastal housing and infrastructure to flooding and coastal storms to support the assessment of the extent of vulnerability of housing structures in low-lying coastal contexts within the East African Coast. We collected data to achieve this goal by mapping the current extent of housing damage and features of structures exposed to future flooding along the coastal areas of Dar es Salaam, Tanzania. This study was part of the larger Belmont Forum research project led by Dr. Esther Obonyo from The Pennsylvania State University and Dr. Given Mhina from Ardhi University. This specific Graduate Scholar research project sought to understand the vulnerability of housing structures based on their proximity to hazard sources and walling material types. The output from this mapping exercise provides a rich source of 360 imaging data, RAPP images, and 3D models of damage to housing and infrastructure subjected to intensive flooding along the East African Coast. The data can support further research in civil engineering, housing and infrastructure, and environmental vulnerabilities in the covered areas. The data can further inform recommendations for material options that can perform better in flood-prone coastal areas in East Africa. It can also support social science research by linking the current condition of housing in communities exposed to flooding with other societal impacts of extreme flooding. The upcoming output of this study will contribute to research on coastal flood-resilient construction and inform the development of building codes in this area. The accompanying Hazmapper map displays subsampled point clouds; please download the full point cloud files for analysis."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Three communities in Dar es Salaam, significantly impacted by previous flooding events, were selected for the data collection exercise. Kigogo, a community adjacent to the Msimbazi River, Kawe settlement area, and Lower Mbezi settlement area. The data collection employed three main methods: 360 street view imaging to map the housing typologies and the proximity of these structures and infrastructure to the sources of hazards, such as rivers and the Indian Ocean; RAPID\u2019s data collection application (RAPP) for up-close photographic imaging of damaged structures; and 3D point cloud imaging to facilitate reconstruction of 3D models of damaged housing structures and infrastructure. The point cloud data was collected in Kawe. The data collection exercise revealed the prevalence of masonry and concrete structures in the three areas. Although these structures can withstand the storms and floods, multiple events have resulted in erosion of the soil supporting the foundations of these houses, compromising the strength and ability to withstand future flooding.  Structures in areas of high flood intensity were seen to have experienced structural damage such as extensive cracks, damaged roofing, partial foundation and envelope (walling) failures or collapse, and significant efflorescence. The drainage systems in these settlement areas were also significantly impacted during the flooding events, leading to the build-up of waste along the riverbanks or ocean fronts."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "cyclone"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "flood"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "UW RAPID Facility"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tanzania"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ardhi University, Dar es Salaam, Tanzania"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Penn State University (psu.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington (washington.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RAPID - Natural Hazard and Disasters Reconnaissance Facility - University of Washington"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/Tanzania"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

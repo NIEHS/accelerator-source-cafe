@@ -1,0 +1,346 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 425168,
+        "datasetId": 5810567,
+        "datasetPersistentId": "doi:10.7910/DVN/L7YF2G",
+        "storageIdentifier": "s3://10.7910/DVN/L7YF2G",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:wxOArbL7aAjUs5Ezcu5EFg==",
+        "lastUpdateTime": "2024-07-31T02:08:43Z",
+        "releaseTime": "2024-07-31T02:08:43Z",
+        "createTime": "2024-07-31T02:03:02Z",
+        "publicationDate": "2022-02-03",
+        "citationDate": "2022-02-03",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Synthetic Medicare Data for Environmental Health Studies"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Khoshnevis, Naeem"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-4315-1426"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Wu, Xiao"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Stanford University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-4884-657X"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Braun, Danielle"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-5177-8598"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Khoshnevis, Naeem"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "nkhoshnevis@fas.harvard.edu"
+                                }
+                            },
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dominici, Francesca"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "fdominic@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "We present a synthetic medicare claims dataset linked to environmental exposures and potential confounders. In most environmental health studies relying on claims data, data restrictions exist and the data cannot be shared publicly. Centers for Medicare and Medicaid services (CMS) has generated synthetic publicly available Medicare claims data for 2008-2010.  In this dataset, we link the 2010 synthetic Medicare claims data to environmental exposures and potential confounders. \nWe aggregated the Medicare claims synthetic data for 2010 to the county level. Data is compiled for the contiguous United States, which in 2010, included 3109 counties. We merged the Medicare claims synthetic data with  air pollution exposure data, more specifically with estimates of \ud835\udc43\ud835\udc402.5 exposures obtained from  Di et al., 2019, 2021, which provided daily and annual estimates of PM2.5 exposure at 1 km\u00d71 km grid cells in the contiguous United States. We use Census Bureau (United States Census Bureau, 2021), the Center for Disease Control (Centers for Disease Control and Prevention (CDC), 2021), and GridMET (Abatzoglou, 2013) to obtain data on potential confounders. The mortality rate, as the outcome, was computed using the synthetic Medicare data (CMS, 2021). We use the average of surrounding counties to impute missing observations, except in the case of the CDC confounders, where we imputed missing values by generating a normal distribution for each state and randomly imputing from this distribution. The steps for generating the merged dataset are provided at NSAPH Synthetic Data Github Repository (https://github.com/NSAPH/synthetic_data). Analytic inferences based on this synthetic dataset should not be made. The aggregated dataset is composed of 46 columns and 3109 rows."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-02-03"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Health"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Medicare Claims Data"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Air Pollution"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mortality Rate"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Causal Inference"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Contiguous United States"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "<b>References:</b>\n\n<br> Abatzoglou, John T. 2013. \u201cDevelopment of Gridded Surface Meteorological Data for Ecological Applications and Modelling.\u201d International Journal of Climatology 33 (1): 121\u201331. https://doi.org/10.1002/joc.3413.       \n\n<br> Centers for Disease Control and Prevention. 2021. \u201cBehavioral Risk Factor Surveillance System.\u201dhttps://www.cdc.gov/brfss/annual_data/annual_2010.htm.     \n      \n<br> Centers for Medicare & Medicaid Services. 2021. \u201cCMS 2008-2010 Data Entrepreneurs\u2019 Synthetic Public Use File (DE-SynPUF).\u201d https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/DE_Syn_PUF.     \n      \n<br> Di, Qian, Heresh Amini, Liuhua Shi, Itai Kloog, Rachel Silvern, James Kelly, M Benjamin Sabath, et al. 2019. \u201cAn Ensemble-Based Model of Pm2. 5 Concentration Across the Contiguous United States with High Spatiotemporal Resolution.\u201d Environment International 130: 104909. https://doi.org/10.1016/j.envint.2019.104909.    \n      \n<br> Di, Qian, Yaguang Wei, Alexandra Shtein, Carolynne Hultquist, Xiaoshi Xing, Heresh Amini, Liuhua Shi, et al. 2021. \u201cDaily and Annual Pm2.5 Concentrations for the Contiguous United States, 1-Km Grids, V1 (2000 - 2016).\u201d NASA Socioeconomic Data; Applications Center (SEDAC). https://doi.org/10.7927/0rvr-4538.    \n      \n<br> United States Census Bureau. 2021. \u201cCartographic Boundary Files - Shapefile.\u201dhttps://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.2010.html."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Khoshnevis, Naeem"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2022-02-03"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Study_dataset_2010.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425168,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 5810568,
+                    "persistentId": "",
+                    "filename": "Study_dataset_2010.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 2117864,
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3://dvn-cloud:17ec0fe908b-dd9c34001b3a",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 2130392,
+                    "originalFileName": "Study_dataset_2010.csv",
+                    "UNF": "UNF:6:wxOArbL7aAjUs5Ezcu5EFg==",
+                    "rootDataFileId": -1,
+                    "md5": "00be68c5aab1c5466935037f8713def0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "00be68c5aab1c5466935037f8713def0"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2022-02-03",
+                    "publicationDate": "2022-02-03",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

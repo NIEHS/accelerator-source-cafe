@@ -1,0 +1,737 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437419,
+        "datasetId": 10887062,
+        "datasetPersistentId": "doi:10.7910/DVN/KHZH41",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/KHZH41",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "distributionDate": "2025-03-07",
+        "lastUpdateTime": "2025-03-07T15:37:16Z",
+        "releaseTime": "2025-03-07T15:37:16Z",
+        "createTime": "2025-02-14T21:44:55Z",
+        "publicationDate": "2025-03-07",
+        "citationDate": "2025-03-07",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Comprehensive PFAS Dashboard"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Environmental Protection Agency"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Health Assessment Workspace Collaborative (HAWC)"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. EPA"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form.\n <br />\nIf you have questions about the underlying data stored here, please contact EPA HAWC via the following form at: https://www.epa.gov/risk/forms/contact-us-about-risk-assessment. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n <br />\n\"The Comprehensive Per and Polyfluoroalkyl Substances (PFAS) Dashboard compiles information from various publicly available PFAS human health assessment products published by the United States Environmental Protection Agency during the past several years (since 2019). By compiling these extractions into one dashboard, we hope to facilitate efforts to evaluate the potential human health effects of PFAS across the class.\" Quote from: https://public.tableau.com/app/profile/literature.inventory/viz/ComprehensivePFASEvidenceMapVisualizations/ReadMe"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-03-06"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Health"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Health Hazard"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PFBA (2022): \u201cIRIS Toxicological Review of Perfluorobutanoic Acid (PFBA, CASRN 375-22-4) and Related Salts\u201d\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/10692791)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PFHxA (2022): \u201cIRIS Toxicological Review of Perfluorohexanoic Acid [PFHxA, CASRN 307-24-4] and Related Salts\u201d (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11133619)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PFDA (2023): \u201cIRIS Toxicological Review of Perfluorodecanoic Acid [PFDA, CASRN 335-76-2] and Related Salts\u201d (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11830815)"
+                                }
+                            },
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PFHxS (2023): \u201cIRIS Toxicological Review of Perfluorohexanesulfonic Acid (PFHxS, CASRN 335-46-4) and Related Salts\u201d (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/12336103)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PFNA (2024): \u201cDRAFT IRIS Toxicological Review of Perfluorononanoic Acid (PFNA, CASRN 375-95-1) and Related Salts\u201d (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11396305)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from \u201cHuman Health Toxicity Values for Perfluorobutane Sulfonic Acid (CASRN 375-73-5) and Related Compound Potassium Perfluorobutane Sulfonate (CASRN 29420-49-3)\u201d developed by the U.S. EPA Office of Research and Development (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/7310530)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from \u201cORD Human Health Toxicity Value for Perfluoropropanoic Acid (PFPrA) (CASRN 422-64-0| DTXSID8059970)\u201d developed by the U.S. EPA Office of Research and Development (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11311301)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from \u201cORD Human Health Toxicity Value for Lithium bis [(trifluoromethyl)sulfonyl]azanide (HQ-115) CASRN 90076-65-6|DTXSID8044468) (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11311313)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from \u201cORD Human Health Toxicity Value for 6:2 Fluorotelomer sulfonic acid (CASRN 27619-97-2| DTXSID6067331) (https://heronet.epa.gov/heronet/index.cfm/reference/details/reference_id/12179829)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from \u201cHuman Health Toxicity Assessment for Perfluorooctanoic Acid (FOA) and Related Salts\u201d and\n\u201cHuman Health Toxicity Assessment for Perfluorooctane Sulfonic Acid (PFOS) and Related Salts \u201d developed by the U.S. EPA Office of Water (OW) (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11350934) and (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11350937 )"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from \u201cHuman Health Toxicity Values for Hexafluoropropylene Oxide (HFPO) Dimer Acid and Its Ammonium Salt (CASRN 13252-13-6 and CASRN 62037-80-3) Also Known as \u201cGenX Chemicals\u201d prepared by the U.S. EPA Office of Water (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/9960186)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from the literature inventory stage of the publications \u201cSystematic Evidence Map for\nOver One Hundred and Fifty Per- and Polyfluoroalkyl Substances (PFAS)\u201d and \u201cEpidemiology Evidence for Health Effects of 150 Per- and Polyfluoroalkyl Substances: A Systematic Evidence Map\u201d and \u201cErratum: \u201cSystematic Evidence Map for over One Hundred and Fifty Per- and Polyfluoroalkyl Substances (PFAS)\u201d (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/9630647) and (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/8632357)"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Cites"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from the literature inventory stage of the publication \u201cExpanded Systematic Evidence Map for Additional Hundreds of Per- and Polyfluoroalkyl Substances (PFAS)\u201d (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11143010)"
+                                }
+                            },
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Data extractions from the literature inventory stage of the draft publication (under review) \u201cSystematic Evidence Map for the Per- and Polyfluoroalkyl Substances (PFAS) Universe\u201d. (https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11779542)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nComprehensive PFAS Dashboard data was downloaded by Hannah Hunt on February 14, 2025"
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-07"
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Hunt, Hannah"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2019-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-11-26"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the EPA and are pasted below: \"The U.S. Government retains a nonexclusive, royalty-free license to publish or\nreproduce these documents, or allow others to do so, for U.S. Government purposes.\nThese documents may be freely distributed and used for non-commercial, scientific\nand educational purposes. Commercial use of the documents available from the EPA\nwebsites may be protected under the U.S. and Foreign Copyright Laws. Individual\ndocuments on the EPA website may have different copyright conditions, and that will\nbe noted in those documents.\""
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Comprehensive PFAS Dashboard"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Environmental Protection Agency"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Environmental Protection Agency"
+                    },
+                    {
+                        "typeName": "cafeSourceDataVersionNumber",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "November 26, 2024 Update"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://hawc.epa.gov/summary/visual/assessment/100500256/Comprehensive-PFAS-Dashboard/"
+                    },
+                    {
+                        "typeName": "cafeSourceDataLastModifiedDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-11-26"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Tableau Dashboard"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The Comprehensive Per and Polyfluoroalkyl Substances (PFAS)\nDashboard compiles information from various publicly available PFAS\nhuman health assessment products published by the United States\nEnvironmental Protection Agency during the past several years (since\n2019). By compiling these extractions into one dashboard, we hope to\nfacilitate efforts to evaluate the potential human health effects of PFAS\nacross the class.\n\nThe following is a list of the publicly available U.S. EPA PFAS projects\nincluded in the Comprehensive PFAS Dashboard. Data extractions\nincluded in this project were conducted as part of their respective parent\nprojects and additional information has only been extracted where\nnecessary to harmonize the extractions across projects. As a result of\neach project\u2019s unique goals, there may be inconsistencies in the way\nsome data are presented (e.g. sex was not extracted for human studies in\nsome parent projects, studies across multiple generations were labeled\n\u201cmultigenerational\u201d in some parent projects and \u201creproductive\u201d in others).\nSimilarly, some chemicals were included in more than one project. The\nparenthetical dates indicate the date of the last literature search for\nchemicals included in the parent project. NOTE: The dashboard includes\ninformation on PFAS for which PECO-relevant literature was found.\nHowever, there are many PFAS for which no relevant literature was\nidentified at the time of the last literature search. Additional PFAS\nliterature may have become available following the last literature search\ndate indicated for the projects below. For a full list of PFAS that are\nincluded in the literature searches that inform the various projects\nincluded in the Comprehensive PFAS Dashboard, please see the\n\u201cChemical Lists\u201d tab. Expansion, curation, and verification of the evidence\nmap content is an ongoing process. Updates or revisions are recorded in\nchangelogs on the respective HAWC project pages\n(https://hawc.epa.gov/).\n\n\u00a7 IRIS (2022-2024): Data extractions from three of five PFAS (listed below) for which\na public comment draft or final Integrated Risk Information System (IRIS)\nToxicological Review has been released by the U.S. EPA Office of Research and\nDevelopment (ORD)\n\u00a7 PFBA (2022): \u201cIRIS Toxicological Review of Perfluorobutanoic Acid (PFBA,\nCASRN 375-22-4) and Related Salts\u201d\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/10692791)\n\u00a7 PFHxA (2022): \u201cIRIS Toxicological Review of Perfluorohexanoic Acid [PFHxA,\nCASRN 307-24-4] and Related Salts\u201d\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11133619)\n\u00a7 PFDA (2024): \u201cIRIS Toxicological Review of Perfluorodecanoic Acid [PFDA,\nCASRN 335-76-2] and Related Salts\u201d\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11830815)\n\u00a7 PFHxS (2023): \u201cDRAFT IRIS Toxicological Review of Perfluorohexanesulfonic\nAcid (PFHxS, CASRN 335-46-4) and Related Salts\u201d\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11311300)\n\u00a7 PFNA (2024): \u201cDRAFT IRIS Toxicological Review of Perfluorononanoic Acid\n(PFNA, CASRN 375-95-1) and Related Salts\u201d\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11396305)\n\u00a7 ORD Assessment (Apr 2021): Data extractions from \u201cHuman Health Toxicity\nValues for Perfluorobutane Sulfonic Acid (CASRN 375-73-5) and Related\nCompound Potassium Perfluorobutane Sulfonate (CASRN 29420-49-3)\u201d\ndeveloped by the U.S. EPA Office of Research and Development\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/7310530)\n\u00a7 ORD Assessment (Dec 2021): Data extractions from \u201cORD Human Health\nToxicity Value for Perfluoropropanoic Acid (PFPrA) (CASRN 422-64-0|\nDTXSID8059970)\u201d developed by the U.S. EPA Office of Research and\nDevelopment\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11311301)\n\n\u00a7 ORD Assessment (Nov 2022): Data extractions from \u201cORD Human Health\nToxicity Value for Lithium bis [(trifluoromethyl)sulfonyl]azanide (HQ-115) CASRN\n90076-65-6|DTXSID8044468)\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11311313)\n\u00a7 OW Assessment (Feb 2023): Data extractions from \u201cHuman Health Toxicity\nAssessment for Perfluorooctanoic Acid (FOA) and Related Salts\u201d and \u201cHuman\nHealth Toxicity Assessment for Perfluorooctane Sulfonic Acid (PFOS) and Related\nSalts\u201d developed by the U.S. EPA Office of Water (OW)\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11350934) and\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11350937)\n\u00a7 Note: All studies were tagged to the acid forms of PFOA and PFOS (CASRNs\n335-67-1 and 1763-23-1, respectively) regardless of whether the acid or related\nsalt was studied. In addition, the scope of the systematic review for these\ntoxicity assessments was focused on health effects outcomes with the\nstrongest weight of evidence and, therefore, may not encompass literature\nresults for all health effects outcomes.\n\u00a7 OW Assessment (Oct 2021): Data extractions from \u201cHuman Health Toxicity\nValues for Hexafluoropropylene Oxide (HFPO) Dimer Acid and Its Ammonium Salt\n(CASRN 13252-13-6 and CASRN 62037-80-3) Also Known as \u201cGenX Chemicals\u201d\nprepared by the U.S. EPA Office of Water\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/9960186)\n\u00a7 Note: All studies were tagged to the acid form (CASRN 13252-13-6) regardless\nof whether the acid or ammonium salt was studied\n\u00a7 PFAS 150 Evidence Map Publications (Dec 2021): Data extractions from the\nliterature inventory stage of the publications \u201cSystematic Evidence Map for Over\nOne Hundred and Fifty Per- and Polyfluoroalkyl Substances (PFAS)\u201d and\n\u201cEpidemiology Evidence for Health Effects of 150 Per- and Polyfluoroalkyl\nSubstances: A Systematic Evidence Map\u201d and \u201cErratum: \u201cSystematic Evidence\nMap for over One Hundred and Fifty Per- and Polyfluoroalkyl Substances (PFAS)\u201d\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/9630647) and\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/8632357)\n\n\u00a7 Expanded PFAS Evidence Map Publication (Dec 2022): Data extractions from\nthe literature inventory stage of the publication \u201cExpanded Systematic Evidence\nMap for Additional Hundreds of Per- and Polyfluoroalkyl Substances (PFAS)\u201d\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11143010)\n\u00a7 PFAS Universe Evidence Map Publication (Dec 2022): Data extractions from\nthe literature inventory stage of the draft publication (under review) \u201cSystematic\nEvidence Map for the Per- and Polyfluoroalkyl Substances (PFAS) Universe\u201d. This\nis a preliminary draft for review purposes only. The views expressed in this article\nare those of the author(s) and do not necessarily represent the views or policies of\nthe U.S. Environmental Protection Agency.\n(https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/11779542)\nIf resourcing allows, this dashboard will be updated as additional U.S. EPA PFAS\nprojects are made publicly available, or as projects included within the Dashboard are\nrevised or updated."
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Mention of or referral to commercial products or services, and/or links to non-EPA sites does not imply official EPA endorsement of or responsibility for the opinions, ideas, data, or products presented at those locations, or guarantee the validity of the information provided. Mention of commercial products/services on non-EPA websites is provided solely as a pointer to information on topics related to environmental protection that may be useful to EPA staff and the public."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Environmental Health",
+                            "Health",
+                            "Health Hazard"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Comprehensive PFAS Dashboard _ Visualizations _ ORD SEM Expanded PFAS (2024) _ HAWC.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437419,
+                "dataFile": {
+                    "id": 10887067,
+                    "persistentId": "",
+                    "filename": "Comprehensive PFAS Dashboard _ Visualizations _ ORD SEM Expanded PFAS (2024) _ HAWC.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 217307,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950660b39c-df13c3a9f218",
+                    "rootDataFileId": -1,
+                    "md5": "68307688ea26bdedee4ddb3a5949a31d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "68307688ea26bdedee4ddb3a5949a31d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Comprehensive PFAS Evidence Map Visualizations _ Tableau Public.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437419,
+                "dataFile": {
+                    "id": 10887064,
+                    "persistentId": "",
+                    "filename": "Comprehensive PFAS Evidence Map Visualizations _ Tableau Public.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 2110051,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950661a52f-b0116b14fad4",
+                    "rootDataFileId": -1,
+                    "md5": "588eae1bb44a3b777cea3daa4ef639f3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "588eae1bb44a3b777cea3daa4ef639f3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Comprehensive PFAS Evidence Map Visualizations _ Tableau Public.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437419,
+                "dataFile": {
+                    "id": 10887065,
+                    "persistentId": "",
+                    "filename": "Comprehensive PFAS Evidence Map Visualizations _ Tableau Public.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 1197,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950661a35b-f70f6f91909b",
+                    "rootDataFileId": -1,
+                    "md5": "7a60c01c7e4c19c107e80189b6e86731",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7a60c01c7e4c19c107e80189b6e86731"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Comprehensive PFAS Evidence Map Visualizations_v2024.2.twbx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437419,
+                "dataFile": {
+                    "id": 10887066,
+                    "persistentId": "",
+                    "filename": "Comprehensive PFAS Evidence Map Visualizations_v2024.2.twbx",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 4313389,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950661be29-0c3426f5294c",
+                    "rootDataFileId": -1,
+                    "md5": "06da036b63bbbd6eb9585e9cc2a4f55d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "06da036b63bbbd6eb9585e9cc2a4f55d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Comprehensive PFAS Dashboard _ Visualizations _ ORD SEM Expanded PFAS (2024) _ HAWC.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437419,
+                "dataFile": {
+                    "id": 10887063,
+                    "persistentId": "",
+                    "filename": "Comprehensive PFAS Dashboard _ Visualizations _ ORD SEM Expanded PFAS (2024) _ HAWC.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 37463,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1950660b21e-6a22ebb65a1f",
+                    "rootDataFileId": -1,
+                    "md5": "f02cb4a7a2f22d4e75bc4a5119d2d5b2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f02cb4a7a2f22d4e75bc4a5119d2d5b2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "DataSources2.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437419,
+                "dataFile": {
+                    "id": 10957519,
+                    "persistentId": "",
+                    "filename": "DataSources2.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 33273,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195713fee7c-4b2c8e8fedc0",
+                    "rootDataFileId": -1,
+                    "md5": "a5a445ed6b6e54e7db692793caac0edc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a5a445ed6b6e54e7db692793caac0edc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-07",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ReadMe.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437419,
+                "dataFile": {
+                    "id": 10957518,
+                    "persistentId": "",
+                    "filename": "ReadMe.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 87347,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195713fef48-c35d59f7474c",
+                    "rootDataFileId": -1,
+                    "md5": "1dff5a8fa367637f202546f8c272a806",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1dff5a8fa367637f202546f8c272a806"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-07",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "DataSources1.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437419,
+                "dataFile": {
+                    "id": 10957517,
+                    "persistentId": "",
+                    "filename": "DataSources1.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 39211,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195713fed4b-0a02e63d5211",
+                    "rootDataFileId": -1,
+                    "md5": "0fc3f36f1a5d7b0a59f897ddc68ae561",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0fc3f36f1a5d7b0a59f897ddc68ae561"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-07",
+                    "publicationDate": "2025-03-07",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

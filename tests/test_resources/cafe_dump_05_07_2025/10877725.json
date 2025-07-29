@@ -1,0 +1,353 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443984,
+        "datasetId": 10877725,
+        "datasetPersistentId": "doi:10.17603/DS2-DB3H-GY28",
+        "storageIdentifier": "s3://10.17603/ds2-db3h-gy28",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "",
+        "lastUpdateTime": "2025-05-06T23:18:50Z",
+        "releaseTime": "2025-05-05T12:13:45Z",
+        "createTime": "2025-05-06T23:18:50Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Household Survey Instrument, January 19, 2018: Wave 2 in A Longitudinal Community Resilience Focused Technical Investigation of the Lumberton, North Carolina Flood of 2016"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-2656"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sutley, Elaina"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dillard, Maria"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Hamideh, Sara"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Peacock, Walter"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tobin, Jennifer"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Peek, Lori"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Seong, Kijin"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Barbosa, Andre"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tomiczek, Tori"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "van de Lindt, John"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gu, Donghwan"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This collection archives instruments and planning materials related to the household survey for Wave 2 of the Lumberton, NC Field Study in support of on-going research in the Center for Risk-Based Community Resilience Planning, a NIST-funded Center of Excellence, including modeling efforts on housing damage, household dislocation, household relocation, and housing repair and recovery in place. Continuing the work from Wave 1, the survey collected data through determinations made by the interviewing team or on the basis of information obtained from surrounding neighbors, property managers (or some other source), or adult members of the occupying household. Specific goals for Wave 2 were (1) Fill in missing information on initial damage not captured during Wave 1; (2) Gain better documentation on how long it took households to repair their homes considering different initial damage levels, income levels, available recovery resources, and socio-demographic characteristics; (3) Better understand what interdependent infrastructures and services were considered in the households\u2019 decision to return to their home; and (4) Obtain household-level data on a range of factors that are expected to influence housing recovery, including incoming financial resources."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "In early October 2016, Hurricane Matthew crossed North Carolina as a Category 1 storm, with some areas receiving 0.38 m to 0.46 m (15 to 18 in) of rainfall on already saturated soil. The National Institute of Standards and Technology (NIST) funded Center for Risk-Based Community Resilience Planning, teamed with researchers from NIST\u2019s Engineering Laboratory (Disaster and Failure Studies Program, Community Resilience Group, and the Applied Economics Office) to conduct a quick response field study to document the initial damage and disruption in the small city of Lumberton, NC caused by the flooding they experienced from the Lumber River. Lumberton is a racially diverse community with higher than average poverty and unemployment rates, a typical civil infrastructure for a city of 22,000 residents, and possesses a small-community structured governance. The November 2016 field study was the first of a series in a longitudinal study to document and better understand the impact that the riverine flooding had on Lumberton and its subsequent recovery. This type of longitudinal research is critical to better understand community resilience and ultimately provide data and insight into making U.S. communities more resilient to natural hazards.  This research is the first application of a combined engineering-social science field study protocol that provides a quantitative linkage between flood damage and socioeconomics, including race, ethnicity, income, tenancy status, and education level. The planning documents archived comprise the field study\u2019s housing unit-level surveys \u2014 including the damage-based and household disruption-based field study instruments \u2014 and business-level surveys for each wave of data collection in the longitudinal study. Material collected are designed to support the Interdependent Networked Community Resilience Modeling Environment (IN-CORE). IN-CORE is the primary deliverable of the Center for Risk-Based Community Resilience Planning a NIST-funded Center of Excellence. For more details visit http://resilience.colostate.edu/in_core.shtml  The perishable nature of natural hazards research requires that teams can quickly organize their efforts before entering the field. This archive is designed to help future research teams with example documents that may help reduce the amount of time needed to invest in project development.  This archive does not contain Personally Identifiable Information."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "field research planning"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "community resilience"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "longitudinal"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "survey instruments"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "sample frame"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "IRB documents"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "N/A"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Stony Brook University (SUNY Stony Brook)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Oregon State University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Colorado State University (CSU)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "United States Naval Academy (USNA) (Annapolis)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Institute of Standards and Technology (NIST)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Colorado Boulder"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Texas A&M University (TAMU)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Kansas (KU)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Report"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

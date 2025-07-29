@@ -1,0 +1,1793 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437775,
+        "datasetId": 10898053,
+        "datasetPersistentId": "doi:10.7910/DVN/72Y0TY",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/72Y0TY",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-15T15:34:53Z",
+        "releaseTime": "2025-04-15T15:34:53Z",
+        "createTime": "2025-02-20T18:09:59Z",
+        "publicationDate": "2025-04-15",
+        "citationDate": "2025-04-15",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: Global Historical Climatology Network - Monthly Temperature, Version 4"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Centers for Environmental Information"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information <br>\n<br>\nIf you have questions about the underlying data stored here, please contact National Centers for Environmental Information, ncdc.ghcnm@noaa.gov. <br>\n<br>\nThe GHCN-Monthly Temperature Version 4 dataset consists of monthly mean temperature (both raw and bias corrected data), monthly mean maximum, and minimum temperature. GHCN-M is the core global land surface air temperature dataset used for climate monitoring and assessment activities. GHCN-M version 4 contains monthly mean temperature for over 25,000 stations across the globe and brings consistency with temperature observations found in the GHCN-Daily dataset.\n\n[Quote from: <a href=\"https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00950\">https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00950</a>]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Extreme Temperatures"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\n\u201cGlobal Historical Climatology Network - Monthly Temperature, Version 4\u201d data was downloaded by Nicholas Hartmann on February 20, 2025."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Hartmann, Nicholas"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-20"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-11-28"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-18"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Menne, Matthew J.; Gleason, Byron E.; Lawrimore, Jay; Rennie, Jared; and Williams, Claude N. (2017): Global Historical Climatology Network - Monthly Temperature [indicate subset used]. NOAA National Centers for Environmental Information. doi:10.7289/V5XW4GTH [2025-02-18]"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Users should cite this dataset as: Menne, Matthew J.; Gleason, Byron E.; Lawrimore, Jay; Rennie, Jared; and Williams, Claude N. (2017): Global Historical Climatology Network - Monthly Temperature [indicate subset used]. NOAA National Centers for Environmental Information. doi:10.7289/V5XW4GTH [access date].\n\nDaily updates to GHCN-M V4 are available for users that require rapid access to the most current data. However, they will not be retained long-term. If research and citation require reference to the data in the long-term, please refer to permanently retained files, archived once per month. (Available upon request)\n\nUse liability: NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Screenshot 2025-04-15 at 11-33-36 Global Historical Climatology Network - Monthly Temperature Version 4.png",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 11077440,
+                    "persistentId": "",
+                    "filename": "Screenshot 2025-04-15 at 11-33-36 Global Historical Climatology Network - Monthly Temperature Version 4.png",
+                    "contentType": "image/png",
+                    "friendlyType": "PNG Image",
+                    "filesize": 1036215,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1963a15d101-088562c55f42",
+                    "rootDataFileId": -1,
+                    "md5": "e6c1c48cdd18046ee7054348106e501c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e6c1c48cdd18046ee7054348106e501c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-15",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcnm.tavg.v4.0.1.20250218.qcf .dat",
+                "restricted": false,
+                "directoryLabel": "Access",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898057,
+                    "persistentId": "",
+                    "filename": "ghcnm.tavg.v4.0.1.20250218.qcf .dat",
+                    "contentType": "text/x-fixed-field",
+                    "friendlyType": "Fixed Field Text Data",
+                    "filesize": 171198716,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1952487f177-b99785b2c364",
+                    "rootDataFileId": -1,
+                    "md5": "451f32f409f9a4b35cda1048dd3c6f5e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "451f32f409f9a4b35cda1048dd3c6f5e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcnm.tavg.v4.0.1.20250218.qfe.dat",
+                "restricted": false,
+                "directoryLabel": "Access",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898055,
+                    "persistentId": "",
+                    "filename": "ghcnm.tavg.v4.0.1.20250218.qfe.dat",
+                    "contentType": "text/x-fixed-field",
+                    "friendlyType": "Fixed Field Text Data",
+                    "filesize": 159343748,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195248801fa-a73a8115ad74",
+                    "rootDataFileId": -1,
+                    "md5": "9474d75f3a333ab45bd7fd09f666dad7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9474d75f3a333ab45bd7fd09f666dad7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcnm.tavg.v4.0.1.20250218.qfe.inv",
+                "restricted": false,
+                "directoryLabel": "Access",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898058,
+                    "persistentId": "",
+                    "filename": "ghcnm.tavg.v4.0.1.20250218.qfe.inv",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 1927666,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1952488038a-ae9103d845ad",
+                    "rootDataFileId": -1,
+                    "md5": "2773d3614164803905b122f4124840fe",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2773d3614164803905b122f4124840fe"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcnm.tavg.v4.0.1.20250218.qcu.dat",
+                "restricted": false,
+                "directoryLabel": "Access",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898056,
+                    "persistentId": "",
+                    "filename": "ghcnm.tavg.v4.0.1.20250218.qcu.dat",
+                    "contentType": "text/x-fixed-field",
+                    "friendlyType": "Fixed Field Text Data",
+                    "filesize": 171768856,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1952487f528-67e0519e7d9e",
+                    "rootDataFileId": -1,
+                    "md5": "0e95cf6df914280fdcd8e4f3e4b053d8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0e95cf6df914280fdcd8e4f3e4b053d8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcnm.tavg.v4.0.1.20250218.qcf.inv",
+                "restricted": false,
+                "directoryLabel": "Access",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898054,
+                    "persistentId": "",
+                    "filename": "ghcnm.tavg.v4.0.1.20250218.qcf.inv",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 1927280,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1952487f38d-083b76f21580",
+                    "rootDataFileId": -1,
+                    "md5": "81cab185c730d2891c765db25d1f24e3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "81cab185c730d2891c765db25d1f24e3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250113_c20250113.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898239,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250113_c20250113.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133469743,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524ba3099-dd3f6d868854",
+                    "rootDataFileId": -1,
+                    "md5": "169a01460e7d28db8fb26f3a4c2812ed",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "169a01460e7d28db8fb26f3a4c2812ed"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250110_c20250110.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898249,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250110_c20250110.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133468440,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b947d0-05bf0691a847",
+                    "rootDataFileId": -1,
+                    "md5": "0da3fc001e6f286987071fb0191ab0da",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0da3fc001e6f286987071fb0191ab0da"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250107_c20250107 (1).tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898235,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250107_c20250107 (1).tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133464389,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b84108-fbe6438994f2",
+                    "rootDataFileId": -1,
+                    "md5": "04474010cfa9356186f2a2e10d5eb752",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "04474010cfa9356186f2a2e10d5eb752"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250124_c20250124.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898261,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250124_c20250124.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133480727,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bca621-39f8cdeb124f",
+                    "rootDataFileId": -1,
+                    "md5": "b144b11f0014c7089721e44a79f12383",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b144b11f0014c7089721e44a79f12383"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241227_c20241227.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898253,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241227_c20241227.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133401608,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b60644-38dbc2fe415b",
+                    "rootDataFileId": -1,
+                    "md5": "aabd6ef3f4949fee0b82b6bde2b00832",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "aabd6ef3f4949fee0b82b6bde2b00832"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241229_c20241229.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898241,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241229_c20241229.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133414242,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b608ab-5fca4a1afc4a",
+                    "rootDataFileId": -1,
+                    "md5": "29ef63ffa1bd26b65432774e4d6289a0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "29ef63ffa1bd26b65432774e4d6289a0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250116_c20250116.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898238,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250116_c20250116.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133481936,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524ba341a-c7fb6e348e1f",
+                    "rootDataFileId": -1,
+                    "md5": "52b0c2043768b0423535ac23cb90db19",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "52b0c2043768b0423535ac23cb90db19"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250101_c20250101.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898251,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250101_c20250101.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133430636,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b7372b-2f4841ecb639",
+                    "rootDataFileId": -1,
+                    "md5": "52e169b8a481e974b9af8b87fc22a468",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "52e169b8a481e974b9af8b87fc22a468"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250114_c20250114.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898228,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250114_c20250114.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133468191,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524ba3260-9042aa8c8f67",
+                    "rootDataFileId": -1,
+                    "md5": "1b8b1cb24c0970d4da6cf12005481e1a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1b8b1cb24c0970d4da6cf12005481e1a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250102_c20250102.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898245,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250102_c20250102.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133451480,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b7389f-b610bc4a58a0",
+                    "rootDataFileId": -1,
+                    "md5": "38c392f33adbb1290a61d5a5ac5ac038",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "38c392f33adbb1290a61d5a5ac5ac038"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241225_c20241225.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898227,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241225_c20241225.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133398505,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b4b202-9ee3f9510b19",
+                    "rootDataFileId": -1,
+                    "md5": "b792168d7c740d6104c44156ecb1d9e3",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b792168d7c740d6104c44156ecb1d9e3"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250111_c20250111.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898250,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250111_c20250111.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133470020,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b94987-895d6bdcb2d9",
+                    "rootDataFileId": -1,
+                    "md5": "f1781be5ef91daf3cfc5296ae83e2d6c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f1781be5ef91daf3cfc5296ae83e2d6c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250117_c20250117.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898262,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250117_c20250117.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133481998,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bb61cb-c2e03e410178",
+                    "rootDataFileId": -1,
+                    "md5": "ec51a3643ca4f7492a74953f85c2cc44",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ec51a3643ca4f7492a74953f85c2cc44"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250103_c20250103.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898252,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250103_c20250103.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133451536,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b73a00-159949c7f639",
+                    "rootDataFileId": -1,
+                    "md5": "a7853e2d99a4270d6ecc002069afa99d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a7853e2d99a4270d6ecc002069afa99d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250122_c20250122.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898240,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250122_c20250122.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133480061,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bca0af-a3f4db7aa809",
+                    "rootDataFileId": -1,
+                    "md5": "3601f54fc599a0efbc21158e28abb4a0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3601f54fc599a0efbc21158e28abb4a0"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250105_c20250105.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898254,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250105_c20250105.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133463608,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b83d7f-11a327b6d08c",
+                    "rootDataFileId": -1,
+                    "md5": "072c3da12e194ac5872db6485ef9f66f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "072c3da12e194ac5872db6485ef9f66f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241219_c20241219.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898244,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241219_c20241219.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133406294,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b3bb62-c09f27da7e5d",
+                    "rootDataFileId": -1,
+                    "md5": "ebd5d722cd0aa33bc18e41ffe2be92ad",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ebd5d722cd0aa33bc18e41ffe2be92ad"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250109_c20250109.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898247,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250109_c20250109.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133469495,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b945c0-06087dadea4a",
+                    "rootDataFileId": -1,
+                    "md5": "2643e8a2dca0242ab334867161ee1202",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2643e8a2dca0242ab334867161ee1202"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241220_c20241220.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898226,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241220_c20241220.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133406130,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b3bc20-625492197bf0",
+                    "rootDataFileId": -1,
+                    "md5": "7b0ea0976cd09d0dfa5e25b1d7553f4f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7b0ea0976cd09d0dfa5e25b1d7553f4f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250218_c20250218.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898258,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250218_c20250218.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133662522,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b3bdba-bc824260bf35",
+                    "rootDataFileId": -1,
+                    "md5": "eab456cc609d3f017476a42555972757",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eab456cc609d3f017476a42555972757"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241223_c20241223.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898229,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241223_c20241223.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133398532,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b4b018-518a83f46381",
+                    "rootDataFileId": -1,
+                    "md5": "6a047227a24d0109c0e9982836d42bf1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6a047227a24d0109c0e9982836d42bf1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250112_c20250112.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898233,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250112_c20250112.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133468740,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524ba2ec2-dd9e8ee8eb8f",
+                    "rootDataFileId": -1,
+                    "md5": "fbd4259bc9eb5c333318d15b49fa8e94",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fbd4259bc9eb5c333318d15b49fa8e94"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250106_c20250106.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898232,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250106_c20250106.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133462664,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b83f6d-8b1b608ac868",
+                    "rootDataFileId": -1,
+                    "md5": "43058ceb36df72c4c2130b0754e7d14d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "43058ceb36df72c4c2130b0754e7d14d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241224_c20241224.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898237,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241224_c20241224.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133398455,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b4b0f8-44585143ac67",
+                    "rootDataFileId": -1,
+                    "md5": "d99d51cf8dc580080ebc7487f738d5cf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d99d51cf8dc580080ebc7487f738d5cf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250119_c20250119.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898259,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250119_c20250119.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133480208,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bb676d-42b1f762028c",
+                    "rootDataFileId": -1,
+                    "md5": "807aa16f3b7edf072890843589831bcc",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "807aa16f3b7edf072890843589831bcc"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250120_c20250120.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898260,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250120_c20250120.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133480293,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bb6a4a-46e19248143a",
+                    "rootDataFileId": -1,
+                    "md5": "843b749d3de96c630ee39a7885625b28",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "843b749d3de96c630ee39a7885625b28"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241226_c20241226.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898234,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241226_c20241226.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133402254,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b51e73-e15262afca51",
+                    "rootDataFileId": -1,
+                    "md5": "3b4e87779ce04007dd6429d1cc759862",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3b4e87779ce04007dd6429d1cc759862"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241231_c20241231.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898257,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241231_c20241231.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133413794,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b735c8-cd260ecdc7df",
+                    "rootDataFileId": -1,
+                    "md5": "3c7e53eef7eb078b30c2a7d171251d35",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3c7e53eef7eb078b30c2a7d171251d35"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241230_c20241230.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898231,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241230_c20241230.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133414837,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b60a25-4a7c16156b70",
+                    "rootDataFileId": -1,
+                    "md5": "eef3085825a16184e4b18f3e6475442d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "eef3085825a16184e4b18f3e6475442d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250104_c20250104.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898255,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250104_c20250104.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133461929,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b83bea-d3fc3570ab76",
+                    "rootDataFileId": -1,
+                    "md5": "94ef2b4aa5e9d7c6557b84220b00faff",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "94ef2b4aa5e9d7c6557b84220b00faff"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241221_c20241221.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898246,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241221_c20241221.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133406324,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b3bcec-66782fb0cf40",
+                    "rootDataFileId": -1,
+                    "md5": "22d3381f8cff7a79832a48fccef0a109",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "22d3381f8cff7a79832a48fccef0a109"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250123_c20250123.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898248,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250123_c20250123.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133480248,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bca371-819026a0d8c1",
+                    "rootDataFileId": -1,
+                    "md5": "0c7649b0b6ee1e468ca24e3246be674f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0c7649b0b6ee1e468ca24e3246be674f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241222_c20241222.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898230,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241222_c20241222.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133398514,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b4aef7-113a36168ca9",
+                    "rootDataFileId": -1,
+                    "md5": "18f9f0479b2fcf9fdb71f8548424d3de",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "18f9f0479b2fcf9fdb71f8548424d3de"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250118_c20250118.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898256,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250118_c20250118.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133481788,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bb64ca-7327d2a48ba8",
+                    "rootDataFileId": -1,
+                    "md5": "07739f6bc0ee972c45ed9ae1aad19ceb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "07739f6bc0ee972c45ed9ae1aad19ceb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250121_c20250121.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898242,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250121_c20250121.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133480213,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bc9ca9-0bd3c2935bf6",
+                    "rootDataFileId": -1,
+                    "md5": "71add465fb4db35375627f3cd86221a5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "71add465fb4db35375627f3cd86221a5"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20241228_c20241228.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898243,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20241228_c20241228.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133414455,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b6077b-d03149a41c61",
+                    "rootDataFileId": -1,
+                    "md5": "e1d6067f6af2a10234f211565bf04d40",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e1d6067f6af2a10234f211565bf04d40"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ghcn-m_v4.00.00_temp_s17600102_e20250108_c20250108.tar.gz",
+                "restricted": false,
+                "directoryLabel": "Archive",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898236,
+                    "persistentId": "",
+                    "filename": "ghcn-m_v4.00.00_temp_s17600102_e20250108_c20250108.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 133469850,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524b943ce-83fc0d9fdd1b",
+                    "rootDataFileId": -1,
+                    "md5": "3ad9a3a34f89b003fdd76e5507e62c8d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3ad9a3a34f89b003fdd76e5507e62c8d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCDC-GHCNM-PHA-REQ-0001.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898277,
+                    "persistentId": "",
+                    "filename": "NCDC-GHCNM-PHA-REQ-0001.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 870388,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf8ce5-a7a17f307601",
+                    "rootDataFileId": -1,
+                    "md5": "ce5e2190022dbde4890ed71ae54c5b70",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ce5e2190022dbde4890ed71ae54c5b70"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ATBD-GHCNM-v4-20161114.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898265,
+                    "persistentId": "",
+                    "filename": "ATBD-GHCNM-v4-20161114.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 920911,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf3830-b0455103c3e4",
+                    "rootDataFileId": -1,
+                    "md5": "1fc076d5d06ec4cd9979bd42be5e46f4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1fc076d5d06ec4cd9979bd42be5e46f4"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ATBD-GHCNM-v4-20181009.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898276,
+                    "persistentId": "",
+                    "filename": "ATBD-GHCNM-v4-20181009.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1032674,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf3958-09fae8dce415",
+                    "rootDataFileId": -1,
+                    "md5": "13c612a4ac85b677614819d1ebe3e949",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "13c612a4ac85b677614819d1ebe3e949"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Global Historical Climatology Network - Monthly Temperature, Version 4.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898274,
+                    "persistentId": "",
+                    "filename": "Global Historical Climatology Network - Monthly Temperature, Version 4.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 366135,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf8a65-4fdcb67651af",
+                    "rootDataFileId": -1,
+                    "md5": "f9c71b33b3f084df20dbac77552da212",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f9c71b33b3f084df20dbac77552da212"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-v4-ReprocessingPlan-20160928.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898280,
+                    "persistentId": "",
+                    "filename": "GHCNM-v4-ReprocessingPlan-20160928.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 155084,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf60f0-d53cb291b679",
+                    "rootDataFileId": -1,
+                    "md5": "f92b45369cd9dfcc1c11716f2ba0a4fb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f92b45369cd9dfcc1c11716f2ba0a4fb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-v4-VandV-20181009.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898278,
+                    "persistentId": "",
+                    "filename": "GHCNM-v4-VandV-20181009.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 184775,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf691e-6e0fd925a9f7",
+                    "rootDataFileId": -1,
+                    "md5": "3bf82b72c8cb962b9fa8f4fbbdeb6b40",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3bf82b72c8cb962b9fa8f4fbbdeb6b40"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Global Historical Climatology Network - Monthly Temperature, Version 4-1.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898266,
+                    "persistentId": "",
+                    "filename": "Global Historical Climatology Network - Monthly Temperature, Version 4-1.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 366008,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524c080a1-b3ec55032bfe",
+                    "rootDataFileId": -1,
+                    "md5": "7a0647d84d912d0b5b462e93576f66af",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7a0647d84d912d0b5b462e93576f66af"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-V4_Level1.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898270,
+                    "persistentId": "",
+                    "filename": "GHCNM-V4_Level1.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 249785,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf40f5-654aa5e90673",
+                    "rootDataFileId": -1,
+                    "md5": "9bc1df2dde03bc7d7f1d5ef77af2453c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9bc1df2dde03bc7d7f1d5ef77af2453c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-v4-Security-Report-20161115.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898279,
+                    "persistentId": "",
+                    "filename": "GHCNM-v4-Security-Report-20161115.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 77955,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf61e6-931abde57aa6",
+                    "rootDataFileId": -1,
+                    "md5": "ad4c44b41fec6d61aa7e44203327af62",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ad4c44b41fec6d61aa7e44203327af62"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "NCDC-GHCNM-PHA-ARCH-0001.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898269,
+                    "persistentId": "",
+                    "filename": "NCDC-GHCNM-PHA-ARCH-0001.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1071341,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf8ba1-f2669711e321",
+                    "rootDataFileId": -1,
+                    "md5": "75f1a7b40109acd409330e20cc27294a",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "75f1a7b40109acd409330e20cc27294a"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ncei.noaa.gov_data_global-historical-climatology-network-monthly_v4_temperature_doc_readme.txt.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898264,
+                    "persistentId": "",
+                    "filename": "ncei.noaa.gov_data_global-historical-climatology-network-monthly_v4_temperature_doc_readme.txt.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 41717,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf8e58-42a5de3c18c3",
+                    "rootDataFileId": -1,
+                    "md5": "dab21e5105654e8e89be23d351e7193c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "dab21e5105654e8e89be23d351e7193c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-V4_Level0.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898267,
+                    "persistentId": "",
+                    "filename": "GHCNM-V4_Level0.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 195562,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf3a37-1b2a5e787650",
+                    "rootDataFileId": -1,
+                    "md5": "7485cf174869ea602def2d786821f650",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7485cf174869ea602def2d786821f650"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-v4-Maturity-20160928.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898273,
+                    "persistentId": "",
+                    "filename": "GHCNM-v4-Maturity-20160928.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 58145,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf4247-125587d8ecb7",
+                    "rootDataFileId": -1,
+                    "md5": "6631d72820d513d281fce9caad7c0aaf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6631d72820d513d281fce9caad7c0aaf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-v4-ProductionPlan-20160928.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898263,
+                    "persistentId": "",
+                    "filename": "GHCNM-v4-ProductionPlan-20160928.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 210098,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf5fc6-08b1069f72ce",
+                    "rootDataFileId": -1,
+                    "md5": "9edd246dc1f0998a12a8c22a2df356d8",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9edd246dc1f0998a12a8c22a2df356d8"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-v4-VandV-20160928.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898275,
+                    "persistentId": "",
+                    "filename": "GHCNM-v4-VandV-20160928.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 166810,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf65ad-c546847ac59d",
+                    "rootDataFileId": -1,
+                    "md5": "0d50814fa047ca8f3a5ff02e8ed23cad",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0d50814fa047ca8f3a5ff02e8ed23cad"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "GHCNM-v4-MxPlan-20160928.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898268,
+                    "persistentId": "",
+                    "filename": "GHCNM-v4-MxPlan-20160928.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 53590,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf5e8d-86a5d7d86a46",
+                    "rootDataFileId": -1,
+                    "md5": "ba82ba300de0d9f31c97eec95ab166b2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ba82ba300de0d9f31c97eec95ab166b2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "ncei.noaa.gov_data_global-historical-climatology-network-monthly_v4_temperature_doc_status.txt.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898272,
+                    "persistentId": "",
+                    "filename": "ncei.noaa.gov_data_global-historical-climatology-network-monthly_v4_temperature_doc_status.txt.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 32064,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf944e-4535cb7ace71",
+                    "rootDataFileId": -1,
+                    "md5": "e5d5d9cbec2baa97f1d74cf962acdddb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e5d5d9cbec2baa97f1d74cf962acdddb"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "AB-SA-00004_R5_Global Historical Climatology Network - Monthly Temperature (GHCN-M), Version 4.pdf",
+                "restricted": false,
+                "directoryLabel": "Documents/Publications",
+                "version": 1,
+                "datasetVersionId": 437775,
+                "dataFile": {
+                    "id": 10898271,
+                    "persistentId": "",
+                    "filename": "AB-SA-00004_R5_Global Historical Climatology Network - Monthly Temperature (GHCN-M), Version 4.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 778938,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:19524bf3774-82eb1b4db539",
+                    "rootDataFileId": -1,
+                    "md5": "448a9929f386a1a4eb71f1a8cf8c1d1f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "448a9929f386a1a4eb71f1a8cf8c1d1f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-20",
+                    "publicationDate": "2025-04-15",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

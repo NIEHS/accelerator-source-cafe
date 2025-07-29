@@ -1,0 +1,659 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 427687,
+        "datasetId": 10171893,
+        "datasetPersistentId": "doi:10.7910/DVN/K71AJS",
+        "storageIdentifier": "s3mit://10.7910/DVN/K71AJS",
+        "versionNumber": 3,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:GV5J0XrY5cSe+V87Qg2Mnw==",
+        "lastUpdateTime": "2024-09-11T16:30:18Z",
+        "releaseTime": "2024-09-11T16:30:18Z",
+        "createTime": "2024-09-11T15:17:45Z",
+        "publicationDate": "2024-06-18",
+        "citationDate": "2024-06-18",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Urban Park Use in the United States at Census Tract 2017 - 2021"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Swapnil Vispute"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Michael T. Young"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Stylianos Serghiou"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Akim Kumok"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Yash Shah"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kevin J. Lane"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Department of Environmental Health, Boston University School of Public Health, Boston, MA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Shailesh Bavadekar"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mansi Kansal"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tomer Shekel"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gregory A. Wellenius"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Department of Environmental Health, Boston University School of Public Health, Boston, MA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Evgeniy Gabrilovich"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Google LLC, Mountain View, CA"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lane, Kevin"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "klane@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "We estimated seasonal park usage for 69,450 census tracts in the contiguous US from 2017 - 2021. We defined realized park usage as the proportion of the population of a given census tract that visits a park at least once in a given week. We estimated this quantity using aggregated and anonymized data from Google users who have enabled the Location History setting, which is optional and off by default. We estimated park usage per census tract between December 2017 and November 2021 as follows. First, for the purpose of this research, we estimated the census tract of residence of each Google user each month based on where that user spent most of their time, including nights and weekends. Second, for each week, we calculated the proportion of Google users residing in a given census tract who visited any park at least once that week. Park visits lasting less than 10 minutes or greater than 4 hours were excluded; very long visits are excluded as they may be for reasons other than recreation or reflect geolocation error among those that live or work very close to a park. Note that data on the mode of transport to or from a park were not available. Thus, park visits are counted regardless of the mode of transport used. Finally, we averaged weekly estimates to obtain seasonal averages of park usage, with seasons defined based on calendar months: winter (December, January, February), spring (March, April, May), summer (June, July, August), and fall (September, October, November). This computation uses differential privacy to protect user information."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-05-03"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Computer and Information Science",
+                            "Earth and Environmental Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Urban"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Urban"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NDVI"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NDVI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Lane, Kevin"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-05-03"
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Google Location Information"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Google Inc"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Google"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-12-03"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Geolocation Data Aggregations"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTimestep",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Daily"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAttribution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Census Bureau. Explore Census Data. https://data.census.gov/cedsci/. (accessed July 15, 2022).\nManage your Location History. https://support.google.com/accounts/answer/3118687?hl=en (accessed Dec 4, 2023).\nHow Google uses location information \u2013 Privacy & Terms \u2013 Google. https://policies.google.com/technologies/location-data (accessed Dec 4, 2023)."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "Park_Use_Tract_Ratios_2017_2018.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10278902,
+                    "persistentId": "",
+                    "filename": "Park_Use_Tract_Ratios_2017_2018.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 38123797,
+                    "storageIdentifier": "s3mit://dvn-cloud:1902ade947e-2cc4b2f3a58d",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 37812606,
+                    "originalFileName": "Park_Use_Tract_Ratios_2017_2018.csv",
+                    "UNF": "UNF:6:OKdYzPLBmlPqiNyhDcuPcg==",
+                    "rootDataFileId": -1,
+                    "md5": "ae32f9f9b5a7ab93ae8fef5f8daadeef",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ae32f9f9b5a7ab93ae8fef5f8daadeef"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-06-18",
+                    "publicationDate": "2024-06-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "-README_Park_Use_Tract_Ratios.txt",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10456391,
+                    "persistentId": "",
+                    "filename": "-README_Park_Use_Tract_Ratios.txt",
+                    "contentType": "text/plain",
+                    "friendlyType": "Plain Text",
+                    "filesize": 5454,
+                    "storageIdentifier": "s3mit://dvn-cloud:191662d5c68-79890989b442",
+                    "rootDataFileId": -1,
+                    "md5": "d342135499d0b25ea95dd49827db5fdf",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d342135499d0b25ea95dd49827db5fdf"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-08-18",
+                    "publicationDate": "2024-08-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Park_Use_Tract_Ratios_2019_2021.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10278901,
+                    "persistentId": "",
+                    "filename": "Park_Use_Tract_Ratios_2019_2021.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 90057222,
+                    "storageIdentifier": "s3mit://dvn-cloud:1902ae035f5-692c4b1a505d",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 89319840,
+                    "originalFileName": "Park_Use_Tract_Ratios_2019_2021.csv",
+                    "UNF": "UNF:6:cyS5uDywLcMLpei9MQDbgw==",
+                    "rootDataFileId": -1,
+                    "md5": "7513d5e8b2377e20e13e2ed2e4f82e5d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7513d5e8b2377e20e13e2ed2e4f82e5d"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-06-18",
+                    "publicationDate": "2024-06-18",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Park_Use_Tract_Weekly_Ratios_2017.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10514930,
+                    "persistentId": "",
+                    "filename": "Park_Use_Tract_Weekly_Ratios_2017.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 12454251,
+                    "storageIdentifier": "s3mit://dvn-cloud:191e1ddcde9-067ea3240ac6",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 13496008,
+                    "originalFileName": "Park_Use_Tract_Weekly_Ratios_2017.csv",
+                    "UNF": "UNF:6:ViTYlwQA7os+QVIikrNq+Q==",
+                    "rootDataFileId": -1,
+                    "md5": "7ec47e38e4984005ccf60b4ae95666f4",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7ec47e38e4984005ccf60b4ae95666f4"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-09-11",
+                    "publicationDate": "2024-09-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Park_Use_Tract_Weekly_Ratios_2020.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10514928,
+                    "persistentId": "",
+                    "filename": "Park_Use_Tract_Weekly_Ratios_2020.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 132015866,
+                    "storageIdentifier": "s3mit://dvn-cloud:191e1ddcb5e-a4c02da3afb1",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 143058423,
+                    "originalFileName": "Park_Use_Tract_Weekly_Ratios_2020.csv",
+                    "UNF": "UNF:6:5w9HDWqXA9tC09viIIrvXA==",
+                    "rootDataFileId": -1,
+                    "md5": "2b24c314754f153b81f30320d4405334",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2b24c314754f153b81f30320d4405334"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-09-11",
+                    "publicationDate": "2024-09-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Park_Use_Tract_Weekly_Ratios_2019.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10514931,
+                    "persistentId": "",
+                    "filename": "Park_Use_Tract_Weekly_Ratios_2019.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 129527206,
+                    "storageIdentifier": "s3mit://dvn-cloud:191e1ddfa9b-8d6e9af2dc83",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 140361413,
+                    "originalFileName": "Park_Use_Tract_Weekly_Ratios_2019.csv",
+                    "UNF": "UNF:6:OPj1BXZ6V2+aXriB6KEnKg==",
+                    "rootDataFileId": -1,
+                    "md5": "9bc7c66e2813525d1e52ec6260624aca",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9bc7c66e2813525d1e52ec6260624aca"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-09-11",
+                    "publicationDate": "2024-09-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Park_Use_Tract_Weekly_Ratios_2021.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10514927,
+                    "persistentId": "",
+                    "filename": "Park_Use_Tract_Weekly_Ratios_2021.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 129508978,
+                    "storageIdentifier": "s3mit://dvn-cloud:191e1ddcc2c-ed5ccf96267c",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 140343185,
+                    "originalFileName": "Park_Use_Tract_Weekly_Ratios_2021.csv",
+                    "UNF": "UNF:6:h9ymBa7XSwI96MnoXhlAFw==",
+                    "rootDataFileId": -1,
+                    "md5": "9440841debeba54e810eb30c838013b6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9440841debeba54e810eb30c838013b6"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-09-11",
+                    "publicationDate": "2024-09-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Park_Use_Tract_Weekly_Ratios_2018.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10514929,
+                    "persistentId": "",
+                    "filename": "Park_Use_Tract_Weekly_Ratios_2018.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 129523887,
+                    "storageIdentifier": "s3mit://dvn-cloud:191e1dddbf9-93082759907b",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 140358094,
+                    "originalFileName": "Park_Use_Tract_Weekly_Ratios_2018.csv",
+                    "UNF": "UNF:6:z8T2zH4T5CBMRjLKSDrR2Q==",
+                    "rootDataFileId": -1,
+                    "md5": "7392bf899074374b7959d724cbf81c47",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7392bf899074374b7959d724cbf81c47"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-09-11",
+                    "publicationDate": "2024-09-11",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Park_Use_Tract_Weekly_Ratios_2022.tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 427687,
+                "dataFile": {
+                    "id": 10514932,
+                    "persistentId": "",
+                    "filename": "Park_Use_Tract_Weekly_Ratios_2022.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 42346714,
+                    "storageIdentifier": "s3mit://dvn-cloud:191e1ddcd03-8a4956d2baa5",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 45888671,
+                    "originalFileName": "Park_Use_Tract_Weekly_Ratios_2022.csv",
+                    "UNF": "UNF:6:/v6ZOie/aaLtga95DlLexg==",
+                    "rootDataFileId": -1,
+                    "md5": "7580a45ab941d9ea628fa52adb116b58",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7580a45ab941d9ea628fa52adb116b58"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-09-11",
+                    "publicationDate": "2024-09-11",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

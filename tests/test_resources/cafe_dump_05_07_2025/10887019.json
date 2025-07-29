@@ -1,0 +1,519 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437410,
+        "datasetId": 10887019,
+        "datasetPersistentId": "doi:10.7910/DVN/9UNXFY",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/9UNXFY",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:WWz1KVnP8Cbh+EQVyLN9lw==",
+        "lastUpdateTime": "2025-04-22T19:01:19Z",
+        "releaseTime": "2025-04-22T19:01:19Z",
+        "createTime": "2025-02-14T21:20:24Z",
+        "publicationDate": "2025-04-22",
+        "citationDate": "2025-04-22",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data from: Alternative Fueling Station Locator United States and Canada"
+                    },
+                    {
+                        "typeName": "alternativeTitle",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Electric Charging and Alternative Fuelling Stations Locator"
+                        ]
+                    },
+                    {
+                        "typeName": "alternativeURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://ressources-naturelles.canada.ca/efficacite-energetique/efficacite-energetique-transports/localisateur-stations-recharge-stations-ravitaillement-carburants-remplacement#/find/nearest"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdAgency": {
+                                    "typeName": "otherIdAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Natural Resources Canada"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Office of Energy Efficiency & Renewable Energy"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S Department of Energy"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n<br>\n<br>\nIf you have questions about the underlying data stored here, please contact the Alternative Fuels Data Center at the following form: https://afdc.energy.gov/website-contact. If you have questions or recommendations related to this metadata entry and extracted data, please contact the CAFE Data Management team at: climatecafe@bu.edu.\n<br>\n<br>\n<blockquote>\u201cFind alternative fueling stations in the United States and Canada. By default, this tool displays only available, publicly accessible stations. You can use the advanced filters to expand your search. For U.S. stations, see data by state. For Canadian stations in French, see Natural Resources Canada.\u201d</blockquote>\n<br>\n<br>\n[Quote from: <a href=\"https://afdc.energy.gov/stations#/find/nearest/\">https://afdc.energy.gov/stations#/find/nearest</a>]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Allison James"
+                                },
+                                "distributorAffiliation": {
+                                    "typeName": "distributorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Edomwande, Yuwa"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2022-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-04-22"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "series",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Alternative Fuels Data Center"
+                                },
+                                "seriesInformation": {
+                                    "typeName": "seriesInformation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "\"The Alternative Fuels Data Center (AFDC) provides information, data, and tools to help fleets, fuel providers, policymakers, cities, states, Clean Cities and Communities coalitions, and other transportation decision makers find ways to reach their energy, environmental, and economic goals through the use of alternative and renewable fuels, advanced vehicles, and other fuel-saving strategies.\n<br/><br/>\nThe transportation sector accounts for approximately 30% of total U.S. energy needs and 70% of U.S. petroleum consumption. The United States became a net exporter of petroleum in 2020 with exports surpassing imports, although imports of 8.33 million barrels per day in 2022 remained an important part of balancing supply and demand for domestic and international markets.\""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "accessToSources",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Terms and conditions were captured directly from the Department of Energy and are pasted below: \"Government information at DOE websites is in the public domain. Public domain information may be freely distributed and copied, but it is requested that in any subsequent use the Department of Energy be given appropriate acknowledgement. When using DOE websites, you may encounter documents, illustrations, photographs or other information resources contributed or licensed by private individuals, companies or organizations that may be protected by U.S. and foreign copyright laws. Transmission or reproduction of protected items beyond that allowed by fair use as defined in the copyright laws requires the written permission of the copyright owners.\n<br/><br/>\nImages on our website which are in the public domain may be used without permission. If you use images from our website, we ask that you credit \"U.S. Department of Energy\" as the source. Please note that some images on our site may have been obtained from other organizations. Permission to use these images should be obtained directly from those organizations.\n<br/><br/>\nDOE websites have links to many other websites. Once you access another site through a link that we provide, you are subject to the copyright and licensing restrictions of the new site.\""
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "United States"
+                                }
+                            },
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "Canada"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Alternative Fueling Station Locator"
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Department of Energy"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://natural-resources.canada.ca/energy-efficiency/transportation-energy-efficiency/electric-charging-alternative-fuelling-stationslocator-map?_gl=1*1njazw1*_ga*MTY3MTUxNDI1Ny4xNzQ1MzQ1MjEy*_ga_C2N57Y7DX5*MTc0NTM0NTIxMi4xLjEuMTc0NTM0ODAxMC4wLjAuMA..#/find/nearest"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-14"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "location-based data"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Fossil Fuels",
+                            "Renewable Energy"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Data dictionary for the data download.",
+                "label": "Alternative Fuels Data Center_ Data Included in the Alternative Fuel Stations Download.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437410,
+                "dataFile": {
+                    "id": 11110410,
+                    "persistentId": "",
+                    "filename": "Alternative Fuels Data Center_ Data Included in the Alternative Fuel Stations Download.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 607128,
+                    "description": "Data dictionary for the data download.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1965ed4ddc0-04f2a73d4eb3",
+                    "rootDataFileId": -1,
+                    "md5": "7c3b413c5cbded563ff4d077f48270ff",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7c3b413c5cbded563ff4d077f48270ff"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-22",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "The \"About the Data\" tab was not able to be saved as a PDF, so the text was copied into a Microsoft Word document.",
+                "label": "About_the_Alternative_Fueling_Station_Data.docx",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437410,
+                "dataFile": {
+                    "id": 11110409,
+                    "persistentId": "",
+                    "filename": "About_the_Alternative_Fueling_Station_Data.docx",
+                    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "friendlyType": "MS Word",
+                    "filesize": 27219,
+                    "description": "The \"About the Data\" tab was not able to be saved as a PDF, so the text was copied into a Microsoft Word document.",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1965ed0ee48-01b13ba4ecb5",
+                    "rootDataFileId": -1,
+                    "md5": "9ec27c9b6400ff3507f136a404d12f28",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9ec27c9b6400ff3507f136a404d12f28"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-22",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Web Policies _ Department of Energy.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437410,
+                "dataFile": {
+                    "id": 11110416,
+                    "persistentId": "",
+                    "filename": "Web Policies _ Department of Energy.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 810547,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1965ed8b7f5-5fecf16b3af4",
+                    "rootDataFileId": -1,
+                    "md5": "cd5ca5478c645c3b38937fe6cf1f9a4d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cd5ca5478c645c3b38937fe6cf1f9a4d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-04-22",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "documentation",
+                "label": "Alternative Fuels Data Center Wedbpage PDF.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437410,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10887021,
+                    "persistentId": "",
+                    "filename": "Alternative Fuels Data Center Wedbpage PDF.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 185887,
+                    "description": "documentation",
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195064a8610-2e1593c4327e",
+                    "rootDataFileId": -1,
+                    "md5": "f7ed26689e2afc85aad261ec66e77f52",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "f7ed26689e2afc85aad261ec66e77f52"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "documentation",
+                "label": "Alternative Fuels Data Center_ Alternative Fueling Station Locator.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437410,
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "id": 10887020,
+                    "persistentId": "",
+                    "filename": "Alternative Fuels Data Center_ Alternative Fueling Station Locator.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 116692,
+                    "description": "documentation",
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195064a83e1-8ff87a6c82c5",
+                    "rootDataFileId": -1,
+                    "md5": "d6ea02dad2d53b2e9df3b3c29ec48a20",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d6ea02dad2d53b2e9df3b3c29ec48a20"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "csv",
+                "label": "alt_fuel_stations (Feb 14 2025).tab",
+                "restricted": false,
+                "version": 3,
+                "datasetVersionId": 437410,
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "id": 10887022,
+                    "persistentId": "",
+                    "filename": "alt_fuel_stations (Feb 14 2025).tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 49949953,
+                    "description": "csv",
+                    "categories": [
+                        "Data"
+                    ],
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195064a87be-6a3c8d5e82b5",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 37422104,
+                    "originalFileName": "alt_fuel_stations (Feb 14 2025).csv",
+                    "UNF": "UNF:6:WWz1KVnP8Cbh+EQVyLN9lw==",
+                    "rootDataFileId": -1,
+                    "md5": "494d72ce3dad35570a80a38feb94093f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "494d72ce3dad35570a80a38feb94093f"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2025-02-14",
+                    "publicationDate": "2025-04-22",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

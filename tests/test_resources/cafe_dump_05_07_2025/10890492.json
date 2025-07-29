@@ -1,0 +1,534 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 437533,
+        "datasetId": 10890492,
+        "datasetPersistentId": "doi:10.7910/DVN/2XH3VY",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/2XH3VY",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-03-24T23:44:39Z",
+        "releaseTime": "2025-03-24T23:44:39Z",
+        "createTime": "2025-02-17T14:30:16Z",
+        "publicationDate": "2025-03-24",
+        "citationDate": "2025-03-24",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Community Water System Service Area Boundaries Data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Environmental Protection Agency"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. If you have questions about the underlying data stored here, please contact the EPA through email klawitter.chandler@epa.gov or contact form. <a href=\"https://www.epa.gov/ground-water-and-drinking-water/forms/online-form-epas-office-ground-water-and-drinking-water\"> https://www.epa.gov/ground-water-and-drinking-water/forms/online-form-epas-office-ground-water-and-drinking-water</a>\n<br>\nThis upload contains Geospatial Data File, Data Standard File and Metadata File. \n<br>\nA cloned GitHub repository of the code and data is available at this link: <a href = \"https://github.com/USEPA-clone/ORD_SAB_Model\">https://github.com/USEPA-clone/ORD_SAB_Model</a>\n\n<blockquote>\"The Service Area Boundary Dataset provides a comprehensive representation of the geographic areas served by community water systems (CWS) across the United States. With nearly 50,000 CWS supplying drinking water to the majority of the U.S. population, defining these service areas is essential for understanding water sources, assessing water quality, and addressing community needs. The dataset integrates both EPA-modeled boundaries and those sourced directly from water systems and state agencies.\" </blockquote>\n\n[Quote from: <a href=\"https://www.epa.gov/ground-water-and-drinking-water/community-water-system-service-area-boundaries\"> https://www.epa.gov/ground-water-and-drinking-water/community-water-system-service-area-boundaries</a>]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-02-19"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Freshwater"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Global Health"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Water Security"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassVocabURI": {
+                                    "typeName": "topicClassVocabURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Xindi Hu, Yanhua Li (Water, Health, and Opportunity Lab), Jonathan Gilmour"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-02-26"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-12-31"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "R Notebook"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/USEPA/ORD_SAB_Model"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowDocumentation",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "The data curation, modeling and analysis for this work was done using R (R Core Team 2022) and R Studio (Posit team 2023). All code can be viewed in the EPA agency GitHub page available\nat: https://github.com/USEPA/ORD_SAB_Model. Additional information is also available in this\nrepository such as source information for boundary data obtained from state and utility sources."
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDisclaimer",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "These geospatial data and corresponding cartographic materials have been approved\nfor use by the U.S. Environmental Protection Agency (EPA) as advised by the EPA\nGeospatial Advisory Committee (EGAC). This approved release is on the condition that\nneither the EPA nor the U.S. Government may be held liable for any damages resulting\nfrom its authorized or unauthorized use. These data and any corresponding products,\nservices, or materials do not necessarily represent the EPA\u2019s official position or\nviewpoint, expressed or implied. These content items are not intended for use in\nestablishing liability or calculating cost recovery statutes of limitations. They cannot be\nrelied upon to create any rights, substantive or procedural, enforceable by any party in\nlitigation with the United States or third parties. Additionally, although these data have\nbeen processed successfully on EPA computer systems, no warranty expressed or\nimplied can be made regarding the accuracy or utility of the data on any other system\nor for general or scientific purposes, nor shall the act of distribution constitute any such\nwarranty. The Agency reserves the right to revise EPA-stewarded datasets pursuant to\nfurther analysis and review without public notice. Unless otherwise specified,\ngeospatial data produced by the EPA is by default in the public domain and is not\nsubject to domestic copyright protection under 17 U.S.C. \u00a7 105. Referenced data from\nnon-EPA sources are neither inherently verified nor independently tested by the Agency\n\n2/18/25, 11:17 AM EPA Disclaimers | US EPA\n\nhttps://www.epa.gov/web-policies-and-procedures/epa-disclaimers 3/5\n\nin all circumstances. Permission to reproduce copyrighted items not produced by the\nEPA must be secured from the copyright owner. EPA strongly recommends careful\nattention be paid to metadata files associated with these data to better understand\nlimitations, restrictions or intended use. The U.S. EPA shall not be held liable for\nimproper or incorrect use of the data."
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSpatialReferenceSystem",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "cafeSpatialReferenceSystemURL": {
+                                "typeName": "cafeSpatialReferenceSystemURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://epa.maps.arcgis.com/home/item.html?id=80c6912ef14f46e480f5afd807767b4b"
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "cafeSpatialFileType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Other (specify)"
+                    },
+                    {
+                        "typeName": "cafeSpatialFileTypeOther",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "gdb"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Freshwater",
+                            "Water Security"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "cws-service-area-boundaries-data-standard-1.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 11027998,
+                    "persistentId": "",
+                    "filename": "cws-service-area-boundaries-data-standard-1.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 432898,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ca6ca1a2-cc7a9448552e",
+                    "rootDataFileId": -1,
+                    "md5": "e5ba27710691f8cad3bc13dcdce83dfd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e5ba27710691f8cad3bc13dcdce83dfd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-24",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "epa-service-area-boundary-fact-sheet-rev-october-2024.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 11027993,
+                    "persistentId": "",
+                    "filename": "epa-service-area-boundary-fact-sheet-rev-october-2024.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 525005,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ca6ca5c2-fa9a5a03c79d",
+                    "rootDataFileId": -1,
+                    "md5": "93bfdba7aeeceb597499ea2498942b3b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "93bfdba7aeeceb597499ea2498942b3b"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-24",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cws-service-area-boundaries-use-cases.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 11027994,
+                    "persistentId": "",
+                    "filename": "cws-service-area-boundaries-use-cases.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 186607,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ca6ca339-6cba6ede55d0",
+                    "rootDataFileId": -1,
+                    "md5": "75cefefc3a555fdead7d3e4251207957",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "75cefefc3a555fdead7d3e4251207957"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-24",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Screenshot 2025-03-24 at 19-08-51 Community Water System Service Area Boundaries US EPA.png",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 11027997,
+                    "persistentId": "",
+                    "filename": "Screenshot 2025-03-24 at 19-08-51 Community Water System Service Area Boundaries US EPA.png",
+                    "contentType": "image/png",
+                    "friendlyType": "PNG Image",
+                    "filesize": 1874686,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ca6caa98-3ae36e0e5620",
+                    "rootDataFileId": -1,
+                    "md5": "5eb87d83b299a3419470d3884e862add",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5eb87d83b299a3419470d3884e862add"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-24",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cws-service-area-boundaries-state-dataset-summaries.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 11027995,
+                    "persistentId": "",
+                    "filename": "cws-service-area-boundaries-state-dataset-summaries.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 1100869,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ca6ca26e-eb040b67f45c",
+                    "rootDataFileId": -1,
+                    "md5": "d416770c270ea933be22f765a79167b2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "d416770c270ea933be22f765a79167b2"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-24",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Community Water System Service Area Boundaries _ US EPA.html",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 11027996,
+                    "persistentId": "",
+                    "filename": "Community Water System Service Area Boundaries _ US EPA.html",
+                    "contentType": "text/html",
+                    "friendlyType": "HTML",
+                    "filesize": 85889,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ca6ca06d-ef1532646316",
+                    "rootDataFileId": -1,
+                    "md5": "cda5d10b9c01aff9c4528e328bdedd9d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cda5d10b9c01aff9c4528e328bdedd9d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-24",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "cws-service-area-boundaries-data-standard.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 10890857,
+                    "persistentId": "",
+                    "filename": "cws-service-area-boundaries-data-standard.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 568913,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195148743b3-9dbf04b4deb9",
+                    "rootDataFileId": -1,
+                    "md5": "9fb4a25d69ac5de9d4e0b29453b8dd3e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9fb4a25d69ac5de9d4e0b29453b8dd3e"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "CWS_Boundaries_Latest.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 10890856,
+                    "persistentId": "",
+                    "filename": "CWS_Boundaries_Latest.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 70896537,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1951487447f-0c7256c0e241",
+                    "rootDataFileId": -1,
+                    "md5": "b38b58ea21fab09fc034b5020490365c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b38b58ea21fab09fc034b5020490365c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-17",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "label": "Water_System_Serivce_Area_Technical_Documentation.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 437533,
+                "dataFile": {
+                    "id": 10900006,
+                    "persistentId": "",
+                    "filename": "Water_System_Serivce_Area_Technical_Documentation.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 4056373,
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:1952bca1f2d-2ef023bbf2ba",
+                    "rootDataFileId": -1,
+                    "md5": "b7c0d29b2536eebbbe05e75b05b88643",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b7c0d29b2536eebbbe05e75b05b88643"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-02-21",
+                    "publicationDate": "2025-03-24",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

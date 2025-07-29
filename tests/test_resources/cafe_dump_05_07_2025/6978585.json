@@ -1,0 +1,1030 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 425162,
+        "datasetId": 6978585,
+        "datasetPersistentId": "doi:10.7910/DVN/SYNPBS",
+        "storageIdentifier": "s3://10.7910/DVN/SYNPBS",
+        "versionNumber": 26,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:EjV+pwtl9QyaygkCiEYBUA==",
+        "lastUpdateTime": "2024-07-31T02:06:59Z",
+        "releaseTime": "2024-07-31T02:06:59Z",
+        "createTime": "2024-07-31T01:40:10Z",
+        "publicationDate": "2023-03-10",
+        "citationDate": "2023-03-10",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+            "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+            "rightsIdentifier": "CC0-1.0",
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/",
+            "languageCode": "en"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "SpaCE: The Spatial Confounding Environment"
+                    },
+                    {
+                        "typeName": "subtitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Causal Inference Benchmarking Data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tec, Mauricio"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard T.H. Chan School of Public Health"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Trisovic, Ana"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard T.H. Chan School of Public Health"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Audirac, Michelle"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard T.H. Chan School of Public Health"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dominici, Francesca"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard T.H. Chan School of Public Health"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tec, Mauricio"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard T.H. Chan School of Public Health"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "mauriciogtec@hsph.harvard.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SpaCE: The Spatial Confounding Environment is a benchmarking dataset for causal inference incorporating spatial structure. In particular, SpaCE datasets contain real confounder and exposure/treatment data inspired by environmental health studies. The synthetic outcome and counterfactual are generated according to recommended practices for causal evaluation by mimicking the real outcome data distribution learned with machine learning and neural network methods. Spatial confounding is achieved by masking influential confounders in the learned model."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2023-03-10"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Computer and Information Science",
+                            "Earth and Environmental Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "spatial confounding, semi-synthetic data, neural networks"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Trisovic, Ana"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2023-03-10"
+                    },
+                    {
+                        "typeName": "software",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "softwareName": {
+                                    "typeName": "softwareName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Python"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "computationalworkflow": {
+                "displayName": "Computational Workflow Metadata",
+                "name": "computationalworkflow",
+                "fields": [
+                    {
+                        "typeName": "workflowType",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Snakemake"
+                        ]
+                    },
+                    {
+                        "typeName": "workflowCodeRepository",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "https://github.com/NSAPH-Projects/space-data"
+                        ]
+                    }
+                ]
+            },
+            "socialscience": {
+                "displayName": "Social Science and Humanities Metadata",
+                "name": "socialscience",
+                "fields": [
+                    {
+                        "typeName": "socialScienceNotes",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "socialScienceNotesType": {
+                                "typeName": "socialScienceNotesType",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "N/A"
+                            }
+                        }
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "zctas.graphml.gz",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7359427,
+                    "persistentId": "",
+                    "filename": "zctas.graphml.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 1359361,
+                    "storageIdentifier": "s3://dvn-cloud:18a7356d1d9-53dd48af4ffd",
+                    "rootDataFileId": -1,
+                    "md5": "12fa4a2a788382fa1b0a572101dda103",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "12fa4a2a788382fa1b0a572101dda103"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-08",
+                    "publicationDate": "2023-09-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [{\"race\": [\"pct_white\", \"pct_black\", \"pct_asian\"]}, {\"population\": [\"pop_dens\"]}, {\"age\": [\"pct_age_under_5\", \"pct_age_5_9\", \"pct_age_10_14\", \"pct_age_15_19\", \"pct_age_20_24\"]}, {\"housing\": [\"owner_occupied_housing_units\", \"renter_occupied_housing_units\"]}], \"outcome\": \"BROADBAND USAGE\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"50\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.5)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"collection\": \"broadband_econ_zcta\", \"treatment\": \"log_median_income\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "zcta_income_broadband_disc.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424688,
+                    "persistentId": "",
+                    "filename": "zcta_income_broadband_disc.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 6480638,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [{\"race\": [\"pct_white\", \"pct_black\", \"pct_asian\"]}, {\"population\": [\"pop_dens\"]}, {\"age\": [\"pct_age_under_5\", \"pct_age_5_9\", \"pct_age_10_14\", \"pct_age_15_19\", \"pct_age_20_24\"]}, {\"housing\": [\"owner_occupied_housing_units\", \"renter_occupied_housing_units\"]}], \"outcome\": \"BROADBAND USAGE\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"50\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.5)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"collection\": \"broadband_econ_zcta\", \"treatment\": \"log_median_income\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18ac9211450-e1551f7bbca0",
+                    "rootDataFileId": -1,
+                    "md5": "73e2eef61f52e703f329881e2ae38c55",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "73e2eef61f52e703f329881e2ae38c55"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-24",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": \"null\", \"outcome\": \"value_pm25\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"10\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"medium_quality\", \"time_limit\": \"1800\"}, \"leave_out_fit\": {\"presets\": \"medium_quality\", \"time_limit\": \"1800\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"ensemble_models\": [\"FASTAI\", \"CAT\", \"NN_TORCH\", \"XGB\"], \"collection\": \"pm25_comps_hires_grid\", \"treatment\": \"value_no3\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "pm25_hires_no3_pm_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7428965,
+                    "persistentId": "",
+                    "filename": "pm25_hires_no3_pm_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 729841973,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": \"null\", \"outcome\": \"value_pm25\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"10\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"medium_quality\", \"time_limit\": \"1800\"}, \"leave_out_fit\": {\"presets\": \"medium_quality\", \"time_limit\": \"1800\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"ensemble_models\": [\"FASTAI\", \"CAT\", \"NN_TORCH\", \"XGB\"], \"collection\": \"pm25_comps_hires_grid\", \"treatment\": \"value_no3\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18ad3046e32-d6df9aceac11",
+                    "rootDataFileId": -1,
+                    "md5": "620c0fdbc665b2aaa4cd007669c239dd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "620c0fdbc665b2aaa4cd007669c239dd"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-26",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"E_TOTPOP\", {\"households\": [\"E_HU\", \"E_HH\"]}, \"EP_NOHSDP\", \"EP_UNINSUR\", \"EP_AGE65\", \"EP_AGE17\", \"EP_DISABL\", \"EP_SNGPNT\", \"EP_MUNIT\", \"EP_NOVEH\", \"EP_NOINT\", \"RPL_THEME3\"], \"outcome\": \"EP_HBURD\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"remove_islands\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"false\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"leave_out_fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.05\", \"levels\": \"1\", \"buffer\": \"1\"}, \"collection\": \"cdc_atsdr_svi_tx\", \"treatment\": \"EP_LIMENG\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "cdcsvi_limteng_hburdic_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7327550,
+                    "persistentId": "",
+                    "filename": "cdcsvi_limteng_hburdic_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 9572666,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"E_TOTPOP\", {\"households\": [\"E_HU\", \"E_HH\"]}, \"EP_NOHSDP\", \"EP_UNINSUR\", \"EP_AGE65\", \"EP_AGE17\", \"EP_DISABL\", \"EP_SNGPNT\", \"EP_MUNIT\", \"EP_NOVEH\", \"EP_NOINT\", \"RPL_THEME3\"], \"outcome\": \"EP_HBURD\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"remove_islands\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"false\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"leave_out_fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.05\", \"levels\": \"1\", \"buffer\": \"1\"}, \"collection\": \"cdc_atsdr_svi_tx\", \"treatment\": \"EP_LIMENG\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18a1331b8cc-0e5d54ebcaad",
+                    "rootDataFileId": 7140138,
+                    "previousDataFileId": 7317972,
+                    "md5": "95eab2e69a9d4f37a6f8741d78a5720f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "95eab2e69a9d4f37a6f8741d78a5720f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-08-20",
+                    "publicationDate": "2023-08-21",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "counties.graphml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 6981452,
+                    "persistentId": "",
+                    "filename": "counties.graphml",
+                    "contentType": "text/xml-graphml",
+                    "friendlyType": "GraphML Network Data",
+                    "filesize": 799275,
+                    "storageIdentifier": "s3://dvn-cloud:186e297b62c-eecef4852728",
+                    "rootDataFileId": -1,
+                    "md5": "cd02c0d1907418803f188874bc08459c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "cd02c0d1907418803f188874bc08459c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-03-14",
+                    "publicationDate": "2023-03-14",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "graph_pm25comps.tar.gz",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7359947,
+                    "persistentId": "",
+                    "filename": "graph_pm25comps.tar.gz",
+                    "contentType": "application/x-gzip",
+                    "friendlyType": "Gzip Archive",
+                    "filesize": 104571071,
+                    "storageIdentifier": "s3://dvn-cloud:18a758fb80d-f2e780def2bb",
+                    "rootDataFileId": 7359538,
+                    "previousDataFileId": 7359542,
+                    "md5": "683d8f9b29736fcfb80a50e85b4e2458",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "683d8f9b29736fcfb80a50e85b4e2458"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-08",
+                    "publicationDate": "2023-09-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"noaa_prcp\", \"noaa_snow\", \"noaa_altitude\", {\"noadd_temp\": [\"noaa_temp\", \"noaa_temp_jan\", \"noaa_temp_apr\", \"noaa_temp_jul\", \"noaa_temp_oct\"]}, \"cs_female\", \"population/2019\", {\"cdc_violence\": [\"cdc_suicides\", \"cdc_homicides\", \"cdc_vehicle_deaths\", \"cdc_police_deaths_total\", \"cdc_police_deaths_unarmed\", \"police_deaths\"]}, {\"education\": [\"cs_ed_below_highschool\", \"cs_ed_highschool\", \"cs_ed_some_college\", \"cs_ed_above_college\"]}, {\"bls_employment\": [\"bls_labor_force\", \"bls_employed\", \"bls_unemployed\"]}, {\"income\": [\"avg_income\", \"poverty-rate\"]}, {\"bls_costs\": [\"bls_living_wage\", \"bls_food_costs\", \"bls_medical_costs\", \"bls_housing_costs\", \"bls_tax_costs\"]}, {\"health_risk_facotrs\": [\"health_poor_health_pct\", \"health_smokers_pct\", \"health_obese_pct\", \"health_phy_inactive_pct\"]}, {\"health_income\": [\"health_children_poverty_pct\", \"health_80th_perc_income_pct\", \"health_20th_perc_income_pct\"]}, {\"age\": [\"cs_age-to-25\", \"cs_age-25-65\", \"cs_age-over-65\"]}], \"outcome\": \"election_dem_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.5)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"corr_election_us\", \"treatment\": \"cs_white\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "county_dmgrcs_election_disc.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424921,
+                    "persistentId": "",
+                    "filename": "county_dmgrcs_election_disc.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 841158,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"noaa_prcp\", \"noaa_snow\", \"noaa_altitude\", {\"noadd_temp\": [\"noaa_temp\", \"noaa_temp_jan\", \"noaa_temp_apr\", \"noaa_temp_jul\", \"noaa_temp_oct\"]}, \"cs_female\", \"population/2019\", {\"cdc_violence\": [\"cdc_suicides\", \"cdc_homicides\", \"cdc_vehicle_deaths\", \"cdc_police_deaths_total\", \"cdc_police_deaths_unarmed\", \"police_deaths\"]}, {\"education\": [\"cs_ed_below_highschool\", \"cs_ed_highschool\", \"cs_ed_some_college\", \"cs_ed_above_college\"]}, {\"bls_employment\": [\"bls_labor_force\", \"bls_employed\", \"bls_unemployed\"]}, {\"income\": [\"avg_income\", \"poverty-rate\"]}, {\"bls_costs\": [\"bls_living_wage\", \"bls_food_costs\", \"bls_medical_costs\", \"bls_housing_costs\", \"bls_tax_costs\"]}, {\"health_risk_facotrs\": [\"health_poor_health_pct\", \"health_smokers_pct\", \"health_obese_pct\", \"health_phy_inactive_pct\"]}, {\"health_income\": [\"health_children_poverty_pct\", \"health_80th_perc_income_pct\", \"health_20th_perc_income_pct\"]}, {\"age\": [\"cs_age-to-25\", \"cs_age-25-65\", \"cs_age-over-65\"]}], \"outcome\": \"election_dem_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.5)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"corr_election_us\", \"treatment\": \"cs_white\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18acc5e4021-ec6ac728a8d1",
+                    "rootDataFileId": 7140145,
+                    "previousDataFileId": 7317970,
+                    "md5": "a29480aebd7f78dc02ec567a0531e65d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "a29480aebd7f78dc02ec567a0531e65d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-25",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "raster_pm25comps.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7359948,
+                    "persistentId": "",
+                    "filename": "raster_pm25comps.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 202676218,
+                    "storageIdentifier": "s3://dvn-cloud:18a759c2030-953b1eb4f1ac",
+                    "rootDataFileId": 7359414,
+                    "previousDataFileId": 7359414,
+                    "md5": "6ec8f1e397fb3c9c31785b3aec5bc93c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6ec8f1e397fb3c9c31785b3aec5bc93c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-08",
+                    "publicationDate": "2023-09-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"noaa_prcp\", \"noaa_snow\", \"noaa_altitude\", {\"noadd_temp\": [\"noaa_temp\", \"noaa_temp_jan\", \"noaa_temp_apr\", \"noaa_temp_jul\", \"noaa_temp_oct\"]}, \"cs_female\", \"population/2019\", {\"cdc_violence\": [\"cdc_suicides\", \"cdc_homicides\", \"cdc_vehicle_deaths\", \"cdc_police_deaths_total\", \"cdc_police_deaths_unarmed\", \"police_deaths\"]}, {\"bls_employment\": [\"bls_labor_force\", \"bls_employed\", \"bls_unemployed\"]}, {\"income\": [\"avg_income\", \"poverty-rate\"]}, {\"education\": [\"cs_ed_below_highschool\", \"cs_ed_highschool\", \"cs_ed_some_college\", \"cs_ed_above_college\"]}, {\"bls_costs\": [\"bls_living_wage\", \"bls_food_costs\", \"bls_medical_costs\", \"bls_housing_costs\", \"bls_tax_costs\"]}, \"health_smokers_pct\", {\"health_income\": [\"health_children_poverty_pct\", \"health_80th_perc_income_pct\", \"health_20th_perc_income_pct\"]}, {\"race\": [\"cs_white\", \"cs_black\", \"cs_asian\", \"cs_hispanic\"]}, \"election_dem_pct\", {\"age\": [\"cs_age-to-25\", \"cs_age-25-65\", \"cs_age-over-65\"]}], \"outcome\": \"life-expectancy\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"corr_election_us\", \"treatment\": \"health_phy_inactive_pct\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "county_phyactiv_lifexpcy_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424922,
+                    "persistentId": "",
+                    "filename": "county_phyactiv_lifexpcy_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4019493,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"noaa_prcp\", \"noaa_snow\", \"noaa_altitude\", {\"noadd_temp\": [\"noaa_temp\", \"noaa_temp_jan\", \"noaa_temp_apr\", \"noaa_temp_jul\", \"noaa_temp_oct\"]}, \"cs_female\", \"population/2019\", {\"cdc_violence\": [\"cdc_suicides\", \"cdc_homicides\", \"cdc_vehicle_deaths\", \"cdc_police_deaths_total\", \"cdc_police_deaths_unarmed\", \"police_deaths\"]}, {\"bls_employment\": [\"bls_labor_force\", \"bls_employed\", \"bls_unemployed\"]}, {\"income\": [\"avg_income\", \"poverty-rate\"]}, {\"education\": [\"cs_ed_below_highschool\", \"cs_ed_highschool\", \"cs_ed_some_college\", \"cs_ed_above_college\"]}, {\"bls_costs\": [\"bls_living_wage\", \"bls_food_costs\", \"bls_medical_costs\", \"bls_housing_costs\", \"bls_tax_costs\"]}, \"health_smokers_pct\", {\"health_income\": [\"health_children_poverty_pct\", \"health_80th_perc_income_pct\", \"health_20th_perc_income_pct\"]}, {\"race\": [\"cs_white\", \"cs_black\", \"cs_asian\", \"cs_hispanic\"]}, \"election_dem_pct\", {\"age\": [\"cs_age-to-25\", \"cs_age-25-65\", \"cs_age-over-65\"]}], \"outcome\": \"life-expectancy\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"corr_election_us\", \"treatment\": \"health_phy_inactive_pct\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18acc5e43cc-08bc353da12e",
+                    "rootDataFileId": 7140144,
+                    "previousDataFileId": 7317975,
+                    "md5": "5e7bfc1749f9f414ecc4603f01c24fac",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5e7bfc1749f9f414ecc4603f01c24fac"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-25",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"noaa_prcp\", \"noaa_snow\", \"noaa_altitude\", {\"noadd_temp\": [\"noaa_temp\", \"noaa_temp_jan\", \"noaa_temp_apr\", \"noaa_temp_jul\", \"noaa_temp_oct\"]}, \"cs_female\", \"population/2019\", {\"cdc_violence\": [\"cdc_suicides\", \"cdc_homicides\", \"cdc_vehicle_deaths\", \"cdc_police_deaths_total\", \"cdc_police_deaths_unarmed\", \"police_deaths\"]}, {\"bls_employment\": [\"bls_labor_force\", \"bls_employed\", \"bls_unemployed\"]}, {\"income\": [\"avg_income\", \"poverty-rate\"]}, {\"bls_costs\": [\"bls_living_wage\", \"bls_food_costs\", \"bls_medical_costs\", \"bls_housing_costs\", \"bls_tax_costs\"]}, {\"health_risk_facotrs\": [\"health_poor_health_pct\", \"health_smokers_pct\", \"health_obese_pct\", \"health_phy_inactive_pct\"]}, {\"health_income\": [\"health_children_poverty_pct\", \"health_80th_perc_income_pct\", \"health_20th_perc_income_pct\"]}, {\"age\": [\"cs_age-to-25\", \"cs_age-25-65\", \"cs_age-over-65\"]}, {\"race\": [\"cs_white\", \"cs_black\", \"cs_asian\", \"cs_hispanic\"]}], \"outcome\": \"election_dem_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"corr_election_us\", \"treatment\": \"cs_ed_below_highschool\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "county_educatn_election_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424925,
+                    "persistentId": "",
+                    "filename": "county_educatn_election_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4478808,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"noaa_prcp\", \"noaa_snow\", \"noaa_altitude\", {\"noadd_temp\": [\"noaa_temp\", \"noaa_temp_jan\", \"noaa_temp_apr\", \"noaa_temp_jul\", \"noaa_temp_oct\"]}, \"cs_female\", \"population/2019\", {\"cdc_violence\": [\"cdc_suicides\", \"cdc_homicides\", \"cdc_vehicle_deaths\", \"cdc_police_deaths_total\", \"cdc_police_deaths_unarmed\", \"police_deaths\"]}, {\"bls_employment\": [\"bls_labor_force\", \"bls_employed\", \"bls_unemployed\"]}, {\"income\": [\"avg_income\", \"poverty-rate\"]}, {\"bls_costs\": [\"bls_living_wage\", \"bls_food_costs\", \"bls_medical_costs\", \"bls_housing_costs\", \"bls_tax_costs\"]}, {\"health_risk_facotrs\": [\"health_poor_health_pct\", \"health_smokers_pct\", \"health_obese_pct\", \"health_phy_inactive_pct\"]}, {\"health_income\": [\"health_children_poverty_pct\", \"health_80th_perc_income_pct\", \"health_20th_perc_income_pct\"]}, {\"age\": [\"cs_age-to-25\", \"cs_age-25-65\", \"cs_age-over-65\"]}, {\"race\": [\"cs_white\", \"cs_black\", \"cs_asian\", \"cs_hispanic\"]}], \"outcome\": \"election_dem_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"corr_election_us\", \"treatment\": \"cs_ed_below_highschool\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18acc5e873b-f66e95911937",
+                    "rootDataFileId": 7140143,
+                    "previousDataFileId": 7317965,
+                    "md5": "01c9f0ee9c8df7e4a20ecc3c838507a7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "01c9f0ee9c8df7e4a20ecc3c838507a7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-25",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"qd_mean_pm25\", {\"poverty\": [\"cs_poverty\", \"cs_ed_below_highschool\"]}, \"cs_population_density\", \"cdc_mean_bmi\", {\"smoking\": [\"cdc_pct_cusmoker\", \"cdc_pct_sdsmoker\", \"cdc_pct_fmsmoker\", \"cdc_pct_nvsmoker\", \"cdc_pct_nnsmoker\"]}, {\"temperature\": [\"gmet_mean_tmmn\", \"gmet_mean_summer_tmmn\", \"gmet_mean_winter_tmmn\", \"gmet_mean_tmmx\", \"gmet_mean_summer_tmmx\", \"gmet_mean_winter_tmmx\"]}, {\"relative_humidity\": [\"gmet_mean_rmn\", \"gmet_mean_summer_rmn\", \"gmet_mean_winter_rmn\", \"gmet_mean_rmx\", \"gmet_mean_summer_rmx\", \"gmet_mean_winter_rmx\"]}, {\"specific_humidity\": [\"gmet_mean_sph\", \"gmet_mean_summer_sph\", \"gmet_mean_winter_sph\"]}, {\"region\": [\"bin_NORTHEAST\", \"bin_SOUTH\", \"bin_WEST\"]}], \"outcome\": \"cdc_mortality_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.60)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"air_pollution_mortality_us\", \"treatment\": \"cs_white\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "healthd_dmgrcs_mortality_disc.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424743,
+                    "persistentId": "",
+                    "filename": "healthd_dmgrcs_mortality_disc.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 978324,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"qd_mean_pm25\", {\"poverty\": [\"cs_poverty\", \"cs_ed_below_highschool\"]}, \"cs_population_density\", \"cdc_mean_bmi\", {\"smoking\": [\"cdc_pct_cusmoker\", \"cdc_pct_sdsmoker\", \"cdc_pct_fmsmoker\", \"cdc_pct_nvsmoker\", \"cdc_pct_nnsmoker\"]}, {\"temperature\": [\"gmet_mean_tmmn\", \"gmet_mean_summer_tmmn\", \"gmet_mean_winter_tmmn\", \"gmet_mean_tmmx\", \"gmet_mean_summer_tmmx\", \"gmet_mean_winter_tmmx\"]}, {\"relative_humidity\": [\"gmet_mean_rmn\", \"gmet_mean_summer_rmn\", \"gmet_mean_winter_rmn\", \"gmet_mean_rmx\", \"gmet_mean_summer_rmx\", \"gmet_mean_winter_rmx\"]}, {\"specific_humidity\": [\"gmet_mean_sph\", \"gmet_mean_summer_sph\", \"gmet_mean_winter_sph\"]}, {\"region\": [\"bin_NORTHEAST\", \"bin_SOUTH\", \"bin_WEST\"]}], \"outcome\": \"cdc_mortality_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.60)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"air_pollution_mortality_us\", \"treatment\": \"cs_white\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18ac9ac09e3-32698387f8a5",
+                    "rootDataFileId": 7140137,
+                    "previousDataFileId": 7317967,
+                    "md5": "70ae6d04dfa8969dfac07c1cb6eef856",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "70ae6d04dfa8969dfac07c1cb6eef856"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-24",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"EP_UNEMP\", \"EP_AGE65\", \"EP_AGE17\", \"EP_DISABL\", \"EP_SNGPNT\", \"EP_LIMENG\", \"EP_MINRTY\", \"EP_MUNIT\", \"EP_NOVEH\", \"EP_NOINT\", \"RPL_THEME3\"], \"outcome\": \"EP_POV150\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.5)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"cdc_atsdr_svi_tx\", \"treatment\": \"EP_NOHSDP\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "cdcsvi_nohsdp_poverty_disc.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424920,
+                    "persistentId": "",
+                    "filename": "cdcsvi_nohsdp_poverty_disc.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 762010,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"EP_UNEMP\", \"EP_AGE65\", \"EP_AGE17\", \"EP_DISABL\", \"EP_SNGPNT\", \"EP_LIMENG\", \"EP_MINRTY\", \"EP_MUNIT\", \"EP_NOVEH\", \"EP_NOINT\", \"RPL_THEME3\"], \"outcome\": \"EP_POV150\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.5)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"cdc_atsdr_svi_tx\", \"treatment\": \"EP_NOHSDP\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18acc5e3b84-23261cc8dcdb",
+                    "rootDataFileId": 7140594,
+                    "previousDataFileId": 7327546,
+                    "md5": "48c1ce5f51423717794d73d92e4775d6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "48c1ce5f51423717794d73d92e4775d6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-25",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "cdcatsdrsvi_tx.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7123933,
+                    "persistentId": "",
+                    "filename": "cdcatsdrsvi_tx.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 853587,
+                    "storageIdentifier": "s3://dvn-cloud:1885fd080a5-1a7c1ded96fd",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 853587,
+                    "originalFileName": "cdcatsdrsvi_tx.csv",
+                    "UNF": "UNF:6:ZXHgXHcfMuQ7/fJUYzD2hw==",
+                    "rootDataFileId": -1,
+                    "md5": "3eceef1fb94a6689c651894217fd14e9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3eceef1fb94a6689c651894217fd14e9"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-05-27",
+                    "publicationDate": "2023-05-27",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "counties.geojson",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 6981449,
+                    "persistentId": "",
+                    "filename": "counties.geojson",
+                    "contentType": "application/geo+json",
+                    "friendlyType": "GeoJSON",
+                    "filesize": 199314591,
+                    "storageIdentifier": "s3://dvn-cloud:186e297b1c4-9578f5a19eec",
+                    "rootDataFileId": -1,
+                    "md5": "8e038118c000d126063ae304c244de07",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8e038118c000d126063ae304c244de07"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-03-14",
+                    "publicationDate": "2023-03-14",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": \"null\", \"outcome\": \"value_pm25\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"10\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"medium_quality\", \"time_limit\": \"1800\"}, \"leave_out_fit\": {\"presets\": \"medium_quality\", \"time_limit\": \"1800\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"ensemble_models\": [\"FASTAI\", \"CAT\", \"NN_TORCH\", \"XGB\"], \"collection\": \"pm25_comps_hires_grid\", \"treatment\": \"value_so4\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "pm25_hires_so4_pm_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7428966,
+                    "persistentId": "",
+                    "filename": "pm25_hires_so4_pm_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 723217468,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": \"null\", \"outcome\": \"value_pm25\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"10\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"medium_quality\", \"time_limit\": \"1800\"}, \"leave_out_fit\": {\"presets\": \"medium_quality\", \"time_limit\": \"1800\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"ensemble_models\": [\"FASTAI\", \"CAT\", \"NN_TORCH\", \"XGB\"], \"collection\": \"pm25_comps_hires_grid\", \"treatment\": \"value_so4\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18ad305b1a7-51e5fb4fa60d",
+                    "rootDataFileId": -1,
+                    "md5": "498d9da3f7d206737a19dbee900588a7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "498d9da3f7d206737a19dbee900588a7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-26",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"avg_tmax_jul\", {\"tmax_other\": [\"avg_tmax_jun\", \"avg_tmax_aug\", \"avg_tmax_sep\", \"avg_tmax_oct\"]}, \"avg_rhum_jul\", {\"rhum_other\": [\"avg_rhum_jun\", \"avg_rhum_aug\", \"avg_rhum_sep\", \"avg_rhum_oct\"]}, \"avg_wnd_jul\", {\"avg_wnd_other\": [\"avg_wnd_jun\", \"avg_wnd_aug\", \"avg_wnd_sep\", \"avg_wnd_oct\"]}, \"POPULATION_2020\", {\"poverty\": [\"EP_POV150\", \"EP_UNEMP\", \"EP_UNINSUR\"]}, {\"age\": [\"EP_AGE65\", \"EP_AGE17\"]}, \"E_NOINT\"], \"outcome\": \"EP_MINRTY\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.5)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"false\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"leave_out_fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.05\", \"levels\": \"1\", \"buffer\": \"1\"}, \"collection\": \"climate_exposure_ca\", \"treatment\": \"avg_smoke_pm_jul\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "climate_wfsmoke_minrty_disc.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7318000,
+                    "persistentId": "",
+                    "filename": "climate_wfsmoke_minrty_disc.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 1856225,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"avg_tmax_jul\", {\"tmax_other\": [\"avg_tmax_jun\", \"avg_tmax_aug\", \"avg_tmax_sep\", \"avg_tmax_oct\"]}, \"avg_rhum_jul\", {\"rhum_other\": [\"avg_rhum_jun\", \"avg_rhum_aug\", \"avg_rhum_sep\", \"avg_rhum_oct\"]}, \"avg_wnd_jul\", {\"avg_wnd_other\": [\"avg_wnd_jun\", \"avg_wnd_aug\", \"avg_wnd_sep\", \"avg_wnd_oct\"]}, \"POPULATION_2020\", {\"poverty\": [\"EP_POV150\", \"EP_UNEMP\", \"EP_UNINSUR\"]}, {\"age\": [\"EP_AGE65\", \"EP_AGE17\"]}, \"E_NOINT\"], \"outcome\": \"EP_MINRTY\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"qbinary(0.5)\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"false\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"leave_out_fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.05\", \"levels\": \"1\", \"buffer\": \"1\"}, \"collection\": \"climate_exposure_ca\", \"treatment\": \"avg_smoke_pm_jul\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18a10ea90d6-5129b02bf571",
+                    "rootDataFileId": 7140140,
+                    "previousDataFileId": 7317968,
+                    "md5": "c93bfd07479cc30d7564bd3e9ce0c990",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c93bfd07479cc30d7564bd3e9ce0c990"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-08-19",
+                    "publicationDate": "2023-08-21",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "counties_election.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7123931,
+                    "persistentId": "",
+                    "filename": "counties_election.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 1064840,
+                    "storageIdentifier": "s3://dvn-cloud:1885fd08223-058d36a5bd24",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 1064840,
+                    "originalFileName": "counties_election.csv",
+                    "UNF": "UNF:6:DNzvc3esE6P4KSDNbmISQQ==",
+                    "rootDataFileId": -1,
+                    "md5": "728f90ea25c3c767533dff5e3d214146",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "728f90ea25c3c767533dff5e3d214146"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-05-27",
+                    "publicationDate": "2023-05-27",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [{\"race\": [\"pct_white\", \"pct_black\", \"pct_asian\"]}, {\"population\": [\"pop_dens\"]}, {\"poverty\": [\"log_median_income\", \"pct_highschool\", \"pct_poverty\"]}, {\"housing\": [\"owner_occupied_housing_units\", \"renter_occupied_housing_units\"]}], \"outcome\": \"BROADBAND USAGE\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"50\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"collection\": \"broadband_econ_zcta\", \"treatment\": \"pct_age_15_19\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "zcta_age_broadband_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424689,
+                    "persistentId": "",
+                    "filename": "zcta_age_broadband_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 27390856,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [{\"race\": [\"pct_white\", \"pct_black\", \"pct_asian\"]}, {\"population\": [\"pop_dens\"]}, {\"poverty\": [\"log_median_income\", \"pct_highschool\", \"pct_poverty\"]}, {\"housing\": [\"owner_occupied_housing_units\", \"renter_occupied_housing_units\"]}], \"outcome\": \"BROADBAND USAGE\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"50\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"collection\": \"broadband_econ_zcta\", \"treatment\": \"pct_age_15_19\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18ac92314ff-6b84fe9bfd51",
+                    "rootDataFileId": -1,
+                    "md5": "3d0d24cd5a2d38bba765b827ff30eb63",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3d0d24cd5a2d38bba765b827ff30eb63"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-24",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [{\"poverty\": [\"cs_poverty\", \"cs_ed_below_highschool\"]}, {\"race\": [\"cs_hispanic\", \"cs_black\", \"cs_white\", \"cs_native\", \"cs_asian\", \"cs_other\"]}, \"cs_population_density\", \"cdc_mean_bmi\", {\"smoking\": [\"cdc_pct_cusmoker\", \"cdc_pct_sdsmoker\", \"cdc_pct_fmsmoker\", \"cdc_pct_nvsmoker\", \"cdc_pct_nnsmoker\"]}, {\"temperature\": [\"gmet_mean_tmmn\", \"gmet_mean_summer_tmmn\", \"gmet_mean_winter_tmmn\", \"gmet_mean_tmmx\", \"gmet_mean_summer_tmmx\", \"gmet_mean_winter_tmmx\"]}, {\"relative_humidity\": [\"gmet_mean_rmn\", \"gmet_mean_summer_rmn\", \"gmet_mean_winter_rmn\", \"gmet_mean_rmx\", \"gmet_mean_summer_rmx\", \"gmet_mean_winter_rmx\"]}, {\"specific_humidity\": [\"gmet_mean_sph\", \"gmet_mean_summer_sph\", \"gmet_mean_winter_sph\"]}, {\"region\": [\"bin_NORTHEAST\", \"bin_SOUTH\", \"bin_WEST\"]}], \"outcome\": \"cdc_mortality_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"air_pollution_mortality_us\", \"treatment\": \"qd_mean_pm25\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "healthd_pollutn_mortality_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424744,
+                    "persistentId": "",
+                    "filename": "healthd_pollutn_mortality_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4346216,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [{\"poverty\": [\"cs_poverty\", \"cs_ed_below_highschool\"]}, {\"race\": [\"cs_hispanic\", \"cs_black\", \"cs_white\", \"cs_native\", \"cs_asian\", \"cs_other\"]}, \"cs_population_density\", \"cdc_mean_bmi\", {\"smoking\": [\"cdc_pct_cusmoker\", \"cdc_pct_sdsmoker\", \"cdc_pct_fmsmoker\", \"cdc_pct_nvsmoker\", \"cdc_pct_nnsmoker\"]}, {\"temperature\": [\"gmet_mean_tmmn\", \"gmet_mean_summer_tmmn\", \"gmet_mean_winter_tmmn\", \"gmet_mean_tmmx\", \"gmet_mean_summer_tmmx\", \"gmet_mean_winter_tmmx\"]}, {\"relative_humidity\": [\"gmet_mean_rmn\", \"gmet_mean_summer_rmn\", \"gmet_mean_winter_rmn\", \"gmet_mean_rmx\", \"gmet_mean_summer_rmx\", \"gmet_mean_winter_rmx\"]}, {\"specific_humidity\": [\"gmet_mean_sph\", \"gmet_mean_summer_sph\", \"gmet_mean_winter_sph\"]}, {\"region\": [\"bin_NORTHEAST\", \"bin_SOUTH\", \"bin_WEST\"]}], \"outcome\": \"cdc_mortality_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"air_pollution_mortality_us\", \"treatment\": \"qd_mean_pm25\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18ac9ad80d6-f96e8d3cfb9c",
+                    "rootDataFileId": 7140142,
+                    "previousDataFileId": 7317966,
+                    "md5": "2d6bc252ecf49397e0cbccd986c5a713",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2d6bc252ecf49397e0cbccd986c5a713"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-24",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"EP_UNEMP\", \"EP_AGE65\", \"EP_AGE17\", \"EP_DISABL\", \"EP_SNGPNT\", \"EP_LIMENG\", \"EP_MINRTY\", \"EP_MUNIT\", \"EP_NOVEH\", \"EP_NOINT\", \"RPL_THEME3\"], \"outcome\": \"EP_POV150\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"remove_islands\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"false\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"leave_out_fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.05\", \"levels\": \"1\", \"buffer\": \"1\"}, \"collection\": \"cdc_atsdr_svi_tx\", \"treatment\": \"EP_NOHSDP\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "cdcsvi_nohsdp_poverty_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7327552,
+                    "persistentId": "",
+                    "filename": "cdcsvi_nohsdp_poverty_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 9762561,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"EP_UNEMP\", \"EP_AGE65\", \"EP_AGE17\", \"EP_DISABL\", \"EP_SNGPNT\", \"EP_LIMENG\", \"EP_MINRTY\", \"EP_MUNIT\", \"EP_NOVEH\", \"EP_NOINT\", \"RPL_THEME3\"], \"outcome\": \"EP_POV150\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"remove_islands\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"false\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"leave_out_fit\": {\"presets\": \"high_quality\", \"time_limit\": \"1800\", \"hyperparameters\": \"null\"}, \"feat_importance\": {\"time_limit\": \"1800\"}}, \"spatial_tuning\": {\"init_frac\": \"0.05\", \"levels\": \"1\", \"buffer\": \"1\"}, \"collection\": \"cdc_atsdr_svi_tx\", \"treatment\": \"EP_NOHSDP\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18a13593cbd-67d91f7d17a7",
+                    "rootDataFileId": 7140146,
+                    "previousDataFileId": 7317969,
+                    "md5": "c0d7c94f0377e9bfc6f8246971f6c836",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c0d7c94f0377e9bfc6f8246971f6c836"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-08-20",
+                    "publicationDate": "2023-08-21",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "ca_tracts.graphml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7123935,
+                    "persistentId": "",
+                    "filename": "ca_tracts.graphml",
+                    "contentType": "text/xml-graphml",
+                    "friendlyType": "GraphML Network Data",
+                    "filesize": 2704346,
+                    "storageIdentifier": "s3://dvn-cloud:1885fd07e04-51e2b913b63a",
+                    "rootDataFileId": -1,
+                    "md5": "6e551eb959bafa6a752238b8069a1a9c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6e551eb959bafa6a752238b8069a1a9c"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-05-27",
+                    "publicationDate": "2023-05-27",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "tx_tracts.graphml",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7123936,
+                    "persistentId": "",
+                    "filename": "tx_tracts.graphml",
+                    "contentType": "text/xml-graphml",
+                    "friendlyType": "GraphML Network Data",
+                    "filesize": 2025097,
+                    "storageIdentifier": "s3://dvn-cloud:1885fd07f2d-4e9cf6e66132",
+                    "rootDataFileId": -1,
+                    "md5": "e4ea53cf4905f7b98577481d6676223f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e4ea53cf4905f7b98577481d6676223f"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-05-27",
+                    "publicationDate": "2023-05-27",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "air_pollution_mortality.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7123932,
+                    "persistentId": "",
+                    "filename": "air_pollution_mortality.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 2149388,
+                    "storageIdentifier": "s3://dvn-cloud:1885fd07fca-bcab1c6468bf",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 2142888,
+                    "originalFileName": "air_pollution_mortality.csv",
+                    "UNF": "UNF:6:A/xklySq5nDpjvHW399b3g==",
+                    "rootDataFileId": -1,
+                    "md5": "17bf114865f792cd9fc23875978e55c2",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "17bf114865f792cd9fc23875978e55c2"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-05-27",
+                    "publicationDate": "2023-05-27",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"avg_tmax_jul\", {\"tmax_other\": [\"avg_tmax_jun\", \"avg_tmax_aug\", \"avg_tmax_sep\", \"avg_tmax_oct\"]}, \"avg_wnd_jul\", {\"avg_wnd_other\": [\"avg_wnd_jun\", \"avg_wnd_aug\", \"avg_wnd_sep\", \"avg_wnd_oct\"]}, \"POPULATION_2020\", {\"poverty\": [\"EP_POV150\", \"EP_UNEMP\", \"EP_UNINSUR\"]}, {\"age\": [\"EP_AGE65\", \"EP_AGE17\"]}, \"E_NOINT\"], \"outcome\": \"avg_smoke_pm_jun\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"climate_exposure_ca\", \"treatment\": \"avg_rhum_jun\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "climate_relhum_wfsmoke_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424923,
+                    "persistentId": "",
+                    "filename": "climate_relhum_wfsmoke_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 12585439,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"avg_tmax_jul\", {\"tmax_other\": [\"avg_tmax_jun\", \"avg_tmax_aug\", \"avg_tmax_sep\", \"avg_tmax_oct\"]}, \"avg_wnd_jul\", {\"avg_wnd_other\": [\"avg_wnd_jun\", \"avg_wnd_aug\", \"avg_wnd_sep\", \"avg_wnd_oct\"]}, \"POPULATION_2020\", {\"poverty\": [\"EP_POV150\", \"EP_UNEMP\", \"EP_UNINSUR\"]}, {\"age\": [\"EP_AGE65\", \"EP_AGE17\"]}, \"E_NOINT\"], \"outcome\": \"avg_smoke_pm_jun\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"climate_exposure_ca\", \"treatment\": \"avg_rhum_jun\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18acc5e51eb-ef498348bbba",
+                    "rootDataFileId": 7140139,
+                    "previousDataFileId": 7331304,
+                    "md5": "e85b9d04ac99f2b544348b8272dda134",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "e85b9d04ac99f2b544348b8272dda134"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-25",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "broadband_econ.parquet",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7359426,
+                    "persistentId": "",
+                    "filename": "broadband_econ.parquet",
+                    "contentType": "application/octet-stream",
+                    "friendlyType": "Unknown",
+                    "filesize": 5353000,
+                    "storageIdentifier": "s3://dvn-cloud:18a7356cde3-d878ec53b67d",
+                    "rootDataFileId": -1,
+                    "md5": "89227f3ce6e375bf7f6cd5da0724d089",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "89227f3ce6e375bf7f6cd5da0724d089"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-08",
+                    "publicationDate": "2023-09-08",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "label": "climate_exposure_ca_2020.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7140147,
+                    "persistentId": "",
+                    "filename": "climate_exposure_ca_2020.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 3669273,
+                    "storageIdentifier": "s3://dvn-cloud:1887ff31370-abd269ef5975",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 3669273,
+                    "originalFileName": "climate_exposure_ca_2020.csv",
+                    "UNF": "UNF:6:RBrnFykG3hHRJROLuDNhDQ==",
+                    "rootDataFileId": -1,
+                    "md5": "51f5165ec247869088a478b9391a5cf9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "51f5165ec247869088a478b9391a5cf9"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2023-06-03",
+                    "publicationDate": "2023-06-03",
+                    "fileAccessRequest": true
+                }
+            },
+            {
+                "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"qd_mean_pm25\", {\"race\": [\"cs_hispanic\", \"cs_black\", \"cs_white\", \"cs_native\", \"cs_asian\"]}, \"cs_other\", \"cs_population_density\", \"cdc_mean_bmi\", {\"smoking\": [\"cdc_pct_cusmoker\", \"cdc_pct_sdsmoker\", \"cdc_pct_fmsmoker\", \"cdc_pct_nvsmoker\", \"cdc_pct_nnsmoker\"]}, {\"temperature\": [\"gmet_mean_tmmn\", \"gmet_mean_summer_tmmn\", \"gmet_mean_winter_tmmn\", \"gmet_mean_tmmx\", \"gmet_mean_summer_tmmx\", \"gmet_mean_winter_tmmx\"]}, {\"relative_humidity\": [\"gmet_mean_rmn\", \"gmet_mean_summer_rmn\", \"gmet_mean_winter_rmn\", \"gmet_mean_rmx\", \"gmet_mean_summer_rmx\", \"gmet_mean_winter_rmx\"]}, {\"specific_humidity\": [\"gmet_mean_sph\", \"gmet_mean_summer_sph\", \"gmet_mean_winter_sph\"]}, {\"region\": [\"bin_NORTHEAST\", \"bin_SOUTH\", \"bin_WEST\"]}], \"outcome\": \"cdc_mortality_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"air_pollution_mortality_us\", \"treatment\": \"cs_household_income\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                "label": "healthd_hhinco_mortality_cont.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 425162,
+                "dataFile": {
+                    "id": 7424924,
+                    "persistentId": "",
+                    "filename": "healthd_hhinco_mortality_cont.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 4609479,
+                    "description": "\n        This is a synthetic dataset generated for the space project.\n\n        The dataset was generated using the following configuration:\n\n        {\"spaceenv\": {\"base_name\": \"${hydra:runtime.choices.spaceenv}\", \"covariates\": [\"qd_mean_pm25\", {\"race\": [\"cs_hispanic\", \"cs_black\", \"cs_white\", \"cs_native\", \"cs_asian\"]}, \"cs_other\", \"cs_population_density\", \"cdc_mean_bmi\", {\"smoking\": [\"cdc_pct_cusmoker\", \"cdc_pct_sdsmoker\", \"cdc_pct_fmsmoker\", \"cdc_pct_nvsmoker\", \"cdc_pct_nnsmoker\"]}, {\"temperature\": [\"gmet_mean_tmmn\", \"gmet_mean_summer_tmmn\", \"gmet_mean_winter_tmmn\", \"gmet_mean_tmmx\", \"gmet_mean_summer_tmmx\", \"gmet_mean_winter_tmmx\"]}, {\"relative_humidity\": [\"gmet_mean_rmn\", \"gmet_mean_summer_rmn\", \"gmet_mean_winter_rmn\", \"gmet_mean_rmx\", \"gmet_mean_summer_rmx\", \"gmet_mean_winter_rmx\"]}, {\"specific_humidity\": [\"gmet_mean_sph\", \"gmet_mean_summer_sph\", \"gmet_mean_winter_sph\"]}, {\"region\": [\"bin_NORTHEAST\", \"bin_SOUTH\", \"bin_WEST\"]}], \"outcome\": \"cdc_mortality_pct\", \"treament\": \"???\", \"index_col\": \"0\", \"treatment_max_bins\": \"100\", \"scaling\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"transforms\": {\"outcome\": \"null\", \"treatment\": \"null\", \"covariates\": \"null\"}, \"fill_missing_covariate_values\": \"true\", \"bsplines\": \"false\", \"bsplines_degree\": \"3\", \"bsplines_df\": \"5\", \"binary_treatment_iteractions\": \"true\", \"seed\": \"42\", \"autogluon\": {\"fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"leave_out_fit\": {\"presets\": \"good_quality\", \"time_limit\": \"900\"}, \"feat_importance\": {\"time_limit\": \"900\"}}, \"spatial_tuning\": {\"init_frac\": \"0.03\", \"levels\": \"1\", \"buffer\": \"1\"}, \"treatment_quantile_valid_range\": [\"0.025\", \"0.975\"], \"outcome_quantile_valid_range\": [\"0.01\", \"0.99\"], \"collection\": \"air_pollution_mortality_us\", \"treatment\": \"cs_household_income\"}, \"num_plot_samples\": \"50\", \"debug_subsample\": \"null\"}\n        ",
+                    "storageIdentifier": "s3://dvn-cloud:18acc5e7f9d-6994abfeadbd",
+                    "rootDataFileId": 7140141,
+                    "previousDataFileId": 7317978,
+                    "md5": "9480389e090f19b56d778d1a63235e1d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9480389e090f19b56d778d1a63235e1d"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2023-09-25",
+                    "publicationDate": "2023-09-26",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

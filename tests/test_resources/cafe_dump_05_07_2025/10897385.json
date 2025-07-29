@@ -1,0 +1,273 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443947,
+        "datasetId": 10897385,
+        "datasetPersistentId": "doi:10.17603/DS2-NM6Q-H553",
+        "storageIdentifier": "s3://10.17603/ds2-nm6q-h553",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2025",
+        "lastUpdateTime": "2025-05-06T23:14:16Z",
+        "releaseTime": "2025-05-05T12:13:54Z",
+        "createTime": "2025-05-06T23:14:16Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "ISROC-DB V1p0 in The Global Database for Coastal Boulder Deposits (ISROC-DB) from Inundation Signature on Rocky Coastlines (ISROC)"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-5756"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kennedy, Andrew"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Cox, Ronadh"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Engel, Max"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Speyrer, Emma"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lau, Annie"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mori, Nobuhito"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berke, Melissa"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "With The Global Database for Coastal Boulder Deposits (ISROC-DB) - V1p0, ISROC hopes to promote standardization of research pertaining to coastal boulder deposits. Coastal boulder deposits are created and transported by waves on various coastlines around the world. This field is important to coastal engineering, geology, natural hazards and etc. All of the data in ISROC-DB was gathered through field work by different researchers and projects. Making this data open source allows more researchers to use the data for trendmaking and data anaylsis. The categories in this mission contain a combined version of all the individual datasets, data standards, and descriptions."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The Global Database for Coastal Boulder Deposits (ISROC-DB) is a collection of datasets created from current and past literature on coastal boulder deposits. Coastal boulder deposits are boulders detached from bedrock platforms and transported by high-energy waves, like storm and tsunami waves. These deposits help us understand the prehistoric, historical, and present coastal hazards and their effects on rocky coastlines. Each dataset is an individual project that examines different boulder sites worldwide. ISROC-DB aims to promote the standardization of methodologies and data presentation of coastal boulder deposits. This project has three primary documents: ISROC-DB_Consolidated_Global_Database_V1p0, the ISROC-DB_Dataset_Descriptions_and_Citations_V1p0, and ISROC-DB_Data_Standards_Explanatory_Notes_V1p0. The Consolidated Database consists of 6,427 lines of concatenated individual datasets compiled into one Excel file. The dataset name column helps differentiate between each dataset; the name includes the first and second authors' names and the name of the country where the study took place. Each dataset was formatted individually in the ISROC-formatted Excel to ensure consistency throughout the Consolidated Database. The Description is an Excel file with all the literature included in ISROC-DB. Each row describes a different study with the dataset name, the paper name, the first author\u2019s name, the keywords from the literature, a general description of the literature, and a full reference. The full reference is in Harvard format. Given that the DesignSafe project DOI will not include the literature authors\u2019 names, the complete reference allows us to acknowledge their works. The description and citation table aims to help the user maneuver through the various datasets included in the consolidated database and quickly determine which datasets are applicable to their research. Lastly, the explanatory notes are a Word document containing a data dictionary explaining data parameters and appropriate units. All the datasets follow the definitions and parameters in the explanatory notes. Appropriate units are given to promote unit standardization in the field. Not all datasets have entries for each data parameter; a vacant entry is denoted by \u201c-9999.\u201d The Inundation Signature on Rocky Coastlines (ISROC) research network, an NSF-funded group, heads and funds ISROC-DB."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Coastal Boulder Deposits (CBDs)"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Storm Waves"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tsunamis"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kyoto University"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The University of Queensland"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Notre Dame (nd.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Williams College (williams.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Heidelberg University (uni-heidelberg.de)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

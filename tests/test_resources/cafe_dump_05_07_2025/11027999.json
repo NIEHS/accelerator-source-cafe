@@ -1,0 +1,282 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 440942,
+        "datasetId": 11027999,
+        "datasetPersistentId": "doi:10.7910/DVN/U7WVNO",
+        "storageIdentifier": "s3xxxxl://10.7910/DVN/U7WVNO",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "lastUpdateTime": "2025-04-01T14:59:55Z",
+        "releaseTime": "2025-04-01T14:59:55Z",
+        "createTime": "2025-03-24T23:23:34Z",
+        "publicationDate": "2025-04-01",
+        "citationDate": "2025-04-01",
+        "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Extracted Data From: CDC Asthma Data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "U.S. Centers for Disease Control and Prevention"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CAFE"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "climatecafe@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information \n\n<blockquote>\"These tables present the latest national and state statistics on the burden of asthma among children and adults, using data from CDC national and state surveillance systems.\"</blockquote>\u201c [Quote from https://www.cdc.gov/asthma-data/about/most-recent-asthma-data.html] \n<blockquote>\"Asthma surveillance data includes collection and analyses of asthma data at both the national and the state level. National data is available on asthma morbidity, emergency department visits, hospitalizations due to asthma, and asthma mortality.\"</blockquote> [Quote from https://www.cdc.gov/asthma-data/about/index.html]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Asthma"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate Change and Human Health Glossary"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://web.archive.org/web/20231109215108/https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.\n\nCDC Asthma Data data was downloaded by Amelia Jaycen on 03/21/25."
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Jaycen, Amelia"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-24"
+                    },
+                    {
+                        "typeName": "timePeriodCovered",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "timePeriodCoveredStart": {
+                                    "typeName": "timePeriodCoveredStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1960-01-01"
+                                },
+                                "timePeriodCoveredEnd": {
+                                    "typeName": "timePeriodCoveredEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2020-12-31"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Extracted Data"
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Yes"
+                    },
+                    {
+                        "typeName": "cafeSourceDataTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "CDC Asthma Data"
+                    },
+                    {
+                        "typeName": "cafeSourceDataAuthor",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "U.S. Centers for Disease Control and Prevention"
+                        ]
+                    },
+                    {
+                        "typeName": "cafeSourceDataInstitution",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "U.S. Centers for Disease Control and Prevention"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDOIOrURL",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "https://www.cdc.gov/asthma-data/about/most-recent-asthma-data.html"
+                    },
+                    {
+                        "typeName": "cafeSourceDataDateObtained",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-03-21"
+                    },
+                    {
+                        "typeName": "cafeSourceDataType",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "Survey data"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "AdditionalMetadataAboutDataset": {
+                "displayName": "Additional Metadata About Dataset",
+                "name": "AdditionalMetadataAboutDataset",
+                "fields": [
+                    {
+                        "typeName": "cafeDatasetTerms",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Asthma"
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "\"These tables present the latest national and state statistics on the burden of asthma among children and adults, using data from CDC national and state surveillance systems.\" [Quote from https://www.cdc.gov/asthma-data/about/most-recent-asthma-data.html] \n\n\"Asthma surveillance data includes collection and analyses of asthma data at both the national and the state level. National data is available on asthma morbidity, emergency department visits, hospitalizations due to asthma, and asthma mortality.\" [Quote from https://www.cdc.gov/asthma-data/about/index.html]",
+                "label": "CDC ASTHMA DATA.zip",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 440942,
+                "dataFile": {
+                    "id": 11028000,
+                    "persistentId": "",
+                    "filename": "CDC ASTHMA DATA.zip",
+                    "contentType": "application/zip",
+                    "friendlyType": "ZIP Archive",
+                    "filesize": 58303486,
+                    "description": "\"These tables present the latest national and state statistics on the burden of asthma among children and adults, using data from CDC national and state surveillance systems.\" [Quote from https://www.cdc.gov/asthma-data/about/most-recent-asthma-data.html] \n\n\"Asthma surveillance data includes collection and analyses of asthma data at both the national and the state level. National data is available on asthma morbidity, emergency department visits, hospitalizations due to asthma, and asthma mortality.\" [Quote from https://www.cdc.gov/asthma-data/about/index.html]",
+                    "storageIdentifier": "s3xxxxl://dvn-cloud:195ca765bd0-c64b0d8d92e1",
+                    "rootDataFileId": -1,
+                    "md5": "0f71b8be715f60c9619831b694542fc6",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0f71b8be715f60c9619831b694542fc6"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2025-03-24",
+                    "publicationDate": "2025-04-01",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}

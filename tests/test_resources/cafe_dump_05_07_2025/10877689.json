@@ -1,0 +1,289 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 443924,
+        "datasetId": 10877689,
+        "datasetPersistentId": "doi:10.17603/DS2-ETQP-J708",
+        "storageIdentifier": "s3://10.17603/ds2-etqp-j708",
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "productionDate": "2024",
+        "lastUpdateTime": "2025-05-06T23:08:16Z",
+        "releaseTime": "2025-05-05T12:14:15Z",
+        "createTime": "2025-05-06T23:08:16Z",
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Detailed 3D point cloud data at Tumwata Village in Oregon City, OR (2021-2022) in RAPID: Data Collection at Tumwata Village (formerly known as Blue Heron Paper Mill)"
+                    },
+                    {
+                        "typeName": "otherId",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "otherIdValue": {
+                                    "typeName": "otherIdValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "project id:PRJ-3668"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Che, Erzhuo"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Abiola, David"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Olsen, Michael"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Simpson, Chase"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Saccente, Alexandra"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fischer, Erica"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "RAPID, NHERI"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Berman, Jeffrey"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bailey, Mike"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "N/A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This Grant for Rapid Response Research (RAPID) project will collect and analyze perishable data on historical buildings. The Tumwata Village (formerly known as Blue Heron Paper Mill Site) located by the Willamette Falls in Oregon City, Oregon, has a very intriguing history and was recently purchased by the Confederated Tribes of Grand Ronde with the intent to restore the falls to their natural state and preserve some of the oldest structures. The site presents a unique opportunity to perform rapid investigations to collect and analyze perishable data on these historical buildings and develop new knowledge in the area of building assessments in corrosive environments. This industrial site contains a wide range of structure types (steel frames, concrete frames, timber frames, masonry walls and massive concrete walls) that were built over a period of 150 years and that employ many construction details that are common in older structures. The data collected and the results of the research will be applicable to many buildings in coastal communities throughout the country.  Lidar data sets collected from these buildings will support the development of new methods to analyze and synthesize large data sets as well as integrate visual observations and material testing to quantify structural deterioration damages. The challenge in developing artificial intelligence (AI) technologies to find and quantify damage in structural systems using lidar data is the need to train the methods on existing data sets that show a wide range of damage states. The data to be collected from this site will provide an extensive training data set relevant to structural components common to older buildings. Development of such AI technologies for fast identification and quantification of damage would be transformative for the natural hazards research community and would expand the ability to learn from archived lidar datasets. The collected dataset will be available to researchers to serve as high quality training data in algorithm development."
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The data was collected for documenting Tumwata Village, formally known as Blue Heron Papermill, a historic site by the Willamette Falls in Oregon City, OR. The site is owned by the Confederated Tribes of Grand Ronde Community of Oregon and currently under demolition as an attempt to restore its ecological state. This dataset captured the entire site including both exterior and interior with a wide variety of equipment including Terrestrial Laser Scanners (e.g., Leica ScanStation P50, Leica RTC360), Uncrewed Aircraft Systems (UAS) (e.g., DJI Phantom 4 Pro, DJI M300 with P1 and L1), as well as single beam sonar collecting hydrographic data in the Willamette River. All the data was rigorously geo-referenced against a control network established across the site with GNSS and total stations. One of the objectives of such data collection was to support research focusing on analysis of the structures under corrosive environments leveraging 3D reality capture technics. The data has also been used for other engineering and construction research and archaeological studies."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Lidar"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Cultural Heritage"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "3D Modeling"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Seismic Analysis"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Finite Element Method"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024"
+                    },
+                    {
+                        "typeName": "contributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Oregon State University (oregonstate.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Washington (washington.edu)"
+                                }
+                            },
+                            {
+                                "contributorName": {
+                                    "typeName": "contributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Oregon State University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Designsafe-CI"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Dataset",
+                            "Mission/Oregon City, OR"
+                        ]
+                    }
+                ]
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": []
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": []
+            }
+        },
+        "files": []
+    }
+}

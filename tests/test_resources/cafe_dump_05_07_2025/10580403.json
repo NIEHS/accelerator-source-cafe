@@ -1,0 +1,452 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 432384,
+        "datasetId": 10580403,
+        "datasetPersistentId": "doi:10.7910/DVN/3C0C7P",
+        "storageIdentifier": "s3mit://10.7910/DVN/3C0C7P",
+        "versionNumber": 1,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:BNzx2uxSfYVxch/VfGZhrg==",
+        "lastUpdateTime": "2024-12-17T20:38:29Z",
+        "releaseTime": "2024-12-17T20:38:29Z",
+        "createTime": "2024-12-05T15:03:27Z",
+        "publicationDate": "2024-10-21",
+        "citationDate": "2024-10-21",
+        "license": {
+            "name": "CC BY-SA 4.0",
+            "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Climate and Health Data Survey Instrument"
+                    },
+                    {
+                        "typeName": "subtitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "A survey instrument/questionnaire concerning climate and health data"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gause, Emma"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-1484-5296"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Keith Spangler"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Joshua S. Cetron"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Michelle Audirac"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zachary Popp"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Julie Goldman"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Danielle Braun"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harvard University"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Kevin Lane"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gause, Emma"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Boston University"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "egause@bu.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This entry contains the survey instrument used to survey the climate change and health (CCH) community of practice by the CAF\u00c9 coordinating center (U24ES035309). Participants were asked questions related to common climate change and health data sources, barriers to use and share data, and the unmet software and data needs of the CCH community. This entry is just the survey instrument and questionnaire - it does NOT contain any survey response data."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-10-02"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Earth and Environmental Sciences",
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Climate and Health Epidemiology"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://tools.niehs.nih.gov/cchhglossary/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Survey instrument"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Questionnaire"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "The survey questionnaire was developed internally by the CAFE team."
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gause, Emma"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-10-02"
+                    },
+                    {
+                        "typeName": "dateOfCollection",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dateOfCollectionStart": {
+                                    "typeName": "dateOfCollectionStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-03-18"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "Survey instrument"
+                        ]
+                    },
+                    {
+                        "typeName": "software",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "softwareName": {
+                                    "typeName": "softwareName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "REDCap"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": []
+            },
+            "customCAFEDataSources": {
+                "displayName": "Metadata About Data Sources",
+                "name": "customCAFEDataSources",
+                "fields": [
+                    {
+                        "typeName": "cafeDerivedFromExistingDataset",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            },
+            "customCAFEDataLocation": {
+                "displayName": "Metadata About Geospatial Files",
+                "name": "customCAFEDataLocation",
+                "fields": [
+                    {
+                        "typeName": "cafeIncludesGeospatialFile",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "No"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Codebook containing information on variable stems, question text, response codes, response validation, and branching logic. ",
+                "label": "CAFE Data Survey for the COP_Codebook.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 432384,
+                "dataFile": {
+                    "id": 10580405,
+                    "persistentId": "",
+                    "filename": "CAFE Data Survey for the COP_Codebook.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 830500,
+                    "description": "Codebook containing information on variable stems, question text, response codes, response validation, and branching logic. ",
+                    "storageIdentifier": "s3mit://dvn-cloud:1924ee9369f-7295bff62062",
+                    "rootDataFileId": -1,
+                    "md5": "1915fc30cdbb48386f7eda39d9316aa7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "1915fc30cdbb48386f7eda39d9316aa7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-10-02",
+                    "publicationDate": "2024-10-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Paper version of the survey for reference (survey was deployed entirely online using REDCap software and emailed to participants). ",
+                "label": "CAFDataSurveyForCOP_Paper.pdf",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 432384,
+                "dataFile": {
+                    "id": 10580404,
+                    "persistentId": "",
+                    "filename": "CAFDataSurveyForCOP_Paper.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 77140,
+                    "description": "Paper version of the survey for reference (survey was deployed entirely online using REDCap software and emailed to participants). ",
+                    "storageIdentifier": "s3mit://dvn-cloud:1924ee934ce-ef5b2f4c47c5",
+                    "rootDataFileId": -1,
+                    "md5": "5c420c950b47c5442acfc5d50bc82ba7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5c420c950b47c5442acfc5d50bc82ba7"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-10-02",
+                    "publicationDate": "2024-10-21",
+                    "fileAccessRequest": false
+                }
+            },
+            {
+                "description": "Data Dictionary containing information on question text, response options, response validation, and branching logic. ",
+                "label": "CAFEDataSurveyForTheCOP_DataDictionary.tab",
+                "restricted": false,
+                "version": 1,
+                "datasetVersionId": 432384,
+                "dataFile": {
+                    "id": 10580406,
+                    "persistentId": "",
+                    "filename": "CAFEDataSurveyForTheCOP_DataDictionary.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 25076,
+                    "description": "Data Dictionary containing information on question text, response options, response validation, and branching logic. ",
+                    "storageIdentifier": "s3mit://dvn-cloud:1924ee93841-34889f448e03",
+                    "originalFileFormat": "text/comma-separated-values",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "originalFileSize": 23754,
+                    "originalFileName": "CAFEDataSurveyForTheCOP_DataDictionary.csv",
+                    "UNF": "UNF:6:BNzx2uxSfYVxch/VfGZhrg==",
+                    "rootDataFileId": -1,
+                    "md5": "2458372b468de19f6bda0045f2c69cc5",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2458372b468de19f6bda0045f2c69cc5"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-10-02",
+                    "publicationDate": "2024-10-21",
+                    "fileAccessRequest": false
+                }
+            }
+        ]
+    }
+}
