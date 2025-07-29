@@ -174,3 +174,12 @@ cython_debug/
 tests/test_resources/data*
 tests/test_resources/*.properties
 *.xlsx
+
+
+
+.idea
+.DS_Store
+
+
+# ignore generated files
+tests/test_resources
