@@ -1,9 +1,10 @@
 import requests
-import logging
 import uuid
 import json
 import os
 
+from accelerator_core.utils.logger import setup_logger
+from accelerator_core.utils.xcom_utils import XcomPropsResolver
 from accelerator_source_cafe.cafe_config import CafeConfig
 from accelerator_core.workflow.accel_source_ingest import AccelIngestComponent
 from accelerator_core.workflow.accel_source_ingest import IngestSourceDescriptor
@@ -12,21 +13,31 @@ from accelerator_core.workflow.accel_source_ingest import (
     IngestPayload,
 )
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(asctime)s: %(filename)s:%(funcName)s:%(lineno)d: %(message)s"
+logger = setup_logger("accelerator")
 
-)
-logger = logging.getLogger(__name__)
+class CedarAccelParameters():
 
+    def __init__(self, accel_params):
+        self.accel_params = accel_params
 
 class CafeAccelSource(AccelIngestComponent):
     """
     A subclass of AccelIngestComponent that implements the ingest process for Data.gov
     """
 
-    def __init__(self, ingest_source_descriptor: IngestSourceDescriptor):
-        super().__init__(ingest_source_descriptor)
+    def __init__(self, ingest_source_descriptor: IngestSourceDescriptor, xcom_props_resolver:XcomPropsResolver):
+        super().__init__(ingest_source_descriptor, xcom_props_resolver)
+
+
+    def ingest_single(self, identifier:str, additional_parameters: dict) -> IngestPayload:
+        """
+        Ingest a single document based on its CAFE ID.
+
+        :param identifier: CAFE document identifier
+        :param additional_parameters: Additional parameters for this ingest component
+        """
+        pass
+
 
     def ingest(self, additional_parameters: dict) -> IngestPayload:
         """
